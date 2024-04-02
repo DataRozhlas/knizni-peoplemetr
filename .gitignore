@@ -1,3 +1,9 @@
+downloads/
+.ipynb_checkpoints/
+data_raw/
+martinus_vyjde.json
+martinus_vyslo.json
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
