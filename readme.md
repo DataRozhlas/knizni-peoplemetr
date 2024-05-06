@@ -14,7 +14,7 @@ Todo:
 
 - Scrapovat z Goodreads i počty jednotlivých hvězdičkových hodnocení (ratingsCountDist).
 
-- Scrapovat z Goodreads i cifru "added" (není v HTML, rvou to tam nějakým JS, bude nutné Selenium něco podobného).
+- Scrapovat z Goodreads i cifru "added" (není v HTML, rvou to tam nějakým JS, bude nutné Selenium).
 
 - Napojit další zdroje dat:
 
