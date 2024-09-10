@@ -1,0 +1,36 @@
+Log kniního peoplemetru z 2024-09-10 12:35:09
+==============================================
+MARTINUS_VYSLO.JSON:
+    - autorstva: 7018
+    - titulù: 11171
+    - ISBN: 11041
+GOODREADS-HODNOCENI.CSV
+GR_date
+2024-09-15    732
+2024-09-08    728
+2024-09-01    720
+Freq: -1W-SUN, Name: GR_isbn, dtype: int64
+Novinky 2024-09-08
+- Indie: Královna z Dhánsí by Veronika Válková
+- Základy moderní Evropy: lekce z kulturní historie by Jiøí Hanuš
+- Panovníci zemí èeskıch by Petr Dvoøáèek
+- Promrhaná nìha by Jan Šimek
+- Zpovìï stárnoucí trosky, která má psa by Eva Michorová
+- Otilie Vranská by Radek Galaš
+DATABAZEKNIH-HODNOCENI.CSV
+DK_date
+2024-09-15    1480
+2024-09-08    1471
+2024-09-01    1459
+Freq: -1W-SUN, Name: DK_isbn, dtype: int64
+Novinky 2024-09-08
+- Kouzlo desistence: Jak se napravují pachatelé v Èechách
+- Automobily: Jména, znaèky a znaky
+- Pøíbìhy spojené s objevy novıch léèiv
+- Vıklad reliéfù pekaøství Poilâne
+- Zmizelá místa: Zaniklé obce a osady v Èechách a na Moravì
+- Posázavská dráha Praha–Èerèany–Kácov s odboèkami do Dobøíše a Kolína
+- Prokletı Modigliani
+- Zlomená peèe
+- Nanebevzetí doktora Fausta
+- Kníe Bruncvík a lev
