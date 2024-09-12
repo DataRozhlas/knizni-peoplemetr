@@ -14,13 +14,15 @@ import pandas as pd
 
 slozky = [item.split(".")[0] for item in os.listdir("data_raw/martinus_linky")]
 
-slozky
+try:
 
-smazat = pd.read_json(os.path.join("data_raw","smazat.json"))
+    smazat = pd.read_json(os.path.join("data_raw","smazat.json"))
 
-smazat = smazat['soubor'].to_list()
+    smazat = smazat['soubor'].to_list()
 
-smazat
+except:
+
+    smazat = []
 
 def prosekej(x):
 
@@ -42,8 +44,6 @@ for s in slozky:
 
     kam_stahovat = f'downloads/martinus/{s}'
 
-    print(kam_stahovat)
-
     if not os.path.exists(kam_stahovat):
 
         os.makedirs(kam_stahovat)
@@ -56,13 +56,13 @@ for s in slozky:
 
             os.remove(file_path)
 
-            print(f"Smazáno: {filename}")
-
     stazene = os.listdir(kam_stahovat)
 
     with open(os.path.join("data_raw/martinus_linky",f'{s}.txt')) as linky:
 
         linky = [l.strip() for l in linky.readlines()]
+
+        print(f"Staženo {len(stazene)} knih, {len(linky) - len(stazene)} zbývá ke stáhnutí.")
 
         for l in linky:
 
@@ -94,5 +94,6 @@ for s in slozky:
 
             else:
 
-                print(f"Už staženo {nazev_souboru}")
+                pass
 
+                # print(f"Už staženo {nazev_souboru}")

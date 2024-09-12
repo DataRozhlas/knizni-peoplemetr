@@ -1,25 +1,19 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
-
-
 import os
 import time
 import datetime
+import json
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
 
 
-# In[2]:
+with open(os.path.join("data_raw", "sledovat.json"), "r") as json_file:
+    isbns = json.load(json_file)
 
-
-isbns = pd.read_json(os.path.join('data','sledovat.json'), dtype={'M_isbn':str})['M_isbn'].drop_duplicates().to_list()
 print(f"Položek ke stažení: {len(isbns)}")
-
-
-# In[3]:
 
 
 def scrape_dk(isbn):
@@ -70,29 +64,14 @@ def scrape_dk(isbn):
     return kniha
 
 
-# In[4]:
-
-
 scrape_dk('978-80-257-0493-6')
-
-
-# In[5]:
-
 
 current_date = datetime.datetime.now()
 date_string = current_date.strftime("%Y_%m_%d")
 print(date_string)
 
-
-# In[6]:
-
-
 if not os.path.exists(f'data_raw/databazeknih/{date_string}'):
     os.makedirs(f'data_raw/databazeknih/{date_string}')
-
-
-# In[7]:
-
 
 dknih = []
 count = 0
@@ -103,4 +82,3 @@ for i in isbns:
         pd.DataFrame(dknih).to_json(os.path.join(f'data_raw/databazeknih/{date_string}',f'databazeknih_{date_string}_{(int(count/20)):04d}.json'))
         print(f'databazeknih_{date_string}_{(int(count/20)):04d}.json')
         dknih = []
-

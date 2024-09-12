@@ -4,11 +4,13 @@ Současná pipeline: novinky z Martinusu → CSV (momentálně v ```.gitignore``
 
 Todo:
 
-- Scrapovat toho z knihkupectví víc: ukázky e-booků, info o bestsellerech, čtenářské hodnocení.
+- Scrapovat toho z knihkupectví víc:
 
-- Zlepšit filtrování novinek pro sledování.
+    - ukázky e-booků
+    - info o bestsellerech
+    - čtenářské hodnocení
 
-- Pokusit se získat informace o přesných datech vydání. Něco je na Goodreads, ne moc spolehlivé. Pro nové knihy: kdy se poprvé změnilo předpokládané datum vydání na vyšlo.
+- Pokusit se získat informace o přesných datech vydání. Něco je na Goodreads, ne moc spolehlivé. Pro nové knihy: kdy se poprvé změnilo předpokládané datum vydání na vyšlo? 
 
 - Poziční válka s antiscrapovacími opatřeními Goodreads: další kolo je evidovat odmítnuté požadavky, zkusit je stáhnout ještě jednou.
 
@@ -21,5 +23,3 @@ Todo:
     - [Národní knihovna](https://text.nkp.cz/o-knihovne/odborne-cinnosti/otevrena-data) pro info o knihách.
     - Městské knihovny pro info o rozpůjčovanosti (zřejmě však příliš mnoho bandwidthu pro málo zajímavostí).
     - Wikidata pro biografické údaje o autorstvu.
-
-- Dashboard s trendy.

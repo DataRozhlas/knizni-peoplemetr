@@ -8,9 +8,23 @@ from bs4 import BeautifulSoup
 
 import pandas as pd
 
-slozky = [item for item in os.listdir("downloads/martinus")]
+try:
 
-slozky
+    raw = pd.read_csv(os.path.join('data_raw','martinus_raw.csv'))
+    oscrapovane = raw['M_soubor'].to_list()
+    oscrapovane = [o for o in oscrapovane if isinstance(o, str)]
+    print(f"""Ok načteno martinus_raw.csv. {len(oscrapovane)} knih již oscrapováno.
+Ukázka: {', '.join(oscrapovane[0:10])}
+""")
+
+except Exception as E:
+
+    print(E)
+
+    raw = pd.DataFrame()
+    oscrapovane = []
+
+slozky = [item for item in os.listdir("downloads/martinus")]
 
 def scrape_martinus(stranka):
 
@@ -43,6 +57,11 @@ def scrape_martinus(stranka):
     except:
 
         kniha['M_autorstvo'] = soup.find(class_='product-detail__author').text.strip()
+
+    kniha['M_ebook'] = False
+    for a in soup.find(class_='shell-detail__formats').find_all('a'):
+        if '/e-kniha' in a['href']:
+            kniha['M_ebook'] = a['href']
 
     kniha['M_anotace'] = soup.find(class_='cms-article').text.strip()
 
@@ -94,25 +113,25 @@ for s in slozky:
 
     for i in os.listdir(odkud_brat):
 
-        print(i)
+        if i not in oscrapovane:
 
-        with open(os.path.join(odkud_brat, i), "r", encoding="utf-8") as page:
+            print(f"Scrapuji {i}")
 
-            page = page.read()
+            with open(os.path.join(odkud_brat, i), "r", encoding="utf-8") as page:
 
-            kniha = scrape_martinus(page)
+                page = page.read()
 
-        ## kniha['kategorie_martinus'] = s
+                kniha = scrape_martinus(page)
+                
+            ## kniha['kategorie_martinus'] = s
 
-        kniha['soubor'] = i
+            kniha['M_soubor'] = i
 
-        knihy.append(kniha)
+            knihy.append(kniha)
 
 df = pd.DataFrame(knihy)
 
-df.columns
-
-df
+df = pd.concat([df, raw])
 
 df.to_csv(os.path.join('data_raw','martinus_raw.csv'), index=False, encoding="utf-8", header=True)
 
