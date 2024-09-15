@@ -19,7 +19,7 @@ with open(os.path.join('logs', log_file_name), 'w') as f:
 
     df = pd.read_json(os.path.join('data','martinus_vyslo.json'))
     log_string = f"""MARTINUS_VYSLO.JSON:
-    - autorstva: {df['M_autorstvo'].nunique()}
+    - autorstva: {df.explode('M_autorstvo')['M_autorstvo'].nunique()}
     - titulů: {df['M_titul'].nunique()}
     - ISBN: {df['M_isbn'].nunique()}"""
     f.write(log_string)

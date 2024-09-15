@@ -1,6 +1,6 @@
 Dlouhodobé sledování české knižní produkce. Časem posbíraná data napoví věci, např. do jakých období směrují nakladatelství novinky, která předvánoční anketa knihám pomáhá nejvíc, jak se liší popisy knih psanými muži a ženami atd.
 
-Současná pipeline: novinky z Martinusu → CSV (momentálně v ```.gitignore```) → ISBNs nepřekladových knih vydaných v letech 2023 a 2024 periodicky do Goodreads a Databáze knih → CSV (ve složce ```data```).
+Současná pipeline: novinky z Martinusu → CSV (momentálně v ```.gitignore```) → ISBNs nepřekladových knih vydaných v letech 2023 a 2024 periodicky do Goodreads a Databáze knih → JSON (ve složce ```data```).
 
 Todo:
 
@@ -9,6 +9,7 @@ Todo:
     - ukázky e-booků
     - info o bestsellerech
     - čtenářské hodnocení
+    - obálky
 
 - Pokusit se získat informace o přesných datech vydání. Něco je na Goodreads, ne moc spolehlivé. Pro nové knihy: kdy se poprvé změnilo předpokládané datum vydání na vyšlo? 
 

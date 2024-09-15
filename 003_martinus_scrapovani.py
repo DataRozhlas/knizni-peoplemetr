@@ -10,12 +10,14 @@ import pandas as pd
 
 try:
 
-    raw = pd.read_csv(os.path.join('data_raw','martinus_raw.csv'))
-    oscrapovane = raw['M_soubor'].to_list()
+    raw = pd.read_json(os.path.join("data_raw", "martinus_raw.json"))
+    oscrapovane = raw["M_soubor"].to_list()
     oscrapovane = [o for o in oscrapovane if isinstance(o, str)]
-    print(f"""Ok načteno martinus_raw.csv. {len(oscrapovane)} knih již oscrapováno.
+    print(
+        f"""Ok načteno martinus_raw.csv. {len(oscrapovane)} knih již oscrapováno.
 Ukázka: {', '.join(oscrapovane[0:10])}
-""")
+"""
+    )
 
 except Exception as E:
 
@@ -26,6 +28,7 @@ except Exception as E:
 
 slozky = [item for item in os.listdir("downloads/martinus")]
 
+
 def scrape_martinus(stranka):
 
     kniha = {}
@@ -34,82 +37,112 @@ def scrape_martinus(stranka):
 
     try:
 
-        kniha['M_titul'] = soup.find('h1').text.strip()
+        kniha["M_titul"] = soup.find("h1").text.strip()
 
     except:
 
         return {}
 
-    if soup.find('h1').find('a'):
+    if soup.find("h1").find("a"):
 
-        for odkaz in soup.find('h1').find_all('a'):
+        for odkaz in soup.find("h1").find_all("a"):
 
-            kniha['M_titul'] = kniha['M_titul'].replace(odkaz.text,'').strip()
+            kniha["M_titul"] = kniha["M_titul"].replace(odkaz.text, "").strip()
 
-    try:    
+    try:
 
-        kniha['M_autorstvo'] = [odkaz.text.strip() for odkaz in soup.find(id='author').find_all('a') if odkaz.text.strip() != 'Číst víc']
-
-        if len(kniha['M_autorstvo']) == 1:
-
-            kniha['M_autorstvo'] = kniha['M_autorstvo'][0]
+        kniha["M_autorstvo"] = [
+            odkaz.text.strip()
+            for odkaz in soup.find(class_="product-detail__author").find_all("a")
+            if odkaz.text.strip() != "Číst víc"
+        ]
 
     except:
 
-        kniha['M_autorstvo'] = soup.find(class_='product-detail__author').text.strip()
+        kniha["M_autorstvo"] = soup.find(class_="product-detail__author").text.strip()
 
-    kniha['M_ebook'] = False
-    for a in soup.find(class_='shell-detail__formats').find_all('a'):
-        if '/e-kniha' in a['href']:
-            kniha['M_ebook'] = a['href']
+    kniha["M_anotace"] = soup.find(class_="cms-article").text.strip()
 
-    kniha['M_anotace'] = soup.find(class_='cms-article').text.strip()
+    if soup.find("h4", class_="product-detail__subtitle"):
+        kniha["M_podtitul"] = soup.find(
+            "h4", class_="product-detail__subtitle"
+        ).text.strip()
 
-    detaily = soup.find(id='details')
+    if soup.find(attrs={"data-datalayer-action-value": "topic_tags"}):
+        kniha["M_tagy"] = [
+            tag.text.strip().replace("#", "")
+            for tag in soup.find_all(
+                attrs={"data-datalayer-action-value": "topic_tags"}
+            )
+        ]
 
-    for detail in detaily.find_all('dl'):
+    detaily = soup.find(id="details")
 
-        if "série" in detail.find('dt').text.lower():
+    for detail in detaily.find_all("dl"):
 
-            kniha['M_série'] = detail.find('dd').text.strip()
+        if "série" in detail.find("dt").text.lower():
 
-            kniha['M_díl'] = re.search("\d*", detail.find('dt').text).group(0)
+            kniha["M_série"] = detail.find("dd").text.strip()
+
+            kniha["M_díl"] = re.search("\d*", detail.find("dt").text).group(0)
 
         else:
 
-            if detail.find('a'):
+            if detail.find("a"):
 
-                kniha[f"""M_{detail.find('dt').text.strip().replace(" ","_").lower()}"""] = [odkaz.text.strip() for odkaz in detail.find_all('a')]
+                kniha[
+                    f"""M_{detail.find('dt').text.strip().replace(" ","_").lower()}"""
+                ] = [odkaz.text.strip() for odkaz in detail.find_all("a")]
 
-                if len(kniha[f"""M_{detail.find('dt').text.strip().replace(" ","_").lower()}"""]) == 1:
+                if (
+                    len(
+                        kniha[
+                            f"""M_{detail.find('dt').text.strip().replace(" ","_").lower()}"""
+                        ]
+                    )
+                    == 1
+                ):
 
-                    kniha[f"""M_{detail.find('dt').text.strip().replace(" ","_").lower()}"""] = kniha[f"""M_{detail.find('dt').text.strip().replace(" ","_").lower()}"""][0]
+                    kniha[
+                        f"""M_{detail.find('dt').text.strip().replace(" ","_").lower()}"""
+                    ] = kniha[
+                        f"""M_{detail.find('dt').text.strip().replace(" ","_").lower()}"""
+                    ][
+                        0
+                    ]
 
             else:
 
-                kniha[f"""M_{detail.find('dt').text.strip().replace(" ","_").lower()}"""] = detail.find('dd').text.strip()
+                kniha[
+                    f"""M_{detail.find('dt').text.strip().replace(" ","_").lower()}"""
+                ] = detail.find("dd").text.strip()
 
-    kniha['M_cena'] = soup.find(class_='header__book').find('h3').text.strip()
+    kniha["M_cena"] = soup.find(class_="header__book").find("h3").text.strip()
 
-    kniha['M_datum'] = stranka.splitlines()[-2].split(' ')[1] + ' ' + stranka.splitlines()[-2].split(' ')[2]
+    kniha["M_obálka"] = soup.find("meta", attrs={"property": "og:image"})["content"]
 
-    flexy = soup.find_all(class_='flex-column')
+    kniha["M_ebook"] = False
+    kniha["M_audiokniha"] = False
+    for a in soup.find(class_="shell-detail__formats").find_all("a"):
+        if "/e-kniha" in a["href"]:
+            kniha["M_ebook"] = a["href"]
+        if "/audiokniha" in a["href"]:
+            kniha["M_audiokniha"] = a["href"]
 
-    for f in flexy:
-
-        if f.find('h6'):
-
-            if f.find('h6').text.strip() != 'Kniha':
-
-                kniha[f"""M_{f.find('h6').text.strip().lower()}"""] = f.find('span').text.strip()
+    kniha["M_datum"] = (
+        stranka.splitlines()[-2].split(" ")[1]
+        + " "
+        + stranka.splitlines()[-2].split(" ")[2]
+    )
 
     return kniha
+
 
 knihy = []
 
 for s in slozky:
 
-    odkud_brat = f'downloads/martinus/{s}'
+    odkud_brat = f"downloads/martinus/{s}"
 
     for i in os.listdir(odkud_brat):
 
@@ -122,10 +155,10 @@ for s in slozky:
                 page = page.read()
 
                 kniha = scrape_martinus(page)
-                
+
             ## kniha['kategorie_martinus'] = s
 
-            kniha['M_soubor'] = i
+            kniha["M_soubor"] = i
 
             knihy.append(kniha)
 
@@ -133,5 +166,6 @@ df = pd.DataFrame(knihy)
 
 df = pd.concat([df, raw])
 
-df.to_csv(os.path.join('data_raw','martinus_raw.csv'), index=False, encoding="utf-8", header=True)
-
+df.reset_index(drop=True).to_json(
+    os.path.join("data_raw", "martinus_raw.json"), orient='records'
+)
