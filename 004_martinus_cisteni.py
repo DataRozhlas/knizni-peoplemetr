@@ -93,7 +93,7 @@ else:
         & (puvod["M_překlad"].isnull())
     )
 
-puvod[condition][["M_titul", "M_autorstvo", "M_isbn"]].reset_index().to_json(
+puvod[condition][["M_titul", "M_autorstvo", "M_isbn","M_nakladatel"]].reset_index().to_json(
     os.path.join("data_raw", "martinus_sledovat.json")
 )
 

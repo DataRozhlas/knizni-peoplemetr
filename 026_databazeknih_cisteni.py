@@ -53,15 +53,15 @@ df = df.dropna(subset=['DK_isbn','DK_ratings_count'])
 
 print(f"Řádků v dataframe: {len(df)}")
 
-print("Odstraňuji knihy, které se nemají sledovat.")
+# print("Odstraňuji knihy, které se nemají sledovat.")
 
-with open(os.path.join("data","nesledovat.json")) as nesledovat:
+# with open(os.path.join("data","nesledovat.json")) as nesledovat:
 
-    nesledovat = json.load(nesledovat)
+#    nesledovat = json.load(nesledovat)
 
-df = df[~df['DK_isbn'].isin(nesledovat)]
+# df = df[~df['DK_isbn'].isin(nesledovat)]
 
-print(f"Řádků v dataframe: {len(df)}")
+# print(f"Řádků v dataframe: {len(df)}")
 
 df = df.sort_values(by='DK_date')
 

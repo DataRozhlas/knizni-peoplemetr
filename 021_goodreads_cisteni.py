@@ -51,11 +51,11 @@ df = df[
     | df["GR_published"].str.contains("2024", na=False)
 ]
 
-with open(os.path.join("data", "nesledovat.json")) as nesledovat:
+# with open(os.path.join("data", "nesledovat.json")) as nesledovat:
 
-    nesledovat = json.load(nesledovat)
+#    nesledovat = json.load(nesledovat)
 
-df = df[~df["GR_isbn"].isin(nesledovat)]
+# df = df[~df["GR_isbn"].isin(nesledovat)]
 
 df = df.sort_values(by="GR_date")
 
