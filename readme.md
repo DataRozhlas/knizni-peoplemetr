@@ -14,10 +14,11 @@ Todo:
 
 - Pročištění dat ČNB:
 
-    - pokusit se zmáčknout kompletní archiv na použitelnou velikost – rozsekat po sloupcích / odstranit duplikáty / vybrat první vydání atd.
-    - oddělit fyzické výtisky (brožované, vázané) a zbytek 
+    - pokusit se zmáčknout kompletní archiv na velikost použitelnou na laptopu – rozsekat po sloupcích / odstranit duplikáty / vybrat první vydání / optimalizovat datatypy atd.
+    - oddělit fyzické výtisky (brožované, vázané) a zbytek
     - menší dataframy: původní beletrie, původní nonfikce apod.
     - zdokonalovat filtrování starší beletrie bez identifikace v poli 072_a
+        - laciný trik: jednoznačné autorstvo beletrie do seznamu a jím filtrovat starší knihy
     - do slovníku lidsky srozumitelné názvy sloupců pro překlad pro export
 
 - Přidat/přidávat (viz bod níže) ISBN z ČNB do seznamu knih ke scrapování.
