@@ -4,6 +4,7 @@
 import os
 import time
 import datetime
+import re
 import json
 import requests
 from bs4 import BeautifulSoup
@@ -11,7 +12,7 @@ import pandas as pd
 
 
 with open(os.path.join("data_raw", "sledovat.json"), "r") as json_file:
-    isbns = json.load(json_file)
+    isbns = json.load(json_file)[0:30]
 
 print(f"Položek ke stažení: {len(isbns)}")
 
@@ -93,6 +94,13 @@ def scrape_goodreads(isbn):
         )
     except:
         pass
+    for i in range(1, 6):
+        try:
+            starcount = soup.find("div", attrs={"data-testid": f"labelTotal-{i}"})
+            kniha[f"GR_{i}_stars"] = int(re.search(r"\d{1,10}", starcount.text).group())
+        except:
+            pass
+
     return kniha
 
 
@@ -100,10 +108,8 @@ current_date = datetime.datetime.now()
 date_string = current_date.strftime("%Y_%m_%d")
 print(date_string)
 
-
 if not os.path.exists(f"data_raw/goodreads/{date_string}"):
     os.makedirs(f"data_raw/goodreads/{date_string}")
-
 
 greads = []
 count = 0
@@ -119,3 +125,10 @@ for i in isbns:
         )
         print(f"goodreads_{date_string}_{(int(count/20)):04d}.json")
         greads = []
+pd.DataFrame(greads).to_json(
+    os.path.join(
+        f"data_raw/goodreads/{date_string}",
+        f"goodreads_{date_string}_{(int(count/20)):04d}.json",
+    )
+)
+print("Hotovo.")

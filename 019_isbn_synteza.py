@@ -13,9 +13,15 @@ try:
 except:
     rucni_sledovat = []
 
+try:
+    with open(os.path.join("data_raw", "cnb_sledovat.json"), "r") as cnb_sledovat:
+        cnb_sledovat = json.load(cnb_sledovat)
+except:
+    cnb_sledovat = []
+
 rucni_sledovat = [r.replace("-","") for r in rucni_sledovat]
 
-sledovat = martinus_sledovat + rucni_sledovat
+sledovat = martinus_sledovat + rucni_sledovat + cnb_sledovat
 
 sledovat = [s for s in sledovat if len(s) == 13]
 

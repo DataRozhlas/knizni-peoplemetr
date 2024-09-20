@@ -1,3 +1,5 @@
+# Vytvoření testovacího vzorku z České národní bibliografie + filtr české beletrie a několika klasiků pro testy.
+
 import os
 import random
 import json

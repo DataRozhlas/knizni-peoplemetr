@@ -17,12 +17,14 @@ print(f"Položek ke stažení: {len(isbns)}")
 
 
 def scrape_dk(isbn):
-    
+
     kniha = {
-        'ISBN': isbn,
-        'DK_date': datetime.datetime.now().replace(microsecond=0).strftime('%Y-%m-%d %H:%M:%S')
+        "ISBN": isbn,
+        "DK_date": datetime.datetime.now()
+        .replace(microsecond=0)
+        .strftime("%Y-%m-%d %H:%M:%S"),
     }
-    
+
     try:
         r = requests.get(f"""https://www.databazeknih.cz/search?q={isbn}""")
         soup = BeautifulSoup(r.text, "html.parser")
@@ -34,44 +36,56 @@ def scrape_dk(isbn):
             soup = BeautifulSoup(r.text, "html.parser")
         except:
             return {}
-        
-    kniha['DK_titul'] = soup.find("title").text.split("-")[0].strip()
-    if kniha['DK_titul'] == 'Vyhledávání | Databáze knih':
-        kniha['DK_titul'] = None
+
+    kniha["DK_titul"] = soup.find("title").text.split("-")[0].strip()
+    if kniha["DK_titul"] == "Vyhledávání | Databáze knih":
+        kniha["DK_titul"] = None
         return kniha
-    
+
     try:
-        kniha['DK_rating'] = int(soup.find(class_=lambda c: c and c.startswith("hodnoceni")).text.split(' ')[0].strip())
+        kniha["DK_rating"] = int(
+            soup.find(class_=lambda c: c and c.startswith("hodnoceni"))
+            .text.split(" ")[0]
+            .strip()
+        )
     except:
         pass
     try:
-        kniha['DK_ratings_count'] = int(soup.find(class_="ratingDetail").text.replace('hodnocení','').replace(' ',''))
+        kniha["DK_ratings_count"] = int(
+            soup.find(class_="ratingDetail")
+            .text.replace("hodnocení", "")
+            .replace(" ", "")
+        )
     except:
         pass
-    
-    kniha['DK_tags'] = [s.text for s in soup.find_all(class_="tag")]
-    
+
+    kniha["DK_tags"] = [s.text for s in soup.find_all(class_="tag")]
+
     try:
         tabulka = soup.find(class_="morePadding")
-        for tr in tabulka.find_all('tr'):
+        for tr in tabulka.find_all("tr"):
             try:
-                kniha[f"""DK_{tr.find_all('td')[0].text.strip().replace(" ","_")}"""] = int(tr.find_all('td')[1].text.replace("x","").replace(" ","").strip())
+                kniha[
+                    f"""DK_{tr.find_all('td')[0].text.strip().replace(" ","_")}"""
+                ] = int(
+                    tr.find_all("td")[1].text.replace("x", "").replace(" ", "").strip()
+                )
             except:
                 pass
     except:
         pass
-    
+
     return kniha
 
 
-scrape_dk('978-80-257-0493-6')
+scrape_dk("978-80-257-0493-6")
 
 current_date = datetime.datetime.now()
 date_string = current_date.strftime("%Y_%m_%d")
 print(date_string)
 
-if not os.path.exists(f'data_raw/databazeknih/{date_string}'):
-    os.makedirs(f'data_raw/databazeknih/{date_string}')
+if not os.path.exists(f"data_raw/databazeknih/{date_string}"):
+    os.makedirs(f"data_raw/databazeknih/{date_string}")
 
 dknih = []
 count = 0
@@ -79,6 +93,18 @@ for i in isbns:
     count += 1
     dknih.append(scrape_dk(i))
     if count % 20 == 0:
-        pd.DataFrame(dknih).to_json(os.path.join(f'data_raw/databazeknih/{date_string}',f'databazeknih_{date_string}_{(int(count/20)):04d}.json'))
-        print(f'databazeknih_{date_string}_{(int(count/20)):04d}.json')
+        pd.DataFrame(dknih).to_json(
+            os.path.join(
+                f"data_raw/databazeknih/{date_string}",
+                f"databazeknih_{date_string}_{(int(count/20)):04d}.json",
+            )
+        )
+        print(f"databazeknih_{date_string}_{(int(count/20)):04d}.json")
         dknih = []
+pd.DataFrame(dknih).to_json(
+    os.path.join(
+        f"data_raw/databazeknih/{date_string}",
+        f"databazeknih_{date_string}_{(int(count/20)):04d}.json",
+    )
+)
+print("Hotovo.")

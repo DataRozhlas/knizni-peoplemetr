@@ -1,3 +1,5 @@
+# Rozseká XML na menší souborry, které při manipulaci neuvaří laptop.
+
 import os
 from lxml import etree as ET
 
