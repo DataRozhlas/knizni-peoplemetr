@@ -12,7 +12,7 @@ import pandas as pd
 
 
 with open(os.path.join("data_raw", "sledovat.json"), "r") as json_file:
-    isbns = json.load(json_file)[0:30]
+    isbns = json.load(json_file)
 
 print(f"Položek ke stažení: {len(isbns)}")
 

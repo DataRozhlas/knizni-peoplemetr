@@ -1,4 +1,4 @@
-# Vytvoření testovacího vzorku z České národní bibliografie + filtr české beletrie a několika klasiků pro testy.
+# Momentálně (2024-09-24) téměř nepotřebný soubor, důležitý jen pro následné extrahování ISBN nových českých beletrií. 
 
 import os
 import random
@@ -188,6 +188,3 @@ print(
 )
 
 print("Hotovo.")
-
-# ceske_romany = df[(df['655_a'] == 'české romány') | ((df['655_a'].str.contains('román',na=False)) & (df['040_b'] == df['041_h'])) | (df['072_x'] == 'Česká próza')].reset_index(drop=True)
-# ceske_romany[['020_c','020_q','100_a','100_d','040_b','041_h','245_a','245_b','250_a','260_a','260_b','260_c','964_a','300_c','500_a','550_a','655_a','830_a','072_x']].to_json(os.path.join('data_raw','ceske_romany_raw.json'))

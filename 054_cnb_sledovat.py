@@ -1,8 +1,9 @@
 #!/usr/bin/python3
 
+## Najde ISBN nových českých beletrií, aby měly scrapery co scrapovat.
+
 import os
 import re
-import sys
 import json
 import pandas as pd
 

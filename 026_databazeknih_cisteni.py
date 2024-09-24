@@ -36,7 +36,12 @@ for file in all_files:
 
         df = df.rename(columns={'ISBN':'DK_isbn'})
 
-    df['DK_titul'] = df['DK_titul'].apply(lambda x: letopocet_pryc(x))
+    try:
+    
+        df['DK_titul'] = df['DK_titul'].apply(lambda x: letopocet_pryc(x))
+
+    except:
+        pass
 
     df = df.rename(columns=lambda x: x.replace('_v_', '_').replace('_ve_','_'))
 

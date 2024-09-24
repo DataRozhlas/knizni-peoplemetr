@@ -1,8 +1,24 @@
 Dlouhodobé sledování české knižní produkce a jejího hodnocení na čtenářských platformách. Časem posbíraná data napoví věci, např. do jakých období směrují nakladatelství novinky, která předvánoční anketa knihám pomáhá nejvíc, jak se liší popisy knih psanými muži a ženami atd.
 
+## Co tu najdete
+
+### Podstatné info
+
+- Ignorujte skripty a sešity do č. 049. Scrapují informace o knižních novinkách a o jejich hodnocení na platformách, tato data (časosběrná) najdete ve složce ```data```, netřeba namáhat servery vícekrát.
+
+- Kvůli jejich velikosti naopak ve složce ```data``` nenajdete opracovaná data z České národní bibliografie („Česká národní bibliografie obsahuje záznamy dokumentů vydaných na území České republiky. Většinou se jedná o záznamy dokumentů zaslaných do Národní knihovny ČR jako povinný výtisk.“ – [viz více](https://ezdroje.muni.cz/prehled/zdroj.php?lang=cs&id=20)). Pro jejich získání je nutné ručně stáhnout dump [cnb.xml.gz](https://www.nkp.cz/o-knihovne/odborne-cinnosti/otevrena-data) do složky ```downloads``` a spustit (v číselném/abecedním pořadí) skripty začínající 05x. Potřebné knihovny: ```lxml```, ```pymarc```, ```pandas```. Stačit by snad mělo 8 GB RAM, 16 je jistota.
+
+    - Takto vygenerovaný soubor ```data/cnb_vyber.parquet``` bude obsahovat profiltrovaný dump ČNB. Filtr lze zkontrolovat ve skriptu č. 056, zde jen heslovitě: berou se pouze položky vydané na českém území a v češtině (sloupec 008), pouze texty (znak „t“ na začátku sloupce 007), a to texty brožované a vázané (sloupec 020_q) a navíc s vyplněným rokem vydání začínajícím na 19 nebo 20 a pokračujícím dvěma číslicemi. Zároveň se zde redukuje počet sloupců zhruba na 60. Jsou tato data dostatečně kompletní pro nalezení všech děl konkrétní básnířky z přelomu století? Stěží. Jsou tato data dostatečně kompletní pro mnoho dalších průzkumů? Ano!
+
+    - Složka ```data/cnb_sloupce``` bude obsahovat jednotlivé sloupce z původního dumpu. Lze si je tedy zmergovat do vyfiltrovaného datasetu anebo z nich poskládat dataset nový.
+
+- V obou případech je nutné mít na paměti, že při konverzi z XML do JSONu mohlo dojít k chybám. Jedna věc, o které vím: tam, kde má jeden pod knihou podepsaný člověk uvedeno v poli 700_4 více rolí (např. autor+ilustrátor), nesou opracovaná data informaci pouze o první z nich.
+
+### Detailnější info
+
 Hlavní pipeline (čerstvé knihy): novinky z Martinusu → CSV (momentálně v ```.gitignore```, čili ne zde) → ISBNs nepřekladových knih vydaných v letech 2023 a 2024 periodicky do Goodreads a Databáze knih → JSON (ve složce ```data```).
 
-Pobočná pipeline (všechny knihy): ruční stažení [České národní biografie](https://ezdroje.muni.cz/prehled/zdroj.php?lang=cs&id=20) do složky ```downloads```, rozsekání na menší XML, konverze na JSON, jejich profiltrování a export do JSONu, který neuvaří notebook.
+Pobočná pipeline (všechny knihy): ruční stažení [České národní bibliografie](https://www.nkp.cz/o-knihovne/odborne-cinnosti/otevrena-data) do složky ```downloads```, rozsekání na menší XML, konverze na JSON, jejich profiltrování a export do JSONu, který neuvaří notebook.
 
 Užitečné klíče k datům ČNB:
 
@@ -12,16 +28,13 @@ Užitečné klíče k datům ČNB:
 
 ## To-do
 
-- Pročištění dat ČNB:
+- Pořešit více rolí jednoho člověka na jedné knize.
 
-    - pokusit se zmáčknout kompletní archiv na velikost použitelnou na laptopu – rozsekat po sloupcích / odstranit duplikáty / vybrat první vydání / optimalizovat datatypy atd.
-    - oddělit fyzické výtisky (brožované, vázané) a zbytek
-    - menší dataframy: původní beletrie, původní nonfikce apod.
-    - zdokonalovat filtrování starší beletrie bez identifikace v poli 072_a
-        - laciný trik: jednoznačné autorstvo beletrie do seznamu a jím filtrovat starší knihy
-    - do slovníku lidsky srozumitelné názvy sloupců pro překlad pro export
+- Explodovat při přípravě ty sloupce, kde explodování nezvýší počet řádků.
 
-- Automatizovat stahování dat ČNB (prý je aktualizují ca jednou týdně, bohužel jen v kompletním balíku; zároveň mi ze záhadných důvodů nefungoval wget ani curl).
+- Automatizovat stahování dat ČNB (aktualizují je vždy v pondělí, bohužel jen v kompletním balíku; zároveň mi ze záhadných důvodů nefungoval wget ani curl).
+
+- Přeskládat pipeline: generovat seznam nové české beletrie a jejich kódů ISBN až z hotového dataframu, ne surových JSONů.
 
 - Scrapovat toho z knihkupectví víc:
 
@@ -40,41 +53,97 @@ Užitečné klíče k datům ČNB:
 
     - městské knihovny pro info o rozpůjčovanosti (zřejmě však příliš mnoho bandwidthu pro málo zajímavostí)
     - Knihobot / Trh knih pro info o dostupnosti (dtto)
-    - Wikidata pro biografické údaje o autorstvu (alternativně Personální autority od NK)
+    - Wikidata pro biografické údaje o autorstvu (alternativně Personální autority od NK, ostatně obsahují Q-kódy)
 
-## Klíč k nejdůležitějším sloupcům v České národní bibliografii
+## Klíč k nejdůležitějším polím v České národní bibliografii
 
-- 001 - kontrolní číslo
-- 007 - pole pevné délky pro fyzický popis položky: t jako první znak je text, s audio 
-- 008 - pole pevné délky pro popis obsahu
-- 020_a - ISBN
-- 020_c - cena
-- 020_q - vazba
-- 028_b - vydavatelství audia
-- 040_b - jazyk publikace
-- 041_h	- jazyk originálu
-- 072_x - kategorizace (hrubá)-slovní popis
-- 080_a - kategorizace-MDT
-- 100_4	- role hlavního tvůrcovstva
-- 100_7 - kód d. t.
-- 100_a - jméno h. t.
-- 100_d	- narození/úmrtí h. t.
-- 245_a	- titul
-- 245_b - podtitul
-- 250_a - vydání
-- 260_a nebo 264_a - místo vydání
-- 260_b	nebo 264_b - nakladatelství
-- 260_c nebo 264_c - rok vydání
-- 300_a - počet stran / délka záznamu
-- 300_b - zdali ilustrováno
-- 300_c - výška
-- 500_a	- náklad
-- 520_a - anotace krátká
-- 520_b - anotace dlouhá
-- 650_a - témata
+Při zpracování dat se právě z tohoto seznamu berou čísla sloupců k zachování – s výjimkou těch označených hvězdičkou, neboť jsou u knih zbytečné. Kurzívou jsou označeny [oficiální názvy kategorií](https://text.nkp.cz/o-knihovne/odborne-cinnosti/zpracovani-fondu/katalogizacni-politika/katalogizace-podle-rda-ve-formatu-marc-21-tistene-a-elektronicke-monografie-katalogizace-na-urovni-minimalniho-doporuceneho-zaznamu), zbytek jsou opisy.
+
+- 001 - _identifikační číslo_
+- 007 - _pole pevné délky pro fyzický popis specifikace pro tištěný či rukopisný (okem čitelný) text_ (t jako první znak je text, s audio) *
+- 008 - _údaje pevné délky: specifikace pro knihy_ *
+- 020_a - _ISBN_
+- 020_c - _dostupnost_ (čili cena)
+- 020_q - _zpřesnění_ (vč. informací o vazbě)
+- 022_a - ISSN *
+- 028_b - vydavatelství audia *
+- 041_ind1 - _indikátor překladu_ (0 = není/neobsahuje překlad, 1 = naopak)
+- 041_a - _kód jazyka textu_
+- 041_h	- _kód jazyka originálu_
+- 041_k - _kód jazyka překladu zprostředkujícího původní text_ *
+- 044_a - _kód země vydání_
+- 072_a - _klasifikační znak jako součást skupiny Konspektu_  
+- 072_x - _slovní označení skupiny Konspektu_
+- 080_a - _klasifikační znak MDT_
+- 080_x - pomocný znak MDT *
+- 100_4	- role tvůrcovstva
+- 100_7 - _číslo autority_
+- 100_a - _osobní jméno_
+- 100_c - _doplňky ke jménu jiné než data_ *
+- 100_d	- _data související se jménem_
+- 210_a - zkrácený název *
+- 222_a - klíčový název *
+- 240_l - _jazyk díla_
+- 245_a	- _název_
+- 245_b - _další údaje o názvu_ *
+- 245_c - _údaj o odpovědnosti_
+- 245_h - _obecné označení druhu dokumentu_ *
+- 245_n - _číslo části/sekce díla_
+- 245_p - _název části/sekce díla_
+- 246_a - variantní název
+- 250_a - _označení vydání_
+- 250_b - nové údaje o vydání
+- 260_a - lokalita nakladatele
+- 260_b - jméno nakladatele
+- 260_c - datum vydání
+- 260_e - místo výroby
+- 260_e - jméno výrobce
+- 260_g - rok výroby *
+- 264_ind2 - ovlivňuje význam následujících polí (1 = nakladatel, 2 = distributor, 3 = výrobce, 4 = copyright)
+- 264_a - _místo vydání_ / distributora / výrobce
+- 264_b - _jméno nakladatele_ / distributora / výrobce
+- 264_c - _datum vydání_ / výroby / copyrightu
+- 300_a - _rozsah_
+- 300_b - _další fyzické údaje_
+- 300_c - _rozměr_
+- 300_e - _doprovodný materiál_ *
+- 310_a - současná periodicita *
+- 310_b - data označující současnou periodicitu *
+- 321_a - předcházející periodicita *
+- 321_b - data označující předcházející periodicitu *
+- 336_a - _typ obsahu_ *
+- 337_a - _typ média_ *
+- 338_a - _typ nosiče_ *
+- 490_a - _údaje o edici_
+- 490_v - _označení svazku/pořadí_
+- 500_a	- _všeobecná poznámka_ (náklad, překlad atp.)
+- 520_a - _resumé: text poznámky_
+- 520_b - _resumé: rozšířený text poznámky_
+- 521_a - _poznámka k uživatelskému určení_
+- 546_a - _poznámka o jazyku_
+- 546_b - _typ jazyka nebo písma_ *
+- 550_a - _poznámka k vydavateli_ *
+- 600_a - jméno člověka, který je subjektem publikace *
+- 600_c - titul člověka, který je subjektem publikace *
+- 600_7 - kód člověka, který je subjektem publikace *
+- 648_a - _chronologický termín_
+- 650_a - _věcné téma jako vstupní prvek_
+- 650_x - podtémata
+- 650_z - _geographic subdivision_
 - 650_y - dobové zařazení
-- 655_a - kategorizace (detailní)-slovní popis
-- 700_4 - role dalšího tvůrcovstva
-- 700_7 - kód d. t. 
-- 700_a - jméno d. t.
-- 700_d	- narození/úmrtí d. t.
+- 651_a - _geografické jméno_
+- 653_a - _index term added entry that is not constructed by standard subject heading/thesaurus-building conventions_
+- 655_a - _žánr/forma či základní termín_
+- 700_4 - role tvůrcovstva
+- 700_7 - _číslo autority_
+- 700_a - _osobní jméno_
+- 700_c - _doplňky ke jménu jiné než data_ *
+- 700_d	- _data související se jménem_
+- 710_a - _jméno korporace nebo jurisdikce jako vstupní prvek_
+- 710_b - _podřízená složka_
+- 710_4 - role korp.
+- 710_7 - _číslo autority_
+- 830_a - název edice
+- 810_p - řada *
+- 928_a - _národní pole_, nakladatel pro záznam
+- 964_a - předmětové heslo
