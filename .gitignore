@@ -12,6 +12,7 @@ knihy.html
 x050_cnb_stazeni.py
 cnb_sloupce/
 cnb_vyber.*
+aut_vyber.*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

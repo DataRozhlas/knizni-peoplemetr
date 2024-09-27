@@ -7,8 +7,6 @@ import json
 from collections import defaultdict
 import pymarc
 
-vsechny_sloupce = []
-
 def slovnik_opakovanych(seznam): 
     
     # Aby byly na každém řádku stejně dlouhé seznamy vícenásobných záznamů a šlo např. explodovat jména a role autorstva současně.
@@ -47,16 +45,18 @@ def na_plochy_slovnik(xml_soubor):
 
     for zaznam in zaznamy:
 
-        zaznam = json.loads(zaznam.as_json())['fields']
-
         heslo = defaultdict(list)
 
-        doplneni = slovnik_opakovanych(zaznam)
+        heslo['leader'] = str(zaznam.leader)
+        
+        zaznam = json.loads(zaznam.as_json())['fields']
 
+        doplneni = slovnik_opakovanych(zaznam)
+        
         for z in zaznam:
             
             # Omlouvám se všem, kteří tuto prasečinu budou v budoucnosti zkoušet pochopit a opravit.
-            # Hlavně tedy mně samotnému.
+            # Hlavně tedy sobě samotnému.
 
             for radek, hodnota in z.items():
                 if isinstance(hodnota, str):
@@ -86,22 +86,35 @@ def na_plochy_slovnik(xml_soubor):
 
     return hesla
 
-vsechna_xml = [f for f in os.listdir('downloads/cnb.xml') if (f[0:3] == 'cnb') and ('_' in f)]
+kody = [o.split(".")[0] for o in os.listdir("downloads") if (".xml" in o) and (os.path.isdir(f"downloads/{o}"))]
 
-print(f"""{len(vsechna_xml)} souborů XML ve složce. (Počítáme jen ty s podtržítkem.)""")
+for file_code in kody:
 
-kam_s_tim = "data_raw/cnb"
+    print(f"Budu čistit tyto zdroje: {', '.join(kody)}")
 
-if not os.path.exists(kam_s_tim):
-    os.makedirs(kam_s_tim)
+    vsechny_sloupce = []
 
-for v in vsechna_xml:
-    print(f"Konvertuji {v}.")
-    prectene = na_plochy_slovnik(os.path.join('downloads/cnb.xml', v))
-    with open(os.path.join(kam_s_tim,v.replace('.xml','.json')), 'w+', encoding='utf-8') as vystup:
-        vystup.write(json.dumps(prectene))
+    vsechna_xml = [f for f in os.listdir(f'downloads/{file_code}.xml') if (f[0:3] == file_code) and ('_' in f)]
 
-with open(os.path.join("data_raw","cnb_vsechny_sloupce.json"), "w+", encoding="utf-8") as seznam_sloupcu:
-    seznam_sloupcu.write(json.dumps(sorted(vsechny_sloupce)))
+    print(f"""{file_code}: {len(vsechna_xml)} souborů s podtržítkem ve složce""")
+
+    kam_s_tim = f"data_raw/{file_code}"
+
+    if not os.path.exists(kam_s_tim):
+        os.makedirs(kam_s_tim)
+
+    for v in vsechna_xml:
+
+        prectene = na_plochy_slovnik(os.path.join(f'downloads/{file_code}.xml', v))
+
+        with open(os.path.join(kam_s_tim,v.replace('.xml','.json')), 'w+', encoding='utf-8') as vystup:
+            vystup.write(json.dumps(prectene))
+
+        print(f"{v} zkovertováno do JSONu")
+
+    with open(os.path.join("data_raw",f"{v}_vsechny_sloupce.json"), "w+", encoding="utf-8") as seznam_sloupcu:
+        seznam_sloupcu.write(json.dumps(sorted(vsechny_sloupce)))
+    
+    print(f"Ve zdroji {file_code} nalezeno {len(vsechny_sloupce)} sloupců, uloženy do JSONu")
 
 print("Hotovo!")

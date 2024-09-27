@@ -1,4 +1,4 @@
-Dlouhodobé sledování české knižní produkce a jejího hodnocení na čtenářských platformách. Časem posbíraná data napoví věci, např. do jakých období směrují nakladatelství novinky, která předvánoční anketa knihám pomáhá nejvíc, jak se liší popisy knih psanými muži a ženami atd.
+Dlouhodobé sledování české knižní produkce a jejího hodnocení na čtenářských platformách. Časem posbíraná data napoví věci, např. do jakých období směrují nakladatelství novinky, která předvánoční anketa knihám pomáhá nejvíc, jak se liší popisy knih psaných muži a ženami atd.
 
 ## Co tu najdete
 
@@ -28,13 +28,19 @@ Užitečné klíče k datům ČNB:
 
 ## To-do
 
-- Pořešit více rolí jednoho člověka na jedné knize.
+- Umístit funkce pro hledání roku vydání, čísla vydání atd. do ```src``` a odtud importovat do skriptů a sešitů.
 
-- Explodovat při přípravě ty sloupce, kde explodování nezvýší počet řádků.
+- s. 052: Pořešit více rolí jednoho člověka na jedné knize.
 
-- Automatizovat stahování dat ČNB (aktualizují je vždy v pondělí, bohužel jen v kompletním balíku; zároveň mi ze záhadných důvodů nefungoval wget ani curl).
+- s. 052: Zefektivnit hledání opakovaných klíčů.
 
-- Přeskládat pipeline: generovat seznam nové české beletrie a jejich kódů ISBN až z hotového dataframu, ne surových JSONů.
+- s. 053: Explodovat při přípravě ty sloupce, kde explodování nezvýší počet řádků.
+
+- s. 053: Dořešit ukládání málo vyplněných sloupců v datasetu autorit.
+
+- s. 054: Při hledání nových českých knih odstranit duplikáty (nespoléhat se na informaci o vydání.)
+
+- s. 050: Automatizovat stahování dat ČNB (aktualizují je vždy v pondělí, bohužel jen v kompletním balíku; zároveň mi ze záhadných důvodů nefungoval wget ani curl).
 
 - Scrapovat toho z knihkupectví víc:
 
@@ -43,7 +49,7 @@ Užitečné klíče k datům ČNB:
     - čtenářské hodnocení
     - obálky
 
-- Pokusit se získat informace o přesných datech vydání. Něco je na Goodreads, ne moc spolehlivé. Pro nové knihy: kdy se poprvé změnilo předpokládané datum vydání na vyšlo? 
+- Pokusit se získat informace o přesných datech vydání. Něco je na Goodreads, ne moc spolehlivé. Pro nové knihy: kdy se poprvé změnilo předpokládané datum vydání na vyšlo? Nebo kdy je zakatalogovala knihovna?
 
 - Poziční válka s antiscrapovacími opatřeními Goodreads: další kolo je evidovat odmítnuté požadavky, zkusit je stáhnout ještě jednou.
 
@@ -53,15 +59,17 @@ Užitečné klíče k datům ČNB:
 
     - městské knihovny pro info o rozpůjčovanosti (zřejmě však příliš mnoho bandwidthu pro málo zajímavostí)
     - Knihobot / Trh knih pro info o dostupnosti (dtto)
-    - Wikidata pro biografické údaje o autorstvu (alternativně Personální autority od NK, ostatně obsahují Q-kódy)
 
 ## Klíč k nejdůležitějším polím v České národní bibliografii
 
-Při zpracování dat se právě z tohoto seznamu berou čísla sloupců k zachování – s výjimkou těch označených hvězdičkou, neboť jsou u knih zbytečné. Kurzívou jsou označeny [oficiální názvy kategorií](https://text.nkp.cz/o-knihovne/odborne-cinnosti/zpracovani-fondu/katalogizacni-politika/katalogizace-podle-rda-ve-formatu-marc-21-tistene-a-elektronicke-monografie-katalogizace-na-urovni-minimalniho-doporuceneho-zaznamu), zbytek jsou opisy.
+Při zpracování dat se právě z tohoto seznamu berou čísla sloupců k zachování, s výjimkou těch označených hvězdičkou. Kurzívou jsou označeny [oficiální názvy kategorií](https://text.nkp.cz/o-knihovne/odborne-cinnosti/zpracovani-fondu/katalogizacni-politika/katalogizace-podle-rda-ve-formatu-marc-21-tistene-a-elektronicke-monografie-katalogizace-na-urovni-minimalniho-doporuceneho-zaznamu), zbytek jsou opisy.
 
+### Česká národní bibliografie – cnb.xml
+
+- leader - _návěští_
 - 001 - _identifikační číslo_
 - 007 - _pole pevné délky pro fyzický popis specifikace pro tištěný či rukopisný (okem čitelný) text_ (t jako první znak je text, s audio) *
-- 008 - _údaje pevné délky: specifikace pro knihy_ *
+- 008 - _údaje pevné délky: specifikace pro knihy_
 - 020_a - _ISBN_
 - 020_c - _dostupnost_ (čili cena)
 - 020_q - _zpřesnění_ (vč. informací o vazbě)
@@ -93,11 +101,12 @@ Při zpracování dat se právě z tohoto seznamu berou čísla sloupců k zacho
 - 246_a - variantní název
 - 250_a - _označení vydání_
 - 250_b - nové údaje o vydání
+- 260_ind1 - ovlivňuje význam následujících polí (2 = _intervening publisher_, 3 = _current/latest publisher_)
 - 260_a - lokalita nakladatele
 - 260_b - jméno nakladatele
 - 260_c - datum vydání
 - 260_e - místo výroby
-- 260_e - jméno výrobce
+- 260_f - jméno výrobce
 - 260_g - rok výroby *
 - 264_ind2 - ovlivňuje význam následujících polí (1 = nakladatel, 2 = distributor, 3 = výrobce, 4 = copyright)
 - 264_a - _místo vydání_ / distributora / výrobce
@@ -147,3 +156,38 @@ Při zpracování dat se právě z tohoto seznamu berou čísla sloupců k zacho
 - 810_p - řada *
 - 928_a - _národní pole_, nakladatel pro záznam
 - 964_a - předmětové heslo
+
+### Databáze národních autorit NK ČR – aut.xml
+
+- leader - _návěští_
+- 001 - _identifikační číslo_
+- 024_a - _Other Standard Identifier: standard number or code_ ("Q506600")
+- 024_2 - _Other Standard Identifier: source_ ("Wikidata")
+- 046_f - narození
+- 046_g - úmrtí
+- 100_a - jméno
+- 100_d - narození-úmrtí
+- 100_7 - identifikační číslo
+- 370_a - _place of birth_
+- 370_b - _place of death_
+- 370_c - _associated country_
+- 370_f - _other associated place_
+- 370_s - _start period_ *
+- 370_t - _end period_ *
+- 372_a - _field of activity_
+- 373_a - _associated group_
+- 374_a - _occupation_
+- 375_a - _gender_
+- 377_a - _associated language code_
+- 400_ind1 - _type of personal name element_
+- 400_a - _personal name_
+- 400_d - _dates associated with a name_
+- 400_i - _relationship information_
+- 400_q - _fuller form of name_ *
+- 500_ind1 - _type of personal name entry element_
+- 500_a - _personal name_
+- 500_i - _relationship information_
+- 678_a - _biographical or historical data_
+- 856_u - zde bývá odkaz na Wikipedii (nejenom)
+
+Viz také [zkratky profesí](https://www.loc.gov/marc/relators/relaterm.html).

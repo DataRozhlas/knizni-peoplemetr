@@ -3,7 +3,8 @@
 import os
 from lxml import etree as ET
 
-def create_new_file(records, file_number):
+def create_new_file(file_code, records, file_number):
+
     # Create a new XML file
     root = ET.Element("{http://www.loc.gov/MARC21/slim}collection",
                       nsmap={None: "http://www.loc.gov/MARC21/slim",
@@ -16,28 +17,30 @@ def create_new_file(records, file_number):
 
     # Write the XML file
     tree = ET.ElementTree(root)
-    tree.write(os.path.join("downloads/cnb.xml", f"cnb_{file_number:03}.xml"), encoding="UTF-8", xml_declaration=True)
-    print(f"XML č. {file_number} uloženo.")
+    tree.write(os.path.join(f"downloads/{file_code}.xml", f"{file_code}_{file_number:03}.xml"), encoding="UTF-8", xml_declaration=True)
+    print(f"Posekané {file_code}_{file_number:03}.xml uloženo.")
 
-    # Clear the records list to free up memory
     records.clear()
 
-# Initialize variables
-records = []
-file_number = 1
 
-# Parse the XML file incrementally
-for event, elem in ET.iterparse(os.path.join("downloads/cnb.xml", "cnb.xml"), events=("end",), tag="{http://www.loc.gov/MARC21/slim}record"):
-    records.append(elem)
+kody = [o.split(".")[0] for o in os.listdir("downloads") if (".xml" in o) and (os.path.isdir(f"downloads/{o}"))]
 
-    if len(records) == 20000:
-        create_new_file(records, file_number)
-        elem.clear()
-        records = []
-        file_number += 1
+for file_code in kody:
 
-# Create a file for any remaining records
-if records:
-    create_new_file(records, file_number)
+    records = []
+    file_number = 1
+
+    for event, elem in ET.iterparse(os.path.join(f"downloads/{file_code}.xml", f"{file_code}.xml"), events=("end",), tag="{http://www.loc.gov/MARC21/slim}record"):
+        records.append(elem)
+
+        if len(records) == 20000:
+            create_new_file(file_code, records, file_number)
+            elem.clear()
+            records = []
+            file_number += 1
+
+    # Create a file for any remaining records
+    if records:
+        create_new_file(file_code, records, file_number)
 
 print("Hotovo!")
