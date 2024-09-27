@@ -10,9 +10,9 @@ import pandas as pd
 
 # Zde lze nastavit, co všechno se má zpracovat.
 
-filtr = True
-rozsekani = True
-autority = True
+filtr = True # uložit menší vyfiltrovanou verzi cnb.xml?
+rozsekani = True # uložit kompletní původní sloupce z cnb.xml?
+autority = True # uložit data o autoritách?
 
 #####################
 ## NEJDŘÍVE FUNKCE ##
@@ -112,12 +112,12 @@ if filtr == True:
 
     sloupce_k_zachovani = []
     with open("readme.md", "r", encoding="utf-8") as readme:
-        readme = readme.read().split("# Klí")[-1].split("Databáze národních autorit")[0]
+        readme = readme.read().split("# Klíč k")[-1].split("Databáze národních autorit")[0]
         for l in readme.splitlines():
             if (l[0:2] == "- ") and ("*" not in l):
                 sloupce_k_zachovani.append(l.split("-")[1].strip())
 
-    print(f"Zachovám {len(sloupce_k_zachovani)} sloupců")
+    print(f"Začínám filtrovat data ČNB, zachovám {len(sloupce_k_zachovani)} sloupců.")
 
 if (filtr == True) & (rozsekani == True):
 
@@ -129,7 +129,7 @@ if (filtr == True) & (rozsekani == True):
 
     for index, j in enumerate(vsechny_jsony):
 
-        print(f"Načítám JSON č. {index + 1}")
+        print(f"Načítám JSON č. {index + 1}.")
 
         df = pd.concat([df, pd.read_json(os.path.join(odkud, j))])
 
@@ -137,7 +137,7 @@ if (filtr == True) & (rozsekani == True):
 
             pocitadlo += 1
 
-            print(f"Zpracovávám cnb_chunk_{pocitadlo}")
+            print(f"Zpracovávám cnb_chunk_{pocitadlo}.")
 
             if filtr == True:
 
@@ -149,6 +149,8 @@ if (filtr == True) & (rozsekani == True):
 
             if rozsekani == True:
 
+                print("Ukládám kompletní sloupce.")
+                
                 rozsekej(df, pocitadlo)
 
             df = pd.DataFrame()
@@ -159,7 +161,7 @@ if autority == True:
 
     sloupce_k_zachovani = []
     with open("readme.md", "r", encoding="utf-8") as readme:
-        readme = readme.read().split("Databáze národních autorit")[1]
+        readme = readme.read().split("### Databáze národních autorit")[1]
         for l in readme.splitlines():
             if (l[0:2] == "- ") and ("*" not in l):
                 sloupce_k_zachovani.append(l.split("-")[1].strip())
@@ -167,8 +169,9 @@ if autority == True:
 
     df = pd.DataFrame()
     for j in jsony:
-        print(f"Připojuji a filtruji {j}")
-        df = pd.concat([df, pd.read_json(os.path.join("data_raw/aut", j))])
+        print(f"Připojuji a filtruji {j}.")
+        df = pd.concat([df, pd.read_json(os.path.join("data_raw/aut", j))]) 
+        sloupce_k_zachovani = [s for s in sloupce_k_zachovani if s in df.columns.to_list()]
         df = df[sloupce_k_zachovani]
 
     df = df.explode("001").set_index("001", drop=True)
@@ -197,7 +200,7 @@ if rozsekani == True:
     ]
 
     for c in columns:
-        print(f"Spojuji sloupce začínající na {c}")
+        print(f"Spojuji sloupce začínající na {c}.")
         s = pd.DataFrame()
         for p in [d for d in os.listdir(f"{kam_rozsekane_sloupce}/{c}")]:
             s = pd.concat(
@@ -215,13 +218,13 @@ if filtr == True:
 
     df = pd.DataFrame()
     for c in chunks:
-        print(f"Načítám chunk {c}")
+        print(f"Načítám chunk {c}.")
         df = pd.concat(
             [
                 df,
                 pd.read_parquet(os.path.join(f"{odkud_vyber}", c))
                 .explode("001")
-                .set_index("001", drop=True),
+                .set_index("001", drop=True)
             ]
         )
     print("Ukládám spojený dataset")

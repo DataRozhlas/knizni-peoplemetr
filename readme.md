@@ -6,13 +6,15 @@ Dlouhodobé sledování české knižní produkce a jejího hodnocení na čten�
 
 - Ignorujte skripty a sešity do č. 049. Scrapují informace o knižních novinkách a o jejich hodnocení na platformách, tato data (časosběrná) najdete ve složce ```data```, netřeba namáhat servery vícekrát.
 
-- Kvůli jejich velikosti naopak ve složce ```data``` nenajdete opracovaná data z České národní bibliografie („Česká národní bibliografie obsahuje záznamy dokumentů vydaných na území České republiky. Většinou se jedná o záznamy dokumentů zaslaných do Národní knihovny ČR jako povinný výtisk.“ – [viz více](https://ezdroje.muni.cz/prehled/zdroj.php?lang=cs&id=20)). Pro jejich získání je nutné ručně stáhnout dump [cnb.xml.gz](https://www.nkp.cz/o-knihovne/odborne-cinnosti/otevrena-data) do složky ```downloads``` a spustit (v číselném/abecedním pořadí) skripty začínající 05x. Potřebné knihovny: ```lxml```, ```pymarc```, ```pandas```. Stačit by snad mělo 8 GB RAM, 16 je jistota.
+- Kvůli zdejším limitům na velikost souborů naopak ve složce ```data``` nenajdete opracovaná data z České národní bibliografie („Česká národní bibliografie obsahuje záznamy dokumentů vydaných na území České republiky. Většinou se jedná o záznamy dokumentů zaslaných do Národní knihovny ČR jako povinný výtisk.“ – [viz více](https://ezdroje.muni.cz/prehled/zdroj.php?lang=cs&id=20)). Pro jejich získání je nutné ručně stáhnout dump [cnb.xml.gz](https://www.nkp.cz/o-knihovne/odborne-cinnosti/otevrena-data) do složky ```downloads```, rozbalit jej a spustit (v číselném/abecedním pořadí) skripty začínající 05x. Potřebné knihovny: ```lxml```, ```pymarc```, ```pandas```. Stačit by snad mělo 8 GB RAM, 16 je jistota.
 
-    - Takto vygenerovaný soubor ```data/cnb_vyber.parquet``` bude obsahovat profiltrovaný dump ČNB. Filtr lze zkontrolovat ve skriptu č. 056, zde jen heslovitě: berou se pouze položky vydané na českém území a v češtině (sloupec 008), pouze texty (znak „t“ na začátku sloupce 007), a to texty brožované a vázané (sloupec 020_q) a navíc s vyplněným rokem vydání začínajícím na 19 nebo 20 a pokračujícím dvěma číslicemi. Zároveň se zde redukuje počet sloupců zhruba na 60. Jsou tato data dostatečně kompletní pro nalezení všech děl konkrétní básnířky z přelomu století? Stěží. Jsou tato data dostatečně kompletní pro mnoho dalších průzkumů? Ano!
+    - Takto vygenerovaný soubor ```data/cnb_vyber.parquet``` bude obsahovat profiltrovaný dump ČNB. Filtr lze zkontrolovat ve skriptu č. 053.
 
-    - Složka ```data/cnb_sloupce``` bude obsahovat jednotlivé sloupce z původního dumpu. Lze si je tedy zmergovat do vyfiltrovaného datasetu anebo z nich poskládat dataset nový.
+    - Složka ```data/cnb_sloupce``` bude obsahovat kompletní sloupce z původního dumpu. Lze si je tedy zmergovat do vyfiltrovaného datasetu anebo z nich poskládat dataset nový.
 
 - V obou případech je nutné mít na paměti, že při konverzi z XML do JSONu mohlo dojít k chybám. Jedna věc, o které vím: tam, kde má jeden pod knihou podepsaný člověk uvedeno v poli 700_4 více rolí (např. autor+ilustrátor), nesou opracovaná data informaci pouze o první z nich.
+
+- Nově se stejnou cestou zpracovává i Databáze národních autorit NK ČR (tedy stáhnout ```aut.xml.gz``` do složky ```downloads```, rozbalit, spustit skripty). Tento dataset obsahuje především životopisná data o autorstvu.
 
 ### Detailnější info
 
@@ -27,6 +29,8 @@ Užitečné klíče k datům ČNB:
 - [Pravidla indexace beletrie se zaměřením na situaci v českých knihovnách](https://is.muni.cz/th/d8dtu/DIPLOMKA_NACISTO.pdf)
 
 ## To-do
+
+- Průběžně ladit všechny filtry řádků při přípravě souborů ```cnb_vyber.parquet``` i ```aut_vyber.parquet```. Nejsem knihovník, je možné, že tam mám chyby a vyhazuju něco, co nemám.
 
 - Umístit funkce pro hledání roku vydání, čísla vydání atd. do ```src``` a odtud importovat do skriptů a sešitů.
 
@@ -161,13 +165,15 @@ Při zpracování dat se právě z tohoto seznamu berou čísla sloupců k zacho
 
 - leader - _návěští_
 - 001 - _identifikační číslo_
-- 024_a - _Other Standard Identifier: standard number or code_ ("Q506600")
-- 024_2 - _Other Standard Identifier: source_ ("Wikidata")
-- 046_f - narození
-- 046_g - úmrtí
-- 100_a - jméno
-- 100_d - narození-úmrtí
+- 024_a - _other standard identifier: standard number or code_ ("Q506600")
+- 024_2 - _other standard identifier: source_ ("Wikidata")
+- 046_f - _birth date_
+- 046_g - _death date_
+- 100_a - _personal name_
+- 100_ind1 - _type of personal name entry element: 0 = forename, 1 = surname, 3 = family name_
+- 100_d - _dates associated with a name_
 - 100_7 - identifikační číslo
+- 110_a - _corporate name or jurisdiction name as entry element_
 - 370_a - _place of birth_
 - 370_b - _place of death_
 - 370_c - _associated country_
@@ -187,6 +193,8 @@ Při zpracování dat se právě z tohoto seznamu berou čísla sloupců k zacho
 - 500_ind1 - _type of personal name entry element_
 - 500_a - _personal name_
 - 500_i - _relationship information_
+- 550_a - _topical term or geographic name entry element_ *
+- 550_7 - _data provenance_
 - 678_a - _biographical or historical data_
 - 856_u - zde bývá odkaz na Wikipedii (nejenom)
 

@@ -90,13 +90,13 @@ kody = [o.split(".")[0] for o in os.listdir("downloads") if (".xml" in o) and (o
 
 for file_code in kody:
 
-    print(f"Budu čistit tyto zdroje: {', '.join(kody)}")
+    print(f"Budu čistit tyto zdroje: {', '.join(kody)}.")
 
     vsechny_sloupce = []
 
     vsechna_xml = [f for f in os.listdir(f'downloads/{file_code}.xml') if (f[0:3] == file_code) and ('_' in f)]
 
-    print(f"""{file_code}: {len(vsechna_xml)} souborů s podtržítkem ve složce""")
+    print(f"""{file_code}: {len(vsechna_xml)} souborů s podtržítkem ve složce.""")
 
     kam_s_tim = f"data_raw/{file_code}"
 
@@ -110,11 +110,11 @@ for file_code in kody:
         with open(os.path.join(kam_s_tim,v.replace('.xml','.json')), 'w+', encoding='utf-8') as vystup:
             vystup.write(json.dumps(prectene))
 
-        print(f"{v} zkovertováno do JSONu")
+        print(f"{v} zkovertováno do JSONu.")
 
-    with open(os.path.join("data_raw",f"{v}_vsechny_sloupce.json"), "w+", encoding="utf-8") as seznam_sloupcu:
+    with open(os.path.join("data_raw",f"{file_code}_vsechny_sloupce.json"), "w+", encoding="utf-8") as seznam_sloupcu:
         seznam_sloupcu.write(json.dumps(sorted(vsechny_sloupce)))
     
-    print(f"Ve zdroji {file_code} nalezeno {len(vsechny_sloupce)} sloupců, uloženy do JSONu")
+    print(f"Ve zdroji {file_code} nalezeno {len(vsechny_sloupce)} sloupců, uloženy do JSONu.")
 
 print("Hotovo!")
