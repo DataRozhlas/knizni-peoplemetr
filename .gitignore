@@ -13,6 +13,7 @@ x050_cnb_stazeni.py
 cnb_sloupce/
 cnb_vyber.*
 aut_vyber.*
+data/hledani
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

@@ -190,6 +190,10 @@ Při zpracování dat se právě z tohoto seznamu berou čísla sloupců k zacho
 - 400_d - _dates associated with a name_
 - 400_i - _relationship information_
 - 400_q - _fuller form of name_ *
+- 410_a - _corporate name or jurisdiction name as entry element_
+- 411_a - _meeting name or jurisdiction name as entry element_
+- 430_a - _uniform title_
+- 450_a - _topical term or geographic name entry element_
 - 500_ind1 - _type of personal name entry element_
 - 500_a - _personal name_
 - 500_i - _relationship information_

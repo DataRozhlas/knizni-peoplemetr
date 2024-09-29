@@ -171,8 +171,8 @@ if autority == True:
     for j in jsony:
         print(f"Připojuji a filtruji {j}.")
         df = pd.concat([df, pd.read_json(os.path.join("data_raw/aut", j))]) 
-        sloupce_k_zachovani = [s for s in sloupce_k_zachovani if s in df.columns.to_list()]
-        df = df[sloupce_k_zachovani]
+        sloupce_k_zachovani_filtr = [s for s in sloupce_k_zachovani if s in df.columns.to_list()]
+        df = df[sloupce_k_zachovani_filtr]
 
     df = df.explode("001").set_index("001", drop=True)
 
