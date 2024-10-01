@@ -90,7 +90,7 @@ kody = [o.split(".")[0] for o in os.listdir("downloads") if (".xml" in o) and (o
 
 for file_code in kody:
 
-    print(f"Budu čistit tyto zdroje: {', '.join(kody)}.")
+    print(f"Budu konvertovat tyto zdroje: {', '.join(kody)}.")
 
     vsechny_sloupce = []
 

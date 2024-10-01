@@ -63,17 +63,17 @@ def rozsekej(frame, cislo):
     ## Rozsekává jednotlivé hrubé JSONy na sloupce začínající stejnou cifrou. Ponechává všechny řádky.
 
     cisla_komplet = [f"{i:003}" for i in range(2, 1000)]
-    cisla_komplet
+    cisla_komplet.insert(0, "leader")
 
     for c in cisla_komplet:
 
-        kam_sloupec = f"data/cnb_sloupce/{c}"
+        kam_sloupec = f"data_raw/cnb_sloupce/{c}"
 
         selected_columns = (
             frame.filter(regex=f"001|{c}").explode("001").set_index("001", drop=True)
         )
 
-        selected_columns.columns = selected_columns.columns.astype(str)
+        selected_columns.columns = selected_columns.columns.astype(str) ## aby zůstaly nuly na začátku názvů sloupců
 
         if len(selected_columns.columns) > 0:
             selected_columns = selected_columns.dropna(how="all")
@@ -103,11 +103,6 @@ if not os.path.exists(kam_chunks):
 if not os.path.exists(kam_rozsekane_sloupce):
     os.makedirs(kam_rozsekane_sloupce)
 
-with open(
-    os.path.join("data_raw", "cnb_vsechny_sloupce.json"), "r", encoding="utf-8"
-) as soubor_sloupce:
-    vsechny_sloupce = json.loads(soubor_sloupce.read())
-
 if filtr == True:
 
     sloupce_k_zachovani = []
@@ -119,7 +114,7 @@ if filtr == True:
 
     print(f"Začínám filtrovat data ČNB, zachovám {len(sloupce_k_zachovani)} sloupců.")
 
-if (filtr == True) & (rozsekani == True):
+if (filtr == True) or (rozsekani == True):
 
     vsechny_jsony = [f for f in os.listdir(odkud)]
 
@@ -174,11 +169,12 @@ if autority == True:
         sloupce_k_zachovani_filtr = [s for s in sloupce_k_zachovani if s in df.columns.to_list()]
         df = df[sloupce_k_zachovani_filtr]
 
-    df = df.explode("001").set_index("001", drop=True)
+    df = df.explode("001").set_index("001", drop=True) 
 
     df = df.reindex(sorted(df.columns), axis=1)
 
     df.to_parquet(os.path.join("data", "aut_vyber.parquet"))
+    df.to_json(os.path.join("data", "aut_vyber.json"))
 
     print("Hotovo!")
 
@@ -188,7 +184,7 @@ if autority == True:
 
 if rozsekani == True:
 
-    kam_spojene_sloupce = "data/cnb_sloupce"
+    kam_spojene_sloupce = "data/cnb_sloupce" 
 
     if not os.path.exists(kam_spojene_sloupce):
         os.makedirs(kam_spojene_sloupce)
@@ -202,11 +198,13 @@ if rozsekani == True:
     for c in columns:
         print(f"Spojuji sloupce začínající na {c}.")
         s = pd.DataFrame()
-        for p in [d for d in os.listdir(f"{kam_rozsekane_sloupce}/{c}")]:
+        for p in [d for d in os.listdir(f"{kam_rozsekane_sloupce}/{c}") if "parquet" in d]:
             s = pd.concat(
                 [s, pd.read_parquet(os.path.join(f"{kam_rozsekane_sloupce}/{c}", p))]
             )
-        s.to_json(os.path.join(kam_spojene_sloupce, f"{c}.json"))
+
+        s = s[~s.index.duplicated(keep='first')] ## PROVIZORNÍ FIX, nutno překontrolovat, proč tam jsou 2×
+
         s.to_parquet(os.path.join(kam_spojene_sloupce, f"{c}.parquet"))
 
 if filtr == True:
@@ -227,11 +225,13 @@ if filtr == True:
                 .set_index("001", drop=True)
             ]
         )
+    
     print("Ukládám spojený dataset")
+
     df = df.sort_index()
+    df = df[~df.index.duplicated(keep='first')] ## PROVIZORNÍ FIX, nutno překontrolovat, proč tam jsou 2×
     df = df.reindex(sorted(df.columns), axis=1)
-    print(df.info(memory_usage="deep"))
-    df = df
-    df.to_json(os.path.join(kam_vyber, "cnb_vyber.json"), orient="records")
-    df.to_parquet(os.path.join(kam_vyber, f"cnb_vyber.parquet"))
+        
+    df.to_parquet(os.path.join(kam_vyber, "cnb_vyber.parquet"))
+    
     print("Hotovo.")

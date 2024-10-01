@@ -5,14 +5,17 @@ import re
 import json
 import pandas as pd
 
+print("Vybírám ze souboru cnb_vyber.parquet novinky pro sledování na Goodreads a Databázi knih.")
+
 df = pd.read_parquet(os.path.join("data","cnb_vyber.parquet"))
 
 def najdi_rok(nn8):
-    if nn8[6] in ['s', 't', 'd', 'm', 'e', 'q', 'c','u', 'r']:
-        if ('x' not in nn8[7:11]) and ('u' not in nn8[7:11]):
+    try:
+        if nn8[6] in 'stdemcur':
             return int(nn8[7:11])
-        else:
-            return None
+    except (ValueError, IndexError):
+        pass  # Handle invalid input gracefully
+    return None
         
 df['rok'] = df['008'].apply(lambda x: najdi_rok(x))
 
