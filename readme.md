@@ -130,8 +130,8 @@ Při zpracování dat se právě z tohoto seznamu berou čísla sloupců k zacho
 - 490_a - _údaje o edici_
 - 490_v - _označení svazku/pořadí_
 - 500_a	- _všeobecná poznámka_ (náklad, překlad atp.)
-- 520_a - _resumé: text poznámky_
-- 520_b - _resumé: rozšířený text poznámky_
+- 520_a - _resumé: text poznámky_ (slogan)
+- 520_b - _resumé: rozšířený text poznámky_ (anotace)
 - 521_a - _poznámka k uživatelskému určení_
 - 546_a - _poznámka o jazyku_
 - 546_b - _typ jazyka nebo písma_ *
