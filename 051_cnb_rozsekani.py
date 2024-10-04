@@ -17,20 +17,31 @@ def create_new_file(file_code, records, file_number):
 
     # Write the XML file
     tree = ET.ElementTree(root)
-    tree.write(os.path.join(f"downloads/{file_code}.xml", f"{file_code}_{file_number:03}.xml"), encoding="UTF-8", xml_declaration=True)
+    tree.write(os.path.join(f"downloads/{file_code}", f"{file_code}_{file_number:03}.xml"), encoding="UTF-8", xml_declaration=True)
     print(f"Posekané {file_code}_{file_number:03}.xml uloženo.")
 
     records.clear()
 
+kody = list(set([o.split(".xml")[0] for o in os.listdir("downloads") if len(o.split(".xml")[0]) == 3]))
 
-kody = [o.split(".")[0] for o in os.listdir("downloads") if (".xml" in o) and (os.path.isdir(f"downloads/{o}"))]
+print(f"Zpracuji tyto datasety NK: {', '.join(kody)}.")
 
 for file_code in kody:
 
     records = []
     file_number = 1
 
-    for event, elem in ET.iterparse(os.path.join(f"downloads/{file_code}.xml", f"{file_code}.xml"), events=("end",), tag="{http://www.loc.gov/MARC21/slim}record"):
+    if not os.path.exists(f"downloads/{file_code}"):
+        os.makedirs(f"downloads/{file_code}")
+    
+    for filename in os.listdir(f"downloads/{file_code}"):
+        file_path = os.path.join(f"downloads/{file_code}", filename)
+        if os.path.isfile(file_path):
+            os.remove(file_path)
+    
+    print("Smazány staré soubory v adresáři.")
+
+    for event, elem in ET.iterparse(os.path.join(f"downloads", f"{file_code}.xml"), events=("end",), tag="{http://www.loc.gov/MARC21/slim}record"):
         records.append(elem)
 
         if len(records) == 20000:

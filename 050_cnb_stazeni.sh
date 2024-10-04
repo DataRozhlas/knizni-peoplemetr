@@ -1,0 +1,8 @@
+rm "./downloads/smazat_cnb.xml.gz"
+rm "./downloads/smazat_aut.xml.gz"
+mv "./downloads/cnb.xml.gz" "./downloads/smazat_cnb.xml.gz"
+mv "./downloads/aut.xml.gz" "./downloads/smazat_aut.xml.gz"
+wget --tries=5 --waitretry=10 --timeout=30 --continue -O ./downloads/cnb.xml.gz https://aleph.nkp.cz/data/cnb.xml.gz
+wget --tries=5 --waitretry=10 --timeout=30 --continue -O ./downloads/aut.xml.gz https://aleph.nkp.cz/data/aut.xml.gz
+gunzip -c --force ./downloads/cnb.xml.gz > ./downloads/cnb.xml
+gunzip -c --force ./downloads/aut.xml.gz > ./downloads/aut.xml
