@@ -1,38 +1,31 @@
 Dlouhodobé sledování české knižní produkce a jejího hodnocení na čtenářských platformách.
 
-## Co tu najdete
-
-### Podstatné info
+## Co tu je, co tu není a jak to funguje
 
 - Ignorujte skripty a sešity do č. 049. Scrapují informace o knižních novinkách a o jejich hodnocení na platformách, tato data (za celé sledované odbobí, tzn. od dubna 2024 do posledního commitu) najdete ve složce ```data```, netřeba namáhat servery vícekrát.
 
-- Kvůli zdejším limitům na velikost souborů naopak ve složce ```data``` nenajdete opracovaná data z České národní bibliografie („Česká národní bibliografie obsahuje záznamy dokumentů vydaných na území České republiky. Většinou se jedná o záznamy dokumentů zaslaných do Národní knihovny ČR jako povinný výtisk.“ – [viz více](https://ezdroje.muni.cz/prehled/zdroj.php?lang=cs&id=20)). Pro jejich získání je nutné ručně stáhnout dump [cnb.xml.gz](https://www.nkp.cz/o-knihovne/odborne-cinnosti/otevrena-data) do složky ```downloads```, rozbalit jej a spustit (v číselném/abecedním pořadí) skripty začínající 05x. Potřebné knihovny: ```lxml```, ```pymarc```, ```pandas```. Stačit by snad mělo 8 GB RAM, ale 16 je jistota.
+- Kvůli zdejším limitům na velikost souborů naopak ve složce ```data``` nenajdete opracovaná data z České národní bibliografie („Česká národní bibliografie obsahuje záznamy dokumentů vydaných na území České republiky. Většinou se jedná o záznamy dokumentů zaslaných do Národní knihovny ČR jako povinný výtisk.“ – [viz více](https://ezdroje.muni.cz/prehled/zdroj.php?lang=cs&id=20)). Pro jejich získání je nutné spustit (v číselném/abecedním pořadí) skripty začínající 05x. Potřebné knihovny: ```lxml```, ```pymarc```, ```pandas```. Stačit by snad mělo 8 GB RAM, ale 16 je jistota.
 
-    - Takto vygenerovaný soubor ```data/cnb_vyber.parquet``` bude obsahovat profiltrovaný dump ČNB. Filtr lze zkontrolovat ve skriptu č. 053.
+    - Takto vygenerovaný soubor ```data/cnb_vyber.parquet``` bude obsahovat profiltrovaný dump ČNB s knihami vydanými po roce 1900. Filtr lze zkontrolovat ve skriptu č. 053.
 
-    - Složka ```data/cnb_sloupce``` bude obsahovat kompletní sloupce z původního dumpu. Lze si je tedy přidat do vyfiltrovaného datasetu anebo z nich poskládat dataset nový.
+    - Složka ```data/cnb_sloupce``` bude obsahovat kompletní sloupce (knihy i neknihy od roku 1800) z původního dumpu. Lze si je tedy přidat do vyfiltrovaného datasetu anebo z nich poskládat dataset nový.
 
 - V obou případech je nutné mít na paměti, že při konverzi z XML do JSONu mohlo dojít k chybám. Jedna věc, o které vím: tam, kde má jeden pod knihou podepsaný člověk uvedeno v poli 700_4 více rolí (např. autor+ilustrátor), nesou opracovaná data informaci pouze o první z nich.
-
-- Nově se stejnou cestou zpracovává i Databáze národních autorit NK ČR (tedy stáhnout ```aut.xml.gz``` do složky ```downloads```, rozbalit, spustit skripty). Tento dataset obsahuje především životopisná data o autorstvu.
-
-### Detailnější info
-
-Hlavní pipeline (čerstvé knihy): novinky z Martinusu → CSV (momentálně v ```.gitignore```, čili ne zde) → ISBNs nepřekladových knih vydaných v letech 2023 a 2024 periodicky do Goodreads a Databáze knih → JSON (ve složce ```data```).
-
-Pobočná pipeline (všechny knihy): ruční stažení [České národní bibliografie](https://www.nkp.cz/o-knihovne/odborne-cinnosti/otevrena-data) do složky ```downloads```, rozsekání na menší XML, konverze na JSON, jejich profiltrování a export do JSONu, který neuvaří notebook. Následné postahování a pročištění dat o spisovatelstvu z Wikidat.
 
 Užitečné klíče k datům ČNB:
 
 - [MARC 21](https://www.loc.gov/marc/bibliographic/)
-- [formální deskriptory](https://text.nkp.cz/o-knihovne/odborne-cinnosti/zpracovani-fondu/Archiv/formalnideskriptory-1)
+- [Formální deskriptory](https://text.nkp.cz/o-knihovne/odborne-cinnosti/zpracovani-fondu/Archiv/formalnideskriptory-1)
 - [Pravidla indexace beletrie se zaměřením na situaci v českých knihovnách](https://is.muni.cz/th/d8dtu/DIPLOMKA_NACISTO.pdf)
+- Nejdůležitější kódy viz níže.
 
 ## To-do
 
 - Průběžně ladit všechny filtry řádků při přípravě souborů ```cnb_vyber.parquet``` i ```aut_vyber.parquet```. Nejsem knihovník, je možné, že tam mám chyby a vyhazuju něco, co nemám.
 
 - Umístit funkce pro hledání roku vydání, čísla vydání atd. do ```src``` a odtud importovat do skriptů a sešitů.
+
+- skript 050: Ověřit, že jsou stažené archivy větší a/nebo novější než ty stávající.
 
 - s. 052: Pořešit více rolí jednoho člověka na jedné knize.
 
@@ -45,6 +38,10 @@ Užitečné klíče k datům ČNB:
 - s. 054: Při hledání nových českých knih odstranit duplikáty (nespoléhat se na informaci o vydání.)
 
 - s. 050: Automatizovat stahování dat ČNB (aktualizují je vždy v pondělí, bohužel jen v kompletním balíku; zároveň mi ze záhadných důvodů nefungoval wget ani curl).
+
+- s. 060+: Předělat sešity na skripty.
+
+- s. 063: Ve finálním souboru s wikidaty nahradit Q-identifikátory českými/anglickými názvy.
 
 - Scrapovat toho z knihkupectví víc:
 
