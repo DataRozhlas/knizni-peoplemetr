@@ -15,6 +15,7 @@ cnb_vyber.*
 cnb_ceska_proza.parquet
 aut_vyber.*
 data/hledani
+wikidata.parquet
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
