@@ -1,0 +1,58 @@
+<html>
+<body>
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+<script src="https://code.highcharts.com/modules/accessibility.js"></script>
+<figure class="highcharts-figure">
+    <div id="container"></div>
+</figure>
+<script>
+// Generate test data with discrete Y values and continuous X values.
+
+
+// Make all the colors semi-transparent so we can see overlapping dots
+// const colors = Highcharts.getOptions().colors.map(color =>
+//    Highcharts.color(color).setOpacity(0.5).get()
+// );
+
+Highcharts.chart('container', {
+    chart: {
+        type: 'scatter',
+		height: 2400
+    },
+    // colors,
+    title: {
+        text: 'TITULEK'
+    },
+    xAxis: {
+        title: {
+            text: 'OSA_X'
+        }
+    },
+    yAxis: {
+        categories: KATEGORIE,
+        title: {
+            text: ''
+        }
+    },
+    plotOptions: {
+        scatter: {
+            showInLegend: false,
+            jitter: {
+                x: 0,
+                y: 0.2  // Add vertical jitter
+            },
+            marker: {
+                radius: 2,
+                symbol: 'circle'
+            },
+            tooltip: {
+                pointFormat: 'Measurement: {point.x:.3f}'
+            }
+		}
+    },
+    series: SERIE
+});
+</script>
+</body>
+</html>
