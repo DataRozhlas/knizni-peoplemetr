@@ -1,24 +1,109 @@
-<html>
-<body>
+<html><body>
+
+<link
+  rel="stylesheet"
+  href="https://fonts.googleapis.com/css?family=Noticia+Text"
+/>
+<link
+  href="https://fonts.googleapis.com/css2?family=Asap"
+  rel="stylesheet"
+/>
+<link
+  href="https://fonts.googleapis.com/css2?family=Roboto"
+  rel="stylesheet"
+/>
+
+<link
+  rel="stylesheet"
+  href="https://data.irozhlas.cz/hhighcharts-template/style.css"
+/>
+<link
+  rel="stylesheet"
+  href="https://data.irozhlas.cz/hhighcharts-template/highcharts-style.css"
+/>
 <script src="https://code.highcharts.com/highcharts.js"></script>
-<script src="https://code.highcharts.com/modules/exporting.js"></script>
-<script src="https://code.highcharts.com/modules/accessibility.js"></script>
 <figure class="highcharts-figure">
-    <div id="container"></div>
+  <div id="container"></div>
 </figure>
+
+<style type="text/css">
+  text {
+    font-family: "Asap" !important;
+  }
+  .paragraph {
+    font-family: "Noticia text" !important;
+  }
+  .href {
+    color: #666;
+    fill: #666;
+  }
+  .highcharts-title {
+    font-family: "Noticia text" !important;
+    font-weight: 700 !important;
+    text-align: left !important;
+    left: 10px !important;
+  }
+  .highcharts-subtitle {
+    text-align: left !important;
+    font-size: 0.95rem !important;
+    left: 10px !important;
+    font-family: "Asap" !important;
+  }
+  .highcharts-data-labels text {
+    font-size: 0.85rem !important;
+  }
+  .highcharts-axis-labels text {
+    font-size: 0.85rem !important;
+  }
+  text.highcharts-plot-line-label {
+    font-size: 0.85rem !important;
+    fill: #666;
+  }
+  text.highcharts-plot-band-label {
+    font-size: 0.85rem !important;
+    fill: #666;
+  }
+  text.highcharts-credits {
+    font-size: 0.75rem !important;
+  }
+  .highcharts-tooltip span {
+    font-family: "Asap" !important;
+  }
+  .axis-label-on-tick {
+    fill: #aaa;
+    color: #aaa;
+  }
+  .mock-empty-line {
+    fill: #fff;
+    color: #fff;
+  }
+</style>
+
 <script>
-// Generate test data with discrete Y values and continuous X values.
 
-
-// Make all the colors semi-transparent so we can see overlapping dots
-// const colors = Highcharts.getOptions().colors.map(color =>
-//    Highcharts.color(color).setOpacity(0.5).get()
-// );
+  function isTouchDevice() {
+    return "ontouchstart" in window || navigator.maxTouchPoints;
+  }
 
 Highcharts.chart('container', {
-    chart: {
-        type: 'scatter',
-		height: 2400
+	
+	chart: {
+      type: "scatter",
+      height: 2400,
+      zoomType: "xy",
+      events: {
+        load: function () {
+          if (isTouchDevice()) {
+            this.container.addEventListener(
+              "touchstart",
+              function (e) {
+                e.preventDefault();
+              },
+              { passive: true }
+            );
+          }
+        },
+      },
     },
     // colors,
     title: {
@@ -27,7 +112,15 @@ Highcharts.chart('container', {
     xAxis: {
         title: {
             text: 'OSA_X'
-        }
+        },
+		opposite: true,
+		plotLines: [{
+            color: '#ddd',
+            dashStyle: 'solid',
+            value: 0,
+            width: 1,
+            zIndex: 3
+        }]
     },
     yAxis: {
         categories: KATEGORIE,
@@ -40,19 +133,18 @@ Highcharts.chart('container', {
             showInLegend: false,
             jitter: {
                 x: 0,
-                y: 0.2  // Add vertical jitter
+                y: 0.3  // Add vertical jitter
             },
             marker: {
                 radius: 2,
                 symbol: 'circle'
             },
             tooltip: {
-                pointFormat: 'Measurement: {point.x:.3f}'
-            }
+				pointFormat: '{point.titul} (česky {point.rok})'
+			}
 		}
     },
     series: SERIE
 });
 </script>
-</body>
-</html>
+</body></html>
