@@ -86,6 +86,12 @@
   }
 
 Highcharts.chart('container', {
+
+ credits: {
+  enabled: true,
+  href: 'https://www.irozhlas.cz/zpravy-tag/datova-zurnalistika',
+  text: 'Zdroj dat: Česká národní bibliografie a Wikidata, vizualizace: iROZHLAS.cz'
+},
 	
 	chart: {
       type: "scatter",
@@ -107,8 +113,14 @@ Highcharts.chart('container', {
     },
     // colors,
     title: {
-        text: 'TITULEK'
+        text: 'TITULEK',
+		align: 'left'
     },
+//	credits: {
+//  enabled: true,
+//  href: 'https://www.irozhlas.cz/zpravy-tag/datova-zurnalistika',
+//  text: 'Zdroj dat: Česká národní bibliografie a Wikidata, vizualizace: iROZHLAS.cz'
+// },
     xAxis: {
         title: {
             text: 'OSA_X'
