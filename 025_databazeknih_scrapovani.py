@@ -58,6 +58,11 @@ def scrape_dk(isbn):
         )
     except:
         pass
+    try:
+        kniha["DK_autorstvo"] = [a.text.strip() for a in soup.find("h2", class_='jmenaautoru').find_all('a')]
+        print(kniha["DK_autorstvo"])
+    except:
+        pass
 
     kniha["DK_tags"] = [s.text for s in soup.find_all(class_="tag")]
 
