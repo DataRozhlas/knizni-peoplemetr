@@ -31,17 +31,11 @@ Užitečné klíče k datům ČNB:
 
 - s. 052: Zefektivnit hledání opakovaných klíčů.
 
-- s. 053: Explodovat při přípravě ty sloupce, kde explodování nezvýší počet řádků.
-
 - s. 053: Dořešit ukládání málo vyplněných sloupců v datasetu autorit.
 
 - s. 054: Při hledání nových českých knih odstranit duplikáty (nespoléhat se na informaci o vydání.)
 
-- s. 050: Automatizovat stahování dat ČNB (aktualizují je vždy v pondělí, bohužel jen v kompletním balíku; zároveň mi ze záhadných důvodů nefungoval wget ani curl).
-
 - s. 060+: Předělat sešity na skripty.
-
-- s. 063: Ve finálním souboru s wikidaty nahradit Q-identifikátory českými/anglickými názvy.
 
 - Scrapovat toho z knihkupectví víc:
 

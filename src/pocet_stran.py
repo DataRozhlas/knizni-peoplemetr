@@ -1,3 +1,5 @@
+import re
+
 def pocet_stran(rozsah):
     rozsah = str(rozsah)
     cisla = [x for x in re.findall(r"\d{1,4}\s{0,1}[^v]", rozsah)]

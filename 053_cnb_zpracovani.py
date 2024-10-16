@@ -31,7 +31,7 @@ def vyfiltruj(frame):
 
     print("Vyřazuji ryze periodické materiály.")
     zmenseni = zmenseni[~zmenseni["leader"].str[7].isin(["b", "i", "s", " "])]
-    zmenseni = zmenseni.explode("022_a")
+    # zmenseni = zmenseni.explode("022_a")
     zmenseni = zmenseni[zmenseni["022_a"].isnull()]
     zmenseni = zmenseni.explode("008")
     zmenseni = zmenseni.explode("007")
@@ -93,6 +93,12 @@ warnings.simplefilter(
     action="ignore", category=FutureWarning
 )  ## Nechceme to zatapetovat varováními.
 warnings.simplefilter(action="ignore", category=UserWarning)
+
+try:
+    with open(os.path.join('data_raw','cnb_explodovatelne_sloupce.json'), 'r', encoding="utf-8") as file:
+        explodovatelne = json.loads(file.read())
+except:
+    explodovatelne = ['008','100_a','245_a']
 
 odkud = "data_raw/cnb"
 kam_chunks = "data_raw/cnb_chunks"
@@ -205,6 +211,10 @@ if rozsekani == True:
 
         s = s[~s.index.duplicated(keep='first')] ## PROVIZORNÍ FIX, nutno překontrolovat, proč tam jsou 2×
 
+        for e in explodovatelne:
+            if e in s.columns.to_list():
+                s = s.explode(e)
+
         s.to_parquet(os.path.join(kam_spojene_sloupce, f"{c}.parquet"))
 
 if filtr == True:
@@ -229,6 +239,11 @@ if filtr == True:
     print("Ukládám spojený dataset")
 
     df = df.sort_index()
+
+    for e in explodovatelne:
+        if e in df.columns.to_list():
+            df = df.explode(e)
+
     df = df[~df.index.duplicated(keep='first')] ## PROVIZORNÍ FIX, nutno překontrolovat, proč tam jsou 2×
     df = df.reindex(sorted(df.columns), axis=1)
         
