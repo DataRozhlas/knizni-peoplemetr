@@ -14,7 +14,7 @@ from selenium.webdriver.common.by import By
 kam = "downloads/ebooky-martinus"
 os.makedirs(kam, exist_ok=True)
 stazene = set([x.split(".")[0] for x in os.listdir(kam)])
-print(f"{len(stazene)} knih už staženo.")
+print(f"{len(stazene)} knih už staženo")
 
 df = pd.read_json(os.path.join("data_raw", "martinus_raw.json"))
 
@@ -33,13 +33,15 @@ def stahni_ebook(isbn, url):
         sleep(randint(4,7))
         links = driver.find_elements(By.XPATH, "//a[contains(@href, 'dibuk.eu')]")
         odkazy = [link.get_attribute("href") for link in links]
-        print(f"{len(odkazy)} ukázek")
         for o in odkazy:
             filename = f"""{isbn}.{o.split("/")[-1]}"""
-            response = requests.get(o)
-            with open(os.path.join(kam, filename), "wb") as f:
-                f.write(response.content)
-                print("Vpořádku staženo.")
+            try:
+                response = requests.get(o)
+                with open(os.path.join(kam, filename), "wb") as f:
+                    f.write(response.content)
+            except Exception as E:
+                print(E)
+                pass
     else:
         pass
 
