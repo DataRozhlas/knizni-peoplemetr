@@ -12,6 +12,8 @@ Dlouhodobé sledování české knižní produkce a jejího hodnocení na čten�
 
 - V obou případech je nutné mít na paměti, že při konverzi z XML do JSONu mohlo dojít k chybám. Jedna věc, o které vím: tam, kde má jeden pod knihou podepsaný člověk uvedeno v poli 700_4 více rolí (např. autor+ilustrátor), nesou opracovaná data informaci pouze o první z nich.
 
+- Bezchybná či úplně pochopitelně nejsou ani data ČNB, viz [tento workshop](https://www.youtube.com/watch?v=ZkDHdOQSKOc); například metadata jsou bohatší před rokem 1900 než v letech po něm.
+
 Užitečné klíče k datům ČNB:
 
 - [MARC 21](https://www.loc.gov/marc/bibliographic/)
@@ -39,7 +41,6 @@ Užitečné klíče k datům ČNB:
 
 - Scrapovat toho z knihkupectví víc:
 
-    - ukázky e-booků
     - info o bestsellerech
     - čtenářské hodnocení
     - obálky
