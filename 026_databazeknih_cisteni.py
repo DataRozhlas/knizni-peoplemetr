@@ -58,6 +58,13 @@ df = df.dropna(subset=['DK_isbn','DK_ratings_count'])
 
 print(f"Řádků v dataframe: {len(df)}")
 
+try:
+    with open(os.path.join('data_raw','rucni_nesledovat.txt'), "r", encoding="utf-8") as file:
+        nesledovat = [x.strip() for x in file.read().splitlines()]
+        df = df[~df['DK_isbn'].isin(nesledovat)]
+except:
+    pass
+
 df = df.sort_values(by='DK_date')
 
 df.to_csv(os.path.join("data","databazeknih-hodnoceni.csv"), index=False, encoding="utf-8", header=True)
