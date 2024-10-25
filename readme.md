@@ -25,6 +25,8 @@ Užitečné klíče k datům ČNB:
 
 - Průběžně ladit všechny filtry řádků při přípravě souborů ```cnb_vyber.parquet``` i ```aut_vyber.parquet```. Nejsem knihovník, je možné, že tam mám chyby a vyhazuju něco, co nemám.
 
+- Dokončit skript pro vypreparovávání let narození a úmrtí: ```-1973```, ```-asi 1174```, ```129-asi 216```, ```604 př. Kr.-531 př. Kr.```…
+
 - skript 050: Ověřit, že jsou stažené archivy větší a/nebo novější než ty stávající.
 
 - s. 052: Pořešit více rolí jednoho člověka na jedné knize.
