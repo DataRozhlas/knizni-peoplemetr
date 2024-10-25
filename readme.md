@@ -25,8 +25,6 @@ Užitečné klíče k datům ČNB:
 
 - Průběžně ladit všechny filtry řádků při přípravě souborů ```cnb_vyber.parquet``` i ```aut_vyber.parquet```. Nejsem knihovník, je možné, že tam mám chyby a vyhazuju něco, co nemám.
 
-- Umístit funkce pro hledání roku vydání, čísla vydání atd. do ```src``` a odtud importovat do skriptů a sešitů.
-
 - skript 050: Ověřit, že jsou stažené archivy větší a/nebo novější než ty stávající.
 
 - s. 052: Pořešit více rolí jednoho člověka na jedné knize.
@@ -35,15 +33,7 @@ Užitečné klíče k datům ČNB:
 
 - s. 053: Dořešit ukládání málo vyplněných sloupců v datasetu autorit.
 
-- s. 054: Při hledání nových českých knih odstranit duplikáty (nespoléhat se na informaci o vydání.)
-
 - s. 060+: Předělat sešity na skripty.
-
-- Scrapovat toho z knihkupectví víc:
-
-    - info o bestsellerech
-    - čtenářské hodnocení
-    - obálky
 
 - Pokusit se získat informace o přesných datech vydání. Něco je na Goodreads, ne moc spolehlivé. Pro nové knihy: kdy se poprvé změnilo předpokládané datum vydání na vyšlo? Nebo kdy je zakatalogovala knihovna?
 
