@@ -4,6 +4,7 @@
 import os
 import datetime
 import re
+import json
 import random
 import pandas as pd
 from selenium import webdriver
@@ -12,9 +13,20 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from pyvirtualdisplay import Display
 
+
 gr = pd.read_csv(os.path.join("data","goodreads-hodnoceni.csv"))
 gr = gr[gr['GR_ratings_count'] > 0]
 isbns = [int(x) for x in gr['GR_isbn'].drop_duplicates().to_list()]
+try:
+    with open(os.path.join("data_raw","rucni_sledovat.json"), "r", encoding="utf-8") as rucni:
+        rucni = json.loads(rucni.read())
+except:
+    rucni = []
+
+isbns += rucni
+
+isbns = list(set([str(i).replace('-','').replace('.0','') for i in isbns]))
+
 random.shuffle(isbns)
 
 print(f"Položek ke stažení: {len(isbns)}")
@@ -38,7 +50,10 @@ def scrape_goodreads_selenium(isbn):
 
         display = Display(visible=0, size=(1920, 1080))
         display.start()
-        driver = webdriver.Firefox()
+
+#         driver = webdriver.Firefox()
+
+        driver = webdriver.Chrome()
         driver.get(f"""https://www.goodreads.com/search?q={isbn}&search_type=isbn&search%5Bfield%5D=isbn""")
 
         kniha["GR_title"] = driver.title.split("|")[0].strip()
