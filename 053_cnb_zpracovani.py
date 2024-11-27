@@ -28,6 +28,10 @@ def vyfiltruj(frame):
 
     print("Vyřazuji mapy, hudebniny apod.")
     zmenseni = zmenseni[zmenseni["leader"].str[6].isin(["a", "t"])]
+    ## tčko jsou rukopisy ve smyslu disertačních a diplomových prací, ALE TAKY SAMIZDATY, ALE NEJSOU V RÁMCI NÁRODNÍ BIBLIOGRAFIE
+    ## SAMIZDATY JSOU V NKC!
+    ## a hlavně libri prohibiti
+    ## 30-60. leta a starší můžou být i mapy v monografiích
 
     print("Vyřazuji ryze periodické materiály.")
     zmenseni = zmenseni[~zmenseni["leader"].str[7].isin(["b", "i", "s", " "])]
@@ -41,6 +45,10 @@ def vyfiltruj(frame):
     zmenseni = zmenseni[
         (zmenseni["008"].str[15:17] == "xr") & (zmenseni["008"].str[35:38] == "cze")
     ]
+    
+    # může se stát, že někdy nám zůstalo v koedici ČR/zahraničí (ČR/Poláci např.)
+    # alternativně vyplněné pole 044 a jestli v některém z výskytů je xr, to možná přihodit
+    # to samé se týká jazyka, v 008 může být null a teprve v poli 041 v podpoli A můžou být různé jazyky a jedno z nich může být CZE, třeba 1/3 textu v převážně anglické publikaci 
 
     print("Ponechávám jen texty s rokem vydání 1900+.")
     zmenseni = zmenseni[
