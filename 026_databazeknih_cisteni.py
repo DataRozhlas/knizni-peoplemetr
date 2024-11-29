@@ -67,7 +67,11 @@ except:
 
 df = df.sort_values(by='DK_date')
 
-df.to_csv(os.path.join("data","databazeknih-hodnoceni.csv"), index=False, encoding="utf-8", header=True)
+df['den'] = pd.to_datetime(df['DK_date'])
+df['den'] = df['den'].dt.day_name()
+
+df[df['den'] != 'Monday'].drop(columns=['den']).to_csv(os.path.join("data","databazeknih-hodnoceni-extra.csv"), index=False, encoding="utf-8", header=True)
+df[df['den'] == 'Monday'].drop(columns=['den']).to_csv(os.path.join("data","databazeknih-hodnoceni.csv"), index=False, encoding="utf-8", header=True)
 
 print("Hotovo.")
 

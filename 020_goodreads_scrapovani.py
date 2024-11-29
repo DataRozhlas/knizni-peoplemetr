@@ -78,6 +78,27 @@ def scrape_goodreads(isbn):
     except:
         pass
     try:
+        kniha["GR_pages"] = int(
+            soup.find("p", {"data-testid": "pagesFormat"})
+            .text.split(",")[0]
+            .replace("pages","")
+            .strip()
+        )
+    except Exception as E:
+        print(E)
+        pass
+    try:
+        kniha["GR_format"] = (
+            soup.find("p", {"data-testid": "pagesFormat"})
+            .text.split(",")[1]
+            .lower()
+            .strip()
+        )
+
+    except Exception as E:
+        print(E)
+        pass
+    try:
         kniha["GR_reviews"] = int(
             soup.find("span", {"data-testid": "reviewsCount"})
             .text.split("\xa0")[0]
@@ -115,7 +136,9 @@ greads = []
 count = 0
 for i in isbns:
     count += 1
-    greads.append(scrape_goodreads(i))
+    prirustek = scrape_goodreads(i)
+    print(prirustek)
+    greads.append(prirustek)
     if count % 20 == 0:
         pd.DataFrame(greads).to_json(
             os.path.join(

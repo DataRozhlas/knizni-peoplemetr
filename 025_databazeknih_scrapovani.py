@@ -15,7 +15,6 @@ with open(os.path.join("data_raw", "sledovat.json"), "r") as json_file:
 
 print(f"Položek ke stažení: {len(isbns)}")
 
-
 def scrape_dk(isbn):
 
     kniha = {
@@ -41,6 +40,16 @@ def scrape_dk(isbn):
     if kniha["DK_titul"] == "Vyhledávání | Databáze knih":
         kniha["DK_titul"] = None
         return kniha
+    
+    try:
+        kniha["DK_vyslo"] = int(
+            soup.find("span", {"itemprop": "datePublished"})
+            .text
+            .strip()
+        )
+    except Exception as E:
+        print(E)
+        pass
 
     try:
         kniha["DK_rating"] = int(
@@ -96,7 +105,9 @@ dknih = []
 count = 0
 for i in isbns:
     count += 1
-    dknih.append(scrape_dk(i))
+    prirustek = scrape_dk(i)
+    print(prirustek)
+    dknih.append(prirustek)
     if count % 20 == 0:
         pd.DataFrame(dknih).to_json(
             os.path.join(

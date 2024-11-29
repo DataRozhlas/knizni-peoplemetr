@@ -34,6 +34,23 @@ df = df.dropna(subset=["GR_isbn", "GR_ratings_count"])
 
 print(f"Řádků v dataframe: {len(df)}")
 
+df = df.sort_values(by="GR_date")
+
+df['den'] = pd.to_datetime(df['GR_date'])
+df['den'] = df['den'].dt.day_name()
+
+df[df['den'] != 'Monday'].drop(columns=['den']).to_csv(
+    os.path.join("data", "goodreads-hodnoceni-extra.csv"),
+    index=False,
+    encoding="utf-8",
+    header=True,
+)
+
+df = df[
+    df["GR_published"].str.contains("2023", na=False)
+    | df["GR_published"].str.contains("2024", na=False)
+]
+
 try:
     with open(os.path.join('data_raw','rucni_nesledovat.txt'), "r", encoding="utf-8") as file:
         nesledovat = [x.strip() for x in file.read().splitlines()]
@@ -41,14 +58,7 @@ try:
 except:
     pass
 
-df = df[
-    df["GR_published"].str.contains("2023", na=False)
-    | df["GR_published"].str.contains("2024", na=False)
-]
-
-df = df.sort_values(by="GR_date")
-
-df.to_csv(
+df[df['den'] == 'Monday'].drop(columns=['den']).to_csv(
     os.path.join("data", "goodreads-hodnoceni.csv"),
     index=False,
     encoding="utf-8",
