@@ -188,7 +188,6 @@ if autority == True:
     df = df.reindex(sorted(df.columns), axis=1)
 
     df.to_parquet(os.path.join("data", "aut_vyber.parquet"))
-    df.to_json(os.path.join("data", "aut_vyber.json"))
 
     print("Hotovo!")
 

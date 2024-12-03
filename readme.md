@@ -23,25 +23,23 @@ Užitečné klíče k datům ČNB:
 
 ## To-do
 
-- Průběžně ladit všechny filtry řádků při přípravě souborů ```cnb_vyber.parquet``` i ```aut_vyber.parquet```. Nejsem knihovník, je možné, že tam mám chyby a vyhazuju něco, co nemám.
+- Předělat filtry pro generování seznamu ISBN ke sledování a souborů ```cnb_vyber.parquet``` i ```aut_vyber.parquet```.
 
-- Dokončit skript pro vypreparovávání let narození a úmrtí: ```-1973```, ```-asi 1174```, ```129-asi 216```, ```604 př. Kr.-531 př. Kr.```…
+    - Nelze spoléhat na informace o vydání, lepší je odstranit duplikáty v mírně pročištěném dataframu.
+    - Podle lidí z NK je můj filtr příliš přísný.
+    - Nová vydání starších knih lze odhalit skrz datum vydání na Goodreads a na Databázi knih.
 
-- skript 050: Ověřit, že jsou stažené archivy větší a/nebo novější než ty stávající.
+- Doladit skript pro vypreparovávání let narození a úmrtí: ```-1973```, ```-asi 1174```, ```129-asi 216```, ```604 př. Kr.-531 př. Kr.```…
 
 - s. 052: Pořešit více rolí jednoho člověka na jedné knize.
 
 - s. 052: Zefektivnit hledání opakovaných klíčů.
 
-- s. 053: Dořešit ukládání málo vyplněných sloupců v datasetu autorit.
+- s. 053: Dořešit ukládání málo vyplněných sloupců v datasetu autorit. (Edit 2024-11-30: to už vůbec nevím, co znamená.)
 
 - s. 060+: Předělat sešity na skripty.
 
 - Pokusit se získat informace o přesných datech vydání. Něco je na Goodreads, ne moc spolehlivé. Pro nové knihy: kdy se poprvé změnilo předpokládané datum vydání na vyšlo? Nebo kdy je zakatalogovala knihovna?
-
-- Poziční válka s antiscrapovacími opatřeními Goodreads: další kolo je evidovat odmítnuté požadavky, zkusit je stáhnout ještě jednou.
-
-- Scrapovat z Goodreads i cifru "added" (není v HTML, rvou to tam nějakým JS, bude nutné Selenium).
 
 - Napojit další zdroje dat:
 
@@ -111,11 +109,12 @@ Při zpracování dat se právě z tohoto seznamu berou čísla sloupců k zacho
 - 336_a - _typ obsahu_ *
 - 337_a - _typ média_ *
 - 338_a - _typ nosiče_ *
+- 347_a - charakteristiky digitálního souboru *
 - 490_a - _údaje o edici_
 - 490_v - _označení svazku/pořadí_
 - 500_a	- _všeobecná poznámka_ (náklad, překlad atp.)
-- 520_a - _resumé: text poznámky_ (slogan)
-- 520_b - _resumé: rozšířený text poznámky_ (anotace)
+- 520_a - _resumé: text poznámky_ (slogan) *
+- 520_b - _resumé: rozšířený text poznámky_ (anotace) *
 - 521_a - _poznámka k uživatelskému určení_
 - 546_a - _poznámka o jazyku_
 - 546_b - _typ jazyka nebo písma_ *

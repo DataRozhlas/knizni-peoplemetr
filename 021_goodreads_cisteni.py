@@ -37,9 +37,10 @@ print(f"Řádků v dataframe: {len(df)}")
 df = df.sort_values(by="GR_date")
 
 df['den'] = pd.to_datetime(df['GR_date'])
+df['hodina'] = df['den'].dt.hour
 df['den'] = df['den'].dt.day_name()
 
-df[df['den'] != 'Monday'].drop(columns=['den']).to_csv(
+df[(df['den'] != 'Monday') | (df['hodina'] > 8)].drop(columns=['den','hodina']).to_csv(
     os.path.join("data", "goodreads-hodnoceni-extra.csv"),
     index=False,
     encoding="utf-8",
@@ -58,7 +59,7 @@ try:
 except:
     pass
 
-df[df['den'] == 'Monday'].drop(columns=['den']).to_csv(
+df[(df['den'] == 'Monday') & (df['hodina'] <= 12)].drop(columns=['den','hodina']).to_csv(
     os.path.join("data", "goodreads-hodnoceni.csv"),
     index=False,
     encoding="utf-8",

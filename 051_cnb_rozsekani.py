@@ -34,12 +34,14 @@ for file_code in kody:
     if not os.path.exists(f"downloads/{file_code}"):
         os.makedirs(f"downloads/{file_code}")
     
-    for filename in os.listdir(f"downloads/{file_code}"):
-        file_path = os.path.join(f"downloads/{file_code}", filename)
-        if os.path.isfile(file_path):
-            os.remove(file_path)
-    
-    print("Smazány staré soubory v adresáři.")
+    if len(os.listdir(f"downloads/{file_code}")) > 0:
+        for filename in os.listdir(f"downloads/{file_code}"):
+            file_path = os.path.join(f"downloads/{file_code}", filename)
+            if os.path.isfile(file_path):
+                os.remove(file_path)
+        print("Smazány staré soubory v adresáři.")
+    else:
+        print("Žádné staré soubory v cílovém adresáři.")
 
     for event, elem in ET.iterparse(os.path.join(f"downloads", f"{file_code}.xml"), events=("end",), tag="{http://www.loc.gov/MARC21/slim}record"):
         records.append(elem)

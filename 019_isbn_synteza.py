@@ -27,6 +27,14 @@ sledovat = [s for s in sledovat if len(s) == 13]
 
 sledovat = list(set(sledovat))
 
+try:
+    with open(os.path.join("data_raw", "urls_sledovat.json"), "r") as urls_sledovat:
+        urls_sledovat = json.load(urls_sledovat)
+except:
+    urls_sledovat = []
+
+sledovat += urls_sledovat
+
 print(f"Ukládám {len(sledovat)} ISBN.")
 
 with open(os.path.join('data_raw','sledovat.json'), 'w+') as json_file:

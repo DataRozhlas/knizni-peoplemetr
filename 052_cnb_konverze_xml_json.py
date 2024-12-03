@@ -86,7 +86,17 @@ def na_plochy_slovnik(xml_soubor):
 
     return hesla
 
-kody = [o.split(".")[0] for o in os.listdir("downloads") if (".xml" in o) and (os.path.isdir(f"downloads/{o}"))]
+try:
+    with open("050_cnb_stazeni.sh", "r", encoding="utf-8") as stazene:
+        stazene = stazene.read().splitlines()
+        kody = []
+        for s in stazene:
+            if "gunzip" in s:
+                kody.append(s.split("/")[-1].split('.')[0])
+
+except Exception as e:
+    print(e)
+    kody = ['cnb','aut']
 
 for file_code in kody:
 
@@ -94,7 +104,7 @@ for file_code in kody:
 
     vsechny_sloupce = []
 
-    vsechna_xml = [f for f in os.listdir(f'downloads/{file_code}.xml') if (f[0:3] == file_code) and ('_' in f)]
+    vsechna_xml = [f for f in os.listdir(f'downloads/{file_code}') if (f[0:3] == file_code) and ('_' in f)]
 
     print(f"""{file_code}: {len(vsechna_xml)} souborů s podtržítkem ve složce.""")
 
@@ -103,9 +113,18 @@ for file_code in kody:
     if not os.path.exists(kam_s_tim):
         os.makedirs(kam_s_tim)
 
+    if len(os.listdir(kam_s_tim)) > 0:
+        for filename in os.listdir(kam_s_tim):
+            file_path = os.path.join(kam_s_tim, filename)
+            if os.path.isfile(file_path):
+                os.remove(file_path)
+        print("Smazány staré soubory v adresáři.")
+    else:
+        print("Žádné staré soubory v cílovém adresáři.")
+
     for v in vsechna_xml:
 
-        prectene = na_plochy_slovnik(os.path.join(f'downloads/{file_code}.xml', v))
+        prectene = na_plochy_slovnik(os.path.join(f'downloads/{file_code}', v))
 
         with open(os.path.join(kam_s_tim,v.replace('.xml','.json')), 'w+', encoding='utf-8') as vystup:
             vystup.write(json.dumps(prectene))
