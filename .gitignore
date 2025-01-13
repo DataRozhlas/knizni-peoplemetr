@@ -17,6 +17,7 @@ aut_vyber.*
 data/hledani
 wikidata.parquet
 geckodriver.log
+barvy/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
