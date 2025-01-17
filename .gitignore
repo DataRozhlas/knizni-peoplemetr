@@ -18,6 +18,7 @@ data/hledani
 wikidata.parquet
 geckodriver.log
 barvy/
+mapy/
 *.png
 
 # Byte-compiled / optimized / DLL files
