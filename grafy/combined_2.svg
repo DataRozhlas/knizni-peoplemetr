@@ -1,0 +1,1010 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+	
+  
+	<g>
+		
+    
+		<g class="marks">
+			
+      
+			<rect width="374" height="286" fill="white"/>
+			
+      
+			<g fill="none" stroke-miterlimit="10" transform="translate(11,64)">
+				
+        
+				<g class="mark-group role-frame root" role="graphics-object" aria-roledescription="group mark container">
+					
+          
+					<g transform="translate(0,0)">
+						
+            
+						<path class="background" aria-hidden="true" d="M0.5,0.5h330v200h-330Z" stroke="#ddd"/>
+						
+            
+						<g>
+							
+              
+							<g class="mark-group role-axis" aria-hidden="true">
+								
+                
+								<g transform="translate(0.5,200.5)">
+									
+                  
+									<path class="background" aria-hidden="true" d="M0,0h0v0h0Z" pointer-events="none"/>
+									
+                  
+									<g>
+										
+                    
+										<g class="mark-rule role-axis-grid" pointer-events="none">
+											
+                      
+											<line transform="translate(5,-200)" x2="0" y2="200" stroke="#ddd" stroke-width="1" opacity="1"/>
+											
+                      
+											<line transform="translate(36,-200)" x2="0" y2="200" stroke="#ddd" stroke-width="1" opacity="1"/>
+											
+                      
+											<line transform="translate(68,-200)" x2="0" y2="200" stroke="#ddd" stroke-width="1" opacity="1"/>
+											
+                      
+											<line transform="translate(99,-200)" x2="0" y2="200" stroke="#ddd" stroke-width="1" opacity="1"/>
+											
+                      
+											<line transform="translate(130,-200)" x2="0" y2="200" stroke="#ddd" stroke-width="1" opacity="1"/>
+											
+                      
+											<line transform="translate(162,-200)" x2="0" y2="200" stroke="#ddd" stroke-width="1" opacity="1"/>
+											
+                      
+											<line transform="translate(193,-200)" x2="0" y2="200" stroke="#ddd" stroke-width="1" opacity="1"/>
+											
+                      
+											<line transform="translate(225,-200)" x2="0" y2="200" stroke="#ddd" stroke-width="1" opacity="1"/>
+											
+                      
+											<line transform="translate(256,-200)" x2="0" y2="200" stroke="#ddd" stroke-width="1" opacity="1"/>
+											
+                      
+											<line transform="translate(287,-200)" x2="0" y2="200" stroke="#ddd" stroke-width="1" opacity="1"/>
+											
+                      
+											<line transform="translate(319,-200)" x2="0" y2="200" stroke="#ddd" stroke-width="1" opacity="1"/>
+											
+                    
+										</g>
+										
+                  
+									</g>
+									
+                  
+									<path class="foreground" aria-hidden="true" d="" pointer-events="none" display="none"/>
+									
+                
+								</g>
+								
+              
+							</g>
+							
+              
+							<g class="mark-group role-axis" aria-hidden="true">
+								
+                
+								<g transform="translate(330.5,0.5)">
+									
+                  
+									<path class="background" aria-hidden="true" d="M0,0h0v0h0Z" pointer-events="none"/>
+									
+                  
+									<g>
+										
+                    
+										<g class="mark-rule role-axis-grid" pointer-events="none">
+											
+                      
+											<line transform="translate(0,200)" x2="-330" y2="0" stroke="#ddd" stroke-width="1" opacity="1"/>
+											
+                      
+											<line transform="translate(0,150)" x2="-330" y2="0" stroke="#ddd" stroke-width="1" opacity="1"/>
+											
+                      
+											<line transform="translate(0,100)" x2="-330" y2="0" stroke="#ddd" stroke-width="1" opacity="1"/>
+											
+                      
+											<line transform="translate(0,50)" x2="-330" y2="0" stroke="#ddd" stroke-width="1" opacity="1"/>
+											
+                      
+											<line transform="translate(0,0)" x2="-330" y2="0" stroke="#ddd" stroke-width="1" opacity="1"/>
+											
+                    
+										</g>
+										
+                  
+									</g>
+									
+                  
+									<path class="foreground" aria-hidden="true" d="" pointer-events="none" display="none"/>
+									
+                
+								</g>
+								
+              
+							</g>
+							
+              
+							<g class="mark-group role-axis" role="graphics-symbol" aria-roledescription="axis" aria-label="X-axis for a time scale with values from Tuesday, 28 May 1918, 10:00:00 PM to Sunday, 06 August 2023, 4:00:00 AM">
+								
+                
+								<g transform="translate(0.5,200.5)">
+									
+                  
+									<path class="background" aria-hidden="true" d="M0,0h0v0h0Z" pointer-events="none"/>
+									
+                  
+									<g>
+										
+                    
+										<g class="mark-rule role-axis-tick" pointer-events="none">
+											
+                      
+											<line transform="translate(5,0)" x2="0" y2="5" stroke="#DCDDD6" stroke-width="1" opacity="1"/>
+											
+                      
+											<line transform="translate(36,0)" x2="0" y2="5" stroke="#DCDDD6" stroke-width="1" opacity="1"/>
+											
+                      
+											<line transform="translate(68,0)" x2="0" y2="5" stroke="#DCDDD6" stroke-width="1" opacity="1"/>
+											
+                      
+											<line transform="translate(99,0)" x2="0" y2="5" stroke="#DCDDD6" stroke-width="1" opacity="1"/>
+											
+                      
+											<line transform="translate(130,0)" x2="0" y2="5" stroke="#DCDDD6" stroke-width="1" opacity="1"/>
+											
+                      
+											<line transform="translate(162,0)" x2="0" y2="5" stroke="#DCDDD6" stroke-width="1" opacity="1"/>
+											
+                      
+											<line transform="translate(193,0)" x2="0" y2="5" stroke="#DCDDD6" stroke-width="1" opacity="1"/>
+											
+                      
+											<line transform="translate(225,0)" x2="0" y2="5" stroke="#DCDDD6" stroke-width="1" opacity="1"/>
+											
+                      
+											<line transform="translate(256,0)" x2="0" y2="5" stroke="#DCDDD6" stroke-width="1" opacity="1"/>
+											
+                      
+											<line transform="translate(287,0)" x2="0" y2="5" stroke="#DCDDD6" stroke-width="1" opacity="1"/>
+											
+                      
+											<line transform="translate(319,0)" x2="0" y2="5" stroke="#DCDDD6" stroke-width="1" opacity="1"/>
+											
+                    
+										</g>
+										
+                    
+										<g class="mark-text role-axis-label" pointer-events="none">
+											
+                      
+											<text text-anchor="middle" transform="translate(5,15)" font-family="Asap" font-size="10px" fill="#000" opacity="1">1920</text>
+											
+                      
+											<text text-anchor="middle" transform="translate(36.376422589649984,15)" font-family="Asap" font-size="10px" fill="#000" opacity="1">1930</text>
+											
+                      
+											<text text-anchor="middle" transform="translate(67.74425595877175,15)" font-family="Asap" font-size="10px" fill="#000" opacity="1">1940</text>
+											
+                      
+											<text text-anchor="middle" transform="translate(99.12067854842174,15)" font-family="Asap" font-size="10px" fill="#000" opacity="1">1950</text>
+											
+                      
+											<text text-anchor="middle" transform="translate(130.4885119175435,15)" font-family="Asap" font-size="10px" fill="#000" opacity="1">1960</text>
+											
+                      
+											<text text-anchor="middle" transform="translate(161.86493450719348,15)" font-family="Asap" font-size="10px" fill="#000" opacity="1">1970</text>
+											
+                      
+											<text text-anchor="middle" transform="translate(193.23276787631522,15)" font-family="Asap" font-size="10px" fill="#000" opacity="1">1980</text>
+											
+                      
+											<text text-anchor="middle" transform="translate(224.6091904659652,15)" font-family="Asap" font-size="10px" fill="#000" opacity="1">1990</text>
+											
+                      
+											<text text-anchor="middle" transform="translate(255.97702383508698,15)" font-family="Asap" font-size="10px" fill="#000" opacity="1">2000</text>
+											
+                      
+											<text text-anchor="middle" transform="translate(287.35344642473694,15)" font-family="Asap" font-size="10px" fill="#000" opacity="1">2010</text>
+											
+                      
+											<text text-anchor="middle" transform="translate(318.7212797938587,15)" font-family="Asap" font-size="10px" fill="#000" opacity="1">2020</text>
+											
+                    
+										</g>
+										
+                    
+										<g class="mark-rule role-axis-domain" pointer-events="none">
+											
+                      
+											<line transform="translate(0,0)" x2="330" y2="0" stroke="#888" stroke-opacity="0" stroke-width="1" opacity="1"/>
+											
+                    
+										</g>
+										
+                  
+									</g>
+									
+                  
+									<path class="foreground" aria-hidden="true" d="" pointer-events="none" display="none"/>
+									
+                
+								</g>
+								
+              
+							</g>
+							
+              
+							<g class="mark-group role-axis" role="graphics-symbol" aria-roledescription="axis" aria-label="Y-axis for a linear scale with values from 0.00 to 0.20">
+								
+                
+								<g transform="translate(330.5,0.5)">
+									
+                  
+									<path class="background" aria-hidden="true" d="M0,0h0v0h0Z" pointer-events="none"/>
+									
+                  
+									<g>
+										
+                    
+										<g class="mark-rule role-axis-tick" pointer-events="none">
+											
+                      
+											<line transform="translate(0,200)" x2="5" y2="0" stroke="#DCDDD6" stroke-width="1" opacity="1"/>
+											
+                      
+											<line transform="translate(0,150)" x2="5" y2="0" stroke="#DCDDD6" stroke-width="1" opacity="1"/>
+											
+                      
+											<line transform="translate(0,100)" x2="5" y2="0" stroke="#DCDDD6" stroke-width="1" opacity="1"/>
+											
+                      
+											<line transform="translate(0,50)" x2="5" y2="0" stroke="#DCDDD6" stroke-width="1" opacity="1"/>
+											
+                      
+											<line transform="translate(0,0)" x2="5" y2="0" stroke="#DCDDD6" stroke-width="1" opacity="1"/>
+											
+                    
+										</g>
+										
+                    
+										<g class="mark-text role-axis-label" pointer-events="none">
+											
+                      
+											<text text-anchor="start" transform="translate(7,203)" font-family="Asap" font-size="10px" fill="#000" opacity="1">0 %</text>
+											
+                      
+											<text text-anchor="start" transform="translate(7,153)" font-family="Asap" font-size="10px" fill="#000" opacity="1">5 %</text>
+											
+                      
+											<text text-anchor="start" transform="translate(7,103)" font-family="Asap" font-size="10px" fill="#000" opacity="1">10 %</text>
+											
+                      
+											<text text-anchor="start" transform="translate(7,53.00000000000002)" font-family="Asap" font-size="10px" fill="#000" opacity="1">15 %</text>
+											
+                      
+											<text text-anchor="start" transform="translate(7,3)" font-family="Asap" font-size="10px" fill="#000" opacity="1">20 %</text>
+											
+                    
+										</g>
+										
+                    
+										<g class="mark-rule role-axis-domain" pointer-events="none">
+											
+                      
+											<line transform="translate(0,200)" x2="0" y2="-200" stroke="#888" stroke-opacity="0" stroke-width="1" opacity="1"/>
+											
+                    
+										</g>
+										
+                  
+									</g>
+									
+                  
+									<path class="foreground" aria-hidden="true" d="" pointer-events="none" display="none"/>
+									
+                
+								</g>
+								
+              
+							</g>
+							
+              
+							<g class="mark-rect role-mark marks" role="graphics-object" aria-roledescription="rect mark container">
+								
+                
+								<path aria-label="rok: Jan 01, 1920; podĂ­l: 0.0233029381966; nakladatel: ostatnĂ­" role="graphics-symbol" aria-roledescription="bar" d="M4,176.69706180344477h2v23.302938196555232h-2Z" fill="#F2E9DE"/>
+								
+                
+								<path aria-label="rok: Jan 01, 1921; podĂ­l: 0.026863084922; nakladatel: ostatnĂ­" role="graphics-symbol" aria-roledescription="bar" d="M7.143654713334765,173.1369150779896h2v26.863084922010387h-2Z" fill="#F2E9DE"/>
+								
+                
+								<path aria-label="rok: Jan 01, 1922; podĂ­l: 0.0194754609192; nakladatel: ostatnĂ­" role="graphics-symbol" aria-roledescription="bar" d="M10.278720206141292,180.52453908075825h2v19.475460919241755h-2Z" fill="#F2E9DE"/>
+								
+                
+								<path aria-label="rok: Jan 01, 1923; podĂ­l: 0.01872074883; nakladatel: ostatnĂ­" role="graphics-symbol" aria-roledescription="bar" d="M13.413785698947821,181.2792511700468h2v18.72074882995321h-2Z" fill="#F2E9DE"/>
+								
+                
+								<path aria-label="rok: Jan 01, 1924; podĂ­l: 0.0244994110718; nakladatel: ostatnĂ­" role="graphics-symbol" aria-roledescription="bar" d="M16.54885119175435,175.50058892815076h2v24.499411071849238h-2Z" fill="#F2E9DE"/>
+								
+                
+								<path aria-label="rok: Jan 01, 1925; podĂ­l: 0.0241119483315; nakladatel: ostatnĂ­" role="graphics-symbol" aria-roledescription="bar" d="M19.692505905089114,175.88805166846072h2v24.11194833153928h-2Z" fill="#F2E9DE"/>
+								
+                
+								<path aria-label="rok: Jan 01, 1926; podĂ­l: 0.0337512054002; nakladatel: ostatnĂ­" role="graphics-symbol" aria-roledescription="bar" d="M22.827571397895642,166.24879459980716h2v33.751205400192845h-2Z" fill="#F2E9DE"/>
+								
+                
+								<path aria-label="rok: Jan 01, 1927; podĂ­l: 0.0316535831856; nakladatel: ostatnĂ­" role="graphics-symbol" aria-roledescription="bar" d="M25.96263689070217,168.3464168143834h2v31.65358318561661h-2Z" fill="#F2E9DE"/>
+								
+                
+								<path aria-label="rok: Jan 01, 1928; podĂ­l: 0.0244888254874; nakladatel: ostatnĂ­" role="graphics-symbol" aria-roledescription="bar" d="M29.097702383508693,175.51117451260106h2v24.48882548739894h-2Z" fill="#F2E9DE"/>
+								
+                
+								<path aria-label="rok: Jan 01, 1929; podĂ­l: 0.0243153918791; nakladatel: ostatnĂ­" role="graphics-symbol" aria-roledescription="bar" d="M32.241357096843466,175.68460812086875h2v24.315391879131255h-2Z" fill="#F2E9DE"/>
+								
+                
+								<path aria-label="rok: Jan 01, 1930; podĂ­l: 0.048825710754; nakladatel: ostatnĂ­" role="graphics-symbol" aria-roledescription="bar" d="M35.376422589649984,151.1742892459827h2v48.82571075401731h-2Z" fill="#F2E9DE"/>
+								
+                
+								<path aria-label="rok: Jan 01, 1931; podĂ­l: 0.034402059443; nakladatel: ostatnĂ­" role="graphics-symbol" aria-roledescription="bar" d="M38.511488082456516,165.59794055698572h2v34.40205944301428h-2Z" fill="#F2E9DE"/>
+								
+                
+								<path aria-label="rok: Jan 01, 1932; podĂ­l: 0.0282614181176; nakladatel: ostatnĂ­" role="graphics-symbol" aria-roledescription="bar" d="M41.64655357526304,171.73858188241232h2v28.26141811758768h-2Z" fill="#F2E9DE"/>
+								
+                
+								<path aria-label="rok: Jan 01, 1933; podĂ­l: 0.0269589317208; nakladatel: ostatnĂ­" role="graphics-symbol" aria-roledescription="bar" d="M44.79020828859781,173.0410682791635h2v26.95893172083649h-2Z" fill="#F2E9DE"/>
+								
+                
+								<path aria-label="rok: Jan 01, 1934; podĂ­l: 0.0272794298353; nakladatel: ostatnĂ­" role="graphics-symbol" aria-roledescription="bar" d="M47.925273781404336,172.72057016465962h2v27.27942983534038h-2Z" fill="#F2E9DE"/>
+								
+                
+								<path aria-label="rok: Jan 01, 1935; podĂ­l: 0.03737886479; nakladatel: ostatnĂ­" role="graphics-symbol" aria-roledescription="bar" d="M51.06033927421087,162.6211352099677h2v37.37886479003231h-2Z" fill="#F2E9DE"/>
+								
+                
+								<path aria-label="rok: Jan 01, 1936; podĂ­l: 0.0301925025329; nakladatel: ostatnĂ­" role="graphics-symbol" aria-roledescription="bar" d="M54.19540476701739,169.80749746707193h2v30.192502532928074h-2Z" fill="#F2E9DE"/>
+								
+                
+								<path aria-label="rok: Jan 01, 1937; podĂ­l: 0.0284822473664; nakladatel: ostatnĂ­" role="graphics-symbol" aria-roledescription="bar" d="M57.339059480352155,171.51775263363248h2v28.482247366367517h-2Z" fill="#F2E9DE"/>
+								
+                
+								<path aria-label="rok: Jan 01, 1938; podĂ­l: 0.0313870297715; nakladatel: ostatnĂ­" role="graphics-symbol" aria-roledescription="bar" d="M60.47412497315869,168.61297022847913h2v31.387029771520872h-2Z" fill="#F2E9DE"/>
+								
+                
+								<path aria-label="rok: Jan 01, 1939; podĂ­l: 0.0268378063011; nakladatel: ostatnĂ­" role="graphics-symbol" aria-roledescription="bar" d="M63.60919046596521,173.16219369894984h2v26.837806301050165h-2Z" fill="#F2E9DE"/>
+								
+                
+								<path aria-label="rok: Jan 01, 1940; podĂ­l: 0.0240882485367; nakladatel: ostatnĂ­" role="graphics-symbol" aria-roledescription="bar" d="M66.74425595877175,175.91175146330482h2v24.088248536695176h-2Z" fill="#F2E9DE"/>
+								
+                
+								<path aria-label="rok: Jan 01, 1941; podĂ­l: 0.0382059800664; nakladatel: Orbis" role="graphics-symbol" aria-roledescription="bar" d="M69.88755278791783,161.79401993355484h2v38.205980066445164h-2Z" fill="#DFBD6E"/>
+								
+                
+								<path aria-label="rok: Jan 01, 1942; podĂ­l: 0.0909090909091; nakladatel: Orbis" role="graphics-symbol" aria-roledescription="bar" d="M73.02261828072436,109.09090909090908h2v90.90909090909092h-2Z" fill="#DFBD6E"/>
+								
+                
+								<path aria-label="rok: Jan 01, 1943; podĂ­l: 0.179362506753; nakladatel: Orbis" role="graphics-symbol" aria-roledescription="bar" d="M76.15804165771956,20.63749324689359h2v179.3625067531064h-2Z" fill="#DFBD6E"/>
+								
+                
+								<path aria-label="rok: Jan 01, 1944; podĂ­l: 0.109739368999; nakladatel: Orbis" role="graphics-symbol" aria-roledescription="bar" d="M79.2931071505261,90.26063100137176h2v109.73936899862824h-2Z" fill="#DFBD6E"/>
+								
+                
+								<path aria-label="rok: Jan 01, 1945; podĂ­l: 0.0372807017544; nakladatel: Orbis" role="graphics-symbol" aria-roledescription="bar" d="M82.43676186386085,162.71929824561403h2v37.28070175438597h-2Z" fill="#DFBD6E"/>
+								
+                
+								<path aria-label="rok: Jan 01, 1946; podĂ­l: 0.0304190597745; nakladatel: Orbis" role="graphics-symbol" aria-roledescription="bar" d="M85.57182735666738,169.58094022548394h2v30.419059774516057h-2Z" fill="#DFBD6E"/>
+								
+                
+								<path aria-label="rok: Jan 01, 1947; podĂ­l: 0.0351150994928; nakladatel: Orbis" role="graphics-symbol" aria-roledescription="bar" d="M88.70725073366258,164.8849005072181h2v35.115099492781894h-2Z" fill="#DFBD6E"/>
+								
+                
+								<path aria-label="rok: Jan 01, 1948; podĂ­l: 0.0429057888763; nakladatel: ostatnĂ­" role="graphics-symbol" aria-roledescription="bar" d="M91.84195834228044,157.09421112372303h2v42.90578887627697h-2Z" fill="#F2E9DE"/>
+								
+                
+								<path aria-label="rok: Jan 01, 1949; podĂ­l: 0.0734106076572; nakladatel: ostatnĂ­" role="graphics-symbol" aria-roledescription="bar" d="M94.98561305561519,126.589392342817h2v73.410607657183h-2Z" fill="#F2E9DE"/>
+								
+                
+								<path aria-label="rok: Jan 01, 1950; podĂ­l: 0.0812757201646; nakladatel: ostatnĂ­" role="graphics-symbol" aria-roledescription="bar" d="M98.12067854842174,118.72427983539096h2v81.27572016460904h-2Z" fill="#F2E9DE"/>
+								
+                
+								<path aria-label="rok: Jan 01, 1951; podĂ­l: 0.0890269151139; nakladatel: ostatnĂ­" role="graphics-symbol" aria-roledescription="bar" d="M101.25574404122825,110.97308488612838h2v89.02691511387162h-2Z" fill="#F2E9DE"/>
+								
+                
+								<path aria-label="rok: Jan 01, 1952; podĂ­l: 0.132869249395; nakladatel: SPN" role="graphics-symbol" aria-roledescription="bar" d="M104.39080953403479,67.1307506053269h2v132.8692493946731h-2Z" fill="#588438"/>
+								
+                
+								<path aria-label="rok: Jan 01, 1953; podĂ­l: 0.157470067673; nakladatel: SPN" role="graphics-symbol" aria-roledescription="bar" d="M107.53446424736954,42.52993232691307h2v157.47006767308693h-2Z" fill="#588438"/>
+								
+                
+								<path aria-label="rok: Jan 01, 1954; podĂ­l: 0.130161127895; nakladatel: ostatnĂ­" role="graphics-symbol" aria-roledescription="bar" d="M110.66952974017609,69.83887210473314h2v130.16112789526687h-2Z" fill="#F2E9DE"/>
+								
+                
+								<path aria-label="rok: Jan 01, 1955; podĂ­l: 0.136655948553; nakladatel: SPN" role="graphics-symbol" aria-roledescription="bar" d="M113.8045952329826,63.34405144694535h2v136.65594855305466h-2Z" fill="#588438"/>
+								
+                
+								<path aria-label="rok: Jan 01, 1956; podĂ­l: 0.129576733316; nakladatel: ostatnĂ­" role="graphics-symbol" aria-roledescription="bar" d="M116.93966072578914,70.42326668397818h2v129.57673331602183h-2Z" fill="#F2E9DE"/>
+								
+                
+								<path aria-label="rok: Jan 01, 1957; podĂ­l: 0.141762452107; nakladatel: SPN" role="graphics-symbol" aria-roledescription="bar" d="M120.0833154391239,58.23754789272031h2v141.7624521072797h-2Z" fill="#588438"/>
+								
+                
+								<path aria-label="rok: Jan 01, 1958; podĂ­l: 0.153553299492; nakladatel: SPN" role="graphics-symbol" aria-roledescription="bar" d="M123.21838093193043,46.44670050761424h2v153.55329949238575h-2Z" fill="#588438"/>
+								
+                
+								<path aria-label="rok: Jan 01, 1959; podĂ­l: 0.140325670498; nakladatel: SPN" role="graphics-symbol" aria-roledescription="bar" d="M126.35344642473696,59.674329501915736h2v140.32567049808426h-2Z" fill="#588438"/>
+								
+                
+								<path aria-label="rok: Jan 01, 1960; podĂ­l: 0.180976625781; nakladatel: SPN" role="graphics-symbol" aria-roledescription="bar" d="M129.4885119175435,19.023374218930833h2v180.97662578106917h-2Z" fill="#588438"/>
+								
+                
+								<path aria-label="rok: Jan 01, 1961; podĂ­l: 0.167394803403; nakladatel: SPN" role="graphics-symbol" aria-roledescription="bar" d="M132.63216663087823,32.60519659691885h2v167.39480340308114h-2Z" fill="#588438"/>
+								
+                
+								<path aria-label="rok: Jan 01, 1962; podĂ­l: 0.165942028986; nakladatel: SPN" role="graphics-symbol" aria-roledescription="bar" d="M135.76723212368478,34.05797101449275h2v165.94202898550725h-2Z" fill="#588438"/>
+								
+                
+								<path aria-label="rok: Jan 01, 1963; podĂ­l: 0.160009182736; nakladatel: SPN" role="graphics-symbol" aria-roledescription="bar" d="M138.9022976164913,39.990817263544564h2v160.00918273645544h-2Z" fill="#588438"/>
+								
+                
+								<path aria-label="rok: Jan 01, 1964; podĂ­l: 0.156361900215; nakladatel: SPN" role="graphics-symbol" aria-roledescription="bar" d="M142.03736310929784,43.63809978515158h2v156.36190021484842h-2Z" fill="#588438"/>
+								
+                
+								<path aria-label="rok: Jan 01, 1965; podĂ­l: 0.179010730175; nakladatel: SPN" role="graphics-symbol" aria-roledescription="bar" d="M145.18101782263258,20.989269824653235h2v179.01073017534677h-2Z" fill="#588438"/>
+								
+                
+								<path aria-label="rok: Jan 01, 1966; podĂ­l: 0.161085743278; nakladatel: SPN" role="graphics-symbol" aria-roledescription="bar" d="M148.31608331543913,38.914256722475926h2v161.08574327752407h-2Z" fill="#588438"/>
+								
+                
+								<path aria-label="rok: Jan 01, 1967; podĂ­l: 0.133912128387; nakladatel: SPN" role="graphics-symbol" aria-roledescription="bar" d="M151.45114880824565,66.08787161273348h2v133.91212838726653h-2Z" fill="#588438"/>
+								
+                
+								<path aria-label="rok: Jan 01, 1968; podĂ­l: 0.135457135457; nakladatel: SPN" role="graphics-symbol" aria-roledescription="bar" d="M154.5862143010522,64.54286454286455h2v135.45713545713545h-2Z" fill="#588438"/>
+								
+                
+								<path aria-label="rok: Jan 01, 1969; podĂ­l: 0.133523463832; nakladatel: SPN" role="graphics-symbol" aria-roledescription="bar" d="M157.72986901438694,66.47653616800622h2v133.52346383199378h-2Z" fill="#588438"/>
+								
+                
+								<path aria-label="rok: Jan 01, 1970; podĂ­l: 0.120999030068; nakladatel: SPN" role="graphics-symbol" aria-roledescription="bar" d="M160.86493450719348,79.00096993210475h2v120.99903006789525h-2Z" fill="#588438"/>
+								
+                
+								<path aria-label="rok: Jan 01, 1971; podĂ­l: 0.131123206333; nakladatel: SPN" role="graphics-symbol" aria-roledescription="bar" d="M164,68.87679366650173h2v131.12320633349827h-2Z" fill="#588438"/>
+								
+                
+								<path aria-label="rok: Jan 01, 1972; podĂ­l: 0.138621388748; nakladatel: SPN" role="graphics-symbol" aria-roledescription="bar" d="M167.13506549280652,61.37861125190067h2v138.62138874809932h-2Z" fill="#588438"/>
+								
+                
+								<path aria-label="rok: Jan 01, 1973; podĂ­l: 0.141290487121; nakladatel: SPN" role="graphics-symbol" aria-roledescription="bar" d="M170.2787202061413,58.70951287936752h2v141.29048712063246h-2Z" fill="#588438"/>
+								
+                
+								<path aria-label="rok: Jan 01, 1974; podĂ­l: 0.138882048756; nakladatel: SPN" role="graphics-symbol" aria-roledescription="bar" d="M173.4137856989478,61.11795124353607h2v138.88204875646392h-2Z" fill="#588438"/>
+								
+                
+								<path aria-label="rok: Jan 01, 1975; podĂ­l: 0.150757393604; nakladatel: SPN" role="graphics-symbol" aria-roledescription="bar" d="M176.54885119175432,49.242606395768206h2v150.7573936042318h-2Z" fill="#588438"/>
+								
+                
+								<path aria-label="rok: Jan 01, 1976; podĂ­l: 0.141813898704; nakladatel: SPN" role="graphics-symbol" aria-roledescription="bar" d="M179.6839166845609,58.18610129564195h2v141.81389870435805h-2Z" fill="#588438"/>
+								
+                
+								<path aria-label="rok: Jan 01, 1977; podĂ­l: 0.153163950144; nakladatel: SPN" role="graphics-symbol" aria-roledescription="bar" d="M182.8275713978956,46.83604985618408h2v153.16395014381592h-2Z" fill="#588438"/>
+								
+                
+								<path aria-label="rok: Jan 01, 1978; podĂ­l: 0.137148262; nakladatel: SPN" role="graphics-symbol" aria-roledescription="bar" d="M185.96263689070219,62.85173799952708h2v137.14826200047293h-2Z" fill="#588438"/>
+								
+                
+								<path aria-label="rok: Jan 01, 1979; podĂ­l: 0.122601038609; nakladatel: SPN" role="graphics-symbol" aria-roledescription="bar" d="M189.0977023835087,77.39896139083315h2v122.60103860916685h-2Z" fill="#588438"/>
+								
+                
+								<path aria-label="rok: Jan 01, 1980; podĂ­l: 0.123356704645; nakladatel: SPN" role="graphics-symbol" aria-roledescription="bar" d="M192.23276787631522,76.6432953549518h2v123.3567046450482h-2Z" fill="#588438"/>
+								
+                
+								<path aria-label="rok: Jan 01, 1981; podĂ­l: 0.115899296893; nakladatel: SPN" role="graphics-symbol" aria-roledescription="bar" d="M195.37642258965,84.10070310728057h2v115.89929689271943h-2Z" fill="#588438"/>
+								
+                
+								<path aria-label="rok: Jan 01, 1982; podĂ­l: 0.134598603839; nakladatel: SPN" role="graphics-symbol" aria-roledescription="bar" d="M198.5114880824565,65.40139616055849h2v134.59860383944152h-2Z" fill="#588438"/>
+								
+                
+								<path aria-label="rok: Jan 01, 1983; podĂ­l: 0.117595628415; nakladatel: SPN" role="graphics-symbol" aria-roledescription="bar" d="M201.64655357526303,82.40437158469946h2v117.59562841530054h-2Z" fill="#588438"/>
+								
+                
+								<path aria-label="rok: Jan 01, 1984; podĂ­l: 0.104586013696; nakladatel: SPN" role="graphics-symbol" aria-roledescription="bar" d="M204.78161906806957,95.4139863042125h2v104.5860136957875h-2Z" fill="#588438"/>
+								
+                
+								<path aria-label="rok: Jan 01, 1985; podĂ­l: 0.115335868188; nakladatel: SPN" role="graphics-symbol" aria-roledescription="bar" d="M207.92527378140431,84.6641318124208h2v115.3358681875792h-2Z" fill="#588438"/>
+								
+                
+								<path aria-label="rok: Jan 01, 1986; podĂ­l: 0.112044244162; nakladatel: SPN" role="graphics-symbol" aria-roledescription="bar" d="M211.0603392742109,87.95575583777142h2v112.04424416222858h-2Z" fill="#588438"/>
+								
+                
+								<path aria-label="rok: Jan 01, 1987; podĂ­l: 0.0881997583568; nakladatel: SPN" role="graphics-symbol" aria-roledescription="bar" d="M214.1954047670174,111.80024164317359h2v88.19975835682641h-2Z" fill="#588438"/>
+								
+                
+								<path aria-label="rok: Jan 01, 1988; podĂ­l: 0.100908372828; nakladatel: SPN" role="graphics-symbol" aria-roledescription="bar" d="M217.33047025982393,99.09162717219589h2v100.90837282780411h-2Z" fill="#588438"/>
+								
+                
+								<path aria-label="rok: Jan 01, 1989; podĂ­l: 0.0943543660871; nakladatel: SPN" role="graphics-symbol" aria-roledescription="bar" d="M220.4741249731587,105.6456339128736h2v94.3543660871264h-2Z" fill="#588438"/>
+								
+                
+								<path aria-label="rok: Jan 01, 1990; podĂ­l: 0.0608470501202; nakladatel: SPN" role="graphics-symbol" aria-roledescription="bar" d="M223.6091904659652,139.15294987978547h2v60.84705012021453h-2Z" fill="#588438"/>
+								
+                
+								<path aria-label="rok: Jan 01, 1991; podĂ­l: 0.0296357615894; nakladatel: ostatnĂ­" role="graphics-symbol" aria-roledescription="bar" d="M226.74425595877173,170.36423841059602h2v29.635761589403984h-2Z" fill="#F2E9DE"/>
+								
+                
+								<path aria-label="rok: Jan 01, 1992; podĂ­l: 0.0624534207781; nakladatel: Ĺ˝eleznĂ˝" role="graphics-symbol" aria-roledescription="bar" d="M229.87932145157828,137.54657922194068h2v62.453420778059325h-2Z" fill="#33444C"/>
+								
+                
+								<path aria-label="rok: Jan 01, 1993; podĂ­l: 0.13673959445; nakladatel: Ĺ˝eleznĂ˝" role="graphics-symbol" aria-roledescription="bar" d="M233.02297616491302,63.26040554962646h2v136.73959445037354h-2Z" fill="#33444C"/>
+								
+                
+								<path aria-label="rok: Jan 01, 1994; podĂ­l: 0.115315776016; nakladatel: Ĺ˝eleznĂ˝" role="graphics-symbol" aria-roledescription="bar" d="M236.15804165771956,84.6842239836359h2v115.3157760163641h-2Z" fill="#33444C"/>
+								
+                
+								<path aria-label="rok: Jan 01, 1995; podĂ­l: 0.100617931678; nakladatel: Ĺ˝eleznĂ˝" role="graphics-symbol" aria-roledescription="bar" d="M239.29310715052608,99.3820683222572h2v100.6179316777428h-2Z" fill="#33444C"/>
+								
+                
+								<path aria-label="rok: Jan 01, 1996; podĂ­l: 0.069798213695; nakladatel: Ĺ˝eleznĂ˝" role="graphics-symbol" aria-roledescription="bar" d="M242.4281726433326,130.20178630499504h2v69.79821369500496h-2Z" fill="#33444C"/>
+								
+                
+								<path aria-label="rok: Jan 01, 1997; podĂ­l: 0.0778116139872; nakladatel: Ĺ˝eleznĂ˝" role="graphics-symbol" aria-roledescription="bar" d="M245.5718273566674,122.1883860128111h2v77.8116139871889h-2Z" fill="#33444C"/>
+								
+                
+								<path aria-label="rok: Jan 01, 1998; podĂ­l: 0.0640573089701; nakladatel: Ĺ˝eleznĂ˝" role="graphics-symbol" aria-roledescription="bar" d="M248.70689284947392,135.94269102990035h2v64.05730897009965h-2Z" fill="#33444C"/>
+								
+                
+								<path aria-label="rok: Jan 01, 1999; podĂ­l: 0.0461077844311; nakladatel: Ĺ˝eleznĂ˝" role="graphics-symbol" aria-roledescription="bar" d="M251.84195834228044,153.89221556886227h2v46.10778443113773h-2Z" fill="#33444C"/>
+								
+                
+								<path aria-label="rok: Jan 01, 2000; podĂ­l: 0.031771321462; nakladatel: Ĺ˝eleznĂ˝" role="graphics-symbol" aria-roledescription="bar" d="M254.97702383508698,168.22867853795688h2v31.77132146204312h-2Z" fill="#33444C"/>
+								
+                
+								<path aria-label="rok: Jan 01, 2001; podĂ­l: 0.0298097851803; nakladatel: ostatnĂ­" role="graphics-symbol" aria-roledescription="bar" d="M258.1206785484217,170.19021481972177h2v29.809785180278226h-2Z" fill="#F2E9DE"/>
+								
+                
+								<path aria-label="rok: Jan 01, 2002; podĂ­l: 0.0268721225218; nakladatel: ostatnĂ­" role="graphics-symbol" aria-roledescription="bar" d="M261.2557440412283,173.12787747815466h2v26.87212252184534h-2Z" fill="#F2E9DE"/>
+								
+                
+								<path aria-label="rok: Jan 01, 2003; podĂ­l: 0.025193269668; nakladatel: MOBA" role="graphics-symbol" aria-roledescription="bar" d="M264.3908095340348,174.80673033196908h2v25.193269668030922h-2Z" fill="#C8414D"/>
+								
+                
+								<path aria-label="rok: Jan 01, 2004; podĂ­l: 0.0276326277566; nakladatel: MOBA" role="graphics-symbol" aria-roledescription="bar" d="M267.52587502684133,172.3673722433797h2v27.63262775662031h-2Z" fill="#C8414D"/>
+								
+                
+								<path aria-label="rok: Jan 01, 2005; podĂ­l: 0.028492488344; nakladatel: MOBA" role="graphics-symbol" aria-roledescription="bar" d="M270.6695297401761,171.50751165601795h2v28.492488343982046h-2Z" fill="#C8414D"/>
+								
+                
+								<path aria-label="rok: Jan 01, 2006; podĂ­l: 0.0282218597064; nakladatel: MOBA" role="graphics-symbol" aria-roledescription="bar" d="M273.8045952329826,171.77814029363785h2v28.221859706362153h-2Z" fill="#C8414D"/>
+								
+                
+								<path aria-label="rok: Jan 01, 2007; podĂ­l: 0.0279044600758; nakladatel: ostatnĂ­" role="graphics-symbol" aria-roledescription="bar" d="M276.9396607257891,172.0955399242483h2v27.9044600757517h-2Z" fill="#F2E9DE"/>
+								
+                
+								<path aria-label="rok: Jan 01, 2008; podĂ­l: 0.0268868972669; nakladatel: MOBA" role="graphics-symbol" aria-roledescription="bar" d="M280.07472621859563,173.1131027331309h2v26.886897266869113h-2Z" fill="#C8414D"/>
+								
+                
+								<path aria-label="rok: Jan 01, 2009; podĂ­l: 0.0289809418806; nakladatel: MOBA" role="graphics-symbol" aria-roledescription="bar" d="M283.2183809319304,171.0190581193889h2v28.980941880611113h-2Z" fill="#C8414D"/>
+								
+                
+								<path aria-label="rok: Jan 01, 2010; podĂ­l: 0.0279005946028; nakladatel: ostatnĂ­" role="graphics-symbol" aria-roledescription="bar" d="M286.35344642473694,172.0994053971642h2v27.90059460283581h-2Z" fill="#F2E9DE"/>
+								
+                
+								<path aria-label="rok: Jan 01, 2011; podĂ­l: 0.0291015474632; nakladatel: ostatnĂ­" role="graphics-symbol" aria-roledescription="bar" d="M289.4885119175435,170.89845253676188h2v29.10154746323812h-2Z" fill="#F2E9DE"/>
+								
+                
+								<path aria-label="rok: Jan 01, 2012; podĂ­l: 0.02536427415; nakladatel: MOBA" role="graphics-symbol" aria-roledescription="bar" d="M292.62357741035004,174.63572584997303h2v25.364274150026972h-2Z" fill="#C8414D"/>
+								
+                
+								<path aria-label="rok: Jan 01, 2013; podĂ­l: 0.0293501048218; nakladatel: ostatnĂ­" role="graphics-symbol" aria-roledescription="bar" d="M295.7672321236848,170.64989517819706h2v29.350104821802944h-2Z" fill="#F2E9DE"/>
+								
+                
+								<path aria-label="rok: Jan 01, 2014; podĂ­l: 0.0266145114281; nakladatel: MOBA" role="graphics-symbol" aria-roledescription="bar" d="M298.9022976164913,173.38548857186686h2v26.61451142813314h-2Z" fill="#C8414D"/>
+								
+                
+								<path aria-label="rok: Jan 01, 2015; podĂ­l: 0.0262267979259; nakladatel: MOBA" role="graphics-symbol" aria-roledescription="bar" d="M302.0373631092978,173.77320207409633h2v26.226797925903668h-2Z" fill="#C8414D"/>
+								
+                
+								<path aria-label="rok: Jan 01, 2016; podĂ­l: 0.0292682926829; nakladatel: MOBA" role="graphics-symbol" aria-roledescription="bar" d="M305.17242860210433,170.73170731707316h2v29.26829268292684h-2Z" fill="#C8414D"/>
+								
+                
+								<path aria-label="rok: Jan 01, 2017; podĂ­l: 0.0263596665343; nakladatel: MOBA" role="graphics-symbol" aria-roledescription="bar" d="M308.31608331543913,173.64033346566097h2v26.359666534339027h-2Z" fill="#C8414D"/>
+								
+                
+								<path aria-label="rok: Jan 01, 2018; podĂ­l: 0.0272748285692; nakladatel: MOBA" role="graphics-symbol" aria-roledescription="bar" d="M311.45114880824565,172.7251714307728h2v27.274828569227196h-2Z" fill="#C8414D"/>
+								
+                
+								<path aria-label="rok: Jan 01, 2019; podĂ­l: 0.0371600253004; nakladatel: Euromedia" role="graphics-symbol" aria-roledescription="bar" d="M314.58621430105217,162.83997469955725h2v37.160025300442754h-2Z" fill="#6B8EAA"/>
+								
+                
+								<path aria-label="rok: Jan 01, 2020; podĂ­l: 0.0366083676269; nakladatel: Euromedia" role="graphics-symbol" aria-roledescription="bar" d="M317.7212797938587,163.39163237311385h2v36.60836762688615h-2Z" fill="#6B8EAA"/>
+								
+                
+								<path aria-label="rok: Jan 01, 2021; podĂ­l: 0.0367951050107; nakladatel: Euromedia" role="graphics-symbol" aria-roledescription="bar" d="M320.8649345071935,163.20489498925087h2v36.795105010749126h-2Z" fill="#6B8EAA"/>
+								
+                
+								<path aria-label="rok: Jan 01, 2022; podĂ­l: 0.0345661107082; nakladatel: Euromedia" role="graphics-symbol" aria-roledescription="bar" d="M324,165.4338892917573h2v34.56611070824269h-2Z" fill="#6B8EAA"/>
+								
+              
+							</g>
+							
+              
+							<g class="mark-group role-legend" role="graphics-symbol" aria-roledescription="legend" aria-label="Symbol legend for fill color with 6 values: ostatnĂ­, Orbis, SPN, Ĺ˝eleznĂ˝, MOBA, Euromedia">
+								
+                
+								<g transform="translate(0,-29)">
+									
+                  
+									<path class="background" aria-hidden="true" d="M0,0h330v11h-330Z" pointer-events="none"/>
+									
+                  
+									<g>
+										
+                    
+										<g class="mark-group role-legend-entry">
+											
+                      
+											<g transform="translate(0,0)">
+												
+                        
+												<path class="background" aria-hidden="true" d="M0,0h0v0h0Z" pointer-events="none"/>
+												
+                        
+												<g>
+													
+                          
+													<g class="mark-group role-scope" role="graphics-object" aria-roledescription="group mark container">
+														
+                            
+														<g transform="translate(0,0)">
+															
+                              
+															<path class="background" aria-hidden="true" d="M0,0h46.32999801635742v11h-46.32999801635742Z" pointer-events="none" opacity="1"/>
+															
+                              
+															<g>
+																
+                                
+																<g class="mark-symbol role-legend-symbol" pointer-events="none">
+																	
+                                  
+																	<path transform="translate(6,6)" d="M-5,-5h10v10h-10Z" fill="#F2E9DE" stroke-width="1.5" opacity="1"/>
+																	
+                                
+																</g>
+																
+                                
+																<g class="mark-text role-legend-label" pointer-events="none">
+																	
+                                  
+																	<text text-anchor="start" transform="translate(16,9)" font-family="Asap" font-size="10px" font-weight="normal" fill="#000" opacity="1">ostatnĂ­</text>
+																	
+                                
+																</g>
+																
+                              
+															</g>
+															
+                              
+															<path class="foreground" aria-hidden="true" d="" pointer-events="none" display="none"/>
+															
+                            
+														</g>
+														
+                            
+														<g transform="translate(57,0)">
+															
+                              
+															<path class="background" aria-hidden="true" d="M0,0h39.439998626708984v11h-39.439998626708984Z" pointer-events="none" opacity="1"/>
+															
+                              
+															<g>
+																
+                                
+																<g class="mark-symbol role-legend-symbol" pointer-events="none">
+																	
+                                  
+																	<path transform="translate(6,6)" d="M-5,-5h10v10h-10Z" fill="#DFBD6E" stroke-width="1.5" opacity="1"/>
+																	
+                                
+																</g>
+																
+                                
+																<g class="mark-text role-legend-label" pointer-events="none">
+																	
+                                  
+																	<text text-anchor="start" transform="translate(16,9)" font-family="Asap" font-size="10px" font-weight="normal" fill="#000" opacity="1">Orbis</text>
+																	
+                                
+																</g>
+																
+                              
+															</g>
+															
+                              
+															<path class="foreground" aria-hidden="true" d="" pointer-events="none" display="none"/>
+															
+                            
+														</g>
+														
+                            
+														<g transform="translate(107,0)">
+															
+                              
+															<path class="background" aria-hidden="true" d="M0,0h33.88999938964844v11h-33.88999938964844Z" pointer-events="none" opacity="1"/>
+															
+                              
+															<g>
+																
+                                
+																<g class="mark-symbol role-legend-symbol" pointer-events="none">
+																	
+                                  
+																	<path transform="translate(6,6)" d="M-5,-5h10v10h-10Z" fill="#588438" stroke-width="1.5" opacity="1"/>
+																	
+                                
+																</g>
+																
+                                
+																<g class="mark-text role-legend-label" pointer-events="none">
+																	
+                                  
+																	<text text-anchor="start" transform="translate(16,9)" font-family="Asap" font-size="10px" font-weight="normal" fill="#000" opacity="1">SPN</text>
+																	
+                                
+																</g>
+																
+                              
+															</g>
+															
+                              
+															<path class="foreground" aria-hidden="true" d="" pointer-events="none" display="none"/>
+															
+                            
+														</g>
+														
+                            
+														<g transform="translate(151,0)">
+															
+                              
+															<path class="background" aria-hidden="true" d="M0,0h50.68000030517578v11h-50.68000030517578Z" pointer-events="none" opacity="1"/>
+															
+                              
+															<g>
+																
+                                
+																<g class="mark-symbol role-legend-symbol" pointer-events="none">
+																	
+                                  
+																	<path transform="translate(6,6)" d="M-5,-5h10v10h-10Z" fill="#33444C" stroke-width="1.5" opacity="1"/>
+																	
+                                
+																</g>
+																
+                                
+																<g class="mark-text role-legend-label" pointer-events="none">
+																	
+                                  
+																	<text text-anchor="start" transform="translate(16,9)" font-family="Asap" font-size="10px" font-weight="normal" fill="#000" opacity="1">Ĺ˝eleznĂ˝</text>
+																	
+                                
+																</g>
+																
+                              
+															</g>
+															
+                              
+															<path class="foreground" aria-hidden="true" d="" pointer-events="none" display="none"/>
+															
+                            
+														</g>
+														
+                            
+														<g transform="translate(212,0)">
+															
+                              
+															<path class="background" aria-hidden="true" d="M0,0h43.79999923706055v11h-43.79999923706055Z" pointer-events="none" opacity="1"/>
+															
+                              
+															<g>
+																
+                                
+																<g class="mark-symbol role-legend-symbol" pointer-events="none">
+																	
+                                  
+																	<path transform="translate(6,6)" d="M-5,-5h10v10h-10Z" fill="#C8414D" stroke-width="1.5" opacity="1"/>
+																	
+                                
+																</g>
+																
+                                
+																<g class="mark-text role-legend-label" pointer-events="none">
+																	
+                                  
+																	<text text-anchor="start" transform="translate(16,9)" font-family="Asap" font-size="10px" font-weight="normal" fill="#000" opacity="1">MOBA</text>
+																	
+                                
+																</g>
+																
+                              
+															</g>
+															
+                              
+															<path class="foreground" aria-hidden="true" d="" pointer-events="none" display="none"/>
+															
+                            
+														</g>
+														
+                            
+														<g transform="translate(266,0)">
+															
+                              
+															<path class="background" aria-hidden="true" d="M0,0h63.70000457763672v11h-63.70000457763672Z" pointer-events="none" opacity="1"/>
+															
+                              
+															<g>
+																
+                                
+																<g class="mark-symbol role-legend-symbol" pointer-events="none">
+																	
+                                  
+																	<path transform="translate(6,6)" d="M-5,-5h10v10h-10Z" fill="#6B8EAA" stroke-width="1.5" opacity="1"/>
+																	
+                                
+																</g>
+																
+                                
+																<g class="mark-text role-legend-label" pointer-events="none">
+																	
+                                  
+																	<text text-anchor="start" transform="translate(16,9)" font-family="Asap" font-size="10px" font-weight="normal" fill="#000" opacity="1">Euromedia</text>
+																	
+                                
+																</g>
+																
+                              
+															</g>
+															
+                              
+															<path class="foreground" aria-hidden="true" d="" pointer-events="none" display="none"/>
+															
+                            
+														</g>
+														
+                          
+													</g>
+													
+                        
+												</g>
+												
+                        
+												<path class="foreground" aria-hidden="true" d="" pointer-events="none" display="none"/>
+												
+                      
+											</g>
+											
+                    
+										</g>
+										
+                  
+									</g>
+									
+                  
+									<path class="foreground" aria-hidden="true" d="" pointer-events="none" display="none"/>
+									
+                
+								</g>
+								
+              
+							</g>
+							
+              
+							<g class="mark-group role-title">
+								
+                
+								<g transform="translate(-5.700000762939453,-47)">
+									
+                  
+									<path class="background" aria-hidden="true" d="M0,0h0v0h0Z" pointer-events="none"/>
+									
+                  
+									<g>
+										
+                    
+										<g class="mark-text role-title-text" role="graphics-symbol" aria-roledescription="title" aria-label="Title text 'PodĂ­l nejvÄ›tĹˇĂ­ho nakladatelstvĂ­ na vydanĂ˝ch knihĂˇch'" pointer-events="none">
+											
+                      
+											<text text-anchor="start" transform="translate(0,-1)" font-family="Noticia Text" font-size="14px" font-weight="bolder" fill="#000" opacity="1">PodĂ­l nejvÄ›tĹˇĂ­ho nakladatelstvĂ­ na vydanĂ˝ch knihĂˇch</text>
+											
+                    
+										</g>
+										
+                  
+									</g>
+									
+                  
+									<path class="foreground" aria-hidden="true" d="" pointer-events="none" display="none"/>
+									
+                
+								</g>
+								
+              
+							</g>
+							
+            
+						</g>
+						
+            
+						<path class="foreground" aria-hidden="true" d="" display="none"/>
+						
+          
+					</g>
+					
+        
+				</g>
+				
+      
+			</g>
+			
+    
+		</g>
+		
+    
+		<g class="marks" transform="translate(56.0, 286.0) scale(1 1) ">
+			
+      
+			<rect width="318" height="31" fill="white"/>
+			
+      
+			<g fill="none" stroke-miterlimit="10" transform="translate(9,6)">
+				
+        
+				<g class="mark-group role-frame root" role="graphics-object" aria-roledescription="group mark container">
+					
+          
+					<g transform="translate(0,0)">
+						
+            
+						<path class="background" aria-hidden="true" d="M0,0h300v20h-300Z"/>
+						
+            
+						<g>
+							
+              
+							<g class="mark-text role-mark marks" role="graphics-object" aria-roledescription="text mark container">
+								
+                
+								<text aria-label="text: zdroj dat: ÄŚeskĂˇ nĂˇrodnĂ­ bibliografie Â· vizualizace: iROZHLAS.cz Â· 2025" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(150,7)" font-family="Asap" font-size="10px" fill="black">zdroj dat: ÄŚeskĂˇ nĂˇrodnĂ­ bibliografie Â· vizualizace: iROZHLAS.cz Â· 2025</text>
+								
+              
+							</g>
+							
+            
+						</g>
+						
+            
+						<path class="foreground" aria-hidden="true" d="" display="none"/>
+						
+          
+					</g>
+					
+        
+				</g>
+				
+      
+			</g>
+			
+    
+		</g>
+		
+  
+	</g>
+	
+
+</svg>
