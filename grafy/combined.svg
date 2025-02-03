@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" width="374px" height="317px">
-  <rect width="374" height="317" fill="white"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="374px" height="326px">
+  <rect width="374" height="326" fill="white"/>
   <g transform="translate(0,0)">
     <ns0:rect xmlns:ns0="http://www.w3.org/2000/svg" width="374" height="286" fill="white"/>
     <ns1:g xmlns:ns1="http://www.w3.org/2000/svg" fill="none" stroke-miterlimit="10" transform="translate(11,64)">
@@ -319,14 +319,14 @@
     </ns1:g>
   </g>
   <g transform="translate(56,286)">
-    <ns0:rect xmlns:ns0="http://www.w3.org/2000/svg" width="318" height="31" fill="white"/>
-    <ns1:g xmlns:ns1="http://www.w3.org/2000/svg" fill="none" stroke-miterlimit="10" transform="translate(9,6)">
+    <ns0:rect xmlns:ns0="http://www.w3.org/2000/svg" width="318" height="40" fill="white"/>
+    <ns1:g xmlns:ns1="http://www.w3.org/2000/svg" fill="none" stroke-miterlimit="10" transform="translate(9,5)">
       <ns1:g class="mark-group role-frame root" role="graphics-object" aria-roledescription="group mark container">
         <ns1:g transform="translate(0,0)">
-          <ns1:path class="background" aria-hidden="true" d="M0,0h300v20h-300Z"/>
+          <ns1:path class="background" aria-hidden="true" d="M0,0h300v30h-300Z"/>
           <ns1:g>
             <ns1:g class="mark-text role-mark marks" role="graphics-object" aria-roledescription="text mark container">
-              <ns1:text aria-label="text: zdroj dat: Česká národní bibliografie · vizualizace: iROZHLAS.cz · 2025" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(150,7)" font-family="Asap" font-size="10px" fill="black">zdroj dat: Česká národní bibliografie · vizualizace: iROZHLAS.cz · 2025</ns1:text>
+              <ns1:text aria-label="text: zdroj dat: Česká národní bibliografie · vizualizace: iROZHLAS.cz · 2025" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(150,12)" font-family="Asap" font-size="10px" fill="black">zdroj dat: Česká národní bibliografie · vizualizace: iROZHLAS.cz · 2025</ns1:text>
             </ns1:g>
           </ns1:g>
           <ns1:path class="foreground" aria-hidden="true" d="" display="none"/>
