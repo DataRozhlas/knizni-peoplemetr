@@ -139,8 +139,8 @@ Při zpracování dat se právě z tohoto seznamu berou čísla sloupců k zacho
 - 710_b - _podřízená složka_
 - 710_4 - role korp.
 - 710_7 - _číslo autority_
-- 830_a - název edice
 - 810_p - řada *
+- 830_a - název edice
 - 928_a - _národní pole_, nakladatel pro záznam
 - 964_a - předmětové heslo
 
