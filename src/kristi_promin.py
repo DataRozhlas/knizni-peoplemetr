@@ -7,6 +7,7 @@ def kristi_promin():
             "title": {'font': "Noticia Text",
                     'fontSize': 14,
                     'anchor': 'start',
+                    'lineHeight': 21,
                     'fontWeight': 'bolder',
                     'subtitleFont': 'Noticia Text',
                     'subtitleFontSize': 12,
@@ -22,7 +23,9 @@ def kristi_promin():
                 "labelFontSize": 10,
                 "titleFontSize": 10,
                 'labelPadding': 2,
-                'titlePadding': 10
+                'titlePadding': 10,
+                'domainOpacity': 0,
+                'tickColor': '#DCDDD6',
             },
             "legend": {
                 "labelFont": "Asap",
