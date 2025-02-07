@@ -51,6 +51,3 @@ def me_to_neurazi(image1_path, image2_path, output_path):
     # Write the final UTF-8 encoded SVG file
     with open(output_path, 'wb') as f:
         f.write(etree.tostring(new_svg, pretty_print=True, encoding='utf-8', xml_declaration=True))
-
-# Example usage
-concatenate_svg_vertically('grafy/zivoty_a_kariery.svg', 'grafy/credits.svg', 'grafy/cervi_dira.svg')
