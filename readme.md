@@ -29,8 +29,6 @@ Užitečné klíče k datům ČNB:
     - Podle lidí z NK je můj filtr příliš přísný.
     - Nová vydání starších knih lze odhalit skrz datum vydání na Goodreads a na Databázi knih.
 
-- Doladit skript pro vypreparovávání let narození a úmrtí: ```-1973```, ```-asi 1174```, ```129-asi 216```, ```604 př. Kr.-531 př. Kr.```…
-
 - s. 052: Pořešit více rolí jednoho člověka na jedné knize.
 
 - s. 052: Zefektivnit hledání opakovaných klíčů.
