@@ -3,6 +3,6 @@ def bez_bordelu(text):
         return text
         
     if not text[-1].isalnum():  # Check if last character is not a letter
-        return text[:-1].strip()
+        return text[:-1].replace(']','').replace('[','').strip()
     
     return text

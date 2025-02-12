@@ -20,7 +20,9 @@ geckodriver.log
 barvy/
 mapy/
 *.png
-skc.db
+*.db
+*.wal
+*.swp
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
