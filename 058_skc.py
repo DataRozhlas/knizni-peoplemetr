@@ -6,6 +6,7 @@ import pyarrow as pa
 # Define the namespace
 NS = {'marc': 'http://www.loc.gov/MARC21/slim'}
 
+def stream_marc_records(file_path):
     """Stream MARC records to avoid loading entire file into memory"""
     context = ET.iterparse(file_path, events=('end',))
     for event, elem in context:
