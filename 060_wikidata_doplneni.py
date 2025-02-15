@@ -1,3 +1,6 @@
+# Skript najde personální autority lidí, kteří jsou uvedení alespoň 
+# u dvou knih, a zkusí jim na Wikidatech přiřadit ID.
+
 import gc
 import os
 import json
@@ -13,7 +16,7 @@ vyhledane = set([x.split("_")[0] for x in vsechny_jsony])
 df = pd.read_parquet(os.path.join("data/cnb_sloupce","100.parquet"))
 df = df.explode('100_7')
 
-print(f"Unikátních kódů personálních autorit 100_7: {len(df['100_7'].nunique())}")
+print(f"Unikátních kódů personálních autorit 100_7: {df['100_7'].nunique()}")
 
 opakovane = df.groupby('100_7').size()
 opakovane = opakovane.sort_values(ascending=False)

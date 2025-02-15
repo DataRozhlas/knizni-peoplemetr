@@ -11,7 +11,7 @@ def kristi_promin():
                     'fontWeight': 'bolder',
                     'subtitleFont': 'Noticia Text',
                     'subtitleFontSize': 12,
-                    'subtitleFontWeight': 'lighter',
+#                    'subtitleFontWeight': 'lighter', # nečitelné na mobilu
                     'subtitlePadding': 12,
                     'dy': -12,
                     },

@@ -23,6 +23,8 @@ Užitečné klíče k datům ČNB:
 
 ## To-do
 
+- Obecně velký technologický dluh: v půlce práce jsem začal přecházet z pandas na Polars a DuckDB. Taky se postupně změnilo těžiště projektu z rychlého obstarávání knižních novinek a jejich sledování na platformách k čištění a analýze dat o starší produkci z Národní knihovny a Wikidat. Ale to vlastně není to-do, protože přepisovat už to nehodlám. Tak jen že pardon!
+
 - Předělat filtry pro generování seznamu ISBN ke sledování a souborů ```cnb_vyber.parquet``` i ```aut_vyber.parquet```.
 
     - Nelze spoléhat na informace o vydání, lepší je odstranit duplikáty v mírně pročištěném dataframu.

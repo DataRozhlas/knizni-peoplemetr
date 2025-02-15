@@ -1,46 +1,19 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
+# První fáze zpracování medialonů z Wikidat: 
+# hodnoty se ještě načtou jako kódy, ne srozumitelné řetězce.
+# Export do wikidata_raw.json. 
 
 import os
 import re
 import json
 import pandas as pd
 
-
-# In[2]:
-
-
-pd.set_option('display.max_columns', 100)
-pd.set_option('display.max_rows', 500)
-
-
-# In[3]:
-
-
 odkud = 'downloads/wikidata/autority'
-
-
-# In[4]:
-
 
 def najdi_letopocet(x):
     try:
         return int(re.search(r"\d{4}",x).group())
     except:
         return None
-
-
-# In[5]:
-
-
-len([f for f in os.listdir("downloads/wikidata/autority")])
-
-
-# In[6]:
-
 
 medailony = []
 pocitadlo = 0
@@ -194,102 +167,19 @@ for f in [f for f in os.listdir("downloads/wikidata/autority")]:
     
     medailony.append(medailon)
 
-
-# In[7]:
-
-
-medailony[5:100]
-
-
-# In[8]:
-
-
-import sys
-sys.getsizeof(medailony)
-
-
-# In[9]:
-
-
-text = "text"
-sys.getsizeof(text)
-
-
-# In[10]:
-
-
 df = pd.read_json(os.path.join("data_raw","autority_wikidataids.json")).reset_index(drop=False)
-
-
-# In[11]:
-
-
-df
-
-
-# In[12]:
-
 
 df = df.merge(pd.DataFrame(medailony), on='024_a').set_index('index')
 
+print("Vzorek dat:")
 
-# In[13]:
-
-
-df.sample(20)
-
-
-# In[14]:
-
-
-df[df.index == 'Q93240837']
-
-
-# In[15]:
-
-
-df[df['024_a'] == 'Q571203']
-
-
-# In[16]:
-
-
-df[df['024_a'] == 'Q16861736']
-
-
-# In[17]:
-
-
-df[df.index == 'jx20100301005']
-
-
-# In[18]:
-
-
-df.sample(10)
-
-
-# In[19]:
-
+print(df.sample(10))
 
 df.to_json(os.path.join('data_raw','wikidata_raw.json'))
 
+print("Soubor wikidata_raw.json uložen.")
 
-# In[20]:
-
-
-df.info(memory_usage="deep")
-
-
-# In[21]:
-
-
-df.columns
-
-
-# In[22]:
-
-
+print("Vyplněnost sloupců:")
 for sloupec in df.columns.to_list():
     print(f"{sloupec}: {int(len(df[df[sloupec].notnull()])/len(df)*100)} %")
 

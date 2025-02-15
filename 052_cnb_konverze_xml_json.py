@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 # Převede rozsekané XML s Českou národní bibliografií na JSONy, se kterými se už dá pracovat např. v pandas.
 
 import os

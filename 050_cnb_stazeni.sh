@@ -1,3 +1,7 @@
+# Skript stáhne z webu Národní knihovny následující data:
+# - Česká národní bibliografie (cnb.xml)
+# - Databáze národních autorit NK ČR (aut.xml)
+# - Souborný katalog ČR (skc.xml -- bacha, 27 GB)
 rm "./downloads/smazat_cnb.xml.gz"
 rm "./downloads/smazat_aut.xml.gz"
 rm "./downloads/smazat_skc.xml.gz"

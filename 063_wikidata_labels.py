@@ -1,127 +1,102 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
+# Postahujeme labels pro kryptické entity ve wikidata_raw.json.
 
 import os
 import re
 import json
 import requests
 import pandas as pd
+from multiprocessing import Pool, cpu_count
+from functools import partial
+from itertools import islice
 
+def chunk_list(lst, chunk_size):
+    """Split list into chunks of specified size"""
+    iterator = iter(lst)
+    return list(iter(lambda: list(islice(iterator, chunk_size)), []))
 
-# In[2]:
-
-
-pd.set_option('display.max_columns', 100)
-pd.set_option('display.max_rows', 500)
-
-
-# In[3]:
-
-
-df = pd.read_json(os.path.join('data_raw','wikidata_raw.json'))
-
-
-# In[4]:
-
-
-vsechny_hodnoty = []
-for sloupec in df.columns.to_list():
-    sl = df.explode(sloupec)[sloupec].drop_duplicates().to_list()
-    for s in sl:
-        if re.findall(r'^Q\d\d', str(s)):
-            vsechny_hodnoty.append(str(s))
-vsechny_hodnoty = list(set(vsechny_hodnoty))
-
-
-# In[5]:
-
-
-len(vsechny_hodnoty)
-
-
-# In[6]:
-
-
-kam = 'downloads/wikidata/nazvy'
-
-
-# In[7]:
-
-
-if not os.path.exists(kam):
-    os.makedirs(kam)
-
-
-# In[8]:
-
-
-nestahovat = []
-for f in os.listdir(kam):
-    with open(os.path.join(kam, f), "r", encoding="utf-8") as soubor:
-        slovnik = json.loads(soubor.read())
-    try:
-        for q in list(slovnik['entities'].keys()):
-            nestahovat.append(q)
-    except:
-        print(f)
-        os.remove(os.path.join(kam, f))
-
-
-# In[9]:
-
-
-len(nestahovat)
-
-
-# In[10]:
-
-
-nestahovat = set(nestahovat)
-
-
-# In[11]:
-
-
-def get_labels(ktere):
+def get_labels(ktere, kam):
+    """Download and save labels for a chunk of Q-values"""
     seznam = '|'.join(ktere)
     nazev = '-'.join(ktere[0:3])
     url = f"https://www.wikidata.org/w/api.php?action=wbgetentities&props=labels&ids={seznam}&languages=cs|en|sk|de|fr|es|ru&format=json"
-    response = requests.get(url)
-    if response.status_code == 200:
-        with open(os.path.join(kam, f"{nazev}.json"), "w+", encoding="utf-8") as file:
-            json.dump(response.json(), file, ensure_ascii=False, indent=4)
-        print(f"Data has been saved to {nazev}.json")
-    else:
-        print(f"Failed to retrieve data: {response.status_code}")
+    
+    try:
+        response = requests.get(url)
+        if response.status_code == 200:
+            output_path = os.path.join(kam, f"{nazev}.json")
+            with open(output_path, "w+", encoding="utf-8") as file:
+                json.dump(response.json(), file, ensure_ascii=False, indent=4)
+            return f"Success: Data saved to {nazev}.json"
+        else:
+            return f"Failed: HTTP {response.status_code} for chunk starting with {nazev}"
+    except Exception as e:
+        return f"Error: {str(e)} for chunk starting with {nazev}"
 
+def main():
+    # Create output directory
+    kam = 'downloads/wikidata/nazvy'
+    if not os.path.exists(kam):
+        os.makedirs(kam)
 
-# In[12]:
+    # Read and process input data
+    df = pd.read_json(os.path.join('data_raw', 'wikidata_raw.json'))
+    
+    print(df)
 
+    vsechny_hodnoty = []
+    for sloupec in df.columns.to_list():
+        sl = df.explode(sloupec)[sloupec].drop_duplicates().to_list()
+        for s in sl:
+            if re.findall(r'^Q\d\d', str(s)):
+                vsechny_hodnoty.append(str(s))
+    vsechny_hodnoty = list(set(vsechny_hodnoty))
+    
+    print(f"{len(vsechny_hodnoty)} different values in wikidata_raw.json")
 
-stahnout = [x for x in vsechny_hodnoty if x not in nestahovat]
+    # Get already downloaded items
+    nestahovat = set()
+    for f in os.listdir(kam):
+        try:
+            with open(os.path.join(kam, f), "r", encoding="utf-8") as soubor:
+                slovnik = json.loads(soubor.read())
+                nestahovat.update(slovnik['entities'].keys())
+        except Exception as e:
+            print(f"Error reading {f}: {str(e)}")
+            os.remove(os.path.join(kam, f))
 
+    print(f"{len(nestahovat)} already downloaded")
 
-# In[13]:
+    # Get items to download
+    stahnout = [x for x in vsechny_hodnoty if x not in nestahovat]
+    print(f"{len(stahnout)} remaining to download")
 
+    # Split into chunks of 50 items
+    chunks = chunk_list(stahnout, 50)
+    
+    # Determine number of processes
+    num_processes = min(cpu_count(), len(chunks))
+    print(f"Using {num_processes} processes")
 
-len(stahnout)
+    # Create partial function with fixed kam parameter
+    get_labels_with_path = partial(get_labels, kam=kam)
 
+    # Process chunks in parallel
+    with Pool(processes=num_processes) as pool:
+        results = []
+        for i, result in enumerate(pool.imap_unordered(get_labels_with_path, chunks)):
+            results.append(result)
+            print(f"Progress: {i+1}/{len(chunks)} chunks processed")
+            print(result)
 
-# In[14]:
+    # Print summary
+    successes = sum(1 for r in results if r.startswith("Success"))
+    failures = sum(1 for r in results if r.startswith("Failed"))
+    errors = sum(1 for r in results if r.startswith("Error"))
+    
+    print("\nDownload Complete!")
+    print(f"Successful downloads: {successes}")
+    print(f"Failed requests: {failures}")
+    print(f"Errors: {errors}")
 
-
-pracovni = []
-pocitadlo = 0
-for v in stahnout:
-    pocitadlo += 1
-    pracovni.append(v)
-    if pocitadlo % 50 == 0:
-        get_labels(pracovni)
-        print(f'{pocitadlo:6}/{len(stahnout)}')
-        pracovni = []
-get_labels(pracovni)
-print('Hotovo!')
-
+if __name__ == '__main__':
+    main()

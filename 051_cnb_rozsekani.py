@@ -1,4 +1,5 @@
-# Rozseká XML na menší souborry, které při manipulaci neuvaří laptop.
+# Rozseká XML z NK na menší souborry, které při manipulaci neuvaří laptop.
+# Toto výhledově půjde přeskočit díky DuckDB, viz sešit 173_xml_jednoduse.ipynb.
 
 import os
 from lxml import etree as ET
@@ -22,7 +23,8 @@ def create_new_file(file_code, records, file_number):
 
     records.clear()
 
-kody = list(set([o.split(".xml")[0] for o in os.listdir("downloads") if len(o.split(".xml")[0]) == 3]))
+# kody = list(set([o.split(".xml")[0] for o in os.listdir("downloads") if len(o.split(".xml")[0]) == 3]))
+kody = ['cnb','aut']
 
 print(f"Zpracuji tyto datasety NK: {', '.join(kody)}.")
 

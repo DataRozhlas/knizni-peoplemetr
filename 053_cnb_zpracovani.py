@@ -1,7 +1,9 @@
 #!/usr/bin/
 
-## Skript zpracuje hrubé JSONy ve složce data_raw/cnb na data, která půjde v pandas otevřít na běžném stroji.
-## A to dvěma různými způsoby: 1/ vypreparuje jednotlivé sloupce do samostatných souborů, 2/ profiltruje dataset do jednoho souboru.
+# Skript zpracuje hrubé JSONy ve složce data_raw/cnb na data, která půjde 
+# v pandas otevřít na běžném stroji. Udělá to dvěma různými způsoby: 
+# 1/ vypreparuje jednotlivé sloupce do samostatných souborů, 
+# 2/ profiltruje dataset do jednoho souboru.
 
 import os
 import json
