@@ -1,6 +1,8 @@
-Dlouhodobé sledování české knižní produkce a jejího hodnocení na čtenářských platformách.
+Sledování české knižní produkce a jejího hodnocení na čtenářských platformách.
 
 ## Co tu je, co tu není a jak to funguje
+
+Je tu hodně dat o knihách, zvláště těch českých.
 
 - Ignorujte skripty a sešity do č. 049. Scrapují informace o knižních novinkách a o jejich hodnocení na platformách, tato data (za celé sledované odbobí, tzn. od dubna 2024 do posledního commitu) najdete ve složce ```data```, netřeba namáhat servery vícekrát.
 
@@ -23,7 +25,7 @@ Užitečné klíče k datům ČNB:
 
 ## To-do
 
-- Obecně velký technologický dluh: v půlce práce jsem začal přecházet z pandas na Polars a DuckDB. Taky se postupně změnilo těžiště projektu z rychlého obstarávání knižních novinek a jejich sledování na platformách k čištění a analýze dat o starší produkci z Národní knihovny a Wikidat. Ale to vlastně není to-do, protože přepisovat už to nehodlám. Tak jen že pardon!
+- Obecně velký technologický dluh: v půlce práce jsem začal přecházet z pandas na Polars a DuckDB – až pak jsem zjistil, že by sešity 051 až 054 šly naprogramovat mnohem přímočařeji. Taky se postupně změnilo těžiště projektu z rychlého obstarávání knižních novinek a jejich sledování na platformách k čištění a analýze dat o starší produkci z Národní knihovny a Wikidat. Ale to vlastně není to-do, protože přepisovat už to nehodlám. Tak jen že pardon!
 
 - Předělat filtry pro generování seznamu ISBN ke sledování a souborů ```cnb_vyber.parquet``` i ```aut_vyber.parquet```.
 
@@ -34,10 +36,6 @@ Užitečné klíče k datům ČNB:
 - s. 052: Pořešit více rolí jednoho člověka na jedné knize.
 
 - s. 052: Zefektivnit hledání opakovaných klíčů.
-
-- s. 053: Dořešit ukládání málo vyplněných sloupců v datasetu autorit. (Edit 2024-11-30: to už vůbec nevím, co znamená.)
-
-- s. 060+: Předělat sešity na skripty.
 
 - Pokusit se získat informace o přesných datech vydání. Něco je na Goodreads, ne moc spolehlivé. Pro nové knihy: kdy se poprvé změnilo předpokládané datum vydání na vyšlo? Nebo kdy je zakatalogovala knihovna?
 
