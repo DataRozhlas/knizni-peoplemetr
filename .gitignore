@@ -23,6 +23,8 @@ mapy/
 *.db
 *.wal
 *.swp
+*.zip
+rucni_zaloha/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

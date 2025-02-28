@@ -96,6 +96,8 @@ except Exception as e:
     print(e)
     kody = ['cnb','aut']
 
+kody = ['cnb','aut'] # vochcávka kvůli skc, udělat pořádně
+
 for file_code in kody:
 
     print(f"Budu konvertovat tyto zdroje: {', '.join(kody)}.")
