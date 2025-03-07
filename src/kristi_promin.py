@@ -5,25 +5,25 @@ def kristi_promin():
     return {
         "config" : {
             "title": {'font': "Noticia Text",
-                    'fontSize': 14,
+                    'fontSize': 12,
                     'anchor': 'start',
-                    'lineHeight': 21,
+                    'lineHeight': 19,
                     'fontWeight': 'bolder',
                     'subtitleFont': 'Noticia Text',
-                    'subtitleFontSize': 12,
+                    'subtitleFontSize': 10,
 #                    'subtitleFontWeight': 'lighter', # nečitelné na mobilu
-                    'subtitlePadding': 12,
-                    'dy': -12,
+                    'subtitlePadding': 10,
+                    'dy': -10,
                     },
             "axis": {
                 "labelFont": "Asap",
                 "titleFont": "Asap",
                 "fontWeight": "lighter",
                 "titleFontWeight": "lighter",
-                "labelFontSize": 10,
-                "titleFontSize": 10,
+                "labelFontSize": 8,
+                "titleFontSize": 8,
                 'labelPadding': 2,
-                'titlePadding': 10,
+                'titlePadding': 8,
                 'domainOpacity': 0,
                 'tickColor': '#DCDDD6',
             },
@@ -32,8 +32,8 @@ def kristi_promin():
                 "labelFontWeight": "normal",
                 "titleFont": "Asap",
                 "titleFontWeight": "normal",
-                "labelFontSize": 10,
-                "titleFontSize": 10
+                "labelFontSize": 8,
+                "titleFontSize": 8
             }
         }
     }

@@ -25,6 +25,7 @@ mapy/
 *.swp
 *.zip
 rucni_zaloha/
+stare/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

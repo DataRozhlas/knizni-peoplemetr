@@ -48,20 +48,30 @@ def me_to_neurazi(
             )
 
     os.makedirs(slozka, exist_ok=True)
-    graf.save("grafy/temp1.svg")
+    graf.save(f"grafy/{soubor}_temp1.svg")
+    try:
+        alternativni_text = f"""Graf s titulkem „{graf['title']['text']}“. Další texty by měly být čitelné ze zdrojového souboru SVG."""
+    except:
+        alternativni_text = "Omlouváme se, ale alternativní text se nepodařilo vygenerovat. Texty v grafu by měly být čitelné ze zdrojového souboru SVG."
+
     spodni = pl.DataFrame({"text": [kredity]})
     spodni = (
         alt.Chart(spodni.to_pandas(), width=300, height=30)
         .encode(x=alt.value(300), text=alt.Text("text:N"))
         .mark_text(
-            fontSize=10, font="Asap", baseline="line-bottom", align="right", dx=0
+            fontSize=8, font="Asap", baseline="line-bottom", align="right", dx=0
         )
         .configure_view(stroke="transparent")
     )
-    spodni.save("grafy/temp2.svg")
+    spodni.save(f"grafy/{soubor}_temp2.svg")
 
     concatenate_svg_vertically(
-        f"{slozka}/temp1.svg", f"{slozka}/temp2.svg", f"{slozka}/{soubor}.svg"
+        f"{slozka}/{soubor}_temp1.svg", f"{slozka}/{soubor}_temp2.svg", f"{slozka}/{soubor}.svg"
     )
 
-    print("ahoj")
+#    os.remove(f"{slozka}/{soubor}_temp1.svg")
+#    os.remove(f"{slozka}/{soubor}_temp2.svg")
+
+    print(f"""<figure><a href="https://data.irozhlas.cz/knihy-grafy/{soubor}.svg" target="_blank"><img src="https://data.irozhlas.cz/knihy-grafy/{soubor}.svg" width="100%" alt="{alternativni_text}" /></a></figure>""")
+
+    print(f"""<figure><a href="https://michalkasparek.cz/sklad/{soubor}.svg" target="_blank"><img src="https://michalkasparek.cz/sklad/{soubor}.svg" width="100%" alt="{alternativni_text}" /></a></figure>""")
