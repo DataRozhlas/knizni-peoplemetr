@@ -1,215 +1,215 @@
-<?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" width="554px" height="365px">
-  <rect width="554" height="365" fill="white"/>
-  <g transform="translate(0,0)">
-    <ns0:rect xmlns:ns0="http://www.w3.org/2000/svg" width="554" height="325" fill="white"/>
-    <ns1:g xmlns:ns1="http://www.w3.org/2000/svg" fill="none" stroke-miterlimit="10" transform="translate(109,61)">
-      <ns1:g class="mark-group role-frame root" role="graphics-object" aria-roledescription="group mark container">
-        <ns1:g transform="translate(0,0)">
-          <ns1:path class="background" aria-hidden="true" d="M0,0h0v0h0Z"/>
-          <ns1:g>
-            <ns1:g class="mark-group role-row-header row_header" role="graphics-object" aria-roledescription="group mark container">
-              <ns1:g transform="translate(-3,0)">
-                <ns1:path class="background" aria-hidden="true" d="M0,0h0v100h0Z"/>
-                <ns1:g>
-                  <ns1:g class="mark-group role-title">
-                    <ns1:g transform="translate(-91.05999755859375,50)">
-                      <ns1:path class="background" aria-hidden="true" d="M0,0h0v0h0Z" pointer-events="none"/>
-                      <ns1:g>
-                        <ns1:g class="mark-text role-title-text" role="graphics-symbol" aria-roledescription="title" aria-label="Title text 'všechny publikace'" pointer-events="none">
-                          <ns1:text text-anchor="start" transform="translate(0,3)" font-family="Asap" font-size="10px" fill="#000" opacity="1">všechny publikace</ns1:text>
-                        </ns1:g>
-                      </ns1:g>
-                      <ns1:path class="foreground" aria-hidden="true" d="" pointer-events="none" display="none"/>
-                    </ns1:g>
-                  </ns1:g>
-                </ns1:g>
-                <ns1:path class="foreground" aria-hidden="true" d="" display="none"/>
-              </ns1:g>
-              <ns1:g transform="translate(-3,141)">
-                <ns1:path class="background" aria-hidden="true" d="M0,0h0v100h0Z"/>
-                <ns1:g>
-                  <ns1:g class="mark-group role-title">
-                    <ns1:g transform="translate(-100.8499984741211,50)">
-                      <ns1:path class="background" aria-hidden="true" d="M0,0h0v0h0Z" pointer-events="none"/>
-                      <ns1:g>
-                        <ns1:g class="mark-text role-title-text" role="graphics-symbol" aria-roledescription="title" aria-label="Title text 'novinky nad 50 stran'" pointer-events="none">
-                          <ns1:text text-anchor="start" transform="translate(0,3)" font-family="Asap" font-size="10px" fill="#000" opacity="1">novinky nad 50 stran</ns1:text>
-                        </ns1:g>
-                      </ns1:g>
-                      <ns1:path class="foreground" aria-hidden="true" d="" pointer-events="none" display="none"/>
-                    </ns1:g>
-                  </ns1:g>
-                </ns1:g>
-                <ns1:path class="foreground" aria-hidden="true" d="" display="none"/>
-              </ns1:g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 537 358" xmlns="http://www.w3.org/2000/svg">
+ <rect width="537" height="358" fill="#fff"/>
+ <g transform="translate(0)">
+  <ns0:rect width="537" height="318" fill="white" xmlns:ns0="http://www.w3.org/2000/svg"/>
+  <ns1:g transform="translate(109,56)" fill="none" stroke-miterlimit="10" xmlns:ns1="http://www.w3.org/2000/svg">
+   <ns1:g class="mark-group role-frame root" aria-roledescription="group mark container" role="graphics-object">
+    <ns1:g transform="translate(0)">
+     <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
+     <ns1:g>
+      <ns1:g class="mark-group role-row-header row_header" aria-roledescription="group mark container" role="graphics-object">
+       <ns1:g transform="translate(-3)">
+        <ns1:path class="background" d="M0,0h0v100h0Z" aria-hidden="true"/>
+        <ns1:g>
+         <ns1:g class="mark-group role-title">
+          <ns1:g transform="translate(-91 50)">
+           <ns1:path class="background" d="M0,0h0v0h0Z" pointer-events="none" aria-hidden="true"/>
+           <ns1:g>
+            <ns1:g class="mark-text role-title-text" pointer-events="none" aria-label="Title text 'všechny publikace'" aria-roledescription="title" role="graphics-symbol">
+             <ns1:text transform="translate(0,3)" fill="#000" font-family="Asap" font-size="10px">všechny publikace</ns1:text>
             </ns1:g>
-            <ns1:g class="mark-group role-scope cell" role="graphics-object" aria-roledescription="group mark container">
-              <ns1:g transform="translate(0,0)">
-                <ns1:path class="background" aria-hidden="true" d="M0.5,0.5h400v100h-400Z"/>
-                <ns1:g>
-                  <ns1:g class="mark-group role-axis" aria-hidden="true">
-                    <ns1:g transform="translate(400.5,0.5)">
-                      <ns1:path class="background" aria-hidden="true" d="M0,0h0v0h0Z" pointer-events="none"/>
-                      <ns1:g>
-                        <ns1:g class="mark-rule role-axis-grid" pointer-events="none">
-                          <ns1:line transform="translate(0,76)" x2="-400" y2="0" stroke="#ddd" stroke-width="1" opacity="1"/>
-                          <ns1:line transform="translate(0,52)" x2="-400" y2="0" stroke="#ddd" stroke-width="1" opacity="1"/>
-                          <ns1:line transform="translate(0,27)" x2="-400" y2="0" stroke="#ddd" stroke-width="1" opacity="1"/>
-                          <ns1:line transform="translate(0,3)" x2="-400" y2="0" stroke="#ddd" stroke-width="1" opacity="1"/>
-                        </ns1:g>
-                      </ns1:g>
-                      <ns1:path class="foreground" aria-hidden="true" d="" pointer-events="none" display="none"/>
-                    </ns1:g>
-                  </ns1:g>
-                  <ns1:g class="mark-group role-axis" role="graphics-symbol" aria-roledescription="axis" aria-label="X-axis for a time scale with values from Wednesday, 01 January 1800, 12:00:00 AM to Sunday, 01 January 2023, 12:00:00 AM">
-                    <ns1:g transform="translate(0.5,100.5)">
-                      <ns1:path class="background" aria-hidden="true" d="M0,0h0v0h0Z" pointer-events="none"/>
-                      <ns1:g>
-                        <ns1:g class="mark-rule role-axis-tick" pointer-events="none">
-                          <ns1:line transform="translate(0,0)" x2="0" y2="5" stroke="#DCDDD6" stroke-width="1" opacity="1"/>
-                          <ns1:line transform="translate(90,0)" x2="0" y2="5" stroke="#DCDDD6" stroke-width="1" opacity="1"/>
-                          <ns1:line transform="translate(179,0)" x2="0" y2="5" stroke="#DCDDD6" stroke-width="1" opacity="1"/>
-                          <ns1:line transform="translate(269,0)" x2="0" y2="5" stroke="#DCDDD6" stroke-width="1" opacity="1"/>
-                          <ns1:line transform="translate(359,0)" x2="0" y2="5" stroke="#DCDDD6" stroke-width="1" opacity="1"/>
-                        </ns1:g>
-                        <ns1:g class="mark-text role-axis-label" pointer-events="none">
-                          <ns1:text text-anchor="start" transform="translate(0,15)" font-family="Asap" font-size="10px" fill="#000" opacity="1">1800</ns1:text>
-                          <ns1:text text-anchor="middle" transform="translate(89.68557184461115,15)" font-family="Asap" font-size="10px" fill="#000" opacity="1">1850</ns1:text>
-                          <ns1:text text-anchor="middle" transform="translate(179.37113595886782,15)" font-family="Asap" font-size="10px" fill="#000" opacity="1">1900</ns1:text>
-                          <ns1:text text-anchor="middle" transform="translate(269.056707803479,15)" font-family="Asap" font-size="10px" fill="#000" opacity="1">1950</ns1:text>
-                          <ns1:text text-anchor="middle" transform="translate(358.7422796480901,15)" font-family="Asap" font-size="10px" fill="#000" opacity="1">2000</ns1:text>
-                        </ns1:g>
-                      </ns1:g>
-                      <ns1:path class="foreground" aria-hidden="true" d="" pointer-events="none" display="none"/>
-                    </ns1:g>
-                  </ns1:g>
-                  <ns1:g class="mark-group role-axis" role="graphics-symbol" aria-roledescription="axis" aria-label="Y-axis for a linear scale with values from 0k to 21k">
-                    <ns1:g transform="translate(400.5,0.5)">
-                      <ns1:path class="background" aria-hidden="true" d="M0,0h0v0h0Z" pointer-events="none"/>
-                      <ns1:g>
-                        <ns1:g class="mark-rule role-axis-tick" pointer-events="none">
-                          <ns1:line transform="translate(0,76)" x2="5" y2="0" stroke="#DCDDD6" stroke-width="1" opacity="1"/>
-                          <ns1:line transform="translate(0,52)" x2="5" y2="0" stroke="#DCDDD6" stroke-width="1" opacity="1"/>
-                          <ns1:line transform="translate(0,27)" x2="5" y2="0" stroke="#DCDDD6" stroke-width="1" opacity="1"/>
-                          <ns1:line transform="translate(0,3)" x2="5" y2="0" stroke="#DCDDD6" stroke-width="1" opacity="1"/>
-                        </ns1:g>
-                        <ns1:g class="mark-text role-axis-label" pointer-events="none">
-                          <ns1:text text-anchor="start" transform="translate(7,78.7765179047342)" font-family="Asap" font-size="10px" fill="#000" opacity="1">5k</ns1:text>
-                          <ns1:text text-anchor="start" transform="translate(7,54.54819014391627)" font-family="Asap" font-size="10px" fill="#000" opacity="1">10k</ns1:text>
-                          <ns1:text text-anchor="start" transform="translate(7,30.319862383098314)" font-family="Asap" font-size="10px" fill="#000" opacity="1">15k</ns1:text>
-                          <ns1:text text-anchor="start" transform="translate(7,6.091534622280367)" font-family="Asap" font-size="10px" fill="#000" opacity="1">20k</ns1:text>
-                        </ns1:g>
-                        <ns1:g class="mark-rule role-axis-domain" pointer-events="none">
-                          <ns1:line transform="translate(0,100)" x2="0" y2="-100" stroke="#888" stroke-opacity="0" stroke-width="1" opacity="1"/>
-                        </ns1:g>
-                      </ns1:g>
-                      <ns1:path class="foreground" aria-hidden="true" d="" pointer-events="none" display="none"/>
-                    </ns1:g>
-                  </ns1:g>
-                  <ns1:g class="mark-line role-mark child_marks" role="graphics-object" aria-roledescription="line mark container">
-                    <ns1:path aria-label="rok: Jan 01, 1800; value: 1.00000" role="graphics-symbol" aria-roledescription="line mark" d="M0,100L1.793,99.898L3.585,99.913L5.378,99.898L7.17,99.84L8.968,99.893L10.76,99.927L12.553,99.859L14.345,99.869L16.143,99.879L17.935,99.855L19.728,99.922L21.52,99.855L23.318,99.898L25.11,99.855L26.903,99.864L28.695,99.85L30.493,99.85L32.285,99.767L34.078,99.719L35.87,99.733L37.668,99.617L39.46,99.758L41.253,99.675L43.045,99.632L44.843,99.67L46.635,99.7L48.428,99.588L50.22,99.68L52.018,99.767L53.81,99.578L55.603,99.69L57.395,99.68L59.193,99.733L60.985,99.714L62.778,99.637L64.57,99.666L66.368,99.714L68.16,99.714L69.953,99.729L71.746,99.53L73.543,99.627L75.335,99.554L77.128,99.457L78.921,99.336L80.718,99.404L82.511,99.477L84.303,99.414L86.096,99.196L87.893,99.268L89.686,99.239L91.478,99.162L93.271,98.929L95.068,99.026L96.861,99.026L98.653,99.215L100.446,99.181L102.243,99.045L104.036,98.585L105.828,98.968L107.621,98.755L109.418,98.566L111.211,98.372L113.003,97.805L114.796,98.217L116.593,98.367L118.386,98.793L120.178,98.653L121.971,98.343L123.768,98.377L125.561,98.139L127.353,98.449L129.146,97.8L130.943,97.81L132.736,97.015L134.528,97.364L136.321,97.834L138.118,97.955L139.911,97.868L141.703,97.882L143.496,97.209L145.293,96.734L147.086,97.093L148.878,96.908L150.671,97.005L152.468,96.676L154.261,96.807L156.053,96.739L157.846,96.54L159.643,96.526L161.436,95.765L163.229,95.838L165.021,95.377L166.818,95.387L168.611,95.251L170.404,94.825L172.196,94.81L173.994,94.108L175.786,93.783L177.579,94.311L179.371,93.41L181.164,91.128L182.956,90.1L184.749,90.406L186.541,90.73L188.339,91.166L190.131,89.078L191.924,89.887L193.716,88.525L195.514,89.058L197.306,87.556L199.099,87.92L200.891,87.256L202.689,86.868L204.481,89.979L206.274,93.187L208.066,92.635L209.864,92.295L211.656,90.725L213.449,83.253L215.241,79.12L217.039,81.373L218.831,79.222L220.624,79.319L222.416,77.051L224.214,74.333L226.006,76.208L227.799,77.065L229.592,75.898L231.389,76.13L233.181,72.884L234.974,75.689L236.767,77.361L238.564,77.361L240.357,76.154L242.149,72.893L243.942,68.227L245.739,68.203L247.532,72.54L249.324,79.425L251.117,72.884L252.914,74.323L254.706,86.834L256.499,89.853L258.292,88.012L260.089,85.003L261.882,70.301L263.674,68.038L265.467,73.717L267.264,80.646L269.057,80.322L270.849,77.686L272.642,78.437L274.439,75.544L276.232,73.824L278.024,75.859L279.817,76.043L281.614,76.033L283.407,73.029L285.199,70.088L286.992,71.299L288.789,70.267L290.582,72.826L292.374,71.435L294.167,72.806L295.964,74.652L297.757,74.919L299.549,75.069L301.342,75.747L303.139,76.125L304.932,74.468L306.724,73.901L308.517,74.265L310.314,73.334L312.107,72.733L313.899,72.884L315.692,71.832L317.489,72.743L319.282,72.525L321.075,71.183L322.867,70.713L324.665,70.664L326.457,70.223L328.25,69.744L330.042,69.036L331.84,68.455L333.632,67.515L335.425,66.042L337.217,66.25L339.015,61.971L340.807,61.787L342.6,60.338L344.392,53.414L346.19,52.958L347.982,49.847L349.775,42.38L351.567,33.299L353.365,29.539L355.157,27.16L356.95,26.704L358.742,20.177L360.54,21.272L362.332,20.696L364.125,15.918L365.917,15.433L367.715,13.219L369.507,7.075L371.3,4.216L373.092,0L374.89,7.099L376.682,5.577L378.475,9.958L380.267,9.439L382.065,10.253L383.857,9.56L385.65,10.641L387.442,16.315L389.24,17.832L391.032,16.669L392.825,19.097L394.617,27.058L396.415,25.604L398.207,23.516L400,32.781" stroke="#DB842F" stroke-width="2"/>
-                  </ns1:g>
-                </ns1:g>
-                <ns1:path class="foreground" aria-hidden="true" d="" display="none"/>
-              </ns1:g>
-              <ns1:g transform="translate(0,141)">
-                <ns1:path class="background" aria-hidden="true" d="M0.5,0.5h400v100h-400Z"/>
-                <ns1:g>
-                  <ns1:g class="mark-group role-axis" aria-hidden="true">
-                    <ns1:g transform="translate(400.5,0.5)">
-                      <ns1:path class="background" aria-hidden="true" d="M0,0h0v0h0Z" pointer-events="none"/>
-                      <ns1:g>
-                        <ns1:g class="mark-rule role-axis-grid" pointer-events="none">
-                          <ns1:line transform="translate(0,53)" x2="-400" y2="0" stroke="#ddd" stroke-width="1" opacity="1"/>
-                          <ns1:line transform="translate(0,6)" x2="-400" y2="0" stroke="#ddd" stroke-width="1" opacity="1"/>
-                        </ns1:g>
-                      </ns1:g>
-                      <ns1:path class="foreground" aria-hidden="true" d="" pointer-events="none" display="none"/>
-                    </ns1:g>
-                  </ns1:g>
-                  <ns1:g class="mark-group role-axis" role="graphics-symbol" aria-roledescription="axis" aria-label="X-axis for a time scale with values from Wednesday, 01 January 1800, 12:00:00 AM to Sunday, 01 January 2023, 12:00:00 AM">
-                    <ns1:g transform="translate(0.5,100.5)">
-                      <ns1:path class="background" aria-hidden="true" d="M0,0h0v0h0Z" pointer-events="none"/>
-                      <ns1:g>
-                        <ns1:g class="mark-rule role-axis-tick" pointer-events="none">
-                          <ns1:line transform="translate(0,0)" x2="0" y2="5" stroke="#DCDDD6" stroke-width="1" opacity="1"/>
-                          <ns1:line transform="translate(90,0)" x2="0" y2="5" stroke="#DCDDD6" stroke-width="1" opacity="1"/>
-                          <ns1:line transform="translate(179,0)" x2="0" y2="5" stroke="#DCDDD6" stroke-width="1" opacity="1"/>
-                          <ns1:line transform="translate(269,0)" x2="0" y2="5" stroke="#DCDDD6" stroke-width="1" opacity="1"/>
-                          <ns1:line transform="translate(359,0)" x2="0" y2="5" stroke="#DCDDD6" stroke-width="1" opacity="1"/>
-                        </ns1:g>
-                        <ns1:g class="mark-text role-axis-label" pointer-events="none">
-                          <ns1:text text-anchor="start" transform="translate(0,15)" font-family="Asap" font-size="10px" fill="#000" opacity="1">1800</ns1:text>
-                          <ns1:text text-anchor="middle" transform="translate(89.68557184461115,15)" font-family="Asap" font-size="10px" fill="#000" opacity="1">1850</ns1:text>
-                          <ns1:text text-anchor="middle" transform="translate(179.37113595886782,15)" font-family="Asap" font-size="10px" fill="#000" opacity="1">1900</ns1:text>
-                          <ns1:text text-anchor="middle" transform="translate(269.056707803479,15)" font-family="Asap" font-size="10px" fill="#000" opacity="1">1950</ns1:text>
-                          <ns1:text text-anchor="middle" transform="translate(358.7422796480901,15)" font-family="Asap" font-size="10px" fill="#000" opacity="1">2000</ns1:text>
-                        </ns1:g>
-                      </ns1:g>
-                      <ns1:path class="foreground" aria-hidden="true" d="" pointer-events="none" display="none"/>
-                    </ns1:g>
-                  </ns1:g>
-                  <ns1:g class="mark-group role-axis" role="graphics-symbol" aria-roledescription="axis" aria-label="Y-axis for a linear scale with values from 0k to 11k">
-                    <ns1:g transform="translate(400.5,0.5)">
-                      <ns1:path class="background" aria-hidden="true" d="M0,0h0v0h0Z" pointer-events="none"/>
-                      <ns1:g>
-                        <ns1:g class="mark-rule role-axis-tick" pointer-events="none">
-                          <ns1:line transform="translate(0,53)" x2="5" y2="0" stroke="#DCDDD6" stroke-width="1" opacity="1"/>
-                          <ns1:line transform="translate(0,6)" x2="5" y2="0" stroke="#DCDDD6" stroke-width="1" opacity="1"/>
-                        </ns1:g>
-                        <ns1:g class="mark-text role-axis-label" pointer-events="none">
-                          <ns1:text text-anchor="start" transform="translate(7,55.79063178770422)" font-family="Asap" font-size="10px" fill="#000" opacity="1">5k</ns1:text>
-                          <ns1:text text-anchor="start" transform="translate(7,8.571819813013501)" font-family="Asap" font-size="10px" fill="#000" opacity="1">10k</ns1:text>
-                        </ns1:g>
-                        <ns1:g class="mark-rule role-axis-domain" pointer-events="none">
-                          <ns1:line transform="translate(0,100)" x2="0" y2="-100" stroke="#888" stroke-opacity="0" stroke-width="1" opacity="1"/>
-                        </ns1:g>
-                      </ns1:g>
-                      <ns1:path class="foreground" aria-hidden="true" d="" pointer-events="none" display="none"/>
-                    </ns1:g>
-                  </ns1:g>
-                  <ns1:g class="mark-line role-mark child_marks" role="graphics-object" aria-roledescription="line mark container">
-                    <ns1:path aria-label="rok: Jan 01, 1800; value: null" role="graphics-symbol" aria-roledescription="line mark" d="M1.793,99.943L3.585,99.896L5.378,99.887L7.17,99.745L8.968,99.877L10.76,99.887L12.553,99.839L14.345,99.821L16.143,99.849L17.935,99.839L19.728,99.877L21.52,99.811L23.318,99.887L25.11,99.802L26.903,99.83L28.695,99.839L30.493,99.821L32.285,99.641L34.078,99.669L35.87,99.594L37.668,99.613L39.46,99.641L41.253,99.556L43.045,99.481L44.843,99.518L46.635,99.698L48.428,99.528L50.22,99.688L52.018,99.688L53.81,99.49L55.603,99.641L57.395,99.66L59.193,99.641L60.985,99.556L62.778,99.566L64.57,99.622L66.368,99.688L68.16,99.651L69.953,99.651L71.746,99.414L73.543,99.518L75.335,99.481L77.128,99.254L78.921,99.141L80.718,99.263L82.511,99.329L84.303,99.131L86.096,99.207L87.893,99.037L89.686,99.037L91.478,98.895L93.271,98.602L95.068,98.744L96.861,99.027L98.653,99.103L100.446,99.188L102.243,98.99L104.036,98.706L105.828,98.933L107.621,98.829L109.418,98.697L111.211,98.234L113.003,97.894L114.796,97.998L116.593,98.045L118.386,98.82L120.178,98.64L121.971,98.149L123.768,98.291L125.561,98.036L127.353,98.14L129.146,97.469L130.943,97.384L132.736,96.27L134.528,97.035L136.321,97.667L138.118,97.658L139.911,97.526L141.703,97.677L143.496,97.035L145.293,96.553L147.086,96.562L148.878,96.496L150.671,96.6L152.468,96.213L154.261,96.459L156.053,96.326L157.846,96.232L159.643,96.204L161.436,95.514L163.229,95.637L165.021,95.41L166.818,95.288L168.611,94.74L170.404,94.853L172.196,95.089L173.994,94.334L175.786,93.767L177.579,94.721L179.371,93.767L181.164,92.114L182.956,90.717L184.749,91.359L186.541,91.52L188.339,91.727L190.131,91.661L191.924,91.491L193.716,89.754L195.514,90.348L197.306,88.176L199.099,88.441L200.891,88.309L202.689,87.874L204.481,91.529L206.274,94.05L208.066,93.937L209.864,93.588L211.656,92.417L213.449,88.035L215.241,83.983L217.039,86.467L218.831,84.144L220.624,83.266L222.416,81.056L224.214,77.769L226.006,79.054L227.799,78.799L229.592,77.977L231.389,78.978L233.181,76.306L234.974,78.421L236.767,80.461L238.564,80.857L240.357,80.518L242.149,79.044L243.942,75.541L245.739,75.56L247.532,78.903L249.324,83.813L251.117,80.291L252.914,81.141L254.706,90.093L256.499,92.199L258.292,90.462L260.089,90.603L261.882,75.994L263.674,72.774L265.467,76.513L267.264,86.212L269.057,83.596L270.849,78.402L272.642,79.073L274.439,74.936L276.232,72.434L278.024,75.172L279.817,74.861L281.614,74.917L283.407,72.207L285.199,70.819L286.992,71.47L288.789,70.063L290.582,71.055L292.374,69.024L294.167,69.601L295.964,71.319L297.757,70.687L299.549,72.084L301.342,72.207L303.139,73.841L304.932,72.566L306.724,71.433L308.517,71.045L310.314,69.761L312.107,68.647L313.899,68.477L315.692,68.099L317.489,69.062L319.282,67.92L321.075,66.503L322.867,65.049L324.665,65.379L326.457,62.716L328.25,62.782L330.042,61.847L331.84,62.697L333.632,60.903L335.425,59.845L337.217,60.62L339.015,58.967L340.807,60.969L342.6,61.233L344.392,46.633L346.19,44.726L347.982,40.155L349.775,34.3L351.567,30.22L353.365,26.735L355.157,27.689L356.95,27.368L358.742,22.986L360.54,21.702L362.332,21.182L364.125,16.867L365.917,11.663L367.715,8.764L369.507,4.117L371.3,2.153L373.092,0L374.89,5.119L376.682,3.079L378.475,2.89L380.267,6.941L382.065,5.591L383.857,4.665L385.65,6.412L387.442,12.626L389.24,12.57L391.032,9.538L392.825,13.741L394.617,19.558L396.415,20.134L398.207,20.814L400,27.746" stroke="#DB842F" stroke-width="2"/>
-                  </ns1:g>
-                </ns1:g>
-                <ns1:path class="foreground" aria-hidden="true" d="" display="none"/>
-              </ns1:g>
-            </ns1:g>
-            <ns1:g class="mark-group role-title">
-              <ns1:g transform="translate(-103.8499984741211,-44)">
-                <ns1:path class="background" aria-hidden="true" d="M0,0h0v0h0Z" pointer-events="none"/>
-                <ns1:g>
-                  <ns1:g class="mark-text role-title-text" role="graphics-symbol" aria-roledescription="title" aria-label="Title text 'Vývoj knižní produkce na českém území'" pointer-events="none">
-                    <ns1:text text-anchor="start" transform="translate(0,-1)" font-family="Noticia Text" font-size="14px" font-weight="bolder" fill="#000" opacity="1">Vývoj knižní produkce na českém území</ns1:text>
-                  </ns1:g>
-                  <ns1:g class="mark-text role-title-subtitle" role="graphics-symbol" aria-roledescription="subtitle" aria-label="Subtitle text 'Počty nemohou být zcela přesné. chybí například knihy, které nakladatelé nedodali do knihoven.'" pointer-events="none">
-                    <ns1:text text-anchor="start" transform="translate(0,23)" font-family="Noticia Text" font-size="12px" fill="#000" opacity="1">Počty nemohou být zcela přesné. chybí například knihy, které nakladatelé nedodali do knihoven.</ns1:text>
-                  </ns1:g>
-                </ns1:g>
-                <ns1:path class="foreground" aria-hidden="true" d="" pointer-events="none" display="none"/>
-              </ns1:g>
-            </ns1:g>
+           </ns1:g>
+           <ns1:path class="foreground" d="" display="none" pointer-events="none" aria-hidden="true"/>
           </ns1:g>
-          <ns1:path class="foreground" aria-hidden="true" d="" display="none"/>
+         </ns1:g>
         </ns1:g>
-      </ns1:g>
-    </ns1:g>
-  </g>
-  <g transform="translate(244,325)">
-    <ns0:rect xmlns:ns0="http://www.w3.org/2000/svg" width="310" height="40" fill="white"/>
-    <ns1:g xmlns:ns1="http://www.w3.org/2000/svg" fill="none" stroke-miterlimit="10" transform="translate(5,5)">
-      <ns1:g class="mark-group role-frame root" role="graphics-object" aria-roledescription="group mark container">
-        <ns1:g transform="translate(0,0)">
-          <ns1:path class="background" aria-hidden="true" d="M0.5,0.5h300v30h-300Z"/>
-          <ns1:g>
-            <ns1:g class="mark-text role-mark marks" role="graphics-object" aria-roledescription="text mark container">
-              <ns1:text aria-label="text: data: Česká národní bibliografie ~ vizualizace: iROZHLAS.cz ~ 2025" role="graphics-symbol" aria-roledescription="text mark" text-anchor="end" transform="translate(300,12)" font-family="Asap" font-size="10px" fill="black">data: Česká národní bibliografie ~ vizualizace: iROZHLAS.cz ~ 2025</ns1:text>
+        <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
+       </ns1:g>
+       <ns1:g transform="translate(-3,140)">
+        <ns1:path class="background" d="M0,0h0v100h0Z" aria-hidden="true"/>
+        <ns1:g>
+         <ns1:g class="mark-group role-title">
+          <ns1:g transform="translate(-101 50)">
+           <ns1:path class="background" d="M0,0h0v0h0Z" pointer-events="none" aria-hidden="true"/>
+           <ns1:g>
+            <ns1:g class="mark-text role-title-text" pointer-events="none" aria-label="Title text 'novinky nad 50 stran'" aria-roledescription="title" role="graphics-symbol">
+             <ns1:text transform="translate(0,3)" fill="#000" font-family="Asap" font-size="10px">novinky nad 50 stran</ns1:text>
             </ns1:g>
+           </ns1:g>
+           <ns1:path class="foreground" d="" display="none" pointer-events="none" aria-hidden="true"/>
           </ns1:g>
-          <ns1:path class="foreground" aria-hidden="true" d="" display="none"/>
+         </ns1:g>
         </ns1:g>
+        <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
+       </ns1:g>
       </ns1:g>
+      <ns1:g class="mark-group role-scope cell" aria-roledescription="group mark container" role="graphics-object">
+       <ns1:g transform="translate(0)">
+        <ns1:path class="background" d="M0.5,0.5h400v100h-400Z" aria-hidden="true"/>
+        <ns1:g>
+         <ns1:g class="mark-group role-axis" aria-hidden="true">
+          <ns1:g transform="translate(400 .5)">
+           <ns1:path class="background" d="M0,0h0v0h0Z" pointer-events="none" aria-hidden="true"/>
+           <ns1:g>
+            <ns1:g class="mark-rule role-axis-grid" pointer-events="none" stroke="#ddd">
+             <ns1:line transform="translate(0,76)" x2="-400" y2="0"/>
+             <ns1:line transform="translate(0,52)" x2="-400" y2="0"/>
+             <ns1:line transform="translate(0,27)" x2="-400" y2="0"/>
+             <ns1:line transform="translate(0,3)" x2="-400" y2="0"/>
+            </ns1:g>
+           </ns1:g>
+           <ns1:path class="foreground" d="" display="none" pointer-events="none" aria-hidden="true"/>
+          </ns1:g>
+         </ns1:g>
+         <ns1:g class="mark-group role-axis" aria-label="X-axis for a time scale with values from Wednesday, 01 January 1800, 12:00:00 AM to Sunday, 01 January 2023, 12:00:00 AM" aria-roledescription="axis" role="graphics-symbol">
+          <ns1:g transform="translate(.5 100)" pointer-events="none">
+           <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
+           <ns1:g>
+            <ns1:g class="mark-rule role-axis-tick" stroke="#DCDDD6">
+             <ns1:line transform="translate(0)" x2="0" y2="5"/>
+             <ns1:line transform="translate(90)" x2="0" y2="5"/>
+             <ns1:line transform="translate(179)" x2="0" y2="5"/>
+             <ns1:line transform="translate(269)" x2="0" y2="5"/>
+             <ns1:line transform="translate(359)" x2="0" y2="5"/>
+            </ns1:g>
+            <ns1:g class="mark-text role-axis-label" fill="#000" font-family="Asap" font-size="9px">
+             <ns1:text transform="translate(0,14)">1800</ns1:text>
+             <ns1:text transform="translate(90 14)" text-anchor="middle">1850</ns1:text>
+             <ns1:text transform="translate(179 14)" text-anchor="middle">1900</ns1:text>
+             <ns1:text transform="translate(269 14)" text-anchor="middle">1950</ns1:text>
+             <ns1:text transform="translate(359 14)" text-anchor="middle">2000</ns1:text>
+            </ns1:g>
+           </ns1:g>
+           <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
+          </ns1:g>
+         </ns1:g>
+         <ns1:g class="mark-group role-axis" aria-label="Y-axis for a linear scale with values from 0k to 21k" aria-roledescription="axis" role="graphics-symbol">
+          <ns1:g transform="translate(400 .5)" pointer-events="none">
+           <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
+           <ns1:g>
+            <ns1:g class="mark-rule role-axis-tick" stroke="#DCDDD6">
+             <ns1:line transform="translate(0,76)" x2="5" y2="0"/>
+             <ns1:line transform="translate(0,52)" x2="5" y2="0"/>
+             <ns1:line transform="translate(0,27)" x2="5" y2="0"/>
+             <ns1:line transform="translate(0,3)" x2="5" y2="0"/>
+            </ns1:g>
+            <ns1:g class="mark-text role-axis-label" fill="#000" font-family="Asap" font-size="9px">
+             <ns1:text transform="translate(7 79)">5k</ns1:text>
+             <ns1:text transform="translate(7 55)">10k</ns1:text>
+             <ns1:text transform="translate(7 30)">15k</ns1:text>
+             <ns1:text transform="translate(7 6.1)">20k</ns1:text>
+            </ns1:g>
+            <ns1:g class="mark-rule role-axis-domain">
+             <ns1:line transform="translate(0,100)" x2="0" y2="-100" stroke="#888" stroke-opacity="0"/>
+            </ns1:g>
+           </ns1:g>
+           <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
+          </ns1:g>
+         </ns1:g>
+         <ns1:g class="mark-line role-mark child_marks" aria-roledescription="line mark container" role="graphics-object">
+          <ns1:path d="M0,100L1.793,99.898L3.585,99.913L5.378,99.898L7.17,99.84L8.968,99.893L10.76,99.927L12.553,99.859L14.345,99.869L16.143,99.879L17.935,99.855L19.728,99.922L21.52,99.855L23.318,99.898L25.11,99.855L26.903,99.864L28.695,99.85L30.493,99.85L32.285,99.767L34.078,99.719L35.87,99.733L37.668,99.617L39.46,99.758L41.253,99.675L43.045,99.632L44.843,99.67L46.635,99.7L48.428,99.588L50.22,99.68L52.018,99.767L53.81,99.578L55.603,99.69L57.395,99.68L59.193,99.733L60.985,99.714L62.778,99.637L64.57,99.666L66.368,99.714L68.16,99.714L69.953,99.729L71.746,99.53L73.543,99.627L75.335,99.554L77.128,99.457L78.921,99.336L80.718,99.404L82.511,99.477L84.303,99.414L86.096,99.196L87.893,99.268L89.686,99.239L91.478,99.162L93.271,98.929L95.068,99.026L96.861,99.026L98.653,99.215L100.446,99.181L102.243,99.045L104.036,98.585L105.828,98.968L107.621,98.755L109.418,98.566L111.211,98.372L113.003,97.805L114.796,98.217L116.593,98.367L118.386,98.793L120.178,98.653L121.971,98.343L123.768,98.377L125.561,98.139L127.353,98.449L129.146,97.8L130.943,97.81L132.736,97.015L134.528,97.364L136.321,97.834L138.118,97.955L139.911,97.868L141.703,97.882L143.496,97.209L145.293,96.734L147.086,97.093L148.878,96.908L150.671,97.005L152.468,96.676L154.261,96.807L156.053,96.739L157.846,96.54L159.643,96.526L161.436,95.765L163.229,95.838L165.021,95.377L166.818,95.387L168.611,95.251L170.404,94.825L172.196,94.81L173.994,94.108L175.786,93.783L177.579,94.311L179.371,93.41L181.164,91.128L182.956,90.1L184.749,90.406L186.541,90.73L188.339,91.166L190.131,89.078L191.924,89.887L193.716,88.525L195.514,89.058L197.306,87.556L199.099,87.92L200.891,87.256L202.689,86.868L204.481,89.979L206.274,93.187L208.066,92.635L209.864,92.295L211.656,90.725L213.449,83.253L215.241,79.12L217.039,81.373L218.831,79.222L220.624,79.319L222.416,77.051L224.214,74.333L226.006,76.208L227.799,77.065L229.592,75.898L231.389,76.13L233.181,72.884L234.974,75.689L236.767,77.361L238.564,77.361L240.357,76.154L242.149,72.893L243.942,68.227L245.739,68.203L247.532,72.54L249.324,79.425L251.117,72.884L252.914,74.323L254.706,86.834L256.499,89.853L258.292,88.012L260.089,85.003L261.882,70.301L263.674,68.038L265.467,73.717L267.264,80.646L269.057,80.322L270.849,77.686L272.642,78.437L274.439,75.544L276.232,73.824L278.024,75.859L279.817,76.043L281.614,76.033L283.407,73.029L285.199,70.088L286.992,71.299L288.789,70.267L290.582,72.826L292.374,71.435L294.167,72.806L295.964,74.652L297.757,74.919L299.549,75.069L301.342,75.747L303.139,76.125L304.932,74.468L306.724,73.901L308.517,74.265L310.314,73.334L312.107,72.733L313.899,72.884L315.692,71.832L317.489,72.743L319.282,72.525L321.075,71.183L322.867,70.713L324.665,70.664L326.457,70.223L328.25,69.744L330.042,69.036L331.84,68.455L333.632,67.515L335.425,66.042L337.217,66.25L339.015,61.971L340.807,61.787L342.6,60.338L344.392,53.414L346.19,52.958L347.982,49.847L349.775,42.38L351.567,33.299L353.365,29.539L355.157,27.16L356.95,26.704L358.742,20.177L360.54,21.272L362.332,20.696L364.125,15.918L365.917,15.433L367.715,13.219L369.507,7.075L371.3,4.216L373.092,0L374.89,7.099L376.682,5.577L378.475,9.958L380.267,9.439L382.065,10.253L383.857,9.56L385.65,10.641L387.442,16.315L389.24,17.832L391.032,16.669L392.825,19.097L394.617,27.058L396.415,25.604L398.207,23.516L400,32.781" stroke="#DB842F" stroke-width="2" aria-label="rok: Jan 01, 1800; value: 1.00000" aria-roledescription="line mark" role="graphics-symbol"/>
+         </ns1:g>
+        </ns1:g>
+        <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
+       </ns1:g>
+       <ns1:g transform="translate(0,140)">
+        <ns1:path class="background" d="M0.5,0.5h400v100h-400Z" aria-hidden="true"/>
+        <ns1:g>
+         <ns1:g class="mark-group role-axis" aria-hidden="true">
+          <ns1:g transform="translate(400 .5)">
+           <ns1:path class="background" d="M0,0h0v0h0Z" pointer-events="none" aria-hidden="true"/>
+           <ns1:g>
+            <ns1:g class="mark-rule role-axis-grid" pointer-events="none" stroke="#ddd">
+             <ns1:line transform="translate(0,53)" x2="-400" y2="0"/>
+             <ns1:line transform="translate(0,6)" x2="-400" y2="0"/>
+            </ns1:g>
+           </ns1:g>
+           <ns1:path class="foreground" d="" display="none" pointer-events="none" aria-hidden="true"/>
+          </ns1:g>
+         </ns1:g>
+         <ns1:g class="mark-group role-axis" aria-label="X-axis for a time scale with values from Wednesday, 01 January 1800, 12:00:00 AM to Sunday, 01 January 2023, 12:00:00 AM" aria-roledescription="axis" role="graphics-symbol">
+          <ns1:g transform="translate(.5 100)" pointer-events="none">
+           <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
+           <ns1:g>
+            <ns1:g class="mark-rule role-axis-tick" stroke="#DCDDD6">
+             <ns1:line transform="translate(0)" x2="0" y2="5"/>
+             <ns1:line transform="translate(90)" x2="0" y2="5"/>
+             <ns1:line transform="translate(179)" x2="0" y2="5"/>
+             <ns1:line transform="translate(269)" x2="0" y2="5"/>
+             <ns1:line transform="translate(359)" x2="0" y2="5"/>
+            </ns1:g>
+            <ns1:g class="mark-text role-axis-label" fill="#000" font-family="Asap" font-size="9px">
+             <ns1:text transform="translate(0,14)">1800</ns1:text>
+             <ns1:text transform="translate(90 14)" text-anchor="middle">1850</ns1:text>
+             <ns1:text transform="translate(179 14)" text-anchor="middle">1900</ns1:text>
+             <ns1:text transform="translate(269 14)" text-anchor="middle">1950</ns1:text>
+             <ns1:text transform="translate(359 14)" text-anchor="middle">2000</ns1:text>
+            </ns1:g>
+           </ns1:g>
+           <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
+          </ns1:g>
+         </ns1:g>
+         <ns1:g class="mark-group role-axis" aria-label="Y-axis for a linear scale with values from 0k to 11k" aria-roledescription="axis" role="graphics-symbol">
+          <ns1:g transform="translate(400 .5)" pointer-events="none">
+           <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
+           <ns1:g>
+            <ns1:g class="mark-rule role-axis-tick" stroke="#DCDDD6">
+             <ns1:line transform="translate(0,53)" x2="5" y2="0"/>
+             <ns1:line transform="translate(0,6)" x2="5" y2="0"/>
+            </ns1:g>
+            <ns1:g class="mark-text role-axis-label" fill="#000" font-family="Asap" font-size="9px">
+             <ns1:text transform="translate(7 56)">5k</ns1:text>
+             <ns1:text transform="translate(7 8.6)">10k</ns1:text>
+            </ns1:g>
+            <ns1:g class="mark-rule role-axis-domain">
+             <ns1:line transform="translate(0,100)" x2="0" y2="-100" stroke="#888" stroke-opacity="0"/>
+            </ns1:g>
+           </ns1:g>
+           <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
+          </ns1:g>
+         </ns1:g>
+         <ns1:g class="mark-line role-mark child_marks" aria-roledescription="line mark container" role="graphics-object">
+          <ns1:path d="M1.793,99.943L3.585,99.896L5.378,99.887L7.17,99.745L8.968,99.877L10.76,99.887L12.553,99.839L14.345,99.821L16.143,99.849L17.935,99.839L19.728,99.877L21.52,99.811L23.318,99.887L25.11,99.802L26.903,99.83L28.695,99.839L30.493,99.821L32.285,99.641L34.078,99.669L35.87,99.594L37.668,99.613L39.46,99.641L41.253,99.556L43.045,99.481L44.843,99.518L46.635,99.698L48.428,99.528L50.22,99.688L52.018,99.688L53.81,99.49L55.603,99.641L57.395,99.66L59.193,99.641L60.985,99.556L62.778,99.566L64.57,99.622L66.368,99.688L68.16,99.651L69.953,99.651L71.746,99.414L73.543,99.518L75.335,99.481L77.128,99.254L78.921,99.141L80.718,99.263L82.511,99.329L84.303,99.131L86.096,99.207L87.893,99.037L89.686,99.037L91.478,98.895L93.271,98.602L95.068,98.744L96.861,99.027L98.653,99.103L100.446,99.188L102.243,98.99L104.036,98.706L105.828,98.933L107.621,98.829L109.418,98.697L111.211,98.234L113.003,97.894L114.796,97.998L116.593,98.045L118.386,98.82L120.178,98.64L121.971,98.149L123.768,98.291L125.561,98.036L127.353,98.14L129.146,97.469L130.943,97.384L132.736,96.27L134.528,97.035L136.321,97.667L138.118,97.658L139.911,97.526L141.703,97.677L143.496,97.035L145.293,96.553L147.086,96.562L148.878,96.496L150.671,96.6L152.468,96.213L154.261,96.459L156.053,96.326L157.846,96.232L159.643,96.204L161.436,95.514L163.229,95.637L165.021,95.41L166.818,95.288L168.611,94.74L170.404,94.853L172.196,95.089L173.994,94.334L175.786,93.767L177.579,94.721L179.371,93.767L181.164,92.114L182.956,90.717L184.749,91.359L186.541,91.52L188.339,91.727L190.131,91.661L191.924,91.491L193.716,89.754L195.514,90.348L197.306,88.176L199.099,88.441L200.891,88.309L202.689,87.874L204.481,91.529L206.274,94.05L208.066,93.937L209.864,93.588L211.656,92.417L213.449,88.035L215.241,83.983L217.039,86.467L218.831,84.144L220.624,83.266L222.416,81.056L224.214,77.769L226.006,79.054L227.799,78.799L229.592,77.977L231.389,78.978L233.181,76.306L234.974,78.421L236.767,80.461L238.564,80.857L240.357,80.518L242.149,79.044L243.942,75.541L245.739,75.56L247.532,78.903L249.324,83.813L251.117,80.291L252.914,81.141L254.706,90.093L256.499,92.199L258.292,90.462L260.089,90.603L261.882,75.994L263.674,72.774L265.467,76.513L267.264,86.212L269.057,83.596L270.849,78.402L272.642,79.073L274.439,74.936L276.232,72.434L278.024,75.172L279.817,74.861L281.614,74.917L283.407,72.207L285.199,70.819L286.992,71.47L288.789,70.063L290.582,71.055L292.374,69.024L294.167,69.601L295.964,71.319L297.757,70.687L299.549,72.084L301.342,72.207L303.139,73.841L304.932,72.566L306.724,71.433L308.517,71.045L310.314,69.761L312.107,68.647L313.899,68.477L315.692,68.099L317.489,69.062L319.282,67.92L321.075,66.503L322.867,65.049L324.665,65.379L326.457,62.716L328.25,62.782L330.042,61.847L331.84,62.697L333.632,60.903L335.425,59.845L337.217,60.62L339.015,58.967L340.807,60.969L342.6,61.233L344.392,46.633L346.19,44.726L347.982,40.155L349.775,34.3L351.567,30.22L353.365,26.735L355.157,27.689L356.95,27.368L358.742,22.986L360.54,21.702L362.332,21.182L364.125,16.867L365.917,11.663L367.715,8.764L369.507,4.117L371.3,2.153L373.092,0L374.89,5.119L376.682,3.079L378.475,2.89L380.267,6.941L382.065,5.591L383.857,4.665L385.65,6.412L387.442,12.626L389.24,12.57L391.032,9.538L392.825,13.741L394.617,19.558L396.415,20.134L398.207,20.814L400,27.746" stroke="#DB842F" stroke-width="2" aria-label="rok: Jan 01, 1800; value: null" aria-roledescription="line mark" role="graphics-symbol"/>
+         </ns1:g>
+        </ns1:g>
+        <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
+       </ns1:g>
+      </ns1:g>
+      <ns1:g class="mark-group role-title">
+       <ns1:g transform="translate(-104 -40)" pointer-events="none">
+        <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
+        <ns1:g>
+         <ns1:g class="mark-text role-title-text" aria-label="Title text 'Vývoj knižní produkce na českém území'" aria-roledescription="title" role="graphics-symbol">
+          <ns1:text transform="translate(0,-1)" fill="#000" font-family="Noticia Text" font-size="12px" font-weight="bolder">Vývoj knižní produkce na českém území</ns1:text>
+         </ns1:g>
+         <ns1:g class="mark-text role-title-subtitle" aria-label="Subtitle text 'Počty nemohou být zcela přesné. chybí například knihy, které nakladatelé nedodali do knihoven.'" aria-roledescription="subtitle" role="graphics-symbol">
+          <ns1:text transform="translate(0,20)" fill="#000" font-family="Noticia Text" font-size="10px">Počty nemohou být zcela přesné. chybí například knihy, které nakladatelé nedodali do knihoven.</ns1:text>
+         </ns1:g>
+        </ns1:g>
+        <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
+       </ns1:g>
+      </ns1:g>
+     </ns1:g>
+     <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
     </ns1:g>
-  </g>
+   </ns1:g>
+  </ns1:g>
+ </g>
+ <g transform="translate(227,318)">
+  <ns0:rect width="310" height="40" fill="white" xmlns:ns0="http://www.w3.org/2000/svg"/>
+  <ns1:g transform="translate(5,5)" fill="none" stroke-miterlimit="10" xmlns:ns1="http://www.w3.org/2000/svg">
+   <ns1:g class="mark-group role-frame root" aria-roledescription="group mark container" role="graphics-object">
+    <ns1:g transform="translate(0)">
+     <ns1:path class="background" d="M0.5,0.5h300v30h-300Z" aria-hidden="true"/>
+     <ns1:g>
+      <ns1:g class="mark-text role-mark marks" aria-roledescription="text mark container" role="graphics-object">
+       <ns1:text transform="translate(300,12)" fill="black" font-family="Asap" font-size="8px" text-anchor="end" aria-label="text: data: Česká národní bibliografie | vizualizace: iROZHLAS.cz | 2025" aria-roledescription="text mark" role="graphics-symbol">data: Česká národní bibliografie | vizualizace: iROZHLAS.cz | 2025</ns1:text>
+      </ns1:g>
+     </ns1:g>
+     <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
+    </ns1:g>
+   </ns1:g>
+  </ns1:g>
+ </g>
 </svg>

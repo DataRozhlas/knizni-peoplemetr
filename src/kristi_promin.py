@@ -11,6 +11,7 @@ def kristi_promin():
                     'fontWeight': 'bolder',
                     'subtitleFont': 'Noticia Text',
                     'subtitleFontSize': 10,
+                    'subtitleLineHeight': 15,
 #                    'subtitleFontWeight': 'lighter', # nečitelné na mobilu
                     'subtitlePadding': 10,
                     'dy': -10,
@@ -20,10 +21,10 @@ def kristi_promin():
                 "titleFont": "Asap",
                 "fontWeight": "lighter",
                 "titleFontWeight": "lighter",
-                "labelFontSize": 8,
-                "titleFontSize": 8,
+                "labelFontSize": 9,
+                "titleFontSize": 9,
                 'labelPadding': 2,
-                'titlePadding': 8,
+                'titlePadding': 9,
                 'domainOpacity': 0,
                 'tickColor': '#DCDDD6',
             },
@@ -32,8 +33,8 @@ def kristi_promin():
                 "labelFontWeight": "normal",
                 "titleFont": "Asap",
                 "titleFontWeight": "normal",
-                "labelFontSize": 8,
-                "titleFontSize": 8
+                "labelFontSize": 9,
+                "titleFontSize": 9
             }
         }
     }

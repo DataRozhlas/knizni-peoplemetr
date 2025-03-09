@@ -2,10 +2,11 @@ import os
 from lxml import etree
 import polars as pl
 import altair as alt
+from scour import scour
 
 
 def me_to_neurazi(
-    graf: alt.vegalite.v5.api.LayerChart, kredity: str, soubor: str, slozka="grafy"
+    graf: alt.vegalite.v5.api.LayerChart, kredity: str, soubor: str, slozka="grafy", zvetseni=1.5
 ):
 
     def concatenate_svg_vertically(image1_path, image2_path, output_path):
@@ -46,12 +47,18 @@ def me_to_neurazi(
                     new_svg, pretty_print=True, encoding="utf-8", xml_declaration=True
                 )
             )
-
+    
     os.makedirs(slozka, exist_ok=True)
-    graf.save(f"grafy/{soubor}_temp1.svg")
+
+    try:
+        os.remove(f"{slozka}/{soubor}.svg")
+    except Exception as e:
+        pass
+    
+    graf.save(f"{slozka}/{soubor}_temp1.svg", scale_factor=zvetseni)
     try:
         alternativni_text = f"""Graf s titulkem „{graf['title']['text']}“. Další texty by měly být čitelné ze zdrojového souboru SVG."""
-    except:
+    except Exception as e:
         alternativni_text = "Omlouváme se, ale alternativní text se nepodařilo vygenerovat. Texty v grafu by měly být čitelné ze zdrojového souboru SVG."
 
     spodni = pl.DataFrame({"text": [kredity]})
@@ -63,15 +70,33 @@ def me_to_neurazi(
         )
         .configure_view(stroke="transparent")
     )
-    spodni.save(f"grafy/{soubor}_temp2.svg")
+    spodni.save(f"{slozka}/{soubor}_temp2.svg", scale_factor=zvetseni)
 
     concatenate_svg_vertically(
         f"{slozka}/{soubor}_temp1.svg", f"{slozka}/{soubor}_temp2.svg", f"{slozka}/{soubor}.svg"
     )
 
-#    os.remove(f"{slozka}/{soubor}_temp1.svg")
-#    os.remove(f"{slozka}/{soubor}_temp2.svg")
+    options = scour.sanitizeOptions()
+    options.digits = 2
+    options.strip_ids = True
+    options.strip_comments = True
+    options.remove_metadata = True
+    options.enable_viewboxing = True
+
+    try:
+        os.remove(f"{slozka}/{soubor}_orig.svg")
+    except:
+        pass
+    os.rename(f"{slozka}/{soubor}.svg", f"{slozka}/{soubor}_orig.svg")
+
+    with open(f"{slozka}/{soubor}_orig.svg", 'r', encoding="utf-8") as f:
+        svg_data = f.read()
+    output = scour.scourString(svg_data, options)
+    with open(f"{slozka}/{soubor}.svg", 'w+', encoding="utf-8") as f:
+        f.write(output)
 
     print(f"""<figure><a href="https://data.irozhlas.cz/knihy-grafy/{soubor}.svg" target="_blank"><img src="https://data.irozhlas.cz/knihy-grafy/{soubor}.svg" width="100%" alt="{alternativni_text}" /></a></figure>""")
-
     print(f"""<figure><a href="https://michalkasparek.cz/sklad/{soubor}.svg" target="_blank"><img src="https://michalkasparek.cz/sklad/{soubor}.svg" width="100%" alt="{alternativni_text}" /></a></figure>""")
+    
+    os.remove(f"{slozka}/{soubor}_temp1.svg")
+    os.remove(f"{slozka}/{soubor}_temp2.svg")
