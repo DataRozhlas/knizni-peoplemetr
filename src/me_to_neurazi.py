@@ -4,7 +4,6 @@ import polars as pl
 import altair as alt
 from scour import scour
 
-
 def me_to_neurazi(
     graf: alt.vegalite.v5.api.LayerChart, kredity: str, soubor: str, slozka="grafy", zvetseni=1.5
 ):
@@ -63,8 +62,8 @@ def me_to_neurazi(
 
     spodni = pl.DataFrame({"text": [kredity]})
     spodni = (
-        alt.Chart(spodni.to_pandas(), width=300, height=30)
-        .encode(x=alt.value(300), text=alt.Text("text:N"))
+        alt.Chart(spodni.to_pandas(), width=200, height=30)
+        .encode(x=alt.value(200), text=alt.Text("text:N"))
         .mark_text(
             fontSize=8, font="Asap", baseline="line-bottom", align="right", dx=0
         )
@@ -95,8 +94,15 @@ def me_to_neurazi(
     with open(f"{slozka}/{soubor}.svg", 'w+', encoding="utf-8") as f:
         f.write(output)
 
-    print(f"""<figure><a href="https://data.irozhlas.cz/knihy-grafy/{soubor}.svg" target="_blank"><img src="https://data.irozhlas.cz/knihy-grafy/{soubor}.svg" width="100%" alt="{alternativni_text}" /></a></figure>""")
-    print(f"""<figure><a href="https://michalkasparek.cz/sklad/{soubor}.svg" target="_blank"><img src="https://michalkasparek.cz/sklad/{soubor}.svg" width="100%" alt="{alternativni_text}" /></a></figure>""")
+    info = f"""<figure>
+    <a href="https://data.irozhlas.cz/knihy-grafy/{soubor}.svg" target="_blank">
+    <img src="https://data.irozhlas.cz/knihy-grafy/{soubor}.svg" width="100%" alt="{alternativni_text}" />
+    </a>
+    </figure>""" 
+    print(info)
+    
+    with open(f"{slozka}/{soubor}.txt", 'w+', encoding="utf-8") as instrukce:
+        instrukce.write(info)
     
     os.remove(f"{slozka}/{soubor}_temp1.svg")
     os.remove(f"{slozka}/{soubor}_temp2.svg")

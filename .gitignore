@@ -26,6 +26,7 @@ mapy/
 *.zip
 rucni_zaloha/
 stare/
+999_deploy_grafu.py
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

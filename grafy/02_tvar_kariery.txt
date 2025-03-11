@@ -1,0 +1,5 @@
+<figure>
+    <a href="https://data.irozhlas.cz/knihy-grafy/02_tvar_kariery.svg" target="_blank">
+    <img src="https://data.irozhlas.cz/knihy-grafy/02_tvar_kariery.svg" width="100%" alt="Graf s titulkem „V jakém věku čeští autoři a autorky publikují…“. Další texty by měly být čitelné ze zdrojového souboru SVG." />
+    </a>
+    </figure>
