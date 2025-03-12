@@ -1,182 +1,182 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg viewBox="0 0 330 240" xmlns="http://www.w3.org/2000/svg">
- <rect width="330" height="240" fill="#fff"/>
+<svg viewBox="0 0 360 212" xmlns="http://www.w3.org/2000/svg">
+ <rect width="360" height="212" fill="#fff"/>
  <g transform="translate(0)">
-  <ns0:rect width="330" height="200" fill="white" xmlns:ns0="http://www.w3.org/2000/svg"/>
+  <ns0:rect width="360" height="172" fill="white" xmlns:ns0="http://www.w3.org/2000/svg"/>
   <ns1:g transform="translate(10,61)" fill="none" stroke-miterlimit="10" xmlns:ns1="http://www.w3.org/2000/svg">
    <ns1:g class="mark-group role-frame root" aria-roledescription="group mark container" role="graphics-object">
     <ns1:g transform="translate(0)">
-     <ns1:path class="background" d="M0.5,0.5h289v118h-289Z" aria-hidden="true"/>
+     <ns1:path class="background" d="M0.5,0.5h319v90h-319Z" aria-hidden="true"/>
      <ns1:g>
-      <ns1:g class="mark-group role-axis" aria-label="X-axis for a time scale with values from Sunday, 17 October 1897, 9:25:09 PM to Sunday, 16 March 2025, 2:34:50 AM" aria-roledescription="axis" role="graphics-symbol">
-       <ns1:g transform="translate(.5 118)" pointer-events="none">
+      <ns1:g class="mark-group role-axis" aria-label="X-axis for a time scale with values from Tuesday, 04 January 1898, 1:23:53 AM to Friday, 27 December 2024, 10:36:06 PM" aria-roledescription="axis" role="graphics-symbol">
+       <ns1:g transform="translate(.5 90)" pointer-events="none">
         <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
         <ns1:g>
          <ns1:g class="mark-rule role-axis-tick" stroke="#DCDDD6">
           <ns1:line transform="translate(5)" x2="0" y2="5"/>
-          <ns1:line transform="translate(50)" x2="0" y2="5"/>
-          <ns1:line transform="translate(96)" x2="0" y2="5"/>
-          <ns1:line transform="translate(141)" x2="0" y2="5"/>
-          <ns1:line transform="translate(186)" x2="0" y2="5"/>
-          <ns1:line transform="translate(232)" x2="0" y2="5"/>
-          <ns1:line transform="translate(277)" x2="0" y2="5"/>
+          <ns1:line transform="translate(55)" x2="0" y2="5"/>
+          <ns1:line transform="translate(105)" x2="0" y2="5"/>
+          <ns1:line transform="translate(156)" x2="0" y2="5"/>
+          <ns1:line transform="translate(206)" x2="0" y2="5"/>
+          <ns1:line transform="translate(256)" x2="0" y2="5"/>
+          <ns1:line transform="translate(306)" x2="0" y2="5"/>
          </ns1:g>
          <ns1:g class="mark-text role-axis-label" fill="#000" font-family="Asap" font-size="9px" text-anchor="middle">
           <ns1:text transform="translate(5 14)">1900</ns1:text>
-          <ns1:text transform="translate(50 14)">1920</ns1:text>
-          <ns1:text transform="translate(96 14)">1940</ns1:text>
-          <ns1:text transform="translate(141 14)">1960</ns1:text>
-          <ns1:text transform="translate(186 14)">1980</ns1:text>
-          <ns1:text transform="translate(232 14)">2000</ns1:text>
-          <ns1:text transform="translate(277 14)">2020</ns1:text>
+          <ns1:text transform="translate(55 14)">1920</ns1:text>
+          <ns1:text transform="translate(105 14)">1940</ns1:text>
+          <ns1:text transform="translate(156 14)">1960</ns1:text>
+          <ns1:text transform="translate(206 14)">1980</ns1:text>
+          <ns1:text transform="translate(256 14)">2000</ns1:text>
+          <ns1:text transform="translate(306 14)">2020</ns1:text>
          </ns1:g>
         </ns1:g>
         <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
        </ns1:g>
       </ns1:g>
       <ns1:g class="mark-group role-axis" aria-label="Y-axis for a linear scale with values from 0.00 to 0.22" aria-roledescription="axis" role="graphics-symbol">
-       <ns1:g transform="translate(290 .5)" pointer-events="none">
+       <ns1:g transform="translate(320 .5)" pointer-events="none">
         <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
         <ns1:g>
          <ns1:g class="mark-rule role-axis-tick" stroke="#DCDDD6">
-          <ns1:line transform="translate(0,118)" x2="5" y2="0"/>
-          <ns1:line transform="translate(0,64)" x2="5" y2="0"/>
-          <ns1:line transform="translate(0,11)" x2="5" y2="0"/>
+          <ns1:line transform="translate(0,90)" x2="5" y2="0"/>
+          <ns1:line transform="translate(0,49)" x2="5" y2="0"/>
+          <ns1:line transform="translate(0,8)" x2="5" y2="0"/>
          </ns1:g>
          <ns1:g class="mark-text role-axis-label" fill="#000" font-family="Asap" font-size="9px">
-          <ns1:text transform="translate(7,121)">0 %</ns1:text>
-          <ns1:text transform="translate(7 67)">10 %</ns1:text>
-          <ns1:text transform="translate(7 14)">20 %</ns1:text>
+          <ns1:text transform="translate(7,93)">0 %</ns1:text>
+          <ns1:text transform="translate(7 52)">10 %</ns1:text>
+          <ns1:text transform="translate(7 11)">20 %</ns1:text>
          </ns1:g>
         </ns1:g>
         <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
        </ns1:g>
       </ns1:g>
       <ns1:g class="mark-rect role-mark marks" aria-roledescription="rect mark container" role="graphics-object">
-       <ns1:path d="M3.999999999959708,99.57730395218128h2v18.422696047818718h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1900; podíl: 0.0343473994112; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M6.266777963232483,90.68933070268629h2v27.31066929731371h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1901; podíl: 0.050918196995; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M8.533555926505258,85.7346715563276h2v32.2653284436724h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1902; podíl: 0.0601556970984; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M10.800333889778033,85.2199458295715h2v32.7800541704285h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1903; podíl: 0.061115355233; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M13.067111853050807,94.24798711755233h2v23.752012882447673h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1904; podíl: 0.0442834138486; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M15.340100166907892,91.01045599767644h2v26.989544002323555h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1905; podíl: 0.0503194888179; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M17.606878130180664,53.880627910988444h2v64.11937208901156h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1906; podíl: 0.11954459203; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M19.87365609345344,91.41637953882852h2v26.583620461171478h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1907; podíl: 0.0495626822157; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M22.140434056726214,91.63240368840867h2v26.367596311591328h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1908; podíl: 0.0491599253267; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M24.4134223705833,101.22771690849866h2v16.772283091501336h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1909; podíl: 0.0312703583062; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M26.680200333856074,91.78563226998152h2v26.21436773001848h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1910; podíl: 0.0488742449204; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M28.94697829712885,95.16322892793482h2v22.836771072065176h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1911; podíl: 0.0425770308123; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M31.213756260401624,93.8075807580758h2v24.1924192419242h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1912; podíl: 0.045104510451; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M33.48674457425871,98.0608313619466h2v19.939168638053403h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1913; podíl: 0.0371747211896; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M35.75352253753149,96.76566249000267h2v21.23433750999733h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1914; podíl: 0.0395894428152; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M38.020300500804254,94.1985176845858h2v23.801482315414205h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1915; podíl: 0.0443756449948; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M40.287078464077034,94.27147046501885h2v23.72852953498115h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1916; podíl: 0.0442396313364; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M42.56006677793412,93.72592768415223h2v24.274072315847775h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1917; podíl: 0.0452567449956; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M44.8268447412069,93.69112174375333h2v24.308878256246672h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1918; podíl: 0.0453216374269; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M47.093622704479664,98.30789770119738h2v19.692102298802624h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1919; podíl: 0.0367140890317; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M49.360400667752444,102.30065113949411h2v15.699348860505893h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1920; podíl: 0.0292699724518; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M51.63338898160953,100.45068207460083h2v17.549317925399166h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1921; podíl: 0.0327190673185; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M53.900166944882294,104.36844976414338h2v13.631550235856622h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1922; podíl: 0.025414754677; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M56.166944908155074,106.05176723728759h2v11.948232762712408h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1923; podíl: 0.0222763661678; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M58.433722871427854,103.60438614117174h2v14.395613858828256h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1924; podíl: 0.0268392800758; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M60.70671118528494,103.25304061018348h2v14.746959389816524h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1925; podíl: 0.0274943310658; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M62.973489148557704,96.22282980177717h2v21.777170198222834h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1926; podíl: 0.0406015037594; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M65.24026711183048,97.71805760175636h2v20.281942398243643h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1927; podíl: 0.037813790912; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M67.50704507510326,102.51401230348598h2v15.485987696514016h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1928; podíl: 0.0288721804511; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M69.78003338896035,101.6583024818319h2v16.341697518168104h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1929; podíl: 0.030467571644; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M72.04681135223312,94.10691144708424h2v23.893088552915756h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1930; podíl: 0.0445464362851; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M74.3135893155059,104.3593549307835h2v13.640645069216504h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1931; podíl: 0.025431711146; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M76.58036727877867,105.0666708420756h2v12.933329157924405h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1932; podíl: 0.0241129865656; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M78.85335559263575,102.64321990858303h2v15.356780091416965h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1933; podíl: 0.0286312849162; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M81.12013355590852,102.77886977886978h2v15.221130221130224h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1934; podíl: 0.0283783783784; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M83.3869115191813,98.08979400199541h2v19.910205998004585h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1935; podíl: 0.0371207230471; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M85.65368948245408,99.97097020626433h2v18.029029793735674h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1936; podíl: 0.0336134453782; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M87.92667779631115,97.96132582988322h2v20.038674170116778h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1937; podíl: 0.0373602399782; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M90.19345575958394,100.325152667358h2v17.674847332642003h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1938; podíl: 0.0329531051965; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M92.46023372285671,99.98315198315198h2v18.016848016848016h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1939; podíl: 0.0335907335907; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M94.72701168612949,101.58070500927644h2v16.419294990723557h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1940; podíl: 0.030612244898; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M96.99974123537888,94.26277935462537h2v23.737220645374634h-2Z" fill="#DFBD6E" aria-label="rok: Jan 01, 1941; podíl: 0.0442558351015; nakladatel: Orbis" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M99.26651919865166,59.68639967054463h2v58.31360032945537h-2Z" fill="#DFBD6E" aria-label="rok: Jan 01, 1942; podíl: 0.108720271801; nakladatel: Orbis" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M101.53355592653212,3.8647076828895037h2v114.1352923171105h-2Z" fill="#DFBD6E" aria-label="rok: Jan 01, 1943; podíl: 0.212794612795; nakladatel: Orbis" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M103.8003338898049,50.25209016827177h2v67.74790983172824h-2Z" fill="#DFBD6E" aria-label="rok: Jan 01, 1944; podíl: 0.126309662398; nakladatel: Orbis" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M106.07332220366197,94.00824420677361h2v23.99175579322639h-2Z" fill="#DFBD6E" aria-label="rok: Jan 01, 1945; podíl: 0.0447303921569; nakladatel: Orbis" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M108.34010016693475,100.25841372176383h2v17.74158627823617h-2Z" fill="#DFBD6E" aria-label="rok: Jan 01, 1946; podíl: 0.0330775337391; nakladatel: Orbis" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M110.60713689481521,98.78852415735281h2v19.21147584264719h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1947; podíl: 0.0358180058083; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M112.8736560934803,91.91057312252964h2v26.08942687747036h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1948; podíl: 0.0486413043478; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M115.14664440733739,69.78753830439224h2v48.21246169560776h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1949; podíl: 0.0898876404494; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M117.41342237061016,70.41755329218887h2v47.58244670781113h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1950; podíl: 0.0887130362349; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M119.68020033388294,67.87084124365876h2v50.12915875634124h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1951; podíl: 0.093461143444; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M121.94697829715571,42.707275358505456h2v75.29272464149454h-2Z" fill="#C8414D" aria-label="rok: Jan 01, 1952; podíl: 0.140376266281; nakladatel: SPN" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M124.2199666110128,24.859977526242226h2v93.14002247375777h-2Z" fill="#C8414D" aria-label="rok: Jan 01, 1953; podíl: 0.173650889358; nakladatel: SPN" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M126.48674457428557,41.787067175846424h2v76.21293282415357h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1954; podíl: 0.142091908655; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M128.75352253755835,40.239707742026134h2v77.76029225797387h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1955; podíl: 0.144976816074; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M131.02030050083113,40.372624397639285h2v77.62737560236071h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1956; podíl: 0.14472900536; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M133.2932888146882,34.961862391225274h2v83.03813760877472h-2Z" fill="#C8414D" aria-label="rok: Jan 01, 1957; podíl: 0.154816866728; nakladatel: SPN" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M135.56006677796097,28.139657444005273h2v89.86034255599472h-2Z" fill="#C8414D" aria-label="rok: Jan 01, 1958; podíl: 0.167536231884; nakladatel: SPN" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M137.82684474123377,35.09532532055302h2v82.90467467944697h-2Z" fill="#C8414D" aria-label="rok: Jan 01, 1959; podíl: 0.154568037538; nakladatel: SPN" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M140.09362270450654,8.398421117552726h2v109.60157888244727h-2Z" fill="#C8414D" aria-label="rok: Jan 01, 1960; podíl: 0.20434192673; nakladatel: SPN" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M142.3666110183636,17.727686060930242h2v100.27231393906976h-2Z" fill="#C8414D" aria-label="rok: Jan 01, 1961; podíl: 0.18694838192; nakladatel: SPN" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M144.6333889816364,14.712731397927087h2v103.28726860207291h-2Z" fill="#C8414D" aria-label="rok: Jan 01, 1962; podíl: 0.192569483834; nakladatel: SPN" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M146.90016694490916,19.737132125824704h2v98.2628678741753h-2Z" fill="#C8414D" aria-label="rok: Jan 01, 1963; podíl: 0.183201957054; nakladatel: SPN" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M149.16694490818193,23.80360463098395h2v94.19639536901605h-2Z" fill="#C8414D" aria-label="rok: Jan 01, 1964; podíl: 0.175620398146; nakladatel: SPN" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M151.43993322203903,12.149149819252917h2v105.85085018074709h-2Z" fill="#C8414D" aria-label="rok: Jan 01, 1965; podíl: 0.19734904271; nakladatel: SPN" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M153.70671118531178,23.500012916892715h2v94.49998708310729h-2Z" fill="#C8414D" aria-label="rok: Jan 01, 1966; podíl: 0.176186416596; nakladatel: SPN" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M155.97348914858455,40.33720275595828h2v77.66279724404171h-2Z" fill="#C8414D" aria-label="rok: Jan 01, 1967; podíl: 0.144795045709; nakladatel: SPN" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M158.24026711185735,38.49854219747315h2v79.50145780252686h-2Z" fill="#C8414D" aria-label="rok: Jan 01, 1968; podíl: 0.14822305692; nakladatel: SPN" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M160.51325542571442,41.245306535794974h2v76.75469346420502h-2Z" fill="#C8414D" aria-label="rok: Jan 01, 1969; podíl: 0.143101970865; nakladatel: SPN" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M162.78003338898722,47.53423427916022h2v70.46576572083978h-2Z" fill="#C8414D" aria-label="rok: Jan 01, 1970; podíl: 0.131376851344; nakladatel: SPN" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M165.04681135226,41.81868131868133h2v76.18131868131867h-2Z" fill="#C8414D" aria-label="rok: Jan 01, 1971; podíl: 0.142032967033; nakladatel: SPN" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M167.31358931553277,37.93026289383904h2v80.06973710616096h-2Z" fill="#C8414D" aria-label="rok: Jan 01, 1972; podíl: 0.149282560706; nakladatel: SPN" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M169.58657762938984,36.904441861640315h2v81.09555813835968h-2Z" fill="#C8414D" aria-label="rok: Jan 01, 1973; podíl: 0.151195108394; nakladatel: SPN" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M171.8533555926626,38.219855051315726h2v79.78014494868427h-2Z" fill="#C8414D" aria-label="rok: Jan 01, 1974; podíl: 0.148742643125; nakladatel: SPN" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M174.12013355593538,31.196174746683745h2v86.80382525331626h-2Z" fill="#C8414D" aria-label="rok: Jan 01, 1975; podíl: 0.161837640303; nakladatel: SPN" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M176.38691151920816,36.665602029074h2v81.334397970926h-2Z" fill="#C8414D" aria-label="rok: Jan 01, 1976; podíl: 0.151640402997; nakladatel: SPN" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M178.65989983306525,30.236486806575392h2v87.76351319342461h-2Z" fill="#C8414D" aria-label="rok: Jan 01, 1977; podíl: 0.163626889005; nakladatel: SPN" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M180.92667779633803,39.79472140762462h2v78.20527859237538h-2Z" fill="#C8414D" aria-label="rok: Jan 01, 1978; podíl: 0.145806451613; nakladatel: SPN" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M183.1934557596108,47.67028023930548h2v70.32971976069453h-2Z" fill="#C8414D" aria-label="rok: Jan 01, 1979; podíl: 0.131123206333; nakladatel: SPN" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M185.46023372288357,52.20026852613798h2v65.79973147386201h-2Z" fill="#C8414D" aria-label="rok: Jan 01, 1980; podíl: 0.12267746546; nakladatel: SPN" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M187.73322203674064,53.261845386533665h2v64.73815461346634h-2Z" fill="#C8414D" aria-label="rok: Jan 01, 1981; podíl: 0.120698254364; nakladatel: SPN" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M190.00000000001342,40.47668438943607h2v77.52331561056393h-2Z" fill="#C8414D" aria-label="rok: Jan 01, 1982; podíl: 0.144534995206; nakladatel: SPN" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M192.2667779632862,50.87478640797699h2v67.12521359202302h-2Z" fill="#C8414D" aria-label="rok: Jan 01, 1983; podíl: 0.125148703307; nakladatel: SPN" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M194.53355592655896,58.24143205589318h2v59.75856794410682h-2Z" fill="#C8414D" aria-label="rok: Jan 01, 1984; podíl: 0.111414279218; nakladatel: SPN" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M196.80654424041606,52.22309995540549h2v65.77690004459451h-2Z" fill="#C8414D" aria-label="rok: Jan 01, 1985; podíl: 0.122634898388; nakladatel: SPN" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M199.07332220368883,53.30384709629992h2v64.69615290370008h-2Z" fill="#C8414D" aria-label="rok: Jan 01, 1986; podíl: 0.120619946092; nakladatel: SPN" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M201.34010016696163,67.62330487192365h2v50.37669512807635h-2Z" fill="#C8414D" aria-label="rok: Jan 01, 1987; podíl: 0.0939226519337; nakladatel: SPN" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M203.6068781302344,59.583003952569165h2v58.416996047430835h-2Z" fill="#C8414D" aria-label="rok: Jan 01, 1988; podíl: 0.108913043478; nakladatel: SPN" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M205.87986644409145,63.80661657684592h2v54.19338342315408h-2Z" fill="#C8414D" aria-label="rok: Jan 01, 1989; podíl: 0.101038511467; nakladatel: SPN" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M208.14664440736425,82.09557588202351h2v35.90442411797649h-2Z" fill="#C8414D" aria-label="rok: Jan 01, 1990; podíl: 0.0669404517454; nakladatel: SPN" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M210.41342237063702,100.34982392560428h2v17.650176074395716h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1991; podíl: 0.0329071079353; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M212.6802003339098,81.055230200919h2v36.944769799081h-2Z" fill="#6B8EAA" aria-label="rok: Jan 01, 1992; podíl: 0.0688800792864; nakladatel: Železný" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M214.9531886477669,38.81367306280801h2v79.18632693719199h-2Z" fill="#6B8EAA" aria-label="rok: Jan 01, 1993; podíl: 0.147635524798; nakladatel: Železný" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M217.21996661103967,51.351701336272214h2v66.64829866372779h-2Z" fill="#6B8EAA" aria-label="rok: Jan 01, 1994; podíl: 0.124259539882; nakladatel: Železný" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M219.48674457431244,60.204792335894844h2v57.795207664105156h-2Z" fill="#6B8EAA" aria-label="rok: Jan 01, 1995; podíl: 0.107753777001; nakladatel: Železný" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M221.7535225375852,77.70588869947997h2v40.29411130052003h-2Z" fill="#6B8EAA" aria-label="rok: Jan 01, 1996; podíl: 0.0751246142891; nakladatel: Železný" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M224.02651085144228,73.63278661870211h2v44.36721338129789h-2Z" fill="#6B8EAA" aria-label="rok: Jan 01, 1997; podíl: 0.0827185334228; nakladatel: Železný" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M226.29328881471505,81.27825525561877h2v36.721744744381226h-2Z" fill="#6B8EAA" aria-label="rok: Jan 01, 1998; podíl: 0.0684642698624; nakladatel: Železný" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M228.56006677798783,91.66351365713678h2v26.336486342863225h-2Z" fill="#6B8EAA" aria-label="rok: Jan 01, 1999; podíl: 0.0491019236901; nakladatel: Železný" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M230.8268447412606,100.12836792984882h2v17.87163207015118h-2Z" fill="#6B8EAA" aria-label="rok: Jan 01, 2000; podíl: 0.0333199919952; nakladatel: Železný" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M233.0998330551177,100.9682917888563h2v17.031708211143695h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 2001; podíl: 0.0317540322581; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M235.36661101839047,102.3633759857164h2v15.636624014283598h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 2002; podíl: 0.0291530278232; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M237.63338898166324,103.29710764248122h2v14.702892357518778h-2Z" fill="#33444C" aria-label="rok: Jan 01, 2003; podíl: 0.027412172192; nakladatel: MOBA" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M239.90016694493605,102.060819645161h2v15.939180354838996h-2Z" fill="#33444C" aria-label="rok: Jan 01, 2004; podíl: 0.0297171159158; nakladatel: MOBA" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M242.1731552587931,101.5796833370102h2v16.420316662989805h-2Z" fill="#33444C" aria-label="rok: Jan 01, 2005; podíl: 0.0306141497107; nakladatel: MOBA" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M244.43993322206586,101.42131336592655h2v16.57868663407345h-2Z" fill="#33444C" aria-label="rok: Jan 01, 2006; podíl: 0.0309094157584; nakladatel: MOBA" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M246.70671118533866,101.58723615286861h2v16.412763847131387h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 2007; podíl: 0.0306000681896; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M248.97348914861143,102.01346580178996h2v15.986534198210038h-2Z" fill="#33444C" aria-label="rok: Jan 01, 2008; podíl: 0.0298054027424; nakladatel: MOBA" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M251.24647746246853,100.8765664802795h2v17.123433519720507h-2Z" fill="#33444C" aria-label="rok: Jan 01, 2009; podíl: 0.0319250455452; nakladatel: MOBA" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M253.5132554257413,101.6348395946049h2v16.365160405395102h-2Z" fill="#33444C" aria-label="rok: Jan 01, 2010; podíl: 0.0305113160101; nakladatel: MOBA" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M255.78003338901408,101.98377331442252h2v16.01622668557748h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 2011; podíl: 0.0298607616172; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M258.04681135228685,102.78630602951665h2v15.213693970483348h-2Z" fill="#33444C" aria-label="rok: Jan 01, 2012; podíl: 0.0283645141823; nakladatel: MOBA" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M260.3197996661439,101.31959541179098h2v16.680404588209015h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 2013; podíl: 0.0310990594017; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M262.5865776294167,102.16554519157889h2v15.834454808421114h-2Z" fill="#33444C" aria-label="rok: Jan 01, 2014; podíl: 0.0295218648971; nakladatel: MOBA" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M264.85335559268947,102.68034134618962h2v15.319658653810379h-2Z" fill="#33444C" aria-label="rok: Jan 01, 2015; podíl: 0.0285620754563; nakladatel: MOBA" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M267.12013355596224,100.88494829925607h2v17.115051700743933h-2Z" fill="#33444C" aria-label="rok: Jan 01, 2016; podíl: 0.0319094184251; nakladatel: MOBA" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M269.39312186981937,102.63698323934715h2v15.363016760652854h-2Z" fill="#33444C" aria-label="rok: Jan 01, 2017; podíl: 0.0286429126046; nakladatel: MOBA" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M271.65989983309214,102.08042866833846h2v15.919571331661544h-2Z" fill="#33444C" aria-label="rok: Jan 01, 2018; podíl: 0.02968055672; nakladatel: MOBA" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M273.9266777963649,96.53991645937954h2v21.46008354062046h-2Z" fill="#588438" aria-label="rok: Jan 01, 2019; podíl: 0.0400103252452; nakladatel: Euromedia" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M276.1934557596377,96.98658718330849h2v21.013412816691513h-2Z" fill="#588438" aria-label="rok: Jan 01, 2020; podíl: 0.0391775493193; nakladatel: Euromedia" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M278.46644407349476,96.7453838118816h2v21.254616188118405h-2Z" fill="#588438" aria-label="rok: Jan 01, 2021; podíl: 0.0396272505202; nakladatel: Euromedia" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M280.73322203676753,97.96532383067803h2v20.03467616932197h-2Z" fill="#588438" aria-label="rok: Jan 01, 2022; podíl: 0.0373527860784; nakladatel: Euromedia" aria-roledescription="bar" role="graphics-symbol"/>
-       <ns1:path d="M283.0000000000403,93.49259209525088h2v24.507407904749115h-2Z" fill="#588438" aria-label="rok: Jan 01, 2023; podíl: 0.0456917774495; nakladatel: Euromedia" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M3.9999999999775397,75.94879114996877h2v14.05120885003123h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1900; podíl: 0.0343473994112; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M6.5105175291932635,69.16982850204887h2v20.830171497951127h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1901; podíl: 0.050918196995; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M9.021035058408987,65.39085118702953h2v24.609148812970474h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1902; podíl: 0.0601556970984; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M11.531552587624711,64.99826376831724h2v25.001736231682756h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1903; podíl: 0.061115355233; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M14.042070116840435,71.8840579710145h2v18.1159420289855h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1904; podíl: 0.0442834138486; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M16.55946577627319,69.41475457449899h2v20.585245425501014h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1905; podíl: 0.0503194888179; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M19.069983305488915,41.09539416939797h2v48.90460583060203h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1906; podíl: 0.11954459203; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M21.580500834704637,69.72435727537768h2v20.275642724622315h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1907; podíl: 0.0495626822157; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M24.091018363920362,69.88912145726086h2v20.110878542739144h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1908; podíl: 0.0491599253267; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M26.608414023353113,77.2075806929227h2v12.792419307077296h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1909; podíl: 0.0312703583062; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M29.118931552568835,70.00599071439268h2v19.99400928560732h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1910; podíl: 0.0488742449204; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M31.629449081784557,72.58212375859435h2v17.41787624140565h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1911; podíl: 0.0425770308123; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M34.13996661100029,71.54815481548154h2v18.45184518451846h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1912; podíl: 0.045104510451; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M36.65736227043304,74.7921595133491h2v15.207840486650895h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1913; podíl: 0.0371747211896; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M39.16787979964876,73.80431884830712h2v16.19568115169288h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1914; podíl: 0.0395894428152; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M41.67839732886449,71.84632704756544h2v18.15367295243456h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1915; podíl: 0.0443756449948; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M44.18891485808022,71.90196899874319h2v18.098031001256814h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1916; podíl: 0.0442396313364; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M46.70631051751297,71.48587704723475h2v18.51412295276525h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1917; podíl: 0.0452567449956; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M49.216828046728686,71.45933014354067h2v18.54066985645933h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1918; podíl: 0.0453216374269; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M51.72734557594441,74.98059994159122h2v15.019400058408777h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1919; podíl: 0.0367140890317; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M54.23786310516014,78.0259203606311h2v11.974079639368895h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1920; podíl: 0.0292699724518; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M56.75525876459289,76.61492700605149h2v13.385072993948512h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1921; podíl: 0.0327190673185; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M59.265776293808614,79.60305490485511h2v10.396945095144886h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1922; podíl: 0.025414754677; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M61.77629382302433,80.88694111318546h2v9.113058886814542h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1923; podíl: 0.0222763661678; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M64.28681135224006,79.02029451445303h2v10.979705485546972h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1924; podíl: 0.0268392800758; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M66.80420701167282,78.75231910946196h2v11.247680890538035h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1925; podíl: 0.0274943310658; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M69.31472454088853,73.3902939166097h2v16.609706083390293h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1926; podíl: 0.0406015037594; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M71.82524207010427,74.53072189964469h2v15.46927810035531h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1927; podíl: 0.037813790912; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M74.33575959931999,78.18865345181135h2v11.811346548188652h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1928; podíl: 0.0288721804511; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M76.85315525875274,77.53599341834637h2v12.464006581653635h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1929; podíl: 0.030467571644; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M79.36367278796845,71.77645788336933h2v18.223542116630668h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1930; podíl: 0.0445464362851; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M81.87419031718419,79.59611816754673h2v10.403881832453266h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1931; podíl: 0.025431711146; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M84.3847078463999,80.13559640497292h2v9.864403595027085h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1932; podíl: 0.0241129865656; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M86.90210350583266,78.28720162519045h2v11.712798374809552h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1933; podíl: 0.0286312849162; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M89.41262103504839,78.39066339066339h2v11.609336609336609h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1934; podíl: 0.0283783783784; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M91.92313856426411,74.81424966253887h2v15.18575033746113h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1935; podíl: 0.0371207230471; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M94.43365609347984,76.24904507257449h2v13.75095492742551h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1936; podíl: 0.0336134453782; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M96.95105175291259,74.71626546347025h2v15.28373453652975h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1937; podíl: 0.0373602399782; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M99.46156928212832,76.51918423781541h2v13.48081576218459h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1938; podíl: 0.0329531051965; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M101.97208681134403,76.25833625833626h2v13.741663741663743h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1939; podíl: 0.0335907335907; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M104.48260434055976,77.47680890538034h2v12.523191094619662h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1940; podíl: 0.030612244898; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M106.99971341123347,71.89534018573121h2v18.104659814268786h-2Z" fill="#DFBD6E" aria-label="rok: Jan 01, 1941; podíl: 0.0442558351015; nakladatel: Orbis" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M109.51023094044919,45.5235251724493h2v44.4764748275507h-2Z" fill="#DFBD6E" aria-label="rok: Jan 01, 1942; podíl: 0.108720271801; nakladatel: Orbis" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M112.02103505842395,2.9476584022038588h2v87.05234159779614h-2Z" fill="#DFBD6E" aria-label="rok: Jan 01, 1943; podíl: 0.212794612795; nakladatel: Orbis" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M114.53155258763968,38.327865382580164h2v51.672134617419836h-2Z" fill="#DFBD6E" aria-label="rok: Jan 01, 1944; podíl: 0.126309662398; nakladatel: Orbis" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M117.04894824707245,71.70120320855615h2v18.29879679144385h-2Z" fill="#DFBD6E" aria-label="rok: Jan 01, 1945; podíl: 0.0447303921569; nakladatel: Orbis" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M119.55946577628816,76.46828165219274h2v13.531718347807256h-2Z" fill="#DFBD6E" aria-label="rok: Jan 01, 1946; podíl: 0.0330775337391; nakladatel: Orbis" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M122.07026989426292,75.34717944204874h2v14.652820557951259h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1947; podíl: 0.0358180058083; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M124.5805008347196,70.10128458498023h2v19.898715415019765h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1948; podíl: 0.0486413043478; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M127.09789649415237,53.22778345250255h2v36.77221654749745h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1949; podíl: 0.0898876404494; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M129.60841402336808,53.708303358449136h2v36.291696641550864h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1950; podíl: 0.0887130362349; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M132.1189315525838,51.76589586380753h2v38.23410413619247h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1951; podíl: 0.093461143444; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M134.62944908179952,32.573345612419416h2v57.426654387580584h-2Z" fill="#C8414D" aria-label="rok: Jan 01, 1952; podíl: 0.140376266281; nakladatel: SPN" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M137.1468447412323,18.96099980815085h2v71.03900019184915h-2Z" fill="#C8414D" aria-label="rok: Jan 01, 1953; podíl: 0.173650889358; nakladatel: SPN" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M139.657362270448,31.87149191378117h2v58.12850808621883h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1954; podíl: 0.142091908655; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M142.16787979966372,30.69130251510468h2v59.30869748489532h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1955; podíl: 0.144976816074; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M144.67839732887944,30.792679625318097h2v59.2073203746819h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1956; podíl: 0.14472900536; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M147.1957929883122,26.665827247544705h2v63.334172752455295h-2Z" fill="#C8414D" aria-label="rok: Jan 01, 1957; podíl: 0.154816866728; nakladatel: SPN" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M149.70631051752795,21.46245059288538h2v68.53754940711462h-2Z" fill="#C8414D" aria-label="rok: Jan 01, 1958; podíl: 0.167536231884; nakladatel: SPN" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M152.21682804674367,26.76762100720146h2v63.232378992798544h-2Z" fill="#C8414D" aria-label="rok: Jan 01, 1959; podíl: 0.154568037538; nakladatel: SPN" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M154.7273455759594,6.40557542864191h2v83.59442457135809h-2Z" fill="#C8414D" aria-label="rok: Jan 01, 1960; podíl: 0.20434192673; nakladatel: SPN" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M157.24474123539213,13.521116487150186h2v76.47888351284982h-2Z" fill="#C8414D" aria-label="rok: Jan 01, 1961; podíl: 0.18694838192; nakladatel: SPN" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M159.75525876460787,11.221574795029133h2v78.77842520497087h-2Z" fill="#C8414D" aria-label="rok: Jan 01, 1962; podíl: 0.192569483834; nakladatel: SPN" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M162.2657762938236,15.053744841730708h2v74.9462551582693h-2Z" fill="#C8414D" aria-label="rok: Jan 01, 1963; podíl: 0.183201957054; nakladatel: SPN" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M164.77629382303928,18.155291667699625h2v71.84470833230037h-2Z" fill="#C8414D" aria-label="rok: Jan 01, 1964; podíl: 0.175620398146; nakladatel: SPN" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M167.29368948247205,9.266300709599683h2v80.73369929040032h-2Z" fill="#C8414D" aria-label="rok: Jan 01, 1965; podíl: 0.19734904271; nakladatel: SPN" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M169.8042070116878,17.923738665426647h2v72.07626133457336h-2Z" fill="#C8414D" aria-label="rok: Jan 01, 1966; podíl: 0.176186416596; nakladatel: SPN" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M172.3147245409035,30.765663118951228h2v59.234336881048776h-2Z" fill="#C8414D" aria-label="rok: Jan 01, 1967; podíl: 0.144795045709; nakladatel: SPN" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M174.82524207011923,29.363294896377823h2v60.63670510362218h-2Z" fill="#C8414D" aria-label="rok: Jan 01, 1968; podíl: 0.14822305692; nakladatel: SPN" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M177.34263772955197,31.458284645945316h2v58.54171535405469h-2Z" fill="#C8414D" aria-label="rok: Jan 01, 1969; podíl: 0.143101970865; nakladatel: SPN" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M179.8531552587677,36.25492445020695h2v53.74507554979305h-2Z" fill="#C8414D" aria-label="rok: Jan 01, 1970; podíl: 0.131376851344; nakladatel: SPN" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M182.36367278798343,31.8956043956044h2v58.1043956043956h-2Z" fill="#C8414D" aria-label="rok: Jan 01, 1971; podíl: 0.142032967033; nakladatel: SPN" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M184.87419031719918,28.929861529199272h2v61.07013847080073h-2Z" fill="#C8414D" aria-label="rok: Jan 01, 1972; podíl: 0.149282560706; nakladatel: SPN" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M187.3915859766319,28.14745565718329h2v61.852544342816714h-2Z" fill="#C8414D" aria-label="rok: Jan 01, 1973; podíl: 0.151195108394; nakladatel: SPN" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M189.90210350584763,29.150736903545894h2v60.84926309645411h-2Z" fill="#C8414D" aria-label="rok: Jan 01, 1974; podíl: 0.148742643125; nakladatel: SPN" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M192.41262103506335,23.793692603402857h2v66.20630739659714h-2Z" fill="#C8414D" aria-label="rok: Jan 01, 1975; podíl: 0.161837640303; nakladatel: SPN" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M194.9231385642791,27.965289683192037h2v62.03471031680796h-2Z" fill="#C8414D" aria-label="rok: Jan 01, 1976; podíl: 0.151640402997; nakladatel: SPN" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M197.4405342237118,23.061727225354115h2v66.93827277464588h-2Z" fill="#C8414D" aria-label="rok: Jan 01, 1977; podíl: 0.163626889005; nakladatel: SPN" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M199.95105175292755,30.351906158357764h2v59.648093841642236h-2Z" fill="#C8414D" aria-label="rok: Jan 01, 1978; podíl: 0.145806451613; nakladatel: SPN" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M202.46156928214327,36.358688318114346h2v53.641311681885654h-2Z" fill="#C8414D" aria-label="rok: Jan 01, 1979; podíl: 0.131123206333; nakladatel: SPN" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M204.97208681135902,39.81376413010524h2v50.18623586989476h-2Z" fill="#C8414D" aria-label="rok: Jan 01, 1980; podíl: 0.12267746546; nakladatel: SPN" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M207.48948247079178,40.623441396508724h2v49.376558603491276h-2Z" fill="#C8414D" aria-label="rok: Jan 01, 1981; podíl: 0.120698254364; nakladatel: SPN" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M210.00000000000747,30.87204741567158h2v59.12795258432842h-2Z" fill="#C8414D" aria-label="rok: Jan 01, 1982; podíl: 0.144534995206; nakladatel: SPN" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M212.51051752922322,38.80280319252482h2v51.19719680747518h-2Z" fill="#C8414D" aria-label="rok: Jan 01, 1983; podíl: 0.125148703307; nakladatel: SPN" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M215.02103505843894,44.42143122907107h2v45.57856877092893h-2Z" fill="#C8414D" aria-label="rok: Jan 01, 1984; podíl: 0.111414279218; nakladatel: SPN" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M217.5384307178717,39.831177932088934h2v50.168822067911066h-2Z" fill="#C8414D" aria-label="rok: Jan 01, 1985; podíl: 0.122634898388; nakladatel: SPN" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M220.0489482470874,40.655476598872816h2v49.344523401127184h-2Z" fill="#C8414D" aria-label="rok: Jan 01, 1986; podíl: 0.120619946092; nakladatel: SPN" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M222.55946577630314,51.57709693621296h2v38.42290306378704h-2Z" fill="#C8414D" aria-label="rok: Jan 01, 1987; podíl: 0.0939226519337; nakladatel: SPN" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M225.06998330551886,45.44466403162055h2v44.55533596837945h-2Z" fill="#C8414D" aria-label="rok: Jan 01, 1988; podíl: 0.108913043478; nakladatel: SPN" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M227.58737896495163,48.66606349081468h2v41.33393650918532h-2Z" fill="#C8414D" aria-label="rok: Jan 01, 1989; podíl: 0.101038511467; nakladatel: SPN" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M230.09789649416732,62.61526974052641h2v27.384730259473592h-2Z" fill="#C8414D" aria-label="rok: Jan 01, 1990; podíl: 0.0669404517454; nakladatel: SPN" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M232.60841402338306,76.53800129918972h2v13.461998700810284h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 1991; podíl: 0.0329071079353; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M235.11893155259878,61.82178574646364h2v28.17821425353636h-2Z" fill="#6B8EAA" aria-label="rok: Jan 01, 1992; podíl: 0.0688800792864; nakladatel: Železný" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M237.63632721203155,29.6036489462095h2v60.3963510537905h-2Z" fill="#6B8EAA" aria-label="rok: Jan 01, 1993; podíl: 0.147635524798; nakladatel: Železný" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M240.14684474124726,39.1665518666483h2v50.8334481333517h-2Z" fill="#6B8EAA" aria-label="rok: Jan 01, 1994; podíl: 0.124259539882; nakladatel: Železný" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M242.65736227046298,45.918909408733356h2v44.081090591266644h-2Z" fill="#6B8EAA" aria-label="rok: Jan 01, 1995; podíl: 0.107753777001; nakladatel: Železný" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M245.1678797996787,59.267203245366076h2v30.732796754633924h-2Z" fill="#6B8EAA" aria-label="rok: Jan 01, 1996; podíl: 0.0751246142891; nakladatel: Železný" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M247.68527545911147,56.160599963416864h2v33.839400036583136h-2Z" fill="#6B8EAA" aria-label="rok: Jan 01, 1997; podíl: 0.0827185334228; nakladatel: Železný" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M250.1957929883272,61.99188960174313h2v28.008110398256868h-2Z" fill="#6B8EAA" aria-label="rok: Jan 01, 1998; podíl: 0.0684642698624; nakladatel: Železný" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M252.7063105175429,69.9128493995111h2v20.087150600488897h-2Z" fill="#6B8EAA" aria-label="rok: Jan 01, 1999; podíl: 0.0491019236901; nakladatel: Železný" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M255.21682804675862,76.369094183783h2v13.630905816216995h-2Z" fill="#6B8EAA" aria-label="rok: Jan 01, 2000; podíl: 0.0333199919952; nakladatel: Železný" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M257.7342237061914,77.00971407624634h2v12.99028592375366h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 2001; podíl: 0.0317540322581; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M260.2447412354071,78.07376134503794h2v11.926238654962063h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 2002; podíl: 0.0291530278232; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M262.7552587646228,78.78592955782466h2v11.214070442175341h-2Z" fill="#33444C" aria-label="rok: Jan 01, 2003; podíl: 0.027412172192; nakladatel: MOBA" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M265.26577629383854,77.84299803444483h2v12.157001965555168h-2Z" fill="#33444C" aria-label="rok: Jan 01, 2004; podíl: 0.0297171159158; nakladatel: MOBA" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M267.78317195327134,77.47602966382134h2v12.523970336178664h-2Z" fill="#33444C" aria-label="rok: Jan 01, 2005; podíl: 0.0306141497107; nakladatel: MOBA" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M270.293689482487,77.35523900791007h2v12.644760992089928h-2Z" fill="#33444C" aria-label="rok: Jan 01, 2006; podíl: 0.0309094157584; nakladatel: MOBA" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M272.8042070117028,77.48179028608624h2v12.518209713913762h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 2007; podíl: 0.0306000681896; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M275.31472454091846,77.80688069628049h2v12.193119303719513h-2Z" fill="#33444C" aria-label="rok: Jan 01, 2008; podíl: 0.0298054027424; nakladatel: MOBA" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M277.83212020035126,76.93975409512842h2v13.060245904871579h-2Z" fill="#33444C" aria-label="rok: Jan 01, 2009; podíl: 0.0319250455452; nakladatel: MOBA" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M280.34263772956695,77.51809799588509h2v12.481902004114914h-2Z" fill="#33444C" aria-label="rok: Jan 01, 2010; podíl: 0.0305113160101; nakladatel: MOBA" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M282.8531552587827,77.78423388388158h2v12.215766116118417h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 2011; podíl: 0.0298607616172; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M285.3636727879984,78.39633510725847h2v11.603664892741534h-2Z" fill="#33444C" aria-label="rok: Jan 01, 2012; podíl: 0.0283645141823; nakladatel: MOBA" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M287.8810684474312,77.2776575174677h2v12.722342482532298h-2Z" fill="#F2E9DE" aria-label="rok: Jan 01, 2013; podíl: 0.0310990594017; nakladatel: ostatní" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M290.39158597664687,77.92287345120424h2v12.07712654879576h-2Z" fill="#33444C" aria-label="rok: Jan 01, 2014; podíl: 0.0295218648971; nakladatel: MOBA" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M292.9021035058626,78.31551458607683h2v11.68448541392317h-2Z" fill="#33444C" aria-label="rok: Jan 01, 2015; podíl: 0.0285620754563; nakladatel: MOBA" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M295.41262103507836,76.94614700790717h2v13.053852992092828h-2Z" fill="#33444C" aria-label="rok: Jan 01, 2016; podíl: 0.0319094184251; nakladatel: MOBA" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M297.9300166945111,78.28244484356985h2v11.717555156430151h-2Z" fill="#33444C" aria-label="rok: Jan 01, 2017; podíl: 0.0286429126046; nakladatel: MOBA" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M300.4405342237268,77.8579540690717h2v12.142045930928305h-2Z" fill="#33444C" aria-label="rok: Jan 01, 2018; podíl: 0.02968055672; nakladatel: MOBA" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M302.95105175294253,73.63213967240813h2v16.36786032759187h-2Z" fill="#588438" aria-label="rok: Jan 01, 2019; podíl: 0.0400103252452; nakladatel: Euromedia" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M305.4615692821583,73.9728207330319h2v16.027179266968105h-2Z" fill="#588438" aria-label="rok: Jan 01, 2020; podíl: 0.0391775493193; nakladatel: Euromedia" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M307.978964941591,73.7888520599097h2v16.2111479400903h-2Z" fill="#588438" aria-label="rok: Jan 01, 2021; podíl: 0.0396272505202; nakladatel: Euromedia" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M310.4894824708067,74.71931478611036h2v15.28068521388964h-2Z" fill="#588438" aria-label="rok: Jan 01, 2022; podíl: 0.0373527860784; nakladatel: Euromedia" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M313.00000000002245,71.30790922519135h2v18.692090774808648h-2Z" fill="#588438" aria-label="rok: Jan 01, 2023; podíl: 0.0456917774495; nakladatel: Euromedia" aria-roledescription="bar" role="graphics-symbol"/>
       </ns1:g>
       <ns1:g class="mark-group role-legend" aria-label="Symbol legend for fill color with 6 values: Orbis, SPN, Železný, MOBA, Euromedia, ostatní" aria-roledescription="legend" role="graphics-symbol">
        <ns1:g transform="translate(0,-29)">
@@ -285,7 +285,7 @@
    </ns1:g>
   </ns1:g>
  </g>
- <g transform="translate(90,200)">
+ <g transform="translate(120,172)">
   <ns0:rect width="240" height="40" fill="white" xmlns:ns0="http://www.w3.org/2000/svg"/>
   <ns1:g transform="translate(35,5)" fill="none" stroke-miterlimit="10" xmlns:ns1="http://www.w3.org/2000/svg">
    <ns1:g class="mark-group role-frame root" aria-roledescription="group mark container" role="graphics-object">

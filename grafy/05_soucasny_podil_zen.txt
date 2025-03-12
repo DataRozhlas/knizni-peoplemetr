@@ -1,0 +1,5 @@
+<figure>
+    <a href="https://data.irozhlas.cz/knihy-grafy/05_soucasny_podil_zen.svg" target="_blank">
+    <img src="https://data.irozhlas.cz/knihy-grafy/05_soucasny_podil_zen.svg" width="100%" alt="Graf s titulkem „['Podíl autorek na nově vydaných českých knihách']“. Další texty by měly být čitelné ze zdrojového souboru SVG." />
+    </a>
+    </figure>

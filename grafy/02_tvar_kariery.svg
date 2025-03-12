@@ -1,164 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg viewBox="0 0 364 477" xmlns="http://www.w3.org/2000/svg">
- <rect width="364" height="477" fill="#fff"/>
+<svg viewBox="0 0 329 236" xmlns="http://www.w3.org/2000/svg">
+ <rect width="329" height="236" fill="#fff"/>
  <g transform="translate(0)">
-  <ns0:rect width="364" height="437" fill="white" xmlns:ns0="http://www.w3.org/2000/svg"/>
-  <ns1:g transform="translate(6,99)" fill="none" stroke-miterlimit="10" xmlns:ns1="http://www.w3.org/2000/svg">
+  <ns0:rect width="329" height="196" fill="white" xmlns:ns0="http://www.w3.org/2000/svg"/>
+  <ns1:g transform="translate(6,114)" fill="none" stroke-miterlimit="10" xmlns:ns1="http://www.w3.org/2000/svg">
    <ns1:g class="mark-group role-frame root" aria-roledescription="group mark container" role="graphics-object">
     <ns1:g transform="translate(0)">
      <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
      <ns1:g>
-      <ns1:g class="mark-group role-scope cell" aria-roledescription="group mark container" role="graphics-object">
-       <ns1:g transform="translate(0)">
-        <ns1:path class="background" d="M0.5,0.5h330v60h-330Z" aria-hidden="true"/>
+      <ns1:g class="mark-group role-column-header column_header" aria-roledescription="group mark container" role="graphics-object">
+       <ns1:g transform="translate(0,-1)">
+        <ns1:path class="background" d="M0,0h76.74418604651163v0h-76.74418604651163Z" aria-hidden="true"/>
         <ns1:g>
-         <ns1:g class="mark-group role-axis" aria-label="X-axis for a linear scale with values from −2 to 102" aria-roledescription="axis" role="graphics-symbol">
-          <ns1:g transform="translate(.5 60)" pointer-events="none">
-           <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
-           <ns1:g>
-            <ns1:g class="mark-rule role-axis-tick" stroke="#DCDDD6">
-             <ns1:line transform="translate(5)" x2="0" y2="5"/>
-             <ns1:line transform="translate(37)" x2="0" y2="5"/>
-             <ns1:line transform="translate(69)" x2="0" y2="5"/>
-             <ns1:line transform="translate(101)" x2="0" y2="5"/>
-             <ns1:line transform="translate(133)" x2="0" y2="5"/>
-             <ns1:line transform="translate(165)" x2="0" y2="5"/>
-             <ns1:line transform="translate(197)" x2="0" y2="5"/>
-             <ns1:line transform="translate(229)" x2="0" y2="5"/>
-             <ns1:line transform="translate(261)" x2="0" y2="5"/>
-             <ns1:line transform="translate(293)" x2="0" y2="5"/>
-             <ns1:line transform="translate(325)" x2="0" y2="5"/>
-            </ns1:g>
-            <ns1:g class="mark-text role-axis-label" fill="#000" font-family="Asap" font-size="9px" text-anchor="middle">
-             <ns1:text transform="translate(5,14)">0</ns1:text>
-             <ns1:text transform="translate(37,14)">10</ns1:text>
-             <ns1:text transform="translate(69,14)">20</ns1:text>
-             <ns1:text transform="translate(101 14)">30</ns1:text>
-             <ns1:text transform="translate(133,14)">40</ns1:text>
-             <ns1:text transform="translate(165,14)">50</ns1:text>
-             <ns1:text transform="translate(197,14)">60</ns1:text>
-             <ns1:text transform="translate(229,14)">70</ns1:text>
-             <ns1:text transform="translate(261,14)">80</ns1:text>
-             <ns1:text transform="translate(293,14)">90</ns1:text>
-             <ns1:text transform="translate(325,14)">100</ns1:text>
-            </ns1:g>
-           </ns1:g>
-           <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
-          </ns1:g>
-         </ns1:g>
-         <ns1:g class="mark-group role-axis" aria-label="Y-axis for a linear scale with values from 0 to 800" aria-roledescription="axis" role="graphics-symbol">
-          <ns1:g transform="translate(330 .5)" pointer-events="none">
-           <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
-           <ns1:g>
-            <ns1:g class="mark-rule role-axis-tick" stroke="#DCDDD6">
-             <ns1:line transform="translate(0,60)" x2="5" y2="0"/>
-             <ns1:line transform="translate(0,23)" x2="5" y2="0"/>
-            </ns1:g>
-            <ns1:g class="mark-text role-axis-label" fill="#000" font-family="Asap" font-size="9px">
-             <ns1:text transform="translate(7,63)">0</ns1:text>
-             <ns1:text transform="translate(7 26)">500</ns1:text>
-            </ns1:g>
-           </ns1:g>
-           <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
-          </ns1:g>
-         </ns1:g>
-         <ns1:g class="mark-rect role-mark child_marks" fill="#70871E" aria-roledescription="rect mark container" role="graphics-object">
-          <ns1:path d="M135.2,4.3500000000000005h2v55.65h-2Z" aria-label="vek: 41; len: 742; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M154.4,7.199999999999999h2v52.8h-2Z" aria-label="vek: 47; len: 704; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M308,59.4h2v0.6000000000000014h-2Z" aria-label="vek: 95; len: 8; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M215.2,20.55h2v39.45h-2Z" aria-label="vek: 66; len: 526; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M301.6,58.425h2v1.5750000000000028h-2Z" aria-label="vek: 93; len: 21; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M224.79999999999998,24.075h2v35.925h-2Z" aria-label="vek: 69; len: 479; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M196,15h2v45h-2Z" aria-label="vek: 60; len: 600; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M234.4,26.999999999999996h2v33h-2Z" aria-label="vek: 72; len: 440; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M295.2,56.4h2v3.6000000000000014h-2Z" aria-label="vek: 91; len: 48; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M324,59.925000000000004h2v0.07499999999999574h-2Z" aria-label="vek: 100; len: 1; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M320.8,59.85h2v0.14999999999999858h-2Z" aria-label="vek: 99; len: 2; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M160.8,6.6h2v53.4h-2Z" aria-label="vek: 49; len: 712; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M167.2,9.975000000000001h2v50.025h-2Z" aria-label="vek: 51; len: 667; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M164,8.4h2v51.6h-2Z" aria-label="vek: 50; len: 688; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M202.39999999999998,18.45h2v41.55h-2Z" aria-label="vek: 62; len: 554; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M151.2,8.774999999999999h2v51.225h-2Z" aria-label="vek: 46; len: 683; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M58.4,57.675000000000004h2v2.3249999999999957h-2Z" aria-label="vek: 17; len: 31; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M186.4,12.975000000000003h2v47.025h-2Z" aria-label="vek: 57; len: 627; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M253.6,40.8h2v19.200000000000003h-2Z" aria-label="vek: 78; len: 256; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M205.60000000000002,20.025h2v39.975h-2Z" aria-label="vek: 63; len: 533; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M141.6,12.450000000000001h2v47.55h-2Z" aria-label="vek: 43; len: 634; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M128.79999999999998,8.4h2v51.6h-2Z" aria-label="vek: 39; len: 688; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M103.19999999999999,22.125h2v37.875h-2Z" aria-label="vek: 31; len: 505; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M45.599999999999994,59.7h2v0.29999999999999716h-2Z" aria-label="vek: 13; len: 4; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M340.00000000000006,59.925000000000004h2v0.07499999999999574h-2Z" aria-label="vek: 105; len: 1; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M125.6,10.875000000000002h2v49.125h-2Z" aria-label="vek: 38; len: 655; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M304.8,59.325h2v0.6749999999999972h-2Z" aria-label="vek: 94; len: 9; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M148,8.249999999999996h2v51.75h-2Z" aria-label="vek: 45; len: 690; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M122.4,16.5h2v43.5h-2Z" aria-label="vek: 37; len: 580; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M68,54h2v6h-2Z" aria-label="vek: 20; len: 80; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M288.8,55.275h2v4.725000000000001h-2Z" aria-label="vek: 89; len: 63; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M99.99999999999999,27.375000000000004h2v32.625h-2Z" aria-label="vek: 30; len: 435; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M180,10.500000000000004h2v49.5h-2Z" aria-label="vek: 55; len: 660; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M93.60000000000001,37.5h2v22.5h-2Z" aria-label="vek: 28; len: 300; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M106.39999999999999,25.500000000000004h2v34.5h-2Z" aria-label="vek: 32; len: 460; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M157.6,6.450000000000003h2v53.55h-2Z" aria-label="vek: 48; len: 714; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M260,41.474999999999994h2v18.525000000000006h-2Z" aria-label="vek: 80; len: 247; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M61.6,57.075h2v2.924999999999997h-2Z" aria-label="vek: 18; len: 39; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M333.59999999999997,59.925000000000004h2v0.07499999999999574h-2Z" aria-label="vek: 103; len: 1; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M247.2,35.849999999999994h2v24.150000000000006h-2Z" aria-label="vek: 76; len: 322; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M173.6,14.399999999999999h2v45.6h-2Z" aria-label="vek: 53; len: 608; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M36,59.85h2v0.14999999999999858h-2Z" aria-label="vek: 10; len: 2; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M112.8,16.65h2v43.35h-2Z" aria-label="vek: 34; len: 578; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M218.39999999999998,22.949999999999996h2v37.050000000000004h-2Z" aria-label="vek: 67; len: 494; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M231.2,30.375h2v29.625h-2Z" aria-label="vek: 71; len: 395; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M29.6,59.925000000000004h2v0.07499999999999574h-2Z" aria-label="vek: 8; len: 1; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M199.20000000000002,17.924999999999997h2v42.075h-2Z" aria-label="vek: 61; len: 561; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M276,50.85h2v9.149999999999999h-2Z" aria-label="vek: 85; len: 122; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M221.6,25.200000000000003h2v34.8h-2Z" aria-label="vek: 68; len: 464; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M138.4,8.549999999999997h2v51.45h-2Z" aria-label="vek: 42; len: 686; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M64.8,55.8h2v4.200000000000003h-2Z" aria-label="vek: 19; len: 56; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M285.6,54.225h2v5.774999999999999h-2Z" aria-label="vek: 88; len: 77; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M74.4,51.375h2v8.625h-2Z" aria-label="vek: 22; len: 115; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M256.8,42.375h2v17.625h-2Z" aria-label="vek: 79; len: 235; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M237.6,29.925h2v30.075h-2Z" aria-label="vek: 73; len: 401; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M269.59999999999997,47.25h2v12.75h-2Z" aria-label="vek: 83; len: 170; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M311.2,59.474999999999994h2v0.5250000000000057h-2Z" aria-label="vek: 96; len: 7; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M240.8,32.475h2v27.525h-2Z" aria-label="vek: 74; len: 367; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M96.80000000000001,32.699999999999996h2v27.300000000000004h-2Z" aria-label="vek: 29; len: 364; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M48.8,59.025h2v0.9750000000000014h-2Z" aria-label="vek: 14; len: 13; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M144.8,10.875000000000002h2v49.125h-2Z" aria-label="vek: 44; len: 655; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M189.60000000000002,14.250000000000004h2v45.75h-2Z" aria-label="vek: 58; len: 610; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M52,58.425h2v1.5750000000000028h-2Z" aria-label="vek: 15; len: 21; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M71.2,51.825h2v8.174999999999997h-2Z" aria-label="vek: 21; len: 109; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M266.4,48h2v12h-2Z" aria-label="vek: 82; len: 160; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M176.8,12.899999999999999h2v47.1h-2Z" aria-label="vek: 54; len: 628; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M39.199999999999996,59.7h2v0.29999999999999716h-2Z" aria-label="vek: 11; len: 4; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M208.79999999999998,18.375h2v41.625h-2Z" aria-label="vek: 64; len: 555; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M55.199999999999996,58.725h2v1.2749999999999986h-2Z" aria-label="vek: 16; len: 17; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M317.6,59.775h2v0.22500000000000142h-2Z" aria-label="vek: 98; len: 3; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M263.2,45.975h2v14.024999999999999h-2Z" aria-label="vek: 81; len: 187; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M87.2,40.724999999999994h2v19.275000000000006h-2Z" aria-label="vek: 26; len: 257; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M183.20000000000002,15.449999999999998h2v44.550000000000004h-2Z" aria-label="vek: 56; len: 594; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M132,0.6000000000000005h2v59.4h-2Z" aria-label="vek: 40; len: 792; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M292,55.575h2v4.424999999999997h-2Z" aria-label="vek: 90; len: 59; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M84,46.349999999999994h2v13.650000000000006h-2Z" aria-label="vek: 25; len: 182; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M250.4,36.675000000000004h2v23.324999999999996h-2Z" aria-label="vek: 77; len: 311; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M26.4,59.925000000000004h2v0.07499999999999574h-2Z" aria-label="vek: 7; len: 1; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M116,13.2h2v46.8h-2Z" aria-label="vek: 35; len: 624; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M228,22.875h2v37.125h-2Z" aria-label="vek: 70; len: 495; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M279.2,52.05h2v7.950000000000003h-2Z" aria-label="vek: 86; len: 106; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M244,33.675000000000004h2v26.324999999999996h-2Z" aria-label="vek: 75; len: 351; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M77.60000000000001,50.4h2v9.600000000000001h-2Z" aria-label="vek: 23; len: 128; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M314.40000000000003,59.775h2v0.22500000000000142h-2Z" aria-label="vek: 97; len: 3; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M42.4,59.775h2v0.22500000000000142h-2Z" aria-label="vek: 12; len: 3; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M90.4,38.25h2v21.75h-2Z" aria-label="vek: 27; len: 290; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M192.8,13.350000000000001h2v46.65h-2Z" aria-label="vek: 59; len: 622; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M298.4,57.75h2v2.25h-2Z" aria-label="vek: 92; len: 30; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M272.8,48.975h2v11.024999999999999h-2Z" aria-label="vek: 84; len: 147; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M80.8,47.1h2v12.899999999999999h-2Z" aria-label="vek: 24; len: 172; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M212.00000000000003,18.45h2v41.55h-2Z" aria-label="vek: 65; len: 554; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M109.6,18.6h2v41.4h-2Z" aria-label="vek: 33; len: 552; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M170.4,11.924999999999999h2v48.075h-2Z" aria-label="vek: 52; len: 641; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M282.4,54.225h2v5.774999999999999h-2Z" aria-label="vek: 87; len: 77; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M119.2,12.975000000000003h2v47.025h-2Z" aria-label="vek: 36; len: 627; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
-         </ns1:g>
          <ns1:g class="mark-group role-title">
           <ns1:g transform="translate(0,-20)">
            <ns1:path class="background" d="M0,0h0v0h0Z" pointer-events="none" aria-hidden="true"/>
@@ -173,150 +26,9 @@
         </ns1:g>
         <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
        </ns1:g>
-       <ns1:g transform="translate(0,128)">
-        <ns1:path class="background" d="M0.5,0.5h330v60h-330Z" aria-hidden="true"/>
+       <ns1:g transform="translate(109,-1)">
+        <ns1:path class="background" d="M0,0h76.74418604651163v0h-76.74418604651163Z" aria-hidden="true"/>
         <ns1:g>
-         <ns1:g class="mark-group role-axis" aria-label="X-axis for a linear scale with values from −2 to 102" aria-roledescription="axis" role="graphics-symbol">
-          <ns1:g transform="translate(.5 60)" pointer-events="none">
-           <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
-           <ns1:g>
-            <ns1:g class="mark-rule role-axis-tick" stroke="#DCDDD6">
-             <ns1:line transform="translate(5)" x2="0" y2="5"/>
-             <ns1:line transform="translate(37)" x2="0" y2="5"/>
-             <ns1:line transform="translate(69)" x2="0" y2="5"/>
-             <ns1:line transform="translate(101)" x2="0" y2="5"/>
-             <ns1:line transform="translate(133)" x2="0" y2="5"/>
-             <ns1:line transform="translate(165)" x2="0" y2="5"/>
-             <ns1:line transform="translate(197)" x2="0" y2="5"/>
-             <ns1:line transform="translate(229)" x2="0" y2="5"/>
-             <ns1:line transform="translate(261)" x2="0" y2="5"/>
-             <ns1:line transform="translate(293)" x2="0" y2="5"/>
-             <ns1:line transform="translate(325)" x2="0" y2="5"/>
-            </ns1:g>
-            <ns1:g class="mark-text role-axis-label" fill="#000" font-family="Asap" font-size="9px" text-anchor="middle">
-             <ns1:text transform="translate(5,14)">0</ns1:text>
-             <ns1:text transform="translate(37,14)">10</ns1:text>
-             <ns1:text transform="translate(69,14)">20</ns1:text>
-             <ns1:text transform="translate(101 14)">30</ns1:text>
-             <ns1:text transform="translate(133,14)">40</ns1:text>
-             <ns1:text transform="translate(165,14)">50</ns1:text>
-             <ns1:text transform="translate(197,14)">60</ns1:text>
-             <ns1:text transform="translate(229,14)">70</ns1:text>
-             <ns1:text transform="translate(261,14)">80</ns1:text>
-             <ns1:text transform="translate(293,14)">90</ns1:text>
-             <ns1:text transform="translate(325,14)">100</ns1:text>
-            </ns1:g>
-           </ns1:g>
-           <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
-          </ns1:g>
-         </ns1:g>
-         <ns1:g class="mark-group role-axis" aria-label="Y-axis for a linear scale with values from 0 to 350" aria-roledescription="axis" role="graphics-symbol">
-          <ns1:g transform="translate(330 .5)" pointer-events="none">
-           <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
-           <ns1:g>
-            <ns1:g class="mark-rule role-axis-tick" stroke="#DCDDD6">
-             <ns1:line transform="translate(0,60)" x2="5" y2="0"/>
-             <ns1:line transform="translate(0,26)" x2="5" y2="0"/>
-            </ns1:g>
-            <ns1:g class="mark-text role-axis-label" fill="#000" font-family="Asap" font-size="9px">
-             <ns1:text transform="translate(7,63)">0</ns1:text>
-             <ns1:text transform="translate(7 29)">200</ns1:text>
-            </ns1:g>
-           </ns1:g>
-           <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
-          </ns1:g>
-         </ns1:g>
-         <ns1:g class="mark-rect role-mark child_marks" fill="#E09DA3" aria-roledescription="rect mark container" role="graphics-object">
-          <ns1:path d="M96.80000000000001,18.34285714285714h2v41.65714285714286h-2Z" aria-label="vek: 29; len: 243; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M282.4,48h2v12h-2Z" aria-label="vek: 87; len: 70; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M288.8,54.51428571428571h2v5.4857142857142875h-2Z" aria-label="vek: 89; len: 32; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M263.2,41.82857142857142h2v18.171428571428578h-2Z" aria-label="vek: 81; len: 106; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M215.2,24.34285714285714h2v35.65714285714286h-2Z" aria-label="vek: 66; len: 208; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M93.60000000000001,21.942857142857147h2v38.05714285714285h-2Z" aria-label="vek: 28; len: 222; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M308,59.142857142857146h2v0.8571428571428541h-2Z" aria-label="vek: 95; len: 5; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M298.4,57.599999999999994h2v2.4000000000000057h-2Z" aria-label="vek: 92; len: 14; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M157.6,25.200000000000003h2v34.8h-2Z" aria-label="vek: 48; len: 203; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M74.4,34.97142857142857h2v25.028571428571432h-2Z" aria-label="vek: 22; len: 146; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M292,54.34285714285714h2v5.657142857142858h-2Z" aria-label="vek: 90; len: 33; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M103.19999999999999,22.114285714285714h2v37.885714285714286h-2Z" aria-label="vek: 31; len: 221; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M183.20000000000002,17.82857142857143h2v42.17142857142857h-2Z" aria-label="vek: 56; len: 246; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M77.60000000000001,36.68571428571428h2v23.314285714285717h-2Z" aria-label="vek: 23; len: 136; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M164,9.085714285714289h2v50.91428571428571h-2Z" aria-label="vek: 50; len: 297; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M39.199999999999996,59.82857142857143h2v0.17142857142857082h-2Z" aria-label="vek: 11; len: 1; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M99.99999999999999,19.028571428571432h2v40.97142857142857h-2Z" aria-label="vek: 30; len: 239; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M64.8,49.71428571428571h2v10.285714285714292h-2Z" aria-label="vek: 19; len: 60; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M106.39999999999999,24.68571428571429h2v35.31428571428571h-2Z" aria-label="vek: 32; len: 206; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M170.4,23.485714285714288h2v36.51428571428571h-2Z" aria-label="vek: 52; len: 213; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M317.6,59.31428571428571h2v0.6857142857142904h-2Z" aria-label="vek: 98; len: 4; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M68,48.17142857142857h2v11.82857142857143h-2Z" aria-label="vek: 20; len: 69; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M132,21.25714285714286h2v38.74285714285714h-2Z" aria-label="vek: 40; len: 226; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M205.60000000000002,21.771428571428572h2v38.22857142857143h-2Z" aria-label="vek: 63; len: 223; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M55.199999999999996,58.8h2v1.2000000000000028h-2Z" aria-label="vek: 16; len: 7; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M119.2,16.457142857142856h2v43.542857142857144h-2Z" aria-label="vek: 36; len: 254; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M87.2,28.11428571428571h2v31.88571428571429h-2Z" aria-label="vek: 26; len: 186; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M116,22.971428571428575h2v37.028571428571425h-2Z" aria-label="vek: 35; len: 216; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M304.8,58.114285714285714h2v1.8857142857142861h-2Z" aria-label="vek: 94; len: 11; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M112.8,16.8h2v43.2h-2Z" aria-label="vek: 34; len: 252; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M247.2,34.457142857142856h2v25.542857142857144h-2Z" aria-label="vek: 76; len: 149; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M122.4,25.714285714285715h2v34.285714285714285h-2Z" aria-label="vek: 37; len: 200; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M276,45.6h2v14.399999999999999h-2Z" aria-label="vek: 85; len: 84; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M301.6,58.628571428571426h2v1.3714285714285737h-2Z" aria-label="vek: 93; len: 8; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M71.2,40.628571428571426h2v19.371428571428574h-2Z" aria-label="vek: 21; len: 113; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M237.6,29.828571428571426h2v30.171428571428574h-2Z" aria-label="vek: 73; len: 176; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M61.6,55.542857142857144h2v4.4571428571428555h-2Z" aria-label="vek: 18; len: 26; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M80.8,33.77142857142857h2v26.228571428571428h-2Z" aria-label="vek: 24; len: 153; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M160.8,24h2v36h-2Z" aria-label="vek: 49; len: 210; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M90.4,29.485714285714288h2v30.514285714285712h-2Z" aria-label="vek: 27; len: 178; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M202.39999999999998,16.457142857142856h2v43.542857142857144h-2Z" aria-label="vek: 62; len: 254; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M285.6,51.42857142857143h2v8.57142857142857h-2Z" aria-label="vek: 88; len: 50; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M192.8,23.314285714285713h2v36.68571428571428h-2Z" aria-label="vek: 59; len: 214; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M144.8,25.02857142857143h2v34.971428571428575h-2Z" aria-label="vek: 44; len: 204; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M231.2,26.057142857142857h2v33.94285714285714h-2Z" aria-label="vek: 71; len: 198; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M135.2,22.971428571428575h2v37.028571428571425h-2Z" aria-label="vek: 41; len: 216; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M320.8,59.48571428571429h2v0.5142857142857125h-2Z" aria-label="vek: 99; len: 3; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M186.4,19.542857142857144h2v40.457142857142856h-2Z" aria-label="vek: 57; len: 236; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M138.4,20.22857142857143h2v39.77142857142857h-2Z" aria-label="vek: 42; len: 232; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M269.59999999999997,42.68571428571428h2v17.314285714285717h-2Z" aria-label="vek: 83; len: 101; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M154.4,25.37142857142857h2v34.62857142857143h-2Z" aria-label="vek: 47; len: 202; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M125.6,18.685714285714283h2v41.31428571428572h-2Z" aria-label="vek: 38; len: 241; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M196,6.685714285714286h2v53.31428571428572h-2Z" aria-label="vek: 60; len: 311; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M256.8,41.82857142857142h2v18.171428571428578h-2Z" aria-label="vek: 79; len: 106; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M311.2,59.48571428571429h2v0.5142857142857125h-2Z" aria-label="vek: 96; len: 3; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M253.6,32.57142857142858h2v27.428571428571423h-2Z" aria-label="vek: 78; len: 160; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M48.8,59.65714285714286h2v0.34285714285714164h-2Z" aria-label="vek: 14; len: 2; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M295.2,55.2h2v4.799999999999997h-2Z" aria-label="vek: 91; len: 28; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M176.8,24.34285714285714h2v35.65714285714286h-2Z" aria-label="vek: 54; len: 208; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M52,59.31428571428571h2v0.6857142857142904h-2Z" aria-label="vek: 15; len: 4; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M199.20000000000002,21.771428571428572h2v38.22857142857143h-2Z" aria-label="vek: 61; len: 223; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M266.4,41.142857142857146h2v18.857142857142854h-2Z" aria-label="vek: 82; len: 110; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M189.60000000000002,19.71428571428572h2v40.28571428571428h-2Z" aria-label="vek: 58; len: 235; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M148,19.37142857142857h2v40.62857142857143h-2Z" aria-label="vek: 45; len: 237; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M151.2,22.114285714285714h2v37.885714285714286h-2Z" aria-label="vek: 46; len: 221; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M250.4,28.97142857142857h2v31.02857142857143h-2Z" aria-label="vek: 77; len: 181; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M141.6,21.942857142857147h2v38.05714285714285h-2Z" aria-label="vek: 43; len: 222; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M240.8,32.74285714285714h2v27.25714285714286h-2Z" aria-label="vek: 74; len: 159; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M180,21.599999999999998h2v38.400000000000006h-2Z" aria-label="vek: 55; len: 224; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M212.00000000000003,18.17142857142857h2v41.82857142857143h-2Z" aria-label="vek: 65; len: 244; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M234.4,30.514285714285712h2v29.485714285714288h-2Z" aria-label="vek: 72; len: 172; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M224.79999999999998,25.542857142857144h2v34.457142857142856h-2Z" aria-label="vek: 69; len: 201; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M42.4,59.82857142857143h2v0.17142857142857082h-2Z" aria-label="vek: 12; len: 1; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M45.599999999999994,59.82857142857143h2v0.17142857142857082h-2Z" aria-label="vek: 13; len: 1; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M244,27.257142857142856h2v32.74285714285715h-2Z" aria-label="vek: 75; len: 191; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M208.79999999999998,15.085714285714287h2v44.91428571428571h-2Z" aria-label="vek: 64; len: 262; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M167.2,21.599999999999998h2v38.400000000000006h-2Z" aria-label="vek: 51; len: 224; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M221.6,21.25714285714286h2v38.74285714285714h-2Z" aria-label="vek: 68; len: 226; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M84,28.799999999999997h2v31.200000000000003h-2Z" aria-label="vek: 25; len: 182; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M272.8,48.51428571428572h2v11.48571428571428h-2Z" aria-label="vek: 84; len: 67; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M314.40000000000003,58.971428571428575h2v1.028571428571425h-2Z" aria-label="vek: 97; len: 6; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M58.4,56.74285714285715h2v3.2571428571428527h-2Z" aria-label="vek: 17; len: 19; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M109.6,23.485714285714288h2v36.51428571428571h-2Z" aria-label="vek: 33; len: 213; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M228,11.142857142857142h2v48.85714285714286h-2Z" aria-label="vek: 70; len: 285; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M128.79999999999998,24.34285714285714h2v35.65714285714286h-2Z" aria-label="vek: 39; len: 208; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M218.39999999999998,18.34285714285714h2v41.65714285714286h-2Z" aria-label="vek: 67; len: 243; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M173.6,18.514285714285716h2v41.48571428571428h-2Z" aria-label="vek: 53; len: 242; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M260,31.02857142857143h2v28.97142857142857h-2Z" aria-label="vek: 80; len: 169; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M279.2,49.885714285714286h2v10.114285714285714h-2Z" aria-label="vek: 86; len: 59; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
-         </ns1:g>
          <ns1:g class="mark-group role-title">
           <ns1:g transform="translate(0,-20)">
            <ns1:path class="background" d="M0,0h0v0h0Z" pointer-events="none" aria-hidden="true"/>
@@ -331,144 +43,9 @@
         </ns1:g>
         <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
        </ns1:g>
-       <ns1:g transform="translate(0,256)">
-        <ns1:path class="background" d="M0.5,0.5h330v60h-330Z" aria-hidden="true"/>
+       <ns1:g transform="translate(218,-1)">
+        <ns1:path class="background" d="M0,0h76.74418604651163v0h-76.74418604651163Z" aria-hidden="true"/>
         <ns1:g>
-         <ns1:g class="mark-group role-axis" aria-label="X-axis for a linear scale with values from −2 to 102" aria-roledescription="axis" role="graphics-symbol">
-          <ns1:g transform="translate(.5 60)" pointer-events="none">
-           <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
-           <ns1:g>
-            <ns1:g class="mark-rule role-axis-tick" stroke="#DCDDD6">
-             <ns1:line transform="translate(5)" x2="0" y2="5"/>
-             <ns1:line transform="translate(37)" x2="0" y2="5"/>
-             <ns1:line transform="translate(69)" x2="0" y2="5"/>
-             <ns1:line transform="translate(101)" x2="0" y2="5"/>
-             <ns1:line transform="translate(133)" x2="0" y2="5"/>
-             <ns1:line transform="translate(165)" x2="0" y2="5"/>
-             <ns1:line transform="translate(197)" x2="0" y2="5"/>
-             <ns1:line transform="translate(229)" x2="0" y2="5"/>
-             <ns1:line transform="translate(261)" x2="0" y2="5"/>
-             <ns1:line transform="translate(293)" x2="0" y2="5"/>
-             <ns1:line transform="translate(325)" x2="0" y2="5"/>
-            </ns1:g>
-            <ns1:g class="mark-text role-axis-label" fill="#000" font-family="Asap" font-size="9px" text-anchor="middle">
-             <ns1:text transform="translate(5,14)">0</ns1:text>
-             <ns1:text transform="translate(37,14)">10</ns1:text>
-             <ns1:text transform="translate(69,14)">20</ns1:text>
-             <ns1:text transform="translate(101 14)">30</ns1:text>
-             <ns1:text transform="translate(133,14)">40</ns1:text>
-             <ns1:text transform="translate(165,14)">50</ns1:text>
-             <ns1:text transform="translate(197,14)">60</ns1:text>
-             <ns1:text transform="translate(229,14)">70</ns1:text>
-             <ns1:text transform="translate(261,14)">80</ns1:text>
-             <ns1:text transform="translate(293,14)">90</ns1:text>
-             <ns1:text transform="translate(325,14)">100</ns1:text>
-            </ns1:g>
-           </ns1:g>
-           <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
-          </ns1:g>
-         </ns1:g>
-         <ns1:g class="mark-group role-axis" aria-label="Y-axis for a linear scale with values from 0 to 80" aria-roledescription="axis" role="graphics-symbol">
-          <ns1:g transform="translate(330 .5)" pointer-events="none">
-           <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
-           <ns1:g>
-            <ns1:g class="mark-rule role-axis-tick" stroke="#DCDDD6">
-             <ns1:line transform="translate(0,60)" x2="5" y2="0"/>
-             <ns1:line transform="translate(0,23)" x2="5" y2="0"/>
-            </ns1:g>
-            <ns1:g class="mark-text role-axis-label" fill="#000" font-family="Asap" font-size="9px">
-             <ns1:text transform="translate(7,63)">0</ns1:text>
-             <ns1:text transform="translate(7 26)">50</ns1:text>
-            </ns1:g>
-           </ns1:g>
-           <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
-          </ns1:g>
-         </ns1:g>
-         <ns1:g class="mark-rect role-mark child_marks" fill="#DB842F" aria-roledescription="rect mark container" role="graphics-object">
-          <ns1:path d="M240.8,24.75h2v35.25h-2Z" aria-label="vek: 74; len: 47; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M132,45h2v15h-2Z" aria-label="vek: 40; len: 20; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M109.6,48.75h2v11.25h-2Z" aria-label="vek: 33; len: 15; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M292,48.75h2v11.25h-2Z" aria-label="vek: 90; len: 15; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M71.2,59.25h2v0.75h-2Z" aria-label="vek: 21; len: 1; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M116,45h2v15h-2Z" aria-label="vek: 35; len: 20; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M128.79999999999998,42.75h2v17.25h-2Z" aria-label="vek: 39; len: 23; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M164,18.75h2v41.25h-2Z" aria-label="vek: 50; len: 55; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M276,33.75h2v26.25h-2Z" aria-label="vek: 85; len: 35; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M205.60000000000002,33.75h2v26.25h-2Z" aria-label="vek: 63; len: 35; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M221.6,25.500000000000004h2v34.5h-2Z" aria-label="vek: 68; len: 46; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M327.2,59.25h2v0.75h-2Z" aria-label="vek: 101; len: 1; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M119.2,48.75h2v11.25h-2Z" aria-label="vek: 36; len: 15; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M311.2,57h2v3h-2Z" aria-label="vek: 96; len: 4; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M141.6,44.25h2v15.75h-2Z" aria-label="vek: 43; len: 21; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M144.8,36h2v24h-2Z" aria-label="vek: 44; len: 32; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M192.8,23.249999999999996h2v36.75h-2Z" aria-label="vek: 59; len: 49; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M125.6,45.75h2v14.25h-2Z" aria-label="vek: 38; len: 19; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M106.39999999999999,52.5h2v7.5h-2Z" aria-label="vek: 32; len: 10; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M237.6,24.75h2v35.25h-2Z" aria-label="vek: 73; len: 47; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M282.4,36.75h2v23.25h-2Z" aria-label="vek: 87; len: 31; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M103.19999999999999,54.75h2v5.25h-2Z" aria-label="vek: 31; len: 7; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M176.8,35.25h2v24.75h-2Z" aria-label="vek: 54; len: 33; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M272.8,35.25h2v24.75h-2Z" aria-label="vek: 84; len: 33; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M199.20000000000002,18.75h2v41.25h-2Z" aria-label="vek: 61; len: 55; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M250.4,23.249999999999996h2v36.75h-2Z" aria-label="vek: 77; len: 49; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M212.00000000000003,25.500000000000004h2v34.5h-2Z" aria-label="vek: 65; len: 46; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M93.60000000000001,57.75h2v2.25h-2Z" aria-label="vek: 28; len: 3; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M269.59999999999997,36h2v24h-2Z" aria-label="vek: 83; len: 32; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M74.4,55.5h2v4.5h-2Z" aria-label="vek: 22; len: 6; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M90.4,57.75h2v2.25h-2Z" aria-label="vek: 27; len: 3; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M215.2,28.5h2v31.5h-2Z" aria-label="vek: 66; len: 42; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M298.4,54.75h2v5.25h-2Z" aria-label="vek: 92; len: 7; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M84,58.5h2v1.5h-2Z" aria-label="vek: 25; len: 2; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M151.2,36.75h2v23.25h-2Z" aria-label="vek: 46; len: 31; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M122.4,47.25h2v12.75h-2Z" aria-label="vek: 37; len: 17; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M295.2,49.5h2v10.5h-2Z" aria-label="vek: 91; len: 14; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M260,4.499999999999997h2v55.5h-2Z" aria-label="vek: 80; len: 74; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M304.8,55.5h2v4.5h-2Z" aria-label="vek: 94; len: 6; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M77.60000000000001,58.5h2v1.5h-2Z" aria-label="vek: 23; len: 2; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M288.8,53.25h2v6.75h-2Z" aria-label="vek: 89; len: 9; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M157.6,40.5h2v19.5h-2Z" aria-label="vek: 48; len: 26; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M279.2,28.5h2v31.5h-2Z" aria-label="vek: 86; len: 42; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M266.4,21.750000000000004h2v38.25h-2Z" aria-label="vek: 82; len: 51; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M317.6,57.75h2v2.25h-2Z" aria-label="vek: 98; len: 3; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M263.2,26.25h2v33.75h-2Z" aria-label="vek: 81; len: 45; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M301.6,56.25h2v3.75h-2Z" aria-label="vek: 93; len: 5; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M112.8,45.75h2v14.25h-2Z" aria-label="vek: 34; len: 19; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M208.79999999999998,25.500000000000004h2v34.5h-2Z" aria-label="vek: 64; len: 46; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M320.8,59.25h2v0.75h-2Z" aria-label="vek: 99; len: 1; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M256.8,21h2v39h-2Z" aria-label="vek: 79; len: 52; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M170.4,33h2v27h-2Z" aria-label="vek: 52; len: 36; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M202.39999999999998,24h2v36h-2Z" aria-label="vek: 62; len: 48; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M314.40000000000003,59.25h2v0.75h-2Z" aria-label="vek: 97; len: 1; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M135.2,37.5h2v22.5h-2Z" aria-label="vek: 41; len: 30; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M61.6,59.25h2v0.75h-2Z" aria-label="vek: 18; len: 1; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M228,17.25h2v42.75h-2Z" aria-label="vek: 70; len: 57; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M68,57h2v3h-2Z" aria-label="vek: 20; len: 4; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M231.2,18.75h2v41.25h-2Z" aria-label="vek: 71; len: 55; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M96.80000000000001,57h2v3h-2Z" aria-label="vek: 29; len: 4; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M224.79999999999998,18.75h2v41.25h-2Z" aria-label="vek: 69; len: 55; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M285.6,41.25h2v18.75h-2Z" aria-label="vek: 88; len: 25; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M183.20000000000002,30h2v30h-2Z" aria-label="vek: 56; len: 40; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M218.39999999999998,25.500000000000004h2v34.5h-2Z" aria-label="vek: 67; len: 46; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M234.4,16.5h2v43.5h-2Z" aria-label="vek: 72; len: 58; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M186.4,33h2v27h-2Z" aria-label="vek: 57; len: 36; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M253.6,19.499999999999996h2v40.5h-2Z" aria-label="vek: 78; len: 54; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M244,5.999999999999998h2v54h-2Z" aria-label="vek: 75; len: 72; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M247.2,22.5h2v37.5h-2Z" aria-label="vek: 76; len: 50; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M180,30.749999999999996h2v29.250000000000004h-2Z" aria-label="vek: 55; len: 39; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M308,53.25h2v6.75h-2Z" aria-label="vek: 95; len: 9; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M173.6,36.75h2v23.25h-2Z" aria-label="vek: 53; len: 31; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M99.99999999999999,53.25h2v6.75h-2Z" aria-label="vek: 30; len: 9; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M196,11.999999999999996h2v48h-2Z" aria-label="vek: 60; len: 64; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M160.8,40.5h2v19.5h-2Z" aria-label="vek: 49; len: 26; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M154.4,37.5h2v22.5h-2Z" aria-label="vek: 47; len: 30; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M87.2,51h2v9h-2Z" aria-label="vek: 26; len: 12; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M148,39.75h2v20.25h-2Z" aria-label="vek: 45; len: 27; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M324,57.75h2v2.25h-2Z" aria-label="vek: 100; len: 3; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M189.60000000000002,32.25h2v27.75h-2Z" aria-label="vek: 58; len: 37; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M138.4,45.75h2v14.25h-2Z" aria-label="vek: 42; len: 19; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M80.8,59.25h2v0.75h-2Z" aria-label="vek: 24; len: 1; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M167.2,39.75h2v20.25h-2Z" aria-label="vek: 51; len: 27; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
-         </ns1:g>
          <ns1:g class="mark-group role-title">
           <ns1:g transform="translate(0,-20)">
            <ns1:path class="background" d="M0,0h0v0h0Z" pointer-events="none" aria-hidden="true"/>
@@ -484,17 +61,365 @@
         <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
        </ns1:g>
       </ns1:g>
+      <ns1:g class="mark-group role-scope cell" aria-roledescription="group mark container" role="graphics-object">
+       <ns1:g transform="translate(0)">
+        <ns1:path class="background" d="M0.5,0.5h76.74418604651163v60h-76.74418604651163Z" aria-hidden="true"/>
+        <ns1:g>
+         <ns1:g class="mark-group role-axis" aria-label="X-axis for a linear scale with values from 15 to 95" aria-roledescription="axis" role="graphics-symbol">
+          <ns1:g transform="translate(.5 60)" pointer-events="none">
+           <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
+           <ns1:g>
+            <ns1:g class="mark-rule role-axis-tick" stroke="#DCDDD6">
+             <ns1:line transform="translate(5)" x2="0" y2="5"/>
+             <ns1:line transform="translate(24)" x2="0" y2="5"/>
+             <ns1:line transform="translate(43)" x2="0" y2="5"/>
+             <ns1:line transform="translate(62)" x2="0" y2="5"/>
+            </ns1:g>
+            <ns1:g class="mark-text role-axis-label" fill="#000" font-family="Asap" font-size="9px" text-anchor="middle">
+             <ns1:text transform="translate(5 14)">20</ns1:text>
+             <ns1:text transform="translate(24 14)">40</ns1:text>
+             <ns1:text transform="translate(43 14)">60</ns1:text>
+             <ns1:text transform="translate(62 14)">80</ns1:text>
+            </ns1:g>
+           </ns1:g>
+           <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
+          </ns1:g>
+         </ns1:g>
+         <ns1:g class="mark-group role-axis" aria-label="Y-axis for a linear scale with values from 0 to 900" aria-roledescription="axis" role="graphics-symbol">
+          <ns1:g transform="translate(77 .5)" pointer-events="none">
+           <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
+           <ns1:g>
+            <ns1:g class="mark-rule role-axis-tick" stroke="#DCDDD6">
+             <ns1:line transform="translate(0,60)" x2="5" y2="0"/>
+             <ns1:line transform="translate(0,27)" x2="5" y2="0"/>
+            </ns1:g>
+            <ns1:g class="mark-text role-axis-label" fill="#000" font-family="Asap" font-size="9px">
+             <ns1:text transform="translate(7,63)">0</ns1:text>
+             <ns1:text transform="translate(7 30)">500</ns1:text>
+            </ns1:g>
+           </ns1:g>
+           <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
+          </ns1:g>
+         </ns1:g>
+         <ns1:g class="mark-rect role-mark child_marks" fill="#70871E" aria-roledescription="rect mark container" role="graphics-object">
+          <ns1:path d="M30.24418604651163,13.066666666666665h1v46.93333333333334h-1Z" aria-label="vek: 47; len: 704; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M64.56976744186046,48.06666666666666h1v11.933333333333337h-1Z" aria-label="vek: 83; len: 179; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M57.8953488372093,38.33333333333333h1v21.66666666666667h-1Z" aria-label="vek: 76; len: 325; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M44.54651162790697,23.599999999999998h1v36.400000000000006h-1Z" aria-label="vek: 62; len: 546; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M28.337209302325583,12.866666666666667h1v47.13333333333333h-1Z" aria-label="vek: 45; len: 707; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M49.31395348837209,27.133333333333333h1v32.86666666666667h-1Z" aria-label="vek: 67; len: 493; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M61.70930232558139,43.13333333333333h1v16.866666666666667h-1Z" aria-label="vek: 80; len: 253; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M35.96511627906977,21h1v39h-1Z" aria-label="vek: 53; len: 585; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M33.104651162790695,13.333333333333332h1v46.66666666666667h-1Z" aria-label="vek: 50; len: 700; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M21.66279069767442,14.266666666666666h1v45.733333333333334h-1Z" aria-label="vek: 38; len: 686; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M40.73255813953488,20.333333333333336h1v39.666666666666664h-1Z" aria-label="vek: 58; len: 595; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M60.755813953488364,44.46666666666666h1v15.533333333333339h-1Z" aria-label="vek: 79; len: 233; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M37.872093023255815,17.6h1v42.4h-1Z" aria-label="vek: 55; len: 636; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M63.616279069767444,48.733333333333334h1v11.266666666666666h-1Z" aria-label="vek: 82; len: 169; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M23.569767441860467,5.933333333333335h1v54.06666666666666h-1Z" aria-label="vek: 40; len: 811; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M52.17441860465116,27.533333333333335h1v32.46666666666667h-1Z" aria-label="vek: 70; len: 487; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M24.523255813953494,8.466666666666665h1v51.53333333333333h-1Z" aria-label="vek: 41; len: 773; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M71.24418604651163,55.93333333333333h1v4.06666666666667h-1Z" aria-label="vek: 90; len: 61; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M65.52325581395348,50.2h1v9.799999999999997h-1Z" aria-label="vek: 84; len: 147; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M29.290697674418606,12.733333333333333h1v47.266666666666666h-1Z" aria-label="vek: 46; len: 709; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M70.2906976744186,55.6h1v4.399999999999999h-1Z" aria-label="vek: 89; len: 66; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M17.848837209302328,21.200000000000003h1v38.8h-1Z" aria-label="vek: 34; len: 582; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M31.197674418604652,11.799999999999999h1v48.2h-1Z" aria-label="vek: 48; len: 723; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M19.755813953488374,16.333333333333336h1v43.666666666666664h-1Z" aria-label="vek: 36; len: 655; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M48.360465116279066,25.133333333333333h1v34.86666666666667h-1Z" aria-label="vek: 66; len: 523; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M18.80232558139535,16.666666666666668h1v43.33333333333333h-1Z" aria-label="vek: 35; len: 650; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M69.33720930232558,54.733333333333334h1v5.266666666666666h-1Z" aria-label="vek: 88; len: 79; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M20.709302325581397,20.4h1v39.6h-1Z" aria-label="vek: 37; len: 594; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M8.313953488372098,48h1v12h-1Z" aria-label="vek: 24; len: 180; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M6.406976744186051,52.133333333333326h1v7.866666666666674h-1Z" aria-label="vek: 22; len: 118; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M46.45348837209303,23.533333333333335h1v36.46666666666667h-1Z" aria-label="vek: 64; len: 547; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M14.034883720930237,30.999999999999996h1v29.000000000000004h-1Z" aria-label="vek: 30; len: 435; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M22.616279069767447,12.800000000000002h1v47.199999999999996h-1Z" aria-label="vek: 39; len: 708; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M11.174418604651166,39.93333333333334h1v20.066666666666663h-1Z" aria-label="vek: 27; len: 301; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M36.91860465116279,19.199999999999996h1v40.800000000000004h-1Z" aria-label="vek: 54; len: 612; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M47.406976744186046,23.93333333333333h1v36.06666666666667h-1Z" aria-label="vek: 65; len: 541; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M38.82558139534884,19.799999999999997h1v40.2h-1Z" aria-label="vek: 56; len: 603; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M50.26744186046512,29.933333333333337h1v30.066666666666663h-1Z" aria-label="vek: 68; len: 451; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M59.80232558139535,43.333333333333336h1v16.666666666666664h-1Z" aria-label="vek: 78; len: 250; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M41.68604651162791,18.6h1v41.4h-1Z" aria-label="vek: 59; len: 621; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M26.43023255813954,16.4h1v43.6h-1Z" aria-label="vek: 43; len: 654; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M4.500000000000004,54.6h1v5.399999999999999h-1Z" aria-label="vek: 20; len: 81; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M9.26744186046512,47.266666666666666h1v12.733333333333334h-1Z" aria-label="vek: 25; len: 191; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M51.22093023255814,28.733333333333334h1v31.266666666666666h-1Z" aria-label="vek: 69; len: 469; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M42.639534883720934,20.666666666666668h1v39.33333333333333h-1Z" aria-label="vek: 60; len: 590; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M58.848837209302324,39.266666666666666h1v20.733333333333334h-1Z" aria-label="vek: 77; len: 311; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M7.360465116279074,51h1v9h-1Z" aria-label="vek: 23; len: 135; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M13.081395348837214,34.666666666666664h1v25.333333333333336h-1Z" aria-label="vek: 29; len: 380; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M16.895348837209305,21.866666666666667h1v38.13333333333333h-1Z" aria-label="vek: 33; len: 572; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M56.94186046511628,36.6h1v23.4h-1Z" aria-label="vek: 75; len: 351; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M66.4767441860465,51.8h1v8.200000000000003h-1Z" aria-label="vek: 85; len: 123; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M45.5,25.200000000000003h1v34.8h-1Z" aria-label="vek: 63; len: 522; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M68.38372093023256,54.93333333333334h1v5.066666666666663h-1Z" aria-label="vek: 87; len: 76; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M54.081395348837205,30.399999999999995h1v29.600000000000005h-1Z" aria-label="vek: 72; len: 444; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M12.127906976744189,39.13333333333333h1v20.866666666666667h-1Z" aria-label="vek: 28; len: 313; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M14.98837209302326,25.266666666666666h1v34.733333333333334h-1Z" aria-label="vek: 31; len: 521; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M39.77906976744187,19.466666666666665h1v40.53333333333333h-1Z" aria-label="vek: 57; len: 608; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M53.127906976744185,33.800000000000004h1v26.199999999999996h-1Z" aria-label="vek: 71; len: 393; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M15.941860465116282,28.133333333333333h1v31.866666666666667h-1Z" aria-label="vek: 32; len: 478; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M67.43023255813954,52.73333333333333h1v7.266666666666673h-1Z" aria-label="vek: 86; len: 109; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M55.98837209302326,36h1v24h-1Z" aria-label="vek: 74; len: 360; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M62.66279069767442,46.800000000000004h1v13.199999999999996h-1Z" aria-label="vek: 81; len: 198; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M35.01162790697674,17.733333333333334h1v42.266666666666666h-1Z" aria-label="vek: 52; len: 634; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M5.453488372093028,52.46666666666667h1v7.533333333333331h-1Z" aria-label="vek: 21; len: 113; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M32.151162790697676,12.200000000000003h1v47.8h-1Z" aria-label="vek: 49; len: 717; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M10.220930232558143,42.2h1v17.799999999999997h-1Z" aria-label="vek: 26; len: 267; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M43.593023255813954,23h1v37h-1Z" aria-label="vek: 61; len: 555; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M25.476744186046513,13.400000000000002h1v46.599999999999994h-1Z" aria-label="vek: 42; len: 699; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M55.03488372093023,33.866666666666674h1v26.133333333333326h-1Z" aria-label="vek: 73; len: 392; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M34.05813953488372,15.53333333333333h1v44.46666666666667h-1Z" aria-label="vek: 51; len: 667; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M27.38372093023256,15.53333333333333h1v44.46666666666667h-1Z" aria-label="vek: 44; len: 667; kategorie: …prózu" aria-roledescription="bar" role="graphics-symbol"/>
+         </ns1:g>
+        </ns1:g>
+        <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
+       </ns1:g>
+       <ns1:g transform="translate(109)">
+        <ns1:path class="background" d="M0.5,0.5h76.74418604651163v60h-76.74418604651163Z" aria-hidden="true"/>
+        <ns1:g>
+         <ns1:g class="mark-group role-axis" aria-label="X-axis for a linear scale with values from 15 to 95" aria-roledescription="axis" role="graphics-symbol">
+          <ns1:g transform="translate(.5 60)" pointer-events="none">
+           <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
+           <ns1:g>
+            <ns1:g class="mark-rule role-axis-tick" stroke="#DCDDD6">
+             <ns1:line transform="translate(5)" x2="0" y2="5"/>
+             <ns1:line transform="translate(24)" x2="0" y2="5"/>
+             <ns1:line transform="translate(43)" x2="0" y2="5"/>
+             <ns1:line transform="translate(62)" x2="0" y2="5"/>
+            </ns1:g>
+            <ns1:g class="mark-text role-axis-label" fill="#000" font-family="Asap" font-size="9px" text-anchor="middle">
+             <ns1:text transform="translate(5 14)">20</ns1:text>
+             <ns1:text transform="translate(24 14)">40</ns1:text>
+             <ns1:text transform="translate(43 14)">60</ns1:text>
+             <ns1:text transform="translate(62 14)">80</ns1:text>
+            </ns1:g>
+           </ns1:g>
+           <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
+          </ns1:g>
+         </ns1:g>
+         <ns1:g class="mark-group role-axis" aria-label="Y-axis for a linear scale with values from 0 to 350" aria-roledescription="axis" role="graphics-symbol">
+          <ns1:g transform="translate(77 .5)" pointer-events="none">
+           <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
+           <ns1:g>
+            <ns1:g class="mark-rule role-axis-tick" stroke="#DCDDD6">
+             <ns1:line transform="translate(0,60)" x2="5" y2="0"/>
+             <ns1:line transform="translate(0,26)" x2="5" y2="0"/>
+            </ns1:g>
+            <ns1:g class="mark-text role-axis-label" fill="#000" font-family="Asap" font-size="9px">
+             <ns1:text transform="translate(7,63)">0</ns1:text>
+             <ns1:text transform="translate(7 29)">200</ns1:text>
+            </ns1:g>
+           </ns1:g>
+           <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
+          </ns1:g>
+         </ns1:g>
+         <ns1:g class="mark-rect role-mark child_marks" fill="#E09DA3" aria-roledescription="rect mark container" role="graphics-object">
+          <ns1:path d="M16.895348837209305,21.25714285714286h1v38.74285714285714h-1Z" aria-label="vek: 33; len: 226; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M70.2906976744186,54.34285714285714h1v5.657142857142858h-1Z" aria-label="vek: 89; len: 33; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M11.174418604651166,27.42857142857143h1v32.57142857142857h-1Z" aria-label="vek: 27; len: 190; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M8.313953488372098,32.91428571428572h1v27.085714285714282h-1Z" aria-label="vek: 24; len: 158; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M35.01162790697674,21.25714285714286h1v38.74285714285714h-1Z" aria-label="vek: 52; len: 226; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M62.66279069767442,41.48571428571429h1v18.514285714285712h-1Z" aria-label="vek: 81; len: 108; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M50.26744186046512,21.942857142857147h1v38.05714285714285h-1Z" aria-label="vek: 68; len: 222; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M22.616279069767447,21.428571428571427h1v38.57142857142857h-1Z" aria-label="vek: 39; len: 225; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M31.197674418604652,23.485714285714288h1v36.51428571428571h-1Z" aria-label="vek: 48; len: 213; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M67.43023255813954,49.71428571428571h1v10.285714285714292h-1Z" aria-label="vek: 86; len: 60; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M28.337209302325583,18.17142857142857h1v41.82857142857143h-1Z" aria-label="vek: 45; len: 244; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M42.639534883720934,5.828571428571432h1v54.17142857142857h-1Z" aria-label="vek: 60; len: 316; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M25.476744186046513,16.628571428571426h1v43.371428571428574h-1Z" aria-label="vek: 42; len: 253; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M47.406976744186046,16.457142857142856h1v43.542857142857144h-1Z" aria-label="vek: 65; len: 254; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M56.94186046511628,27.085714285714285h1v32.91428571428571h-1Z" aria-label="vek: 75; len: 192; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M27.38372093023256,22.8h1v37.2h-1Z" aria-label="vek: 44; len: 217; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M66.4767441860465,45.25714285714285h1v14.742857142857147h-1Z" aria-label="vek: 85; len: 86; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M60.755813953488364,41.48571428571429h1v18.514285714285712h-1Z" aria-label="vek: 79; len: 108; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M14.034883720930237,16.8h1v43.2h-1Z" aria-label="vek: 30; len: 252; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M12.127906976744189,19.885714285714286h1v40.114285714285714h-1Z" aria-label="vek: 28; len: 234; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M10.220930232558143,26.914285714285718h1v33.08571428571428h-1Z" aria-label="vek: 26; len: 193; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M65.52325581395348,48.34285714285714h1v11.657142857142858h-1Z" aria-label="vek: 84; len: 68; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M68.38372093023256,47.65714285714286h1v12.342857142857142h-1Z" aria-label="vek: 87; len: 72; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M52.17441860465116,11.142857142857142h1v48.85714285714286h-1Z" aria-label="vek: 70; len: 285; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M64.56976744186046,42.68571428571428h1v17.314285714285717h-1Z" aria-label="vek: 83; len: 101; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M58.848837209302324,28.97142857142857h1v31.02857142857143h-1Z" aria-label="vek: 77; len: 181; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M17.848837209302328,13.542857142857144h1v46.457142857142856h-1Z" aria-label="vek: 34; len: 271; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M53.127906976744185,25.714285714285715h1v34.285714285714285h-1Z" aria-label="vek: 71; len: 200; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M46.45348837209303,14.228571428571426h1v45.77142857142857h-1Z" aria-label="vek: 64; len: 267; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M20.709302325581397,21.771428571428572h1v38.22857142857143h-1Z" aria-label="vek: 37; len: 223; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M5.453488372093028,39.599999999999994h1v20.400000000000006h-1Z" aria-label="vek: 21; len: 119; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M30.24418604651163,22.8h1v37.2h-1Z" aria-label="vek: 47; len: 217; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M44.54651162790697,15.942857142857141h1v44.05714285714286h-1Z" aria-label="vek: 62; len: 257; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M71.24418604651163,54.51428571428571h1v5.4857142857142875h-1Z" aria-label="vek: 90; len: 32; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M61.70930232558139,30.857142857142854h1v29.142857142857146h-1Z" aria-label="vek: 80; len: 170; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M23.569767441860467,18.514285714285716h1v41.48571428571428h-1Z" aria-label="vek: 40; len: 242; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M59.80232558139535,32.57142857142858h1v27.428571428571423h-1Z" aria-label="vek: 78; len: 160; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M48.360465116279066,24h1v36h-1Z" aria-label="vek: 66; len: 210; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M36.91860465116279,21.942857142857147h1v38.05714285714285h-1Z" aria-label="vek: 54; len: 222; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M19.755813953488374,13.2h1v46.8h-1Z" aria-label="vek: 36; len: 273; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M43.593023255813954,19.542857142857144h1v40.457142857142856h-1Z" aria-label="vek: 61; len: 236; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M15.941860465116282,22.45714285714286h1v37.542857142857144h-1Z" aria-label="vek: 32; len: 219; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M4.500000000000004,47.14285714285714h1v12.857142857142861h-1Z" aria-label="vek: 20; len: 75; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M41.68604651162791,22.8h1v37.2h-1Z" aria-label="vek: 59; len: 217; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M34.05813953488372,18.857142857142858h1v41.14285714285714h-1Z" aria-label="vek: 51; len: 240; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M29.290697674418606,18.857142857142858h1v41.14285714285714h-1Z" aria-label="vek: 46; len: 240; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M49.31395348837209,18.514285714285716h1v41.48571428571428h-1Z" aria-label="vek: 67; len: 242; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M21.66279069767442,16.971428571428568h1v43.02857142857143h-1Z" aria-label="vek: 38; len: 251; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M54.081395348837205,29.828571428571426h1v30.171428571428574h-1Z" aria-label="vek: 72; len: 176; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M55.98837209302326,31.200000000000003h1v28.799999999999997h-1Z" aria-label="vek: 74; len: 168; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M32.151162790697676,22.45714285714286h1v37.542857142857144h-1Z" aria-label="vek: 49; len: 219; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M37.872093023255815,20.742857142857144h1v39.25714285714285h-1Z" aria-label="vek: 55; len: 229; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M39.77906976744187,18.857142857142858h1v41.14285714285714h-1Z" aria-label="vek: 57; len: 240; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M45.5,20.22857142857143h1v39.77142857142857h-1Z" aria-label="vek: 63; len: 232; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M40.73255813953488,20.057142857142857h1v39.94285714285714h-1Z" aria-label="vek: 58; len: 233; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M35.96511627906977,15.942857142857141h1v44.05714285714286h-1Z" aria-label="vek: 53; len: 257; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M18.80232558139535,19.542857142857144h1v40.457142857142856h-1Z" aria-label="vek: 35; len: 236; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M7.360465116279074,34.97142857142857h1v25.028571428571432h-1Z" aria-label="vek: 23; len: 146; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M6.406976744186051,34.457142857142856h1v25.542857142857144h-1Z" aria-label="vek: 22; len: 149; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M13.081395348837214,17.657142857142855h1v42.34285714285714h-1Z" aria-label="vek: 29; len: 247; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M38.82558139534884,15.942857142857141h1v44.05714285714286h-1Z" aria-label="vek: 56; len: 257; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M51.22093023255814,23.82857142857143h1v36.17142857142857h-1Z" aria-label="vek: 69; len: 211; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M55.03488372093023,29.314285714285713h1v30.685714285714287h-1Z" aria-label="vek: 73; len: 179; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M24.523255813953494,21.771428571428572h1v38.22857142857143h-1Z" aria-label="vek: 41; len: 223; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M63.616279069767444,40.97142857142857h1v19.028571428571432h-1Z" aria-label="vek: 82; len: 111; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M9.26744186046512,27.942857142857143h1v32.05714285714286h-1Z" aria-label="vek: 25; len: 187; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M14.98837209302326,20.91428571428571h1v39.08571428571429h-1Z" aria-label="vek: 31; len: 228; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M33.104651162790695,7.371428571428574h1v52.628571428571426h-1Z" aria-label="vek: 50; len: 307; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M26.43023255813954,20.057142857142857h1v39.94285714285714h-1Z" aria-label="vek: 43; len: 233; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M69.33720930232558,51.42857142857143h1v8.57142857142857h-1Z" aria-label="vek: 88; len: 50; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M57.8953488372093,34.114285714285714h1v25.885714285714286h-1Z" aria-label="vek: 76; len: 151; kategorie: …poezii" aria-roledescription="bar" role="graphics-symbol"/>
+         </ns1:g>
+        </ns1:g>
+        <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
+       </ns1:g>
+       <ns1:g transform="translate(218)">
+        <ns1:path class="background" d="M0.5,0.5h76.74418604651163v60h-76.74418604651163Z" aria-hidden="true"/>
+        <ns1:g>
+         <ns1:g class="mark-group role-axis" aria-label="X-axis for a linear scale with values from 15 to 95" aria-roledescription="axis" role="graphics-symbol">
+          <ns1:g transform="translate(.5 60)" pointer-events="none">
+           <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
+           <ns1:g>
+            <ns1:g class="mark-rule role-axis-tick" stroke="#DCDDD6">
+             <ns1:line transform="translate(5)" x2="0" y2="5"/>
+             <ns1:line transform="translate(24)" x2="0" y2="5"/>
+             <ns1:line transform="translate(43)" x2="0" y2="5"/>
+             <ns1:line transform="translate(62)" x2="0" y2="5"/>
+            </ns1:g>
+            <ns1:g class="mark-text role-axis-label" fill="#000" font-family="Asap" font-size="9px" text-anchor="middle">
+             <ns1:text transform="translate(5 14)">20</ns1:text>
+             <ns1:text transform="translate(24 14)">40</ns1:text>
+             <ns1:text transform="translate(43 14)">60</ns1:text>
+             <ns1:text transform="translate(62 14)">80</ns1:text>
+            </ns1:g>
+           </ns1:g>
+           <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
+          </ns1:g>
+         </ns1:g>
+         <ns1:g class="mark-group role-axis" aria-label="Y-axis for a linear scale with values from 0 to 160" aria-roledescription="axis" role="graphics-symbol">
+          <ns1:g transform="translate(77 .5)" pointer-events="none">
+           <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
+           <ns1:g>
+            <ns1:g class="mark-rule role-axis-tick" stroke="#DCDDD6">
+             <ns1:line transform="translate(0,60)" x2="5" y2="0"/>
+             <ns1:line transform="translate(0,23)" x2="5" y2="0"/>
+            </ns1:g>
+            <ns1:g class="mark-text role-axis-label" fill="#000" font-family="Asap" font-size="9px">
+             <ns1:text transform="translate(7,63)">0</ns1:text>
+             <ns1:text transform="translate(7 26)">100</ns1:text>
+            </ns1:g>
+           </ns1:g>
+           <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
+          </ns1:g>
+         </ns1:g>
+         <ns1:g class="mark-rect role-mark child_marks" fill="#DB842F" aria-roledescription="rect mark container" role="graphics-object">
+          <ns1:path d="M68.38372093023256,38.625h1v21.375h-1Z" aria-label="vek: 87; len: 57; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M67.43023255813954,32.25h1v27.75h-1Z" aria-label="vek: 86; len: 74; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M66.4767441860465,30.749999999999996h1v29.250000000000004h-1Z" aria-label="vek: 85; len: 78; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M55.98837209302326,26.999999999999996h1v33h-1Z" aria-label="vek: 74; len: 88; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M25.476744186046513,44.625h1v15.375h-1Z" aria-label="vek: 42; len: 41; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M50.26744186046512,28.874999999999996h1v31.125000000000004h-1Z" aria-label="vek: 68; len: 83; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M6.406976744186051,56.625h1v3.375h-1Z" aria-label="vek: 22; len: 9; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M57.8953488372093,23.249999999999996h1v36.75h-1Z" aria-label="vek: 76; len: 98; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M30.24418604651163,38.625h1v21.375h-1Z" aria-label="vek: 47; len: 57; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M48.360465116279066,31.5h1v28.5h-1Z" aria-label="vek: 66; len: 76; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M44.54651162790697,29.250000000000004h1v30.749999999999996h-1Z" aria-label="vek: 62; len: 82; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M60.755813953488364,18.375h1v41.625h-1Z" aria-label="vek: 79; len: 111; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M18.80232558139535,44.25h1v15.75h-1Z" aria-label="vek: 35; len: 42; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M8.313953488372098,58.875h1v1.125h-1Z" aria-label="vek: 24; len: 3; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M59.80232558139535,15.749999999999996h1v44.25h-1Z" aria-label="vek: 78; len: 118; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M41.68604651162791,28.5h1v31.5h-1Z" aria-label="vek: 59; len: 84; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M46.45348837209303,26.25h1v33.75h-1Z" aria-label="vek: 64; len: 90; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M69.33720930232558,40.125h1v19.875h-1Z" aria-label="vek: 88; len: 53; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M23.569767441860467,46.875h1v13.125h-1Z" aria-label="vek: 40; len: 35; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M29.290697674418606,42.375h1v17.625h-1Z" aria-label="vek: 46; len: 47; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M35.01162790697674,34.875h1v25.125h-1Z" aria-label="vek: 52; len: 67; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M26.43023255813954,45.75h1v14.25h-1Z" aria-label="vek: 43; len: 38; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M39.77906976744187,34.875h1v25.125h-1Z" aria-label="vek: 57; len: 67; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M21.66279069767442,45h1v15h-1Z" aria-label="vek: 38; len: 40; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M9.26744186046512,56.25h1v3.75h-1Z" aria-label="vek: 25; len: 10; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M53.127906976744185,25.875h1v34.125h-1Z" aria-label="vek: 71; len: 91; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M22.616279069767447,43.5h1v16.5h-1Z" aria-label="vek: 39; len: 44; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M13.081395348837214,54h1v6h-1Z" aria-label="vek: 29; len: 16; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M10.220930232558143,51h1v9h-1Z" aria-label="vek: 26; len: 24; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M52.17441860465116,13.499999999999998h1v46.5h-1Z" aria-label="vek: 70; len: 124; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M32.151162790697676,41.25h1v18.75h-1Z" aria-label="vek: 49; len: 50; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M11.174418604651166,55.5h1v4.5h-1Z" aria-label="vek: 27; len: 12; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M33.104651162790695,29.250000000000004h1v30.749999999999996h-1Z" aria-label="vek: 50; len: 82; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M35.96511627906977,37.125h1v22.875h-1Z" aria-label="vek: 53; len: 61; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M14.034883720930237,52.875h1v7.125h-1Z" aria-label="vek: 30; len: 19; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M54.081395348837205,10.500000000000004h1v49.5h-1Z" aria-label="vek: 72; len: 132; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M58.848837209302324,18.375h1v41.625h-1Z" aria-label="vek: 77; len: 111; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M45.5,33h1v27h-1Z" aria-label="vek: 63; len: 72; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M49.31395348837209,25.500000000000004h1v34.5h-1Z" aria-label="vek: 67; len: 92; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M34.05813953488372,40.875h1v19.125h-1Z" aria-label="vek: 51; len: 51; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M70.2906976744186,48h1v12h-1Z" aria-label="vek: 89; len: 32; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M71.24418604651163,41.625h1v18.375h-1Z" aria-label="vek: 90; len: 49; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M19.755813953488374,46.875h1v13.125h-1Z" aria-label="vek: 36; len: 35; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M15.941860465116282,48.375h1v11.625h-1Z" aria-label="vek: 32; len: 31; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M14.98837209302326,50.25h1v9.75h-1Z" aria-label="vek: 31; len: 26; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M38.82558139534884,37.5h1v22.5h-1Z" aria-label="vek: 56; len: 60; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M17.848837209302328,45h1v15h-1Z" aria-label="vek: 34; len: 40; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M56.94186046511628,12.750000000000002h1v47.25h-1Z" aria-label="vek: 75; len: 126; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M62.66279069767442,23.625000000000004h1v36.375h-1Z" aria-label="vek: 81; len: 97; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M27.38372093023256,39h1v21h-1Z" aria-label="vek: 44; len: 56; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M36.91860465116279,39.75h1v20.25h-1Z" aria-label="vek: 54; len: 54; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M55.03488372093023,17.25h1v42.75h-1Z" aria-label="vek: 73; len: 114; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M4.500000000000004,57.375h1v2.625h-1Z" aria-label="vek: 20; len: 7; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M28.337209302325583,38.625h1v21.375h-1Z" aria-label="vek: 45; len: 57; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M37.872093023255815,30.375h1v29.625h-1Z" aria-label="vek: 55; len: 79; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M65.52325581395348,36.375h1v23.625h-1Z" aria-label="vek: 84; len: 63; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M64.56976744186046,35.25h1v24.75h-1Z" aria-label="vek: 83; len: 66; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M51.22093023255814,29.250000000000004h1v30.749999999999996h-1Z" aria-label="vek: 69; len: 82; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M12.127906976744189,50.625h1v9.375h-1Z" aria-label="vek: 28; len: 25; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M43.593023255813954,27.375000000000004h1v32.625h-1Z" aria-label="vek: 61; len: 87; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M24.523255813953494,37.875h1v22.125h-1Z" aria-label="vek: 41; len: 59; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M7.360465116279074,58.125h1v1.875h-1Z" aria-label="vek: 23; len: 5; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M42.639534883720934,26.999999999999996h1v33h-1Z" aria-label="vek: 60; len: 88; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M31.197674418604652,43.5h1v16.5h-1Z" aria-label="vek: 48; len: 44; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M16.895348837209305,46.5h1v13.5h-1Z" aria-label="vek: 33; len: 36; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M5.453488372093028,59.625h1v0.375h-1Z" aria-label="vek: 21; len: 1; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M40.73255813953488,37.875h1v22.125h-1Z" aria-label="vek: 58; len: 59; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M20.709302325581397,45h1v15h-1Z" aria-label="vek: 37; len: 40; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M63.616279069767444,25.124999999999996h1v34.875h-1Z" aria-label="vek: 82; len: 93; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M61.70930232558139,4.499999999999997h1v55.5h-1Z" aria-label="vek: 80; len: 148; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M47.406976744186046,26.999999999999996h1v33h-1Z" aria-label="vek: 65; len: 88; kategorie: …vzpomínky" aria-roledescription="bar" role="graphics-symbol"/>
+         </ns1:g>
+        </ns1:g>
+        <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
+       </ns1:g>
+      </ns1:g>
       <ns1:g class="mark-group role-title">
-       <ns1:g transform="translate(-1,-83)" pointer-events="none">
+       <ns1:g transform="translate(-1,-98)" pointer-events="none">
         <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
         <ns1:g>
          <ns1:g class="mark-text role-title-text" aria-label="Title text 'V jakém věku čeští autoři a autorky publikují…'" aria-roledescription="title" role="graphics-symbol">
           <ns1:text transform="translate(0,-1)" fill="#000" font-family="Noticia Text" font-size="12px" font-weight="bolder">V jakém věku čeští autoři a autorky publikují…</ns1:text>
          </ns1:g>
-         <ns1:g class="mark-text role-title-subtitle" aria-label="Subtitle text 'Souhrnné statistiky 12 614 lidí žijících v 19. až 21. století, výrazně zastoupenější jsou současní autoři a autorky.'" aria-roledescription="subtitle" role="graphics-symbol">
+         <ns1:g class="mark-text role-title-subtitle" aria-label="Subtitle text 'Osamělé vrcholky odpovídají životním jubileím. (Souhrnné statistiky 15 tisíc lidí žijících v 19. až 21. století, výrazně zastoupenější jsou současní autoři a autorky.)'" aria-roledescription="subtitle" role="graphics-symbol">
           <ns1:text transform="translate(0,20)" fill="#000" font-family="Noticia Text" font-size="10px">
-           <ns1:tspan>Souhrnné statistiky 12 614 lidí žijících v 19. až 21. století,</ns1:tspan>
-           <ns1:tspan x="0" dy="15">výrazně zastoupenější jsou současní autoři a autorky.</ns1:tspan>
+           <ns1:tspan>Osamělé vrcholky odpovídají životním jubileím.</ns1:tspan>
+           <ns1:tspan x="0" dy="15">(Souhrnné statistiky 15 tisíc lidí žijících v 19. až 21. století,</ns1:tspan>
+           <ns1:tspan x="0" dy="15">výrazně zastoupenější jsou současní autoři a autorky.)</ns1:tspan>
           </ns1:text>
          </ns1:g>
         </ns1:g>
@@ -507,7 +432,7 @@
    </ns1:g>
   </ns1:g>
  </g>
- <g transform="translate(124,437)">
+ <g transform="translate(89,196)">
   <ns0:rect width="240" height="40" fill="white" xmlns:ns0="http://www.w3.org/2000/svg"/>
   <ns1:g transform="translate(35,5)" fill="none" stroke-miterlimit="10" xmlns:ns1="http://www.w3.org/2000/svg">
    <ns1:g class="mark-group role-frame root" aria-roledescription="group mark container" role="graphics-object">

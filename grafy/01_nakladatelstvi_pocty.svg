@@ -1,57 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg viewBox="0 0 369 505" xmlns="http://www.w3.org/2000/svg">
- <rect width="369" height="505" fill="#fff"/>
+<svg viewBox="0 0 399 490" xmlns="http://www.w3.org/2000/svg">
+ <rect width="399" height="490" fill="#fff"/>
  <g transform="translate(0)">
-  <ns0:rect width="369" height="465" fill="white" xmlns:ns0="http://www.w3.org/2000/svg"/>
-  <ns1:g transform="translate(11,133)" fill="none" stroke-miterlimit="10" xmlns:ns1="http://www.w3.org/2000/svg">
+  <ns0:rect width="399" height="450" fill="white" xmlns:ns0="http://www.w3.org/2000/svg"/>
+  <ns1:g transform="translate(11,118)" fill="none" stroke-miterlimit="10" xmlns:ns1="http://www.w3.org/2000/svg">
    <ns1:g class="mark-group role-frame root" aria-roledescription="group mark container" role="graphics-object">
     <ns1:g transform="translate(0)">
      <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
      <ns1:g>
       <ns1:g class="mark-group role-scope cell" aria-roledescription="group mark container" role="graphics-object">
        <ns1:g transform="translate(0)">
-        <ns1:path class="background" d="M0.5,0.5h330v60h-330Z" aria-hidden="true"/>
+        <ns1:path class="background" d="M0.5,0.5h360v60h-360Z" aria-hidden="true"/>
         <ns1:g>
-         <ns1:g class="mark-group role-axis" aria-label="X-axis for a time scale with values from Saturday, 29 January 1898, 1:07:30 AM to Monday, 02 December 2024, 10:52:30 PM" aria-roledescription="axis" role="graphics-symbol">
+         <ns1:g class="mark-group role-axis" aria-label="X-axis for a time scale with values from Wednesday, 30 March 1898, 5:08:34 AM to Thursday, 03 October 2024, 7:51:25 PM" aria-roledescription="axis" role="graphics-symbol">
           <ns1:g transform="translate(.5 60)" pointer-events="none">
            <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
            <ns1:g>
             <ns1:g class="mark-rule role-axis-tick" stroke="#DCDDD6">
              <ns1:line transform="translate(5)" x2="0" y2="5"/>
-             <ns1:line transform="translate(31)" x2="0" y2="5"/>
-             <ns1:line transform="translate(57)" x2="0" y2="5"/>
-             <ns1:line transform="translate(83)" x2="0" y2="5"/>
-             <ns1:line transform="translate(109)" x2="0" y2="5"/>
-             <ns1:line transform="translate(135)" x2="0" y2="5"/>
-             <ns1:line transform="translate(161)" x2="0" y2="5"/>
-             <ns1:line transform="translate(187)" x2="0" y2="5"/>
-             <ns1:line transform="translate(213)" x2="0" y2="5"/>
-             <ns1:line transform="translate(239)" x2="0" y2="5"/>
-             <ns1:line transform="translate(265)" x2="0" y2="5"/>
-             <ns1:line transform="translate(291)" x2="0" y2="5"/>
-             <ns1:line transform="translate(317)" x2="0" y2="5"/>
+             <ns1:line transform="translate(33)" x2="0" y2="5"/>
+             <ns1:line transform="translate(62)" x2="0" y2="5"/>
+             <ns1:line transform="translate(90)" x2="0" y2="5"/>
+             <ns1:line transform="translate(119)" x2="0" y2="5"/>
+             <ns1:line transform="translate(147)" x2="0" y2="5"/>
+             <ns1:line transform="translate(176)" x2="0" y2="5"/>
+             <ns1:line transform="translate(204)" x2="0" y2="5"/>
+             <ns1:line transform="translate(233)" x2="0" y2="5"/>
+             <ns1:line transform="translate(261)" x2="0" y2="5"/>
+             <ns1:line transform="translate(290)" x2="0" y2="5"/>
+             <ns1:line transform="translate(318)" x2="0" y2="5"/>
+             <ns1:line transform="translate(346)" x2="0" y2="5"/>
             </ns1:g>
             <ns1:g class="mark-text role-axis-label" fill="#000" font-family="Asap" font-size="9px" text-anchor="middle">
-             <ns1:text transform="translate(5,14)">1900</ns1:text>
-             <ns1:text transform="translate(31 14)">1910</ns1:text>
-             <ns1:text transform="translate(57 14)">1920</ns1:text>
-             <ns1:text transform="translate(83 14)">1930</ns1:text>
-             <ns1:text transform="translate(109 14)">1940</ns1:text>
-             <ns1:text transform="translate(135 14)">1950</ns1:text>
-             <ns1:text transform="translate(161 14)">1960</ns1:text>
-             <ns1:text transform="translate(187 14)">1970</ns1:text>
-             <ns1:text transform="translate(213 14)">1980</ns1:text>
-             <ns1:text transform="translate(239 14)">1990</ns1:text>
-             <ns1:text transform="translate(265 14)">2000</ns1:text>
-             <ns1:text transform="translate(291 14)">2010</ns1:text>
-             <ns1:text transform="translate(317 14)">2020</ns1:text>
+             <ns1:text transform="translate(5 14)">1900</ns1:text>
+             <ns1:text transform="translate(33 14)">1910</ns1:text>
+             <ns1:text transform="translate(62 14)">1920</ns1:text>
+             <ns1:text transform="translate(90 14)">1930</ns1:text>
+             <ns1:text transform="translate(119 14)">1940</ns1:text>
+             <ns1:text transform="translate(147 14)">1950</ns1:text>
+             <ns1:text transform="translate(176 14)">1960</ns1:text>
+             <ns1:text transform="translate(204 14)">1970</ns1:text>
+             <ns1:text transform="translate(233 14)">1980</ns1:text>
+             <ns1:text transform="translate(261 14)">1990</ns1:text>
+             <ns1:text transform="translate(290 14)">2000</ns1:text>
+             <ns1:text transform="translate(318 14)">2010</ns1:text>
+             <ns1:text transform="translate(346 14)">2020</ns1:text>
             </ns1:g>
            </ns1:g>
            <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
           </ns1:g>
          </ns1:g>
          <ns1:g class="mark-group role-axis" aria-label="Y-axis for a linear scale with values from 0k to 2k" aria-roledescription="axis" role="graphics-symbol">
-          <ns1:g transform="translate(330 .5)" pointer-events="none">
+          <ns1:g transform="translate(360 .5)" pointer-events="none">
            <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
            <ns1:g>
             <ns1:g class="mark-rule role-axis-tick" stroke="#DCDDD6">
@@ -69,137 +69,137 @@
           </ns1:g>
          </ns1:g>
          <ns1:g class="mark-rect role-mark child_marks" fill="#D55F50" aria-roledescription="rect mark container" role="graphics-object">
-          <ns1:path d="M4,54.089999999999996h2v5.910000000000004h-2Z" opacity=".8" aria-label="rok: Jan 01, 1900; value: 197; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M6.599888703394547,52.35h2v7.649999999999999h-2Z" opacity=".8" aria-label="rok: Jan 01, 1901; value: 255; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M9.199777406789094,50.94h2v9.060000000000002h-2Z" opacity=".8" aria-label="rok: Jan 01, 1902; value: 302; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M11.799666110183638,51.330000000000005h2v8.669999999999995h-2Z" opacity=".8" aria-label="rok: Jan 01, 1903; value: 289; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M14.399554813578186,50.94h2v9.060000000000002h-2Z" opacity=".8" aria-label="rok: Jan 01, 1904; value: 302; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M17.00656649972176,50.64h2v9.36h-2Z" opacity=".8" aria-label="rok: Jan 01, 1905; value: 312; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M19.606455203116305,50.04h2v9.96h-2Z" opacity=".8" aria-label="rok: Jan 01, 1906; value: 332; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M22.20634390651085,50.699999999999996h2v9.300000000000004h-2Z" opacity=".8" aria-label="rok: Jan 01, 1907; value: 310; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M24.8062326099054,49.62h2v10.380000000000003h-2Z" opacity=".8" aria-label="rok: Jan 01, 1908; value: 346; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M27.413244296048973,48.720000000000006h2v11.279999999999994h-2Z" opacity=".8" aria-label="rok: Jan 01, 1909; value: 376; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M30.013132999443517,47.580000000000005h2v12.419999999999995h-2Z" opacity=".8" aria-label="rok: Jan 01, 1910; value: 414; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M32.61302170283806,47.85h2v12.149999999999999h-2Z" opacity=".8" aria-label="rok: Jan 01, 1911; value: 405; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M35.21291040623261,47.49h2v12.509999999999998h-2Z" opacity=".8" aria-label="rok: Jan 01, 1912; value: 417; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M37.81992209237618,46.86h2v13.14h-2Z" opacity=".8" aria-label="rok: Jan 01, 1913; value: 438; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M40.41981079577073,48.9h2v11.100000000000001h-2Z" opacity=".8" aria-label="rok: Jan 01, 1914; value: 370; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M43.01969949916527,51.75h2v8.25h-2Z" opacity=".8" aria-label="rok: Jan 01, 1915; value: 275; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M45.619588202559825,51.21h2v8.79h-2Z" opacity=".8" aria-label="rok: Jan 01, 1916; value: 293; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M48.22659988870339,50.79h2v9.21h-2Z" opacity=".8" aria-label="rok: Jan 01, 1917; value: 307; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M50.82648859209794,48.96h2v11.04h-2Z" opacity=".8" aria-label="rok: Jan 01, 1918; value: 368; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M53.42637729549249,44.88h2v15.119999999999997h-2Z" opacity=".8" aria-label="rok: Jan 01, 1919; value: 504; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M56.026265998887034,41.25h2v18.75h-2Z" opacity=".8" aria-label="rok: Jan 01, 1920; value: 625; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M58.633277685030606,41.55h2v18.450000000000003h-2Z" opacity=".8" aria-label="rok: Jan 01, 1921; value: 615; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M61.23316638842515,39.42h2v20.58h-2Z" opacity=".8" aria-label="rok: Jan 01, 1922; value: 686; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M63.8330550918197,38.1h2v21.9h-2Z" opacity=".8" aria-label="rok: Jan 01, 1923; value: 730; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M66.43294379521424,37.05h2v22.950000000000003h-2Z" opacity=".8" aria-label="rok: Jan 01, 1924; value: 765; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M69.03995548135782,36.48h2v23.520000000000003h-2Z" opacity=".8" aria-label="rok: Jan 01, 1925; value: 784; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M71.63984418475236,40.14h2v19.86h-2Z" opacity=".8" aria-label="rok: Jan 01, 1926; value: 662; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M74.2397328881469,39.959999999999994h2v20.040000000000006h-2Z" opacity=".8" aria-label="rok: Jan 01, 1927; value: 668; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M76.83962159154146,38.07000000000001h2v21.929999999999993h-2Z" opacity=".8" aria-label="rok: Jan 01, 1928; value: 731; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M79.44663327768502,39.57h2v20.43h-2Z" opacity=".8" aria-label="rok: Jan 01, 1929; value: 681; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M82.04652198107958,38.04h2v21.96h-2Z" opacity=".8" aria-label="rok: Jan 01, 1930; value: 732; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M84.64641068447412,40.44h2v19.560000000000002h-2Z" opacity=".8" aria-label="rok: Jan 01, 1931; value: 652; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M87.24629938786867,41.940000000000005h2v18.059999999999995h-2Z" opacity=".8" aria-label="rok: Jan 01, 1932; value: 602; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M89.85331107401224,42.21h2v17.79h-2Z" opacity=".8" aria-label="rok: Jan 01, 1933; value: 593; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M92.45319977740678,41.879999999999995h2v18.120000000000005h-2Z" opacity=".8" aria-label="rok: Jan 01, 1934; value: 604; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M95.05308848080134,41.46h2v18.54h-2Z" opacity=".8" aria-label="rok: Jan 01, 1935; value: 618; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M97.65297718419589,40.02h2v19.979999999999997h-2Z" opacity=".8" aria-label="rok: Jan 01, 1936; value: 666; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M100.25998887033946,40.53h2v19.47h-2Z" opacity=".8" aria-label="rok: Jan 01, 1937; value: 649; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M102.859877573734,41.82000000000001h2v18.179999999999993h-2Z" opacity=".8" aria-label="rok: Jan 01, 1938; value: 606; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M105.45976627712854,44.79h2v15.21h-2Z" opacity=".8" aria-label="rok: Jan 01, 1939; value: 507; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M108.05965498052309,43.5h2v16.5h-2Z" opacity=".8" aria-label="rok: Jan 01, 1940; value: 550; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M110.6663698757188,44.04h2v15.96h-2Z" opacity=".8" aria-label="rok: Jan 01, 1941; value: 532; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M113.26625857911333,49.14h2v10.86h-2Z" opacity=".8" aria-label="rok: Jan 01, 1942; value: 362; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M115.86644407345575,51.69h2v8.310000000000002h-2Z" opacity=".8" aria-label="rok: Jan 01, 1943; value: 277; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M118.46633277685031,50.58h2v9.420000000000002h-2Z" opacity=".8" aria-label="rok: Jan 01, 1944; value: 314; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M121.07334446299387,47.79h2v12.21h-2Z" opacity=".8" aria-label="rok: Jan 01, 1945; value: 407; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M123.67323316638843,40.620000000000005h2v19.379999999999995h-2Z" opacity=".8" aria-label="rok: Jan 01, 1946; value: 646; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M126.27341866073085,40.8h2v19.200000000000003h-2Z" opacity=".8" aria-label="rok: Jan 01, 1947; value: 640; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M128.8730105731775,43.32h2v16.68h-2Z" opacity=".8" aria-label="rok: Jan 01, 1948; value: 556; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M131.4800222593211,51.809999999999995h2v8.190000000000005h-2Z" opacity=".8" aria-label="rok: Jan 01, 1949; value: 273; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M134.07991096271564,55.41h2v4.590000000000003h-2Z" opacity=".8" aria-label="rok: Jan 01, 1950; value: 153; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M136.6797996661102,55.95h2v4.049999999999997h-2Z" opacity=".8" aria-label="rok: Jan 01, 1951; value: 135; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M139.27968836950473,56.76h2v3.240000000000002h-2Z" opacity=".8" aria-label="rok: Jan 01, 1952; value: 108; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M141.8867000556483,56.19h2v3.8100000000000023h-2Z" opacity=".8" aria-label="rok: Jan 01, 1953; value: 127; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M144.48658875904286,56.1h2v3.8999999999999986h-2Z" opacity=".8" aria-label="rok: Jan 01, 1954; value: 130; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M147.0864774624374,55.68h2v4.32h-2Z" opacity=".8" aria-label="rok: Jan 01, 1955; value: 144; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M149.68636616583194,55.23h2v4.770000000000003h-2Z" opacity=".8" aria-label="rok: Jan 01, 1956; value: 159; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M152.29337785197552,55.17h2v4.829999999999998h-2Z" opacity=".8" aria-label="rok: Jan 01, 1957; value: 161; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M154.89326655537005,55.35h2v4.649999999999999h-2Z" opacity=".8" aria-label="rok: Jan 01, 1958; value: 155; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M157.4931552587646,55.02h2v4.979999999999997h-2Z" opacity=".8" aria-label="rok: Jan 01, 1959; value: 166; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M160.09304396215916,54.69h2v5.310000000000002h-2Z" opacity=".8" aria-label="rok: Jan 01, 1960; value: 177; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M162.70005564830274,54.99h2v5.009999999999998h-2Z" opacity=".8" aria-label="rok: Jan 01, 1961; value: 167; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M165.2999443516973,55.02h2v4.979999999999997h-2Z" opacity=".8" aria-label="rok: Jan 01, 1962; value: 166; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M167.89983305509182,54.75h2v5.25h-2Z" opacity=".8" aria-label="rok: Jan 01, 1963; value: 175; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M170.49972175848637,54.18h2v5.82h-2Z" opacity=".8" aria-label="rok: Jan 01, 1964; value: 194; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M173.10673344462995,53.160000000000004h2v6.839999999999996h-2Z" opacity=".8" aria-label="rok: Jan 01, 1965; value: 228; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M175.70662214802448,52.59h2v7.409999999999997h-2Z" opacity=".8" aria-label="rok: Jan 01, 1966; value: 247; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M178.30651085141903,52.019999999999996h2v7.980000000000004h-2Z" opacity=".8" aria-label="rok: Jan 01, 1967; value: 266; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M180.90639955481356,50.910000000000004h2v9.089999999999996h-2Z" opacity=".8" aria-label="rok: Jan 01, 1968; value: 303; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M183.51341124095714,51.09h2v8.909999999999997h-2Z" opacity=".8" aria-label="rok: Jan 01, 1969; value: 297; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M186.1132999443517,50.4h2v9.600000000000001h-2Z" opacity=".8" aria-label="rok: Jan 01, 1970; value: 320; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M188.71318864774622,50.76h2v9.240000000000002h-2Z" opacity=".8" aria-label="rok: Jan 01, 1971; value: 308; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M191.3130773511408,51.66h2v8.340000000000003h-2Z" opacity=".8" aria-label="rok: Jan 01, 1972; value: 278; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M193.92008903728436,51.63h2v8.369999999999997h-2Z" opacity=".8" aria-label="rok: Jan 01, 1973; value: 279; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M196.51997774067888,51.99h2v8.009999999999998h-2Z" opacity=".8" aria-label="rok: Jan 01, 1974; value: 267; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M199.11986644407347,52.2h2v7.799999999999997h-2Z" opacity=".8" aria-label="rok: Jan 01, 1975; value: 260; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M201.719755147468,51.150000000000006h2v8.849999999999994h-2Z" opacity=".8" aria-label="rok: Jan 01, 1976; value: 295; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M204.3267668336116,51.27h2v8.729999999999997h-2Z" opacity=".8" aria-label="rok: Jan 01, 1977; value: 291; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M206.92665553700613,51.03h2v8.969999999999999h-2Z" opacity=".8" aria-label="rok: Jan 01, 1978; value: 299; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M209.52654424040065,50.16h2v9.840000000000003h-2Z" opacity=".8" aria-label="rok: Jan 01, 1979; value: 328; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M212.1264329437952,49.8h2v10.200000000000003h-2Z" opacity=".8" aria-label="rok: Jan 01, 1980; value: 340; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M214.7334446299388,49.53h2v10.469999999999999h-2Z" opacity=".8" aria-label="rok: Jan 01, 1981; value: 349; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M217.33333333333334,49.53h2v10.469999999999999h-2Z" opacity=".8" aria-label="rok: Jan 01, 1982; value: 349; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M219.93322203672787,48.9h2v11.100000000000001h-2Z" opacity=".8" aria-label="rok: Jan 01, 1983; value: 370; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M222.53311074012242,49.68000000000001h2v10.319999999999993h-2Z" opacity=".8" aria-label="rok: Jan 01, 1984; value: 344; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M225.140122426266,49.68000000000001h2v10.319999999999993h-2Z" opacity=".8" aria-label="rok: Jan 01, 1985; value: 344; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M227.74001112966053,49.05h2v10.950000000000003h-2Z" opacity=".8" aria-label="rok: Jan 01, 1986; value: 365; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M230.3398998330551,49.2h2v10.799999999999997h-2Z" opacity=".8" aria-label="rok: Jan 01, 1987; value: 360; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M232.93978853644964,48.99h2v11.009999999999998h-2Z" opacity=".8" aria-label="rok: Jan 01, 1988; value: 367; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M235.5468002225932,48.66h2v11.340000000000003h-2Z" opacity=".8" aria-label="rok: Jan 01, 1989; value: 378; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M238.14668892598777,42.69h2v17.310000000000002h-2Z" opacity=".8" aria-label="rok: Jan 01, 1990; value: 577; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M240.7465776293823,35.849999999999994h2v24.150000000000006h-2Z" opacity=".8" aria-label="rok: Jan 01, 1991; value: 805; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M243.34646633277686,32.760000000000005h2v27.239999999999995h-2Z" opacity=".8" aria-label="rok: Jan 01, 1992; value: 908; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M245.95347801892044,32.49h2v27.509999999999998h-2Z" opacity=".8" aria-label="rok: Jan 01, 1993; value: 917; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M248.55336672231496,30.629999999999995h2v29.370000000000005h-2Z" opacity=".8" aria-label="rok: Jan 01, 1994; value: 979; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M251.15325542570952,26.79h2v33.21h-2Z" opacity=".8" aria-label="rok: Jan 01, 1995; value: 1.107k; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M253.75314412910404,27.03h2v32.97h-2Z" opacity=".8" aria-label="rok: Jan 01, 1996; value: 1.099k; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M256.36015581524765,24.57h2v35.43h-2Z" opacity=".8" aria-label="rok: Jan 01, 1997; value: 1.181k; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M258.9600445186422,23.61h2v36.39h-2Z" opacity=".8" aria-label="rok: Jan 01, 1998; value: 1.213k; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M261.5599332220367,21.21h2v38.79h-2Z" opacity=".8" aria-label="rok: Jan 01, 1999; value: 1.293k; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M264.1598219254313,19.77h2v40.230000000000004h-2Z" opacity=".8" aria-label="rok: Jan 01, 2000; value: 1.341k; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M266.76683361157484,19.919999999999998h2v40.08h-2Z" opacity=".8" aria-label="rok: Jan 01, 2001; value: 1.336k; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M269.3667223149694,18.839999999999996h2v41.160000000000004h-2Z" opacity=".8" aria-label="rok: Jan 01, 2002; value: 1.372k; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M271.96661101836395,18.9h2v41.1h-2Z" opacity=".8" aria-label="rok: Jan 01, 2003; value: 1.37k; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M274.5664997217585,18.21h2v41.79h-2Z" opacity=".8" aria-label="rok: Jan 01, 2004; value: 1.393k; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M277.1735114079021,17.28h2v42.72h-2Z" opacity=".8" aria-label="rok: Jan 01, 2005; value: 1.424k; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M279.7734001112966,15.3h2v44.7h-2Z" opacity=".8" aria-label="rok: Jan 01, 2006; value: 1.49k; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M282.3732888146912,12.419999999999998h2v47.58h-2Z" opacity=".8" aria-label="rok: Jan 01, 2007; value: 1.586k; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M284.9731775180857,11.129999999999999h2v48.870000000000005h-2Z" opacity=".8" aria-label="rok: Jan 01, 2008; value: 1.629k; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M287.58018920422927,12.270000000000001h2v47.73h-2Z" opacity=".8" aria-label="rok: Jan 01, 2009; value: 1.591k; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M290.18007790762385,9.180000000000001h2v50.82h-2Z" opacity=".8" aria-label="rok: Jan 01, 2010; value: 1.694k; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M292.7799666110184,10.649999999999999h2v49.35h-2Z" opacity=".8" aria-label="rok: Jan 01, 2011; value: 1.645k; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M295.3798553144129,11.129999999999999h2v48.870000000000005h-2Z" opacity=".8" aria-label="rok: Jan 01, 2012; value: 1.629k; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M297.98686700055646,11.220000000000002h2v48.78h-2Z" opacity=".8" aria-label="rok: Jan 01, 2013; value: 1.626k; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M300.58675570395104,8.88h2v51.12h-2Z" opacity=".8" aria-label="rok: Jan 01, 2014; value: 1.704k; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M303.18664440734557,4.559999999999997h2v55.440000000000005h-2Z" opacity=".8" aria-label="rok: Jan 01, 2015; value: 1.848k; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M305.7865331107401,7.0500000000000025h2v52.949999999999996h-2Z" opacity=".8" aria-label="rok: Jan 01, 2016; value: 1.765k; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M308.3935447968837,7.470000000000003h2v52.529999999999994h-2Z" opacity=".8" aria-label="rok: Jan 01, 2017; value: 1.751k; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M310.99343350027823,6.479999999999999h2v53.52h-2Z" opacity=".8" aria-label="rok: Jan 01, 2018; value: 1.784k; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M313.59332220367276,8.700000000000001h2v51.3h-2Z" opacity=".8" aria-label="rok: Jan 01, 2019; value: 1.71k; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M316.19321090706734,10.95h2v49.05h-2Z" opacity=".8" aria-label="rok: Jan 01, 2020; value: 1.635k; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M318.8002225932109,12.030000000000001h2v47.97h-2Z" opacity=".8" aria-label="rok: Jan 01, 2021; value: 1.599k; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M321.4001112966054,14.219999999999999h2v45.78h-2Z" opacity=".8" aria-label="rok: Jan 01, 2022; value: 1.526k; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M324,18.33h2v41.67h-2Z" opacity=".8" aria-label="rok: Jan 01, 2023; value: 1.389k; variable: Celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M3.9999999999749525,54.089999999999996h2v5.910000000000004h-2Z" opacity=".8" aria-label="rok: Jan 01, 1900; value: 197; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M6.843628269313145,52.35h2v7.649999999999999h-2Z" opacity=".8" aria-label="rok: Jan 01, 1901; value: 255; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M9.687256538651337,50.94h2v9.060000000000002h-2Z" opacity=".8" aria-label="rok: Jan 01, 1902; value: 302; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M12.53088480798953,51.330000000000005h2v8.669999999999995h-2Z" opacity=".8" aria-label="rok: Jan 01, 1903; value: 289; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M15.374513077327723,50.94h2v9.060000000000002h-2Z" opacity=".8" aria-label="rok: Jan 01, 1904; value: 302; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M18.225932109047662,50.64h2v9.36h-2Z" opacity=".8" aria-label="rok: Jan 01, 1905; value: 312; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M21.069560378385855,50.04h2v9.96h-2Z" opacity=".8" aria-label="rok: Jan 01, 1906; value: 332; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M23.91318864772405,50.699999999999996h2v9.300000000000004h-2Z" opacity=".8" aria-label="rok: Jan 01, 1907; value: 310; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M26.75681691706224,49.62h2v10.380000000000003h-2Z" opacity=".8" aria-label="rok: Jan 01, 1908; value: 346; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M29.608235948782177,48.720000000000006h2v11.279999999999994h-2Z" opacity=".8" aria-label="rok: Jan 01, 1909; value: 376; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M32.45186421812037,47.580000000000005h2v12.419999999999995h-2Z" opacity=".8" aria-label="rok: Jan 01, 1910; value: 414; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M35.29549248745857,47.85h2v12.149999999999999h-2Z" opacity=".8" aria-label="rok: Jan 01, 1911; value: 405; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M38.13912075679676,47.49h2v12.509999999999998h-2Z" opacity=".8" aria-label="rok: Jan 01, 1912; value: 417; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M40.99053978851669,46.86h2v13.14h-2Z" opacity=".8" aria-label="rok: Jan 01, 1913; value: 438; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M43.83416805785489,48.9h2v11.100000000000001h-2Z" opacity=".8" aria-label="rok: Jan 01, 1914; value: 370; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M46.67779632719308,51.75h2v8.25h-2Z" opacity=".8" aria-label="rok: Jan 01, 1915; value: 275; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M49.521424596531276,51.21h2v8.79h-2Z" opacity=".8" aria-label="rok: Jan 01, 1916; value: 293; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M52.37284362825122,50.79h2v9.21h-2Z" opacity=".8" aria-label="rok: Jan 01, 1917; value: 307; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M55.2164718975894,48.96h2v11.04h-2Z" opacity=".8" aria-label="rok: Jan 01, 1918; value: 368; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M58.0601001669276,44.88h2v15.119999999999997h-2Z" opacity=".8" aria-label="rok: Jan 01, 1919; value: 504; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M60.90372843626579,41.25h2v18.75h-2Z" opacity=".8" aria-label="rok: Jan 01, 1920; value: 625; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M63.755147467985736,41.55h2v18.450000000000003h-2Z" opacity=".8" aria-label="rok: Jan 01, 1921; value: 615; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M66.59877573732392,39.42h2v20.58h-2Z" opacity=".8" aria-label="rok: Jan 01, 1922; value: 686; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M69.44240400666212,38.1h2v21.9h-2Z" opacity=".8" aria-label="rok: Jan 01, 1923; value: 730; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M72.28603227600031,37.05h2v22.950000000000003h-2Z" opacity=".8" aria-label="rok: Jan 01, 1924; value: 765; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M75.13745130772026,36.48h2v23.520000000000003h-2Z" opacity=".8" aria-label="rok: Jan 01, 1925; value: 784; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M77.98107957705844,40.14h2v19.86h-2Z" opacity=".8" aria-label="rok: Jan 01, 1926; value: 662; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M80.82470784639663,39.959999999999994h2v20.040000000000006h-2Z" opacity=".8" aria-label="rok: Jan 01, 1927; value: 668; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M83.66833611573483,38.07000000000001h2v21.929999999999993h-2Z" opacity=".8" aria-label="rok: Jan 01, 1928; value: 731; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M86.51975514745476,39.57h2v20.43h-2Z" opacity=".8" aria-label="rok: Jan 01, 1929; value: 681; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M89.36338341679296,38.04h2v21.96h-2Z" opacity=".8" aria-label="rok: Jan 01, 1930; value: 732; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M92.20701168613115,40.44h2v19.560000000000002h-2Z" opacity=".8" aria-label="rok: Jan 01, 1931; value: 652; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M95.05063995546935,41.940000000000005h2v18.059999999999995h-2Z" opacity=".8" aria-label="rok: Jan 01, 1932; value: 602; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M97.90205898718928,42.21h2v17.79h-2Z" opacity=".8" aria-label="rok: Jan 01, 1933; value: 593; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M100.74568725652748,41.879999999999995h2v18.120000000000005h-2Z" opacity=".8" aria-label="rok: Jan 01, 1934; value: 604; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M103.58931552586567,41.46h2v18.54h-2Z" opacity=".8" aria-label="rok: Jan 01, 1935; value: 618; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M106.43294379520385,40.02h2v19.979999999999997h-2Z" opacity=".8" aria-label="rok: Jan 01, 1936; value: 666; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M109.2843628269238,40.53h2v19.47h-2Z" opacity=".8" aria-label="rok: Jan 01, 1937; value: 649; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M112.127991096262,41.82000000000001h2v18.179999999999993h-2Z" opacity=".8" aria-label="rok: Jan 01, 1938; value: 606; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M114.97161936560019,44.79h2v15.21h-2Z" opacity=".8" aria-label="rok: Jan 01, 1939; value: 507; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M117.81524763493837,43.5h2v16.5h-2Z" opacity=".8" aria-label="rok: Jan 01, 1940; value: 550; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M120.66634205155907,44.04h2v15.96h-2Z" opacity=".8" aria-label="rok: Jan 01, 1941; value: 532; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M123.50997032089727,49.14h2v10.86h-2Z" opacity=".8" aria-label="rok: Jan 01, 1942; value: 362; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M126.35392320533471,51.69h2v8.310000000000002h-2Z" opacity=".8" aria-label="rok: Jan 01, 1943; value: 277; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M129.1975514746729,50.58h2v9.420000000000002h-2Z" opacity=".8" aria-label="rok: Jan 01, 1944; value: 314; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M132.04897050639283,47.79h2v12.21h-2Z" opacity=".8" aria-label="rok: Jan 01, 1945; value: 407; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M134.89259877573102,40.620000000000005h2v19.379999999999995h-2Z" opacity=".8" aria-label="rok: Jan 01, 1946; value: 646; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M137.73655166016846,40.8h2v19.200000000000003h-2Z" opacity=".8" aria-label="rok: Jan 01, 1947; value: 640; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M140.5798553144074,43.32h2v16.68h-2Z" opacity=".8" aria-label="rok: Jan 01, 1948; value: 556; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M143.43127434612734,51.809999999999995h2v8.190000000000005h-2Z" opacity=".8" aria-label="rok: Jan 01, 1949; value: 273; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M146.27490261546555,55.41h2v4.590000000000003h-2Z" opacity=".8" aria-label="rok: Jan 01, 1950; value: 153; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M149.11853088480373,55.95h2v4.049999999999997h-2Z" opacity=".8" aria-label="rok: Jan 01, 1951; value: 135; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M151.96215915414194,56.76h2v3.240000000000002h-2Z" opacity=".8" aria-label="rok: Jan 01, 1952; value: 108; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M154.81357818586187,56.19h2v3.8100000000000023h-2Z" opacity=".8" aria-label="rok: Jan 01, 1953; value: 127; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M157.65720645520005,56.1h2v3.8999999999999986h-2Z" opacity=".8" aria-label="rok: Jan 01, 1954; value: 130; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M160.50083472453827,55.68h2v4.32h-2Z" opacity=".8" aria-label="rok: Jan 01, 1955; value: 144; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M163.34446299387645,55.23h2v4.770000000000003h-2Z" opacity=".8" aria-label="rok: Jan 01, 1956; value: 159; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M166.19588202559638,55.17h2v4.829999999999998h-2Z" opacity=".8" aria-label="rok: Jan 01, 1957; value: 161; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M169.0395102949346,55.35h2v4.649999999999999h-2Z" opacity=".8" aria-label="rok: Jan 01, 1958; value: 155; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M171.88313856427277,55.02h2v4.979999999999997h-2Z" opacity=".8" aria-label="rok: Jan 01, 1959; value: 166; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M174.72676683361098,54.69h2v5.310000000000002h-2Z" opacity=".8" aria-label="rok: Jan 01, 1960; value: 177; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M177.5781858653309,54.99h2v5.009999999999998h-2Z" opacity=".8" aria-label="rok: Jan 01, 1961; value: 167; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M180.4218141346691,55.02h2v4.979999999999997h-2Z" opacity=".8" aria-label="rok: Jan 01, 1962; value: 166; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M183.26544240400727,54.75h2v5.25h-2Z" opacity=".8" aria-label="rok: Jan 01, 1963; value: 175; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M186.10907067334546,54.18h2v5.82h-2Z" opacity=".8" aria-label="rok: Jan 01, 1964; value: 194; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M188.96048970506544,53.160000000000004h2v6.839999999999996h-2Z" opacity=".8" aria-label="rok: Jan 01, 1965; value: 228; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M191.8041179744036,52.59h2v7.409999999999997h-2Z" opacity=".8" aria-label="rok: Jan 01, 1966; value: 247; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M194.64774624374178,52.019999999999996h2v7.980000000000004h-2Z" opacity=".8" aria-label="rok: Jan 01, 1967; value: 266; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M197.49137451308,50.910000000000004h2v9.089999999999996h-2Z" opacity=".8" aria-label="rok: Jan 01, 1968; value: 303; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M200.34279354479995,51.09h2v8.909999999999997h-2Z" opacity=".8" aria-label="rok: Jan 01, 1969; value: 297; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M203.1864218141381,50.4h2v9.600000000000001h-2Z" opacity=".8" aria-label="rok: Jan 01, 1970; value: 320; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M206.0300500834763,50.76h2v9.240000000000002h-2Z" opacity=".8" aria-label="rok: Jan 01, 1971; value: 308; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M208.8736783528145,51.66h2v8.340000000000003h-2Z" opacity=".8" aria-label="rok: Jan 01, 1972; value: 278; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M211.72509738453442,51.63h2v8.369999999999997h-2Z" opacity=".8" aria-label="rok: Jan 01, 1973; value: 279; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M214.56872565387263,51.99h2v8.009999999999998h-2Z" opacity=".8" aria-label="rok: Jan 01, 1974; value: 267; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M217.41235392321082,52.2h2v7.799999999999997h-2Z" opacity=".8" aria-label="rok: Jan 01, 1975; value: 260; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M220.25598219254903,51.150000000000006h2v8.849999999999994h-2Z" opacity=".8" aria-label="rok: Jan 01, 1976; value: 295; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M223.10740122426895,51.27h2v8.729999999999997h-2Z" opacity=".8" aria-label="rok: Jan 01, 1977; value: 291; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M225.95102949360714,51.03h2v8.969999999999999h-2Z" opacity=".8" aria-label="rok: Jan 01, 1978; value: 299; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M228.79465776294535,50.16h2v9.840000000000003h-2Z" opacity=".8" aria-label="rok: Jan 01, 1979; value: 328; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M231.63828603228353,49.8h2v10.200000000000003h-2Z" opacity=".8" aria-label="rok: Jan 01, 1980; value: 340; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M234.48970506400346,49.53h2v10.469999999999999h-2Z" opacity=".8" aria-label="rok: Jan 01, 1981; value: 349; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M237.33333333334167,49.53h2v10.469999999999999h-2Z" opacity=".8" aria-label="rok: Jan 01, 1982; value: 349; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M240.17696160267985,48.9h2v11.100000000000001h-2Z" opacity=".8" aria-label="rok: Jan 01, 1983; value: 370; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M243.02058987201806,49.68000000000001h2v10.319999999999993h-2Z" opacity=".8" aria-label="rok: Jan 01, 1984; value: 344; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M245.872008903738,49.68000000000001h2v10.319999999999993h-2Z" opacity=".8" aria-label="rok: Jan 01, 1985; value: 344; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M248.71563717307617,49.05h2v10.950000000000003h-2Z" opacity=".8" aria-label="rok: Jan 01, 1986; value: 365; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M251.5592654424144,49.2h2v10.799999999999997h-2Z" opacity=".8" aria-label="rok: Jan 01, 1987; value: 360; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M254.40289371175257,48.99h2v11.009999999999998h-2Z" opacity=".8" aria-label="rok: Jan 01, 1988; value: 367; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M257.2543127434725,48.66h2v11.340000000000003h-2Z" opacity=".8" aria-label="rok: Jan 01, 1989; value: 378; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M260.0979410128107,42.69h2v17.310000000000002h-2Z" opacity=".8" aria-label="rok: Jan 01, 1990; value: 577; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M262.9415692821489,35.849999999999994h2v24.150000000000006h-2Z" opacity=".8" aria-label="rok: Jan 01, 1991; value: 805; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M265.7851975514871,32.760000000000005h2v27.239999999999995h-2Z" opacity=".8" aria-label="rok: Jan 01, 1992; value: 908; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M268.636616583207,32.49h2v27.509999999999998h-2Z" opacity=".8" aria-label="rok: Jan 01, 1993; value: 917; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M271.48024485254524,30.629999999999995h2v29.370000000000005h-2Z" opacity=".8" aria-label="rok: Jan 01, 1994; value: 979; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M274.3238731218834,26.79h2v33.21h-2Z" opacity=".8" aria-label="rok: Jan 01, 1995; value: 1.107k; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M277.1675013912216,27.03h2v32.97h-2Z" opacity=".8" aria-label="rok: Jan 01, 1996; value: 1.099k; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M280.01892042294156,24.57h2v35.43h-2Z" opacity=".8" aria-label="rok: Jan 01, 1997; value: 1.181k; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M282.86254869227974,23.61h2v36.39h-2Z" opacity=".8" aria-label="rok: Jan 01, 1998; value: 1.213k; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M285.7061769616179,21.21h2v38.79h-2Z" opacity=".8" aria-label="rok: Jan 01, 1999; value: 1.293k; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M288.5498052309561,19.77h2v40.230000000000004h-2Z" opacity=".8" aria-label="rok: Jan 01, 2000; value: 1.341k; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M291.40122426267607,19.919999999999998h2v40.08h-2Z" opacity=".8" aria-label="rok: Jan 01, 2001; value: 1.336k; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M294.24485253201425,18.839999999999996h2v41.160000000000004h-2Z" opacity=".8" aria-label="rok: Jan 01, 2002; value: 1.372k; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M297.08848080135243,18.9h2v41.1h-2Z" opacity=".8" aria-label="rok: Jan 01, 2003; value: 1.37k; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M299.9321090706907,18.21h2v41.79h-2Z" opacity=".8" aria-label="rok: Jan 01, 2004; value: 1.393k; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M302.78352810241057,17.28h2v42.72h-2Z" opacity=".8" aria-label="rok: Jan 01, 2005; value: 1.424k; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M305.62715637174875,15.3h2v44.7h-2Z" opacity=".8" aria-label="rok: Jan 01, 2006; value: 1.49k; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M308.470784641087,12.419999999999998h2v47.58h-2Z" opacity=".8" aria-label="rok: Jan 01, 2007; value: 1.586k; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M311.3144129104252,11.129999999999999h2v48.870000000000005h-2Z" opacity=".8" aria-label="rok: Jan 01, 2008; value: 1.629k; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M314.1658319421451,12.270000000000001h2v47.73h-2Z" opacity=".8" aria-label="rok: Jan 01, 2009; value: 1.591k; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M317.0094602114833,9.180000000000001h2v50.82h-2Z" opacity=".8" aria-label="rok: Jan 01, 2010; value: 1.694k; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M319.8530884808215,10.649999999999999h2v49.35h-2Z" opacity=".8" aria-label="rok: Jan 01, 2011; value: 1.645k; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M322.6967167501597,11.129999999999999h2v48.870000000000005h-2Z" opacity=".8" aria-label="rok: Jan 01, 2012; value: 1.629k; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M325.54813578187964,11.220000000000002h2v48.78h-2Z" opacity=".8" aria-label="rok: Jan 01, 2013; value: 1.626k; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M328.3917640512178,8.88h2v51.12h-2Z" opacity=".8" aria-label="rok: Jan 01, 2014; value: 1.704k; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M331.235392320556,4.559999999999997h2v55.440000000000005h-2Z" opacity=".8" aria-label="rok: Jan 01, 2015; value: 1.848k; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M334.0790205898942,7.0500000000000025h2v52.949999999999996h-2Z" opacity=".8" aria-label="rok: Jan 01, 2016; value: 1.765k; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M336.93043962161414,7.470000000000003h2v52.529999999999994h-2Z" opacity=".8" aria-label="rok: Jan 01, 2017; value: 1.751k; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M339.7740678909523,6.479999999999999h2v53.52h-2Z" opacity=".8" aria-label="rok: Jan 01, 2018; value: 1.784k; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M342.6176961602905,8.700000000000001h2v51.3h-2Z" opacity=".8" aria-label="rok: Jan 01, 2019; value: 1.71k; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M345.4613244296287,10.95h2v49.05h-2Z" opacity=".8" aria-label="rok: Jan 01, 2020; value: 1.635k; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M348.31274346134865,12.030000000000001h2v47.97h-2Z" opacity=".8" aria-label="rok: Jan 01, 2021; value: 1.599k; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M351.1563717306868,14.219999999999999h2v45.78h-2Z" opacity=".8" aria-label="rok: Jan 01, 2022; value: 1.526k; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M354.000000000025,18.33h2v41.67h-2Z" opacity=".8" aria-label="rok: Jan 01, 2023; value: 1.389k; variable: Nakladatelství celkem; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
          </ns1:g>
          <ns1:g class="mark-group role-title">
           <ns1:g transform="translate(0,-24)">
            <ns1:path class="background" d="M0,0h0v0h0Z" pointer-events="none" aria-hidden="true"/>
            <ns1:g>
-            <ns1:g class="mark-text role-title-text" pointer-events="none" aria-label="Title text 'Celkem'" aria-roledescription="title" role="graphics-symbol">
-             <ns1:text transform="translate(0,-2)" fill="#000" font-family="Asap" font-size="10px" font-weight="500">Celkem</ns1:text>
+            <ns1:g class="mark-text role-title-text" pointer-events="none" aria-label="Title text 'Nakladatelství celkem'" aria-roledescription="title" role="graphics-symbol">
+             <ns1:text transform="translate(0,-2)" fill="#000" font-family="Asap" font-size="10px" font-weight="500">Nakladatelství celkem</ns1:text>
             </ns1:g>
            </ns1:g>
            <ns1:path class="foreground" d="" display="none" pointer-events="none" aria-hidden="true"/>
@@ -209,48 +209,48 @@
         <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
        </ns1:g>
        <ns1:g transform="translate(0,127)">
-        <ns1:path class="background" d="M0.5,0.5h330v60h-330Z" aria-hidden="true"/>
+        <ns1:path class="background" d="M0.5,0.5h360v60h-360Z" aria-hidden="true"/>
         <ns1:g>
-         <ns1:g class="mark-group role-axis" aria-label="X-axis for a time scale with values from Saturday, 29 January 1898, 1:07:30 AM to Monday, 02 December 2024, 10:52:30 PM" aria-roledescription="axis" role="graphics-symbol">
+         <ns1:g class="mark-group role-axis" aria-label="X-axis for a time scale with values from Wednesday, 30 March 1898, 5:08:34 AM to Thursday, 03 October 2024, 7:51:25 PM" aria-roledescription="axis" role="graphics-symbol">
           <ns1:g transform="translate(.5 60)" pointer-events="none">
            <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
            <ns1:g>
             <ns1:g class="mark-rule role-axis-tick" stroke="#DCDDD6">
              <ns1:line transform="translate(5)" x2="0" y2="5"/>
-             <ns1:line transform="translate(31)" x2="0" y2="5"/>
-             <ns1:line transform="translate(57)" x2="0" y2="5"/>
-             <ns1:line transform="translate(83)" x2="0" y2="5"/>
-             <ns1:line transform="translate(109)" x2="0" y2="5"/>
-             <ns1:line transform="translate(135)" x2="0" y2="5"/>
-             <ns1:line transform="translate(161)" x2="0" y2="5"/>
-             <ns1:line transform="translate(187)" x2="0" y2="5"/>
-             <ns1:line transform="translate(213)" x2="0" y2="5"/>
-             <ns1:line transform="translate(239)" x2="0" y2="5"/>
-             <ns1:line transform="translate(265)" x2="0" y2="5"/>
-             <ns1:line transform="translate(291)" x2="0" y2="5"/>
-             <ns1:line transform="translate(317)" x2="0" y2="5"/>
+             <ns1:line transform="translate(33)" x2="0" y2="5"/>
+             <ns1:line transform="translate(62)" x2="0" y2="5"/>
+             <ns1:line transform="translate(90)" x2="0" y2="5"/>
+             <ns1:line transform="translate(119)" x2="0" y2="5"/>
+             <ns1:line transform="translate(147)" x2="0" y2="5"/>
+             <ns1:line transform="translate(176)" x2="0" y2="5"/>
+             <ns1:line transform="translate(204)" x2="0" y2="5"/>
+             <ns1:line transform="translate(233)" x2="0" y2="5"/>
+             <ns1:line transform="translate(261)" x2="0" y2="5"/>
+             <ns1:line transform="translate(290)" x2="0" y2="5"/>
+             <ns1:line transform="translate(318)" x2="0" y2="5"/>
+             <ns1:line transform="translate(346)" x2="0" y2="5"/>
             </ns1:g>
             <ns1:g class="mark-text role-axis-label" fill="#000" font-family="Asap" font-size="9px" text-anchor="middle">
-             <ns1:text transform="translate(5,14)">1900</ns1:text>
-             <ns1:text transform="translate(31 14)">1910</ns1:text>
-             <ns1:text transform="translate(57 14)">1920</ns1:text>
-             <ns1:text transform="translate(83 14)">1930</ns1:text>
-             <ns1:text transform="translate(109 14)">1940</ns1:text>
-             <ns1:text transform="translate(135 14)">1950</ns1:text>
-             <ns1:text transform="translate(161 14)">1960</ns1:text>
-             <ns1:text transform="translate(187 14)">1970</ns1:text>
-             <ns1:text transform="translate(213 14)">1980</ns1:text>
-             <ns1:text transform="translate(239 14)">1990</ns1:text>
-             <ns1:text transform="translate(265 14)">2000</ns1:text>
-             <ns1:text transform="translate(291 14)">2010</ns1:text>
-             <ns1:text transform="translate(317 14)">2020</ns1:text>
+             <ns1:text transform="translate(5 14)">1900</ns1:text>
+             <ns1:text transform="translate(33 14)">1910</ns1:text>
+             <ns1:text transform="translate(62 14)">1920</ns1:text>
+             <ns1:text transform="translate(90 14)">1930</ns1:text>
+             <ns1:text transform="translate(119 14)">1940</ns1:text>
+             <ns1:text transform="translate(147 14)">1950</ns1:text>
+             <ns1:text transform="translate(176 14)">1960</ns1:text>
+             <ns1:text transform="translate(204 14)">1970</ns1:text>
+             <ns1:text transform="translate(233 14)">1980</ns1:text>
+             <ns1:text transform="translate(261 14)">1990</ns1:text>
+             <ns1:text transform="translate(290 14)">2000</ns1:text>
+             <ns1:text transform="translate(318 14)">2010</ns1:text>
+             <ns1:text transform="translate(346 14)">2020</ns1:text>
             </ns1:g>
            </ns1:g>
            <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
           </ns1:g>
          </ns1:g>
          <ns1:g class="mark-group role-axis" aria-label="Y-axis for a linear scale with values from 0 to 400" aria-roledescription="axis" role="graphics-symbol">
-          <ns1:g transform="translate(330 .5)" pointer-events="none">
+          <ns1:g transform="translate(360 .5)" pointer-events="none">
            <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
            <ns1:g>
             <ns1:g class="mark-rule role-axis-tick" stroke="#DCDDD6">
@@ -268,137 +268,137 @@
           </ns1:g>
          </ns1:g>
          <ns1:g class="mark-rect role-mark child_marks" fill="#9CA545" aria-roledescription="rect mark container" role="graphics-object">
-          <ns1:path d="M4,30.450000000000003h2v29.549999999999997h-2Z" opacity=".8" aria-label="rok: Jan 01, 1900; value: 197; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M6.599888703394547,37.05h2v22.950000000000003h-2Z" opacity=".8" aria-label="rok: Jan 01, 1901; value: 153; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M9.199777406789094,40.8h2v19.200000000000003h-2Z" opacity=".8" aria-label="rok: Jan 01, 1902; value: 128; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M11.799666110183638,46.65h2v13.350000000000001h-2Z" opacity=".8" aria-label="rok: Jan 01, 1903; value: 89; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M14.399554813578186,48h2v12h-2Z" opacity=".8" aria-label="rok: Jan 01, 1904; value: 80; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M17.00656649972176,48.3h2v11.700000000000003h-2Z" opacity=".8" aria-label="rok: Jan 01, 1905; value: 78; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M19.606455203116305,49.5h2v10.5h-2Z" opacity=".8" aria-label="rok: Jan 01, 1906; value: 70; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M22.20634390651085,49.8h2v10.200000000000003h-2Z" opacity=".8" aria-label="rok: Jan 01, 1907; value: 68; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M24.8062326099054,49.65h2v10.350000000000001h-2Z" opacity=".8" aria-label="rok: Jan 01, 1908; value: 69; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M27.413244296048973,48.75h2v11.25h-2Z" opacity=".8" aria-label="rok: Jan 01, 1909; value: 75; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M30.013132999443517,46.2h2v13.799999999999997h-2Z" opacity=".8" aria-label="rok: Jan 01, 1910; value: 92; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M32.61302170283806,49.5h2v10.5h-2Z" opacity=".8" aria-label="rok: Jan 01, 1911; value: 70; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M35.21291040623261,48.75h2v11.25h-2Z" opacity=".8" aria-label="rok: Jan 01, 1912; value: 75; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M37.81992209237618,49.35h2v10.649999999999999h-2Z" opacity=".8" aria-label="rok: Jan 01, 1913; value: 71; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M40.41981079577073,52.5h2v7.5h-2Z" opacity=".8" aria-label="rok: Jan 01, 1914; value: 50; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M43.01969949916527,54.75h2v5.25h-2Z" opacity=".8" aria-label="rok: Jan 01, 1915; value: 35; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M45.619588202559825,54.75h2v5.25h-2Z" opacity=".8" aria-label="rok: Jan 01, 1916; value: 35; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M48.22659988870339,55.05h2v4.950000000000003h-2Z" opacity=".8" aria-label="rok: Jan 01, 1917; value: 33; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M50.82648859209794,48.6h2v11.399999999999999h-2Z" opacity=".8" aria-label="rok: Jan 01, 1918; value: 76; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M53.42637729549249,41.1h2v18.9h-2Z" opacity=".8" aria-label="rok: Jan 01, 1919; value: 126; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M56.026265998887034,33.15h2v26.85h-2Z" opacity=".8" aria-label="rok: Jan 01, 1920; value: 179; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M58.633277685030606,41.85h2v18.15h-2Z" opacity=".8" aria-label="rok: Jan 01, 1921; value: 121; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M61.23316638842515,38.550000000000004h2v21.449999999999996h-2Z" opacity=".8" aria-label="rok: Jan 01, 1922; value: 143; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M63.8330550918197,38.4h2v21.6h-2Z" opacity=".8" aria-label="rok: Jan 01, 1923; value: 144; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M66.43294379521424,40.95h2v19.049999999999997h-2Z" opacity=".8" aria-label="rok: Jan 01, 1924; value: 127; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M69.03995548135782,42h2v18h-2Z" opacity=".8" aria-label="rok: Jan 01, 1925; value: 120; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M71.63984418475236,43.949999999999996h2v16.050000000000004h-2Z" opacity=".8" aria-label="rok: Jan 01, 1926; value: 107; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M74.2397328881469,42h2v18h-2Z" opacity=".8" aria-label="rok: Jan 01, 1927; value: 120; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M76.83962159154146,44.4h2v15.600000000000001h-2Z" opacity=".8" aria-label="rok: Jan 01, 1928; value: 104; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M79.44663327768502,46.05h2v13.950000000000003h-2Z" opacity=".8" aria-label="rok: Jan 01, 1929; value: 93; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M82.04652198107958,43.949999999999996h2v16.050000000000004h-2Z" opacity=".8" aria-label="rok: Jan 01, 1930; value: 107; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M84.64641068447412,47.85h2v12.149999999999999h-2Z" opacity=".8" aria-label="rok: Jan 01, 1931; value: 81; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M87.24629938786867,48.3h2v11.700000000000003h-2Z" opacity=".8" aria-label="rok: Jan 01, 1932; value: 78; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M89.85331107401224,49.35h2v10.649999999999999h-2Z" opacity=".8" aria-label="rok: Jan 01, 1933; value: 71; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M92.45319977740678,49.35h2v10.649999999999999h-2Z" opacity=".8" aria-label="rok: Jan 01, 1934; value: 71; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M95.05308848080134,48.15h2v11.850000000000001h-2Z" opacity=".8" aria-label="rok: Jan 01, 1935; value: 79; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M97.65297718419589,47.7h2v12.299999999999997h-2Z" opacity=".8" aria-label="rok: Jan 01, 1936; value: 82; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M100.25998887033946,50.699999999999996h2v9.300000000000004h-2Z" opacity=".8" aria-label="rok: Jan 01, 1937; value: 62; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M102.859877573734,53.849999999999994h2v6.150000000000006h-2Z" opacity=".8" aria-label="rok: Jan 01, 1938; value: 41; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M105.45976627712854,49.65h2v10.350000000000001h-2Z" opacity=".8" aria-label="rok: Jan 01, 1939; value: 69; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M108.05965498052309,48h2v12h-2Z" opacity=".8" aria-label="rok: Jan 01, 1940; value: 80; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M110.6663698757188,50.550000000000004h2v9.449999999999996h-2Z" opacity=".8" aria-label="rok: Jan 01, 1941; value: 63; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M113.26625857911333,53.7h2v6.299999999999997h-2Z" opacity=".8" aria-label="rok: Jan 01, 1942; value: 42; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M115.86644407345575,56.699999999999996h2v3.3000000000000043h-2Z" opacity=".8" aria-label="rok: Jan 01, 1943; value: 22; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M118.46633277685031,56.55h2v3.450000000000003h-2Z" opacity=".8" aria-label="rok: Jan 01, 1944; value: 23; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M121.07334446299387,50.550000000000004h2v9.449999999999996h-2Z" opacity=".8" aria-label="rok: Jan 01, 1945; value: 63; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M123.67323316638843,44.1h2v15.899999999999999h-2Z" opacity=".8" aria-label="rok: Jan 01, 1946; value: 106; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M126.27341866073085,51.150000000000006h2v8.849999999999994h-2Z" opacity=".8" aria-label="rok: Jan 01, 1947; value: 59; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M128.8730105731775,54.15h2v5.850000000000001h-2Z" opacity=".8" aria-label="rok: Jan 01, 1948; value: 39; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M131.4800222593211,50.550000000000004h2v9.449999999999996h-2Z" opacity=".8" aria-label="rok: Jan 01, 1949; value: 63; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M134.07991096271564,53.7h2v6.299999999999997h-2Z" opacity=".8" aria-label="rok: Jan 01, 1950; value: 42; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M136.6797996661102,54h2v6h-2Z" opacity=".8" aria-label="rok: Jan 01, 1951; value: 40; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M139.27968836950473,56.4h2v3.6000000000000014h-2Z" opacity=".8" aria-label="rok: Jan 01, 1952; value: 24; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M141.8867000556483,53.4h2v6.600000000000001h-2Z" opacity=".8" aria-label="rok: Jan 01, 1953; value: 44; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M144.48658875904286,54.6h2v5.399999999999999h-2Z" opacity=".8" aria-label="rok: Jan 01, 1954; value: 36; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M147.0864774624374,55.35h2v4.649999999999999h-2Z" opacity=".8" aria-label="rok: Jan 01, 1955; value: 31; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M149.68636616583194,54.6h2v5.399999999999999h-2Z" opacity=".8" aria-label="rok: Jan 01, 1956; value: 36; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M152.29337785197552,55.2h2v4.799999999999997h-2Z" opacity=".8" aria-label="rok: Jan 01, 1957; value: 32; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M154.89326655537005,56.85h2v3.1499999999999986h-2Z" opacity=".8" aria-label="rok: Jan 01, 1958; value: 21; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M157.4931552587646,53.7h2v6.299999999999997h-2Z" opacity=".8" aria-label="rok: Jan 01, 1959; value: 42; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M160.09304396215916,54.75h2v5.25h-2Z" opacity=".8" aria-label="rok: Jan 01, 1960; value: 35; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M162.70005564830274,54.449999999999996h2v5.550000000000004h-2Z" opacity=".8" aria-label="rok: Jan 01, 1961; value: 37; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M165.2999443516973,55.35h2v4.649999999999999h-2Z" opacity=".8" aria-label="rok: Jan 01, 1962; value: 31; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M167.89983305509182,56.1h2v3.8999999999999986h-2Z" opacity=".8" aria-label="rok: Jan 01, 1963; value: 26; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M170.49972175848637,54.6h2v5.399999999999999h-2Z" opacity=".8" aria-label="rok: Jan 01, 1964; value: 36; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M173.10673344462995,52.35h2v7.649999999999999h-2Z" opacity=".8" aria-label="rok: Jan 01, 1965; value: 51; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M175.70662214802448,52.35h2v7.649999999999999h-2Z" opacity=".8" aria-label="rok: Jan 01, 1966; value: 51; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M178.30651085141903,49.2h2v10.799999999999997h-2Z" opacity=".8" aria-label="rok: Jan 01, 1967; value: 72; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M180.90639955481356,51.9h2v8.100000000000001h-2Z" opacity=".8" aria-label="rok: Jan 01, 1968; value: 54; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M183.51341124095714,51.3h2v8.700000000000003h-2Z" opacity=".8" aria-label="rok: Jan 01, 1969; value: 58; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M186.1132999443517,50.85h2v9.149999999999999h-2Z" opacity=".8" aria-label="rok: Jan 01, 1970; value: 61; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M188.71318864774622,54h2v6h-2Z" opacity=".8" aria-label="rok: Jan 01, 1971; value: 40; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M191.3130773511408,53.7h2v6.299999999999997h-2Z" opacity=".8" aria-label="rok: Jan 01, 1972; value: 42; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M193.92008903728436,54.15h2v5.850000000000001h-2Z" opacity=".8" aria-label="rok: Jan 01, 1973; value: 39; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M196.51997774067888,55.95h2v4.049999999999997h-2Z" opacity=".8" aria-label="rok: Jan 01, 1974; value: 27; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M199.11986644407347,55.2h2v4.799999999999997h-2Z" opacity=".8" aria-label="rok: Jan 01, 1975; value: 32; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M201.719755147468,54.15h2v5.850000000000001h-2Z" opacity=".8" aria-label="rok: Jan 01, 1976; value: 39; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M204.3267668336116,55.2h2v4.799999999999997h-2Z" opacity=".8" aria-label="rok: Jan 01, 1977; value: 32; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M206.92665553700613,55.35h2v4.649999999999999h-2Z" opacity=".8" aria-label="rok: Jan 01, 1978; value: 31; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M209.52654424040065,53.55h2v6.450000000000003h-2Z" opacity=".8" aria-label="rok: Jan 01, 1979; value: 43; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M212.1264329437952,54.900000000000006h2v5.099999999999994h-2Z" opacity=".8" aria-label="rok: Jan 01, 1980; value: 34; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M214.7334446299388,54h2v6h-2Z" opacity=".8" aria-label="rok: Jan 01, 1981; value: 40; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M217.33333333333334,52.05h2v7.950000000000003h-2Z" opacity=".8" aria-label="rok: Jan 01, 1982; value: 53; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M219.93322203672787,53.7h2v6.299999999999997h-2Z" opacity=".8" aria-label="rok: Jan 01, 1983; value: 42; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M222.53311074012242,55.35h2v4.649999999999999h-2Z" opacity=".8" aria-label="rok: Jan 01, 1984; value: 31; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M225.140122426266,56.55h2v3.450000000000003h-2Z" opacity=".8" aria-label="rok: Jan 01, 1985; value: 23; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M227.74001112966053,56.1h2v3.8999999999999986h-2Z" opacity=".8" aria-label="rok: Jan 01, 1986; value: 26; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M230.3398998330551,57.599999999999994h2v2.4000000000000057h-2Z" opacity=".8" aria-label="rok: Jan 01, 1987; value: 16; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M232.93978853644964,56.4h2v3.6000000000000014h-2Z" opacity=".8" aria-label="rok: Jan 01, 1988; value: 24; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M235.5468002225932,54.75h2v5.25h-2Z" opacity=".8" aria-label="rok: Jan 01, 1989; value: 35; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M238.14668892598777,23.1h2v36.9h-2Z" opacity=".8" aria-label="rok: Jan 01, 1990; value: 246; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M240.7465776293823,6.750000000000003h2v53.25h-2Z" opacity=".8" aria-label="rok: Jan 01, 1991; value: 355; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M243.34646633277686,20.25h2v39.75h-2Z" opacity=".8" aria-label="rok: Jan 01, 1992; value: 265; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M245.95347801892044,19.35h2v40.65h-2Z" opacity=".8" aria-label="rok: Jan 01, 1993; value: 271; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M248.55336672231496,25.200000000000003h2v34.8h-2Z" opacity=".8" aria-label="rok: Jan 01, 1994; value: 232; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M251.15325542570952,22.8h2v37.2h-2Z" opacity=".8" aria-label="rok: Jan 01, 1995; value: 248; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M253.75314412910404,30.749999999999996h2v29.250000000000004h-2Z" opacity=".8" aria-label="rok: Jan 01, 1996; value: 195; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M256.36015581524765,31.5h2v28.5h-2Z" opacity=".8" aria-label="rok: Jan 01, 1997; value: 190; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M258.9600445186422,30.3h2v29.7h-2Z" opacity=".8" aria-label="rok: Jan 01, 1998; value: 198; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M261.5599332220367,26.999999999999996h2v33h-2Z" opacity=".8" aria-label="rok: Jan 01, 1999; value: 220; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M264.1598219254313,26.999999999999996h2v33h-2Z" opacity=".8" aria-label="rok: Jan 01, 2000; value: 220; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M266.76683361157484,30.15h2v29.85h-2Z" opacity=".8" aria-label="rok: Jan 01, 2001; value: 199; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M269.3667223149694,26.4h2v33.6h-2Z" opacity=".8" aria-label="rok: Jan 01, 2002; value: 224; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M271.96661101836395,24.900000000000002h2v35.099999999999994h-2Z" opacity=".8" aria-label="rok: Jan 01, 2003; value: 234; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M274.5664997217585,31.8h2v28.2h-2Z" opacity=".8" aria-label="rok: Jan 01, 2004; value: 188; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M277.1735114079021,28.05h2v31.95h-2Z" opacity=".8" aria-label="rok: Jan 01, 2005; value: 213; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M279.7734001112966,26.4h2v33.6h-2Z" opacity=".8" aria-label="rok: Jan 01, 2006; value: 224; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M282.3732888146912,19.199999999999996h2v40.800000000000004h-2Z" opacity=".8" aria-label="rok: Jan 01, 2007; value: 272; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M284.9731775180857,24.6h2v35.4h-2Z" opacity=".8" aria-label="rok: Jan 01, 2008; value: 236; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M287.58018920422927,25.200000000000003h2v34.8h-2Z" opacity=".8" aria-label="rok: Jan 01, 2009; value: 232; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M290.18007790762385,26.55h2v33.45h-2Z" opacity=".8" aria-label="rok: Jan 01, 2010; value: 223; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M292.7799666110184,30.450000000000003h2v29.549999999999997h-2Z" opacity=".8" aria-label="rok: Jan 01, 2011; value: 197; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M295.3798553144129,30.6h2v29.4h-2Z" opacity=".8" aria-label="rok: Jan 01, 2012; value: 196; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M297.98686700055646,33.9h2v26.1h-2Z" opacity=".8" aria-label="rok: Jan 01, 2013; value: 174; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M300.58675570395104,25.800000000000004h2v34.199999999999996h-2Z" opacity=".8" aria-label="rok: Jan 01, 2014; value: 228; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M303.18664440734557,1.8000000000000016h2v58.199999999999996h-2Z" opacity=".8" aria-label="rok: Jan 01, 2015; value: 388; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M305.7865331107401,22.2h2v37.8h-2Z" opacity=".8" aria-label="rok: Jan 01, 2016; value: 252; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M308.3935447968837,26.4h2v33.6h-2Z" opacity=".8" aria-label="rok: Jan 01, 2017; value: 224; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M310.99343350027823,34.800000000000004h2v25.199999999999996h-2Z" opacity=".8" aria-label="rok: Jan 01, 2018; value: 168; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M313.59332220367276,38.4h2v21.6h-2Z" opacity=".8" aria-label="rok: Jan 01, 2019; value: 144; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M316.19321090706734,40.35h2v19.65h-2Z" opacity=".8" aria-label="rok: Jan 01, 2020; value: 131; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M318.8002225932109,40.95h2v19.049999999999997h-2Z" opacity=".8" aria-label="rok: Jan 01, 2021; value: 127; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M321.4001112966054,47.1h2v12.899999999999999h-2Z" opacity=".8" aria-label="rok: Jan 01, 2022; value: 86; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M324,54.449999999999996h2v5.550000000000004h-2Z" opacity=".8" aria-label="rok: Jan 01, 2023; value: 37; variable: Nová; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M3.9999999999749525,30.450000000000003h2v29.549999999999997h-2Z" opacity=".8" aria-label="rok: Jan 01, 1900; value: 197; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M6.843628269313145,37.05h2v22.950000000000003h-2Z" opacity=".8" aria-label="rok: Jan 01, 1901; value: 153; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M9.687256538651337,40.8h2v19.200000000000003h-2Z" opacity=".8" aria-label="rok: Jan 01, 1902; value: 128; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M12.53088480798953,46.65h2v13.350000000000001h-2Z" opacity=".8" aria-label="rok: Jan 01, 1903; value: 89; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M15.374513077327723,48h2v12h-2Z" opacity=".8" aria-label="rok: Jan 01, 1904; value: 80; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M18.225932109047662,48.3h2v11.700000000000003h-2Z" opacity=".8" aria-label="rok: Jan 01, 1905; value: 78; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M21.069560378385855,49.5h2v10.5h-2Z" opacity=".8" aria-label="rok: Jan 01, 1906; value: 70; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M23.91318864772405,49.8h2v10.200000000000003h-2Z" opacity=".8" aria-label="rok: Jan 01, 1907; value: 68; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M26.75681691706224,49.65h2v10.350000000000001h-2Z" opacity=".8" aria-label="rok: Jan 01, 1908; value: 69; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M29.608235948782177,48.75h2v11.25h-2Z" opacity=".8" aria-label="rok: Jan 01, 1909; value: 75; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M32.45186421812037,46.2h2v13.799999999999997h-2Z" opacity=".8" aria-label="rok: Jan 01, 1910; value: 92; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M35.29549248745857,49.5h2v10.5h-2Z" opacity=".8" aria-label="rok: Jan 01, 1911; value: 70; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M38.13912075679676,48.75h2v11.25h-2Z" opacity=".8" aria-label="rok: Jan 01, 1912; value: 75; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M40.99053978851669,49.35h2v10.649999999999999h-2Z" opacity=".8" aria-label="rok: Jan 01, 1913; value: 71; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M43.83416805785489,52.5h2v7.5h-2Z" opacity=".8" aria-label="rok: Jan 01, 1914; value: 50; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M46.67779632719308,54.75h2v5.25h-2Z" opacity=".8" aria-label="rok: Jan 01, 1915; value: 35; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M49.521424596531276,54.75h2v5.25h-2Z" opacity=".8" aria-label="rok: Jan 01, 1916; value: 35; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M52.37284362825122,55.05h2v4.950000000000003h-2Z" opacity=".8" aria-label="rok: Jan 01, 1917; value: 33; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M55.2164718975894,48.6h2v11.399999999999999h-2Z" opacity=".8" aria-label="rok: Jan 01, 1918; value: 76; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M58.0601001669276,41.1h2v18.9h-2Z" opacity=".8" aria-label="rok: Jan 01, 1919; value: 126; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M60.90372843626579,33.15h2v26.85h-2Z" opacity=".8" aria-label="rok: Jan 01, 1920; value: 179; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M63.755147467985736,41.85h2v18.15h-2Z" opacity=".8" aria-label="rok: Jan 01, 1921; value: 121; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M66.59877573732392,38.550000000000004h2v21.449999999999996h-2Z" opacity=".8" aria-label="rok: Jan 01, 1922; value: 143; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M69.44240400666212,38.4h2v21.6h-2Z" opacity=".8" aria-label="rok: Jan 01, 1923; value: 144; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M72.28603227600031,40.95h2v19.049999999999997h-2Z" opacity=".8" aria-label="rok: Jan 01, 1924; value: 127; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M75.13745130772026,42h2v18h-2Z" opacity=".8" aria-label="rok: Jan 01, 1925; value: 120; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M77.98107957705844,43.949999999999996h2v16.050000000000004h-2Z" opacity=".8" aria-label="rok: Jan 01, 1926; value: 107; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M80.82470784639663,42h2v18h-2Z" opacity=".8" aria-label="rok: Jan 01, 1927; value: 120; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M83.66833611573483,44.4h2v15.600000000000001h-2Z" opacity=".8" aria-label="rok: Jan 01, 1928; value: 104; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M86.51975514745476,46.05h2v13.950000000000003h-2Z" opacity=".8" aria-label="rok: Jan 01, 1929; value: 93; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M89.36338341679296,43.949999999999996h2v16.050000000000004h-2Z" opacity=".8" aria-label="rok: Jan 01, 1930; value: 107; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M92.20701168613115,47.85h2v12.149999999999999h-2Z" opacity=".8" aria-label="rok: Jan 01, 1931; value: 81; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M95.05063995546935,48.3h2v11.700000000000003h-2Z" opacity=".8" aria-label="rok: Jan 01, 1932; value: 78; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M97.90205898718928,49.35h2v10.649999999999999h-2Z" opacity=".8" aria-label="rok: Jan 01, 1933; value: 71; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M100.74568725652748,49.35h2v10.649999999999999h-2Z" opacity=".8" aria-label="rok: Jan 01, 1934; value: 71; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M103.58931552586567,48.15h2v11.850000000000001h-2Z" opacity=".8" aria-label="rok: Jan 01, 1935; value: 79; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M106.43294379520385,47.7h2v12.299999999999997h-2Z" opacity=".8" aria-label="rok: Jan 01, 1936; value: 82; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M109.2843628269238,50.699999999999996h2v9.300000000000004h-2Z" opacity=".8" aria-label="rok: Jan 01, 1937; value: 62; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M112.127991096262,53.849999999999994h2v6.150000000000006h-2Z" opacity=".8" aria-label="rok: Jan 01, 1938; value: 41; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M114.97161936560019,49.65h2v10.350000000000001h-2Z" opacity=".8" aria-label="rok: Jan 01, 1939; value: 69; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M117.81524763493837,48h2v12h-2Z" opacity=".8" aria-label="rok: Jan 01, 1940; value: 80; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M120.66634205155907,50.550000000000004h2v9.449999999999996h-2Z" opacity=".8" aria-label="rok: Jan 01, 1941; value: 63; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M123.50997032089727,53.7h2v6.299999999999997h-2Z" opacity=".8" aria-label="rok: Jan 01, 1942; value: 42; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M126.35392320533471,56.699999999999996h2v3.3000000000000043h-2Z" opacity=".8" aria-label="rok: Jan 01, 1943; value: 22; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M129.1975514746729,56.55h2v3.450000000000003h-2Z" opacity=".8" aria-label="rok: Jan 01, 1944; value: 23; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M132.04897050639283,50.550000000000004h2v9.449999999999996h-2Z" opacity=".8" aria-label="rok: Jan 01, 1945; value: 63; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M134.89259877573102,44.1h2v15.899999999999999h-2Z" opacity=".8" aria-label="rok: Jan 01, 1946; value: 106; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M137.73655166016846,51.150000000000006h2v8.849999999999994h-2Z" opacity=".8" aria-label="rok: Jan 01, 1947; value: 59; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M140.5798553144074,54.15h2v5.850000000000001h-2Z" opacity=".8" aria-label="rok: Jan 01, 1948; value: 39; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M143.43127434612734,50.550000000000004h2v9.449999999999996h-2Z" opacity=".8" aria-label="rok: Jan 01, 1949; value: 63; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M146.27490261546555,53.7h2v6.299999999999997h-2Z" opacity=".8" aria-label="rok: Jan 01, 1950; value: 42; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M149.11853088480373,54h2v6h-2Z" opacity=".8" aria-label="rok: Jan 01, 1951; value: 40; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M151.96215915414194,56.4h2v3.6000000000000014h-2Z" opacity=".8" aria-label="rok: Jan 01, 1952; value: 24; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M154.81357818586187,53.4h2v6.600000000000001h-2Z" opacity=".8" aria-label="rok: Jan 01, 1953; value: 44; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M157.65720645520005,54.6h2v5.399999999999999h-2Z" opacity=".8" aria-label="rok: Jan 01, 1954; value: 36; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M160.50083472453827,55.35h2v4.649999999999999h-2Z" opacity=".8" aria-label="rok: Jan 01, 1955; value: 31; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M163.34446299387645,54.6h2v5.399999999999999h-2Z" opacity=".8" aria-label="rok: Jan 01, 1956; value: 36; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M166.19588202559638,55.2h2v4.799999999999997h-2Z" opacity=".8" aria-label="rok: Jan 01, 1957; value: 32; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M169.0395102949346,56.85h2v3.1499999999999986h-2Z" opacity=".8" aria-label="rok: Jan 01, 1958; value: 21; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M171.88313856427277,53.7h2v6.299999999999997h-2Z" opacity=".8" aria-label="rok: Jan 01, 1959; value: 42; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M174.72676683361098,54.75h2v5.25h-2Z" opacity=".8" aria-label="rok: Jan 01, 1960; value: 35; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M177.5781858653309,54.449999999999996h2v5.550000000000004h-2Z" opacity=".8" aria-label="rok: Jan 01, 1961; value: 37; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M180.4218141346691,55.35h2v4.649999999999999h-2Z" opacity=".8" aria-label="rok: Jan 01, 1962; value: 31; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M183.26544240400727,56.1h2v3.8999999999999986h-2Z" opacity=".8" aria-label="rok: Jan 01, 1963; value: 26; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M186.10907067334546,54.6h2v5.399999999999999h-2Z" opacity=".8" aria-label="rok: Jan 01, 1964; value: 36; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M188.96048970506544,52.35h2v7.649999999999999h-2Z" opacity=".8" aria-label="rok: Jan 01, 1965; value: 51; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M191.8041179744036,52.35h2v7.649999999999999h-2Z" opacity=".8" aria-label="rok: Jan 01, 1966; value: 51; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M194.64774624374178,49.2h2v10.799999999999997h-2Z" opacity=".8" aria-label="rok: Jan 01, 1967; value: 72; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M197.49137451308,51.9h2v8.100000000000001h-2Z" opacity=".8" aria-label="rok: Jan 01, 1968; value: 54; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M200.34279354479995,51.3h2v8.700000000000003h-2Z" opacity=".8" aria-label="rok: Jan 01, 1969; value: 58; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M203.1864218141381,50.85h2v9.149999999999999h-2Z" opacity=".8" aria-label="rok: Jan 01, 1970; value: 61; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M206.0300500834763,54h2v6h-2Z" opacity=".8" aria-label="rok: Jan 01, 1971; value: 40; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M208.8736783528145,53.7h2v6.299999999999997h-2Z" opacity=".8" aria-label="rok: Jan 01, 1972; value: 42; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M211.72509738453442,54.15h2v5.850000000000001h-2Z" opacity=".8" aria-label="rok: Jan 01, 1973; value: 39; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M214.56872565387263,55.95h2v4.049999999999997h-2Z" opacity=".8" aria-label="rok: Jan 01, 1974; value: 27; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M217.41235392321082,55.2h2v4.799999999999997h-2Z" opacity=".8" aria-label="rok: Jan 01, 1975; value: 32; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M220.25598219254903,54.15h2v5.850000000000001h-2Z" opacity=".8" aria-label="rok: Jan 01, 1976; value: 39; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M223.10740122426895,55.2h2v4.799999999999997h-2Z" opacity=".8" aria-label="rok: Jan 01, 1977; value: 32; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M225.95102949360714,55.35h2v4.649999999999999h-2Z" opacity=".8" aria-label="rok: Jan 01, 1978; value: 31; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M228.79465776294535,53.55h2v6.450000000000003h-2Z" opacity=".8" aria-label="rok: Jan 01, 1979; value: 43; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M231.63828603228353,54.900000000000006h2v5.099999999999994h-2Z" opacity=".8" aria-label="rok: Jan 01, 1980; value: 34; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M234.48970506400346,54h2v6h-2Z" opacity=".8" aria-label="rok: Jan 01, 1981; value: 40; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M237.33333333334167,52.05h2v7.950000000000003h-2Z" opacity=".8" aria-label="rok: Jan 01, 1982; value: 53; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M240.17696160267985,53.7h2v6.299999999999997h-2Z" opacity=".8" aria-label="rok: Jan 01, 1983; value: 42; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M243.02058987201806,55.35h2v4.649999999999999h-2Z" opacity=".8" aria-label="rok: Jan 01, 1984; value: 31; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M245.872008903738,56.55h2v3.450000000000003h-2Z" opacity=".8" aria-label="rok: Jan 01, 1985; value: 23; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M248.71563717307617,56.1h2v3.8999999999999986h-2Z" opacity=".8" aria-label="rok: Jan 01, 1986; value: 26; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M251.5592654424144,57.599999999999994h2v2.4000000000000057h-2Z" opacity=".8" aria-label="rok: Jan 01, 1987; value: 16; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M254.40289371175257,56.4h2v3.6000000000000014h-2Z" opacity=".8" aria-label="rok: Jan 01, 1988; value: 24; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M257.2543127434725,54.75h2v5.25h-2Z" opacity=".8" aria-label="rok: Jan 01, 1989; value: 35; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M260.0979410128107,23.1h2v36.9h-2Z" opacity=".8" aria-label="rok: Jan 01, 1990; value: 246; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M262.9415692821489,6.750000000000003h2v53.25h-2Z" opacity=".8" aria-label="rok: Jan 01, 1991; value: 355; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M265.7851975514871,20.25h2v39.75h-2Z" opacity=".8" aria-label="rok: Jan 01, 1992; value: 265; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M268.636616583207,19.35h2v40.65h-2Z" opacity=".8" aria-label="rok: Jan 01, 1993; value: 271; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M271.48024485254524,25.200000000000003h2v34.8h-2Z" opacity=".8" aria-label="rok: Jan 01, 1994; value: 232; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M274.3238731218834,22.8h2v37.2h-2Z" opacity=".8" aria-label="rok: Jan 01, 1995; value: 248; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M277.1675013912216,30.749999999999996h2v29.250000000000004h-2Z" opacity=".8" aria-label="rok: Jan 01, 1996; value: 195; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M280.01892042294156,31.5h2v28.5h-2Z" opacity=".8" aria-label="rok: Jan 01, 1997; value: 190; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M282.86254869227974,30.3h2v29.7h-2Z" opacity=".8" aria-label="rok: Jan 01, 1998; value: 198; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M285.7061769616179,26.999999999999996h2v33h-2Z" opacity=".8" aria-label="rok: Jan 01, 1999; value: 220; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M288.5498052309561,26.999999999999996h2v33h-2Z" opacity=".8" aria-label="rok: Jan 01, 2000; value: 220; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M291.40122426267607,30.15h2v29.85h-2Z" opacity=".8" aria-label="rok: Jan 01, 2001; value: 199; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M294.24485253201425,26.4h2v33.6h-2Z" opacity=".8" aria-label="rok: Jan 01, 2002; value: 224; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M297.08848080135243,24.900000000000002h2v35.099999999999994h-2Z" opacity=".8" aria-label="rok: Jan 01, 2003; value: 234; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M299.9321090706907,31.8h2v28.2h-2Z" opacity=".8" aria-label="rok: Jan 01, 2004; value: 188; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M302.78352810241057,28.05h2v31.95h-2Z" opacity=".8" aria-label="rok: Jan 01, 2005; value: 213; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M305.62715637174875,26.4h2v33.6h-2Z" opacity=".8" aria-label="rok: Jan 01, 2006; value: 224; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M308.470784641087,19.199999999999996h2v40.800000000000004h-2Z" opacity=".8" aria-label="rok: Jan 01, 2007; value: 272; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M311.3144129104252,24.6h2v35.4h-2Z" opacity=".8" aria-label="rok: Jan 01, 2008; value: 236; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M314.1658319421451,25.200000000000003h2v34.8h-2Z" opacity=".8" aria-label="rok: Jan 01, 2009; value: 232; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M317.0094602114833,26.55h2v33.45h-2Z" opacity=".8" aria-label="rok: Jan 01, 2010; value: 223; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M319.8530884808215,30.450000000000003h2v29.549999999999997h-2Z" opacity=".8" aria-label="rok: Jan 01, 2011; value: 197; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M322.6967167501597,30.6h2v29.4h-2Z" opacity=".8" aria-label="rok: Jan 01, 2012; value: 196; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M325.54813578187964,33.9h2v26.1h-2Z" opacity=".8" aria-label="rok: Jan 01, 2013; value: 174; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M328.3917640512178,25.800000000000004h2v34.199999999999996h-2Z" opacity=".8" aria-label="rok: Jan 01, 2014; value: 228; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M331.235392320556,1.8000000000000016h2v58.199999999999996h-2Z" opacity=".8" aria-label="rok: Jan 01, 2015; value: 388; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M334.0790205898942,22.2h2v37.8h-2Z" opacity=".8" aria-label="rok: Jan 01, 2016; value: 252; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M336.93043962161414,26.4h2v33.6h-2Z" opacity=".8" aria-label="rok: Jan 01, 2017; value: 224; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M339.7740678909523,34.800000000000004h2v25.199999999999996h-2Z" opacity=".8" aria-label="rok: Jan 01, 2018; value: 168; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M342.6176961602905,38.4h2v21.6h-2Z" opacity=".8" aria-label="rok: Jan 01, 2019; value: 144; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M345.4613244296287,40.35h2v19.65h-2Z" opacity=".8" aria-label="rok: Jan 01, 2020; value: 131; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M348.31274346134865,40.95h2v19.049999999999997h-2Z" opacity=".8" aria-label="rok: Jan 01, 2021; value: 127; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M351.1563717306868,47.1h2v12.899999999999999h-2Z" opacity=".8" aria-label="rok: Jan 01, 2022; value: 86; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M354.000000000025,54.449999999999996h2v5.550000000000004h-2Z" opacity=".8" aria-label="rok: Jan 01, 2023; value: 37; variable: Nakladatelství, která vydala svoji první knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
          </ns1:g>
          <ns1:g class="mark-group role-title">
           <ns1:g transform="translate(0,-24)">
            <ns1:path class="background" d="M0,0h0v0h0Z" pointer-events="none" aria-hidden="true"/>
            <ns1:g>
-            <ns1:g class="mark-text role-title-text" pointer-events="none" aria-label="Title text 'Nová'" aria-roledescription="title" role="graphics-symbol">
-             <ns1:text transform="translate(0,-2)" fill="#000" font-family="Asap" font-size="10px" font-weight="500">Nová</ns1:text>
+            <ns1:g class="mark-text role-title-text" pointer-events="none" aria-label="Title text 'Nakladatelství, která vydala svoji první knihu'" aria-roledescription="title" role="graphics-symbol">
+             <ns1:text transform="translate(0,-2)" fill="#000" font-family="Asap" font-size="10px" font-weight="500">Nakladatelství, která vydala svoji první knihu</ns1:text>
             </ns1:g>
            </ns1:g>
            <ns1:path class="foreground" d="" display="none" pointer-events="none" aria-hidden="true"/>
@@ -408,48 +408,48 @@
         <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
        </ns1:g>
        <ns1:g transform="translate(0,250)">
-        <ns1:path class="background" d="M0.5,0.5h330v60h-330Z" aria-hidden="true"/>
+        <ns1:path class="background" d="M0.5,0.5h360v60h-360Z" aria-hidden="true"/>
         <ns1:g>
-         <ns1:g class="mark-group role-axis" aria-label="X-axis for a time scale with values from Saturday, 29 January 1898, 1:07:30 AM to Monday, 02 December 2024, 10:52:30 PM" aria-roledescription="axis" role="graphics-symbol">
+         <ns1:g class="mark-group role-axis" aria-label="X-axis for a time scale with values from Wednesday, 30 March 1898, 5:08:34 AM to Thursday, 03 October 2024, 7:51:25 PM" aria-roledescription="axis" role="graphics-symbol">
           <ns1:g transform="translate(.5 60)" pointer-events="none">
            <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
            <ns1:g>
             <ns1:g class="mark-rule role-axis-tick" stroke="#DCDDD6">
              <ns1:line transform="translate(5)" x2="0" y2="5"/>
-             <ns1:line transform="translate(31)" x2="0" y2="5"/>
-             <ns1:line transform="translate(57)" x2="0" y2="5"/>
-             <ns1:line transform="translate(83)" x2="0" y2="5"/>
-             <ns1:line transform="translate(109)" x2="0" y2="5"/>
-             <ns1:line transform="translate(135)" x2="0" y2="5"/>
-             <ns1:line transform="translate(161)" x2="0" y2="5"/>
-             <ns1:line transform="translate(187)" x2="0" y2="5"/>
-             <ns1:line transform="translate(213)" x2="0" y2="5"/>
-             <ns1:line transform="translate(239)" x2="0" y2="5"/>
-             <ns1:line transform="translate(265)" x2="0" y2="5"/>
-             <ns1:line transform="translate(291)" x2="0" y2="5"/>
-             <ns1:line transform="translate(317)" x2="0" y2="5"/>
+             <ns1:line transform="translate(33)" x2="0" y2="5"/>
+             <ns1:line transform="translate(62)" x2="0" y2="5"/>
+             <ns1:line transform="translate(90)" x2="0" y2="5"/>
+             <ns1:line transform="translate(119)" x2="0" y2="5"/>
+             <ns1:line transform="translate(147)" x2="0" y2="5"/>
+             <ns1:line transform="translate(176)" x2="0" y2="5"/>
+             <ns1:line transform="translate(204)" x2="0" y2="5"/>
+             <ns1:line transform="translate(233)" x2="0" y2="5"/>
+             <ns1:line transform="translate(261)" x2="0" y2="5"/>
+             <ns1:line transform="translate(290)" x2="0" y2="5"/>
+             <ns1:line transform="translate(318)" x2="0" y2="5"/>
+             <ns1:line transform="translate(346)" x2="0" y2="5"/>
             </ns1:g>
             <ns1:g class="mark-text role-axis-label" fill="#000" font-family="Asap" font-size="9px" text-anchor="middle">
-             <ns1:text transform="translate(5,14)">1900</ns1:text>
-             <ns1:text transform="translate(31 14)">1910</ns1:text>
-             <ns1:text transform="translate(57 14)">1920</ns1:text>
-             <ns1:text transform="translate(83 14)">1930</ns1:text>
-             <ns1:text transform="translate(109 14)">1940</ns1:text>
-             <ns1:text transform="translate(135 14)">1950</ns1:text>
-             <ns1:text transform="translate(161 14)">1960</ns1:text>
-             <ns1:text transform="translate(187 14)">1970</ns1:text>
-             <ns1:text transform="translate(213 14)">1980</ns1:text>
-             <ns1:text transform="translate(239 14)">1990</ns1:text>
-             <ns1:text transform="translate(265 14)">2000</ns1:text>
-             <ns1:text transform="translate(291 14)">2010</ns1:text>
-             <ns1:text transform="translate(317 14)">2020</ns1:text>
+             <ns1:text transform="translate(5 14)">1900</ns1:text>
+             <ns1:text transform="translate(33 14)">1910</ns1:text>
+             <ns1:text transform="translate(62 14)">1920</ns1:text>
+             <ns1:text transform="translate(90 14)">1930</ns1:text>
+             <ns1:text transform="translate(119 14)">1940</ns1:text>
+             <ns1:text transform="translate(147 14)">1950</ns1:text>
+             <ns1:text transform="translate(176 14)">1960</ns1:text>
+             <ns1:text transform="translate(204 14)">1970</ns1:text>
+             <ns1:text transform="translate(233 14)">1980</ns1:text>
+             <ns1:text transform="translate(261 14)">1990</ns1:text>
+             <ns1:text transform="translate(290 14)">2000</ns1:text>
+             <ns1:text transform="translate(318 14)">2010</ns1:text>
+             <ns1:text transform="translate(346 14)">2020</ns1:text>
             </ns1:g>
            </ns1:g>
            <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
           </ns1:g>
          </ns1:g>
          <ns1:g class="mark-group role-axis" aria-label="Y-axis for a linear scale with values from 0 to 450" aria-roledescription="axis" role="graphics-symbol">
-          <ns1:g transform="translate(330 .5)" pointer-events="none">
+          <ns1:g transform="translate(360 .5)" pointer-events="none">
            <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
            <ns1:g>
             <ns1:g class="mark-rule role-axis-tick" stroke="#DCDDD6">
@@ -467,136 +467,136 @@
           </ns1:g>
          </ns1:g>
          <ns1:g class="mark-rect role-mark child_marks" fill="#ECD410" aria-roledescription="rect mark container" role="graphics-object">
-          <ns1:path d="M4,59.06666666666667h2v0.93333333333333h-2Z" opacity=".8" aria-label="rok: Jan 01, 1900; value: 7; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M6.599888703394547,59.46666666666667h2v0.5333333333333314h-2Z" opacity=".8" aria-label="rok: Jan 01, 1901; value: 4; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M9.199777406789094,58.53333333333333h2v1.4666666666666686h-2Z" opacity=".8" aria-label="rok: Jan 01, 1902; value: 11; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M11.799666110183638,57.333333333333336h2v2.6666666666666643h-2Z" opacity=".8" aria-label="rok: Jan 01, 1903; value: 20; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M14.399554813578186,58.8h2v1.2000000000000028h-2Z" opacity=".8" aria-label="rok: Jan 01, 1904; value: 9; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M17.00656649972176,58.266666666666666h2v1.7333333333333343h-2Z" opacity=".8" aria-label="rok: Jan 01, 1905; value: 13; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M19.606455203116305,57.733333333333334h2v2.2666666666666657h-2Z" opacity=".8" aria-label="rok: Jan 01, 1906; value: 17; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M22.20634390651085,57.599999999999994h2v2.4000000000000057h-2Z" opacity=".8" aria-label="rok: Jan 01, 1907; value: 18; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M24.8062326099054,57.599999999999994h2v2.4000000000000057h-2Z" opacity=".8" aria-label="rok: Jan 01, 1908; value: 18; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M27.413244296048973,57.46666666666666h2v2.5333333333333385h-2Z" opacity=".8" aria-label="rok: Jan 01, 1909; value: 19; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M30.013132999443517,55.6h2v4.399999999999999h-2Z" opacity=".8" aria-label="rok: Jan 01, 1910; value: 33; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M32.61302170283806,56.8h2v3.200000000000003h-2Z" opacity=".8" aria-label="rok: Jan 01, 1911; value: 24; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M35.21291040623261,54.8h2v5.200000000000003h-2Z" opacity=".8" aria-label="rok: Jan 01, 1912; value: 39; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M37.81992209237618,53.46666666666666h2v6.5333333333333385h-2Z" opacity=".8" aria-label="rok: Jan 01, 1913; value: 49; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M40.41981079577073,53.06666666666667h2v6.93333333333333h-2Z" opacity=".8" aria-label="rok: Jan 01, 1914; value: 52; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M43.01969949916527,56.93333333333334h2v3.066666666666663h-2Z" opacity=".8" aria-label="rok: Jan 01, 1915; value: 23; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M45.619588202559825,57.733333333333334h2v2.2666666666666657h-2Z" opacity=".8" aria-label="rok: Jan 01, 1916; value: 17; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M48.22659988870339,55.6h2v4.399999999999999h-2Z" opacity=".8" aria-label="rok: Jan 01, 1917; value: 33; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M50.82648859209794,54.93333333333334h2v5.066666666666663h-2Z" opacity=".8" aria-label="rok: Jan 01, 1918; value: 38; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M53.42637729549249,52.133333333333326h2v7.866666666666674h-2Z" opacity=".8" aria-label="rok: Jan 01, 1919; value: 59; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M56.026265998887034,54.666666666666664h2v5.333333333333336h-2Z" opacity=".8" aria-label="rok: Jan 01, 1920; value: 40; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M58.633277685030606,50.93333333333334h2v9.066666666666663h-2Z" opacity=".8" aria-label="rok: Jan 01, 1921; value: 68; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M61.23316638842515,49.6h2v10.399999999999999h-2Z" opacity=".8" aria-label="rok: Jan 01, 1922; value: 78; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M63.8330550918197,48.800000000000004h2v11.199999999999996h-2Z" opacity=".8" aria-label="rok: Jan 01, 1923; value: 84; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M66.43294379521424,43.06666666666667h2v16.93333333333333h-2Z" opacity=".8" aria-label="rok: Jan 01, 1924; value: 127; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M69.03995548135782,38.53333333333333h2v21.46666666666667h-2Z" opacity=".8" aria-label="rok: Jan 01, 1925; value: 161; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M71.63984418475236,48.266666666666666h2v11.733333333333334h-2Z" opacity=".8" aria-label="rok: Jan 01, 1926; value: 88; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M74.2397328881469,49.46666666666667h2v10.533333333333331h-2Z" opacity=".8" aria-label="rok: Jan 01, 1927; value: 79; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M76.83962159154146,46.266666666666666h2v13.733333333333334h-2Z" opacity=".8" aria-label="rok: Jan 01, 1928; value: 103; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M79.44663327768502,47.46666666666667h2v12.533333333333331h-2Z" opacity=".8" aria-label="rok: Jan 01, 1929; value: 94; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M82.04652198107958,43.46666666666667h2v16.53333333333333h-2Z" opacity=".8" aria-label="rok: Jan 01, 1930; value: 124; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M84.64641068447412,46.800000000000004h2v13.199999999999996h-2Z" opacity=".8" aria-label="rok: Jan 01, 1931; value: 99; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M87.24629938786867,50.266666666666666h2v9.733333333333334h-2Z" opacity=".8" aria-label="rok: Jan 01, 1932; value: 73; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M89.85331107401224,48.266666666666666h2v11.733333333333334h-2Z" opacity=".8" aria-label="rok: Jan 01, 1933; value: 88; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M92.45319977740678,48.93333333333334h2v11.066666666666663h-2Z" opacity=".8" aria-label="rok: Jan 01, 1934; value: 83; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M95.05308848080134,48.4h2v11.600000000000001h-2Z" opacity=".8" aria-label="rok: Jan 01, 1935; value: 87; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M97.65297718419589,44.66666666666667h2v15.333333333333329h-2Z" opacity=".8" aria-label="rok: Jan 01, 1936; value: 115; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M100.25998887033946,44.53333333333333h2v15.466666666666669h-2Z" opacity=".8" aria-label="rok: Jan 01, 1937; value: 116; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M102.859877573734,39.46666666666667h2v20.53333333333333h-2Z" opacity=".8" aria-label="rok: Jan 01, 1938; value: 154; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M105.45976627712854,45.86666666666667h2v14.133333333333333h-2Z" opacity=".8" aria-label="rok: Jan 01, 1939; value: 106; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M108.05965498052309,43.46666666666667h2v16.53333333333333h-2Z" opacity=".8" aria-label="rok: Jan 01, 1940; value: 124; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M110.6663698757188,41.86666666666667h2v18.133333333333333h-2Z" opacity=".8" aria-label="rok: Jan 01, 1941; value: 136; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M113.26625857911333,53.2h2v6.799999999999997h-2Z" opacity=".8" aria-label="rok: Jan 01, 1942; value: 51; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M115.86644407345575,56.13333333333333h2v3.866666666666667h-2Z" opacity=".8" aria-label="rok: Jan 01, 1943; value: 29; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M118.46633277685031,54.4h2v5.600000000000001h-2Z" opacity=".8" aria-label="rok: Jan 01, 1944; value: 42; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M121.07334446299387,51.199999999999996h2v8.800000000000004h-2Z" opacity=".8" aria-label="rok: Jan 01, 1945; value: 66; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M123.67323316638843,40.93333333333334h2v19.066666666666663h-2Z" opacity=".8" aria-label="rok: Jan 01, 1946; value: 143; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M126.27341866073085,32.400000000000006h2v27.599999999999994h-2Z" opacity=".8" aria-label="rok: Jan 01, 1947; value: 207; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M128.8730105731775,16.266666666666666h2v43.733333333333334h-2Z" opacity=".8" aria-label="rok: Jan 01, 1948; value: 328; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M131.4800222593211,42.66666666666667h2v17.33333333333333h-2Z" opacity=".8" aria-label="rok: Jan 01, 1949; value: 130; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M134.07991096271564,53.2h2v6.799999999999997h-2Z" opacity=".8" aria-label="rok: Jan 01, 1950; value: 51; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M136.6797996661102,54.13333333333333h2v5.866666666666667h-2Z" opacity=".8" aria-label="rok: Jan 01, 1951; value: 44; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M139.27968836950473,57.2h2v2.799999999999997h-2Z" opacity=".8" aria-label="rok: Jan 01, 1952; value: 21; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M141.8867000556483,57.2h2v2.799999999999997h-2Z" opacity=".8" aria-label="rok: Jan 01, 1953; value: 21; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M144.48658875904286,58h2v2h-2Z" opacity=".8" aria-label="rok: Jan 01, 1954; value: 15; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M147.0864774624374,57.599999999999994h2v2.4000000000000057h-2Z" opacity=".8" aria-label="rok: Jan 01, 1955; value: 18; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M149.68636616583194,57.46666666666666h2v2.5333333333333385h-2Z" opacity=".8" aria-label="rok: Jan 01, 1956; value: 19; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M152.29337785197552,57.733333333333334h2v2.2666666666666657h-2Z" opacity=".8" aria-label="rok: Jan 01, 1957; value: 17; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M154.89326655537005,57.333333333333336h2v2.6666666666666643h-2Z" opacity=".8" aria-label="rok: Jan 01, 1958; value: 20; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M157.4931552587646,58h2v2h-2Z" opacity=".8" aria-label="rok: Jan 01, 1959; value: 15; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M160.09304396215916,56.266666666666666h2v3.7333333333333343h-2Z" opacity=".8" aria-label="rok: Jan 01, 1960; value: 28; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M162.70005564830274,57.733333333333334h2v2.2666666666666657h-2Z" opacity=".8" aria-label="rok: Jan 01, 1961; value: 17; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M165.2999443516973,57.733333333333334h2v2.2666666666666657h-2Z" opacity=".8" aria-label="rok: Jan 01, 1962; value: 17; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M167.89983305509182,57.599999999999994h2v2.4000000000000057h-2Z" opacity=".8" aria-label="rok: Jan 01, 1963; value: 18; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M170.49972175848637,58h2v2h-2Z" opacity=".8" aria-label="rok: Jan 01, 1964; value: 15; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M173.10673344462995,57.2h2v2.799999999999997h-2Z" opacity=".8" aria-label="rok: Jan 01, 1965; value: 21; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M175.70662214802448,56.4h2v3.6000000000000014h-2Z" opacity=".8" aria-label="rok: Jan 01, 1966; value: 27; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M178.30651085141903,56.53333333333333h2v3.4666666666666686h-2Z" opacity=".8" aria-label="rok: Jan 01, 1967; value: 26; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M180.90639955481356,54.53333333333333h2v5.466666666666669h-2Z" opacity=".8" aria-label="rok: Jan 01, 1968; value: 41; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M183.51341124095714,56h2v4h-2Z" opacity=".8" aria-label="rok: Jan 01, 1969; value: 30; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M186.1132999443517,54.666666666666664h2v5.333333333333336h-2Z" opacity=".8" aria-label="rok: Jan 01, 1970; value: 40; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M188.71318864774622,55.333333333333336h2v4.666666666666664h-2Z" opacity=".8" aria-label="rok: Jan 01, 1971; value: 35; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M191.3130773511408,55.86666666666667h2v4.133333333333333h-2Z" opacity=".8" aria-label="rok: Jan 01, 1972; value: 31; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M193.92008903728436,57.2h2v2.799999999999997h-2Z" opacity=".8" aria-label="rok: Jan 01, 1973; value: 21; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M196.51997774067888,56.4h2v3.6000000000000014h-2Z" opacity=".8" aria-label="rok: Jan 01, 1974; value: 27; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M199.11986644407347,57.86666666666667h2v2.133333333333333h-2Z" opacity=".8" aria-label="rok: Jan 01, 1975; value: 16; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M201.719755147468,57.733333333333334h2v2.2666666666666657h-2Z" opacity=".8" aria-label="rok: Jan 01, 1976; value: 17; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M204.3267668336116,56.8h2v3.200000000000003h-2Z" opacity=".8" aria-label="rok: Jan 01, 1977; value: 24; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M206.92665553700613,58h2v2h-2Z" opacity=".8" aria-label="rok: Jan 01, 1978; value: 15; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M209.52654424040065,57.46666666666666h2v2.5333333333333385h-2Z" opacity=".8" aria-label="rok: Jan 01, 1979; value: 19; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M212.1264329437952,57.2h2v2.799999999999997h-2Z" opacity=".8" aria-label="rok: Jan 01, 1980; value: 21; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M214.7334446299388,55.333333333333336h2v4.666666666666664h-2Z" opacity=".8" aria-label="rok: Jan 01, 1981; value: 35; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M217.33333333333334,56.13333333333333h2v3.866666666666667h-2Z" opacity=".8" aria-label="rok: Jan 01, 1982; value: 29; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M219.93322203672787,54.13333333333333h2v5.866666666666667h-2Z" opacity=".8" aria-label="rok: Jan 01, 1983; value: 44; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M222.53311074012242,56.13333333333333h2v3.866666666666667h-2Z" opacity=".8" aria-label="rok: Jan 01, 1984; value: 29; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M225.140122426266,56.4h2v3.6000000000000014h-2Z" opacity=".8" aria-label="rok: Jan 01, 1985; value: 27; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M227.74001112966053,53.33333333333333h2v6.666666666666671h-2Z" opacity=".8" aria-label="rok: Jan 01, 1986; value: 50; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M230.3398998330551,52.4h2v7.600000000000001h-2Z" opacity=".8" aria-label="rok: Jan 01, 1987; value: 57; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M232.93978853644964,52.133333333333326h2v7.866666666666674h-2Z" opacity=".8" aria-label="rok: Jan 01, 1988; value: 59; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M235.5468002225932,44.266666666666666h2v15.733333333333334h-2Z" opacity=".8" aria-label="rok: Jan 01, 1989; value: 118; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M238.14668892598777,43.199999999999996h2v16.800000000000004h-2Z" opacity=".8" aria-label="rok: Jan 01, 1990; value: 126; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M240.7465776293823,44.8h2v15.200000000000003h-2Z" opacity=".8" aria-label="rok: Jan 01, 1991; value: 114; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M243.34646633277686,40.66666666666667h2v19.33333333333333h-2Z" opacity=".8" aria-label="rok: Jan 01, 1992; value: 145; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M245.95347801892044,46.53333333333333h2v13.466666666666669h-2Z" opacity=".8" aria-label="rok: Jan 01, 1993; value: 101; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M248.55336672231496,48.53333333333333h2v11.466666666666669h-2Z" opacity=".8" aria-label="rok: Jan 01, 1994; value: 86; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M251.15325542570952,46.666666666666664h2v13.333333333333336h-2Z" opacity=".8" aria-label="rok: Jan 01, 1995; value: 100; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M253.75314412910404,46.800000000000004h2v13.199999999999996h-2Z" opacity=".8" aria-label="rok: Jan 01, 1996; value: 99; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M256.36015581524765,45.46666666666667h2v14.533333333333331h-2Z" opacity=".8" aria-label="rok: Jan 01, 1997; value: 109; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M258.9600445186422,45.733333333333334h2v14.266666666666666h-2Z" opacity=".8" aria-label="rok: Jan 01, 1998; value: 107; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M261.5599332220367,44.13333333333333h2v15.866666666666667h-2Z" opacity=".8" aria-label="rok: Jan 01, 1999; value: 119; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M264.1598219254313,44.8h2v15.200000000000003h-2Z" opacity=".8" aria-label="rok: Jan 01, 2000; value: 114; variable: Končící; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M266.76683361157484,41.6h2v18.4h-2Z" opacity=".78" aria-label="rok: Jan 01, 2001; value: 138; variable: Končící; opacity: 0.98" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M269.3667223149694,37.46666666666667h2v22.53333333333333h-2Z" opacity=".75" aria-label="rok: Jan 01, 2002; value: 169; variable: Končící; opacity: 0.96" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M271.96661101836395,42.800000000000004h2v17.199999999999996h-2Z" opacity=".73" aria-label="rok: Jan 01, 2003; value: 129; variable: Končící; opacity: 0.94" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M274.5664997217585,41.06666666666666h2v18.933333333333337h-2Z" opacity=".71" aria-label="rok: Jan 01, 2004; value: 142; variable: Končící; opacity: 0.92" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M277.1735114079021,43.06666666666667h2v16.93333333333333h-2Z" opacity=".69" aria-label="rok: Jan 01, 2005; value: 127; variable: Končící; opacity: 0.9" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M279.7734001112966,40.13333333333333h2v19.866666666666667h-2Z" opacity=".66" aria-label="rok: Jan 01, 2006; value: 149; variable: Končící; opacity: 0.88" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M282.3732888146912,40.53333333333333h2v19.46666666666667h-2Z" opacity=".64" aria-label="rok: Jan 01, 2007; value: 146; variable: Končící; opacity: 0.86" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M284.9731775180857,37.6h2v22.4h-2Z" opacity=".62" aria-label="rok: Jan 01, 2008; value: 168; variable: Končící; opacity: 0.84" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M287.58018920422927,37.866666666666674h2v22.133333333333326h-2Z" opacity=".6" aria-label="rok: Jan 01, 2009; value: 166; variable: Končící; opacity: 0.82" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M290.18007790762385,30.399999999999995h2v29.600000000000005h-2Z" opacity=".57" aria-label="rok: Jan 01, 2010; value: 222; variable: Končící; opacity: 0.8" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M292.7799666110184,30.399999999999995h2v29.600000000000005h-2Z" opacity=".55" aria-label="rok: Jan 01, 2011; value: 222; variable: Končící; opacity: 0.78" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M295.3798553144129,26.666666666666664h2v33.333333333333336h-2Z" opacity=".53" aria-label="rok: Jan 01, 2012; value: 250; variable: Končící; opacity: 0.76" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M297.98686700055646,28.133333333333333h2v31.866666666666667h-2Z" opacity=".5" aria-label="rok: Jan 01, 2013; value: 239; variable: Končící; opacity: 0.74" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M300.58675570395104,14.800000000000002h2v45.199999999999996h-2Z" opacity=".48" aria-label="rok: Jan 01, 2014; value: 339; variable: Končící; opacity: 0.72" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M303.18664440734557,21.200000000000003h2v38.8h-2Z" opacity=".46" aria-label="rok: Jan 01, 2015; value: 291; variable: Končící; opacity: 0.7" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M305.7865331107401,31.33333333333333h2v28.66666666666667h-2Z" opacity=".44" aria-label="rok: Jan 01, 2016; value: 215; variable: Končící; opacity: 0.68" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M308.3935447968837,29.066666666666666h2v30.933333333333334h-2Z" opacity=".41" aria-label="rok: Jan 01, 2017; value: 232; variable: Končící; opacity: 0.66" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M310.99343350027823,19.06666666666667h2v40.93333333333333h-2Z" opacity=".39" aria-label="rok: Jan 01, 2018; value: 307; variable: Končící; opacity: 0.64" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M313.59332220367276,20.000000000000004h2v40h-2Z" opacity=".37" aria-label="rok: Jan 01, 2019; value: 300; variable: Končící; opacity: 0.62" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M316.19321090706734,17.866666666666667h2v42.13333333333333h-2Z" opacity=".35" aria-label="rok: Jan 01, 2020; value: 316; variable: Končící; opacity: 0.6" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M318.8002225932109,11.86666666666667h2v48.133333333333326h-2Z" opacity=".32" aria-label="rok: Jan 01, 2021; value: 361; variable: Končící; opacity: 0.58" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M321.4001112966054,0.1333333333333342h2v59.86666666666667h-2Z" opacity=".3" aria-label="rok: Jan 01, 2022; value: 449; variable: Končící; opacity: 0.56" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M3.9999999999749525,59.06666666666667h2v0.93333333333333h-2Z" opacity=".8" aria-label="rok: Jan 01, 1900; value: 7; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M6.843628269313145,59.46666666666667h2v0.5333333333333314h-2Z" opacity=".8" aria-label="rok: Jan 01, 1901; value: 4; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M9.687256538651337,58.53333333333333h2v1.4666666666666686h-2Z" opacity=".8" aria-label="rok: Jan 01, 1902; value: 11; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M12.53088480798953,57.333333333333336h2v2.6666666666666643h-2Z" opacity=".8" aria-label="rok: Jan 01, 1903; value: 20; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M15.374513077327723,58.8h2v1.2000000000000028h-2Z" opacity=".8" aria-label="rok: Jan 01, 1904; value: 9; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M18.225932109047662,58.266666666666666h2v1.7333333333333343h-2Z" opacity=".8" aria-label="rok: Jan 01, 1905; value: 13; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M21.069560378385855,57.733333333333334h2v2.2666666666666657h-2Z" opacity=".8" aria-label="rok: Jan 01, 1906; value: 17; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M23.91318864772405,57.599999999999994h2v2.4000000000000057h-2Z" opacity=".8" aria-label="rok: Jan 01, 1907; value: 18; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M26.75681691706224,57.599999999999994h2v2.4000000000000057h-2Z" opacity=".8" aria-label="rok: Jan 01, 1908; value: 18; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M29.608235948782177,57.46666666666666h2v2.5333333333333385h-2Z" opacity=".8" aria-label="rok: Jan 01, 1909; value: 19; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M32.45186421812037,55.6h2v4.399999999999999h-2Z" opacity=".8" aria-label="rok: Jan 01, 1910; value: 33; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M35.29549248745857,56.8h2v3.200000000000003h-2Z" opacity=".8" aria-label="rok: Jan 01, 1911; value: 24; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M38.13912075679676,54.8h2v5.200000000000003h-2Z" opacity=".8" aria-label="rok: Jan 01, 1912; value: 39; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M40.99053978851669,53.46666666666666h2v6.5333333333333385h-2Z" opacity=".8" aria-label="rok: Jan 01, 1913; value: 49; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M43.83416805785489,53.06666666666667h2v6.93333333333333h-2Z" opacity=".8" aria-label="rok: Jan 01, 1914; value: 52; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M46.67779632719308,56.93333333333334h2v3.066666666666663h-2Z" opacity=".8" aria-label="rok: Jan 01, 1915; value: 23; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M49.521424596531276,57.733333333333334h2v2.2666666666666657h-2Z" opacity=".8" aria-label="rok: Jan 01, 1916; value: 17; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M52.37284362825122,55.6h2v4.399999999999999h-2Z" opacity=".8" aria-label="rok: Jan 01, 1917; value: 33; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M55.2164718975894,54.93333333333334h2v5.066666666666663h-2Z" opacity=".8" aria-label="rok: Jan 01, 1918; value: 38; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M58.0601001669276,52.133333333333326h2v7.866666666666674h-2Z" opacity=".8" aria-label="rok: Jan 01, 1919; value: 59; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M60.90372843626579,54.666666666666664h2v5.333333333333336h-2Z" opacity=".8" aria-label="rok: Jan 01, 1920; value: 40; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M63.755147467985736,50.93333333333334h2v9.066666666666663h-2Z" opacity=".8" aria-label="rok: Jan 01, 1921; value: 68; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M66.59877573732392,49.6h2v10.399999999999999h-2Z" opacity=".8" aria-label="rok: Jan 01, 1922; value: 78; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M69.44240400666212,48.800000000000004h2v11.199999999999996h-2Z" opacity=".8" aria-label="rok: Jan 01, 1923; value: 84; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M72.28603227600031,43.06666666666667h2v16.93333333333333h-2Z" opacity=".8" aria-label="rok: Jan 01, 1924; value: 127; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M75.13745130772026,38.53333333333333h2v21.46666666666667h-2Z" opacity=".8" aria-label="rok: Jan 01, 1925; value: 161; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M77.98107957705844,48.266666666666666h2v11.733333333333334h-2Z" opacity=".8" aria-label="rok: Jan 01, 1926; value: 88; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M80.82470784639663,49.46666666666667h2v10.533333333333331h-2Z" opacity=".8" aria-label="rok: Jan 01, 1927; value: 79; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M83.66833611573483,46.266666666666666h2v13.733333333333334h-2Z" opacity=".8" aria-label="rok: Jan 01, 1928; value: 103; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M86.51975514745476,47.46666666666667h2v12.533333333333331h-2Z" opacity=".8" aria-label="rok: Jan 01, 1929; value: 94; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M89.36338341679296,43.46666666666667h2v16.53333333333333h-2Z" opacity=".8" aria-label="rok: Jan 01, 1930; value: 124; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M92.20701168613115,46.800000000000004h2v13.199999999999996h-2Z" opacity=".8" aria-label="rok: Jan 01, 1931; value: 99; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M95.05063995546935,50.266666666666666h2v9.733333333333334h-2Z" opacity=".8" aria-label="rok: Jan 01, 1932; value: 73; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M97.90205898718928,48.266666666666666h2v11.733333333333334h-2Z" opacity=".8" aria-label="rok: Jan 01, 1933; value: 88; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M100.74568725652748,48.93333333333334h2v11.066666666666663h-2Z" opacity=".8" aria-label="rok: Jan 01, 1934; value: 83; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M103.58931552586567,48.4h2v11.600000000000001h-2Z" opacity=".8" aria-label="rok: Jan 01, 1935; value: 87; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M106.43294379520385,44.66666666666667h2v15.333333333333329h-2Z" opacity=".8" aria-label="rok: Jan 01, 1936; value: 115; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M109.2843628269238,44.53333333333333h2v15.466666666666669h-2Z" opacity=".8" aria-label="rok: Jan 01, 1937; value: 116; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M112.127991096262,39.46666666666667h2v20.53333333333333h-2Z" opacity=".8" aria-label="rok: Jan 01, 1938; value: 154; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M114.97161936560019,45.86666666666667h2v14.133333333333333h-2Z" opacity=".8" aria-label="rok: Jan 01, 1939; value: 106; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M117.81524763493837,43.46666666666667h2v16.53333333333333h-2Z" opacity=".8" aria-label="rok: Jan 01, 1940; value: 124; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M120.66634205155907,41.86666666666667h2v18.133333333333333h-2Z" opacity=".8" aria-label="rok: Jan 01, 1941; value: 136; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M123.50997032089727,53.2h2v6.799999999999997h-2Z" opacity=".8" aria-label="rok: Jan 01, 1942; value: 51; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M126.35392320533471,56.13333333333333h2v3.866666666666667h-2Z" opacity=".8" aria-label="rok: Jan 01, 1943; value: 29; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M129.1975514746729,54.4h2v5.600000000000001h-2Z" opacity=".8" aria-label="rok: Jan 01, 1944; value: 42; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M132.04897050639283,51.199999999999996h2v8.800000000000004h-2Z" opacity=".8" aria-label="rok: Jan 01, 1945; value: 66; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M134.89259877573102,40.93333333333334h2v19.066666666666663h-2Z" opacity=".8" aria-label="rok: Jan 01, 1946; value: 143; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M137.73655166016846,32.400000000000006h2v27.599999999999994h-2Z" opacity=".8" aria-label="rok: Jan 01, 1947; value: 207; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M140.5798553144074,16.266666666666666h2v43.733333333333334h-2Z" opacity=".8" aria-label="rok: Jan 01, 1948; value: 328; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M143.43127434612734,42.66666666666667h2v17.33333333333333h-2Z" opacity=".8" aria-label="rok: Jan 01, 1949; value: 130; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M146.27490261546555,53.2h2v6.799999999999997h-2Z" opacity=".8" aria-label="rok: Jan 01, 1950; value: 51; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M149.11853088480373,54.13333333333333h2v5.866666666666667h-2Z" opacity=".8" aria-label="rok: Jan 01, 1951; value: 44; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M151.96215915414194,57.2h2v2.799999999999997h-2Z" opacity=".8" aria-label="rok: Jan 01, 1952; value: 21; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M154.81357818586187,57.2h2v2.799999999999997h-2Z" opacity=".8" aria-label="rok: Jan 01, 1953; value: 21; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M157.65720645520005,58h2v2h-2Z" opacity=".8" aria-label="rok: Jan 01, 1954; value: 15; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M160.50083472453827,57.599999999999994h2v2.4000000000000057h-2Z" opacity=".8" aria-label="rok: Jan 01, 1955; value: 18; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M163.34446299387645,57.46666666666666h2v2.5333333333333385h-2Z" opacity=".8" aria-label="rok: Jan 01, 1956; value: 19; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M166.19588202559638,57.733333333333334h2v2.2666666666666657h-2Z" opacity=".8" aria-label="rok: Jan 01, 1957; value: 17; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M169.0395102949346,57.333333333333336h2v2.6666666666666643h-2Z" opacity=".8" aria-label="rok: Jan 01, 1958; value: 20; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M171.88313856427277,58h2v2h-2Z" opacity=".8" aria-label="rok: Jan 01, 1959; value: 15; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M174.72676683361098,56.266666666666666h2v3.7333333333333343h-2Z" opacity=".8" aria-label="rok: Jan 01, 1960; value: 28; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M177.5781858653309,57.733333333333334h2v2.2666666666666657h-2Z" opacity=".8" aria-label="rok: Jan 01, 1961; value: 17; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M180.4218141346691,57.733333333333334h2v2.2666666666666657h-2Z" opacity=".8" aria-label="rok: Jan 01, 1962; value: 17; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M183.26544240400727,57.599999999999994h2v2.4000000000000057h-2Z" opacity=".8" aria-label="rok: Jan 01, 1963; value: 18; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M186.10907067334546,58h2v2h-2Z" opacity=".8" aria-label="rok: Jan 01, 1964; value: 15; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M188.96048970506544,57.2h2v2.799999999999997h-2Z" opacity=".8" aria-label="rok: Jan 01, 1965; value: 21; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M191.8041179744036,56.4h2v3.6000000000000014h-2Z" opacity=".8" aria-label="rok: Jan 01, 1966; value: 27; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M194.64774624374178,56.53333333333333h2v3.4666666666666686h-2Z" opacity=".8" aria-label="rok: Jan 01, 1967; value: 26; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M197.49137451308,54.53333333333333h2v5.466666666666669h-2Z" opacity=".8" aria-label="rok: Jan 01, 1968; value: 41; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M200.34279354479995,56h2v4h-2Z" opacity=".8" aria-label="rok: Jan 01, 1969; value: 30; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M203.1864218141381,54.666666666666664h2v5.333333333333336h-2Z" opacity=".8" aria-label="rok: Jan 01, 1970; value: 40; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M206.0300500834763,55.333333333333336h2v4.666666666666664h-2Z" opacity=".8" aria-label="rok: Jan 01, 1971; value: 35; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M208.8736783528145,55.86666666666667h2v4.133333333333333h-2Z" opacity=".8" aria-label="rok: Jan 01, 1972; value: 31; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M211.72509738453442,57.2h2v2.799999999999997h-2Z" opacity=".8" aria-label="rok: Jan 01, 1973; value: 21; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M214.56872565387263,56.4h2v3.6000000000000014h-2Z" opacity=".8" aria-label="rok: Jan 01, 1974; value: 27; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M217.41235392321082,57.86666666666667h2v2.133333333333333h-2Z" opacity=".8" aria-label="rok: Jan 01, 1975; value: 16; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M220.25598219254903,57.733333333333334h2v2.2666666666666657h-2Z" opacity=".8" aria-label="rok: Jan 01, 1976; value: 17; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M223.10740122426895,56.8h2v3.200000000000003h-2Z" opacity=".8" aria-label="rok: Jan 01, 1977; value: 24; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M225.95102949360714,58h2v2h-2Z" opacity=".8" aria-label="rok: Jan 01, 1978; value: 15; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M228.79465776294535,57.46666666666666h2v2.5333333333333385h-2Z" opacity=".8" aria-label="rok: Jan 01, 1979; value: 19; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M231.63828603228353,57.2h2v2.799999999999997h-2Z" opacity=".8" aria-label="rok: Jan 01, 1980; value: 21; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M234.48970506400346,55.333333333333336h2v4.666666666666664h-2Z" opacity=".8" aria-label="rok: Jan 01, 1981; value: 35; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M237.33333333334167,56.13333333333333h2v3.866666666666667h-2Z" opacity=".8" aria-label="rok: Jan 01, 1982; value: 29; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M240.17696160267985,54.13333333333333h2v5.866666666666667h-2Z" opacity=".8" aria-label="rok: Jan 01, 1983; value: 44; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M243.02058987201806,56.13333333333333h2v3.866666666666667h-2Z" opacity=".8" aria-label="rok: Jan 01, 1984; value: 29; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M245.872008903738,56.4h2v3.6000000000000014h-2Z" opacity=".8" aria-label="rok: Jan 01, 1985; value: 27; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M248.71563717307617,53.33333333333333h2v6.666666666666671h-2Z" opacity=".8" aria-label="rok: Jan 01, 1986; value: 50; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M251.5592654424144,52.4h2v7.600000000000001h-2Z" opacity=".8" aria-label="rok: Jan 01, 1987; value: 57; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M254.40289371175257,52.133333333333326h2v7.866666666666674h-2Z" opacity=".8" aria-label="rok: Jan 01, 1988; value: 59; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M257.2543127434725,44.266666666666666h2v15.733333333333334h-2Z" opacity=".8" aria-label="rok: Jan 01, 1989; value: 118; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M260.0979410128107,43.199999999999996h2v16.800000000000004h-2Z" opacity=".8" aria-label="rok: Jan 01, 1990; value: 126; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M262.9415692821489,44.8h2v15.200000000000003h-2Z" opacity=".8" aria-label="rok: Jan 01, 1991; value: 114; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M265.7851975514871,40.66666666666667h2v19.33333333333333h-2Z" opacity=".8" aria-label="rok: Jan 01, 1992; value: 145; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M268.636616583207,46.53333333333333h2v13.466666666666669h-2Z" opacity=".8" aria-label="rok: Jan 01, 1993; value: 101; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M271.48024485254524,48.53333333333333h2v11.466666666666669h-2Z" opacity=".8" aria-label="rok: Jan 01, 1994; value: 86; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M274.3238731218834,46.666666666666664h2v13.333333333333336h-2Z" opacity=".8" aria-label="rok: Jan 01, 1995; value: 100; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M277.1675013912216,46.800000000000004h2v13.199999999999996h-2Z" opacity=".8" aria-label="rok: Jan 01, 1996; value: 99; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M280.01892042294156,45.46666666666667h2v14.533333333333331h-2Z" opacity=".8" aria-label="rok: Jan 01, 1997; value: 109; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M282.86254869227974,45.733333333333334h2v14.266666666666666h-2Z" opacity=".8" aria-label="rok: Jan 01, 1998; value: 107; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M285.7061769616179,44.13333333333333h2v15.866666666666667h-2Z" opacity=".8" aria-label="rok: Jan 01, 1999; value: 119; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M288.5498052309561,44.8h2v15.200000000000003h-2Z" opacity=".8" aria-label="rok: Jan 01, 2000; value: 114; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M291.40122426267607,41.6h2v18.4h-2Z" opacity=".78" aria-label="rok: Jan 01, 2001; value: 138; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 0.98" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M294.24485253201425,37.46666666666667h2v22.53333333333333h-2Z" opacity=".75" aria-label="rok: Jan 01, 2002; value: 169; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 0.96" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M297.08848080135243,42.800000000000004h2v17.199999999999996h-2Z" opacity=".73" aria-label="rok: Jan 01, 2003; value: 129; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 0.94" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M299.9321090706907,41.06666666666666h2v18.933333333333337h-2Z" opacity=".71" aria-label="rok: Jan 01, 2004; value: 142; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 0.92" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M302.78352810241057,43.06666666666667h2v16.93333333333333h-2Z" opacity=".69" aria-label="rok: Jan 01, 2005; value: 127; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 0.9" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M305.62715637174875,40.13333333333333h2v19.866666666666667h-2Z" opacity=".66" aria-label="rok: Jan 01, 2006; value: 149; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 0.88" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M308.470784641087,40.53333333333333h2v19.46666666666667h-2Z" opacity=".64" aria-label="rok: Jan 01, 2007; value: 146; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 0.86" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M311.3144129104252,37.6h2v22.4h-2Z" opacity=".62" aria-label="rok: Jan 01, 2008; value: 168; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 0.84" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M314.1658319421451,37.866666666666674h2v22.133333333333326h-2Z" opacity=".6" aria-label="rok: Jan 01, 2009; value: 166; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 0.82" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M317.0094602114833,30.399999999999995h2v29.600000000000005h-2Z" opacity=".57" aria-label="rok: Jan 01, 2010; value: 222; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 0.8" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M319.8530884808215,30.399999999999995h2v29.600000000000005h-2Z" opacity=".55" aria-label="rok: Jan 01, 2011; value: 222; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 0.78" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M322.6967167501597,26.666666666666664h2v33.333333333333336h-2Z" opacity=".53" aria-label="rok: Jan 01, 2012; value: 250; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 0.76" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M325.54813578187964,28.133333333333333h2v31.866666666666667h-2Z" opacity=".5" aria-label="rok: Jan 01, 2013; value: 239; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 0.74" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M328.3917640512178,14.800000000000002h2v45.199999999999996h-2Z" opacity=".48" aria-label="rok: Jan 01, 2014; value: 339; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 0.72" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M331.235392320556,21.200000000000003h2v38.8h-2Z" opacity=".46" aria-label="rok: Jan 01, 2015; value: 291; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 0.7" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M334.0790205898942,31.33333333333333h2v28.66666666666667h-2Z" opacity=".44" aria-label="rok: Jan 01, 2016; value: 215; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 0.68" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M336.93043962161414,29.066666666666666h2v30.933333333333334h-2Z" opacity=".41" aria-label="rok: Jan 01, 2017; value: 232; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 0.66" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M339.7740678909523,19.06666666666667h2v40.93333333333333h-2Z" opacity=".39" aria-label="rok: Jan 01, 2018; value: 307; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 0.64" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M342.6176961602905,20.000000000000004h2v40h-2Z" opacity=".37" aria-label="rok: Jan 01, 2019; value: 300; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 0.62" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M345.4613244296287,17.866666666666667h2v42.13333333333333h-2Z" opacity=".35" aria-label="rok: Jan 01, 2020; value: 316; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 0.6" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M348.31274346134865,11.86666666666667h2v48.133333333333326h-2Z" opacity=".32" aria-label="rok: Jan 01, 2021; value: 361; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 0.58" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M351.1563717306868,0.1333333333333342h2v59.86666666666667h-2Z" opacity=".3" aria-label="rok: Jan 01, 2022; value: 449; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 0.56" aria-roledescription="bar" role="graphics-symbol"/>
          </ns1:g>
          <ns1:g class="mark-group role-title">
           <ns1:g transform="translate(0,-20)">
            <ns1:path class="background" d="M0,0h0v0h0Z" pointer-events="none" aria-hidden="true"/>
            <ns1:g>
-            <ns1:g class="mark-text role-title-text" pointer-events="none" aria-label="Title text 'Končící'" aria-roledescription="title" role="graphics-symbol">
-             <ns1:text transform="translate(0,-2)" fill="#000" font-family="Asap" font-size="10px" font-weight="500">Končící</ns1:text>
+            <ns1:g class="mark-text role-title-text" pointer-events="none" aria-label="Title text 'Nakladatelství, která vydala svoji (k roku 2025) poslední knihu'" aria-roledescription="title" role="graphics-symbol">
+             <ns1:text transform="translate(0,-2)" fill="#000" font-family="Asap" font-size="10px" font-weight="500">Nakladatelství, která vydala svoji (k roku 2025) poslední knihu</ns1:text>
             </ns1:g>
            </ns1:g>
            <ns1:path class="foreground" d="" display="none" pointer-events="none" aria-hidden="true"/>
@@ -607,18 +607,17 @@
        </ns1:g>
       </ns1:g>
       <ns1:g class="mark-group role-title">
-       <ns1:g transform="translate(-5.6 -117)" pointer-events="none">
+       <ns1:g transform="translate(-5.6 -102)" pointer-events="none">
         <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
         <ns1:g>
          <ns1:g class="mark-text role-title-text" aria-label="Title text 'Kolik různých nakladatelství vydávalo knihy'" aria-roledescription="title" role="graphics-symbol">
           <ns1:text transform="translate(0,-1)" fill="#000" font-family="Noticia Text" font-size="12px" font-weight="bolder">Kolik různých nakladatelství vydávalo knihy</ns1:text>
          </ns1:g>
-         <ns1:g class="mark-text role-title-subtitle" aria-label="Subtitle text 'Historicky nejpestřejší byla nakladatelská scéna v desátých létech, následovaná obdobím první republiky. Vývoj končících nakladatelství po roce 2000 zprůhledňujeme, neboť zde začíná být zkreslený (směrem nahoru) pauzujícími nakladateli.'" aria-roledescription="subtitle" role="graphics-symbol">
+         <ns1:g class="mark-text role-title-subtitle" aria-label="Subtitle text 'Nejpestřejší byla nakladatelská scéna v 90. letech, následovaná obdobím první republiky. Vývoj končících nakladatelství začíná být po roce 2000 zkreslený (směrem vzhůru) pauzujícími nakladateli.'" aria-roledescription="subtitle" role="graphics-symbol">
           <ns1:text transform="translate(0,20)" fill="#000" font-family="Noticia Text" font-size="10px">
-           <ns1:tspan>Historicky nejpestřejší byla nakladatelská scéna v desátých létech,</ns1:tspan>
-           <ns1:tspan x="0" dy="15">následovaná obdobím první republiky. Vývoj končících nakladatelství</ns1:tspan>
-           <ns1:tspan x="0" dy="15">po roce 2000 zprůhledňujeme, neboť zde začíná být zkreslený (směrem</ns1:tspan>
-           <ns1:tspan x="0" dy="15">nahoru) pauzujícími nakladateli.</ns1:tspan>
+           <ns1:tspan>Nejpestřejší byla nakladatelská scéna v 90. letech, následovaná</ns1:tspan>
+           <ns1:tspan x="0" dy="15">obdobím první republiky. Vývoj končících nakladatelství začíná být</ns1:tspan>
+           <ns1:tspan x="0" dy="15">po roce 2000 zkreslený (směrem vzhůru) pauzujícími nakladateli.</ns1:tspan>
           </ns1:text>
          </ns1:g>
         </ns1:g>
@@ -631,7 +630,7 @@
    </ns1:g>
   </ns1:g>
  </g>
- <g transform="translate(129,465)">
+ <g transform="translate(159,450)">
   <ns0:rect width="240" height="40" fill="white" xmlns:ns0="http://www.w3.org/2000/svg"/>
   <ns1:g transform="translate(35,5)" fill="none" stroke-miterlimit="10" xmlns:ns1="http://www.w3.org/2000/svg">
    <ns1:g class="mark-group role-frame root" aria-roledescription="group mark container" role="graphics-object">

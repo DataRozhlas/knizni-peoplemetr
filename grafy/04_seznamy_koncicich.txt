@@ -1,0 +1,5 @@
+<figure>
+    <a href="https://data.irozhlas.cz/knihy-grafy/04_seznamy_koncicich.svg" target="_blank">
+    <img src="https://data.irozhlas.cz/knihy-grafy/04_seznamy_koncicich.svg" width="100%" alt="Omlouváme se, ale alternativní text se nepodařilo vygenerovat. Texty v grafu by měly být čitelné ze zdrojového souboru SVG." />
+    </a>
+    </figure>

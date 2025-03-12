@@ -1,5 +1,5 @@
 <figure>
     <a href="https://data.irozhlas.cz/knihy-grafy/02_zkusenosti.svg" target="_blank">
-    <img src="https://data.irozhlas.cz/knihy-grafy/02_zkusenosti.svg" width="100%" alt="Graf s titulkem „['Co měli čeští autoři za sebou nebo před sebou']“. Další texty by měly být čitelné ze zdrojového souboru SVG." />
+    <img src="https://data.irozhlas.cz/knihy-grafy/02_zkusenosti.svg" width="100%" alt="Graf s titulkem „['Kolik českých autorů mělo za sebou nebo před sebou…']“. Další texty by měly být čitelné ze zdrojového souboru SVG." />
     </a>
     </figure>

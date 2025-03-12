@@ -1,0 +1,5 @@
+<figure>
+    <a href="https://data.irozhlas.cz/knihy-grafy/05_prvni_zeny.svg" target="_blank">
+    <img src="https://data.irozhlas.cz/knihy-grafy/05_prvni_zeny.svg" width="100%" alt="Graf s titulkem „['Prvních deset českých spisovatelek']“. Další texty by měly být čitelné ze zdrojového souboru SVG." />
+    </a>
+    </figure>

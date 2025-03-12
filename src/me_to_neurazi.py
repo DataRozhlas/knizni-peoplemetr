@@ -15,10 +15,10 @@ def me_to_neurazi(
             svg2 = etree.parse(f)
         root1 = svg1.getroot()
         root2 = svg2.getroot()
-        width1 = int(root1.get("width", "0").replace("px", ""))
-        height1 = int(root1.get("height", "0").replace("px", ""))
-        width2 = int(root2.get("width", "0").replace("px", ""))
-        height2 = int(root2.get("height", "0").replace("px", ""))
+        width1 = int(root1.get("width", "0").replace("px", "").split('.')[0])
+        height1 = int(root1.get("height", "0").replace("px", "").split('.')[0])
+        width2 = int(root2.get("width", "0").replace("px", "").split('.')[0])
+        height2 = int(root2.get("height", "0").replace("px", "").split('.')[0])
         new_width = max(width1, width2)
         new_height = height1 + height2
         new_svg = etree.Element(
@@ -62,10 +62,10 @@ def me_to_neurazi(
 
     spodni = pl.DataFrame({"text": [kredity]})
     spodni = (
-        alt.Chart(spodni.to_pandas(), width=200, height=30)
+        alt.Chart(spodni.to_pandas(), width=200, height=15, padding=0)
         .encode(x=alt.value(200), text=alt.Text("text:N"))
         .mark_text(
-            fontSize=8, font="Asap", baseline="line-bottom", align="right", dx=0
+            fontSize=8, font="Asap", baseline="line-top", align="right", dx=0
         )
         .configure_view(stroke="transparent")
     )

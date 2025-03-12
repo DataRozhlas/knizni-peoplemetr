@@ -1,0 +1,5 @@
+<figure>
+    <a href="https://data.irozhlas.cz/knihy-grafy/05_vekova_struktura.svg" target="_blank">
+    <img src="https://data.irozhlas.cz/knihy-grafy/05_vekova_struktura.svg" width="100%" alt="Graf s titulkem „Věková struktura českých spisovatelů a spisovatelek“. Další texty by měly být čitelné ze zdrojového souboru SVG." />
+    </a>
+    </figure>

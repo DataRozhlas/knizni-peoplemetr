@@ -1,0 +1,5 @@
+<figure>
+    <a href="https://data.irozhlas.cz/knihy-grafy/05_muzska_zenska_slova.svg" target="_blank">
+    <img src="https://data.irozhlas.cz/knihy-grafy/05_muzska_zenska_slova.svg" width="100%" alt="Graf s titulkem „Spisovatelky píšou častěji o ženách, muži o střelbě“. Další texty by měly být čitelné ze zdrojového souboru SVG." />
+    </a>
+    </figure>

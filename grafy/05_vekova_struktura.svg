@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 392 269" xmlns="http://www.w3.org/2000/svg">
+ <rect width="392" height="269" fill="#fff"/>
+ <g transform="translate(0)">
+  <ns0:rect width="392" height="229" fill="white" xmlns:ns0="http://www.w3.org/2000/svg"/>
+  <ns1:g transform="translate(5,112)" fill="none" stroke-miterlimit="10" xmlns:ns1="http://www.w3.org/2000/svg">
+   <ns1:g class="mark-group role-frame root" aria-roledescription="group mark container" role="graphics-object">
+    <ns1:g transform="translate(0)">
+     <ns1:path class="background" d="M0.5,0.5h360v96h-360Z" aria-hidden="true"/>
+     <ns1:g>
+      <ns1:g class="mark-group role-axis" aria-label="X-axis for a linear scale with values from 14 to 96" aria-roledescription="axis" role="graphics-symbol">
+       <ns1:g transform="translate(.5 96)" pointer-events="none">
+        <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
+        <ns1:g>
+         <ns1:g class="mark-rule role-axis-tick" stroke="#DCDDD6">
+          <ns1:line transform="translate(27)" x2="0" y2="5"/>
+          <ns1:line transform="translate(71)" x2="0" y2="5"/>
+          <ns1:line transform="translate(114)" x2="0" y2="5"/>
+          <ns1:line transform="translate(158)" x2="0" y2="5"/>
+          <ns1:line transform="translate(202)" x2="0" y2="5"/>
+          <ns1:line transform="translate(246)" x2="0" y2="5"/>
+          <ns1:line transform="translate(289)" x2="0" y2="5"/>
+          <ns1:line transform="translate(333)" x2="0" y2="5"/>
+         </ns1:g>
+         <ns1:g class="mark-text role-axis-label" fill="#000" font-family="Asap" font-size="9px" text-anchor="middle">
+          <ns1:text transform="translate(27 14)">20</ns1:text>
+          <ns1:text transform="translate(71 14)">30</ns1:text>
+          <ns1:text transform="translate(114 14)">40</ns1:text>
+          <ns1:text transform="translate(158 14)">50</ns1:text>
+          <ns1:text transform="translate(202 14)">60</ns1:text>
+          <ns1:text transform="translate(246 14)">70</ns1:text>
+          <ns1:text transform="translate(289 14)">80</ns1:text>
+          <ns1:text transform="translate(333 14)">90</ns1:text>
+         </ns1:g>
+        </ns1:g>
+        <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
+       </ns1:g>
+      </ns1:g>
+      <ns1:g class="mark-group role-axis" aria-label="Y-axis for a linear scale with values from 1 to 196" aria-roledescription="axis" role="graphics-symbol">
+       <ns1:g transform="translate(360 .5)" pointer-events="none">
+        <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
+        <ns1:g>
+         <ns1:g class="mark-rule role-axis-tick" stroke="#DCDDD6">
+          <ns1:line transform="translate(0,72)" x2="5" y2="0"/>
+          <ns1:line transform="translate(0,47)" x2="5" y2="0"/>
+          <ns1:line transform="translate(0,23)" x2="5" y2="0"/>
+         </ns1:g>
+         <ns1:g class="mark-text role-axis-label" fill="#000" font-family="Asap" font-size="9px">
+          <ns1:text transform="translate(7 75)">50</ns1:text>
+          <ns1:text transform="translate(7 50)">100</ns1:text>
+          <ns1:text transform="translate(7 26)">150</ns1:text>
+         </ns1:g>
+        </ns1:g>
+        <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
+       </ns1:g>
+      </ns1:g>
+      <ns1:g class="mark-rect role-mark marks" aria-roledescription="rect mark container" role="graphics-object">
+       <ns1:path d="M2.499999999999983,95.83589743589744h5v0.6564102564102541h-5Z" fill="#81A9D5" opacity=".5" aria-label="vek: 15; len: 1.33333333333; gender: muži" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M6.874999999999982,95.01538461538462h5v1.4769230769230717h-5Z" fill="#81A9D5" opacity=".5" aria-label="vek: 16; len: 3; gender: muži" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M11.249999999999984,93.7025641025641h5v2.789743589743594h-5Z" fill="#81A9D5" opacity=".5" aria-label="vek: 17; len: 5.66666666667; gender: muži" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M15.624999999999982,92.71794871794872h5v3.774358974358975h-5Z" fill="#81A9D5" opacity=".5" aria-label="vek: 18; len: 7.66666666667; gender: muži" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M19.999999999999986,92.38974358974359h5v4.102564102564102h-5Z" fill="#81A9D5" opacity=".5" aria-label="vek: 19; len: 8.33333333333; gender: muži" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M24.374999999999986,91.07692307692307h5v5.415384615384625h-5Z" fill="#81A9D5" opacity=".5" aria-label="vek: 20; len: 11; gender: muži" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M28.749999999999982,87.3025641025641h5v9.189743589743586h-5Z" fill="#81A9D5" opacity=".5" aria-label="vek: 21; len: 18.6666666667; gender: muži" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M33.124999999999986,84.18461538461538h5v12.307692307692307h-5Z" fill="#81A9D5" opacity=".5" aria-label="vek: 22; len: 25; gender: muži" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M37.499999999999986,80.41025641025641h5v16.08205128205128h-5Z" fill="#81A9D5" opacity=".5" aria-label="vek: 23; len: 32.6666666667; gender: muži" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M41.874999999999986,78.76923076923077h5v17.723076923076917h-5Z" fill="#81A9D5" opacity=".5" aria-label="vek: 24; len: 36; gender: muži" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M46.249999999999986,75.65128205128205h5v20.841025641025638h-5Z" fill="#81A9D5" opacity=".5" aria-label="vek: 25; len: 42.3333333333; gender: muži" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M50.62499999999999,71.38461538461539h5v25.107692307692304h-5Z" fill="#81A9D5" opacity=".5" aria-label="vek: 26; len: 51; gender: muži" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M54.999999999999986,66.62564102564102h5v29.866666666666674h-5Z" fill="#81A9D5" opacity=".5" aria-label="vek: 27; len: 60.6666666667; gender: muži" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M59.37499999999999,61.210256410256406h5v35.282051282051285h-5Z" fill="#81A9D5" opacity=".5" aria-label="vek: 28; len: 71.6666666667; gender: muži" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M63.749999999999986,56.123076923076916h5v40.369230769230775h-5Z" fill="#81A9D5" opacity=".5" aria-label="vek: 29; len: 82; gender: muži" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M68.12499999999999,50.21538461538461h5v46.27692307692308h-5Z" fill="#81A9D5" opacity=".5" aria-label="vek: 30; len: 94; gender: muži" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M72.5,46.93333333333332h5v49.55897435897437h-5Z" fill="#81A9D5" opacity=".5" aria-label="vek: 31; len: 100.666666667; gender: muži" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M76.87499999999999,46.44102564102563h5v50.05128205128206h-5Z" fill="#81A9D5" opacity=".5" aria-label="vek: 32; len: 101.666666667; gender: muži" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M81.24999999999999,44.47179487179487h5v52.02051282051282h-5Z" fill="#81A9D5" opacity=".5" aria-label="vek: 33; len: 105.666666667; gender: muži" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M85.62499999999999,39.712820512820514h5v56.77948717948718h-5Z" fill="#81A9D5" opacity=".5" aria-label="vek: 34; len: 115.333333333; gender: muži" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M89.99999999999999,34.2974358974359h5v62.19487179487179h-5Z" fill="#81A9D5" opacity=".5" aria-label="vek: 35; len: 126.333333333; gender: muži" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M94.375,29.210256410256413h5v67.28205128205127h-5Z" fill="#81A9D5" opacity=".5" aria-label="vek: 36; len: 136.666666667; gender: muži" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M98.75,29.04615384615385h5v67.44615384615383h-5Z" fill="#81A9D5" opacity=".5" aria-label="vek: 37; len: 137; gender: muži" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M103.12499999999999,27.73333333333334h5v68.75897435897434h-5Z" fill="#81A9D5" opacity=".5" aria-label="vek: 38; len: 139.666666667; gender: muži" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M107.49999999999999,28.225641025641032h5v68.26666666666665h-5Z" fill="#81A9D5" opacity=".5" aria-label="vek: 39; len: 138.666666667; gender: muži" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M111.875,25.600000000000005h5v70.89230769230768h-5Z" fill="#81A9D5" opacity=".5" aria-label="vek: 40; len: 144; gender: muži" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M116.25,20.34871794871795h5v76.14358974358974h-5Z" fill="#81A9D5" opacity=".5" aria-label="vek: 41; len: 154.666666667; gender: muži" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M120.625,24.287179487179497h5v72.20512820512819h-5Z" fill="#81A9D5" opacity=".5" aria-label="vek: 42; len: 146.666666667; gender: muži" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M124.99999999999999,26.092307692307696h5v70.39999999999999h-5Z" fill="#81A9D5" opacity=".5" aria-label="vek: 43; len: 143; gender: muži" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M129.375,31.507692307692313h5v64.98461538461538h-5Z" fill="#81A9D5" opacity=".5" aria-label="vek: 44; len: 132; gender: muži" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M133.75,26.092307692307696h5v70.39999999999999h-5Z" fill="#81A9D5" opacity=".5" aria-label="vek: 45; len: 143; gender: muži" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M138.125,24.287179487179497h5v72.20512820512819h-5Z" fill="#81A9D5" opacity=".5" aria-label="vek: 46; len: 146.666666667; gender: muži" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M142.5,16.902564102564106h5v79.58974358974359h-5Z" fill="#81A9D5" opacity=".5" aria-label="vek: 47; len: 161.666666667; gender: muži" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M146.875,15.26153846153846h5v81.23076923076923h-5Z" fill="#81A9D5" opacity=".5" aria-label="vek: 48; len: 165; gender: muži" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M151.25,12.307692307692307h5v84.18461538461538h-5Z" fill="#81A9D5" opacity=".5" aria-label="vek: 49; len: 171; gender: muži" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M155.625,13.292307692307688h5v83.2h-5Z" fill="#81A9D5" opacity=".5" aria-label="vek: 50; len: 169; gender: muži" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M160,13.128205128205124h5v83.36410256410257h-5Z" fill="#81A9D5" opacity=".5" aria-label="vek: 51; len: 169.333333333; gender: muži" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M164.375,15.097435897435897h5v81.39487179487179h-5Z" fill="#81A9D5" opacity=".5" aria-label="vek: 52; len: 165.333333333; gender: muži" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M168.75,18.37948717948719h5v78.1128205128205h-5Z" fill="#81A9D5" opacity=".5" aria-label="vek: 53; len: 158.666666667; gender: muži" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M173.125,17.06666666666666h5v79.42564102564103h-5Z" fill="#81A9D5" opacity=".5" aria-label="vek: 54; len: 161.333333333; gender: muži" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M177.5,10.830769230769235h5v85.66153846153846h-5Z" fill="#81A9D5" opacity=".5" aria-label="vek: 55; len: 174; gender: muži" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M181.875,7.220512820512816h5v89.27179487179487h-5Z" fill="#81A9D5" opacity=".5" aria-label="vek: 56; len: 181.333333333; gender: muži" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M186.25,2.2974358974358893h5v94.1948717948718h-5Z" fill="#81A9D5" opacity=".5" aria-label="vek: 57; len: 191.333333333; gender: muži" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M190.625,4.266666666666662h5v92.22564102564102h-5Z" fill="#81A9D5" opacity=".5" aria-label="vek: 58; len: 187.333333333; gender: muži" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M195.00000000000003,3.7743589743589716h5v92.71794871794872h-5Z" fill="#81A9D5" opacity=".5" aria-label="vek: 59; len: 188.333333333; gender: muži" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M199.37499999999997,6.399999999999999h5v90.09230769230768h-5Z" fill="#81A9D5" opacity=".5" aria-label="vek: 60; len: 183; gender: muži" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M203.75,6.728205128205126h5v89.76410256410256h-5Z" fill="#81A9D5" opacity=".5" aria-label="vek: 61; len: 182.333333333; gender: muži" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M208.125,7.220512820512816h5v89.27179487179487h-5Z" fill="#81A9D5" opacity=".5" aria-label="vek: 62; len: 181.333333333; gender: muži" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M212.5,12.143589743589743h5v84.34871794871795h-5Z" fill="#81A9D5" opacity=".5" aria-label="vek: 63; len: 171.333333333; gender: muži" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M216.875,8.205128205128197h5v88.28717948717949h-5Z" fill="#81A9D5" opacity=".5" aria-label="vek: 64; len: 179.333333333; gender: muži" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M221.25,6.564102564102573h5v89.92820512820512h-5Z" fill="#81A9D5" opacity=".5" aria-label="vek: 65; len: 182.666666667; gender: muži" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M225.625,1.969230769230773h5v94.52307692307691h-5Z" fill="#81A9D5" opacity=".5" aria-label="vek: 66; len: 192; gender: muži" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M230,2.4615384615384635h5v94.03076923076922h-5Z" fill="#81A9D5" opacity=".5" aria-label="vek: 67; len: 191; gender: muži" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M234.37500000000003,4.266666666666662h5v92.22564102564102h-5Z" fill="#81A9D5" opacity=".5" aria-label="vek: 68; len: 187.333333333; gender: muži" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M238.75000000000003,4.430769230769226h5v92.06153846153846h-5Z" fill="#81A9D5" opacity=".5" aria-label="vek: 69; len: 187; gender: muži" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M243.125,0.32820512820512704h5v96.16410256410256h-5Z" fill="#81A9D5" opacity=".5" aria-label="vek: 70; len: 195.333333333; gender: muži" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M247.5,2.953846153846154h5v93.53846153846153h-5Z" fill="#81A9D5" opacity=".5" aria-label="vek: 71; len: 190; gender: muži" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M251.875,2.4615384615384635h5v94.03076923076922h-5Z" fill="#81A9D5" opacity=".5" aria-label="vek: 72; len: 191; gender: muži" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M256.25,10.502564102564108h5v85.98974358974358h-5Z" fill="#81A9D5" opacity=".5" aria-label="vek: 73; len: 174.666666667; gender: muži" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M260.625,11.651282051282042h5v84.84102564102565h-5Z" fill="#81A9D5" opacity=".5" aria-label="vek: 74; len: 172.333333333; gender: muži" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M265,15.589743589743588h5v80.9025641025641h-5Z" fill="#81A9D5" opacity=".5" aria-label="vek: 75; len: 164.333333333; gender: muži" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M269.375,17.55897435897435h5v78.93333333333334h-5Z" fill="#81A9D5" opacity=".5" aria-label="vek: 76; len: 160.333333333; gender: muži" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M273.75,18.707692307692305h5v77.78461538461539h-5Z" fill="#81A9D5" opacity=".5" aria-label="vek: 77; len: 158; gender: muži" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M278.125,26.092307692307696h5v70.39999999999999h-5Z" fill="#81A9D5" opacity=".5" aria-label="vek: 78; len: 143; gender: muži" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M282.5,35.93846153846154h5v60.55384615384615h-5Z" fill="#81A9D5" opacity=".5" aria-label="vek: 79; len: 123; gender: muži" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M286.875,41.353846153846156h5v55.138461538461534h-5Z" fill="#81A9D5" opacity=".5" aria-label="vek: 80; len: 112; gender: muži" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M291.25,46.769230769230774h5v49.72307692307692h-5Z" fill="#81A9D5" opacity=".5" aria-label="vek: 81; len: 101; gender: muži" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M295.625,49.55897435897435h5v46.93333333333334h-5Z" fill="#81A9D5" opacity=".5" aria-label="vek: 82; len: 95.3333333333; gender: muži" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M300,56.28717948717948h5v40.20512820512821h-5Z" fill="#81A9D5" opacity=".5" aria-label="vek: 83; len: 81.6666666667; gender: muži" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M304.375,61.866666666666674h5v34.625641025641016h-5Z" fill="#81A9D5" opacity=".5" aria-label="vek: 84; len: 70.3333333333; gender: muži" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M308.75,67.93846153846152h5v28.553846153846166h-5Z" fill="#81A9D5" opacity=".5" aria-label="vek: 85; len: 58; gender: muži" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M313.125,72.2051282051282h5v24.287179487179486h-5Z" fill="#81A9D5" opacity=".5" aria-label="vek: 86; len: 49.3333333333; gender: muži" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M317.5,73.84615384615384h5v22.64615384615385h-5Z" fill="#81A9D5" opacity=".5" aria-label="vek: 87; len: 46; gender: muži" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M321.875,75.9794871794872h5v20.512820512820497h-5Z" fill="#81A9D5" opacity=".5" aria-label="vek: 88; len: 41.6666666667; gender: muži" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M326.25000000000006,78.93333333333334h5v17.558974358974353h-5Z" fill="#81A9D5" opacity=".5" aria-label="vek: 89; len: 35.6666666667; gender: muži" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M330.625,82.54358974358975h5v13.948717948717942h-5Z" fill="#81A9D5" opacity=".5" aria-label="vek: 90; len: 28.3333333333; gender: muži" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M335,85.33333333333333h5v11.158974358974362h-5Z" fill="#81A9D5" opacity=".5" aria-label="vek: 91; len: 22.6666666667; gender: muži" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M339.375,89.1076923076923h5v7.384615384615387h-5Z" fill="#81A9D5" opacity=".5" aria-label="vek: 92; len: 15; gender: muži" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M343.75,91.07692307692307h5v5.415384615384625h-5Z" fill="#81A9D5" opacity=".5" aria-label="vek: 93; len: 11; gender: muži" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M348.125,93.37435897435897h5v3.117948717948721h-5Z" fill="#81A9D5" opacity=".5" aria-label="vek: 94; len: 6.33333333333; gender: muži" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M2.499999999999983,92.06153846153846h5v4.430769230769229h-5Z" fill="#D6534B" opacity=".5" aria-label="vek: 15; len: 9; gender: ženy" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M6.874999999999982,90.9128205128205h5v5.579487179487188h-5Z" fill="#D6534B" opacity=".5" aria-label="vek: 16; len: 11.3333333333; gender: ženy" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M11.249999999999984,89.43589743589743h5v7.05641025641026h-5Z" fill="#D6534B" opacity=".5" aria-label="vek: 17; len: 14.3333333333; gender: ženy" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M15.624999999999982,88.45128205128205h5v8.04102564102564h-5Z" fill="#D6534B" opacity=".5" aria-label="vek: 18; len: 16.3333333333; gender: ženy" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M19.999999999999986,84.51282051282051h5v11.97948717948718h-5Z" fill="#D6534B" opacity=".5" aria-label="vek: 19; len: 24.3333333333; gender: ženy" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M24.374999999999986,81.06666666666666h5v15.425641025641028h-5Z" fill="#D6534B" opacity=".5" aria-label="vek: 20; len: 31.3333333333; gender: ženy" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M28.749999999999982,77.78461538461539h5v18.707692307692298h-5Z" fill="#D6534B" opacity=".5" aria-label="vek: 21; len: 38; gender: ženy" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M33.124999999999986,77.45641025641027h5v19.035897435897425h-5Z" fill="#D6534B" opacity=".5" aria-label="vek: 22; len: 38.6666666667; gender: ženy" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M37.499999999999986,77.94871794871796h5v18.543589743589735h-5Z" fill="#D6534B" opacity=".5" aria-label="vek: 23; len: 37.6666666667; gender: ženy" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M41.874999999999986,76.80000000000001h5v19.69230769230768h-5Z" fill="#D6534B" opacity=".5" aria-label="vek: 24; len: 40; gender: ženy" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M46.249999999999986,74.01025641025642h5v22.482051282051273h-5Z" fill="#D6534B" opacity=".5" aria-label="vek: 25; len: 45.6666666667; gender: ženy" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M50.62499999999999,69.08717948717948h5v27.405128205128207h-5Z" fill="#D6534B" opacity=".5" aria-label="vek: 26; len: 55.6666666667; gender: ženy" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M54.999999999999986,65.64102564102564h5v30.851282051282055h-5Z" fill="#D6534B" opacity=".5" aria-label="vek: 27; len: 62.6666666667; gender: ženy" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M59.37499999999999,63.01538461538462h5v33.47692307692307h-5Z" fill="#D6534B" opacity=".5" aria-label="vek: 28; len: 68; gender: ženy" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M63.749999999999986,58.91282051282052h5v37.579487179487174h-5Z" fill="#D6534B" opacity=".5" aria-label="vek: 29; len: 76.3333333333; gender: ženy" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M68.12499999999999,53.825641025641026h5v42.666666666666664h-5Z" fill="#D6534B" opacity=".5" aria-label="vek: 30; len: 86.6666666667; gender: ženy" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M72.5,42.33846153846154h5v54.15384615384615h-5Z" fill="#D6534B" opacity=".5" aria-label="vek: 31; len: 110; gender: ženy" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M76.87499999999999,37.08717948717948h5v59.40512820512821h-5Z" fill="#D6534B" opacity=".5" aria-label="vek: 32; len: 120.666666667; gender: ženy" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M81.24999999999999,32.98461538461538h5v63.50769230769231h-5Z" fill="#D6534B" opacity=".5" aria-label="vek: 33; len: 129; gender: ženy" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M85.62499999999999,31.671794871794877h5v64.82051282051282h-5Z" fill="#D6534B" opacity=".5" aria-label="vek: 34; len: 131.666666667; gender: ženy" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M89.99999999999999,27.24102564102565h5v69.25128205128203h-5Z" fill="#D6534B" opacity=".5" aria-label="vek: 35; len: 140.666666667; gender: ženy" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M94.375,19.692307692307697h5v76.8h-5Z" fill="#D6534B" opacity=".5" aria-label="vek: 36; len: 156; gender: ženy" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M98.75,20.84102564102564h5v75.65128205128205h-5Z" fill="#D6534B" opacity=".5" aria-label="vek: 37; len: 153.666666667; gender: ženy" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M103.12499999999999,18.215384615384615h5v78.27692307692308h-5Z" fill="#D6534B" opacity=".5" aria-label="vek: 38; len: 159; gender: ženy" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M107.49999999999999,17.230769230769234h5v79.26153846153846h-5Z" fill="#D6534B" opacity=".5" aria-label="vek: 39; len: 161; gender: ženy" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M111.875,8.861538461538462h5v87.63076923076923h-5Z" fill="#D6534B" opacity=".5" aria-label="vek: 40; len: 178; gender: ženy" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M116.25,5.08717948717949h5v91.4051282051282h-5Z" fill="#D6534B" opacity=".5" aria-label="vek: 41; len: 185.666666667; gender: ženy" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M120.625,0h5v96.49230769230769h-5Z" fill="#D6534B" opacity=".5" aria-label="vek: 42; len: 196; gender: ženy" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M124.99999999999999,1.1487179487179553h5v95.34358974358973h-5Z" fill="#D6534B" opacity=".5" aria-label="vek: 43; len: 193.666666667; gender: ženy" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M129.375,1.3128205128205082h5v95.17948717948718h-5Z" fill="#D6534B" opacity=".5" aria-label="vek: 44; len: 193.333333333; gender: ženy" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M133.75,5.4153846153846175h5v91.07692307692307h-5Z" fill="#D6534B" opacity=".5" aria-label="vek: 45; len: 185; gender: ženy" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M138.125,4.758974358974353h5v91.73333333333333h-5Z" fill="#D6534B" opacity=".5" aria-label="vek: 46; len: 186.333333333; gender: ženy" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M142.5,4.266666666666662h5v92.22564102564102h-5Z" fill="#D6534B" opacity=".5" aria-label="vek: 47; len: 187.333333333; gender: ženy" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M146.875,7.220512820512816h5v89.27179487179487h-5Z" fill="#D6534B" opacity=".5" aria-label="vek: 48; len: 181.333333333; gender: ženy" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M151.25,6.564102564102573h5v89.92820512820512h-5Z" fill="#D6534B" opacity=".5" aria-label="vek: 49; len: 182.666666667; gender: ženy" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M155.625,9.517948717948727h5v86.97435897435896h-5Z" fill="#D6534B" opacity=".5" aria-label="vek: 50; len: 176.666666667; gender: ženy" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M160,11.158974358974351h5v85.33333333333334h-5Z" fill="#D6534B" opacity=".5" aria-label="vek: 51; len: 173.333333333; gender: ženy" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M164.375,15.917948717948725h5v80.57435897435897h-5Z" fill="#D6534B" opacity=".5" aria-label="vek: 52; len: 163.666666667; gender: ženy" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M168.75,22.974358974358967h5v73.51794871794873h-5Z" fill="#D6534B" opacity=".5" aria-label="vek: 53; len: 149.333333333; gender: ženy" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M173.125,22.64615384615385h5v73.84615384615384h-5Z" fill="#D6534B" opacity=".5" aria-label="vek: 54; len: 150; gender: ženy" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M177.5,23.466666666666658h5v73.02564102564104h-5Z" fill="#D6534B" opacity=".5" aria-label="vek: 55; len: 148.333333333; gender: ženy" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M181.875,22.482051282051277h5v74.01025641025642h-5Z" fill="#D6534B" opacity=".5" aria-label="vek: 56; len: 150.333333333; gender: ženy" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M186.25,26.092307692307696h5v70.39999999999999h-5Z" fill="#D6534B" opacity=".5" aria-label="vek: 57; len: 143; gender: ženy" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M190.625,28.55384615384616h5v67.93846153846152h-5Z" fill="#D6534B" opacity=".5" aria-label="vek: 58; len: 138; gender: ženy" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M195.00000000000003,27.73333333333334h5v68.75897435897434h-5Z" fill="#D6534B" opacity=".5" aria-label="vek: 59; len: 139.666666667; gender: ženy" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M199.37499999999997,29.53846153846154h5v66.95384615384614h-5Z" fill="#D6534B" opacity=".5" aria-label="vek: 60; len: 136; gender: ženy" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M203.75,35.61025641025641h5v60.88205128205128h-5Z" fill="#D6534B" opacity=".5" aria-label="vek: 61; len: 123.666666667; gender: ženy" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M208.125,44.47179487179487h5v52.02051282051282h-5Z" fill="#D6534B" opacity=".5" aria-label="vek: 62; len: 105.666666667; gender: ženy" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M212.5,50.70769230769231h5v45.78461538461538h-5Z" fill="#D6534B" opacity=".5" aria-label="vek: 63; len: 93; gender: ženy" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M216.875,53.333333333333336h5v43.158974358974355h-5Z" fill="#D6534B" opacity=".5" aria-label="vek: 64; len: 87.6666666667; gender: ženy" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M221.25,52.67692307692308h5v43.81538461538461h-5Z" fill="#D6534B" opacity=".5" aria-label="vek: 65; len: 89; gender: ženy" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M225.625,52.51282051282052h5v43.97948717948717h-5Z" fill="#D6534B" opacity=".5" aria-label="vek: 66; len: 89.3333333333; gender: ženy" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M230,55.79487179487179h5v40.6974358974359h-5Z" fill="#D6534B" opacity=".5" aria-label="vek: 67; len: 82.6666666667; gender: ženy" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M234.37500000000003,57.107692307692304h5v39.38461538461539h-5Z" fill="#D6534B" opacity=".5" aria-label="vek: 68; len: 80; gender: ženy" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M238.75000000000003,58.420512820512826h5v38.071794871794864h-5Z" fill="#D6534B" opacity=".5" aria-label="vek: 69; len: 77.3333333333; gender: ženy" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M243.125,57.928205128205136h5v38.564102564102555h-5Z" fill="#D6534B" opacity=".5" aria-label="vek: 70; len: 78.3333333333; gender: ženy" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M247.5,61.37435897435897h5v35.11794871794872h-5Z" fill="#D6534B" opacity=".5" aria-label="vek: 71; len: 71.3333333333; gender: ženy" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M251.875,64.65641025641025h5v31.835897435897436h-5Z" fill="#D6534B" opacity=".5" aria-label="vek: 72; len: 64.6666666667; gender: ženy" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M256.25,65.64102564102564h5v30.851282051282055h-5Z" fill="#D6534B" opacity=".5" aria-label="vek: 73; len: 62.6666666667; gender: ženy" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M260.625,66.62564102564102h5v29.866666666666674h-5Z" fill="#D6534B" opacity=".5" aria-label="vek: 74; len: 60.6666666667; gender: ženy" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M265,68.26666666666665h5v28.22564102564104h-5Z" fill="#D6534B" opacity=".5" aria-label="vek: 75; len: 57.3333333333; gender: ženy" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M269.375,73.18974358974359h5v23.302564102564105h-5Z" fill="#D6534B" opacity=".5" aria-label="vek: 76; len: 47.3333333333; gender: ženy" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M273.75,75.81538461538462h5v20.676923076923075h-5Z" fill="#D6534B" opacity=".5" aria-label="vek: 77; len: 42; gender: ženy" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M278.125,77.2923076923077h5v19.19999999999999h-5Z" fill="#D6534B" opacity=".5" aria-label="vek: 78; len: 39; gender: ženy" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M282.5,78.11282051282052h5v18.37948717948717h-5Z" fill="#D6534B" opacity=".5" aria-label="vek: 79; len: 37.3333333333; gender: ženy" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M286.875,79.26153846153846h5v17.230769230769226h-5Z" fill="#D6534B" opacity=".5" aria-label="vek: 80; len: 35; gender: ženy" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M291.25,80.24615384615385h5v16.246153846153845h-5Z" fill="#D6534B" opacity=".5" aria-label="vek: 81; len: 33; gender: ženy" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M295.625,80.57435897435897h5v15.917948717948718h-5Z" fill="#D6534B" opacity=".5" aria-label="vek: 82; len: 32.3333333333; gender: ženy" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M300,80.41025641025641h5v16.08205128205128h-5Z" fill="#D6534B" opacity=".5" aria-label="vek: 83; len: 32.6666666667; gender: ženy" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M304.375,81.72307692307692h5v14.769230769230774h-5Z" fill="#D6534B" opacity=".5" aria-label="vek: 84; len: 30; gender: ženy" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M308.75,83.52820512820513h5v12.96410256410256h-5Z" fill="#D6534B" opacity=".5" aria-label="vek: 85; len: 26.3333333333; gender: ženy" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M313.125,86.31794871794872h5v10.174358974358967h-5Z" fill="#D6534B" opacity=".5" aria-label="vek: 86; len: 20.6666666667; gender: ženy" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M317.5,88.45128205128205h5v8.04102564102564h-5Z" fill="#D6534B" opacity=".5" aria-label="vek: 87; len: 16.3333333333; gender: ženy" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M321.875,89.43589743589743h5v7.05641025641026h-5Z" fill="#D6534B" opacity=".5" aria-label="vek: 88; len: 14.3333333333; gender: ženy" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M326.25000000000006,90.9128205128205h5v5.579487179487188h-5Z" fill="#D6534B" opacity=".5" aria-label="vek: 89; len: 11.3333333333; gender: ženy" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M330.625,90.9128205128205h5v5.579487179487188h-5Z" fill="#D6534B" opacity=".5" aria-label="vek: 90; len: 11.3333333333; gender: ženy" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M335,91.07692307692307h5v5.415384615384625h-5Z" fill="#D6534B" opacity=".5" aria-label="vek: 91; len: 11; gender: ženy" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M339.375,91.8974358974359h5v4.594871794871793h-5Z" fill="#D6534B" opacity=".5" aria-label="vek: 92; len: 9.33333333333; gender: ženy" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M343.75,93.53846153846153h5v2.9538461538461576h-5Z" fill="#D6534B" opacity=".5" aria-label="vek: 93; len: 6; gender: ženy" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M348.125,95.01538461538462h5v1.4769230769230717h-5Z" fill="#D6534B" opacity=".5" aria-label="vek: 94; len: 3; gender: ženy" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M352.5,94.85128205128206h5v1.6410256410256352h-5Z" fill="#D6534B" opacity=".5" aria-label="vek: 95; len: 3.33333333333; gender: ženy" aria-roledescription="bar" role="graphics-symbol"/>
+      </ns1:g>
+      <ns1:g class="mark-group role-legend" aria-label="Symbol legend for fill color with 2 values: muži, ženy" aria-roledescription="legend" role="graphics-symbol">
+       <ns1:g transform="translate(0,-29)">
+        <ns1:path class="background" d="M0,0h81v11h-81Z" pointer-events="none" aria-hidden="true"/>
+        <ns1:g>
+         <ns1:g class="mark-group role-legend-entry">
+          <ns1:g transform="translate(0)">
+           <ns1:path class="background" d="M0,0h0v0h0Z" pointer-events="none" aria-hidden="true"/>
+           <ns1:g>
+            <ns1:g class="mark-group role-scope" pointer-events="none" aria-roledescription="group mark container" role="graphics-object">
+             <ns1:g transform="translate(0)">
+              <ns1:path class="background" d="M0,0h35.430999755859375v11h-35.430999755859375Z" aria-hidden="true"/>
+              <ns1:g>
+               <ns1:g class="mark-symbol role-legend-symbol">
+                <ns1:path transform="translate(6,6)" d="M-5,-5h10v10h-10Z" fill="#81A9D5" opacity=".5" stroke-width="1.5"/>
+               </ns1:g>
+               <ns1:g class="mark-text role-legend-label">
+                <ns1:text transform="translate(16,9)" fill="#000" font-family="Asap" font-size="9px">muži</ns1:text>
+               </ns1:g>
+              </ns1:g>
+              <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
+             </ns1:g>
+             <ns1:g transform="translate(46)">
+              <ns1:path class="background" d="M0,0h34.41400146484375v11h-34.41400146484375Z" aria-hidden="true"/>
+              <ns1:g>
+               <ns1:g class="mark-symbol role-legend-symbol">
+                <ns1:path transform="translate(6,6)" d="M-5,-5h10v10h-10Z" fill="#D6534B" opacity=".5" stroke-width="1.5"/>
+               </ns1:g>
+               <ns1:g class="mark-text role-legend-label">
+                <ns1:text transform="translate(16,9)" fill="#000" font-family="Asap" font-size="9px">ženy</ns1:text>
+               </ns1:g>
+              </ns1:g>
+              <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
+             </ns1:g>
+            </ns1:g>
+           </ns1:g>
+           <ns1:path class="foreground" d="" display="none" pointer-events="none" aria-hidden="true"/>
+          </ns1:g>
+         </ns1:g>
+        </ns1:g>
+        <ns1:path class="foreground" d="" display="none" pointer-events="none" aria-hidden="true"/>
+       </ns1:g>
+      </ns1:g>
+      <ns1:g class="mark-group role-title">
+       <ns1:g transform="translate(0,-96)" pointer-events="none">
+        <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
+        <ns1:g>
+         <ns1:g class="mark-text role-title-text" aria-label="Title text 'Věková struktura českých spisovatelů a spisovatelek'" aria-roledescription="title" role="graphics-symbol">
+          <ns1:text transform="translate(0,-1)" fill="#000" font-family="Noticia Text" font-size="12px" font-weight="bolder">Věková struktura českých spisovatelů a spisovatelek</ns1:text>
+         </ns1:g>
+         <ns1:g class="mark-text role-title-subtitle" aria-label="Subtitle text 'Graf zachycuje beletrii vydanou ve 21. století. Věková struktura zůstává podobná i po vyfiltrování generace mladých autorek nastupující právě v této době, kariérní zlom žen se tím pouze posune o několik let směrem k padesátce.'" aria-roledescription="subtitle" role="graphics-symbol">
+          <ns1:text transform="translate(0,20)" fill="#000" font-family="Noticia Text" font-size="10px">
+           <ns1:tspan>Graf zachycuje beletrii vydanou ve 21. století. Věková struktura zůstává podobná</ns1:tspan>
+           <ns1:tspan x="0" dy="15">i po vyfiltrování generace mladých autorek nastupující právě v této době,</ns1:tspan>
+           <ns1:tspan x="0" dy="15">kariérní zlom žen se tím pouze posune o několik let směrem k padesátce.</ns1:tspan>
+          </ns1:text>
+         </ns1:g>
+        </ns1:g>
+        <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
+       </ns1:g>
+      </ns1:g>
+     </ns1:g>
+     <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
+    </ns1:g>
+   </ns1:g>
+  </ns1:g>
+ </g>
+ <g transform="translate(55,229)">
+  <ns0:rect width="337" height="40" fill="white" xmlns:ns0="http://www.w3.org/2000/svg"/>
+  <ns1:g transform="translate(132,5)" fill="none" stroke-miterlimit="10" xmlns:ns1="http://www.w3.org/2000/svg">
+   <ns1:g class="mark-group role-frame root" aria-roledescription="group mark container" role="graphics-object">
+    <ns1:g transform="translate(0)">
+     <ns1:path class="background" d="M0.5,0.5h200v30h-200Z" aria-hidden="true"/>
+     <ns1:g>
+      <ns1:g class="mark-text role-mark marks" aria-roledescription="text mark container" role="graphics-object">
+       <ns1:text transform="translate(200,12)" fill="black" font-family="Asap" font-size="8px" text-anchor="end" aria-label="text: data: Česká národní bibliografie, Wikidata | vizualizace: iROZHLAS.cz, Michal Kašpárek | 2025" aria-roledescription="text mark" role="graphics-symbol">data: Česká národní bibliografie, Wikidata | vizualizace: iROZHLAS.cz, Michal Kašpárek | 2025</ns1:text>
+      </ns1:g>
+     </ns1:g>
+     <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
+    </ns1:g>
+   </ns1:g>
+  </ns1:g>
+ </g>
+</svg>

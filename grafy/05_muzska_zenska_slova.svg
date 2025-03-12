@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 428 394" xmlns="http://www.w3.org/2000/svg">
+ <rect width="428" height="394" fill="#fff"/>
+ <g transform="translate(0)">
+  <ns0:rect width="428" height="354" fill="white" xmlns:ns0="http://www.w3.org/2000/svg"/>
+  <ns1:g transform="translate(65,108)" fill="none" stroke-miterlimit="10" xmlns:ns1="http://www.w3.org/2000/svg">
+   <ns1:g class="mark-group role-frame root" aria-roledescription="group mark container" role="graphics-object">
+    <ns1:g transform="translate(0)">
+     <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
+     <ns1:g>
+      <ns1:g class="mark-group role-scope concat_0_group" aria-roledescription="group mark container" role="graphics-object">
+       <ns1:g transform="translate(0)">
+        <ns1:path class="background" d="M0.5,0.5h144v240h-144Z" aria-hidden="true"/>
+        <ns1:g>
+         <ns1:g class="mark-group role-axis" aria-label="X-axis for a linear scale with values from 0 to 5" aria-roledescription="axis" role="graphics-symbol">
+          <ns1:g transform="translate(.5 240)" pointer-events="none">
+           <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
+           <ns1:g>
+            <ns1:g class="mark-rule role-axis-tick"/>
+            <ns1:g class="mark-text role-axis-label"/>
+           </ns1:g>
+           <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
+          </ns1:g>
+         </ns1:g>
+         <ns1:g class="mark-group role-axis" aria-label="Y-axis for a discrete scale with 12 values: pistole, prezident, ruský, souboj, kladivo, ending with zaregistrovat" aria-roledescription="axis" role="graphics-symbol">
+          <ns1:g transform="translate(.5 .5)" pointer-events="none">
+           <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
+           <ns1:g>
+            <ns1:g class="mark-rule role-axis-tick" stroke="#DCDDD6">
+             <ns1:line transform="translate(0,10)" x2="-5" y2="0"/>
+             <ns1:line transform="translate(0,30)" x2="-5" y2="0"/>
+             <ns1:line transform="translate(0,50)" x2="-5" y2="0"/>
+             <ns1:line transform="translate(0,70)" x2="-5" y2="0"/>
+             <ns1:line transform="translate(0,90)" x2="-5" y2="0"/>
+             <ns1:line transform="translate(0,110)" x2="-5" y2="0"/>
+             <ns1:line transform="translate(0,130)" x2="-5" y2="0"/>
+             <ns1:line transform="translate(0,150)" x2="-5" y2="0"/>
+             <ns1:line transform="translate(0,170)" x2="-5" y2="0"/>
+             <ns1:line transform="translate(0,190)" x2="-5" y2="0"/>
+             <ns1:line transform="translate(0,210)" x2="-5" y2="0"/>
+             <ns1:line transform="translate(0,230)" x2="-5" y2="0"/>
+            </ns1:g>
+            <ns1:g class="mark-text role-axis-label" fill="#000" font-family="Asap" font-size="9px" text-anchor="end">
+             <ns1:text transform="translate(-7 12)">pistole</ns1:text>
+             <ns1:text transform="translate(-7 32)">prezident</ns1:text>
+             <ns1:text transform="translate(-7 52)">ruský</ns1:text>
+             <ns1:text transform="translate(-7 72)">souboj</ns1:text>
+             <ns1:text transform="translate(-7 92)">kladivo</ns1:text>
+             <ns1:text transform="translate(-7 112)">kulka</ns1:text>
+             <ns1:text transform="translate(-7 132)">vůl</ns1:text>
+             <ns1:text transform="translate(-7 152)">velet</ns1:text>
+             <ns1:text transform="translate(-7 172)">služebný</ns1:text>
+             <ns1:text transform="translate(-7 192)">politik</ns1:text>
+             <ns1:text transform="translate(-7 212)">střílet</ns1:text>
+             <ns1:text transform="translate(-7 232)">zaregistrovat</ns1:text>
+            </ns1:g>
+            <ns1:g class="mark-rule role-axis-domain">
+             <ns1:line transform="translate(0)" x2="0" y2="240" stroke="#888" stroke-opacity="0"/>
+            </ns1:g>
+           </ns1:g>
+           <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
+          </ns1:g>
+         </ns1:g>
+         <ns1:g class="mark-rect role-mark concat_0_layer_0_marks" fill="#81A9D5" aria-roledescription="rect mark container" role="graphics-object">
+          <ns1:path d="M0,221h51.2v18h-51.2Z" aria-label="rozdíl: 1.6; slovo: zaregistrovat" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M0,201h54.400000000000006v18h-54.400000000000006Z" aria-label="rozdíl: 1.7; slovo: střílet" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M0,181h54.400000000000006v18h-54.400000000000006Z" aria-label="rozdíl: 1.7; slovo: politik" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M0,161h54.400000000000006v18h-54.400000000000006Z" aria-label="rozdíl: 1.7; slovo: služebný" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M0,141h54.400000000000006v18h-54.400000000000006Z" aria-label="rozdíl: 1.7; slovo: velet" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M0,121h57.599999999999994v18h-57.599999999999994Z" aria-label="rozdíl: 1.8; slovo: vůl" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M0,101h57.599999999999994v18h-57.599999999999994Z" aria-label="rozdíl: 1.8; slovo: kulka" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M0,81h60.8v18h-60.8Z" aria-label="rozdíl: 1.9; slovo: kladivo" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M0,61h60.8v18h-60.8Z" aria-label="rozdíl: 1.9; slovo: souboj" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M0,41h67.2v18h-67.2Z" aria-label="rozdíl: 2.1; slovo: ruský" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M0,21h70.4v18h-70.4Z" aria-label="rozdíl: 2.2; slovo: prezident" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M0,1h80v18h-80Z" aria-label="rozdíl: 2.5; slovo: pistole" aria-roledescription="bar" role="graphics-symbol"/>
+         </ns1:g>
+         <ns1:g class="mark-text role-mark concat_0_layer_1_marks" fill="black" font-family="Asap" font-size="9px" text-anchor="middle" aria-roledescription="text mark container" role="graphics-object">
+          <ns1:text transform="translate(64 233)" aria-label="rozdíl: 1.6; slovo: zaregistrovat; textik: 2.6×" aria-roledescription="text mark" role="graphics-symbol">2.6×</ns1:text>
+          <ns1:text transform="translate(67 213)" aria-label="rozdíl: 1.7; slovo: střílet; textik: 2.7×" aria-roledescription="text mark" role="graphics-symbol">2.7×</ns1:text>
+          <ns1:text transform="translate(67 193)" aria-label="rozdíl: 1.7; slovo: politik; textik: 2.7×" aria-roledescription="text mark" role="graphics-symbol">2.7×</ns1:text>
+          <ns1:text transform="translate(67 173)" aria-label="rozdíl: 1.7; slovo: služebný; textik: 2.7×" aria-roledescription="text mark" role="graphics-symbol">2.7×</ns1:text>
+          <ns1:text transform="translate(67 153)" aria-label="rozdíl: 1.7; slovo: velet; textik: 2.7×" aria-roledescription="text mark" role="graphics-symbol">2.7×</ns1:text>
+          <ns1:text transform="translate(71 133)" aria-label="rozdíl: 1.8; slovo: vůl; textik: 2.8×" aria-roledescription="text mark" role="graphics-symbol">2.8×</ns1:text>
+          <ns1:text transform="translate(71 113)" aria-label="rozdíl: 1.8; slovo: kulka; textik: 2.8×" aria-roledescription="text mark" role="graphics-symbol">2.8×</ns1:text>
+          <ns1:text transform="translate(74 93)" aria-label="rozdíl: 1.9; slovo: kladivo; textik: 2.9×" aria-roledescription="text mark" role="graphics-symbol">2.9×</ns1:text>
+          <ns1:text transform="translate(74 73)" aria-label="rozdíl: 1.9; slovo: souboj; textik: 2.9×" aria-roledescription="text mark" role="graphics-symbol">2.9×</ns1:text>
+          <ns1:text transform="translate(80 53)" aria-label="rozdíl: 2.1; slovo: ruský; textik: 3.1×" aria-roledescription="text mark" role="graphics-symbol">3.1×</ns1:text>
+          <ns1:text transform="translate(83 33)" aria-label="rozdíl: 2.2; slovo: prezident; textik: 3.2×" aria-roledescription="text mark" role="graphics-symbol">3.2×</ns1:text>
+          <ns1:text transform="translate(93,13)" aria-label="rozdíl: 2.5; slovo: pistole; textik: 3.5×" aria-roledescription="text mark" role="graphics-symbol">3.5×</ns1:text>
+         </ns1:g>
+         <ns1:g class="mark-group role-title">
+          <ns1:g transform="translate(72,-14)">
+           <ns1:path class="background" d="M0,0h0v0h0Z" pointer-events="none" aria-hidden="true"/>
+           <ns1:g>
+            <ns1:g class="mark-text role-title-text" pointer-events="none" aria-label="Title text 'mužští autoři'" aria-roledescription="title" role="graphics-symbol">
+             <ns1:text transform="translate(0,-2)" fill="#000" font-family="Noticia Text" font-size="10px" font-weight="bolder" text-anchor="middle">mužští autoři</ns1:text>
+            </ns1:g>
+           </ns1:g>
+           <ns1:path class="foreground" d="" display="none" pointer-events="none" aria-hidden="true"/>
+          </ns1:g>
+         </ns1:g>
+        </ns1:g>
+        <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
+       </ns1:g>
+      </ns1:g>
+      <ns1:g class="mark-group role-scope concat_1_group" aria-roledescription="group mark container" role="graphics-object">
+       <ns1:g transform="translate(194)">
+        <ns1:path class="background" d="M0.5,0.5h144v240h-144Z" aria-hidden="true"/>
+        <ns1:g>
+         <ns1:g class="mark-group role-axis" aria-label="X-axis for a linear scale with values from 0 to 5" aria-roledescription="axis" role="graphics-symbol">
+          <ns1:g transform="translate(.5 240)" pointer-events="none">
+           <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
+           <ns1:g>
+            <ns1:g class="mark-rule role-axis-tick"/>
+            <ns1:g class="mark-text role-axis-label"/>
+           </ns1:g>
+           <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
+          </ns1:g>
+         </ns1:g>
+         <ns1:g class="mark-group role-axis" aria-label="Y-axis for a discrete scale with 12 values: babi, pyžamo, salát, kamarádka, miminko, ending with sukně" aria-roledescription="axis" role="graphics-symbol">
+          <ns1:g transform="translate(.5 .5)" pointer-events="none">
+           <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
+           <ns1:g>
+            <ns1:g class="mark-rule role-axis-tick" stroke="#DCDDD6">
+             <ns1:line transform="translate(0,10)" x2="-5" y2="0"/>
+             <ns1:line transform="translate(0,30)" x2="-5" y2="0"/>
+             <ns1:line transform="translate(0,50)" x2="-5" y2="0"/>
+             <ns1:line transform="translate(0,70)" x2="-5" y2="0"/>
+             <ns1:line transform="translate(0,90)" x2="-5" y2="0"/>
+             <ns1:line transform="translate(0,110)" x2="-5" y2="0"/>
+             <ns1:line transform="translate(0,130)" x2="-5" y2="0"/>
+             <ns1:line transform="translate(0,150)" x2="-5" y2="0"/>
+             <ns1:line transform="translate(0,170)" x2="-5" y2="0"/>
+             <ns1:line transform="translate(0,190)" x2="-5" y2="0"/>
+             <ns1:line transform="translate(0,210)" x2="-5" y2="0"/>
+             <ns1:line transform="translate(0,230)" x2="-5" y2="0"/>
+            </ns1:g>
+            <ns1:g class="mark-text role-axis-label" fill="#000" font-family="Asap" font-size="9px" text-anchor="end">
+             <ns1:text transform="translate(-7 12)">babi</ns1:text>
+             <ns1:text transform="translate(-7 32)">pyžamo</ns1:text>
+             <ns1:text transform="translate(-7 52)">salát</ns1:text>
+             <ns1:text transform="translate(-7 72)">kamarádka</ns1:text>
+             <ns1:text transform="translate(-7 92)">miminko</ns1:text>
+             <ns1:text transform="translate(-7 112)">obývací</ns1:text>
+             <ns1:text transform="translate(-7 132)">objímat</ns1:text>
+             <ns1:text transform="translate(-7 152)">rande</ns1:text>
+             <ns1:text transform="translate(-7 172)">ordinace</ns1:text>
+             <ns1:text transform="translate(-7 192)">příšerně</ns1:text>
+             <ns1:text transform="translate(-7 212)">povytáhnout</ns1:text>
+             <ns1:text transform="translate(-7 232)">sukně</ns1:text>
+            </ns1:g>
+            <ns1:g class="mark-rule role-axis-domain">
+             <ns1:line transform="translate(0)" x2="0" y2="240" stroke="#888" stroke-opacity="0"/>
+            </ns1:g>
+           </ns1:g>
+           <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
+          </ns1:g>
+         </ns1:g>
+         <ns1:g class="mark-rect role-mark concat_1_layer_0_marks" fill="#D6534B" aria-roledescription="rect mark container" role="graphics-object">
+          <ns1:path d="M0,1h140.8v18h-140.8Z" aria-label="rozdíl: 4.4; slovo: babi" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M0,21h83.2v18h-83.2Z" aria-label="rozdíl: 2.6; slovo: pyžamo" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M0,41h76.8v18h-76.8Z" aria-label="rozdíl: 2.4; slovo: salát" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M0,61h64v18h-64Z" aria-label="rozdíl: 2; slovo: kamarádka" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M0,81h60.8v18h-60.8Z" aria-label="rozdíl: 1.9; slovo: miminko" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M0,101h54.400000000000006v18h-54.400000000000006Z" aria-label="rozdíl: 1.7; slovo: obývací" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M0,121h54.400000000000006v18h-54.400000000000006Z" aria-label="rozdíl: 1.7; slovo: objímat" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M0,141h51.2v18h-51.2Z" aria-label="rozdíl: 1.6; slovo: rande" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M0,161h48v18h-48Z" aria-label="rozdíl: 1.5; slovo: ordinace" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M0,181h48v18h-48Z" aria-label="rozdíl: 1.5; slovo: příšerně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M0,201h48v18h-48Z" aria-label="rozdíl: 1.5; slovo: povytáhnout" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M0,221h44.8v18h-44.8Z" aria-label="rozdíl: 1.4; slovo: sukně" aria-roledescription="bar" role="graphics-symbol"/>
+         </ns1:g>
+         <ns1:g class="mark-text role-mark concat_1_layer_1_marks" fill="black" font-family="Asap" font-size="9px" text-anchor="middle" aria-roledescription="text mark container" role="graphics-object">
+          <ns1:text transform="translate(154 13)" aria-label="rozdíl: 4.4; slovo: babi; textik: 5.4×" aria-roledescription="text mark" role="graphics-symbol">5.4×</ns1:text>
+          <ns1:text transform="translate(96 33)" aria-label="rozdíl: 2.6; slovo: pyžamo; textik: 3.6×" aria-roledescription="text mark" role="graphics-symbol">3.6×</ns1:text>
+          <ns1:text transform="translate(90 53)" aria-label="rozdíl: 2.4; slovo: salát; textik: 3.4×" aria-roledescription="text mark" role="graphics-symbol">3.4×</ns1:text>
+          <ns1:text transform="translate(77,73)" aria-label="rozdíl: 2; slovo: kamarádka; textik: 3.0×" aria-roledescription="text mark" role="graphics-symbol">3.0×</ns1:text>
+          <ns1:text transform="translate(74 93)" aria-label="rozdíl: 1.9; slovo: miminko; textik: 2.9×" aria-roledescription="text mark" role="graphics-symbol">2.9×</ns1:text>
+          <ns1:text transform="translate(67 113)" aria-label="rozdíl: 1.7; slovo: obývací; textik: 2.7×" aria-roledescription="text mark" role="graphics-symbol">2.7×</ns1:text>
+          <ns1:text transform="translate(67 133)" aria-label="rozdíl: 1.7; slovo: objímat; textik: 2.7×" aria-roledescription="text mark" role="graphics-symbol">2.7×</ns1:text>
+          <ns1:text transform="translate(64 153)" aria-label="rozdíl: 1.6; slovo: rande; textik: 2.6×" aria-roledescription="text mark" role="graphics-symbol">2.6×</ns1:text>
+          <ns1:text transform="translate(61,173)" aria-label="rozdíl: 1.5; slovo: ordinace; textik: 2.5×" aria-roledescription="text mark" role="graphics-symbol">2.5×</ns1:text>
+          <ns1:text transform="translate(61,193)" aria-label="rozdíl: 1.5; slovo: příšerně; textik: 2.5×" aria-roledescription="text mark" role="graphics-symbol">2.5×</ns1:text>
+          <ns1:text transform="translate(61,213)" aria-label="rozdíl: 1.5; slovo: povytáhnout; textik: 2.5×" aria-roledescription="text mark" role="graphics-symbol">2.5×</ns1:text>
+          <ns1:text transform="translate(58 233)" aria-label="rozdíl: 1.4; slovo: sukně; textik: 2.4×" aria-roledescription="text mark" role="graphics-symbol">2.4×</ns1:text>
+         </ns1:g>
+         <ns1:g class="mark-group role-title">
+          <ns1:g transform="translate(72,-14)">
+           <ns1:path class="background" d="M0,0h0v0h0Z" pointer-events="none" aria-hidden="true"/>
+           <ns1:g>
+            <ns1:g class="mark-text role-title-text" pointer-events="none" aria-label="Title text 'ženské autorky'" aria-roledescription="title" role="graphics-symbol">
+             <ns1:text transform="translate(0,-2)" fill="#000" font-family="Noticia Text" font-size="10px" font-weight="bolder" text-anchor="middle">ženské autorky</ns1:text>
+            </ns1:g>
+           </ns1:g>
+           <ns1:path class="foreground" d="" display="none" pointer-events="none" aria-hidden="true"/>
+          </ns1:g>
+         </ns1:g>
+        </ns1:g>
+        <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
+       </ns1:g>
+      </ns1:g>
+      <ns1:g class="mark-group role-title">
+       <ns1:g transform="translate(-60 -92)" pointer-events="none">
+        <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
+        <ns1:g>
+         <ns1:g class="mark-text role-title-text" aria-label="Title text 'Spisovatelky píšou častěji o ženách, muži o střelbě'" aria-roledescription="title" role="graphics-symbol">
+          <ns1:text transform="translate(0,-1)" fill="#000" font-family="Noticia Text" font-size="12px" font-weight="bolder">Spisovatelky píšou častěji o ženách, muži o střelbě</ns1:text>
+         </ns1:g>
+         <ns1:g class="mark-text role-title-subtitle" aria-label="Subtitle text 'Srovnání vychází z 13 tisíc stran ukázek z próz 427 českých autorek a 359 českých autorů z let 2019 až 2025. Obsahuje pouze slova, která se vyskytla alespoň v 50 různých knihách.'" aria-roledescription="subtitle" role="graphics-symbol">
+          <ns1:text transform="translate(0,20)" fill="#000" font-family="Noticia Text" font-size="10px">
+           <ns1:tspan>Srovnání vychází z 13 tisíc stran ukázek z próz 427 českých autorek</ns1:tspan>
+           <ns1:tspan x="0" dy="15">a 359 českých autorů z let 2019 až 2025. Obsahuje pouze slova,</ns1:tspan>
+           <ns1:tspan x="0" dy="15">která se vyskytla alespoň v 50 různých knihách.</ns1:tspan>
+          </ns1:text>
+         </ns1:g>
+        </ns1:g>
+        <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
+       </ns1:g>
+      </ns1:g>
+     </ns1:g>
+     <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
+    </ns1:g>
+   </ns1:g>
+  </ns1:g>
+ </g>
+ <g transform="translate(109,354)">
+  <ns0:rect width="319" height="40" fill="white" xmlns:ns0="http://www.w3.org/2000/svg"/>
+  <ns1:g transform="translate(114,5)" fill="none" stroke-miterlimit="10" xmlns:ns1="http://www.w3.org/2000/svg">
+   <ns1:g class="mark-group role-frame root" aria-roledescription="group mark container" role="graphics-object">
+    <ns1:g transform="translate(0)">
+     <ns1:path class="background" d="M0.5,0.5h200v30h-200Z" aria-hidden="true"/>
+     <ns1:g>
+      <ns1:g class="mark-text role-mark marks" aria-roledescription="text mark container" role="graphics-object">
+       <ns1:text transform="translate(200,12)" fill="black" font-family="Asap" font-size="8px" text-anchor="end" aria-label="text: data: Česká národní bibliografie, Wikidata, Martinus.cz | vizualizace: iROZHLAS.cz | 2025" aria-roledescription="text mark" role="graphics-symbol">data: Česká národní bibliografie, Wikidata, Martinus.cz | vizualizace: iROZHLAS.cz | 2025</ns1:text>
+      </ns1:g>
+     </ns1:g>
+     <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
+    </ns1:g>
+   </ns1:g>
+  </ns1:g>
+ </g>
+</svg>

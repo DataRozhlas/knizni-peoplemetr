@@ -1,8 +1,11 @@
-Sledování české knižní produkce a jejího hodnocení na čtenářských platformách.
+Pestrá data o knihách, zvláště těch českých. Základ [seriálu datových článků o literatuře](https://www.irozhlas.cz/node/9428990) na iROZHLAS.cz.
 
-## Co tu je, co tu není a jak to funguje
+## Co tu je
 
-Je tu hodně dat o knihách, zvláště těch českých.
+- Opracovaná data o knihách a spisovatelstvu z České národní bibliografie, Databáze národních autorit a Wikidat.
+- Co týden scrapované hodnocení beletristických novinek na Goodreads a Databázi knih.
+
+## Jak to funguje
 
 - Ignorujte skripty a sešity do č. 049. Scrapují informace o knižních novinkách a o jejich hodnocení na platformách, tato data (za celé sledované odbobí, tzn. od dubna 2024 do posledního commitu) najdete ve složce ```data```, netřeba namáhat servery vícekrát.
 
@@ -25,7 +28,7 @@ Užitečné klíče k datům ČNB:
 
 ## To-do
 
-- Obecně velký technologický dluh: v půlce práce jsem začal přecházet z pandas na Polars a DuckDB – až pak jsem zjistil, že by sešity 051 až 054 šly naprogramovat mnohem přímočařeji. Taky se postupně změnilo těžiště projektu z rychlého obstarávání knižních novinek a jejich sledování na platformách k čištění a analýze dat o starší produkci z Národní knihovny a Wikidat. Ale to vlastně není to-do, protože přepisovat už to nehodlám. Tak jen že pardon!
+- Obecně velký technologický dluh: v půlce práce jsem začal přecházet z pandas na Polars a DuckDB – až pak jsem zjistil, že by sešity 051 až 054 šly naprogramovat mnohem přímočařeji. Taky se postupně změnilo těžiště projektu z rychlého obstarávání knižních novinek a jejich sledování na čtenářských platformách k čištění a analýze dat o starší produkci z Národní knihovny a Wikidat. Ale to vlastně není to-do, protože přepisovat už to nehodlám. Tak jen že pardon!
 
 - Předělat filtry pro generování seznamu ISBN ke sledování a souborů ```cnb_vyber.parquet``` i ```aut_vyber.parquet```.
 
