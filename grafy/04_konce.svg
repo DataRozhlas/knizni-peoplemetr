@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg viewBox="0 0 401 188" xmlns="http://www.w3.org/2000/svg">
- <rect width="401" height="188" fill="#fff"/>
+<svg viewBox="0 0 401 163" xmlns="http://www.w3.org/2000/svg">
+ <rect width="401" height="163" fill="#fff"/>
  <g transform="translate(0)">
-  <ns0:rect width="401" height="148" fill="white" xmlns:ns0="http://www.w3.org/2000/svg"/>
-  <ns1:g transform="translate(10,37)" fill="none" stroke-miterlimit="10" xmlns:ns1="http://www.w3.org/2000/svg">
+  <ns0:rect width="401" height="146" fill="white" xmlns:ns0="http://www.w3.org/2000/svg"/>
+  <ns1:g transform="translate(10,35)" fill="none" stroke-miterlimit="10" xmlns:ns1="http://www.w3.org/2000/svg">
    <ns1:g class="mark-group role-frame root" aria-roledescription="group mark container" role="graphics-object">
     <ns1:g transform="translate(0)">
      <ns1:path class="background" d="M0.5,0.5h360v90h-360Z" aria-hidden="true"/>
@@ -38,7 +38,7 @@
           <ns1:line transform="translate(320)" x2="0" y2="5"/>
           <ns1:line transform="translate(355)" x2="0" y2="5"/>
          </ns1:g>
-         <ns1:g class="mark-text role-axis-label" fill="#000" font-family="Asap" font-size="9px" text-anchor="middle">
+         <ns1:g class="mark-text role-axis-label" fill="#292829" font-family="Asap" font-size="9px" text-anchor="middle">
           <ns1:text transform="translate(5 14)">1900</ns1:text>
           <ns1:text transform="translate(40 14)">1910</ns1:text>
           <ns1:text transform="translate(75 14)">1920</ns1:text>
@@ -64,7 +64,7 @@
           <ns1:line transform="translate(0,54)" x2="5" y2="0"/>
           <ns1:line transform="translate(0,18)" x2="5" y2="0"/>
          </ns1:g>
-         <ns1:g class="mark-text role-axis-label" fill="#000" font-family="Asap" font-size="9px">
+         <ns1:g class="mark-text role-axis-label" fill="#292829" font-family="Asap" font-size="9px">
           <ns1:text transform="translate(7,93)">0 %</ns1:text>
           <ns1:text transform="translate(7,57)">10 %</ns1:text>
           <ns1:text transform="translate(7 21)">20 %</ns1:text>
@@ -196,7 +196,7 @@
         <ns1:path class="background" d="M0,0h0v0h0Z" pointer-events="none" aria-hidden="true"/>
         <ns1:g>
          <ns1:g class="mark-text role-title-text" pointer-events="none" aria-label="Title text 'Podíl českých autorů, kteří vydali svoji poslední knihu'" aria-roledescription="title" role="graphics-symbol">
-          <ns1:text transform="translate(0,-1)" fill="#000" font-family="Noticia Text" font-size="12px" font-weight="bolder">Podíl českých autorů, kteří vydali svoji poslední knihu</ns1:text>
+          <ns1:text transform="translate(0,-1)" fill="#292829" font-family="Noticia Text" font-size="12px" font-weight="bolder">Podíl českých autorů, kteří vydali svoji poslední knihu</ns1:text>
          </ns1:g>
         </ns1:g>
         <ns1:path class="foreground" d="" display="none" pointer-events="none" aria-hidden="true"/>
@@ -208,15 +208,15 @@
    </ns1:g>
   </ns1:g>
  </g>
- <g transform="translate(161,148)">
-  <ns0:rect width="240" height="40" fill="white" xmlns:ns0="http://www.w3.org/2000/svg"/>
-  <ns1:g transform="translate(35,5)" fill="none" stroke-miterlimit="10" xmlns:ns1="http://www.w3.org/2000/svg">
+ <g transform="translate(171,146)">
+  <ns0:rect width="230" height="17" fill="white" xmlns:ns0="http://www.w3.org/2000/svg"/>
+  <ns1:g transform="translate(30)" fill="none" stroke-miterlimit="10" xmlns:ns1="http://www.w3.org/2000/svg">
    <ns1:g class="mark-group role-frame root" aria-roledescription="group mark container" role="graphics-object">
     <ns1:g transform="translate(0)">
-     <ns1:path class="background" d="M0.5,0.5h200v30h-200Z" aria-hidden="true"/>
+     <ns1:path class="background" d="M0.5,0.5h200v15h-200Z" aria-hidden="true"/>
      <ns1:g>
       <ns1:g class="mark-text role-mark marks" aria-roledescription="text mark container" role="graphics-object">
-       <ns1:text transform="translate(200,12)" fill="black" font-family="Asap" font-size="8px" text-anchor="end" aria-label="text: data: Česká národní bibliografie | vizualizace: iROZHLAS.cz | 2025" aria-roledescription="text mark" role="graphics-symbol">data: Česká národní bibliografie | vizualizace: iROZHLAS.cz | 2025</ns1:text>
+       <ns1:text transform="translate(200 14)" fill="#292829" font-family="Asap" font-size="8px" text-anchor="end" aria-label="text: data: Česká národní bibliografie | vizualizace: iROZHLAS.cz | 2025" aria-roledescription="text mark" role="graphics-symbol">data: Česká národní bibliografie | vizualizace: iROZHLAS.cz | 2025</ns1:text>
       </ns1:g>
      </ns1:g>
      <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>

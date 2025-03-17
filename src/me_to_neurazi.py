@@ -65,7 +65,7 @@ def me_to_neurazi(
         alt.Chart(spodni.to_pandas(), width=200, height=15, padding=0)
         .encode(x=alt.value(200), text=alt.Text("text:N"))
         .mark_text(
-            fontSize=8, font="Asap", baseline="line-top", align="right", dx=0
+            fontSize=8, font="Asap", color='#292829', baseline="line-top", align="right", dx=0
         )
         .configure_view(stroke="transparent")
     )

@@ -1,5 +1,5 @@
 <figure>
     <a href="https://data.irozhlas.cz/knihy-grafy/01_vyvoj_produkce.svg" target="_blank">
-    <img src="https://data.irozhlas.cz/knihy-grafy/01_vyvoj_produkce.svg" width="100%" alt="Graf s titulkem „Vývoj knižní produkce na českém území“. Další texty by měly být čitelné ze zdrojového souboru SVG." />
+    <img src="https://data.irozhlas.cz/knihy-grafy/01_vyvoj_produkce.svg" width="100%" alt="Graf s titulkem „Knihy v češtině vydané na českém území“. Další texty by měly být čitelné ze zdrojového souboru SVG." />
     </a>
     </figure>

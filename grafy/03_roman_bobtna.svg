@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg viewBox="0 0 330 329" xmlns="http://www.w3.org/2000/svg">
- <rect width="330" height="329" fill="#fff"/>
+<svg viewBox="0 0 432 304" xmlns="http://www.w3.org/2000/svg">
+ <rect width="432" height="304" fill="#fff"/>
  <g transform="translate(0)">
-  <ns0:rect width="330" height="289" fill="white" xmlns:ns0="http://www.w3.org/2000/svg"/>
-  <ns1:g transform="translate(7,68)" fill="none" stroke-miterlimit="10" xmlns:ns1="http://www.w3.org/2000/svg">
+  <ns0:rect width="432" height="287" fill="white" xmlns:ns0="http://www.w3.org/2000/svg"/>
+  <ns1:g transform="translate(7,66)" fill="none" stroke-miterlimit="10" xmlns:ns1="http://www.w3.org/2000/svg">
    <ns1:g class="mark-group role-frame root" aria-roledescription="group mark container" role="graphics-object">
     <ns1:g transform="translate(0)">
-     <ns1:path class="background" d="M0.5,0.5h288v200h-288Z" aria-hidden="true"/>
+     <ns1:path class="background" d="M0.5,0.5h390v200h-390Z" aria-hidden="true"/>
      <ns1:g>
       <ns1:g class="mark-group role-axis" aria-hidden="true">
-       <ns1:g transform="translate(288 .5)">
+       <ns1:g transform="translate(390 .5)">
         <ns1:path class="background" d="M0,0h0v0h0Z" pointer-events="none" aria-hidden="true"/>
         <ns1:g>
          <ns1:g class="mark-rule role-axis-grid" pointer-events="none" stroke="#ddd">
-          <ns1:line transform="translate(0,151)" x2="-288" y2="0"/>
-          <ns1:line transform="translate(0,100)" x2="-288" y2="0"/>
-          <ns1:line transform="translate(0,49)" x2="-288" y2="0"/>
+          <ns1:line transform="translate(0,200)" x2="-390" y2="0"/>
+          <ns1:line transform="translate(0,149)" x2="-390" y2="0"/>
+          <ns1:line transform="translate(0,99)" x2="-390" y2="0"/>
+          <ns1:line transform="translate(0,48)" x2="-390" y2="0"/>
          </ns1:g>
         </ns1:g>
         <ns1:path class="foreground" d="" display="none" pointer-events="none" aria-hidden="true"/>
@@ -27,31 +28,33 @@
         <ns1:g>
          <ns1:g class="mark-rule role-axis-tick" stroke="#DCDDD6">
           <ns1:line transform="translate(0)" x2="0" y2="5"/>
-          <ns1:line transform="translate(120)" x2="0" y2="5"/>
-          <ns1:line transform="translate(240)" x2="0" y2="5"/>
+          <ns1:line transform="translate(163)" x2="0" y2="5"/>
+          <ns1:line transform="translate(325)" x2="0" y2="5"/>
          </ns1:g>
-         <ns1:g class="mark-text role-axis-label" fill="#000" font-family="Asap" font-size="9px">
+         <ns1:g class="mark-text role-axis-label" fill="#292829" font-family="Asap" font-size="9px">
           <ns1:text transform="translate(0,14)">2000</ns1:text>
-          <ns1:text transform="translate(120 14)" text-anchor="middle">2010</ns1:text>
-          <ns1:text transform="translate(240,14)" text-anchor="middle">2020</ns1:text>
+          <ns1:text transform="translate(163 14)" text-anchor="middle">2010</ns1:text>
+          <ns1:text transform="translate(325,14)" text-anchor="middle">2020</ns1:text>
          </ns1:g>
         </ns1:g>
         <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
        </ns1:g>
       </ns1:g>
-      <ns1:g class="mark-group role-axis" aria-label="Y-axis for a linear scale with values from 5 to 395" aria-roledescription="axis" role="graphics-symbol">
-       <ns1:g transform="translate(288 .5)" pointer-events="none">
+      <ns1:g class="mark-group role-axis" aria-label="Y-axis for a linear scale with values from 0 to 395" aria-roledescription="axis" role="graphics-symbol">
+       <ns1:g transform="translate(390 .5)" pointer-events="none">
         <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
         <ns1:g>
          <ns1:g class="mark-rule role-axis-tick" stroke="white">
-          <ns1:line transform="translate(0,151)" x2="5" y2="0"/>
-          <ns1:line transform="translate(0,100)" x2="5" y2="0"/>
-          <ns1:line transform="translate(0,49)" x2="5" y2="0"/>
+          <ns1:line transform="translate(0,200)" x2="5" y2="0"/>
+          <ns1:line transform="translate(0,149)" x2="5" y2="0"/>
+          <ns1:line transform="translate(0,99)" x2="5" y2="0"/>
+          <ns1:line transform="translate(0,48)" x2="5" y2="0"/>
          </ns1:g>
-         <ns1:g class="mark-text role-axis-label" fill="#000" font-family="Asap" font-size="9px">
-          <ns1:text transform="translate(7 154)">100 s.</ns1:text>
-          <ns1:text transform="translate(7,103)">200 s.</ns1:text>
-          <ns1:text transform="translate(7 52)">300 s.</ns1:text>
+         <ns1:g class="mark-text role-axis-label" fill="#292829" font-family="Asap" font-size="9px">
+          <ns1:text transform="translate(7,203)">0 s.</ns1:text>
+          <ns1:text transform="translate(7 152)">100 s.</ns1:text>
+          <ns1:text transform="translate(7 102)">200 s.</ns1:text>
+          <ns1:text transform="translate(7 51)">300 s.</ns1:text>
          </ns1:g>
          <ns1:g class="mark-rule role-axis-domain">
           <ns1:line transform="translate(0,200)" x2="0" y2="-200" stroke="#888" stroke-opacity="0"/>
@@ -61,28 +64,28 @@
        </ns1:g>
       </ns1:g>
       <ns1:g class="mark-area role-mark layer_0_marks" aria-roledescription="area mark container" role="graphics-object">
-       <ns1:path d="M0,73.333L12.025,70.769L24.016,70.256L36.008,58.462L48,56.41L60.025,65.128L72.016,54.359L84.008,51.282L96,55.385L108.025,55.385L120.016,56.41L132.008,52.821L144,46.154L156.025,56.41L168.016,41.026L180.008,37.436L192,38.462L204.025,38.974L216.016,38.462L228.008,27.692L240,37.949L252.025,30.769L264.016,29.231L276.008,24.615L288,23.077L288,89.744L276.008,90.769L264.016,92.821L252.025,94.359L240,93.846L228.008,95.897L216.016,93.333L204.025,97.436L192,96.41L180.008,94.359L168.016,95.385L156.025,102.564L144,107.692L132.008,111.795L120.016,107.179L108.025,121.026L96,121.026L84.008,114.872L72.016,121.026L60.025,120.513L48,125.128L36.008,127.179L24.016,125.128L12.025,131.282L0,129.744Z" fill="#81A9D5" opacity=".5" aria-label="rok: Jan 01, 2000; hodne: 252; malo: 142" aria-roledescription="area mark" role="graphics-symbol"/>
+       <ns1:path d="M0,72.405L16.283,69.873L32.522,69.367L48.761,57.722L65,55.696L81.283,63.797L97.522,53.671L113.761,50.633L130,54.684L146.283,54.684L162.522,55.696L178.761,52.152L195,45.57L211.283,55.696L227.522,40.506L243.761,36.962L260,37.975L276.283,38.481L292.522,37.975L308.761,27.342L325,37.468L341.283,30.38L357.522,28.861L373.761,24.304L390,22.785L390,88.608L373.761,89.62L357.522,91.646L341.283,93.165L325,92.658L308.761,94.684L292.522,92.152L276.283,96.203L260,95.19L243.761,93.165L227.522,94.177L211.283,101.266L195,106.329L178.761,110.38L162.522,105.823L146.283,119.494L130,119.494L113.761,113.418L97.522,119.494L81.283,118.987L65,123.544L48.761,125.57L32.522,123.544L16.283,129.62L0,128.101Z" fill="#81A9D5" opacity=".5" aria-label="rok: Jan 01, 2000; hodne: 252; malo: 142" aria-roledescription="area mark" role="graphics-symbol"/>
       </ns1:g>
       <ns1:g class="mark-text role-mark layer_1_marks" aria-roledescription="text mark container" role="graphics-object">
-       <ns1:text transform="translate(288 16)" fill="black" font-family="Asap" font-size="10px" text-anchor="end" aria-label="x: Jan 01, 2024; y: 370; text: čtvrtina má 350 stran nebo víc ↓" aria-roledescription="text mark" role="graphics-symbol">čtvrtina má 350 stran nebo víc ↓</ns1:text>
+       <ns1:text transform="translate(390 16)" fill="black" font-family="Asap" font-size="8.5px" text-anchor="end" aria-label="x: Jan 01, 2024; y: 370; text: čtvrtina má 350 stran nebo víc ↓" aria-roledescription="text mark" role="graphics-symbol">čtvrtina má 350 stran nebo víc ↓</ns1:text>
       </ns1:g>
       <ns1:g class="mark-text role-mark layer_2_marks" aria-roledescription="text mark container" role="graphics-object">
-       <ns1:text transform="translate(288 121)" fill="black" font-family="Asap" font-size="10px" text-anchor="end" aria-label="x: Jan 01, 2024; y: 165; text: čtvrtina má 221 stran nebo míň ↑" aria-roledescription="text mark" role="graphics-symbol">čtvrtina má 221 stran nebo míň ↑</ns1:text>
+       <ns1:text transform="translate(390 119)" fill="black" font-family="Asap" font-size="8.5px" text-anchor="end" aria-label="x: Jan 01, 2024; y: 165; text: čtvrtina má 221 stran nebo míň ↑" aria-roledescription="text mark" role="graphics-symbol">čtvrtina má 221 stran nebo míň ↑</ns1:text>
       </ns1:g>
       <ns1:g class="mark-line role-mark layer_3_marks" aria-roledescription="line mark container" role="graphics-object">
-       <ns1:path d="M0,105.641L12.025,107.692L24.016,100L36.008,92.821L48,91.795L60.025,92.308L72.016,88.718L84.008,88.718L96,88.718L108.025,88.205L120.016,88.205L132.008,88.205L144,82.564L156.025,81.026L168.016,74.872L180.008,70.769L192,70.769L204.025,72.821L216.016,72.821L228.008,68.718L240,70L252.025,65.641L264.016,62.821L276.008,63.333L288,57.436" stroke="#445B78" stroke-width="2" aria-label="rok: Jan 01, 2000; median: 189" aria-roledescription="line mark" role="graphics-symbol"/>
+       <ns1:path d="M0,104.304L16.283,106.329L32.522,98.734L48.761,91.646L65,90.633L81.283,91.139L97.522,87.595L113.761,87.595L130,87.595L146.283,87.089L162.522,87.089L178.761,87.089L195,81.519L211.283,80L227.522,73.924L243.761,69.873L260,69.873L276.283,71.899L292.522,71.899L308.761,67.848L325,69.114L341.283,64.81L357.522,62.025L373.761,62.532L390,56.709" stroke="#445B78" stroke-width="2" aria-label="rok: Jan 01, 2000; median: 189" aria-roledescription="line mark" role="graphics-symbol"/>
       </ns1:g>
       <ns1:g class="mark-group role-title">
-       <ns1:g transform="translate(-2,-52)" pointer-events="none">
+       <ns1:g transform="translate(-2 -50)" pointer-events="none">
         <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
         <ns1:g>
          <ns1:g class="mark-text role-title-text" aria-label="Title text 'Český román bobtná'" aria-roledescription="title" role="graphics-symbol">
-          <ns1:text transform="translate(0,-1)" fill="#000" font-family="Noticia Text" font-size="12px" font-weight="bolder">Český román bobtná</ns1:text>
+          <ns1:text transform="translate(0,-1)" fill="#292829" font-family="Noticia Text" font-size="12px" font-weight="bolder">Český román bobtná</ns1:text>
          </ns1:g>
-         <ns1:g class="mark-text role-title-subtitle" aria-label="Subtitle text 'Středně dlouhý román (silná čára uprostřed) je skoro o půlku delší než v roce 2000. Výška většiny výtisků přitom zůstává stejná.'" aria-roledescription="subtitle" role="graphics-symbol">
-          <ns1:text transform="translate(0,20)" fill="#000" font-family="Noticia Text" font-size="10px">
-           <ns1:tspan>Středně dlouhý román (silná čára uprostřed) je skoro o půlku delší</ns1:tspan>
-           <ns1:tspan x="0" dy="15">než v roce 2000. Výška většiny výtisků přitom zůstává stejná.</ns1:tspan>
+         <ns1:g class="mark-text role-title-subtitle" aria-label="Subtitle text 'Středně dlouhý román (čára uprostřed) je skoro o půlku delší než v roce 2000: za 189 devíti stran nabobtnal na 283. Výška většiny výtisků přitom zůstává stejná.'" aria-roledescription="subtitle" role="graphics-symbol">
+          <ns1:text transform="translate(0 20)" fill="#292829" font-family="Noticia Text" font-size="10px">
+           <ns1:tspan>Středně dlouhý román (čára uprostřed) je skoro o půlku delší než v roce 2000:</ns1:tspan>
+           <ns1:tspan x="0" dy="15">za 189 devíti stran nabobtnal na 283. Výška většiny výtisků přitom zůstává stejná.</ns1:tspan>
           </ns1:text>
          </ns1:g>
         </ns1:g>
@@ -95,15 +98,15 @@
    </ns1:g>
   </ns1:g>
  </g>
- <g transform="translate(90,289)">
-  <ns0:rect width="240" height="40" fill="white" xmlns:ns0="http://www.w3.org/2000/svg"/>
-  <ns1:g transform="translate(35,5)" fill="none" stroke-miterlimit="10" xmlns:ns1="http://www.w3.org/2000/svg">
+ <g transform="translate(202,287)">
+  <ns0:rect width="230" height="17" fill="white" xmlns:ns0="http://www.w3.org/2000/svg"/>
+  <ns1:g transform="translate(30)" fill="none" stroke-miterlimit="10" xmlns:ns1="http://www.w3.org/2000/svg">
    <ns1:g class="mark-group role-frame root" aria-roledescription="group mark container" role="graphics-object">
     <ns1:g transform="translate(0)">
-     <ns1:path class="background" d="M0.5,0.5h200v30h-200Z" aria-hidden="true"/>
+     <ns1:path class="background" d="M0.5,0.5h200v15h-200Z" aria-hidden="true"/>
      <ns1:g>
       <ns1:g class="mark-text role-mark marks" aria-roledescription="text mark container" role="graphics-object">
-       <ns1:text transform="translate(200,12)" fill="black" font-family="Asap" font-size="8px" text-anchor="end" aria-label="text: data: Česká národní bibliografie | vizualizace: iROZHLAS.cz | 2025" aria-roledescription="text mark" role="graphics-symbol">data: Česká národní bibliografie | vizualizace: iROZHLAS.cz | 2025</ns1:text>
+       <ns1:text transform="translate(200 14)" fill="#292829" font-family="Asap" font-size="8px" text-anchor="end" aria-label="text: data: Česká národní bibliografie | vizualizace: iROZHLAS.cz | 2025" aria-roledescription="text mark" role="graphics-symbol">data: Česká národní bibliografie | vizualizace: iROZHLAS.cz | 2025</ns1:text>
       </ns1:g>
      </ns1:g>
      <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>

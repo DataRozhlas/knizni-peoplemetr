@@ -2,10 +2,12 @@ def kristi_promin():
 
     # Naimportuje do altairu +- styl grafů na iRozhlasu.
 
+    cerna = '#292829'
+
     return {
         "config" : {
             "title": {'font': "Noticia Text",
-                    'fontSize': 12,
+                    'fontSize': 11.5,
                     'anchor': 'start',
                     'lineHeight': 19,
                     'fontWeight': 'bolder',
@@ -15,6 +17,8 @@ def kristi_promin():
 #                    'subtitleFontWeight': 'lighter', # nečitelné na mobilu
                     'subtitlePadding': 10,
                     'dy': -10,
+                    'color': cerna,
+                    'subtitleColor': cerna
                     },
             "axis": {
                 "labelFont": "Asap",
@@ -27,6 +31,7 @@ def kristi_promin():
                 'titlePadding': 9,
                 'domainOpacity': 0,
                 'tickColor': '#DCDDD6',
+                'labelColor': cerna
             },
             "legend": {
                 "labelFont": "Asap",
@@ -34,7 +39,8 @@ def kristi_promin():
                 "titleFont": "Asap",
                 "titleFontWeight": "normal",
                 "labelFontSize": 9,
-                "titleFontSize": 9
+                "titleFontSize": 9,
+                'labelColor': cerna
             }
         }
     }

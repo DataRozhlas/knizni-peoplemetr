@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg viewBox="0 0 392 269" xmlns="http://www.w3.org/2000/svg">
- <rect width="392" height="269" fill="#fff"/>
+<svg viewBox="0 0 392 244" xmlns="http://www.w3.org/2000/svg">
+ <rect width="392" height="244" fill="#fff"/>
  <g transform="translate(0)">
-  <ns0:rect width="392" height="229" fill="white" xmlns:ns0="http://www.w3.org/2000/svg"/>
-  <ns1:g transform="translate(5,112)" fill="none" stroke-miterlimit="10" xmlns:ns1="http://www.w3.org/2000/svg">
+  <ns0:rect width="392" height="227" fill="white" xmlns:ns0="http://www.w3.org/2000/svg"/>
+  <ns1:g transform="translate(5,110)" fill="none" stroke-miterlimit="10" xmlns:ns1="http://www.w3.org/2000/svg">
    <ns1:g class="mark-group role-frame root" aria-roledescription="group mark container" role="graphics-object">
     <ns1:g transform="translate(0)">
      <ns1:path class="background" d="M0.5,0.5h360v96h-360Z" aria-hidden="true"/>
@@ -22,7 +22,7 @@
           <ns1:line transform="translate(289)" x2="0" y2="5"/>
           <ns1:line transform="translate(333)" x2="0" y2="5"/>
          </ns1:g>
-         <ns1:g class="mark-text role-axis-label" fill="#000" font-family="Asap" font-size="9px" text-anchor="middle">
+         <ns1:g class="mark-text role-axis-label" fill="#292829" font-family="Asap" font-size="9px" text-anchor="middle">
           <ns1:text transform="translate(27 14)">20</ns1:text>
           <ns1:text transform="translate(71 14)">30</ns1:text>
           <ns1:text transform="translate(114 14)">40</ns1:text>
@@ -45,7 +45,7 @@
           <ns1:line transform="translate(0,47)" x2="5" y2="0"/>
           <ns1:line transform="translate(0,23)" x2="5" y2="0"/>
          </ns1:g>
-         <ns1:g class="mark-text role-axis-label" fill="#000" font-family="Asap" font-size="9px">
+         <ns1:g class="mark-text role-axis-label" fill="#292829" font-family="Asap" font-size="9px">
           <ns1:text transform="translate(7 75)">50</ns1:text>
           <ns1:text transform="translate(7 50)">100</ns1:text>
           <ns1:text transform="translate(7 26)">150</ns1:text>
@@ -233,7 +233,7 @@
                 <ns1:path transform="translate(6,6)" d="M-5,-5h10v10h-10Z" fill="#81A9D5" opacity=".5" stroke-width="1.5"/>
                </ns1:g>
                <ns1:g class="mark-text role-legend-label">
-                <ns1:text transform="translate(16,9)" fill="#000" font-family="Asap" font-size="9px">muži</ns1:text>
+                <ns1:text transform="translate(16,9)" fill="#292829" font-family="Asap" font-size="9px">muži</ns1:text>
                </ns1:g>
               </ns1:g>
               <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
@@ -245,7 +245,7 @@
                 <ns1:path transform="translate(6,6)" d="M-5,-5h10v10h-10Z" fill="#D6534B" opacity=".5" stroke-width="1.5"/>
                </ns1:g>
                <ns1:g class="mark-text role-legend-label">
-                <ns1:text transform="translate(16,9)" fill="#000" font-family="Asap" font-size="9px">ženy</ns1:text>
+                <ns1:text transform="translate(16,9)" fill="#292829" font-family="Asap" font-size="9px">ženy</ns1:text>
                </ns1:g>
               </ns1:g>
               <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
@@ -260,14 +260,14 @@
        </ns1:g>
       </ns1:g>
       <ns1:g class="mark-group role-title">
-       <ns1:g transform="translate(0,-96)" pointer-events="none">
+       <ns1:g transform="translate(0 -94)" pointer-events="none">
         <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
         <ns1:g>
          <ns1:g class="mark-text role-title-text" aria-label="Title text 'Věková struktura českých spisovatelů a spisovatelek'" aria-roledescription="title" role="graphics-symbol">
-          <ns1:text transform="translate(0,-1)" fill="#000" font-family="Noticia Text" font-size="12px" font-weight="bolder">Věková struktura českých spisovatelů a spisovatelek</ns1:text>
+          <ns1:text transform="translate(0,-1)" fill="#292829" font-family="Noticia Text" font-size="12px" font-weight="bolder">Věková struktura českých spisovatelů a spisovatelek</ns1:text>
          </ns1:g>
          <ns1:g class="mark-text role-title-subtitle" aria-label="Subtitle text 'Graf zachycuje beletrii vydanou ve 21. století. Věková struktura zůstává podobná i po vyfiltrování generace mladých autorek nastupující právě v této době, kariérní zlom žen se tím pouze posune o několik let směrem k padesátce.'" aria-roledescription="subtitle" role="graphics-symbol">
-          <ns1:text transform="translate(0,20)" fill="#000" font-family="Noticia Text" font-size="10px">
+          <ns1:text transform="translate(0 20)" fill="#292829" font-family="Noticia Text" font-size="10px">
            <ns1:tspan>Graf zachycuje beletrii vydanou ve 21. století. Věková struktura zůstává podobná</ns1:tspan>
            <ns1:tspan x="0" dy="15">i po vyfiltrování generace mladých autorek nastupující právě v této době,</ns1:tspan>
            <ns1:tspan x="0" dy="15">kariérní zlom žen se tím pouze posune o několik let směrem k padesátce.</ns1:tspan>
@@ -283,15 +283,15 @@
    </ns1:g>
   </ns1:g>
  </g>
- <g transform="translate(55,229)">
-  <ns0:rect width="337" height="40" fill="white" xmlns:ns0="http://www.w3.org/2000/svg"/>
-  <ns1:g transform="translate(132,5)" fill="none" stroke-miterlimit="10" xmlns:ns1="http://www.w3.org/2000/svg">
+ <g transform="translate(65,227)">
+  <ns0:rect width="327" height="17" fill="white" xmlns:ns0="http://www.w3.org/2000/svg"/>
+  <ns1:g transform="translate(127)" fill="none" stroke-miterlimit="10" xmlns:ns1="http://www.w3.org/2000/svg">
    <ns1:g class="mark-group role-frame root" aria-roledescription="group mark container" role="graphics-object">
     <ns1:g transform="translate(0)">
-     <ns1:path class="background" d="M0.5,0.5h200v30h-200Z" aria-hidden="true"/>
+     <ns1:path class="background" d="M0.5,0.5h200v15h-200Z" aria-hidden="true"/>
      <ns1:g>
       <ns1:g class="mark-text role-mark marks" aria-roledescription="text mark container" role="graphics-object">
-       <ns1:text transform="translate(200,12)" fill="black" font-family="Asap" font-size="8px" text-anchor="end" aria-label="text: data: Česká národní bibliografie, Wikidata | vizualizace: iROZHLAS.cz, Michal Kašpárek | 2025" aria-roledescription="text mark" role="graphics-symbol">data: Česká národní bibliografie, Wikidata | vizualizace: iROZHLAS.cz, Michal Kašpárek | 2025</ns1:text>
+       <ns1:text transform="translate(200 14)" fill="#292829" font-family="Asap" font-size="8px" text-anchor="end" aria-label="text: data: Česká národní bibliografie, Wikidata | vizualizace: iROZHLAS.cz, Michal Kašpárek | 2025" aria-roledescription="text mark" role="graphics-symbol">data: Česká národní bibliografie, Wikidata | vizualizace: iROZHLAS.cz, Michal Kašpárek | 2025</ns1:text>
       </ns1:g>
      </ns1:g>
      <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
