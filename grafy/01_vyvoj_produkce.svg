@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg viewBox="0 0 402 662" xmlns="http://www.w3.org/2000/svg">
- <rect width="402" height="662" fill="#fff"/>
+<svg viewBox="0 0 402 660" xmlns="http://www.w3.org/2000/svg">
+ <rect width="402" height="660" fill="#fff"/>
  <g transform="translate(0)">
-  <ns0:rect width="402" height="645" fill="white" xmlns:ns0="http://www.w3.org/2000/svg"/>
-  <ns1:g transform="translate(6,148)" fill="none" stroke-miterlimit="10" xmlns:ns1="http://www.w3.org/2000/svg">
+  <ns0:rect width="402" height="643" fill="white" xmlns:ns0="http://www.w3.org/2000/svg"/>
+  <ns1:g transform="translate(6,146)" fill="none" stroke-miterlimit="10" xmlns:ns1="http://www.w3.org/2000/svg">
    <ns1:g class="mark-group role-frame root" aria-roledescription="group mark container" role="graphics-object">
     <ns1:g transform="translate(0)">
      <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
@@ -187,8 +187,8 @@
           <ns1:g transform="translate(0,-20)">
            <ns1:path class="background" d="M0,0h0v0h0Z" pointer-events="none" aria-hidden="true"/>
            <ns1:g>
-            <ns1:g class="mark-text role-title-text" pointer-events="none" aria-label="Title text '1801-1850 | Od poličky ke knihovničce'" aria-roledescription="title" role="graphics-symbol">
-             <ns1:text transform="translate(0,8)" fill="#292829" font-family="Asap" font-size="10px" font-weight="400">1801-1850 | Od poličky ke knihovničce</ns1:text>
+            <ns1:g class="mark-text role-title-text" pointer-events="none" aria-label="Title text '1801-1850 | od poličky ke knihovničce'" aria-roledescription="title" role="graphics-symbol">
+             <ns1:text transform="translate(0,8)" fill="#292829" font-family="Asap" font-size="10px" font-weight="400">1801-1850 | od poličky ke knihovničce</ns1:text>
             </ns1:g>
            </ns1:g>
            <ns1:path class="foreground" d="" display="none" pointer-events="none" aria-hidden="true"/>
@@ -372,8 +372,8 @@
           <ns1:g transform="translate(0,-20)">
            <ns1:path class="background" d="M0,0h0v0h0Z" pointer-events="none" aria-hidden="true"/>
            <ns1:g>
-            <ns1:g class="mark-text role-title-text" pointer-events="none" aria-label="Title text '1851-1900 | Rozkvět české literatury, zosminásobení produkce'" aria-roledescription="title" role="graphics-symbol">
-             <ns1:text transform="translate(0,8)" fill="#292829" font-family="Asap" font-size="10px" font-weight="400">1851-1900 | Rozkvět české literatury, zosminásobení produkce</ns1:text>
+            <ns1:g class="mark-text role-title-text" pointer-events="none" aria-label="Title text '1851-1900 | rozkvět české literatury, zosminásobení produkce'" aria-roledescription="title" role="graphics-symbol">
+             <ns1:text transform="translate(0,8)" fill="#292829" font-family="Asap" font-size="10px" font-weight="400">1851-1900 | rozkvět české literatury, zosminásobení produkce</ns1:text>
             </ns1:g>
            </ns1:g>
            <ns1:path class="foreground" d="" display="none" pointer-events="none" aria-hidden="true"/>
@@ -560,8 +560,8 @@
           <ns1:g transform="translate(0,-20)">
            <ns1:path class="background" d="M0,0h0v0h0Z" pointer-events="none" aria-hidden="true"/>
            <ns1:g>
-            <ns1:g class="mark-text role-title-text" pointer-events="none" aria-label="Title text '1901-1950 | Propady za první i druhé světové války'" aria-roledescription="title" role="graphics-symbol">
-             <ns1:text transform="translate(0,8)" fill="#292829" font-family="Asap" font-size="10px" font-weight="400">1901-1950 | Propady za první i druhé světové války</ns1:text>
+            <ns1:g class="mark-text role-title-text" pointer-events="none" aria-label="Title text '1901-1950 | propady za první i druhé světové války'" aria-roledescription="title" role="graphics-symbol">
+             <ns1:text transform="translate(0,8)" fill="#292829" font-family="Asap" font-size="10px" font-weight="400">1901-1950 | propady za první i druhé světové války</ns1:text>
             </ns1:g>
            </ns1:g>
            <ns1:path class="foreground" d="" display="none" pointer-events="none" aria-hidden="true"/>
@@ -748,8 +748,8 @@
           <ns1:g transform="translate(0,-20)">
            <ns1:path class="background" d="M0,0h0v0h0Z" pointer-events="none" aria-hidden="true"/>
            <ns1:g>
-            <ns1:g class="mark-text role-title-text" pointer-events="none" aria-label="Title text '1951-2000 | Poklidný růst až k porevolučnímu boomu'" aria-roledescription="title" role="graphics-symbol">
-             <ns1:text transform="translate(0,8)" fill="#292829" font-family="Asap" font-size="10px" font-weight="400">1951-2000 | Poklidný růst až k porevolučnímu boomu</ns1:text>
+            <ns1:g class="mark-text role-title-text" pointer-events="none" aria-label="Title text '1951-2000 | poklidný růst až k porevolučnímu boomu'" aria-roledescription="title" role="graphics-symbol">
+             <ns1:text transform="translate(0,8)" fill="#292829" font-family="Asap" font-size="10px" font-weight="400">1951-2000 | poklidný růst až k porevolučnímu boomu</ns1:text>
             </ns1:g>
            </ns1:g>
            <ns1:path class="foreground" d="" display="none" pointer-events="none" aria-hidden="true"/>
@@ -941,8 +941,8 @@
           <ns1:g transform="translate(0 -23)">
            <ns1:path class="background" d="M0,0h0v0h0Z" pointer-events="none" aria-hidden="true"/>
            <ns1:g>
-            <ns1:g class="mark-text role-title-text" pointer-events="none" aria-label="Title text '2001-dosud | Útlum po hospodářské krizi'" aria-roledescription="title" role="graphics-symbol">
-             <ns1:text transform="translate(0,8)" fill="#292829" font-family="Asap" font-size="10px" font-weight="400">2001-dosud | Útlum po hospodářské krizi</ns1:text>
+            <ns1:g class="mark-text role-title-text" pointer-events="none" aria-label="Title text '2001-dosud | útlum po hospodářské krizi'" aria-roledescription="title" role="graphics-symbol">
+             <ns1:text transform="translate(0,8)" fill="#292829" font-family="Asap" font-size="10px" font-weight="400">2001-dosud | útlum po hospodářské krizi</ns1:text>
             </ns1:g>
            </ns1:g>
            <ns1:path class="foreground" d="" display="none" pointer-events="none" aria-hidden="true"/>
@@ -995,14 +995,14 @@
        </ns1:g>
       </ns1:g>
       <ns1:g class="mark-group role-title">
-       <ns1:g transform="translate(-1,-132)" pointer-events="none">
+       <ns1:g transform="translate(-1 -130)" pointer-events="none">
         <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
         <ns1:g>
-         <ns1:g class="mark-text role-title-text" aria-label="Title text 'Knihy v češtině vydané na českém území'" aria-roledescription="title" role="graphics-symbol">
-          <ns1:text transform="translate(0,-1)" fill="#292829" font-family="Noticia Text" font-size="12px" font-weight="bolder">Knihy v češtině vydané na českém území</ns1:text>
+         <ns1:g class="mark-text role-title-text" aria-label="Title text 'Knihy v českém jazyce vydané na českém území'" aria-roledescription="title" role="graphics-symbol">
+          <ns1:text transform="translate(0,-1)" fill="#292829" font-family="Noticia Text" font-size="12px" font-weight="bolder">Knihy v českém jazyce vydané na českém území</ns1:text>
          </ns1:g>
          <ns1:g class="mark-text role-title-subtitle" aria-label="Subtitle text 'Za rok 1806 najedeme v národní bibliografii 16 publikací, sotva jednu poličku. V rekordním roce 2008 jich bylo přes 20 tisíc. Takový rozdíl nejde smysluplně zobrazit na jedné škále, proto 224 let české literatury zachycených v datech rozdělujeme do pěti řádků. Každý začíná tam, kde končí předchozí.'" aria-roledescription="subtitle" role="graphics-symbol">
-          <ns1:text transform="translate(0,20)" fill="#292829" font-family="Noticia Text" font-size="10px">
+          <ns1:text transform="translate(0 20)" fill="#292829" font-family="Noticia Text" font-size="10px">
            <ns1:tspan>Za rok 1806 najedeme v národní bibliografii 16 publikací, sotva jednu poličku.</ns1:tspan>
            <ns1:tspan x="0" dy="15">V rekordním roce 2008 jich bylo přes 20 tisíc. Takový rozdíl nejde smysluplně</ns1:tspan>
            <ns1:tspan x="0" dy="15">zobrazit na jedné škále, proto 224 let české literatury zachycených v datech</ns1:tspan>
@@ -1019,7 +1019,7 @@
    </ns1:g>
   </ns1:g>
  </g>
- <g transform="translate(172,645)">
+ <g transform="translate(172,643)">
   <ns0:rect width="230" height="17" fill="white" xmlns:ns0="http://www.w3.org/2000/svg"/>
   <ns1:g transform="translate(30)" fill="none" stroke-miterlimit="10" xmlns:ns1="http://www.w3.org/2000/svg">
    <ns1:g class="mark-group role-frame root" aria-roledescription="group mark container" role="graphics-object">
@@ -1027,7 +1027,7 @@
      <ns1:path class="background" d="M0.5,0.5h200v15h-200Z" aria-hidden="true"/>
      <ns1:g>
       <ns1:g class="mark-text role-mark marks" aria-roledescription="text mark container" role="graphics-object">
-       <ns1:text transform="translate(200 14)" fill="black" font-family="Asap" font-size="8px" text-anchor="end" aria-label="text: data: Česká národní bibliografie | vizualizace: iROZHLAS.cz | 2025" aria-roledescription="text mark" role="graphics-symbol">data: Česká národní bibliografie | vizualizace: iROZHLAS.cz | 2025</ns1:text>
+       <ns1:text transform="translate(200 14)" fill="#292829" font-family="Asap" font-size="8px" text-anchor="end" aria-label="text: data: Česká národní bibliografie | vizualizace: iROZHLAS.cz | 2025" aria-roledescription="text mark" role="graphics-symbol">data: Česká národní bibliografie | vizualizace: iROZHLAS.cz | 2025</ns1:text>
       </ns1:g>
      </ns1:g>
      <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>

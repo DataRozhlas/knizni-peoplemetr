@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg viewBox="0 0 374 505" xmlns="http://www.w3.org/2000/svg">
- <rect width="374" height="505" fill="#fff"/>
+<svg viewBox="0 0 457 480" xmlns="http://www.w3.org/2000/svg">
+ <rect width="457" height="480" fill="#fff"/>
  <g transform="translate(0)">
-  <ns0:rect width="374" height="465" fill="white" xmlns:ns0="http://www.w3.org/2000/svg"/>
-  <ns1:g transform="translate(11,129)" fill="none" stroke-miterlimit="10" xmlns:ns1="http://www.w3.org/2000/svg">
+  <ns0:rect width="457" height="463" fill="white" xmlns:ns0="http://www.w3.org/2000/svg"/>
+  <ns1:g transform="translate(11,127)" fill="none" stroke-miterlimit="10" xmlns:ns1="http://www.w3.org/2000/svg">
    <ns1:g class="mark-group role-frame root" aria-roledescription="group mark container" role="graphics-object">
     <ns1:g transform="translate(0)">
      <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
      <ns1:g>
       <ns1:g class="mark-group role-row-footer row_footer" aria-roledescription="group mark container" role="graphics-object">
-       <ns1:g transform="translate(331)">
+       <ns1:g transform="translate(415)">
         <ns1:path class="background" d="M0,0h0v60h0Z" aria-hidden="true"/>
         <ns1:g>
          <ns1:g class="mark-group role-axis" aria-label="Y-axis for a linear scale with values from 0.00 to 0.10" aria-roledescription="axis" role="graphics-symbol">
@@ -21,7 +21,7 @@
              <ns1:line transform="translate(0,30)" x2="5" y2="0"/>
              <ns1:line transform="translate(0)" x2="5" y2="0"/>
             </ns1:g>
-            <ns1:g class="mark-text role-axis-label" fill="#000" font-family="Asap" font-size="9px">
+            <ns1:g class="mark-text role-axis-label" fill="#292829" font-family="Asap" font-size="9px">
              <ns1:text transform="translate(7,63)">0 %</ns1:text>
              <ns1:text transform="translate(7,33)">5 %</ns1:text>
              <ns1:text transform="translate(7,3)">10 %</ns1:text>
@@ -33,7 +33,7 @@
         </ns1:g>
         <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
        </ns1:g>
-       <ns1:g transform="translate(331,127)">
+       <ns1:g transform="translate(415,127)">
         <ns1:path class="background" d="M0,0h0v60h0Z" aria-hidden="true"/>
         <ns1:g>
          <ns1:g class="mark-group role-axis" aria-label="Y-axis for a linear scale with values from 0.00 to 0.10" aria-roledescription="axis" role="graphics-symbol">
@@ -45,7 +45,7 @@
              <ns1:line transform="translate(0,30)" x2="5" y2="0"/>
              <ns1:line transform="translate(0)" x2="5" y2="0"/>
             </ns1:g>
-            <ns1:g class="mark-text role-axis-label" fill="#000" font-family="Asap" font-size="9px">
+            <ns1:g class="mark-text role-axis-label" fill="#292829" font-family="Asap" font-size="9px">
              <ns1:text transform="translate(7,63)">0 %</ns1:text>
              <ns1:text transform="translate(7,33)">5 %</ns1:text>
              <ns1:text transform="translate(7,3)">10 %</ns1:text>
@@ -57,7 +57,7 @@
         </ns1:g>
         <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
        </ns1:g>
-       <ns1:g transform="translate(331,254)">
+       <ns1:g transform="translate(415,254)">
         <ns1:path class="background" d="M0,0h0v60h0Z" aria-hidden="true"/>
         <ns1:g>
          <ns1:g class="mark-group role-axis" aria-label="Y-axis for a linear scale with values from 0.00 to 0.10" aria-roledescription="axis" role="graphics-symbol">
@@ -69,7 +69,7 @@
              <ns1:line transform="translate(0,30)" x2="5" y2="0"/>
              <ns1:line transform="translate(0)" x2="5" y2="0"/>
             </ns1:g>
-            <ns1:g class="mark-text role-axis-label" fill="#000" font-family="Asap" font-size="9px">
+            <ns1:g class="mark-text role-axis-label" fill="#292829" font-family="Asap" font-size="9px">
              <ns1:text transform="translate(7,63)">0 %</ns1:text>
              <ns1:text transform="translate(7,33)">5 %</ns1:text>
              <ns1:text transform="translate(7,3)">10 %</ns1:text>
@@ -84,169 +84,169 @@
       </ns1:g>
       <ns1:g class="mark-group role-scope cell" aria-roledescription="group mark container" role="graphics-object">
        <ns1:g transform="translate(0)">
-        <ns1:path class="background" d="M0.5,0.5h330v60h-330Z" aria-hidden="true"/>
+        <ns1:path class="background" d="M0.5,0.5h413.99999999999994v60h-413.99999999999994Z" aria-hidden="true"/>
         <ns1:g>
-         <ns1:g class="mark-group role-axis" aria-label="X-axis for a time scale with values from Sunday, 23 January 1898, 8:15:00 AM to Monday, 08 December 2025, 3:45:00 PM" aria-roledescription="axis" role="graphics-symbol">
+         <ns1:g class="mark-group role-axis" aria-label="X-axis for a time scale with values from Sunday, 19 June 1898, 11:31:29 AM to Monday, 14 July 2025, 1:28:30 PM" aria-roledescription="axis" role="graphics-symbol">
           <ns1:g transform="translate(.5 60)" pointer-events="none">
            <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
            <ns1:g>
             <ns1:g class="mark-rule role-axis-tick" stroke="#DCDDD6">
              <ns1:line transform="translate(5)" x2="0" y2="5"/>
-             <ns1:line transform="translate(31)" x2="0" y2="5"/>
-             <ns1:line transform="translate(57)" x2="0" y2="5"/>
-             <ns1:line transform="translate(82)" x2="0" y2="5"/>
-             <ns1:line transform="translate(108)" x2="0" y2="5"/>
-             <ns1:line transform="translate(134)" x2="0" y2="5"/>
-             <ns1:line transform="translate(160)" x2="0" y2="5"/>
-             <ns1:line transform="translate(186)" x2="0" y2="5"/>
-             <ns1:line transform="translate(211)" x2="0" y2="5"/>
-             <ns1:line transform="translate(237)" x2="0" y2="5"/>
-             <ns1:line transform="translate(263)" x2="0" y2="5"/>
-             <ns1:line transform="translate(289)" x2="0" y2="5"/>
-             <ns1:line transform="translate(315)" x2="0" y2="5"/>
+             <ns1:line transform="translate(38)" x2="0" y2="5"/>
+             <ns1:line transform="translate(70)" x2="0" y2="5"/>
+             <ns1:line transform="translate(103)" x2="0" y2="5"/>
+             <ns1:line transform="translate(135)" x2="0" y2="5"/>
+             <ns1:line transform="translate(168)" x2="0" y2="5"/>
+             <ns1:line transform="translate(200)" x2="0" y2="5"/>
+             <ns1:line transform="translate(233)" x2="0" y2="5"/>
+             <ns1:line transform="translate(266)" x2="0" y2="5"/>
+             <ns1:line transform="translate(298)" x2="0" y2="5"/>
+             <ns1:line transform="translate(331)" x2="0" y2="5"/>
+             <ns1:line transform="translate(363)" x2="0" y2="5"/>
+             <ns1:line transform="translate(396)" x2="0" y2="5"/>
             </ns1:g>
-            <ns1:g class="mark-text role-axis-label" fill="#000" font-family="Asap" font-size="9px" text-anchor="middle">
-             <ns1:text transform="translate(5,14)">1900</ns1:text>
-             <ns1:text transform="translate(31 14)">1910</ns1:text>
-             <ns1:text transform="translate(57 14)">1920</ns1:text>
-             <ns1:text transform="translate(82 14)">1930</ns1:text>
-             <ns1:text transform="translate(108 14)">1940</ns1:text>
-             <ns1:text transform="translate(134 14)">1950</ns1:text>
-             <ns1:text transform="translate(160 14)">1960</ns1:text>
-             <ns1:text transform="translate(186 14)">1970</ns1:text>
-             <ns1:text transform="translate(211 14)">1980</ns1:text>
-             <ns1:text transform="translate(237 14)">1990</ns1:text>
-             <ns1:text transform="translate(263 14)">2000</ns1:text>
-             <ns1:text transform="translate(289 14)">2010</ns1:text>
-             <ns1:text transform="translate(315 14)">2020</ns1:text>
+            <ns1:g class="mark-text role-axis-label" fill="#292829" font-family="Asap" font-size="9px" text-anchor="middle">
+             <ns1:text transform="translate(5 14)">1900</ns1:text>
+             <ns1:text transform="translate(38 14)">1910</ns1:text>
+             <ns1:text transform="translate(70 14)">1920</ns1:text>
+             <ns1:text transform="translate(103 14)">1930</ns1:text>
+             <ns1:text transform="translate(135 14)">1940</ns1:text>
+             <ns1:text transform="translate(168 14)">1950</ns1:text>
+             <ns1:text transform="translate(200 14)">1960</ns1:text>
+             <ns1:text transform="translate(233 14)">1970</ns1:text>
+             <ns1:text transform="translate(266 14)">1980</ns1:text>
+             <ns1:text transform="translate(298 14)">1990</ns1:text>
+             <ns1:text transform="translate(331 14)">2000</ns1:text>
+             <ns1:text transform="translate(363 14)">2010</ns1:text>
+             <ns1:text transform="translate(396 14)">2020</ns1:text>
             </ns1:g>
            </ns1:g>
            <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
           </ns1:g>
          </ns1:g>
          <ns1:g class="mark-rect role-mark child_marks" fill="#5E2D3A" aria-roledescription="rect mark container" role="graphics-object">
-          <ns1:path d="M4,55.833333333333336h2v4.166666666666664h-2Z" aria-label="rok: Jan 01, 1900; podil: 0.00694444444444; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M6.578935747405608,56.01328903654485h2v3.9867109634551525h-2Z" aria-label="rok: Jan 01, 1901; podil: 0.00664451827243; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M9.157871494811216,56.77852348993289h2v3.221476510067113h-2Z" aria-label="rok: Jan 01, 1902; podil: 0.00536912751678; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M11.736807242216825,55.24564183835182h2v4.754358161648177h-2Z" aria-label="rok: Jan 01, 1903; podil: 0.00792393026941; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M14.315742989622432,50.74074074074074h2v9.25925925925926h-2Z" aria-label="rok: Jan 01, 1904; podil: 0.0154320987654; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M16.901744314418195,55.10603588907015h2v4.893964110929851h-2Z" aria-label="rok: Jan 01, 1905; podil: 0.00815660685155; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M19.480680061823804,53.68421052631579h2v6.315789473684212h-2Z" aria-label="rok: Jan 01, 1906; podil: 0.0105263157895; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M22.05961580922941,51.627906976744185h2v8.372093023255815h-2Z" aria-label="rok: Jan 01, 1907; podil: 0.0139534883721; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M24.638551556635015,49.340101522842644h2v10.659898477157356h-2Z" aria-label="rok: Jan 01, 1908; podil: 0.0177664974619; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M27.22455288143078,49.27097661623109h2v10.729023383768912h-2Z" aria-label="rok: Jan 01, 1909; podil: 0.0178817056396; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M29.80348862883639,51.240875912408754h2v8.759124087591246h-2Z" aria-label="rok: Jan 01, 1910; podil: 0.014598540146; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M32.38242437624199,46.83870967741935h2v13.161290322580648h-2Z" aria-label="rok: Jan 01, 1911; podil: 0.021935483871; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M34.96136012364761,48.3495145631068h2v11.650485436893199h-2Z" aria-label="rok: Jan 01, 1912; podil: 0.0194174757282; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M37.54736144844336,48.55780691299166h2v11.442193087008341h-2Z" aria-label="rok: Jan 01, 1913; podil: 0.0190703218117; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M40.12629719584898,46.5814696485623h2v13.418530351437703h-2Z" aria-label="rok: Jan 01, 1914; podil: 0.0223642172524; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M42.705232943254586,47.919463087248324h2v12.080536912751676h-2Z" aria-label="rok: Jan 01, 1915; podil: 0.0201342281879; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M45.28416869066019,49.453125h2v10.546875h-2Z" aria-label="rok: Jan 01, 1916; podil: 0.017578125; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M47.87017001545595,48.41698841698842h2v11.583011583011583h-2Z" aria-label="rok: Jan 01, 1917; podil: 0.019305019305; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M50.449105762861564,48.92617449664429h2v11.073825503355707h-2Z" aria-label="rok: Jan 01, 1918; podil: 0.0184563758389; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M53.028041510267165,47.713310580204784h2v12.286689419795216h-2Z" aria-label="rok: Jan 01, 1919; podil: 0.0204778156997; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M55.606977257672774,41.141439205955336h2v18.858560794044664h-2Z" aria-label="rok: Jan 01, 1920; podil: 0.0314309346567; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M58.192978582468534,42.904411764705884h2v17.095588235294116h-2Z" aria-label="rok: Jan 01, 1921; podil: 0.0284926470588; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M60.77191432987415,47.51000800640512h2v12.489991993594877h-2Z" aria-label="rok: Jan 01, 1922; podil: 0.0208166533227; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M63.35085007727976,38.939157566302654h2v21.060842433697346h-2Z" aria-label="rok: Jan 01, 1923; podil: 0.0351014040562; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M65.92978582468535,34.45917655268667h2v25.54082344731333h-2Z" aria-label="rok: Jan 01, 1924; podil: 0.0425680390789; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M68.51578714948113,40.013324450366426h2v19.986675549633574h-2Z" aria-label="rok: Jan 01, 1925; podil: 0.0333111259161; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M71.09472289688674,39.74683544303798h2v20.25316455696202h-2Z" aria-label="rok: Jan 01, 1926; podil: 0.0337552742616; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M73.67365864429233,38.69565217391304h2v21.30434782608696h-2Z" aria-label="rok: Jan 01, 1927; podil: 0.0355072463768; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M76.25259439169794,38.438147892190734h2v21.561852107809266h-2Z" aria-label="rok: Jan 01, 1928; podil: 0.0359364201797; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M78.83859571649371,40.803267528931244h2v19.196732471068756h-2Z" aria-label="rok: Jan 01, 1929; podil: 0.0319945541184; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M81.41753146389932,34.46808510638298h2v25.53191489361702h-2Z" aria-label="rok: Jan 01, 1930; podil: 0.0425531914894; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M83.99646721130493,38.813559322033896h2v21.186440677966104h-2Z" aria-label="rok: Jan 01, 1931; podil: 0.0353107344633; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M86.57540295871054,38.189910979228486h2v21.810089020771514h-2Z" aria-label="rok: Jan 01, 1932; podil: 0.036350148368; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M89.1614042835063,42.90854572713643h2v17.091454272863572h-2Z" aria-label="rok: Jan 01, 1933; podil: 0.0284857571214; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M91.7403400309119,33.63636363636364h2v26.36363636363636h-2Z" aria-label="rok: Jan 01, 1934; podil: 0.0439393939394; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M94.3192757783175,29.728331177231567h2v30.271668822768433h-2Z" aria-label="rok: Jan 01, 1935; podil: 0.0504527813713; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M96.89821152572311,32.109654350417166h2v27.890345649582834h-2Z" aria-label="rok: Jan 01, 1936; podil: 0.046483909416; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M99.48421285051887,36.287425149700596h2v23.712574850299404h-2Z" aria-label="rok: Jan 01, 1937; podil: 0.0395209580838; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M102.0631485979245,34.91289198606272h2v25.087108013937282h-2Z" aria-label="rok: Jan 01, 1938; podil: 0.0418118466899; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M104.6420843453301,32.92035398230088h2v27.07964601769912h-2Z" aria-label="rok: Jan 01, 1939; podil: 0.0451327433628; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M107.2210200927357,43.87096774193549h2v16.129032258064512h-2Z" aria-label="rok: Jan 01, 1940; podil: 0.0268817204301; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M109.80672701847354,46.33257403189066h2v13.667425968109342h-2Z" aria-label="rok: Jan 01, 1941; podil: 0.0227790432802; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M112.38566276587915,52.11678832116788h2v7.883211678832119h-2Z" aria-label="rok: Jan 01, 1942; podil: 0.0131386861314; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M114.96489291234268,54.94097807757167h2v5.059021922428329h-2Z" aria-label="rok: Jan 01, 1943; podil: 0.00843170320405; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M117.54382865974829,53.854033290653014h2v6.145966709346986h-2Z" aria-label="rok: Jan 01, 1944; podil: 0.0102432778489; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M120.12982998454406,37.18894009216589h2v22.811059907834107h-2Z" aria-label="rok: Jan 01, 1945; podil: 0.0380184331797; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M122.70876573194967,38.07308970099668h2v21.926910299003318h-2Z" aria-label="rok: Jan 01, 1946; podil: 0.0365448504983; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M125.2879958784132,36.047904191616766h2v23.952095808383234h-2Z" aria-label="rok: Jan 01, 1947; podil: 0.0399201596806; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M127.86663722676087,38.927911275415894h2v21.072088724584106h-2Z" aria-label="rok: Jan 01, 1948; podil: 0.0351201478743; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M130.45263855155665,35.416133162612034h2v24.583866837387966h-2Z" aria-label="rok: Jan 01, 1949; podil: 0.0409731113956; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M133.03157429896223,37.11864406779661h2v22.88135593220339h-2Z" aria-label="rok: Jan 01, 1950; podil: 0.0381355932203; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M135.61051004636784,33.72781065088758h2v26.272189349112423h-2Z" aria-label="rok: Jan 01, 1951; podil: 0.0437869822485; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M138.18944579377347,36.99680511182109h2v23.00319488817891h-2Z" aria-label="rok: Jan 01, 1952; podil: 0.038338658147; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M140.77544711856922,42.06896551724138h2v17.93103448275862h-2Z" aria-label="rok: Jan 01, 1953; podil: 0.0298850574713; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M143.35438286597483,39.350649350649356h2v20.649350649350644h-2Z" aria-label="rok: Jan 01, 1954; podil: 0.0344155844156; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M145.93331861338044,41.12359550561798h2v18.876404494382022h-2Z" aria-label="rok: Jan 01, 1955; podil: 0.0314606741573; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M148.51225436078605,47.059669302659955h2v12.940330697340045h-2Z" aria-label="rok: Jan 01, 1956; podil: 0.0215672178289; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M151.0982556855818,47.38127544097693h2v12.618724559023072h-2Z" aria-label="rok: Jan 01, 1957; podil: 0.0210312075984; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M153.6771914329874,46.52482269503546h2v13.47517730496454h-2Z" aria-label="rok: Jan 01, 1958; podil: 0.0224586288416; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M156.25612718039304,42.53424657534247h2v17.465753424657528h-2Z" aria-label="rok: Jan 01, 1959; podil: 0.0291095890411; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M158.83506292779865,46.2111801242236h2v13.788819875776397h-2Z" aria-label="rok: Jan 01, 1960; podil: 0.0229813664596; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M161.4210642525944,43.67573570238756h2v16.324264297612437h-2Z" aria-label="rok: Jan 01, 1961; podil: 0.0272071071627; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M164,45.01742160278746h2v14.982578397212542h-2Z" aria-label="rok: Jan 01, 1962; podil: 0.0249709639954; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M166.57893574740564,46.18219037871034h2v13.817809621289662h-2Z" aria-label="rok: Jan 01, 1963; podil: 0.0230296827021; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M169.15787149481122,47.799791449426486h2v12.200208550573514h-2Z" aria-label="rok: Jan 01, 1964; podil: 0.0203336809176; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M171.74387281960696,47.8499106611078h2v12.1500893388922h-2Z" aria-label="rok: Jan 01, 1965; podil: 0.0202501488982; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M174.3228085670126,50.893169877408056h2v9.106830122591944h-2Z" aria-label="rok: Jan 01, 1966; podil: 0.0151780502043; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M176.90174431441818,50.27389603130241h2v9.726103968697593h-2Z" aria-label="rok: Jan 01, 1967; podil: 0.0162101732812; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M179.48068006182382,49.48486457780138h2v10.515135422198618h-2Z" aria-label="rok: Jan 01, 1968; podil: 0.0175252257037; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M182.06668138661956,52.97124600638978h2v7.0287539936102235h-2Z" aria-label="rok: Jan 01, 1969; podil: 0.0117145899894; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M184.6456171340252,54.441585177560476h2v5.558414822439524h-2Z" aria-label="rok: Jan 01, 1970; podil: 0.00926402470407; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M187.22455288143078,51.18942731277533h2v8.81057268722467h-2Z" aria-label="rok: Jan 01, 1971; podil: 0.014684287812; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M189.8034886288364,54.67849223946785h2v5.32150776053215h-2Z" aria-label="rok: Jan 01, 1972; podil: 0.00886917960089; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M192.38948995363216,49.59537572254335h2v10.404624277456648h-2Z" aria-label="rok: Jan 01, 1973; podil: 0.0173410404624; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M194.96842570103775,55.71683521713266h2v4.283164782867338h-2Z" aria-label="rok: Jan 01, 1974; podil: 0.00713860797145; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M197.54736144844335,56.85131195335277h2v3.14868804664723h-2Z" aria-label="rok: Jan 01, 1975; podil: 0.00524781341108; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M200.12629719584896,55.05222649807587h2v4.947773501924132h-2Z" aria-label="rok: Jan 01, 1976; podil: 0.00824628916987; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M202.71229852064474,54.65128474043h2v5.34871525957h-2Z" aria-label="rok: Jan 01, 1977; podil: 0.00891452543262; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M205.29123426805035,53.54838709677419h2v6.451612903225808h-2Z" aria-label="rok: Jan 01, 1978; podil: 0.010752688172; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M207.87017001545595,58.355413430790314h2v1.644586569209686h-2Z" aria-label="rok: Jan 01, 1979; podil: 0.00274097761535; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M210.44910576286154,55.41984732824427h2v4.580152671755727h-2Z" aria-label="rok: Jan 01, 1980; podil: 0.00763358778626; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M213.0351070876573,56.12903225806452h2v3.8709677419354804h-2Z" aria-label="rok: Jan 01, 1981; podil: 0.00645161290323; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M215.61404283506292,55.73043114273755h2v4.269568857262449h-2Z" aria-label="rok: Jan 01, 1982; podil: 0.00711594809544; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M218.19297858246853,56.149732620320854h2v3.8502673796791456h-2Z" aria-label="rok: Jan 01, 1983; podil: 0.00641711229947; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M220.77191432987414,57.90794979079498h2v2.09205020920502h-2Z" aria-label="rok: Jan 01, 1984; podil: 0.00348675034868; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M223.3579156546699,56.15819209039548h2v3.841807909604519h-2Z" aria-label="rok: Jan 01, 1985; podil: 0.00640301318267; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M225.93685140207552,57.39884393063584h2v2.6011560693641584h-2Z" aria-label="rok: Jan 01, 1986; podil: 0.00433526011561; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M228.5157871494811,58.212290502793294h2v1.7877094972067056h-2Z" aria-label="rok: Jan 01, 1987; podil: 0.00297951582868; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M231.09472289688674,58.21892393320965h2v1.781076066790348h-2Z" aria-label="rok: Jan 01, 1988; podil: 0.00296846011132; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M233.68072422168248,59.105812220566314h2v0.8941877794336861h-2Z" aria-label="rok: Jan 01, 1989; podil: 0.00149031296572; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M236.2596599690881,54.88699518340126h2v5.113004816598739h-2Z" aria-label="rok: Jan 01, 1990; podil: 0.00852167469433; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M238.8385957164937,55.20999652898299h2v4.790003471017009h-2Z" aria-label="rok: Jan 01, 1991; podil: 0.00798333911836; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M241.41753146389934,55.390781563126254h2v4.609218436873746h-2Z" aria-label="rok: Jan 01, 1992; podil: 0.00768203072812; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M244.00353278869508,57.23796033994334h2v2.762039660056658h-2Z" aria-label="rok: Jan 01, 1993; podil: 0.00460339943343; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M246.58246853610066,57.55018713848248h2v2.449812861517522h-2Z" aria-label="rok: Jan 01, 1994; podil: 0.00408302143586; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M249.1614042835063,57.155499367888744h2v2.844500632111256h-2Z" aria-label="rok: Jan 01, 1995; podil: 0.00474083438685; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M251.74034003091188,58.49435382685069h2v1.5056461731493087h-2Z" aria-label="rok: Jan 01, 1996; podil: 0.00250941028858; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M254.32634135570765,58.6210858948578h2v1.3789141051422007h-2Z" aria-label="rok: Jan 01, 1997; podil: 0.00229819017524; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M256.9052771031133,58.30124575311439h2v1.6987542468856134h-2Z" aria-label="rok: Jan 01, 1998; podil: 0.00283125707814; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M259.4842128505189,58.534201954397396h2v1.4657980456026038h-2Z" aria-label="rok: Jan 01, 1999; podil: 0.00244299674267; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M262.06314859792445,57.709923664122144h2v2.290076335877856h-2Z" aria-label="rok: Jan 01, 2000; podil: 0.00381679389313; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M264.64914992272026,58.185026468364h2v1.8149735316359994h-2Z" aria-label="rok: Jan 01, 2001; podil: 0.00302495588606; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M267.22808567012584,58.18308874912649h2v1.8169112508735097h-2Z" aria-label="rok: Jan 01, 2002; podil: 0.00302818541812; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M269.8070214175315,58.1958762886598h2v1.8041237113402033h-2Z" aria-label="rok: Jan 01, 2003; podil: 0.00300687285223; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M272.38595716493705,57.7859778597786h2v2.2140221402214024h-2Z" aria-label="rok: Jan 01, 2004; podil: 0.00369003690037; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M274.97195848973286,58.744531101388624h2v1.255468898611376h-2Z" aria-label="rok: Jan 01, 2005; podil: 0.00209244816435; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M277.55089423713844,59.11651021535063h2v0.8834897846493703h-2Z" aria-label="rok: Jan 01, 2006; podil: 0.00147248297442; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M280.129829984544,58.74520738933426h2v1.2547926106657386h-2Z" aria-label="rok: Jan 01, 2007; podil: 0.00209132101778; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M282.70876573194965,58.44827586206897h2v1.551724137931032h-2Z" aria-label="rok: Jan 01, 2008; podil: 0.00258620689655; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M285.2947670567454,58.651937839355924h2v1.3480621606440764h-2Z" aria-label="rok: Jan 01, 2009; podil: 0.00224677026774; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M287.87370280415104,58.06221315655278h2v1.9377868434472205h-2Z" aria-label="rok: Jan 01, 2010; podil: 0.00322964473908; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M290.4526385515566,59.07834101382489h2v0.9216589861751103h-2Z" aria-label="rok: Jan 01, 2011; podil: 0.00153609831029; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M293.03157429896225,58.83020205600851h2v1.1697979439914903h-2Z" aria-label="rok: Jan 01, 2012; podil: 0.00194966323999; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M295.617575623758,59.393428812131425h2v0.6065711878685747h-2Z" aria-label="rok: Jan 01, 2013; podil: 0.00101095197978; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M298.1965113711636,59.20805147665402h2v0.7919485233459795h-2Z" aria-label="rok: Jan 01, 2014; podil: 0.00131991420558; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M300.7754471185692,59.902216427640155h2v0.09778357235984458h-2Z" aria-label="rok: Jan 01, 2015; podil: 0.0001629726206; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M303.3543828659748,59.57027752909579h2v0.4297224709042098h-2Z" aria-label="rok: Jan 01, 2016; podil: 0.000716204118174; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M305.9403841907706,59.552739470741706h2v0.44726052925829407h-2Z" aria-label="rok: Jan 01, 2017; podil: 0.00074543421543; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M308.5193199381762,59.77744807121661h2v0.22255192878338903h-2Z" aria-label="rok: Jan 01, 2018; podil: 0.000370919881306; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M313.6771914329874,59.76493633692458h2v0.23506366307542237h-2Z" aria-label="rok: Jan 01, 2020; podil: 0.000391772771792; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M316.26319275778314,59.88137603795967h2v0.11862396204033132h-2Z" aria-label="rok: Jan 01, 2021; podil: 0.000197706603401; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M318.8421285051888,59.49906073888541h2v0.5009392611145884h-2Z" aria-label="rok: Jan 01, 2022; podil: 0.000834898768524; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M3.9999999999910214,55.833333333333336h2v4.166666666666664h-2Z" aria-label="rok: Jan 01, 1900; podil: 0.00694444444444; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M7.255906381090746,56.01328903654485h2v3.9867109634551525h-2Z" aria-label="rok: Jan 01, 1901; podil: 0.00664451827243; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M10.511812762190472,56.77852348993289h2v3.221476510067113h-2Z" aria-label="rok: Jan 01, 1902; podil: 0.00536912751678; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M13.767719143290197,55.24564183835182h2v4.754358161648177h-2Z" aria-label="rok: Jan 01, 1903; podil: 0.00792393026941; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M17.02362552438992,50.74074074074074h2v9.25925925925926h-2Z" aria-label="rok: Jan 01, 1904; podil: 0.0154320987654; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M20.288452196944714,55.10603588907015h2v4.893964110929851h-2Z" aria-label="rok: Jan 01, 1905; podil: 0.00815660685155; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M23.544358578044438,53.68421052631579h2v6.315789473684212h-2Z" aria-label="rok: Jan 01, 1906; podil: 0.0105263157895; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M26.80026495914416,51.627906976744185h2v8.372093023255815h-2Z" aria-label="rok: Jan 01, 1907; podil: 0.0139534883721; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M30.056171340243885,49.340101522842644h2v10.659898477157356h-2Z" aria-label="rok: Jan 01, 1908; podil: 0.0177664974619; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M33.320998012798675,49.27097661623109h2v10.729023383768912h-2Z" aria-label="rok: Jan 01, 1909; podil: 0.0178817056396; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M36.5769043938984,51.240875912408754h2v8.759124087591246h-2Z" aria-label="rok: Jan 01, 1910; podil: 0.014598540146; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M39.83281077499813,46.83870967741935h2v13.161290322580648h-2Z" aria-label="rok: Jan 01, 1911; podil: 0.021935483871; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M43.08871715609785,48.3495145631068h2v11.650485436893199h-2Z" aria-label="rok: Jan 01, 1912; podil: 0.0194174757282; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M46.35354382865265,48.55780691299166h2v11.442193087008341h-2Z" aria-label="rok: Jan 01, 1913; podil: 0.0190703218117; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M49.60945020975237,46.5814696485623h2v13.418530351437703h-2Z" aria-label="rok: Jan 01, 1914; podil: 0.0223642172524; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M52.865356590852095,47.919463087248324h2v12.080536912751676h-2Z" aria-label="rok: Jan 01, 1915; podil: 0.0201342281879; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M56.12126297195183,49.453125h2v10.546875h-2Z" aria-label="rok: Jan 01, 1916; podil: 0.017578125; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M59.38608964450661,48.41698841698842h2v11.583011583011583h-2Z" aria-label="rok: Jan 01, 1917; podil: 0.019305019305; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M62.641996025606346,48.92617449664429h2v11.073825503355707h-2Z" aria-label="rok: Jan 01, 1918; podil: 0.0184563758389; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M65.89790240670607,47.713310580204784h2v12.286689419795216h-2Z" aria-label="rok: Jan 01, 1919; podil: 0.0204778156997; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M69.15380878780579,41.141439205955336h2v18.858560794044664h-2Z" aria-label="rok: Jan 01, 1920; podil: 0.0314309346567; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M72.41863546036058,42.904411764705884h2v17.095588235294116h-2Z" aria-label="rok: Jan 01, 1921; podil: 0.0284926470588; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M75.6745418414603,47.51000800640512h2v12.489991993594877h-2Z" aria-label="rok: Jan 01, 1922; podil: 0.0208166533227; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M78.93044822256003,38.939157566302654h2v21.060842433697346h-2Z" aria-label="rok: Jan 01, 1923; podil: 0.0351014040562; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M82.18635460365975,34.45917655268667h2v25.54082344731333h-2Z" aria-label="rok: Jan 01, 1924; podil: 0.0425680390789; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M85.45118127621454,40.013324450366426h2v19.986675549633574h-2Z" aria-label="rok: Jan 01, 1925; podil: 0.0333111259161; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M88.70708765731426,39.74683544303798h2v20.25316455696202h-2Z" aria-label="rok: Jan 01, 1926; podil: 0.0337552742616; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M91.962994038414,38.69565217391304h2v21.30434782608696h-2Z" aria-label="rok: Jan 01, 1927; podil: 0.0355072463768; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M95.21890041951372,38.438147892190734h2v21.561852107809266h-2Z" aria-label="rok: Jan 01, 1928; podil: 0.0359364201797; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M98.48372709206852,40.803267528931244h2v19.196732471068756h-2Z" aria-label="rok: Jan 01, 1929; podil: 0.0319945541184; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M101.73963347316824,34.46808510638298h2v25.53191489361702h-2Z" aria-label="rok: Jan 01, 1930; podil: 0.0425531914894; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M104.99553985426795,38.813559322033896h2v21.186440677966104h-2Z" aria-label="rok: Jan 01, 1931; podil: 0.0353107344633; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M108.2514462353677,38.189910979228486h2v21.810089020771514h-2Z" aria-label="rok: Jan 01, 1932; podil: 0.036350148368; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M111.51627290792247,42.90854572713643h2v17.091454272863572h-2Z" aria-label="rok: Jan 01, 1933; podil: 0.0284857571214; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M114.77217928902222,33.63636363636364h2v26.36363636363636h-2Z" aria-label="rok: Jan 01, 1934; podil: 0.0439393939394; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M118.02808567012192,29.728331177231567h2v30.271668822768433h-2Z" aria-label="rok: Jan 01, 1935; podil: 0.0504527813713; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M121.28399205122165,32.109654350417166h2v27.890345649582834h-2Z" aria-label="rok: Jan 01, 1936; podil: 0.046483909416; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M124.54881872377645,36.287425149700596h2v23.712574850299404h-2Z" aria-label="rok: Jan 01, 1937; podil: 0.0395209580838; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M127.80472510487616,34.91289198606272h2v25.087108013937282h-2Z" aria-label="rok: Jan 01, 1938; podil: 0.0418118466899; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M131.06063148597588,32.92035398230088h2v27.07964601769912h-2Z" aria-label="rok: Jan 01, 1939; podil: 0.0451327433628; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M134.31653786707562,43.87096774193549h2v16.129032258064512h-2Z" aria-label="rok: Jan 01, 1940; podil: 0.0268817204301; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M137.5809928608198,46.33257403189066h2v13.667425968109342h-2Z" aria-label="rok: Jan 01, 1941; podil: 0.0227790432802; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M140.8368992419195,52.11678832116788h2v7.883211678832119h-2Z" aria-label="rok: Jan 01, 1942; podil: 0.0131386861314; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M144.09317730182985,54.94097807757167h2v5.059021922428329h-2Z" aria-label="rok: Jan 01, 1943; podil: 0.00843170320405; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M147.34908368292957,53.854033290653014h2v6.145966709346986h-2Z" aria-label="rok: Jan 01, 1944; podil: 0.0102432778489; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M150.6139103554844,37.18894009216589h2v22.811059907834107h-2Z" aria-label="rok: Jan 01, 1945; podil: 0.0380184331797; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M153.8698167365841,38.07308970099668h2v21.926910299003318h-2Z" aria-label="rok: Jan 01, 1946; podil: 0.0365448504983; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M157.12609479649447,36.047904191616766h2v23.952095808383234h-2Z" aria-label="rok: Jan 01, 1947; podil: 0.0399201596806; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M160.38162949878355,38.927911275415894h2v21.072088724584106h-2Z" aria-label="rok: Jan 01, 1948; podil: 0.0351201478743; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M163.64645617133834,35.416133162612034h2v24.583866837387966h-2Z" aria-label="rok: Jan 01, 1949; podil: 0.0409731113956; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M166.9023625524381,37.11864406779661h2v22.88135593220339h-2Z" aria-label="rok: Jan 01, 1950; podil: 0.0381355932203; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M170.1582689335378,33.72781065088758h2v26.272189349112423h-2Z" aria-label="rok: Jan 01, 1951; podil: 0.0437869822485; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M173.41417531463753,36.99680511182109h2v23.00319488817891h-2Z" aria-label="rok: Jan 01, 1952; podil: 0.038338658147; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M176.67900198719232,42.06896551724138h2v17.93103448275862h-2Z" aria-label="rok: Jan 01, 1953; podil: 0.0298850574713; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M179.93490836829204,39.350649350649356h2v20.649350649350644h-2Z" aria-label="rok: Jan 01, 1954; podil: 0.0344155844156; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M183.19081474939176,41.12359550561798h2v18.876404494382022h-2Z" aria-label="rok: Jan 01, 1955; podil: 0.0314606741573; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M186.4467211304915,47.059669302659955h2v12.940330697340045h-2Z" aria-label="rok: Jan 01, 1956; podil: 0.0215672178289; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M189.71154780304627,47.38127544097693h2v12.618724559023072h-2Z" aria-label="rok: Jan 01, 1957; podil: 0.0210312075984; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M192.96745418414602,46.52482269503546h2v13.47517730496454h-2Z" aria-label="rok: Jan 01, 1958; podil: 0.0224586288416; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M196.22336056524574,42.53424657534247h2v17.465753424657528h-2Z" aria-label="rok: Jan 01, 1959; podil: 0.0291095890411; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M199.47926694634546,46.2111801242236h2v13.788819875776397h-2Z" aria-label="rok: Jan 01, 1960; podil: 0.0229813664596; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M202.74409361890025,43.67573570238756h2v16.324264297612437h-2Z" aria-label="rok: Jan 01, 1961; podil: 0.0272071071627; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M205.99999999999997,45.01742160278746h2v14.982578397212542h-2Z" aria-label="rok: Jan 01, 1962; podil: 0.0249709639954; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M209.2559063810997,46.18219037871034h2v13.817809621289662h-2Z" aria-label="rok: Jan 01, 1963; podil: 0.0230296827021; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M212.5118127621994,47.799791449426486h2v12.200208550573514h-2Z" aria-label="rok: Jan 01, 1964; podil: 0.0203336809176; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M215.7766394347542,47.8499106611078h2v12.1500893388922h-2Z" aria-label="rok: Jan 01, 1965; podil: 0.0202501488982; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M219.03254581585392,50.893169877408056h2v9.106830122591944h-2Z" aria-label="rok: Jan 01, 1966; podil: 0.0151780502043; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M222.28845219695364,50.27389603130241h2v9.726103968697593h-2Z" aria-label="rok: Jan 01, 1967; podil: 0.0162101732812; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M225.54435857805336,49.48486457780138h2v10.515135422198618h-2Z" aria-label="rok: Jan 01, 1968; podil: 0.0175252257037; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M228.80918525060815,52.97124600638978h2v7.0287539936102235h-2Z" aria-label="rok: Jan 01, 1969; podil: 0.0117145899894; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M232.06509163170787,54.441585177560476h2v5.558414822439524h-2Z" aria-label="rok: Jan 01, 1970; podil: 0.00926402470407; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M235.32099801280765,51.18942731277533h2v8.81057268722467h-2Z" aria-label="rok: Jan 01, 1971; podil: 0.014684287812; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M238.57690439390737,54.67849223946785h2v5.32150776053215h-2Z" aria-label="rok: Jan 01, 1972; podil: 0.00886917960089; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M241.84173106646216,49.59537572254335h2v10.404624277456648h-2Z" aria-label="rok: Jan 01, 1973; podil: 0.0173410404624; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M245.09763744756188,55.71683521713266h2v4.283164782867338h-2Z" aria-label="rok: Jan 01, 1974; podil: 0.00713860797145; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M248.3535438286616,56.85131195335277h2v3.14868804664723h-2Z" aria-label="rok: Jan 01, 1975; podil: 0.00524781341108; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M251.60945020976132,55.05222649807587h2v4.947773501924132h-2Z" aria-label="rok: Jan 01, 1976; podil: 0.00824628916987; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M254.8742768823161,54.65128474043h2v5.34871525957h-2Z" aria-label="rok: Jan 01, 1977; podil: 0.00891452543262; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M258.13018326341586,53.54838709677419h2v6.451612903225808h-2Z" aria-label="rok: Jan 01, 1978; podil: 0.010752688172; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M261.38608964451555,58.355413430790314h2v1.644586569209686h-2Z" aria-label="rok: Jan 01, 1979; podil: 0.00274097761535; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M264.6419960256153,55.41984732824427h2v4.580152671755727h-2Z" aria-label="rok: Jan 01, 1980; podil: 0.00763358778626; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M267.90682269817006,56.12903225806452h2v3.8709677419354804h-2Z" aria-label="rok: Jan 01, 1981; podil: 0.00645161290323; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M271.1627290792698,55.73043114273755h2v4.269568857262449h-2Z" aria-label="rok: Jan 01, 1982; podil: 0.00711594809544; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M274.4186354603695,56.149732620320854h2v3.8502673796791456h-2Z" aria-label="rok: Jan 01, 1983; podil: 0.00641711229947; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M277.67454184146925,57.90794979079498h2v2.09205020920502h-2Z" aria-label="rok: Jan 01, 1984; podil: 0.00348675034868; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M280.939368514024,56.15819209039548h2v3.841807909604519h-2Z" aria-label="rok: Jan 01, 1985; podil: 0.00640301318267; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M284.19527489512376,57.39884393063584h2v2.6011560693641584h-2Z" aria-label="rok: Jan 01, 1986; podil: 0.00433526011561; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M287.4511812762235,58.212290502793294h2v1.7877094972067056h-2Z" aria-label="rok: Jan 01, 1987; podil: 0.00297951582868; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M290.70708765732326,58.21892393320965h2v1.781076066790348h-2Z" aria-label="rok: Jan 01, 1988; podil: 0.00296846011132; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M293.971914329878,59.105812220566314h2v0.8941877794336861h-2Z" aria-label="rok: Jan 01, 1989; podil: 0.00149031296572; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M297.22782071097777,54.88699518340126h2v5.113004816598739h-2Z" aria-label="rok: Jan 01, 1990; podil: 0.00852167469433; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M300.48372709207746,55.20999652898299h2v4.790003471017009h-2Z" aria-label="rok: Jan 01, 1991; podil: 0.00798333911836; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M303.7396334731772,55.390781563126254h2v4.609218436873746h-2Z" aria-label="rok: Jan 01, 1992; podil: 0.00768203072812; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M307.00446014573197,57.23796033994334h2v2.762039660056658h-2Z" aria-label="rok: Jan 01, 1993; podil: 0.00460339943343; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M310.2603665268317,57.55018713848248h2v2.449812861517522h-2Z" aria-label="rok: Jan 01, 1994; podil: 0.00408302143586; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M313.5162729079314,57.155499367888744h2v2.844500632111256h-2Z" aria-label="rok: Jan 01, 1995; podil: 0.00474083438685; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M316.77217928903116,58.49435382685069h2v1.5056461731493087h-2Z" aria-label="rok: Jan 01, 1996; podil: 0.00250941028858; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M320.0370059615859,58.6210858948578h2v1.3789141051422007h-2Z" aria-label="rok: Jan 01, 1997; podil: 0.00229819017524; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M323.29291234268567,58.30124575311439h2v1.6987542468856134h-2Z" aria-label="rok: Jan 01, 1998; podil: 0.00283125707814; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M326.54881872378536,58.534201954397396h2v1.4657980456026038h-2Z" aria-label="rok: Jan 01, 1999; podil: 0.00244299674267; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M329.8047251048851,57.709923664122144h2v2.290076335877856h-2Z" aria-label="rok: Jan 01, 2000; podil: 0.00381679389313; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M333.0695517774399,58.185026468364h2v1.8149735316359994h-2Z" aria-label="rok: Jan 01, 2001; podil: 0.00302495588606; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M336.3254581585396,58.18308874912649h2v1.8169112508735097h-2Z" aria-label="rok: Jan 01, 2002; podil: 0.00302818541812; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M339.58136453963937,58.1958762886598h2v1.8041237113402033h-2Z" aria-label="rok: Jan 01, 2003; podil: 0.00300687285223; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M342.8372709207391,57.7859778597786h2v2.2140221402214024h-2Z" aria-label="rok: Jan 01, 2004; podil: 0.00369003690037; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M346.1020975932939,58.744531101388624h2v1.255468898611376h-2Z" aria-label="rok: Jan 01, 2005; podil: 0.00209244816435; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M349.3580039743936,59.11651021535063h2v0.8834897846493703h-2Z" aria-label="rok: Jan 01, 2006; podil: 0.00147248297442; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M352.6139103554933,58.74520738933426h2v1.2547926106657386h-2Z" aria-label="rok: Jan 01, 2007; podil: 0.00209132101778; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M355.86981673659307,58.44827586206897h2v1.551724137931032h-2Z" aria-label="rok: Jan 01, 2008; podil: 0.00258620689655; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M359.1346434091479,58.651937839355924h2v1.3480621606440764h-2Z" aria-label="rok: Jan 01, 2009; podil: 0.00224677026774; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M362.3905497902476,58.06221315655278h2v1.9377868434472205h-2Z" aria-label="rok: Jan 01, 2010; podil: 0.00322964473908; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M365.6464561713473,59.07834101382489h2v0.9216589861751103h-2Z" aria-label="rok: Jan 01, 2011; podil: 0.00153609831029; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M368.902362552447,58.83020205600851h2v1.1697979439914903h-2Z" aria-label="rok: Jan 01, 2012; podil: 0.00194966323999; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M372.16718922500183,59.393428812131425h2v0.6065711878685747h-2Z" aria-label="rok: Jan 01, 2013; podil: 0.00101095197978; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M375.4230956061015,59.20805147665402h2v0.7919485233459795h-2Z" aria-label="rok: Jan 01, 2014; podil: 0.00131991420558; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M378.6790019872013,59.902216427640155h2v0.09778357235984458h-2Z" aria-label="rok: Jan 01, 2015; podil: 0.0001629726206; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M381.93490836830097,59.57027752909579h2v0.4297224709042098h-2Z" aria-label="rok: Jan 01, 2016; podil: 0.000716204118174; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M385.1997350408558,59.552739470741706h2v0.44726052925829407h-2Z" aria-label="rok: Jan 01, 2017; podil: 0.00074543421543; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M388.4556414219555,59.77744807121661h2v0.22255192878338903h-2Z" aria-label="rok: Jan 01, 2018; podil: 0.000370919881306; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M394.967454184155,59.76493633692458h2v0.23506366307542237h-2Z" aria-label="rok: Jan 01, 2020; podil: 0.000391772771792; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M398.23228085670974,59.88137603795967h2v0.11862396204033132h-2Z" aria-label="rok: Jan 01, 2021; podil: 0.000197706603401; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M401.4881872378095,59.49906073888541h2v0.5009392611145884h-2Z" aria-label="rok: Jan 01, 2022; podil: 0.000834898768524; co: …internaci ve vězení nebo koncentračním táboře" aria-roledescription="bar" role="graphics-symbol"/>
          </ns1:g>
          <ns1:g class="mark-group role-title">
           <ns1:g transform="translate(0,-20)">
@@ -263,172 +263,172 @@
         <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
        </ns1:g>
        <ns1:g transform="translate(0,127)">
-        <ns1:path class="background" d="M0.5,0.5h330v60h-330Z" aria-hidden="true"/>
+        <ns1:path class="background" d="M0.5,0.5h413.99999999999994v60h-413.99999999999994Z" aria-hidden="true"/>
         <ns1:g>
-         <ns1:g class="mark-group role-axis" aria-label="X-axis for a time scale with values from Sunday, 23 January 1898, 8:15:00 AM to Monday, 08 December 2025, 3:45:00 PM" aria-roledescription="axis" role="graphics-symbol">
+         <ns1:g class="mark-group role-axis" aria-label="X-axis for a time scale with values from Sunday, 19 June 1898, 11:31:29 AM to Monday, 14 July 2025, 1:28:30 PM" aria-roledescription="axis" role="graphics-symbol">
           <ns1:g transform="translate(.5 60)" pointer-events="none">
            <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
            <ns1:g>
             <ns1:g class="mark-rule role-axis-tick" stroke="#DCDDD6">
              <ns1:line transform="translate(5)" x2="0" y2="5"/>
-             <ns1:line transform="translate(31)" x2="0" y2="5"/>
-             <ns1:line transform="translate(57)" x2="0" y2="5"/>
-             <ns1:line transform="translate(82)" x2="0" y2="5"/>
-             <ns1:line transform="translate(108)" x2="0" y2="5"/>
-             <ns1:line transform="translate(134)" x2="0" y2="5"/>
-             <ns1:line transform="translate(160)" x2="0" y2="5"/>
-             <ns1:line transform="translate(186)" x2="0" y2="5"/>
-             <ns1:line transform="translate(211)" x2="0" y2="5"/>
-             <ns1:line transform="translate(237)" x2="0" y2="5"/>
-             <ns1:line transform="translate(263)" x2="0" y2="5"/>
-             <ns1:line transform="translate(289)" x2="0" y2="5"/>
-             <ns1:line transform="translate(315)" x2="0" y2="5"/>
+             <ns1:line transform="translate(38)" x2="0" y2="5"/>
+             <ns1:line transform="translate(70)" x2="0" y2="5"/>
+             <ns1:line transform="translate(103)" x2="0" y2="5"/>
+             <ns1:line transform="translate(135)" x2="0" y2="5"/>
+             <ns1:line transform="translate(168)" x2="0" y2="5"/>
+             <ns1:line transform="translate(200)" x2="0" y2="5"/>
+             <ns1:line transform="translate(233)" x2="0" y2="5"/>
+             <ns1:line transform="translate(266)" x2="0" y2="5"/>
+             <ns1:line transform="translate(298)" x2="0" y2="5"/>
+             <ns1:line transform="translate(331)" x2="0" y2="5"/>
+             <ns1:line transform="translate(363)" x2="0" y2="5"/>
+             <ns1:line transform="translate(396)" x2="0" y2="5"/>
             </ns1:g>
-            <ns1:g class="mark-text role-axis-label" fill="#000" font-family="Asap" font-size="9px" text-anchor="middle">
-             <ns1:text transform="translate(5,14)">1900</ns1:text>
-             <ns1:text transform="translate(31 14)">1910</ns1:text>
-             <ns1:text transform="translate(57 14)">1920</ns1:text>
-             <ns1:text transform="translate(82 14)">1930</ns1:text>
-             <ns1:text transform="translate(108 14)">1940</ns1:text>
-             <ns1:text transform="translate(134 14)">1950</ns1:text>
-             <ns1:text transform="translate(160 14)">1960</ns1:text>
-             <ns1:text transform="translate(186 14)">1970</ns1:text>
-             <ns1:text transform="translate(211 14)">1980</ns1:text>
-             <ns1:text transform="translate(237 14)">1990</ns1:text>
-             <ns1:text transform="translate(263 14)">2000</ns1:text>
-             <ns1:text transform="translate(289 14)">2010</ns1:text>
-             <ns1:text transform="translate(315 14)">2020</ns1:text>
+            <ns1:g class="mark-text role-axis-label" fill="#292829" font-family="Asap" font-size="9px" text-anchor="middle">
+             <ns1:text transform="translate(5 14)">1900</ns1:text>
+             <ns1:text transform="translate(38 14)">1910</ns1:text>
+             <ns1:text transform="translate(70 14)">1920</ns1:text>
+             <ns1:text transform="translate(103 14)">1930</ns1:text>
+             <ns1:text transform="translate(135 14)">1940</ns1:text>
+             <ns1:text transform="translate(168 14)">1950</ns1:text>
+             <ns1:text transform="translate(200 14)">1960</ns1:text>
+             <ns1:text transform="translate(233 14)">1970</ns1:text>
+             <ns1:text transform="translate(266 14)">1980</ns1:text>
+             <ns1:text transform="translate(298 14)">1990</ns1:text>
+             <ns1:text transform="translate(331 14)">2000</ns1:text>
+             <ns1:text transform="translate(363 14)">2010</ns1:text>
+             <ns1:text transform="translate(396 14)">2020</ns1:text>
             </ns1:g>
            </ns1:g>
            <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
           </ns1:g>
          </ns1:g>
          <ns1:g class="mark-rect role-mark child_marks" fill="#D6534B" aria-roledescription="rect mark container" role="graphics-object">
-          <ns1:path d="M4,55.833333333333336h2v4.166666666666664h-2Z" aria-label="rok: Jan 01, 1900; podil: 0.00694444444444; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M6.578935747405608,58.006644518272424h2v1.9933554817275763h-2Z" aria-label="rok: Jan 01, 1901; podil: 0.00332225913621; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M9.157871494811216,58.38926174496645h2v1.610738255033553h-2Z" aria-label="rok: Jan 01, 1902; podil: 0.00268456375839; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M11.736807242216825,55.24564183835182h2v4.754358161648177h-2Z" aria-label="rok: Jan 01, 1903; podil: 0.00792393026941; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M14.315742989622432,58.148148148148145h2v1.8518518518518547h-2Z" aria-label="rok: Jan 01, 1904; podil: 0.00308641975309; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M16.901744314418195,58.04241435562806h2v1.9575856443719388h-2Z" aria-label="rok: Jan 01, 1905; podil: 0.00326264274062; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M19.480680061823804,54.58646616541353h2v5.413533834586467h-2Z" aria-label="rok: Jan 01, 1906; podil: 0.00902255639098; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M22.05961580922941,53.48837209302326h2v6.5116279069767415h-2Z" aria-label="rok: Jan 01, 1907; podil: 0.0108527131783; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M24.638551556635015,57.71573604060914h2v2.284263959390863h-2Z" aria-label="rok: Jan 01, 1908; podil: 0.00380710659898; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M27.22455288143078,56.698762035763416h2v3.3012379642365843h-2Z" aria-label="rok: Jan 01, 1909; podil: 0.00550206327373; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M29.80348862883639,54.16058394160584h2v5.839416058394157h-2Z" aria-label="rok: Jan 01, 1910; podil: 0.00973236009732; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M32.38242437624199,53.03225806451613h2v6.967741935483872h-2Z" aria-label="rok: Jan 01, 1911; podil: 0.0116129032258; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M34.96136012364761,55.63106796116505h2v4.368932038834949h-2Z" aria-label="rok: Jan 01, 1912; podil: 0.00728155339806; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M37.54736144844336,57.13945172824792h2v2.86054827175208h-2Z" aria-label="rok: Jan 01, 1913; podil: 0.00476758045292; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M40.12629719584898,57.12460063897764h2v2.8753993610223603h-2Z" aria-label="rok: Jan 01, 1914; podil: 0.00479233226837; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M42.705232943254586,53.288590604026844h2v6.711409395973156h-2Z" aria-label="rok: Jan 01, 1915; podil: 0.0111856823266; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M45.28416869066019,55.3125h2v4.6875h-2Z" aria-label="rok: Jan 01, 1916; podil: 0.0078125; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M47.87017001545595,58.84169884169884h2v1.1583011583011569h-2Z" aria-label="rok: Jan 01, 1917; podil: 0.0019305019305; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M50.449105762861564,55.9731543624161h2v4.026845637583897h-2Z" aria-label="rok: Jan 01, 1918; podil: 0.00671140939597; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M53.028041510267165,51.80887372013652h2v8.191126279863482h-2Z" aria-label="rok: Jan 01, 1919; podil: 0.0136518771331; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M55.606977257672774,49.08188585607941h2v10.91811414392059h-2Z" aria-label="rok: Jan 01, 1920; podil: 0.0181968569065; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M58.192978582468534,51.727941176470594h2v8.272058823529406h-2Z" aria-label="rok: Jan 01, 1921; podil: 0.0137867647059; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M60.77191432987415,55.19615692554043h2v4.8038430744595715h-2Z" aria-label="rok: Jan 01, 1922; podil: 0.0080064051241; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M63.35085007727976,56.72386895475819h2v3.2761310452418115h-2Z" aria-label="rok: Jan 01, 1923; podil: 0.00546021840874; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M65.92978582468535,54.13817166782973h2v5.861828332170269h-2Z" aria-label="rok: Jan 01, 1924; podil: 0.00976971388695; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M68.51578714948113,52.80479680213192h2v7.195203197868082h-2Z" aria-label="rok: Jan 01, 1925; podil: 0.0119920053298; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M71.09472289688674,52.82700421940929h2v7.1729957805907105h-2Z" aria-label="rok: Jan 01, 1926; podil: 0.0119549929677; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M73.67365864429233,50h2v10h-2Z" aria-label="rok: Jan 01, 1927; podil: 0.0166666666667; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M76.25259439169794,49.63372494816863h2v10.366275051831373h-2Z" aria-label="rok: Jan 01, 1928; podil: 0.0172771250864; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M78.83859571649371,51.83117767188564h2v8.16882232811436h-2Z" aria-label="rok: Jan 01, 1929; podil: 0.0136147038802; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M81.41753146389932,47.5886524822695h2v12.411347517730498h-2Z" aria-label="rok: Jan 01, 1930; podil: 0.0206855791962; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M83.99646721130493,50.25423728813559h2v9.745762711864408h-2Z" aria-label="rok: Jan 01, 1931; podil: 0.0162429378531; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M86.57540295871054,48.4272997032641h2v11.572700296735903h-2Z" aria-label="rok: Jan 01, 1932; podil: 0.0192878338279; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M89.1614042835063,50.554722638680666h2v9.445277361319334h-2Z" aria-label="rok: Jan 01, 1933; podil: 0.0157421289355; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M91.7403400309119,50.45454545454545h2v9.545454545454547h-2Z" aria-label="rok: Jan 01, 1934; podil: 0.0159090909091; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M94.3192757783175,53.402328589909445h2v6.597671410090555h-2Z" aria-label="rok: Jan 01, 1935; podil: 0.0109961190168; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M96.89821152572311,48.91537544696067h2v11.084624553039333h-2Z" aria-label="rok: Jan 01, 1936; podil: 0.0184743742551; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M99.48421285051887,49.94011976047904h2v10.059880239520957h-2Z" aria-label="rok: Jan 01, 1937; podil: 0.0167664670659; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M102.0631485979245,49.96515679442509h2v10.034843205574909h-2Z" aria-label="rok: Jan 01, 1938; podil: 0.016724738676; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M104.6420843453301,53.097345132743364h2v6.902654867256636h-2Z" aria-label="rok: Jan 01, 1939; podil: 0.0115044247788; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M107.2210200927357,50.322580645161295h2v9.677419354838705h-2Z" aria-label="rok: Jan 01, 1940; podil: 0.0161290322581; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M109.80672701847354,50.88838268792711h2v9.111617312072887h-2Z" aria-label="rok: Jan 01, 1941; podil: 0.0151860288535; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M112.38566276587915,51.240875912408754h2v8.759124087591246h-2Z" aria-label="rok: Jan 01, 1942; podil: 0.014598540146; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M114.96489291234268,44.822934232715006h2v15.177065767284994h-2Z" aria-label="rok: Jan 01, 1943; podil: 0.0252951096121; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M117.54382865974829,50.78104993597952h2v9.218950064020483h-2Z" aria-label="rok: Jan 01, 1944; podil: 0.0153649167734; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M120.12982998454406,38.57142857142858h2v21.428571428571423h-2Z" aria-label="rok: Jan 01, 1945; podil: 0.0357142857143; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M122.70876573194967,34.65590887517798h2v25.34409112482202h-2Z" aria-label="rok: Jan 01, 1946; podil: 0.0422401518747; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M125.2879958784132,37.84431137724551h2v22.15568862275449h-2Z" aria-label="rok: Jan 01, 1947; podil: 0.0369261477046; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M127.86663722676087,35.97042513863216h2v24.02957486136784h-2Z" aria-label="rok: Jan 01, 1948; podil: 0.0400492914356; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M130.45263855155665,-3.7644046094750294h2v63.76440460947503h-2Z" aria-label="rok: Jan 01, 1949; podil: 0.106274007682; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M133.03157429896223,4.91525423728814h2v55.08474576271186h-2Z" aria-label="rok: Jan 01, 1950; podil: 0.0918079096045; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M135.61051004636784,10.295857988165679h2v49.70414201183432h-2Z" aria-label="rok: Jan 01, 1951; podil: 0.0828402366864; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M138.18944579377347,12.076677316293933h2v47.92332268370607h-2Z" aria-label="rok: Jan 01, 1952; podil: 0.0798722044728; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M140.77544711856922,20.45977011494253h2v39.54022988505747h-2Z" aria-label="rok: Jan 01, 1953; podil: 0.0659003831418; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M143.35438286597483,31.94805194805195h2v28.05194805194805h-2Z" aria-label="rok: Jan 01, 1954; podil: 0.0467532467532; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M145.93331861338044,32.58426966292135h2v27.41573033707865h-2Z" aria-label="rok: Jan 01, 1955; podil: 0.0456928838951; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M148.51225436078605,39.72681524083393h2v20.27318475916607h-2Z" aria-label="rok: Jan 01, 1956; podil: 0.0337886412653; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M151.0982556855818,37.61194029850746h2v22.388059701492537h-2Z" aria-label="rok: Jan 01, 1957; podil: 0.0373134328358; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M153.6771914329874,35.88652482269504h2v24.113475177304963h-2Z" aria-label="rok: Jan 01, 1958; podil: 0.0401891252955; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M156.25612718039304,37.73972602739726h2v22.26027397260274h-2Z" aria-label="rok: Jan 01, 1959; podil: 0.037100456621; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M158.83506292779865,24.596273291925467h2v35.40372670807453h-2Z" aria-label="rok: Jan 01, 1960; podil: 0.0590062111801; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M161.4210642525944,34.01443642420877h2v25.985563575791232h-2Z" aria-label="rok: Jan 01, 1961; podil: 0.0433092726263; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M164,38.745644599303134h2v21.254355400696866h-2Z" aria-label="rok: Jan 01, 1962; podil: 0.0354239256678; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M166.57893574740564,40.96212896622313h2v19.037871033776867h-2Z" aria-label="rok: Jan 01, 1963; podil: 0.0317297850563; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M169.15787149481122,39.35349322210636h2v20.64650677789364h-2Z" aria-label="rok: Jan 01, 1964; podil: 0.0344108446298; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M171.74387281960696,42.84693269803455h2v17.15306730196545h-2Z" aria-label="rok: Jan 01, 1965; podil: 0.0285884455033; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M174.3228085670126,38.283712784588445h2v21.716287215411555h-2Z" aria-label="rok: Jan 01, 1966; podil: 0.0361938120257; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M176.90174431441818,41.21855785354947h2v18.78144214645053h-2Z" aria-label="rok: Jan 01, 1967; podil: 0.0313024035774; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M179.48068006182382,39.28836962294211h2v20.711630377057887h-2Z" aria-label="rok: Jan 01, 1968; podil: 0.0345193839618; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M182.06668138661956,44.98402555910543h2v15.015974440894567h-2Z" aria-label="rok: Jan 01, 1969; podil: 0.0250266240682; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M184.6456171340252,47.33916623777663h2v12.660833762223369h-2Z" aria-label="rok: Jan 01, 1970; podil: 0.0211013896037; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M187.22455288143078,43.25991189427313h2v16.74008810572687h-2Z" aria-label="rok: Jan 01, 1971; podil: 0.0279001468429; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M189.8034886288364,47.028824833702885h2v12.971175166297115h-2Z" aria-label="rok: Jan 01, 1972; podil: 0.0216186252772; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M192.38948995363216,42.65895953757226h2v17.341040462427742h-2Z" aria-label="rok: Jan 01, 1973; podil: 0.028901734104; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M194.96842570103775,45.008923259964305h2v14.991076740035695h-2Z" aria-label="rok: Jan 01, 1974; podil: 0.0249851279001; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M197.54736144844335,42.50728862973761h2v17.49271137026239h-2Z" aria-label="rok: Jan 01, 1975; podil: 0.0291545189504; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M200.12629719584896,42.51786695986806h2v17.48213304013194h-2Z" aria-label="rok: Jan 01, 1976; podil: 0.0291368884002; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M202.71229852064474,44.583114840062926h2v15.416885159937074h-2Z" aria-label="rok: Jan 01, 1977; podil: 0.0256948085999; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M205.29123426805035,47.096774193548384h2v12.903225806451616h-2Z" aria-label="rok: Jan 01, 1978; podil: 0.0215053763441; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M207.87017001545595,43.8282320694381h2v16.1717679305619h-2Z" aria-label="rok: Jan 01, 1979; podil: 0.0269529465509; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M210.44910576286154,46.00508905852417h2v13.99491094147583h-2Z" aria-label="rok: Jan 01, 1980; podil: 0.0233248515691; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M213.0351070876573,43.41013824884792h2v16.58986175115208h-2Z" aria-label="rok: Jan 01, 1981; podil: 0.0276497695853; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M215.61404283506292,45.684386772708244h2v14.315613227291756h-2Z" aria-label="rok: Jan 01, 1982; podil: 0.0238593553788; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M218.19297858246853,46.09625668449198h2v13.903743315508017h-2Z" aria-label="rok: Jan 01, 1983; podil: 0.0231729055258; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M220.77191432987414,45.98326359832636h2v14.01673640167364h-2Z" aria-label="rok: Jan 01, 1984; podil: 0.0233612273361; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M223.3579156546699,43.502824858757066h2v16.497175141242934h-2Z" aria-label="rok: Jan 01, 1985; podil: 0.0274952919021; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M225.93685140207552,44.176300578034684h2v15.823699421965316h-2Z" aria-label="rok: Jan 01, 1986; podil: 0.0263728323699; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M228.5157871494811,45.69832402234637h2v14.30167597765363h-2Z" aria-label="rok: Jan 01, 1987; podil: 0.0238361266294; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M231.09472289688674,45.083487940630796h2v14.916512059369204h-2Z" aria-label="rok: Jan 01, 1988; podil: 0.0248608534323; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M233.68072422168248,46.58718330849478h2v13.41281669150522h-2Z" aria-label="rok: Jan 01, 1989; podil: 0.0223546944858; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M236.2596599690881,37.10263060392738h2v22.89736939607262h-2Z" aria-label="rok: Jan 01, 1990; podil: 0.0381622823268; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M238.8385957164937,40.839986115931964h2v19.160013884068036h-2Z" aria-label="rok: Jan 01, 1991; podil: 0.0319333564734; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M241.41753146389934,42.16432865731463h2v17.835671342685373h-2Z" aria-label="rok: Jan 01, 1992; podil: 0.0297261189045; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M244.00353278869508,43.640226628895185h2v16.359773371104815h-2Z" aria-label="rok: Jan 01, 1993; podil: 0.0272662889518; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M246.58246853610066,46.11772711806737h2v13.882272881932629h-2Z" aria-label="rok: Jan 01, 1994; podil: 0.0231371214699; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M249.1614042835063,47.10493046776233h2v12.89506953223767h-2Z" aria-label="rok: Jan 01, 1995; podil: 0.0214917825537; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M251.74034003091188,50.777917189460474h2v9.222082810539526h-2Z" aria-label="rok: Jan 01, 1996; podil: 0.0153701380176; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M254.32634135570765,49.658144211433495h2v10.341855788566505h-2Z" aria-label="rok: Jan 01, 1997; podil: 0.0172364263143; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M256.9052771031133,52.0158550396376h2v7.9841449603624h-2Z" aria-label="rok: Jan 01, 1998; podil: 0.0133069082673; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M259.4842128505189,51.69381107491857h2v8.306188925081429h-2Z" aria-label="rok: Jan 01, 1999; podil: 0.0138436482085; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M262.06314859792445,51.603053435114504h2v8.396946564885496h-2Z" aria-label="rok: Jan 01, 2000; podil: 0.0139949109415; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M264.64914992272026,49.71514998739602h2v10.284850012603982h-2Z" aria-label="rok: Jan 01, 2001; podil: 0.0171414166877; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M267.22808567012584,50.49615653389238h2v9.503843466107618h-2Z" aria-label="rok: Jan 01, 2002; podil: 0.0158397391102; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M269.8070214175315,54.71649484536082h2v5.28350515463918h-2Z" aria-label="rok: Jan 01, 2003; podil: 0.0088058419244; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M272.38595716493705,54.34194341943419h2v5.6580565805658125h-2Z" aria-label="rok: Jan 01, 2004; podil: 0.00943009430094; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M274.97195848973286,53.49438843446833h2v6.505611565531673h-2Z" aria-label="rok: Jan 01, 2005; podil: 0.0108426859426; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M277.55089423713844,53.70513528437328h2v6.294864715626723h-2Z" aria-label="rok: Jan 01, 2006; podil: 0.0104914411927; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M280.129829984544,54.98082955733705h2v5.019170442662947h-2Z" aria-label="rok: Jan 01, 2007; podil: 0.0083652840711; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M282.70876573194965,53.689655172413794h2v6.310344827586206h-2Z" aria-label="rok: Jan 01, 2008; podil: 0.0105172413793; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M285.2947670567454,54.94476689758472h2v5.055233102415279h-2Z" aria-label="rok: Jan 01, 2009; podil: 0.00842538850403; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M287.87370280415104,53.37072921978583h2v6.629270780214171h-2Z" aria-label="rok: Jan 01, 2010; podil: 0.0110487846337; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M290.4526385515566,54.982078853046595h2v5.017921146953405h-2Z" aria-label="rok: Jan 01, 2011; podil: 0.00836320191159; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M293.03157429896225,54.47004608294931h2v5.52995391705069h-2Z" aria-label="rok: Jan 01, 2012; podil: 0.00921658986175; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M295.617575623758,55.248525695029485h2v4.751474304970515h-2Z" aria-label="rok: Jan 01, 2013; podil: 0.00791912384162; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M298.1965113711636,54.357366771159874h2v5.6426332288401255h-2Z" aria-label="rok: Jan 01, 2014; podil: 0.00940438871473; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M300.7754471185692,56.08865710560626h2v3.9113428943937407h-2Z" aria-label="rok: Jan 01, 2015; podil: 0.00651890482399; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M303.3543828659748,56.88451208594449h2v3.1154879140555067h-2Z" aria-label="rok: Jan 01, 2016; podil: 0.00519247985676; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M305.9403841907706,55.63920983973164h2v4.360790160268358h-2Z" aria-label="rok: Jan 01, 2017; podil: 0.00726798360045; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M308.5193199381762,55.882789317507424h2v4.117210682492576h-2Z" aria-label="rok: Jan 01, 2018; podil: 0.00686201780415; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M311.0982556855818,55.751376868607394h2v4.2486231313926055h-2Z" aria-label="rok: Jan 01, 2019; podil: 0.00708103855232; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M313.6771914329874,56.826640548481876h2v3.173359451518124h-2Z" aria-label="rok: Jan 01, 2020; podil: 0.0052889324192; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M316.26319275778314,55.017793594306056h2v4.982206405693944h-2Z" aria-label="rok: Jan 01, 2021; podil: 0.00830367734282; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M318.8421285051888,56.994364433312455h2v3.0056355666875447h-2Z" aria-label="rok: Jan 01, 2022; podil: 0.00500939261115; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M321.42106425259436,58.18478007912497h2v1.8152199208750304h-2Z" aria-label="rok: Jan 01, 2023; podil: 0.00302536653479; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M324,58.41688654353562h2v1.5831134564643818h-2Z" aria-label="rok: Jan 01, 2024; podil: 0.00263852242744; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M3.9999999999910214,55.833333333333336h2v4.166666666666664h-2Z" aria-label="rok: Jan 01, 1900; podil: 0.00694444444444; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M7.255906381090746,58.006644518272424h2v1.9933554817275763h-2Z" aria-label="rok: Jan 01, 1901; podil: 0.00332225913621; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M10.511812762190472,58.38926174496645h2v1.610738255033553h-2Z" aria-label="rok: Jan 01, 1902; podil: 0.00268456375839; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M13.767719143290197,55.24564183835182h2v4.754358161648177h-2Z" aria-label="rok: Jan 01, 1903; podil: 0.00792393026941; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M17.02362552438992,58.148148148148145h2v1.8518518518518547h-2Z" aria-label="rok: Jan 01, 1904; podil: 0.00308641975309; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M20.288452196944714,58.04241435562806h2v1.9575856443719388h-2Z" aria-label="rok: Jan 01, 1905; podil: 0.00326264274062; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M23.544358578044438,54.58646616541353h2v5.413533834586467h-2Z" aria-label="rok: Jan 01, 1906; podil: 0.00902255639098; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M26.80026495914416,53.48837209302326h2v6.5116279069767415h-2Z" aria-label="rok: Jan 01, 1907; podil: 0.0108527131783; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M30.056171340243885,57.71573604060914h2v2.284263959390863h-2Z" aria-label="rok: Jan 01, 1908; podil: 0.00380710659898; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M33.320998012798675,56.698762035763416h2v3.3012379642365843h-2Z" aria-label="rok: Jan 01, 1909; podil: 0.00550206327373; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M36.5769043938984,54.16058394160584h2v5.839416058394157h-2Z" aria-label="rok: Jan 01, 1910; podil: 0.00973236009732; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M39.83281077499813,53.03225806451613h2v6.967741935483872h-2Z" aria-label="rok: Jan 01, 1911; podil: 0.0116129032258; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M43.08871715609785,55.63106796116505h2v4.368932038834949h-2Z" aria-label="rok: Jan 01, 1912; podil: 0.00728155339806; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M46.35354382865265,57.13945172824792h2v2.86054827175208h-2Z" aria-label="rok: Jan 01, 1913; podil: 0.00476758045292; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M49.60945020975237,57.12460063897764h2v2.8753993610223603h-2Z" aria-label="rok: Jan 01, 1914; podil: 0.00479233226837; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M52.865356590852095,53.288590604026844h2v6.711409395973156h-2Z" aria-label="rok: Jan 01, 1915; podil: 0.0111856823266; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M56.12126297195183,55.3125h2v4.6875h-2Z" aria-label="rok: Jan 01, 1916; podil: 0.0078125; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M59.38608964450661,58.84169884169884h2v1.1583011583011569h-2Z" aria-label="rok: Jan 01, 1917; podil: 0.0019305019305; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M62.641996025606346,55.9731543624161h2v4.026845637583897h-2Z" aria-label="rok: Jan 01, 1918; podil: 0.00671140939597; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M65.89790240670607,51.80887372013652h2v8.191126279863482h-2Z" aria-label="rok: Jan 01, 1919; podil: 0.0136518771331; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M69.15380878780579,49.08188585607941h2v10.91811414392059h-2Z" aria-label="rok: Jan 01, 1920; podil: 0.0181968569065; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M72.41863546036058,51.727941176470594h2v8.272058823529406h-2Z" aria-label="rok: Jan 01, 1921; podil: 0.0137867647059; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M75.6745418414603,55.19615692554043h2v4.8038430744595715h-2Z" aria-label="rok: Jan 01, 1922; podil: 0.0080064051241; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M78.93044822256003,56.72386895475819h2v3.2761310452418115h-2Z" aria-label="rok: Jan 01, 1923; podil: 0.00546021840874; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M82.18635460365975,54.13817166782973h2v5.861828332170269h-2Z" aria-label="rok: Jan 01, 1924; podil: 0.00976971388695; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M85.45118127621454,52.80479680213192h2v7.195203197868082h-2Z" aria-label="rok: Jan 01, 1925; podil: 0.0119920053298; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M88.70708765731426,52.82700421940929h2v7.1729957805907105h-2Z" aria-label="rok: Jan 01, 1926; podil: 0.0119549929677; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M91.962994038414,50h2v10h-2Z" aria-label="rok: Jan 01, 1927; podil: 0.0166666666667; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M95.21890041951372,49.63372494816863h2v10.366275051831373h-2Z" aria-label="rok: Jan 01, 1928; podil: 0.0172771250864; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M98.48372709206852,51.83117767188564h2v8.16882232811436h-2Z" aria-label="rok: Jan 01, 1929; podil: 0.0136147038802; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M101.73963347316824,47.5886524822695h2v12.411347517730498h-2Z" aria-label="rok: Jan 01, 1930; podil: 0.0206855791962; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M104.99553985426795,50.25423728813559h2v9.745762711864408h-2Z" aria-label="rok: Jan 01, 1931; podil: 0.0162429378531; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M108.2514462353677,48.4272997032641h2v11.572700296735903h-2Z" aria-label="rok: Jan 01, 1932; podil: 0.0192878338279; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M111.51627290792247,50.554722638680666h2v9.445277361319334h-2Z" aria-label="rok: Jan 01, 1933; podil: 0.0157421289355; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M114.77217928902222,50.45454545454545h2v9.545454545454547h-2Z" aria-label="rok: Jan 01, 1934; podil: 0.0159090909091; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M118.02808567012192,53.402328589909445h2v6.597671410090555h-2Z" aria-label="rok: Jan 01, 1935; podil: 0.0109961190168; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M121.28399205122165,48.91537544696067h2v11.084624553039333h-2Z" aria-label="rok: Jan 01, 1936; podil: 0.0184743742551; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M124.54881872377645,49.94011976047904h2v10.059880239520957h-2Z" aria-label="rok: Jan 01, 1937; podil: 0.0167664670659; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M127.80472510487616,49.96515679442509h2v10.034843205574909h-2Z" aria-label="rok: Jan 01, 1938; podil: 0.016724738676; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M131.06063148597588,53.097345132743364h2v6.902654867256636h-2Z" aria-label="rok: Jan 01, 1939; podil: 0.0115044247788; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M134.31653786707562,50.322580645161295h2v9.677419354838705h-2Z" aria-label="rok: Jan 01, 1940; podil: 0.0161290322581; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M137.5809928608198,50.88838268792711h2v9.111617312072887h-2Z" aria-label="rok: Jan 01, 1941; podil: 0.0151860288535; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M140.8368992419195,51.240875912408754h2v8.759124087591246h-2Z" aria-label="rok: Jan 01, 1942; podil: 0.014598540146; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M144.09317730182985,44.822934232715006h2v15.177065767284994h-2Z" aria-label="rok: Jan 01, 1943; podil: 0.0252951096121; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M147.34908368292957,50.78104993597952h2v9.218950064020483h-2Z" aria-label="rok: Jan 01, 1944; podil: 0.0153649167734; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M150.6139103554844,38.57142857142858h2v21.428571428571423h-2Z" aria-label="rok: Jan 01, 1945; podil: 0.0357142857143; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M153.8698167365841,34.65590887517798h2v25.34409112482202h-2Z" aria-label="rok: Jan 01, 1946; podil: 0.0422401518747; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M157.12609479649447,37.84431137724551h2v22.15568862275449h-2Z" aria-label="rok: Jan 01, 1947; podil: 0.0369261477046; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M160.38162949878355,35.97042513863216h2v24.02957486136784h-2Z" aria-label="rok: Jan 01, 1948; podil: 0.0400492914356; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M163.64645617133834,-3.7644046094750294h2v63.76440460947503h-2Z" aria-label="rok: Jan 01, 1949; podil: 0.106274007682; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M166.9023625524381,4.91525423728814h2v55.08474576271186h-2Z" aria-label="rok: Jan 01, 1950; podil: 0.0918079096045; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M170.1582689335378,10.295857988165679h2v49.70414201183432h-2Z" aria-label="rok: Jan 01, 1951; podil: 0.0828402366864; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M173.41417531463753,12.076677316293933h2v47.92332268370607h-2Z" aria-label="rok: Jan 01, 1952; podil: 0.0798722044728; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M176.67900198719232,20.45977011494253h2v39.54022988505747h-2Z" aria-label="rok: Jan 01, 1953; podil: 0.0659003831418; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M179.93490836829204,31.94805194805195h2v28.05194805194805h-2Z" aria-label="rok: Jan 01, 1954; podil: 0.0467532467532; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M183.19081474939176,32.58426966292135h2v27.41573033707865h-2Z" aria-label="rok: Jan 01, 1955; podil: 0.0456928838951; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M186.4467211304915,39.72681524083393h2v20.27318475916607h-2Z" aria-label="rok: Jan 01, 1956; podil: 0.0337886412653; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M189.71154780304627,37.61194029850746h2v22.388059701492537h-2Z" aria-label="rok: Jan 01, 1957; podil: 0.0373134328358; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M192.96745418414602,35.88652482269504h2v24.113475177304963h-2Z" aria-label="rok: Jan 01, 1958; podil: 0.0401891252955; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M196.22336056524574,37.73972602739726h2v22.26027397260274h-2Z" aria-label="rok: Jan 01, 1959; podil: 0.037100456621; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M199.47926694634546,24.596273291925467h2v35.40372670807453h-2Z" aria-label="rok: Jan 01, 1960; podil: 0.0590062111801; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M202.74409361890025,34.01443642420877h2v25.985563575791232h-2Z" aria-label="rok: Jan 01, 1961; podil: 0.0433092726263; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M205.99999999999997,38.745644599303134h2v21.254355400696866h-2Z" aria-label="rok: Jan 01, 1962; podil: 0.0354239256678; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M209.2559063810997,40.96212896622313h2v19.037871033776867h-2Z" aria-label="rok: Jan 01, 1963; podil: 0.0317297850563; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M212.5118127621994,39.35349322210636h2v20.64650677789364h-2Z" aria-label="rok: Jan 01, 1964; podil: 0.0344108446298; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M215.7766394347542,42.84693269803455h2v17.15306730196545h-2Z" aria-label="rok: Jan 01, 1965; podil: 0.0285884455033; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M219.03254581585392,38.283712784588445h2v21.716287215411555h-2Z" aria-label="rok: Jan 01, 1966; podil: 0.0361938120257; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M222.28845219695364,41.21855785354947h2v18.78144214645053h-2Z" aria-label="rok: Jan 01, 1967; podil: 0.0313024035774; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M225.54435857805336,39.28836962294211h2v20.711630377057887h-2Z" aria-label="rok: Jan 01, 1968; podil: 0.0345193839618; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M228.80918525060815,44.98402555910543h2v15.015974440894567h-2Z" aria-label="rok: Jan 01, 1969; podil: 0.0250266240682; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M232.06509163170787,47.33916623777663h2v12.660833762223369h-2Z" aria-label="rok: Jan 01, 1970; podil: 0.0211013896037; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M235.32099801280765,43.25991189427313h2v16.74008810572687h-2Z" aria-label="rok: Jan 01, 1971; podil: 0.0279001468429; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M238.57690439390737,47.028824833702885h2v12.971175166297115h-2Z" aria-label="rok: Jan 01, 1972; podil: 0.0216186252772; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M241.84173106646216,42.65895953757226h2v17.341040462427742h-2Z" aria-label="rok: Jan 01, 1973; podil: 0.028901734104; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M245.09763744756188,45.008923259964305h2v14.991076740035695h-2Z" aria-label="rok: Jan 01, 1974; podil: 0.0249851279001; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M248.3535438286616,42.50728862973761h2v17.49271137026239h-2Z" aria-label="rok: Jan 01, 1975; podil: 0.0291545189504; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M251.60945020976132,42.51786695986806h2v17.48213304013194h-2Z" aria-label="rok: Jan 01, 1976; podil: 0.0291368884002; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M254.8742768823161,44.583114840062926h2v15.416885159937074h-2Z" aria-label="rok: Jan 01, 1977; podil: 0.0256948085999; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M258.13018326341586,47.096774193548384h2v12.903225806451616h-2Z" aria-label="rok: Jan 01, 1978; podil: 0.0215053763441; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M261.38608964451555,43.8282320694381h2v16.1717679305619h-2Z" aria-label="rok: Jan 01, 1979; podil: 0.0269529465509; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M264.6419960256153,46.00508905852417h2v13.99491094147583h-2Z" aria-label="rok: Jan 01, 1980; podil: 0.0233248515691; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M267.90682269817006,43.41013824884792h2v16.58986175115208h-2Z" aria-label="rok: Jan 01, 1981; podil: 0.0276497695853; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M271.1627290792698,45.684386772708244h2v14.315613227291756h-2Z" aria-label="rok: Jan 01, 1982; podil: 0.0238593553788; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M274.4186354603695,46.09625668449198h2v13.903743315508017h-2Z" aria-label="rok: Jan 01, 1983; podil: 0.0231729055258; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M277.67454184146925,45.98326359832636h2v14.01673640167364h-2Z" aria-label="rok: Jan 01, 1984; podil: 0.0233612273361; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M280.939368514024,43.502824858757066h2v16.497175141242934h-2Z" aria-label="rok: Jan 01, 1985; podil: 0.0274952919021; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M284.19527489512376,44.176300578034684h2v15.823699421965316h-2Z" aria-label="rok: Jan 01, 1986; podil: 0.0263728323699; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M287.4511812762235,45.69832402234637h2v14.30167597765363h-2Z" aria-label="rok: Jan 01, 1987; podil: 0.0238361266294; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M290.70708765732326,45.083487940630796h2v14.916512059369204h-2Z" aria-label="rok: Jan 01, 1988; podil: 0.0248608534323; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M293.971914329878,46.58718330849478h2v13.41281669150522h-2Z" aria-label="rok: Jan 01, 1989; podil: 0.0223546944858; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M297.22782071097777,37.10263060392738h2v22.89736939607262h-2Z" aria-label="rok: Jan 01, 1990; podil: 0.0381622823268; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M300.48372709207746,40.839986115931964h2v19.160013884068036h-2Z" aria-label="rok: Jan 01, 1991; podil: 0.0319333564734; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M303.7396334731772,42.16432865731463h2v17.835671342685373h-2Z" aria-label="rok: Jan 01, 1992; podil: 0.0297261189045; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M307.00446014573197,43.640226628895185h2v16.359773371104815h-2Z" aria-label="rok: Jan 01, 1993; podil: 0.0272662889518; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M310.2603665268317,46.11772711806737h2v13.882272881932629h-2Z" aria-label="rok: Jan 01, 1994; podil: 0.0231371214699; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M313.5162729079314,47.10493046776233h2v12.89506953223767h-2Z" aria-label="rok: Jan 01, 1995; podil: 0.0214917825537; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M316.77217928903116,50.777917189460474h2v9.222082810539526h-2Z" aria-label="rok: Jan 01, 1996; podil: 0.0153701380176; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M320.0370059615859,49.658144211433495h2v10.341855788566505h-2Z" aria-label="rok: Jan 01, 1997; podil: 0.0172364263143; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M323.29291234268567,52.0158550396376h2v7.9841449603624h-2Z" aria-label="rok: Jan 01, 1998; podil: 0.0133069082673; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M326.54881872378536,51.69381107491857h2v8.306188925081429h-2Z" aria-label="rok: Jan 01, 1999; podil: 0.0138436482085; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M329.8047251048851,51.603053435114504h2v8.396946564885496h-2Z" aria-label="rok: Jan 01, 2000; podil: 0.0139949109415; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M333.0695517774399,49.71514998739602h2v10.284850012603982h-2Z" aria-label="rok: Jan 01, 2001; podil: 0.0171414166877; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M336.3254581585396,50.49615653389238h2v9.503843466107618h-2Z" aria-label="rok: Jan 01, 2002; podil: 0.0158397391102; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M339.58136453963937,54.71649484536082h2v5.28350515463918h-2Z" aria-label="rok: Jan 01, 2003; podil: 0.0088058419244; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M342.8372709207391,54.34194341943419h2v5.6580565805658125h-2Z" aria-label="rok: Jan 01, 2004; podil: 0.00943009430094; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M346.1020975932939,53.49438843446833h2v6.505611565531673h-2Z" aria-label="rok: Jan 01, 2005; podil: 0.0108426859426; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M349.3580039743936,53.70513528437328h2v6.294864715626723h-2Z" aria-label="rok: Jan 01, 2006; podil: 0.0104914411927; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M352.6139103554933,54.98082955733705h2v5.019170442662947h-2Z" aria-label="rok: Jan 01, 2007; podil: 0.0083652840711; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M355.86981673659307,53.689655172413794h2v6.310344827586206h-2Z" aria-label="rok: Jan 01, 2008; podil: 0.0105172413793; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M359.1346434091479,54.94476689758472h2v5.055233102415279h-2Z" aria-label="rok: Jan 01, 2009; podil: 0.00842538850403; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M362.3905497902476,53.37072921978583h2v6.629270780214171h-2Z" aria-label="rok: Jan 01, 2010; podil: 0.0110487846337; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M365.6464561713473,54.982078853046595h2v5.017921146953405h-2Z" aria-label="rok: Jan 01, 2011; podil: 0.00836320191159; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M368.902362552447,54.47004608294931h2v5.52995391705069h-2Z" aria-label="rok: Jan 01, 2012; podil: 0.00921658986175; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M372.16718922500183,55.248525695029485h2v4.751474304970515h-2Z" aria-label="rok: Jan 01, 2013; podil: 0.00791912384162; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M375.4230956061015,54.357366771159874h2v5.6426332288401255h-2Z" aria-label="rok: Jan 01, 2014; podil: 0.00940438871473; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M378.6790019872013,56.08865710560626h2v3.9113428943937407h-2Z" aria-label="rok: Jan 01, 2015; podil: 0.00651890482399; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M381.93490836830097,56.88451208594449h2v3.1154879140555067h-2Z" aria-label="rok: Jan 01, 2016; podil: 0.00519247985676; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M385.1997350408558,55.63920983973164h2v4.360790160268358h-2Z" aria-label="rok: Jan 01, 2017; podil: 0.00726798360045; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M388.4556414219555,55.882789317507424h2v4.117210682492576h-2Z" aria-label="rok: Jan 01, 2018; podil: 0.00686201780415; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M391.7115478030552,55.751376868607394h2v4.2486231313926055h-2Z" aria-label="rok: Jan 01, 2019; podil: 0.00708103855232; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M394.967454184155,56.826640548481876h2v3.173359451518124h-2Z" aria-label="rok: Jan 01, 2020; podil: 0.0052889324192; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M398.23228085670974,55.017793594306056h2v4.982206405693944h-2Z" aria-label="rok: Jan 01, 2021; podil: 0.00830367734282; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M401.4881872378095,56.994364433312455h2v3.0056355666875447h-2Z" aria-label="rok: Jan 01, 2022; podil: 0.00500939261115; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M404.74409361890923,58.18478007912497h2v1.8152199208750304h-2Z" aria-label="rok: Jan 01, 2023; podil: 0.00302536653479; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M408.0000000000089,58.41688654353562h2v1.5831134564643818h-2Z" aria-label="rok: Jan 01, 2024; podil: 0.00263852242744; co: …členství v komunistické straně" aria-roledescription="bar" role="graphics-symbol"/>
          </ns1:g>
          <ns1:g class="mark-group role-title">
           <ns1:g transform="translate(0 -24)">
@@ -445,163 +445,163 @@
         <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
        </ns1:g>
        <ns1:g transform="translate(0,254)">
-        <ns1:path class="background" d="M0.5,0.5h330v60h-330Z" aria-hidden="true"/>
+        <ns1:path class="background" d="M0.5,0.5h413.99999999999994v60h-413.99999999999994Z" aria-hidden="true"/>
         <ns1:g>
-         <ns1:g class="mark-group role-axis" aria-label="X-axis for a time scale with values from Sunday, 23 January 1898, 8:15:00 AM to Monday, 08 December 2025, 3:45:00 PM" aria-roledescription="axis" role="graphics-symbol">
+         <ns1:g class="mark-group role-axis" aria-label="X-axis for a time scale with values from Sunday, 19 June 1898, 11:31:29 AM to Monday, 14 July 2025, 1:28:30 PM" aria-roledescription="axis" role="graphics-symbol">
           <ns1:g transform="translate(.5 60)" pointer-events="none">
            <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
            <ns1:g>
             <ns1:g class="mark-rule role-axis-tick" stroke="#DCDDD6">
              <ns1:line transform="translate(5)" x2="0" y2="5"/>
-             <ns1:line transform="translate(31)" x2="0" y2="5"/>
-             <ns1:line transform="translate(57)" x2="0" y2="5"/>
-             <ns1:line transform="translate(82)" x2="0" y2="5"/>
-             <ns1:line transform="translate(108)" x2="0" y2="5"/>
-             <ns1:line transform="translate(134)" x2="0" y2="5"/>
-             <ns1:line transform="translate(160)" x2="0" y2="5"/>
-             <ns1:line transform="translate(186)" x2="0" y2="5"/>
-             <ns1:line transform="translate(211)" x2="0" y2="5"/>
-             <ns1:line transform="translate(237)" x2="0" y2="5"/>
-             <ns1:line transform="translate(263)" x2="0" y2="5"/>
-             <ns1:line transform="translate(289)" x2="0" y2="5"/>
-             <ns1:line transform="translate(315)" x2="0" y2="5"/>
+             <ns1:line transform="translate(38)" x2="0" y2="5"/>
+             <ns1:line transform="translate(70)" x2="0" y2="5"/>
+             <ns1:line transform="translate(103)" x2="0" y2="5"/>
+             <ns1:line transform="translate(135)" x2="0" y2="5"/>
+             <ns1:line transform="translate(168)" x2="0" y2="5"/>
+             <ns1:line transform="translate(200)" x2="0" y2="5"/>
+             <ns1:line transform="translate(233)" x2="0" y2="5"/>
+             <ns1:line transform="translate(266)" x2="0" y2="5"/>
+             <ns1:line transform="translate(298)" x2="0" y2="5"/>
+             <ns1:line transform="translate(331)" x2="0" y2="5"/>
+             <ns1:line transform="translate(363)" x2="0" y2="5"/>
+             <ns1:line transform="translate(396)" x2="0" y2="5"/>
             </ns1:g>
-            <ns1:g class="mark-text role-axis-label" fill="#000" font-family="Asap" font-size="9px" text-anchor="middle">
-             <ns1:text transform="translate(5,14)">1900</ns1:text>
-             <ns1:text transform="translate(31 14)">1910</ns1:text>
-             <ns1:text transform="translate(57 14)">1920</ns1:text>
-             <ns1:text transform="translate(82 14)">1930</ns1:text>
-             <ns1:text transform="translate(108 14)">1940</ns1:text>
-             <ns1:text transform="translate(134 14)">1950</ns1:text>
-             <ns1:text transform="translate(160 14)">1960</ns1:text>
-             <ns1:text transform="translate(186 14)">1970</ns1:text>
-             <ns1:text transform="translate(211 14)">1980</ns1:text>
-             <ns1:text transform="translate(237 14)">1990</ns1:text>
-             <ns1:text transform="translate(263 14)">2000</ns1:text>
-             <ns1:text transform="translate(289 14)">2010</ns1:text>
-             <ns1:text transform="translate(315 14)">2020</ns1:text>
+            <ns1:g class="mark-text role-axis-label" fill="#292829" font-family="Asap" font-size="9px" text-anchor="middle">
+             <ns1:text transform="translate(5 14)">1900</ns1:text>
+             <ns1:text transform="translate(38 14)">1910</ns1:text>
+             <ns1:text transform="translate(70 14)">1920</ns1:text>
+             <ns1:text transform="translate(103 14)">1930</ns1:text>
+             <ns1:text transform="translate(135 14)">1940</ns1:text>
+             <ns1:text transform="translate(168 14)">1950</ns1:text>
+             <ns1:text transform="translate(200 14)">1960</ns1:text>
+             <ns1:text transform="translate(233 14)">1970</ns1:text>
+             <ns1:text transform="translate(266 14)">1980</ns1:text>
+             <ns1:text transform="translate(298 14)">1990</ns1:text>
+             <ns1:text transform="translate(331 14)">2000</ns1:text>
+             <ns1:text transform="translate(363 14)">2010</ns1:text>
+             <ns1:text transform="translate(396 14)">2020</ns1:text>
             </ns1:g>
            </ns1:g>
            <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
           </ns1:g>
          </ns1:g>
          <ns1:g class="mark-rect role-mark child_marks" fill="#445B78" aria-roledescription="rect mark container" role="graphics-object">
-          <ns1:path d="M9.157871494811216,59.19463087248322h2v0.8053691275167765h-2Z" aria-label="rok: Jan 01, 1902; podil: 0.00134228187919; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M14.315742989622432,59.074074074074076h2v0.9259259259259238h-2Z" aria-label="rok: Jan 01, 1904; podil: 0.00154320987654; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M16.901744314418195,59.021207177814034h2v0.9787928221859659h-2Z" aria-label="rok: Jan 01, 1905; podil: 0.00163132137031; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M19.480680061823804,59.097744360902254h2v0.9022556390977456h-2Z" aria-label="rok: Jan 01, 1906; podil: 0.0015037593985; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M22.05961580922941,59.06976744186046h2v0.9302325581395365h-2Z" aria-label="rok: Jan 01, 1907; podil: 0.0015503875969; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M24.638551556635015,58.477157360406096h2v1.5228426395939039h-2Z" aria-label="rok: Jan 01, 1908; podil: 0.00253807106599; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M29.80348862883639,59.27007299270073h2v0.729927007299267h-2Z" aria-label="rok: Jan 01, 1910; podil: 0.00121654501217; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M37.54736144844336,58.56972586412396h2v1.43027413587604h-2Z" aria-label="rok: Jan 01, 1913; podil: 0.00238379022646; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M40.12629719584898,57.12460063897764h2v2.8753993610223603h-2Z" aria-label="rok: Jan 01, 1914; podil: 0.00479233226837; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M45.28416869066019,58.828125h2v1.171875h-2Z" aria-label="rok: Jan 01, 1916; podil: 0.001953125; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M47.87017001545595,58.84169884169884h2v1.1583011583011569h-2Z" aria-label="rok: Jan 01, 1917; podil: 0.0019305019305; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M50.449105762861564,57.986577181208055h2v2.0134228187919447h-2Z" aria-label="rok: Jan 01, 1918; podil: 0.00335570469799; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M53.028041510267165,59.31740614334471h2v0.6825938566552878h-2Z" aria-label="rok: Jan 01, 1919; podil: 0.00113765642776; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M58.192978582468534,58.897058823529406h2v1.102941176470594h-2Z" aria-label="rok: Jan 01, 1921; podil: 0.00183823529412; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M60.77191432987415,58.558847077662136h2v1.4411529223378636h-2Z" aria-label="rok: Jan 01, 1922; podil: 0.00240192153723; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M63.35085007727976,59.06396255850234h2v0.9360374414976604h-2Z" aria-label="rok: Jan 01, 1923; podil: 0.0015600624025; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M65.92978582468535,57.90648988136776h2v2.0935101186322385h-2Z" aria-label="rok: Jan 01, 1924; podil: 0.00348918353105; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M71.09472289688674,58.734177215189874h2v1.2658227848101262h-2Z" aria-label="rok: Jan 01, 1926; podil: 0.00210970464135; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M73.67365864429233,57.826086956521735h2v2.173913043478265h-2Z" aria-label="rok: Jan 01, 1927; podil: 0.0036231884058; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M76.25259439169794,57.51209398756047h2v2.487906012439531h-2Z" aria-label="rok: Jan 01, 1928; podil: 0.00414651002073; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M78.83859571649371,56.32402995234854h2v3.675970047651461h-2Z" aria-label="rok: Jan 01, 1929; podil: 0.00612661674609; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M81.41753146389932,57.16312056737589h2v2.8368794326241087h-2Z" aria-label="rok: Jan 01, 1930; podil: 0.00472813238771; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M83.99646721130493,58.30508474576271h2v1.6949152542372872h-2Z" aria-label="rok: Jan 01, 1931; podil: 0.00282485875706; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M86.57540295871054,56.884272997032646h2v3.115727002967354h-2Z" aria-label="rok: Jan 01, 1932; podil: 0.00519287833828; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M89.1614042835063,58.20089955022489h2v1.7991004497751106h-2Z" aria-label="rok: Jan 01, 1933; podil: 0.00299850074963; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M91.7403400309119,57.72727272727273h2v2.2727272727272734h-2Z" aria-label="rok: Jan 01, 1934; podil: 0.00378787878788; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M94.3192757783175,58.059508408796894h2v1.9404915912031058h-2Z" aria-label="rok: Jan 01, 1935; podil: 0.00323415265201; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M96.89821152572311,58.212157330154945h2v1.7878426698450554h-2Z" aria-label="rok: Jan 01, 1936; podil: 0.00297973778308; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M99.48421285051887,57.84431137724551h2v2.1556886227544894h-2Z" aria-label="rok: Jan 01, 1937; podil: 0.00359281437126; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M102.0631485979245,58.32752613240418h2v1.6724738675958193h-2Z" aria-label="rok: Jan 01, 1938; podil: 0.00278745644599; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M104.6420843453301,57.34513274336283h2v2.654867256637168h-2Z" aria-label="rok: Jan 01, 1939; podil: 0.00442477876106; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M107.2210200927357,57.69585253456221h2v2.3041474654377865h-2Z" aria-label="rok: Jan 01, 1940; podil: 0.00384024577573; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M109.80672701847354,57.26651480637813h2v2.733485193621867h-2Z" aria-label="rok: Jan 01, 1941; podil: 0.00455580865604; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M112.38566276587915,57.37226277372263h2v2.627737226277368h-2Z" aria-label="rok: Jan 01, 1942; podil: 0.0043795620438; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M114.96489291234268,57.97639123102867h2v2.0236087689713287h-2Z" aria-label="rok: Jan 01, 1943; podil: 0.00337268128162; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M117.54382865974829,57.69526248399488h2v2.304737516005119h-2Z" aria-label="rok: Jan 01, 1944; podil: 0.00384122919334; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M120.12982998454406,58.617511520737324h2v1.3824884792626762h-2Z" aria-label="rok: Jan 01, 1945; podil: 0.00230414746544; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M122.70876573194967,56.29805410536308h2v3.7019458946369213h-2Z" aria-label="rok: Jan 01, 1946; podil: 0.00616990982439; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M125.2879958784132,56.706586826347305h2v3.293413173652695h-2Z" aria-label="rok: Jan 01, 1947; podil: 0.00548902195609; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M127.86663722676087,58.521256931608136h2v1.4787430683918643h-2Z" aria-label="rok: Jan 01, 1948; podil: 0.00246457178065; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M130.45263855155665,56.9270166453265h2v3.0729833546734966h-2Z" aria-label="rok: Jan 01, 1949; podil: 0.00512163892446; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M133.03157429896223,57.45762711864407h2v2.5423728813559308h-2Z" aria-label="rok: Jan 01, 1950; podil: 0.00423728813559; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M135.61051004636784,57.8698224852071h2v2.130177514792898h-2Z" aria-label="rok: Jan 01, 1951; podil: 0.00355029585799; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M138.18944579377347,59.361022364217256h2v0.6389776357827444h-2Z" aria-label="rok: Jan 01, 1952; podil: 0.0010649627263; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M140.77544711856922,58.62068965517241h2v1.3793103448275872h-2Z" aria-label="rok: Jan 01, 1953; podil: 0.00229885057471; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M143.35438286597483,58.05194805194805h2v1.9480519480519476h-2Z" aria-label="rok: Jan 01, 1954; podil: 0.00324675324675; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M145.93331861338044,58.651685393258425h2v1.3483146067415746h-2Z" aria-label="rok: Jan 01, 1955; podil: 0.00224719101124; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M148.51225436078605,58.705966930266h2v1.2940330697339988h-2Z" aria-label="rok: Jan 01, 1956; podil: 0.00215672178289; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M151.0982556855818,58.37177747625509h2v1.6282225237449097h-2Z" aria-label="rok: Jan 01, 1957; podil: 0.00271370420624; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M153.6771914329874,57.5177304964539h2v2.4822695035460995h-2Z" aria-label="rok: Jan 01, 1958; podil: 0.00413711583924; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M156.25612718039304,57.945205479452056h2v2.0547945205479436h-2Z" aria-label="rok: Jan 01, 1959; podil: 0.00342465753425; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M158.83506292779865,56.27329192546584h2v3.7267080745341588h-2Z" aria-label="rok: Jan 01, 1960; podil: 0.00621118012422; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M161.4210642525944,55.66907273736813h2v4.330927262631867h-2Z" aria-label="rok: Jan 01, 1961; podil: 0.00721821210439; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M164,57.21254355400697h2v2.7874564459930298h-2Z" aria-label="rok: Jan 01, 1962; podil: 0.00464576074332; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M166.57893574740564,55.70112589559877h2v4.298874104401229h-2Z" aria-label="rok: Jan 01, 1963; podil: 0.007164790174; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M169.15787149481122,54.68196037539103h2v5.318039624608971h-2Z" aria-label="rok: Jan 01, 1964; podil: 0.00886339937435; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M171.74387281960696,56.426444312090524h2v3.573555687909476h-2Z" aria-label="rok: Jan 01, 1965; podil: 0.00595592614652; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M174.3228085670126,55.79684763572679h2v4.203152364273208h-2Z" aria-label="rok: Jan 01, 1966; podil: 0.00700525394046; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M176.90174431441818,56.646171045276695h2v3.353828954723305h-2Z" aria-label="rok: Jan 01, 1967; podil: 0.00558971492454; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M179.48068006182382,55.22039298990972h2v4.779607010090281h-2Z" aria-label="rok: Jan 01, 1968; podil: 0.00796601168348; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M182.06668138661956,53.929712460063904h2v6.070287539936096h-2Z" aria-label="rok: Jan 01, 1969; podil: 0.0101171458999; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M184.6456171340252,56.91199176531138h2v3.0880082346886226h-2Z" aria-label="rok: Jan 01, 1970; podil: 0.00514668039115; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M187.22455288143078,55.88839941262849h2v4.1116005873715125h-2Z" aria-label="rok: Jan 01, 1971; podil: 0.00685266764562; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M189.8034886288364,57.33924611973393h2v2.6607538802660713h-2Z" aria-label="rok: Jan 01, 1972; podil: 0.00443458980044; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M192.38948995363216,55.83815028901734h2v4.161849710982658h-2Z" aria-label="rok: Jan 01, 1973; podil: 0.00693641618497; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M194.96842570103775,56.78762641284949h2v3.212373587150509h-2Z" aria-label="rok: Jan 01, 1974; podil: 0.00535395597858; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M197.54736144844335,55.10204081632653h2v4.897959183673471h-2Z" aria-label="rok: Jan 01, 1975; podil: 0.00816326530612; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M200.12629719584896,56.37163276525563h2v3.628367234744367h-2Z" aria-label="rok: Jan 01, 1976; podil: 0.00604727872457; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M202.71229852064474,55.28054535920294h2v4.719454640797061h-2Z" aria-label="rok: Jan 01, 1977; podil: 0.00786575773466; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M205.29123426805035,55.08448540706605h2v4.9155145929339525h-2Z" aria-label="rok: Jan 01, 1978; podil: 0.00819252432156; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M207.87017001545595,55.06624029237094h2v4.933759707629058h-2Z" aria-label="rok: Jan 01, 1979; podil: 0.00822293284605; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M210.44910576286154,55.92875318066158h2v4.07124681933842h-2Z" aria-label="rok: Jan 01, 1980; podil: 0.00678541136556; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M213.0351070876573,55.576036866359445h2v4.423963133640555h-2Z" aria-label="rok: Jan 01, 1981; podil: 0.0073732718894; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M215.61404283506292,54.72582670573462h2v5.274173294265381h-2Z" aria-label="rok: Jan 01, 1982; podil: 0.00879028882378; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M218.19297858246853,55.50802139037433h2v4.491978609625669h-2Z" aria-label="rok: Jan 01, 1983; podil: 0.00748663101604; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M220.77191432987414,54.14225941422594h2v5.85774058577406h-2Z" aria-label="rok: Jan 01, 1984; podil: 0.00976290097629; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M223.3579156546699,54.57627118644068h2v5.423728813559322h-2Z" aria-label="rok: Jan 01, 1985; podil: 0.0090395480226; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M225.93685140207552,55.23121387283237h2v4.76878612716763h-2Z" aria-label="rok: Jan 01, 1986; podil: 0.00794797687861; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M228.5157871494811,53.29608938547486h2v6.703910614525142h-2Z" aria-label="rok: Jan 01, 1987; podil: 0.0111731843575; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M231.09472289688674,53.54359925788497h2v6.456400742115029h-2Z" aria-label="rok: Jan 01, 1988; podil: 0.0107606679035; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M233.68072422168248,51.952309985096875h2v8.047690014903125h-2Z" aria-label="rok: Jan 01, 1989; podil: 0.0134128166915; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M236.2596599690881,39.99258984809188h2v20.007410151908118h-2Z" aria-label="rok: Jan 01, 1990; podil: 0.0333456835865; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M238.8385957164937,42.71433530024297h2v17.285664699757028h-2Z" aria-label="rok: Jan 01, 1991; podil: 0.0288094411663; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M241.41753146389934,45.97194388777555h2v14.028056112224448h-2Z" aria-label="rok: Jan 01, 1992; podil: 0.0233800935204; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M244.00353278869508,44.702549575070826h2v15.297450424929174h-2Z" aria-label="rok: Jan 01, 1993; podil: 0.0254957507082; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M246.58246853610066,43.259612112963595h2v16.740387887036405h-2Z" aria-label="rok: Jan 01, 1994; podil: 0.0279006464784; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M249.1614042835063,41.795195954487994h2v18.204804045512006h-2Z" aria-label="rok: Jan 01, 1995; podil: 0.0303413400759; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M251.74034003091188,39.10915934755333h2v20.89084065244667h-2Z" aria-label="rok: Jan 01, 1996; podil: 0.0348180677541; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M254.32634135570765,40.0057454754381h2v19.994254524561903h-2Z" aria-label="rok: Jan 01, 1997; podil: 0.0333237575409; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M256.9052771031133,34.178935447338624h2v25.821064552661376h-2Z" aria-label="rok: Jan 01, 1998; podil: 0.0430351075878; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M259.4842128505189,38.99022801302932h2v21.009771986970676h-2Z" aria-label="rok: Jan 01, 1999; podil: 0.035016286645; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M262.06314859792445,37.40458015267176h2v22.595419847328237h-2Z" aria-label="rok: Jan 01, 2000; podil: 0.0376590330789; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M264.64914992272026,35.497857322914044h2v24.502142677085956h-2Z" aria-label="rok: Jan 01, 2001; podil: 0.0408369044618; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M267.22808567012584,39.3151642208246h2v20.6848357791754h-2Z" aria-label="rok: Jan 01, 2002; podil: 0.0344747262986; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M269.8070214175315,38.22164948453608h2v21.77835051546392h-2Z" aria-label="rok: Jan 01, 2003; podil: 0.0362972508591; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M272.38595716493705,39.82779827798278h2v20.17220172201722h-2Z" aria-label="rok: Jan 01, 2004; podil: 0.0336203362034; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M274.97195848973286,37.05915921628305h2v22.94084078371695h-2Z" aria-label="rok: Jan 01, 2005; podil: 0.0382347346395; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M277.55089423713844,34.26836002208724h2v25.731639977912756h-2Z" aria-label="rok: Jan 01, 2006; podil: 0.0428860666299; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M280.129829984544,34.590449634018825h2v25.409550365981175h-2Z" aria-label="rok: Jan 01, 2007; podil: 0.04234925061; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M282.70876573194965,31.55172413793104h2v28.44827586206896h-2Z" aria-label="rok: Jan 01, 2008; podil: 0.0474137931034; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M285.2947670567454,36.07189664856769h2v23.928103351432313h-2Z" aria-label="rok: Jan 01, 2009; podil: 0.0398801722524; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M287.87370280415104,33.584905660377366h2v26.415094339622634h-2Z" aria-label="rok: Jan 01, 2010; podil: 0.0440251572327; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M290.4526385515566,31.838197644649256h2v28.161802355350744h-2Z" aria-label="rok: Jan 01, 2011; podil: 0.0469363372589; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M293.03157429896225,33.945409429280396h2v26.054590570719604h-2Z" aria-label="rok: Jan 01, 2012; podil: 0.0434243176179; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M295.617575623758,35.93934288121315h2v24.06065711878685h-2Z" aria-label="rok: Jan 01, 2013; podil: 0.040101095198; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M298.1965113711636,36.43953143045702h2v23.560468569542977h-2Z" aria-label="rok: Jan 01, 2014; podil: 0.0392674476159; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M300.7754471185692,34.18513689700131h2v25.814863102998693h-2Z" aria-label="rok: Jan 01, 2015; podil: 0.0430247718383; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M303.3543828659748,30.45658012533572h2v29.54341987466428h-2Z" aria-label="rok: Jan 01, 2016; podil: 0.0492390331244; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M305.9403841907706,28.91539321654864h2v31.08460678345136h-2Z" aria-label="rok: Jan 01, 2017; podil: 0.0518076779724; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M308.5193199381762,29.0652818991098h2v30.9347181008902h-2Z" aria-label="rok: Jan 01, 2018; podil: 0.0515578635015; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M311.0982556855818,26.12903225806452h2v33.87096774193548h-2Z" aria-label="rok: Jan 01, 2019; podil: 0.0564516129032; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M313.6771914329874,30.264446620959845h2v29.735553379040155h-2Z" aria-label="rok: Jan 01, 2020; podil: 0.0495592556317; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M316.26319275778314,27.971530249110323h2v32.02846975088968h-2Z" aria-label="rok: Jan 01, 2021; podil: 0.0533807829181; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M318.8421285051888,22.805259862241705h2v37.194740137758295h-2Z" aria-label="rok: Jan 01, 2022; podil: 0.0619912335629; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M321.42106425259436,26.627879916220625h2v33.37212008377938h-2Z" aria-label="rok: Jan 01, 2023; podil: 0.0556202001396; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M324,29.76253298153034h2v30.23746701846966h-2Z" aria-label="rok: Jan 01, 2024; podil: 0.0503957783641; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M10.511812762190472,59.19463087248322h2v0.8053691275167765h-2Z" aria-label="rok: Jan 01, 1902; podil: 0.00134228187919; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M17.02362552438992,59.074074074074076h2v0.9259259259259238h-2Z" aria-label="rok: Jan 01, 1904; podil: 0.00154320987654; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M20.288452196944714,59.021207177814034h2v0.9787928221859659h-2Z" aria-label="rok: Jan 01, 1905; podil: 0.00163132137031; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M23.544358578044438,59.097744360902254h2v0.9022556390977456h-2Z" aria-label="rok: Jan 01, 1906; podil: 0.0015037593985; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M26.80026495914416,59.06976744186046h2v0.9302325581395365h-2Z" aria-label="rok: Jan 01, 1907; podil: 0.0015503875969; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M30.056171340243885,58.477157360406096h2v1.5228426395939039h-2Z" aria-label="rok: Jan 01, 1908; podil: 0.00253807106599; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M36.5769043938984,59.27007299270073h2v0.729927007299267h-2Z" aria-label="rok: Jan 01, 1910; podil: 0.00121654501217; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M46.35354382865265,58.56972586412396h2v1.43027413587604h-2Z" aria-label="rok: Jan 01, 1913; podil: 0.00238379022646; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M49.60945020975237,57.12460063897764h2v2.8753993610223603h-2Z" aria-label="rok: Jan 01, 1914; podil: 0.00479233226837; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M56.12126297195183,58.828125h2v1.171875h-2Z" aria-label="rok: Jan 01, 1916; podil: 0.001953125; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M59.38608964450661,58.84169884169884h2v1.1583011583011569h-2Z" aria-label="rok: Jan 01, 1917; podil: 0.0019305019305; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M62.641996025606346,57.986577181208055h2v2.0134228187919447h-2Z" aria-label="rok: Jan 01, 1918; podil: 0.00335570469799; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M65.89790240670607,59.31740614334471h2v0.6825938566552878h-2Z" aria-label="rok: Jan 01, 1919; podil: 0.00113765642776; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M72.41863546036058,58.897058823529406h2v1.102941176470594h-2Z" aria-label="rok: Jan 01, 1921; podil: 0.00183823529412; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M75.6745418414603,58.558847077662136h2v1.4411529223378636h-2Z" aria-label="rok: Jan 01, 1922; podil: 0.00240192153723; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M78.93044822256003,59.06396255850234h2v0.9360374414976604h-2Z" aria-label="rok: Jan 01, 1923; podil: 0.0015600624025; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M82.18635460365975,57.90648988136776h2v2.0935101186322385h-2Z" aria-label="rok: Jan 01, 1924; podil: 0.00348918353105; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M88.70708765731426,58.734177215189874h2v1.2658227848101262h-2Z" aria-label="rok: Jan 01, 1926; podil: 0.00210970464135; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M91.962994038414,57.826086956521735h2v2.173913043478265h-2Z" aria-label="rok: Jan 01, 1927; podil: 0.0036231884058; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M95.21890041951372,57.51209398756047h2v2.487906012439531h-2Z" aria-label="rok: Jan 01, 1928; podil: 0.00414651002073; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M98.48372709206852,56.32402995234854h2v3.675970047651461h-2Z" aria-label="rok: Jan 01, 1929; podil: 0.00612661674609; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M101.73963347316824,57.16312056737589h2v2.8368794326241087h-2Z" aria-label="rok: Jan 01, 1930; podil: 0.00472813238771; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M104.99553985426795,58.30508474576271h2v1.6949152542372872h-2Z" aria-label="rok: Jan 01, 1931; podil: 0.00282485875706; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M108.2514462353677,56.884272997032646h2v3.115727002967354h-2Z" aria-label="rok: Jan 01, 1932; podil: 0.00519287833828; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M111.51627290792247,58.20089955022489h2v1.7991004497751106h-2Z" aria-label="rok: Jan 01, 1933; podil: 0.00299850074963; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M114.77217928902222,57.72727272727273h2v2.2727272727272734h-2Z" aria-label="rok: Jan 01, 1934; podil: 0.00378787878788; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M118.02808567012192,58.059508408796894h2v1.9404915912031058h-2Z" aria-label="rok: Jan 01, 1935; podil: 0.00323415265201; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M121.28399205122165,58.212157330154945h2v1.7878426698450554h-2Z" aria-label="rok: Jan 01, 1936; podil: 0.00297973778308; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M124.54881872377645,57.84431137724551h2v2.1556886227544894h-2Z" aria-label="rok: Jan 01, 1937; podil: 0.00359281437126; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M127.80472510487616,58.32752613240418h2v1.6724738675958193h-2Z" aria-label="rok: Jan 01, 1938; podil: 0.00278745644599; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M131.06063148597588,57.34513274336283h2v2.654867256637168h-2Z" aria-label="rok: Jan 01, 1939; podil: 0.00442477876106; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M134.31653786707562,57.69585253456221h2v2.3041474654377865h-2Z" aria-label="rok: Jan 01, 1940; podil: 0.00384024577573; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M137.5809928608198,57.26651480637813h2v2.733485193621867h-2Z" aria-label="rok: Jan 01, 1941; podil: 0.00455580865604; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M140.8368992419195,57.37226277372263h2v2.627737226277368h-2Z" aria-label="rok: Jan 01, 1942; podil: 0.0043795620438; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M144.09317730182985,57.97639123102867h2v2.0236087689713287h-2Z" aria-label="rok: Jan 01, 1943; podil: 0.00337268128162; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M147.34908368292957,57.69526248399488h2v2.304737516005119h-2Z" aria-label="rok: Jan 01, 1944; podil: 0.00384122919334; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M150.6139103554844,58.617511520737324h2v1.3824884792626762h-2Z" aria-label="rok: Jan 01, 1945; podil: 0.00230414746544; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M153.8698167365841,56.29805410536308h2v3.7019458946369213h-2Z" aria-label="rok: Jan 01, 1946; podil: 0.00616990982439; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M157.12609479649447,56.706586826347305h2v3.293413173652695h-2Z" aria-label="rok: Jan 01, 1947; podil: 0.00548902195609; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M160.38162949878355,58.521256931608136h2v1.4787430683918643h-2Z" aria-label="rok: Jan 01, 1948; podil: 0.00246457178065; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M163.64645617133834,56.9270166453265h2v3.0729833546734966h-2Z" aria-label="rok: Jan 01, 1949; podil: 0.00512163892446; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M166.9023625524381,57.45762711864407h2v2.5423728813559308h-2Z" aria-label="rok: Jan 01, 1950; podil: 0.00423728813559; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M170.1582689335378,57.8698224852071h2v2.130177514792898h-2Z" aria-label="rok: Jan 01, 1951; podil: 0.00355029585799; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M173.41417531463753,59.361022364217256h2v0.6389776357827444h-2Z" aria-label="rok: Jan 01, 1952; podil: 0.0010649627263; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M176.67900198719232,58.62068965517241h2v1.3793103448275872h-2Z" aria-label="rok: Jan 01, 1953; podil: 0.00229885057471; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M179.93490836829204,58.05194805194805h2v1.9480519480519476h-2Z" aria-label="rok: Jan 01, 1954; podil: 0.00324675324675; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M183.19081474939176,58.651685393258425h2v1.3483146067415746h-2Z" aria-label="rok: Jan 01, 1955; podil: 0.00224719101124; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M186.4467211304915,58.705966930266h2v1.2940330697339988h-2Z" aria-label="rok: Jan 01, 1956; podil: 0.00215672178289; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M189.71154780304627,58.37177747625509h2v1.6282225237449097h-2Z" aria-label="rok: Jan 01, 1957; podil: 0.00271370420624; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M192.96745418414602,57.5177304964539h2v2.4822695035460995h-2Z" aria-label="rok: Jan 01, 1958; podil: 0.00413711583924; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M196.22336056524574,57.945205479452056h2v2.0547945205479436h-2Z" aria-label="rok: Jan 01, 1959; podil: 0.00342465753425; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M199.47926694634546,56.27329192546584h2v3.7267080745341588h-2Z" aria-label="rok: Jan 01, 1960; podil: 0.00621118012422; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M202.74409361890025,55.66907273736813h2v4.330927262631867h-2Z" aria-label="rok: Jan 01, 1961; podil: 0.00721821210439; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M205.99999999999997,57.21254355400697h2v2.7874564459930298h-2Z" aria-label="rok: Jan 01, 1962; podil: 0.00464576074332; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M209.2559063810997,55.70112589559877h2v4.298874104401229h-2Z" aria-label="rok: Jan 01, 1963; podil: 0.007164790174; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M212.5118127621994,54.68196037539103h2v5.318039624608971h-2Z" aria-label="rok: Jan 01, 1964; podil: 0.00886339937435; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M215.7766394347542,56.426444312090524h2v3.573555687909476h-2Z" aria-label="rok: Jan 01, 1965; podil: 0.00595592614652; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M219.03254581585392,55.79684763572679h2v4.203152364273208h-2Z" aria-label="rok: Jan 01, 1966; podil: 0.00700525394046; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M222.28845219695364,56.646171045276695h2v3.353828954723305h-2Z" aria-label="rok: Jan 01, 1967; podil: 0.00558971492454; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M225.54435857805336,55.22039298990972h2v4.779607010090281h-2Z" aria-label="rok: Jan 01, 1968; podil: 0.00796601168348; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M228.80918525060815,53.929712460063904h2v6.070287539936096h-2Z" aria-label="rok: Jan 01, 1969; podil: 0.0101171458999; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M232.06509163170787,56.91199176531138h2v3.0880082346886226h-2Z" aria-label="rok: Jan 01, 1970; podil: 0.00514668039115; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M235.32099801280765,55.88839941262849h2v4.1116005873715125h-2Z" aria-label="rok: Jan 01, 1971; podil: 0.00685266764562; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M238.57690439390737,57.33924611973393h2v2.6607538802660713h-2Z" aria-label="rok: Jan 01, 1972; podil: 0.00443458980044; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M241.84173106646216,55.83815028901734h2v4.161849710982658h-2Z" aria-label="rok: Jan 01, 1973; podil: 0.00693641618497; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M245.09763744756188,56.78762641284949h2v3.212373587150509h-2Z" aria-label="rok: Jan 01, 1974; podil: 0.00535395597858; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M248.3535438286616,55.10204081632653h2v4.897959183673471h-2Z" aria-label="rok: Jan 01, 1975; podil: 0.00816326530612; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M251.60945020976132,56.37163276525563h2v3.628367234744367h-2Z" aria-label="rok: Jan 01, 1976; podil: 0.00604727872457; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M254.8742768823161,55.28054535920294h2v4.719454640797061h-2Z" aria-label="rok: Jan 01, 1977; podil: 0.00786575773466; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M258.13018326341586,55.08448540706605h2v4.9155145929339525h-2Z" aria-label="rok: Jan 01, 1978; podil: 0.00819252432156; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M261.38608964451555,55.06624029237094h2v4.933759707629058h-2Z" aria-label="rok: Jan 01, 1979; podil: 0.00822293284605; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M264.6419960256153,55.92875318066158h2v4.07124681933842h-2Z" aria-label="rok: Jan 01, 1980; podil: 0.00678541136556; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M267.90682269817006,55.576036866359445h2v4.423963133640555h-2Z" aria-label="rok: Jan 01, 1981; podil: 0.0073732718894; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M271.1627290792698,54.72582670573462h2v5.274173294265381h-2Z" aria-label="rok: Jan 01, 1982; podil: 0.00879028882378; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M274.4186354603695,55.50802139037433h2v4.491978609625669h-2Z" aria-label="rok: Jan 01, 1983; podil: 0.00748663101604; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M277.67454184146925,54.14225941422594h2v5.85774058577406h-2Z" aria-label="rok: Jan 01, 1984; podil: 0.00976290097629; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M280.939368514024,54.57627118644068h2v5.423728813559322h-2Z" aria-label="rok: Jan 01, 1985; podil: 0.0090395480226; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M284.19527489512376,55.23121387283237h2v4.76878612716763h-2Z" aria-label="rok: Jan 01, 1986; podil: 0.00794797687861; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M287.4511812762235,53.29608938547486h2v6.703910614525142h-2Z" aria-label="rok: Jan 01, 1987; podil: 0.0111731843575; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M290.70708765732326,53.54359925788497h2v6.456400742115029h-2Z" aria-label="rok: Jan 01, 1988; podil: 0.0107606679035; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M293.971914329878,51.952309985096875h2v8.047690014903125h-2Z" aria-label="rok: Jan 01, 1989; podil: 0.0134128166915; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M297.22782071097777,39.99258984809188h2v20.007410151908118h-2Z" aria-label="rok: Jan 01, 1990; podil: 0.0333456835865; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M300.48372709207746,42.71433530024297h2v17.285664699757028h-2Z" aria-label="rok: Jan 01, 1991; podil: 0.0288094411663; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M303.7396334731772,45.97194388777555h2v14.028056112224448h-2Z" aria-label="rok: Jan 01, 1992; podil: 0.0233800935204; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M307.00446014573197,44.702549575070826h2v15.297450424929174h-2Z" aria-label="rok: Jan 01, 1993; podil: 0.0254957507082; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M310.2603665268317,43.259612112963595h2v16.740387887036405h-2Z" aria-label="rok: Jan 01, 1994; podil: 0.0279006464784; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M313.5162729079314,41.795195954487994h2v18.204804045512006h-2Z" aria-label="rok: Jan 01, 1995; podil: 0.0303413400759; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M316.77217928903116,39.10915934755333h2v20.89084065244667h-2Z" aria-label="rok: Jan 01, 1996; podil: 0.0348180677541; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M320.0370059615859,40.0057454754381h2v19.994254524561903h-2Z" aria-label="rok: Jan 01, 1997; podil: 0.0333237575409; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M323.29291234268567,34.178935447338624h2v25.821064552661376h-2Z" aria-label="rok: Jan 01, 1998; podil: 0.0430351075878; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M326.54881872378536,38.99022801302932h2v21.009771986970676h-2Z" aria-label="rok: Jan 01, 1999; podil: 0.035016286645; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M329.8047251048851,37.40458015267176h2v22.595419847328237h-2Z" aria-label="rok: Jan 01, 2000; podil: 0.0376590330789; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M333.0695517774399,35.497857322914044h2v24.502142677085956h-2Z" aria-label="rok: Jan 01, 2001; podil: 0.0408369044618; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M336.3254581585396,39.3151642208246h2v20.6848357791754h-2Z" aria-label="rok: Jan 01, 2002; podil: 0.0344747262986; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M339.58136453963937,38.22164948453608h2v21.77835051546392h-2Z" aria-label="rok: Jan 01, 2003; podil: 0.0362972508591; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M342.8372709207391,39.82779827798278h2v20.17220172201722h-2Z" aria-label="rok: Jan 01, 2004; podil: 0.0336203362034; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M346.1020975932939,37.05915921628305h2v22.94084078371695h-2Z" aria-label="rok: Jan 01, 2005; podil: 0.0382347346395; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M349.3580039743936,34.26836002208724h2v25.731639977912756h-2Z" aria-label="rok: Jan 01, 2006; podil: 0.0428860666299; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M352.6139103554933,34.590449634018825h2v25.409550365981175h-2Z" aria-label="rok: Jan 01, 2007; podil: 0.04234925061; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M355.86981673659307,31.55172413793104h2v28.44827586206896h-2Z" aria-label="rok: Jan 01, 2008; podil: 0.0474137931034; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M359.1346434091479,36.07189664856769h2v23.928103351432313h-2Z" aria-label="rok: Jan 01, 2009; podil: 0.0398801722524; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M362.3905497902476,33.584905660377366h2v26.415094339622634h-2Z" aria-label="rok: Jan 01, 2010; podil: 0.0440251572327; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M365.6464561713473,31.838197644649256h2v28.161802355350744h-2Z" aria-label="rok: Jan 01, 2011; podil: 0.0469363372589; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M368.902362552447,33.945409429280396h2v26.054590570719604h-2Z" aria-label="rok: Jan 01, 2012; podil: 0.0434243176179; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M372.16718922500183,35.93934288121315h2v24.06065711878685h-2Z" aria-label="rok: Jan 01, 2013; podil: 0.040101095198; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M375.4230956061015,36.43953143045702h2v23.560468569542977h-2Z" aria-label="rok: Jan 01, 2014; podil: 0.0392674476159; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M378.6790019872013,34.18513689700131h2v25.814863102998693h-2Z" aria-label="rok: Jan 01, 2015; podil: 0.0430247718383; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M381.93490836830097,30.45658012533572h2v29.54341987466428h-2Z" aria-label="rok: Jan 01, 2016; podil: 0.0492390331244; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M385.1997350408558,28.91539321654864h2v31.08460678345136h-2Z" aria-label="rok: Jan 01, 2017; podil: 0.0518076779724; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M388.4556414219555,29.0652818991098h2v30.9347181008902h-2Z" aria-label="rok: Jan 01, 2018; podil: 0.0515578635015; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M391.7115478030552,26.12903225806452h2v33.87096774193548h-2Z" aria-label="rok: Jan 01, 2019; podil: 0.0564516129032; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M394.967454184155,30.264446620959845h2v29.735553379040155h-2Z" aria-label="rok: Jan 01, 2020; podil: 0.0495592556317; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M398.23228085670974,27.971530249110323h2v32.02846975088968h-2Z" aria-label="rok: Jan 01, 2021; podil: 0.0533807829181; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M401.4881872378095,22.805259862241705h2v37.194740137758295h-2Z" aria-label="rok: Jan 01, 2022; podil: 0.0619912335629; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M404.74409361890923,26.627879916220625h2v33.37212008377938h-2Z" aria-label="rok: Jan 01, 2023; podil: 0.0556202001396; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M408.0000000000089,29.76253298153034h2v30.23746701846966h-2Z" aria-label="rok: Jan 01, 2024; podil: 0.0503957783641; co: …osobní webové stránky" aria-roledescription="bar" role="graphics-symbol"/>
          </ns1:g>
          <ns1:g class="mark-group role-title">
           <ns1:g transform="translate(0,-20)">
@@ -619,14 +619,14 @@
        </ns1:g>
       </ns1:g>
       <ns1:g class="mark-group role-title">
-       <ns1:g transform="translate(-5.6 -113)" pointer-events="none">
+       <ns1:g transform="translate(-5.6 -112)" pointer-events="none">
         <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
         <ns1:g>
          <ns1:g class="mark-text role-title-text" aria-label="Title text 'Kolik českých autorů mělo za sebou nebo před sebou…'" aria-roledescription="title" role="graphics-symbol">
-          <ns1:text transform="translate(0,-1)" fill="#000" font-family="Noticia Text" font-size="12px" font-weight="bolder">Kolik českých autorů mělo za sebou nebo před sebou…</ns1:text>
+          <ns1:text transform="translate(0,-1)" fill="#292829" font-family="Noticia Text" font-size="12px" font-weight="bolder">Kolik českých autorů mělo za sebou nebo před sebou…</ns1:text>
          </ns1:g>
          <ns1:g class="mark-text role-title-subtitle" aria-label="Subtitle text 'Jak velkou část knih poprvé vydaných v daném roce napsali lidé s určitou zkušeností – bez ohledu na to, kdy ji udělali. Zuby v roce 1990 znamenají, že po revoluci začali vycházet jak lidé dříve věznění, tak vyloučení z KSČ. Data jsou neúplná, reálné podíly budou spíše vyšší; podstatné jsou zde trendy.'" aria-roledescription="subtitle" role="graphics-symbol">
-          <ns1:text transform="translate(0,20)" fill="#000" font-family="Noticia Text" font-size="10px">
+          <ns1:text transform="translate(0 20)" fill="#292829" font-family="Noticia Text" font-size="10px">
            <ns1:tspan>Jak velkou část knih poprvé vydaných v daném roce napsali lidé s určitou</ns1:tspan>
            <ns1:tspan x="0" dy="15">zkušeností – bez ohledu na to, kdy ji udělali. Zuby v roce 1990 znamenají,</ns1:tspan>
            <ns1:tspan x="0" dy="15">že po revoluci začali vycházet jak lidé dříve věznění, tak vyloučení z KSČ.</ns1:tspan>
@@ -643,15 +643,15 @@
    </ns1:g>
   </ns1:g>
  </g>
- <g transform="translate(37,465)">
-  <ns0:rect width="337" height="40" fill="white" xmlns:ns0="http://www.w3.org/2000/svg"/>
-  <ns1:g transform="translate(132,5)" fill="none" stroke-miterlimit="10" xmlns:ns1="http://www.w3.org/2000/svg">
+ <g transform="translate(130,463)">
+  <ns0:rect width="327" height="17" fill="white" xmlns:ns0="http://www.w3.org/2000/svg"/>
+  <ns1:g transform="translate(127)" fill="none" stroke-miterlimit="10" xmlns:ns1="http://www.w3.org/2000/svg">
    <ns1:g class="mark-group role-frame root" aria-roledescription="group mark container" role="graphics-object">
     <ns1:g transform="translate(0)">
-     <ns1:path class="background" d="M0.5,0.5h200v30h-200Z" aria-hidden="true"/>
+     <ns1:path class="background" d="M0.5,0.5h200v15h-200Z" aria-hidden="true"/>
      <ns1:g>
       <ns1:g class="mark-text role-mark marks" aria-roledescription="text mark container" role="graphics-object">
-       <ns1:text transform="translate(200,12)" fill="black" font-family="Asap" font-size="8px" text-anchor="end" aria-label="text: data: Česká národní bibliografie, Wikidata | vizualizace: iROZHLAS.cz, Michal Kašpárek | 2025" aria-roledescription="text mark" role="graphics-symbol">data: Česká národní bibliografie, Wikidata | vizualizace: iROZHLAS.cz, Michal Kašpárek | 2025</ns1:text>
+       <ns1:text transform="translate(200 14)" fill="#292829" font-family="Asap" font-size="8px" text-anchor="end" aria-label="text: data: Česká národní bibliografie, Wikidata | vizualizace: iROZHLAS.cz, Michal Kašpárek | 2025" aria-roledescription="text mark" role="graphics-symbol">data: Česká národní bibliografie, Wikidata | vizualizace: iROZHLAS.cz, Michal Kašpárek | 2025</ns1:text>
       </ns1:g>
      </ns1:g>
      <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>

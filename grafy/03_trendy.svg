@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg viewBox="0 0 406 310" xmlns="http://www.w3.org/2000/svg">
- <rect width="406" height="310" fill="#fff"/>
+<svg viewBox="0 0 401 310" xmlns="http://www.w3.org/2000/svg">
+ <rect width="401" height="310" fill="#fff"/>
  <g transform="translate(0)">
-  <ns0:rect width="406" height="270" fill="white" xmlns:ns0="http://www.w3.org/2000/svg"/>
-  <ns1:g transform="translate(11,53)" fill="none" stroke-miterlimit="10" xmlns:ns1="http://www.w3.org/2000/svg">
+  <ns0:rect width="401" height="293" fill="white" xmlns:ns0="http://www.w3.org/2000/svg"/>
+  <ns1:g transform="translate(11,72)" fill="none" stroke-miterlimit="10" xmlns:ns1="http://www.w3.org/2000/svg">
    <ns1:g class="mark-group role-frame root" aria-roledescription="group mark container" role="graphics-object">
     <ns1:g transform="translate(0)">
      <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
@@ -54,8 +54,8 @@
              <ns1:g transform="translate(28 -20)">
               <ns1:path class="background" d="M0,0h0v0h0Z" pointer-events="none" aria-hidden="true"/>
               <ns1:g>
-               <ns1:g class="mark-text role-title-text" pointer-events="none" aria-label="Title text 'erotické romány'" aria-roledescription="title" role="graphics-symbol">
-                <ns1:text transform="translate(0,8)" fill="#000" font-family="Asap" font-size="10px" text-anchor="middle">erotické romány</ns1:text>
+               <ns1:g class="mark-text role-title-text" pointer-events="none" aria-label="Title text 'rozhovory'" aria-roledescription="title" role="graphics-symbol">
+                <ns1:text transform="translate(0,8)" fill="#000" font-family="Asap" font-size="10px" text-anchor="middle">rozhovory</ns1:text>
                </ns1:g>
               </ns1:g>
               <ns1:path class="foreground" d="" display="none" pointer-events="none" aria-hidden="true"/>
@@ -71,8 +71,8 @@
              <ns1:g transform="translate(28 -20)">
               <ns1:path class="background" d="M0,0h0v0h0Z" pointer-events="none" aria-hidden="true"/>
               <ns1:g>
-               <ns1:g class="mark-text role-title-text" pointer-events="none" aria-label="Title text 'rozhovory'" aria-roledescription="title" role="graphics-symbol">
-                <ns1:text transform="translate(0,8)" fill="#000" font-family="Asap" font-size="10px" text-anchor="middle">rozhovory</ns1:text>
+               <ns1:g class="mark-text role-title-text" pointer-events="none" aria-label="Title text 'erotické romány'" aria-roledescription="title" role="graphics-symbol">
+                <ns1:text transform="translate(0,8)" fill="#000" font-family="Asap" font-size="10px" text-anchor="middle">erotické romány</ns1:text>
                </ns1:g>
               </ns1:g>
               <ns1:path class="foreground" d="" display="none" pointer-events="none" aria-hidden="true"/>
@@ -84,17 +84,29 @@
          </ns1:g>
          <ns1:g class="mark-group role-scope concat_0_cell" aria-roledescription="group mark container" role="graphics-object">
           <ns1:g transform="translate(0)">
-           <ns1:path class="background" d="M0.5,0.5h55v55h-55Z" aria-hidden="true"/>
+           <ns1:path class="background" d="M0.5,0.5h55v60h-55Z" aria-hidden="true"/>
            <ns1:g>
+            <ns1:g class="mark-group role-axis" aria-hidden="true">
+             <ns1:g transform="translate(56 .5)">
+              <ns1:path class="background" d="M0,0h0v0h0Z" pointer-events="none" aria-hidden="true"/>
+              <ns1:g>
+               <ns1:g class="mark-rule role-axis-grid" pointer-events="none" stroke="#ddd">
+                <ns1:line transform="translate(0,60)" x2="-55" y2="0"/>
+                <ns1:line transform="translate(0,30)" x2="-55" y2="0"/>
+               </ns1:g>
+              </ns1:g>
+              <ns1:path class="foreground" d="" display="none" pointer-events="none" aria-hidden="true"/>
+             </ns1:g>
+            </ns1:g>
             <ns1:g class="mark-group role-axis" aria-label="X-axis for a time scale with values from Friday, 02 May 1997, 1:00:00 AM to Tuesday, 01 September 2026, 1:00:00 AM" aria-roledescription="axis" role="graphics-symbol">
-             <ns1:g transform="translate(.5 56)" pointer-events="none">
+             <ns1:g transform="translate(.5 60)" pointer-events="none">
               <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
               <ns1:g>
                <ns1:g class="mark-rule role-axis-tick" stroke="#DCDDD6">
                 <ns1:line transform="translate(5)" x2="0" y2="5"/>
                 <ns1:line transform="translate(43)" x2="0" y2="5"/>
                </ns1:g>
-               <ns1:g class="mark-text role-axis-label" fill="#000" font-family="Asap" font-size="9px" text-anchor="middle">
+               <ns1:g class="mark-text role-axis-label" fill="#292829" font-family="Asap" font-size="9px" text-anchor="middle">
                 <ns1:text transform="translate(5,14)">2000</ns1:text>
                 <ns1:text transform="translate(42 14)">2020</ns1:text>
                </ns1:g>
@@ -107,59 +119,75 @@
               <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
               <ns1:g>
                <ns1:g class="mark-rule role-axis-tick" stroke="#DCDDD6">
-                <ns1:line transform="translate(0,55)" x2="5" y2="0"/>
-                <ns1:line transform="translate(0,27)" x2="5" y2="0"/>
+                <ns1:line transform="translate(0,60)" x2="5" y2="0"/>
+                <ns1:line transform="translate(0,30)" x2="5" y2="0"/>
                </ns1:g>
-               <ns1:g class="mark-text role-axis-label" fill="#000" font-family="Asap" font-size="9px">
-                <ns1:text transform="translate(7,58)">0</ns1:text>
-                <ns1:text transform="translate(7 30)">200</ns1:text>
+               <ns1:g class="mark-text role-axis-label" fill="#292829" font-family="Asap" font-size="9px">
+                <ns1:text transform="translate(7,63)">0</ns1:text>
+                <ns1:text transform="translate(7 33)">200</ns1:text>
+               </ns1:g>
+               <ns1:g class="mark-rule role-axis-domain">
+                <ns1:line transform="translate(0,60)" x2="0" y2="-60" stroke="#888" stroke-opacity="0"/>
                </ns1:g>
               </ns1:g>
               <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
              </ns1:g>
             </ns1:g>
             <ns1:g class="mark-rect role-mark concat_0_child_marks" fill="#70871E" aria-roledescription="rect mark container" role="graphics-object">
-             <ns1:path d="M2.5,52.34771573604061h5v2.6522842639593875h-5Z" aria-label="rok: Jan 01, 2000; pocet: 19" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M4.3788501026694036,52.34771573604061h5v2.6522842639593875h-5Z" aria-label="rok: Jan 01, 2001; pocet: 19" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M6.252566735112936,48.02030456852792h5v6.979695431472081h-5Z" aria-label="rok: Jan 01, 2002; pocet: 50" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M8.126283367556468,45.9263959390863h5v9.073604060913702h-5Z" aria-label="rok: Jan 01, 2003; pocet: 65" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M10,48.02030456852792h5v6.979695431472081h-5Z" aria-label="rok: Jan 01, 2004; pocet: 50" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M11.878850102669405,49.555837563451774h5v5.4441624365482255h-5Z" aria-label="rok: Jan 01, 2005; pocet: 39" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M13.752566735112936,47.32233502538071h5v7.67766497461929h-5Z" aria-label="rok: Jan 01, 2006; pocet: 55" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M15.626283367556471,47.601522842639596h5v7.398477157360404h-5Z" aria-label="rok: Jan 01, 2007; pocet: 53" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M17.5,44.251269035533h5v10.748730964467h-5Z" aria-label="rok: Jan 01, 2008; pocet: 77" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M19.378850102669404,39.78426395939086h5v15.215736040609137h-5Z" aria-label="rok: Jan 01, 2009; pocet: 109" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M21.252566735112936,37.27157360406091h5v17.72842639593909h-5Z" aria-label="rok: Jan 01, 2010; pocet: 127" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M23.126283367556468,36.29441624365482h5v18.705583756345177h-5Z" aria-label="rok: Jan 01, 2011; pocet: 134" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M25,33.642131979695435h5v21.357868020304565h-5Z" aria-label="rok: Jan 01, 2012; pocet: 153" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M26.878850102669404,33.223350253807105h5v21.776649746192895h-5Z" aria-label="rok: Jan 01, 2013; pocet: 156" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M28.75256673511294,38.109137055837564h5v16.890862944162436h-5Z" aria-label="rok: Jan 01, 2014; pocet: 121" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M30.626283367556468,36.15482233502538h5v18.84517766497462h-5Z" aria-label="rok: Jan 01, 2015; pocet: 135" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M32.5,30.291878172588827h5v24.708121827411173h-5Z" aria-label="rok: Jan 01, 2016; pocet: 177" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M34.378850102669404,32.10659898477157h5v22.893401015228427h-5Z" aria-label="rok: Jan 01, 2017; pocet: 164" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M36.252566735112936,21.49746192893401h5v33.50253807106599h-5Z" aria-label="rok: Jan 01, 2018; pocet: 240" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M38.12628336755647,11.86548223350254h5v43.13451776649746h-5Z" aria-label="rok: Jan 01, 2019; pocet: 309" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M40,16.05329949238579h5v38.94670050761421h-5Z" aria-label="rok: Jan 01, 2020; pocet: 279" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M41.878850102669404,5.5837563451776635h5v49.41624365482234h-5Z" aria-label="rok: Jan 01, 2021; pocet: 354" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M43.752566735112936,1.1167512690355301h5v53.88324873096447h-5Z" aria-label="rok: Jan 01, 2022; pocet: 386" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M45.62628336755647,3.2106598984771577h5v51.78934010152284h-5Z" aria-label="rok: Jan 01, 2023; pocet: 371" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M47.5,0h5v55h-5Z" aria-label="rok: Jan 01, 2024; pocet: 394" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M4.55,57.10659898477157h0.9v2.8934010152284273h-0.9Z" aria-label="rok: Jan 01, 2000; pocet: 19" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M6.428850102669403,57.10659898477157h0.9v2.8934010152284273h-0.9Z" aria-label="rok: Jan 01, 2001; pocet: 19" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M8.302566735112936,52.38578680203045h0.9v7.614213197969548h-0.9Z" aria-label="rok: Jan 01, 2002; pocet: 50" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M10.176283367556469,50.101522842639596h0.9v9.898477157360404h-0.9Z" aria-label="rok: Jan 01, 2003; pocet: 65" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M12.05,52.38578680203045h0.9v7.614213197969548h-0.9Z" aria-label="rok: Jan 01, 2004; pocet: 50" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M13.928850102669406,54.06091370558376h0.9v5.939086294416242h-0.9Z" aria-label="rok: Jan 01, 2005; pocet: 39" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M15.802566735112936,51.6243654822335h0.9v8.3756345177665h-0.9Z" aria-label="rok: Jan 01, 2006; pocet: 55" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M17.676283367556472,51.92893401015228h0.9v8.071065989847718h-0.9Z" aria-label="rok: Jan 01, 2007; pocet: 53" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M19.55,48.2741116751269h0.9v11.725888324873097h-0.9Z" aria-label="rok: Jan 01, 2008; pocet: 77" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M21.428850102669404,43.401015228426395h0.9v16.598984771573605h-0.9Z" aria-label="rok: Jan 01, 2009; pocet: 109" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M23.302566735112936,40.659898477157356h0.9v19.340101522842644h-0.9Z" aria-label="rok: Jan 01, 2010; pocet: 127" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M25.17628336755647,39.59390862944162h0.9v20.40609137055838h-0.9Z" aria-label="rok: Jan 01, 2011; pocet: 134" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M27.05,36.7005076142132h0.9v23.2994923857868h-0.9Z" aria-label="rok: Jan 01, 2012; pocet: 153" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M28.928850102669404,36.24365482233502h0.9v23.756345177664983h-0.9Z" aria-label="rok: Jan 01, 2013; pocet: 156" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M30.80256673511294,41.57360406091371h0.9v18.42639593908629h-0.9Z" aria-label="rok: Jan 01, 2014; pocet: 121" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M32.676283367556465,39.441624365482234h0.9v20.558375634517766h-0.9Z" aria-label="rok: Jan 01, 2015; pocet: 135" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M34.55,33.045685279187815h0.9v26.954314720812185h-0.9Z" aria-label="rok: Jan 01, 2016; pocet: 177" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M36.4288501026694,35.025380710659896h0.9v24.974619289340104h-0.9Z" aria-label="rok: Jan 01, 2017; pocet: 164" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M38.30256673511293,23.45177664974619h0.9v36.54822335025381h-0.9Z" aria-label="rok: Jan 01, 2018; pocet: 240" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M40.176283367556465,12.944162436548226h0.9v47.055837563451774h-0.9Z" aria-label="rok: Jan 01, 2019; pocet: 309" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M42.05,17.51269035532995h0.9v42.48730964467005h-0.9Z" aria-label="rok: Jan 01, 2020; pocet: 279" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M43.9288501026694,6.091370558375633h0.9v53.90862944162437h-0.9Z" aria-label="rok: Jan 01, 2021; pocet: 354" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M45.80256673511293,1.218274111675124h0.9v58.78172588832488h-0.9Z" aria-label="rok: Jan 01, 2022; pocet: 386" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M47.676283367556465,3.5025380710659904h0.9v56.49746192893401h-0.9Z" aria-label="rok: Jan 01, 2023; pocet: 371" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M49.55,0h0.9v60h-0.9Z" aria-label="rok: Jan 01, 2024; pocet: 394" aria-roledescription="bar" role="graphics-symbol"/>
             </ns1:g>
            </ns1:g>
            <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
           </ns1:g>
           <ns1:g transform="translate(104)">
-           <ns1:path class="background" d="M0.5,0.5h55v55h-55Z" aria-hidden="true"/>
+           <ns1:path class="background" d="M0.5,0.5h55v60h-55Z" aria-hidden="true"/>
            <ns1:g>
+            <ns1:g class="mark-group role-axis" aria-hidden="true">
+             <ns1:g transform="translate(56 .5)">
+              <ns1:path class="background" d="M0,0h0v0h0Z" pointer-events="none" aria-hidden="true"/>
+              <ns1:g>
+               <ns1:g class="mark-rule role-axis-grid" pointer-events="none" stroke="#ddd">
+                <ns1:line transform="translate(0,60)" x2="-55" y2="0"/>
+                <ns1:line transform="translate(0,38)" x2="-55" y2="0"/>
+                <ns1:line transform="translate(0,17)" x2="-55" y2="0"/>
+               </ns1:g>
+              </ns1:g>
+              <ns1:path class="foreground" d="" display="none" pointer-events="none" aria-hidden="true"/>
+             </ns1:g>
+            </ns1:g>
             <ns1:g class="mark-group role-axis" aria-label="X-axis for a time scale with values from Friday, 02 May 1997, 1:00:00 AM to Tuesday, 01 September 2026, 1:00:00 AM" aria-roledescription="axis" role="graphics-symbol">
-             <ns1:g transform="translate(.5 56)" pointer-events="none">
+             <ns1:g transform="translate(.5 60)" pointer-events="none">
               <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
               <ns1:g>
                <ns1:g class="mark-rule role-axis-tick" stroke="#DCDDD6">
                 <ns1:line transform="translate(5)" x2="0" y2="5"/>
                 <ns1:line transform="translate(43)" x2="0" y2="5"/>
                </ns1:g>
-               <ns1:g class="mark-text role-axis-label" fill="#000" font-family="Asap" font-size="9px" text-anchor="middle">
+               <ns1:g class="mark-text role-axis-label" fill="#292829" font-family="Asap" font-size="9px" text-anchor="middle">
                 <ns1:text transform="translate(5,14)">2000</ns1:text>
                 <ns1:text transform="translate(42 14)">2020</ns1:text>
                </ns1:g>
@@ -172,117 +200,67 @@
               <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
               <ns1:g>
                <ns1:g class="mark-rule role-axis-tick" stroke="#DCDDD6">
-                <ns1:line transform="translate(0,55)" x2="5" y2="0"/>
-                <ns1:line transform="translate(0,35)" x2="5" y2="0"/>
-                <ns1:line transform="translate(0,15)" x2="5" y2="0"/>
+                <ns1:line transform="translate(0,60)" x2="5" y2="0"/>
+                <ns1:line transform="translate(0,38)" x2="5" y2="0"/>
+                <ns1:line transform="translate(0,17)" x2="5" y2="0"/>
                </ns1:g>
-               <ns1:g class="mark-text role-axis-label" fill="#000" font-family="Asap" font-size="9px">
-                <ns1:text transform="translate(7,58)">0</ns1:text>
-                <ns1:text transform="translate(7 38)">100</ns1:text>
-                <ns1:text transform="translate(7 18)">200</ns1:text>
+               <ns1:g class="mark-text role-axis-label" fill="#292829" font-family="Asap" font-size="9px">
+                <ns1:text transform="translate(7,63)">0</ns1:text>
+                <ns1:text transform="translate(7 41)">100</ns1:text>
+                <ns1:text transform="translate(7 20)">200</ns1:text>
+               </ns1:g>
+               <ns1:g class="mark-rule role-axis-domain">
+                <ns1:line transform="translate(0,60)" x2="0" y2="-60" stroke="#888" stroke-opacity="0"/>
                </ns1:g>
               </ns1:g>
               <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
              </ns1:g>
             </ns1:g>
             <ns1:g class="mark-rect role-mark concat_0_child_marks" fill="#70871E" aria-roledescription="rect mark container" role="graphics-object">
-             <ns1:path d="M19.378850102669404,54.60144927536232h5v0.3985507246376798h-5Z" aria-label="rok: Jan 01, 2009; pocet: 2" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M21.252566735112936,53.405797101449274h5v1.5942028985507264h-5Z" aria-label="rok: Jan 01, 2010; pocet: 8" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M23.126283367556468,54.20289855072464h5v0.7971014492753596h-5Z" aria-label="rok: Jan 01, 2011; pocet: 4" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M25,53.405797101449274h5v1.5942028985507264h-5Z" aria-label="rok: Jan 01, 2012; pocet: 8" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M26.878850102669404,53.405797101449274h5v1.5942028985507264h-5Z" aria-label="rok: Jan 01, 2013; pocet: 8" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M28.75256673511294,51.413043478260875h5v3.5869565217391255h-5Z" aria-label="rok: Jan 01, 2014; pocet: 18" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M30.626283367556468,51.413043478260875h5v3.5869565217391255h-5Z" aria-label="rok: Jan 01, 2015; pocet: 18" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M32.5,51.413043478260875h5v3.5869565217391255h-5Z" aria-label="rok: Jan 01, 2016; pocet: 18" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M34.378850102669404,51.413043478260875h5v3.5869565217391255h-5Z" aria-label="rok: Jan 01, 2017; pocet: 18" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M36.252566735112936,51.81159420289855h5v3.1884057971014528h-5Z" aria-label="rok: Jan 01, 2018; pocet: 16" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M38.12628336755647,50.21739130434783h5v4.782608695652172h-5Z" aria-label="rok: Jan 01, 2019; pocet: 24" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M40,49.81884057971015h5v5.181159420289852h-5Z" aria-label="rok: Jan 01, 2020; pocet: 26" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M41.878850102669404,48.6231884057971h5v6.3768115942028984h-5Z" aria-label="rok: Jan 01, 2021; pocet: 32" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M43.752566735112936,45.63405797101449h5v9.365942028985508h-5Z" aria-label="rok: Jan 01, 2022; pocet: 47" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M45.62628336755647,12.355072463768115h5v42.64492753623188h-5Z" aria-label="rok: Jan 01, 2023; pocet: 214" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M47.5,0h5v55h-5Z" aria-label="rok: Jan 01, 2024; pocet: 276" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M21.428850102669404,59.565217391304344h0.9v0.4347826086956559h-0.9Z" aria-label="rok: Jan 01, 2009; pocet: 2" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M23.302566735112936,58.26086956521739h0.9v1.7391304347826093h-0.9Z" aria-label="rok: Jan 01, 2010; pocet: 8" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M25.17628336755647,59.130434782608695h0.9v0.8695652173913047h-0.9Z" aria-label="rok: Jan 01, 2011; pocet: 4" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M27.05,58.26086956521739h0.9v1.7391304347826093h-0.9Z" aria-label="rok: Jan 01, 2012; pocet: 8" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M28.928850102669404,58.26086956521739h0.9v1.7391304347826093h-0.9Z" aria-label="rok: Jan 01, 2013; pocet: 8" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M30.80256673511294,56.08695652173913h0.9v3.9130434782608674h-0.9Z" aria-label="rok: Jan 01, 2014; pocet: 18" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M32.676283367556465,56.08695652173913h0.9v3.9130434782608674h-0.9Z" aria-label="rok: Jan 01, 2015; pocet: 18" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M34.55,56.08695652173913h0.9v3.9130434782608674h-0.9Z" aria-label="rok: Jan 01, 2016; pocet: 18" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M36.4288501026694,56.08695652173913h0.9v3.9130434782608674h-0.9Z" aria-label="rok: Jan 01, 2017; pocet: 18" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M38.30256673511293,56.52173913043478h0.9v3.4782608695652186h-0.9Z" aria-label="rok: Jan 01, 2018; pocet: 16" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M40.176283367556465,54.78260869565218h0.9v5.217391304347821h-0.9Z" aria-label="rok: Jan 01, 2019; pocet: 24" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M42.05,54.34782608695652h0.9v5.652173913043477h-0.9Z" aria-label="rok: Jan 01, 2020; pocet: 26" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M43.9288501026694,53.04347826086957h0.9v6.95652173913043h-0.9Z" aria-label="rok: Jan 01, 2021; pocet: 32" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M45.80256673511293,49.78260869565217h0.9v10.217391304347828h-0.9Z" aria-label="rok: Jan 01, 2022; pocet: 47" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M47.676283367556465,13.478260869565217h0.9v46.52173913043478h-0.9Z" aria-label="rok: Jan 01, 2023; pocet: 214" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M49.55,0h0.9v60h-0.9Z" aria-label="rok: Jan 01, 2024; pocet: 276" aria-roledescription="bar" role="graphics-symbol"/>
             </ns1:g>
            </ns1:g>
            <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
           </ns1:g>
           <ns1:g transform="translate(208)">
-           <ns1:path class="background" d="M0.5,0.5h55v55h-55Z" aria-hidden="true"/>
+           <ns1:path class="background" d="M0.5,0.5h55v60h-55Z" aria-hidden="true"/>
            <ns1:g>
+            <ns1:g class="mark-group role-axis" aria-hidden="true">
+             <ns1:g transform="translate(56 .5)">
+              <ns1:path class="background" d="M0,0h0v0h0Z" pointer-events="none" aria-hidden="true"/>
+              <ns1:g>
+               <ns1:g class="mark-rule role-axis-grid" pointer-events="none" stroke="#ddd">
+                <ns1:line transform="translate(0,60)" x2="-55" y2="0"/>
+                <ns1:line transform="translate(0,23)" x2="-55" y2="0"/>
+               </ns1:g>
+              </ns1:g>
+              <ns1:path class="foreground" d="" display="none" pointer-events="none" aria-hidden="true"/>
+             </ns1:g>
+            </ns1:g>
             <ns1:g class="mark-group role-axis" aria-label="X-axis for a time scale with values from Friday, 02 May 1997, 1:00:00 AM to Tuesday, 01 September 2026, 1:00:00 AM" aria-roledescription="axis" role="graphics-symbol">
-             <ns1:g transform="translate(.5 56)" pointer-events="none">
+             <ns1:g transform="translate(.5 60)" pointer-events="none">
               <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
               <ns1:g>
                <ns1:g class="mark-rule role-axis-tick" stroke="#DCDDD6">
                 <ns1:line transform="translate(5)" x2="0" y2="5"/>
                 <ns1:line transform="translate(43)" x2="0" y2="5"/>
                </ns1:g>
-               <ns1:g class="mark-text role-axis-label" fill="#000" font-family="Asap" font-size="9px" text-anchor="middle">
-                <ns1:text transform="translate(5,14)">2000</ns1:text>
-                <ns1:text transform="translate(42 14)">2020</ns1:text>
-               </ns1:g>
-              </ns1:g>
-              <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
-             </ns1:g>
-            </ns1:g>
-            <ns1:g class="mark-group role-axis" aria-label="Y-axis for a linear scale with values from 0 to 91" aria-roledescription="axis" role="graphics-symbol">
-             <ns1:g transform="translate(56 .5)" pointer-events="none">
-              <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
-              <ns1:g>
-               <ns1:g class="mark-rule role-axis-tick" stroke="#DCDDD6">
-                <ns1:line transform="translate(0,55)" x2="5" y2="0"/>
-                <ns1:line transform="translate(0,25)" x2="5" y2="0"/>
-               </ns1:g>
-               <ns1:g class="mark-text role-axis-label" fill="#000" font-family="Asap" font-size="9px">
-                <ns1:text transform="translate(7,58)">0</ns1:text>
-                <ns1:text transform="translate(7 28)">50</ns1:text>
-               </ns1:g>
-              </ns1:g>
-              <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
-             </ns1:g>
-            </ns1:g>
-            <ns1:g class="mark-rect role-mark concat_0_child_marks" fill="#70871E" aria-roledescription="rect mark container" role="graphics-object">
-             <ns1:path d="M2.5,53.18681318681319h5v1.8131868131868103h-5Z" aria-label="rok: Jan 01, 2000; pocet: 3" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M4.3788501026694036,54.395604395604394h5v0.6043956043956058h-5Z" aria-label="rok: Jan 01, 2001; pocet: 1" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M6.252566735112936,53.18681318681319h5v1.8131868131868103h-5Z" aria-label="rok: Jan 01, 2002; pocet: 3" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M8.126283367556468,51.37362637362637h5v3.6263736263736277h-5Z" aria-label="rok: Jan 01, 2003; pocet: 6" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M10,51.97802197802198h5v3.021978021978022h-5Z" aria-label="rok: Jan 01, 2004; pocet: 5" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M11.878850102669405,49.56043956043956h5v5.439560439560438h-5Z" aria-label="rok: Jan 01, 2005; pocet: 9" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M13.752566735112936,53.79120879120879h5v1.2087912087912116h-5Z" aria-label="rok: Jan 01, 2006; pocet: 2" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M15.626283367556471,53.79120879120879h5v1.2087912087912116h-5Z" aria-label="rok: Jan 01, 2007; pocet: 2" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M17.5,53.18681318681319h5v1.8131868131868103h-5Z" aria-label="rok: Jan 01, 2008; pocet: 3" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M19.378850102669404,51.37362637362637h5v3.6263736263736277h-5Z" aria-label="rok: Jan 01, 2009; pocet: 6" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M21.252566735112936,51.97802197802198h5v3.021978021978022h-5Z" aria-label="rok: Jan 01, 2010; pocet: 5" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M23.126283367556468,53.79120879120879h5v1.2087912087912116h-5Z" aria-label="rok: Jan 01, 2011; pocet: 2" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M25,49.56043956043956h5v5.439560439560438h-5Z" aria-label="rok: Jan 01, 2012; pocet: 9" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M26.878850102669404,38.68131868131868h5v16.31868131868132h-5Z" aria-label="rok: Jan 01, 2013; pocet: 27" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M28.75256673511294,30.824175824175825h5v24.175824175824175h-5Z" aria-label="rok: Jan 01, 2014; pocet: 40" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M30.626283367556468,32.03296703296703h5v22.96703296703297h-5Z" aria-label="rok: Jan 01, 2015; pocet: 38" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M32.5,41.0989010989011h5v13.901098901098898h-5Z" aria-label="rok: Jan 01, 2016; pocet: 23" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M34.378850102669404,44.120879120879124h5v10.879120879120876h-5Z" aria-label="rok: Jan 01, 2017; pocet: 18" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M36.252566735112936,44.120879120879124h5v10.879120879120876h-5Z" aria-label="rok: Jan 01, 2018; pocet: 18" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M38.12628336755647,45.32967032967033h5v9.670329670329672h-5Z" aria-label="rok: Jan 01, 2019; pocet: 16" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M40,32.637362637362635h5v22.362637362637365h-5Z" aria-label="rok: Jan 01, 2020; pocet: 37" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M41.878850102669404,25.98901098901099h5v29.01098901098901h-5Z" aria-label="rok: Jan 01, 2021; pocet: 48" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M43.752566735112936,24.175824175824175h5v30.824175824175825h-5Z" aria-label="rok: Jan 01, 2022; pocet: 51" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M45.62628336755647,10.879120879120878h5v44.120879120879124h-5Z" aria-label="rok: Jan 01, 2023; pocet: 73" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M47.5,0h5v55h-5Z" aria-label="rok: Jan 01, 2024; pocet: 91" aria-roledescription="bar" role="graphics-symbol"/>
-            </ns1:g>
-           </ns1:g>
-           <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
-          </ns1:g>
-          <ns1:g transform="translate(312)">
-           <ns1:path class="background" d="M0.5,0.5h55v55h-55Z" aria-hidden="true"/>
-           <ns1:g>
-            <ns1:g class="mark-group role-axis" aria-label="X-axis for a time scale with values from Friday, 02 May 1997, 1:00:00 AM to Tuesday, 01 September 2026, 1:00:00 AM" aria-roledescription="axis" role="graphics-symbol">
-             <ns1:g transform="translate(.5 56)" pointer-events="none">
-              <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
-              <ns1:g>
-               <ns1:g class="mark-rule role-axis-tick" stroke="#DCDDD6">
-                <ns1:line transform="translate(5)" x2="0" y2="5"/>
-                <ns1:line transform="translate(43)" x2="0" y2="5"/>
-               </ns1:g>
-               <ns1:g class="mark-text role-axis-label" fill="#000" font-family="Asap" font-size="9px" text-anchor="middle">
+               <ns1:g class="mark-text role-axis-label" fill="#292829" font-family="Asap" font-size="9px" text-anchor="middle">
                 <ns1:text transform="translate(5,14)">2000</ns1:text>
                 <ns1:text transform="translate(42 14)">2020</ns1:text>
                </ns1:g>
@@ -295,57 +273,143 @@
               <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
               <ns1:g>
                <ns1:g class="mark-rule role-axis-tick" stroke="#DCDDD6">
-                <ns1:line transform="translate(0,55)" x2="5" y2="0"/>
-                <ns1:line transform="translate(0,21)" x2="5" y2="0"/>
+                <ns1:line transform="translate(0,60)" x2="5" y2="0"/>
+                <ns1:line transform="translate(0,23)" x2="5" y2="0"/>
                </ns1:g>
-               <ns1:g class="mark-text role-axis-label" fill="#000" font-family="Asap" font-size="9px">
-                <ns1:text transform="translate(7,58)">0</ns1:text>
-                <ns1:text transform="translate(7 24)">100</ns1:text>
+               <ns1:g class="mark-text role-axis-label" fill="#292829" font-family="Asap" font-size="9px">
+                <ns1:text transform="translate(7,63)">0</ns1:text>
+                <ns1:text transform="translate(7 26)">100</ns1:text>
+               </ns1:g>
+               <ns1:g class="mark-rule role-axis-domain">
+                <ns1:line transform="translate(0,60)" x2="0" y2="-60" stroke="#888" stroke-opacity="0"/>
                </ns1:g>
               </ns1:g>
               <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
              </ns1:g>
             </ns1:g>
             <ns1:g class="mark-rect role-mark concat_0_child_marks" fill="#70871E" aria-roledescription="rect mark container" role="graphics-object">
-             <ns1:path d="M2.5,39.53125h5v15.46875h-5Z" aria-label="rok: Jan 01, 2000; pocet: 45" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M4.3788501026694036,36.78125h5v18.21875h-5Z" aria-label="rok: Jan 01, 2001; pocet: 53" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M6.252566735112936,35.0625h5v19.9375h-5Z" aria-label="rok: Jan 01, 2002; pocet: 58" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M8.126283367556468,29.21875h5v25.78125h-5Z" aria-label="rok: Jan 01, 2003; pocet: 75" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M10,33.6875h5v21.3125h-5Z" aria-label="rok: Jan 01, 2004; pocet: 62" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M11.878850102669405,24.749999999999996h5v30.250000000000004h-5Z" aria-label="rok: Jan 01, 2005; pocet: 88" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M13.752566735112936,28.531250000000004h5v26.468749999999996h-5Z" aria-label="rok: Jan 01, 2006; pocet: 77" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M15.626283367556471,31.624999999999996h5v23.375000000000004h-5Z" aria-label="rok: Jan 01, 2007; pocet: 68" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M17.5,26.125h5v28.875h-5Z" aria-label="rok: Jan 01, 2008; pocet: 84" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M19.378850102669404,23.031249999999996h5v31.968750000000004h-5Z" aria-label="rok: Jan 01, 2009; pocet: 93" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M21.252566735112936,22.34375h5v32.65625h-5Z" aria-label="rok: Jan 01, 2010; pocet: 95" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M23.126283367556468,26.125h5v28.875h-5Z" aria-label="rok: Jan 01, 2011; pocet: 84" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M25,25.78125h5v29.21875h-5Z" aria-label="rok: Jan 01, 2012; pocet: 85" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M26.878850102669404,20.96875h5v34.03125h-5Z" aria-label="rok: Jan 01, 2013; pocet: 99" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M28.75256673511294,22.6875h5v32.3125h-5Z" aria-label="rok: Jan 01, 2014; pocet: 94" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M30.626283367556468,16.156249999999996h5v38.84375h-5Z" aria-label="rok: Jan 01, 2015; pocet: 113" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M32.5,15.46875h5v39.53125h-5Z" aria-label="rok: Jan 01, 2016; pocet: 115" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M34.378850102669404,15.46875h5v39.53125h-5Z" aria-label="rok: Jan 01, 2017; pocet: 115" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M36.252566735112936,18.90625h5v36.09375h-5Z" aria-label="rok: Jan 01, 2018; pocet: 105" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M38.12628336755647,6.875h5v48.125h-5Z" aria-label="rok: Jan 01, 2019; pocet: 140" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M40,11.687500000000002h5v43.3125h-5Z" aria-label="rok: Jan 01, 2020; pocet: 126" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M41.878850102669404,0h5v55h-5Z" aria-label="rok: Jan 01, 2021; pocet: 160" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M43.752566735112936,3.7812499999999987h5v51.21875h-5Z" aria-label="rok: Jan 01, 2022; pocet: 149" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M45.62628336755647,7.562499999999997h5v47.4375h-5Z" aria-label="rok: Jan 01, 2023; pocet: 138" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M47.5,10.656249999999998h5v44.34375h-5Z" aria-label="rok: Jan 01, 2024; pocet: 129" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M4.55,43.125h0.9v16.875h-0.9Z" aria-label="rok: Jan 01, 2000; pocet: 45" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M6.428850102669403,40.125h0.9v19.875h-0.9Z" aria-label="rok: Jan 01, 2001; pocet: 53" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M8.302566735112936,38.25h0.9v21.75h-0.9Z" aria-label="rok: Jan 01, 2002; pocet: 58" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M10.176283367556469,31.875h0.9v28.125h-0.9Z" aria-label="rok: Jan 01, 2003; pocet: 75" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M12.05,36.75h0.9v23.25h-0.9Z" aria-label="rok: Jan 01, 2004; pocet: 62" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M13.928850102669406,26.999999999999996h0.9v33h-0.9Z" aria-label="rok: Jan 01, 2005; pocet: 88" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M15.802566735112936,31.125000000000004h0.9v28.874999999999996h-0.9Z" aria-label="rok: Jan 01, 2006; pocet: 77" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M17.676283367556472,34.5h0.9v25.5h-0.9Z" aria-label="rok: Jan 01, 2007; pocet: 68" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M19.55,28.5h0.9v31.5h-0.9Z" aria-label="rok: Jan 01, 2008; pocet: 84" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M21.428850102669404,25.124999999999996h0.9v34.875h-0.9Z" aria-label="rok: Jan 01, 2009; pocet: 93" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M23.302566735112936,24.375h0.9v35.625h-0.9Z" aria-label="rok: Jan 01, 2010; pocet: 95" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M25.17628336755647,28.5h0.9v31.5h-0.9Z" aria-label="rok: Jan 01, 2011; pocet: 84" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M27.05,28.125h0.9v31.875h-0.9Z" aria-label="rok: Jan 01, 2012; pocet: 85" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M28.928850102669404,22.875h0.9v37.125h-0.9Z" aria-label="rok: Jan 01, 2013; pocet: 99" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M30.80256673511294,24.75h0.9v35.25h-0.9Z" aria-label="rok: Jan 01, 2014; pocet: 94" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M32.676283367556465,17.624999999999996h0.9v42.375h-0.9Z" aria-label="rok: Jan 01, 2015; pocet: 113" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M34.55,16.875h0.9v43.125h-0.9Z" aria-label="rok: Jan 01, 2016; pocet: 115" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M36.4288501026694,16.875h0.9v43.125h-0.9Z" aria-label="rok: Jan 01, 2017; pocet: 115" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M38.30256673511293,20.625h0.9v39.375h-0.9Z" aria-label="rok: Jan 01, 2018; pocet: 105" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M40.176283367556465,7.5h0.9v52.5h-0.9Z" aria-label="rok: Jan 01, 2019; pocet: 140" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M42.05,12.750000000000002h0.9v47.25h-0.9Z" aria-label="rok: Jan 01, 2020; pocet: 126" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M43.9288501026694,0h0.9v60h-0.9Z" aria-label="rok: Jan 01, 2021; pocet: 160" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M45.80256673511293,4.124999999999998h0.9v55.875h-0.9Z" aria-label="rok: Jan 01, 2022; pocet: 149" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M47.676283367556465,8.249999999999996h0.9v51.75h-0.9Z" aria-label="rok: Jan 01, 2023; pocet: 138" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M49.55,11.624999999999998h0.9v48.375h-0.9Z" aria-label="rok: Jan 01, 2024; pocet: 129" aria-roledescription="bar" role="graphics-symbol"/>
+            </ns1:g>
+           </ns1:g>
+           <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
+          </ns1:g>
+          <ns1:g transform="translate(312)">
+           <ns1:path class="background" d="M0.5,0.5h55v60h-55Z" aria-hidden="true"/>
+           <ns1:g>
+            <ns1:g class="mark-group role-axis" aria-hidden="true">
+             <ns1:g transform="translate(56 .5)">
+              <ns1:path class="background" d="M0,0h0v0h0Z" pointer-events="none" aria-hidden="true"/>
+              <ns1:g>
+               <ns1:g class="mark-rule role-axis-grid" pointer-events="none" stroke="#ddd">
+                <ns1:line transform="translate(0,60)" x2="-55" y2="0"/>
+                <ns1:line transform="translate(0,27)" x2="-55" y2="0"/>
+               </ns1:g>
+              </ns1:g>
+              <ns1:path class="foreground" d="" display="none" pointer-events="none" aria-hidden="true"/>
+             </ns1:g>
+            </ns1:g>
+            <ns1:g class="mark-group role-axis" aria-label="X-axis for a time scale with values from Friday, 02 May 1997, 1:00:00 AM to Tuesday, 01 September 2026, 1:00:00 AM" aria-roledescription="axis" role="graphics-symbol">
+             <ns1:g transform="translate(.5 60)" pointer-events="none">
+              <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
+              <ns1:g>
+               <ns1:g class="mark-rule role-axis-tick" stroke="#DCDDD6">
+                <ns1:line transform="translate(5)" x2="0" y2="5"/>
+                <ns1:line transform="translate(43)" x2="0" y2="5"/>
+               </ns1:g>
+               <ns1:g class="mark-text role-axis-label" fill="#292829" font-family="Asap" font-size="9px" text-anchor="middle">
+                <ns1:text transform="translate(5,14)">2000</ns1:text>
+                <ns1:text transform="translate(42 14)">2020</ns1:text>
+               </ns1:g>
+              </ns1:g>
+              <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
+             </ns1:g>
+            </ns1:g>
+            <ns1:g class="mark-group role-axis" aria-label="Y-axis for a linear scale with values from 0 to 91" aria-roledescription="axis" role="graphics-symbol">
+             <ns1:g transform="translate(56 .5)" pointer-events="none">
+              <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
+              <ns1:g>
+               <ns1:g class="mark-rule role-axis-tick" stroke="#DCDDD6">
+                <ns1:line transform="translate(0,60)" x2="5" y2="0"/>
+                <ns1:line transform="translate(0,27)" x2="5" y2="0"/>
+               </ns1:g>
+               <ns1:g class="mark-text role-axis-label" fill="#292829" font-family="Asap" font-size="9px">
+                <ns1:text transform="translate(7,63)">0</ns1:text>
+                <ns1:text transform="translate(7 30)">50</ns1:text>
+               </ns1:g>
+               <ns1:g class="mark-rule role-axis-domain">
+                <ns1:line transform="translate(0,60)" x2="0" y2="-60" stroke="#888" stroke-opacity="0"/>
+               </ns1:g>
+              </ns1:g>
+              <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
+             </ns1:g>
+            </ns1:g>
+            <ns1:g class="mark-rect role-mark concat_0_child_marks" fill="#70871E" aria-roledescription="rect mark container" role="graphics-object">
+             <ns1:path d="M4.55,58.02197802197802h0.9v1.978021978021978h-0.9Z" aria-label="rok: Jan 01, 2000; pocet: 3" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M6.428850102669403,59.34065934065934h0.9v0.659340659340657h-0.9Z" aria-label="rok: Jan 01, 2001; pocet: 1" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M8.302566735112936,58.02197802197802h0.9v1.978021978021978h-0.9Z" aria-label="rok: Jan 01, 2002; pocet: 3" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M10.176283367556469,56.043956043956044h0.9v3.956043956043956h-0.9Z" aria-label="rok: Jan 01, 2003; pocet: 6" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M12.05,56.7032967032967h0.9v3.296703296703299h-0.9Z" aria-label="rok: Jan 01, 2004; pocet: 5" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M13.928850102669406,54.065934065934066h0.9v5.934065934065934h-0.9Z" aria-label="rok: Jan 01, 2005; pocet: 9" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M15.802566735112936,58.68131868131868h0.9v1.318681318681321h-0.9Z" aria-label="rok: Jan 01, 2006; pocet: 2" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M17.676283367556472,58.68131868131868h0.9v1.318681318681321h-0.9Z" aria-label="rok: Jan 01, 2007; pocet: 2" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M19.55,58.02197802197802h0.9v1.978021978021978h-0.9Z" aria-label="rok: Jan 01, 2008; pocet: 3" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M21.428850102669404,56.043956043956044h0.9v3.956043956043956h-0.9Z" aria-label="rok: Jan 01, 2009; pocet: 6" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M23.302566735112936,56.7032967032967h0.9v3.296703296703299h-0.9Z" aria-label="rok: Jan 01, 2010; pocet: 5" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M25.17628336755647,58.68131868131868h0.9v1.318681318681321h-0.9Z" aria-label="rok: Jan 01, 2011; pocet: 2" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M27.05,54.065934065934066h0.9v5.934065934065934h-0.9Z" aria-label="rok: Jan 01, 2012; pocet: 9" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M28.928850102669404,42.1978021978022h0.9v17.802197802197803h-0.9Z" aria-label="rok: Jan 01, 2013; pocet: 27" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M30.80256673511294,33.62637362637363h0.9v26.373626373626372h-0.9Z" aria-label="rok: Jan 01, 2014; pocet: 40" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M32.676283367556465,34.94505494505494h0.9v25.05494505494506h-0.9Z" aria-label="rok: Jan 01, 2015; pocet: 38" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M34.55,44.83516483516483h0.9v15.164835164835168h-0.9Z" aria-label="rok: Jan 01, 2016; pocet: 23" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M36.4288501026694,48.13186813186813h0.9v11.868131868131869h-0.9Z" aria-label="rok: Jan 01, 2017; pocet: 18" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M38.30256673511293,48.13186813186813h0.9v11.868131868131869h-0.9Z" aria-label="rok: Jan 01, 2018; pocet: 18" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M40.176283367556465,49.450549450549445h0.9v10.549450549450555h-0.9Z" aria-label="rok: Jan 01, 2019; pocet: 16" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M42.05,35.604395604395606h0.9v24.395604395604394h-0.9Z" aria-label="rok: Jan 01, 2020; pocet: 37" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M43.9288501026694,28.35164835164835h0.9v31.64835164835165h-0.9Z" aria-label="rok: Jan 01, 2021; pocet: 48" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M45.80256673511293,26.373626373626372h0.9v33.62637362637363h-0.9Z" aria-label="rok: Jan 01, 2022; pocet: 51" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M47.676283367556465,11.868131868131865h0.9v48.13186813186813h-0.9Z" aria-label="rok: Jan 01, 2023; pocet: 73" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M49.55,0h0.9v60h-0.9Z" aria-label="rok: Jan 01, 2024; pocet: 91" aria-roledescription="bar" role="graphics-symbol"/>
             </ns1:g>
            </ns1:g>
            <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
           </ns1:g>
          </ns1:g>
          <ns1:g class="mark-group role-title">
-          <ns1:g transform="translate(-5.6 -37)">
-           <ns1:path class="background" d="M0,0h0v0h0Z" pointer-events="none" aria-hidden="true"/>
+          <ns1:g transform="translate(-5.6 -56)" pointer-events="none">
+           <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
            <ns1:g>
-            <ns1:g class="mark-text role-title-text" pointer-events="none" aria-label="Title text 'Čeho vychází víc než v roce 2000…'" aria-roledescription="title" role="graphics-symbol">
-             <ns1:text transform="translate(0,-1)" fill="#000" font-family="Noticia Text" font-size="12px" font-weight="bolder">Čeho vychází víc než v roce 2000…</ns1:text>
+            <ns1:g class="mark-text role-title-text" aria-label="Title text 'Čeho v Česku vychází víc než v roce 2000…'" aria-roledescription="title" role="graphics-symbol">
+             <ns1:text transform="translate(0,-1)" fill="#292829" font-family="Noticia Text" font-size="12px" font-weight="bolder">Čeho v Česku vychází víc než v roce 2000…</ns1:text>
+            </ns1:g>
+            <ns1:g class="mark-text role-title-subtitle" aria-label="Subtitle text '(Každý graf má své vlastní měřítko.)'" aria-roledescription="subtitle" role="graphics-symbol">
+             <ns1:text transform="translate(0 20)" fill="#292829" font-family="Noticia Text" font-size="10px">(Každý graf má své vlastní měřítko.)</ns1:text>
             </ns1:g>
            </ns1:g>
-           <ns1:path class="foreground" d="" display="none" pointer-events="none" aria-hidden="true"/>
+           <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
           </ns1:g>
          </ns1:g>
         </ns1:g>
@@ -353,7 +417,7 @@
        </ns1:g>
       </ns1:g>
       <ns1:g class="mark-group role-scope concat_1_group" aria-roledescription="group mark container" role="graphics-object">
-       <ns1:g transform="translate(0,140)">
+       <ns1:g transform="translate(0,144)">
         <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
         <ns1:g>
          <ns1:g class="mark-group role-column-header concat_1_column_header" aria-roledescription="group mark container" role="graphics-object">
@@ -398,8 +462,8 @@
              <ns1:g transform="translate(24,-20)">
               <ns1:path class="background" d="M0,0h0v0h0Z" pointer-events="none" aria-hidden="true"/>
               <ns1:g>
-               <ns1:g class="mark-text role-title-text" pointer-events="none" aria-label="Title text 'právní předpisy'" aria-roledescription="title" role="graphics-symbol">
-                <ns1:text transform="translate(0,8)" fill="#000" font-family="Asap" font-size="10px" text-anchor="middle">právní předpisy</ns1:text>
+               <ns1:g class="mark-text role-title-text" pointer-events="none" aria-label="Title text 'encyklopedie'" aria-roledescription="title" role="graphics-symbol">
+                <ns1:text transform="translate(0,8)" fill="#000" font-family="Asap" font-size="10px" text-anchor="middle">encyklopedie</ns1:text>
                </ns1:g>
               </ns1:g>
               <ns1:path class="foreground" d="" display="none" pointer-events="none" aria-hidden="true"/>
@@ -415,8 +479,8 @@
              <ns1:g transform="translate(24,-20)">
               <ns1:path class="background" d="M0,0h0v0h0Z" pointer-events="none" aria-hidden="true"/>
               <ns1:g>
-               <ns1:g class="mark-text role-title-text" pointer-events="none" aria-label="Title text 'encyklopedie'" aria-roledescription="title" role="graphics-symbol">
-                <ns1:text transform="translate(0,8)" fill="#000" font-family="Asap" font-size="10px" text-anchor="middle">encyklopedie</ns1:text>
+               <ns1:g class="mark-text role-title-text" pointer-events="none" aria-label="Title text 'právní předpisy'" aria-roledescription="title" role="graphics-symbol">
+                <ns1:text transform="translate(0,8)" fill="#000" font-family="Asap" font-size="10px" text-anchor="middle">právní předpisy</ns1:text>
                </ns1:g>
               </ns1:g>
               <ns1:path class="foreground" d="" display="none" pointer-events="none" aria-hidden="true"/>
@@ -430,6 +494,19 @@
           <ns1:g transform="translate(0)">
            <ns1:path class="background" d="M0.5,0.5h48v55h-48Z" aria-hidden="true"/>
            <ns1:g>
+            <ns1:g class="mark-group role-axis" aria-hidden="true">
+             <ns1:g transform="translate(48 .5)">
+              <ns1:path class="background" d="M0,0h0v0h0Z" pointer-events="none" aria-hidden="true"/>
+              <ns1:g>
+               <ns1:g class="mark-rule role-axis-grid" pointer-events="none" stroke="#ddd">
+                <ns1:line transform="translate(0,55)" x2="-48" y2="0"/>
+                <ns1:line transform="translate(0,32)" x2="-48" y2="0"/>
+                <ns1:line transform="translate(0,9)" x2="-48" y2="0"/>
+               </ns1:g>
+              </ns1:g>
+              <ns1:path class="foreground" d="" display="none" pointer-events="none" aria-hidden="true"/>
+             </ns1:g>
+            </ns1:g>
             <ns1:g class="mark-group role-axis" aria-label="X-axis for a time scale with values from Sunday, 03 November 1996, 1:53:41 PM to Saturday, 27 February 2027, 10:06:18 AM" aria-roledescription="axis" role="graphics-symbol">
              <ns1:g transform="translate(.5 56)" pointer-events="none">
               <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
@@ -438,7 +515,7 @@
                 <ns1:line transform="translate(5)" x2="0" y2="5"/>
                 <ns1:line transform="translate(37)" x2="0" y2="5"/>
                </ns1:g>
-               <ns1:g class="mark-text role-axis-label" fill="#000" font-family="Asap" font-size="9px" text-anchor="middle">
+               <ns1:g class="mark-text role-axis-label" fill="#292829" font-family="Asap" font-size="9px" text-anchor="middle">
                 <ns1:text transform="translate(5 14)">2000</ns1:text>
                 <ns1:text transform="translate(37 14)">2020</ns1:text>
                </ns1:g>
@@ -455,41 +532,44 @@
                 <ns1:line transform="translate(0,32)" x2="5" y2="0"/>
                 <ns1:line transform="translate(0,9)" x2="5" y2="0"/>
                </ns1:g>
-               <ns1:g class="mark-text role-axis-label" fill="#000" font-family="Asap" font-size="9px">
+               <ns1:g class="mark-text role-axis-label" fill="#292829" font-family="Asap" font-size="9px">
                 <ns1:text transform="translate(7,58)">0</ns1:text>
                 <ns1:text transform="translate(7 35)">500</ns1:text>
                 <ns1:text transform="translate(7 12)">1,000</ns1:text>
+               </ns1:g>
+               <ns1:g class="mark-rule role-axis-domain">
+                <ns1:line transform="translate(0,55)" x2="0" y2="-55" stroke="#888" stroke-opacity="0"/>
                </ns1:g>
               </ns1:g>
               <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
              </ns1:g>
             </ns1:g>
             <ns1:g class="mark-rect role-mark concat_1_child_marks" fill="#DB842F" aria-roledescription="rect mark container" role="graphics-object">
-             <ns1:path d="M2.5000000000303126,10.495833333333332h5v44.50416666666667h-5Z" aria-label="rok: Jan 01, 2000; pocet: 971" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M4.08658453117293,10.129166666666668h5v44.87083333333333h-5Z" aria-label="rok: Jan 01, 2001; pocet: 979" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M5.668834131902589,5.041666666666667h5v49.958333333333336h-5Z" aria-label="rok: Jan 01, 2002; pocet: 1090" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M7.251083732632246,3.7125000000000004h5v51.2875h-5Z" aria-label="rok: Jan 01, 2003; pocet: 1119" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M8.833333333361903,6.187500000000003h5v48.8125h-5Z" aria-label="rok: Jan 01, 2004; pocet: 1065" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M10.41991786450452,1.970833333333336h5v53.02916666666666h-5Z" aria-label="rok: Jan 01, 2005; pocet: 1157" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M12.002167465234177,6.462500000000003h5v48.537499999999994h-5Z" aria-label="rok: Jan 01, 2006; pocet: 1059" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M13.584417065963837,0.09166666666666878h5v54.90833333333333h-5Z" aria-label="rok: Jan 01, 2007; pocet: 1198" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M15.166666666693494,10.816666666666666h5v44.18333333333334h-5Z" aria-label="rok: Jan 01, 2008; pocet: 964" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M16.753251197836114,18.654166666666665h5v36.34583333333333h-5Z" aria-label="rok: Jan 01, 2009; pocet: 793" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M18.335500798565768,22.55h5v32.45h-5Z" aria-label="rok: Jan 01, 2010; pocet: 708" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M19.91775039929543,18.5625h5v36.4375h-5Z" aria-label="rok: Jan 01, 2011; pocet: 795" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M21.500000000025082,23.87916666666667h5v31.12083333333333h-5Z" aria-label="rok: Jan 01, 2012; pocet: 679" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M23.086584531167702,16.408333333333335h5v38.59166666666667h-5Z" aria-label="rok: Jan 01, 2013; pocet: 842" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M24.66883413189736,19.158333333333335h5v35.84166666666667h-5Z" aria-label="rok: Jan 01, 2014; pocet: 782" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M26.251083732627023,27.912500000000005h5v27.087499999999995h-5Z" aria-label="rok: Jan 01, 2015; pocet: 591" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M27.833333333356677,35.52083333333333h5v19.47916666666667h-5Z" aria-label="rok: Jan 01, 2016; pocet: 425" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M29.41991786449929,36.7125h5v18.2875h-5Z" aria-label="rok: Jan 01, 2017; pocet: 399" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M31.00216746522895,37.949999999999996h5v17.050000000000004h-5Z" aria-label="rok: Jan 01, 2018; pocet: 372" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M32.58441706595861,36.208333333333336h5v18.791666666666664h-5Z" aria-label="rok: Jan 01, 2019; pocet: 410" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M34.16666666668827,38.3625h5v16.637500000000003h-5Z" aria-label="rok: Jan 01, 2020; pocet: 363" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M35.753251197830885,39.233333333333334h5v15.766666666666666h-5Z" aria-label="rok: Jan 01, 2021; pocet: 344" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M37.335500798560545,42.44166666666667h5v12.55833333333333h-5Z" aria-label="rok: Jan 01, 2022; pocet: 274" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M38.9177503992902,42.2125h5v12.787500000000001h-5Z" aria-label="rok: Jan 01, 2023; pocet: 279" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M40.50000000001986,46.15416666666666h5v8.845833333333339h-5Z" aria-label="rok: Jan 01, 2024; pocet: 193" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M4.5500000000303125,10.495833333333332h0.9v44.50416666666667h-0.9Z" aria-label="rok: Jan 01, 2000; pocet: 971" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M6.13658453117293,10.129166666666668h0.9v44.87083333333333h-0.9Z" aria-label="rok: Jan 01, 2001; pocet: 979" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M7.718834131902589,5.041666666666667h0.9v49.958333333333336h-0.9Z" aria-label="rok: Jan 01, 2002; pocet: 1090" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M9.301083732632247,3.7125000000000004h0.9v51.2875h-0.9Z" aria-label="rok: Jan 01, 2003; pocet: 1119" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M10.883333333361904,6.187500000000003h0.9v48.8125h-0.9Z" aria-label="rok: Jan 01, 2004; pocet: 1065" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M12.46991786450452,1.970833333333336h0.9v53.02916666666666h-0.9Z" aria-label="rok: Jan 01, 2005; pocet: 1157" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M14.052167465234177,6.462500000000003h0.9v48.537499999999994h-0.9Z" aria-label="rok: Jan 01, 2006; pocet: 1059" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M15.634417065963838,0.09166666666666878h0.9v54.90833333333333h-0.9Z" aria-label="rok: Jan 01, 2007; pocet: 1198" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M17.216666666693495,10.816666666666666h0.9v44.18333333333334h-0.9Z" aria-label="rok: Jan 01, 2008; pocet: 964" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M18.803251197836115,18.654166666666665h0.9v36.34583333333333h-0.9Z" aria-label="rok: Jan 01, 2009; pocet: 793" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M20.38550079856577,22.55h0.9v32.45h-0.9Z" aria-label="rok: Jan 01, 2010; pocet: 708" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M21.96775039929543,18.5625h0.9v36.4375h-0.9Z" aria-label="rok: Jan 01, 2011; pocet: 795" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M23.550000000025083,23.87916666666667h0.9v31.12083333333333h-0.9Z" aria-label="rok: Jan 01, 2012; pocet: 679" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M25.136584531167703,16.408333333333335h0.9v38.59166666666667h-0.9Z" aria-label="rok: Jan 01, 2013; pocet: 842" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M26.71883413189736,19.158333333333335h0.9v35.84166666666667h-0.9Z" aria-label="rok: Jan 01, 2014; pocet: 782" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M28.301083732627024,27.912500000000005h0.9v27.087499999999995h-0.9Z" aria-label="rok: Jan 01, 2015; pocet: 591" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M29.883333333356678,35.52083333333333h0.9v19.47916666666667h-0.9Z" aria-label="rok: Jan 01, 2016; pocet: 425" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M31.46991786449929,36.7125h0.9v18.2875h-0.9Z" aria-label="rok: Jan 01, 2017; pocet: 399" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M33.05216746522895,37.949999999999996h0.9v17.050000000000004h-0.9Z" aria-label="rok: Jan 01, 2018; pocet: 372" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M34.63441706595861,36.208333333333336h0.9v18.791666666666664h-0.9Z" aria-label="rok: Jan 01, 2019; pocet: 410" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M36.21666666668827,38.3625h0.9v16.637500000000003h-0.9Z" aria-label="rok: Jan 01, 2020; pocet: 363" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M37.80325119783088,39.233333333333334h0.9v15.766666666666666h-0.9Z" aria-label="rok: Jan 01, 2021; pocet: 344" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M39.38550079856054,42.44166666666667h0.9v12.55833333333333h-0.9Z" aria-label="rok: Jan 01, 2022; pocet: 274" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M40.967750399290196,42.2125h0.9v12.787500000000001h-0.9Z" aria-label="rok: Jan 01, 2023; pocet: 279" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M42.55000000001986,46.15416666666666h0.9v8.845833333333339h-0.9Z" aria-label="rok: Jan 01, 2024; pocet: 193" aria-roledescription="bar" role="graphics-symbol"/>
             </ns1:g>
            </ns1:g>
            <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
@@ -497,6 +577,19 @@
           <ns1:g transform="translate(104)">
            <ns1:path class="background" d="M0.5,0.5h48v55h-48Z" aria-hidden="true"/>
            <ns1:g>
+            <ns1:g class="mark-group role-axis" aria-hidden="true">
+             <ns1:g transform="translate(48 .5)">
+              <ns1:path class="background" d="M0,0h0v0h0Z" pointer-events="none" aria-hidden="true"/>
+              <ns1:g>
+               <ns1:g class="mark-rule role-axis-grid" pointer-events="none" stroke="#ddd">
+                <ns1:line transform="translate(0,55)" x2="-48" y2="0"/>
+                <ns1:line transform="translate(0,30)" x2="-48" y2="0"/>
+                <ns1:line transform="translate(0,5)" x2="-48" y2="0"/>
+               </ns1:g>
+              </ns1:g>
+              <ns1:path class="foreground" d="" display="none" pointer-events="none" aria-hidden="true"/>
+             </ns1:g>
+            </ns1:g>
             <ns1:g class="mark-group role-axis" aria-label="X-axis for a time scale with values from Sunday, 03 November 1996, 1:53:41 PM to Saturday, 27 February 2027, 10:06:18 AM" aria-roledescription="axis" role="graphics-symbol">
              <ns1:g transform="translate(.5 56)" pointer-events="none">
               <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
@@ -505,7 +598,7 @@
                 <ns1:line transform="translate(5)" x2="0" y2="5"/>
                 <ns1:line transform="translate(37)" x2="0" y2="5"/>
                </ns1:g>
-               <ns1:g class="mark-text role-axis-label" fill="#000" font-family="Asap" font-size="9px" text-anchor="middle">
+               <ns1:g class="mark-text role-axis-label" fill="#292829" font-family="Asap" font-size="9px" text-anchor="middle">
                 <ns1:text transform="translate(5 14)">2000</ns1:text>
                 <ns1:text transform="translate(37 14)">2020</ns1:text>
                </ns1:g>
@@ -522,41 +615,44 @@
                 <ns1:line transform="translate(0,30)" x2="5" y2="0"/>
                 <ns1:line transform="translate(0,5)" x2="5" y2="0"/>
                </ns1:g>
-               <ns1:g class="mark-text role-axis-label" fill="#000" font-family="Asap" font-size="9px">
+               <ns1:g class="mark-text role-axis-label" fill="#292829" font-family="Asap" font-size="9px">
                 <ns1:text transform="translate(7,58)">0</ns1:text>
                 <ns1:text transform="translate(7,33)">100</ns1:text>
                 <ns1:text transform="translate(7 8)">200</ns1:text>
+               </ns1:g>
+               <ns1:g class="mark-rule role-axis-domain">
+                <ns1:line transform="translate(0,55)" x2="0" y2="-55" stroke="#888" stroke-opacity="0"/>
                </ns1:g>
               </ns1:g>
               <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
              </ns1:g>
             </ns1:g>
             <ns1:g class="mark-rect role-mark concat_1_child_marks" fill="#DB842F" aria-roledescription="rect mark container" role="graphics-object">
-             <ns1:path d="M2.5000000000303126,28.5h5v26.5h-5Z" aria-label="rok: Jan 01, 2000; pocet: 106" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M4.08658453117293,31.75h5v23.25h-5Z" aria-label="rok: Jan 01, 2001; pocet: 93" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M5.668834131902589,25.25h5v29.75h-5Z" aria-label="rok: Jan 01, 2002; pocet: 119" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M7.251083732632246,20.750000000000004h5v34.25h-5Z" aria-label="rok: Jan 01, 2003; pocet: 137" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M8.833333333361903,24.000000000000004h5v30.999999999999996h-5Z" aria-label="rok: Jan 01, 2004; pocet: 124" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M10.41991786450452,12.500000000000002h5v42.5h-5Z" aria-label="rok: Jan 01, 2005; pocet: 170" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M12.002167465234177,19.750000000000004h5v35.25h-5Z" aria-label="rok: Jan 01, 2006; pocet: 141" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M13.584417065963837,26.5h5v28.5h-5Z" aria-label="rok: Jan 01, 2007; pocet: 114" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M15.166666666693494,34.75h5v20.25h-5Z" aria-label="rok: Jan 01, 2008; pocet: 81" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M16.753251197836114,24.5h5v30.5h-5Z" aria-label="rok: Jan 01, 2009; pocet: 122" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M18.335500798565768,24.749999999999996h5v30.250000000000004h-5Z" aria-label="rok: Jan 01, 2010; pocet: 121" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M19.91775039929543,20.25h5v34.75h-5Z" aria-label="rok: Jan 01, 2011; pocet: 139" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M21.500000000025082,29.5h5v25.5h-5Z" aria-label="rok: Jan 01, 2012; pocet: 102" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M23.086584531167702,3.7500000000000027h5v51.25h-5Z" aria-label="rok: Jan 01, 2013; pocet: 205" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M24.66883413189736,10.5h5v44.5h-5Z" aria-label="rok: Jan 01, 2014; pocet: 178" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M26.251083732627023,25.749999999999996h5v29.250000000000004h-5Z" aria-label="rok: Jan 01, 2015; pocet: 117" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M27.833333333356677,41.75h5v13.25h-5Z" aria-label="rok: Jan 01, 2016; pocet: 53" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M29.41991786449929,43.5h5v11.5h-5Z" aria-label="rok: Jan 01, 2017; pocet: 46" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M31.00216746522895,40h5v15h-5Z" aria-label="rok: Jan 01, 2018; pocet: 60" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M32.58441706595861,45.5h5v9.5h-5Z" aria-label="rok: Jan 01, 2019; pocet: 38" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M34.16666666668827,45.75h5v9.25h-5Z" aria-label="rok: Jan 01, 2020; pocet: 37" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M35.753251197830885,44.25h5v10.75h-5Z" aria-label="rok: Jan 01, 2021; pocet: 43" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M37.335500798560545,40.5h5v14.5h-5Z" aria-label="rok: Jan 01, 2022; pocet: 58" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M38.9177503992902,47.75h5v7.25h-5Z" aria-label="rok: Jan 01, 2023; pocet: 29" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M40.50000000001986,51.75h5v3.25h-5Z" aria-label="rok: Jan 01, 2024; pocet: 13" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M4.5500000000303125,28.5h0.9v26.5h-0.9Z" aria-label="rok: Jan 01, 2000; pocet: 106" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M6.13658453117293,31.75h0.9v23.25h-0.9Z" aria-label="rok: Jan 01, 2001; pocet: 93" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M7.718834131902589,25.25h0.9v29.75h-0.9Z" aria-label="rok: Jan 01, 2002; pocet: 119" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M9.301083732632247,20.750000000000004h0.9v34.25h-0.9Z" aria-label="rok: Jan 01, 2003; pocet: 137" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M10.883333333361904,24.000000000000004h0.9v30.999999999999996h-0.9Z" aria-label="rok: Jan 01, 2004; pocet: 124" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M12.46991786450452,12.500000000000002h0.9v42.5h-0.9Z" aria-label="rok: Jan 01, 2005; pocet: 170" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M14.052167465234177,19.750000000000004h0.9v35.25h-0.9Z" aria-label="rok: Jan 01, 2006; pocet: 141" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M15.634417065963838,26.5h0.9v28.5h-0.9Z" aria-label="rok: Jan 01, 2007; pocet: 114" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M17.216666666693495,34.75h0.9v20.25h-0.9Z" aria-label="rok: Jan 01, 2008; pocet: 81" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M18.803251197836115,24.5h0.9v30.5h-0.9Z" aria-label="rok: Jan 01, 2009; pocet: 122" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M20.38550079856577,24.749999999999996h0.9v30.250000000000004h-0.9Z" aria-label="rok: Jan 01, 2010; pocet: 121" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M21.96775039929543,20.25h0.9v34.75h-0.9Z" aria-label="rok: Jan 01, 2011; pocet: 139" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M23.550000000025083,29.5h0.9v25.5h-0.9Z" aria-label="rok: Jan 01, 2012; pocet: 102" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M25.136584531167703,3.7500000000000027h0.9v51.25h-0.9Z" aria-label="rok: Jan 01, 2013; pocet: 205" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M26.71883413189736,10.5h0.9v44.5h-0.9Z" aria-label="rok: Jan 01, 2014; pocet: 178" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M28.301083732627024,25.749999999999996h0.9v29.250000000000004h-0.9Z" aria-label="rok: Jan 01, 2015; pocet: 117" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M29.883333333356678,41.75h0.9v13.25h-0.9Z" aria-label="rok: Jan 01, 2016; pocet: 53" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M31.46991786449929,43.5h0.9v11.5h-0.9Z" aria-label="rok: Jan 01, 2017; pocet: 46" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M33.05216746522895,40h0.9v15h-0.9Z" aria-label="rok: Jan 01, 2018; pocet: 60" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M34.63441706595861,45.5h0.9v9.5h-0.9Z" aria-label="rok: Jan 01, 2019; pocet: 38" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M36.21666666668827,45.75h0.9v9.25h-0.9Z" aria-label="rok: Jan 01, 2020; pocet: 37" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M37.80325119783088,44.25h0.9v10.75h-0.9Z" aria-label="rok: Jan 01, 2021; pocet: 43" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M39.38550079856054,40.5h0.9v14.5h-0.9Z" aria-label="rok: Jan 01, 2022; pocet: 58" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M40.967750399290196,47.75h0.9v7.25h-0.9Z" aria-label="rok: Jan 01, 2023; pocet: 29" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M42.55000000001986,51.75h0.9v3.25h-0.9Z" aria-label="rok: Jan 01, 2024; pocet: 13" aria-roledescription="bar" role="graphics-symbol"/>
             </ns1:g>
            </ns1:g>
            <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
@@ -564,6 +660,18 @@
           <ns1:g transform="translate(208)">
            <ns1:path class="background" d="M0.5,0.5h48v55h-48Z" aria-hidden="true"/>
            <ns1:g>
+            <ns1:g class="mark-group role-axis" aria-hidden="true">
+             <ns1:g transform="translate(48 .5)">
+              <ns1:path class="background" d="M0,0h0v0h0Z" pointer-events="none" aria-hidden="true"/>
+              <ns1:g>
+               <ns1:g class="mark-rule role-axis-grid" pointer-events="none" stroke="#ddd">
+                <ns1:line transform="translate(0,55)" x2="-48" y2="0"/>
+                <ns1:line transform="translate(0,13)" x2="-48" y2="0"/>
+               </ns1:g>
+              </ns1:g>
+              <ns1:path class="foreground" d="" display="none" pointer-events="none" aria-hidden="true"/>
+             </ns1:g>
+            </ns1:g>
             <ns1:g class="mark-group role-axis" aria-label="X-axis for a time scale with values from Sunday, 03 November 1996, 1:53:41 PM to Saturday, 27 February 2027, 10:06:18 AM" aria-roledescription="axis" role="graphics-symbol">
              <ns1:g transform="translate(.5 56)" pointer-events="none">
               <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
@@ -572,72 +680,7 @@
                 <ns1:line transform="translate(5)" x2="0" y2="5"/>
                 <ns1:line transform="translate(37)" x2="0" y2="5"/>
                </ns1:g>
-               <ns1:g class="mark-text role-axis-label" fill="#000" font-family="Asap" font-size="9px" text-anchor="middle">
-                <ns1:text transform="translate(5 14)">2000</ns1:text>
-                <ns1:text transform="translate(37 14)">2020</ns1:text>
-               </ns1:g>
-              </ns1:g>
-              <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
-             </ns1:g>
-            </ns1:g>
-            <ns1:g class="mark-group role-axis" aria-label="Y-axis for a linear scale with values from 0 to 80" aria-roledescription="axis" role="graphics-symbol">
-             <ns1:g transform="translate(48 .5)" pointer-events="none">
-              <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
-              <ns1:g>
-               <ns1:g class="mark-rule role-axis-tick" stroke="#DCDDD6">
-                <ns1:line transform="translate(0,55)" x2="5" y2="0"/>
-                <ns1:line transform="translate(0,21)" x2="5" y2="0"/>
-               </ns1:g>
-               <ns1:g class="mark-text role-axis-label" fill="#000" font-family="Asap" font-size="9px">
-                <ns1:text transform="translate(7,58)">0</ns1:text>
-                <ns1:text transform="translate(7 24)">50</ns1:text>
-               </ns1:g>
-              </ns1:g>
-              <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
-             </ns1:g>
-            </ns1:g>
-            <ns1:g class="mark-rect role-mark concat_1_child_marks" fill="#DB842F" aria-roledescription="rect mark container" role="graphics-object">
-             <ns1:path d="M2.5000000000303126,15.125000000000002h5v39.875h-5Z" aria-label="rok: Jan 01, 2000; pocet: 58" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M4.08658453117293,6.187500000000003h5v48.8125h-5Z" aria-label="rok: Jan 01, 2001; pocet: 71" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M5.668834131902589,19.937500000000004h5v35.0625h-5Z" aria-label="rok: Jan 01, 2002; pocet: 51" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M7.251083732632246,24.0625h5v30.9375h-5Z" aria-label="rok: Jan 01, 2003; pocet: 45" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M8.833333333361903,21.312499999999996h5v33.6875h-5Z" aria-label="rok: Jan 01, 2004; pocet: 49" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M10.41991786450452,24.749999999999996h5v30.250000000000004h-5Z" aria-label="rok: Jan 01, 2005; pocet: 44" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M12.002167465234177,32.3125h5v22.6875h-5Z" aria-label="rok: Jan 01, 2006; pocet: 33" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M13.584417065963837,35.75h5v19.25h-5Z" aria-label="rok: Jan 01, 2007; pocet: 28" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M15.166666666693494,35.0625h5v19.9375h-5Z" aria-label="rok: Jan 01, 2008; pocet: 29" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M16.753251197836114,33.6875h5v21.3125h-5Z" aria-label="rok: Jan 01, 2009; pocet: 31" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M18.335500798565768,43.3125h5v11.6875h-5Z" aria-label="rok: Jan 01, 2010; pocet: 17" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M19.91775039929543,40.5625h5v14.4375h-5Z" aria-label="rok: Jan 01, 2011; pocet: 21" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M21.500000000025082,41.25h5v13.75h-5Z" aria-label="rok: Jan 01, 2012; pocet: 20" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M23.086584531167702,44.6875h5v10.3125h-5Z" aria-label="rok: Jan 01, 2013; pocet: 15" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M24.66883413189736,46.75h5v8.25h-5Z" aria-label="rok: Jan 01, 2014; pocet: 12" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M26.251083732627023,47.4375h5v7.5625h-5Z" aria-label="rok: Jan 01, 2015; pocet: 11" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M27.833333333356677,46.75h5v8.25h-5Z" aria-label="rok: Jan 01, 2016; pocet: 12" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M29.41991786449929,45.375h5v9.625h-5Z" aria-label="rok: Jan 01, 2017; pocet: 14" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M31.00216746522895,39.1875h5v15.8125h-5Z" aria-label="rok: Jan 01, 2018; pocet: 23" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M32.58441706595861,48.8125h5v6.1875h-5Z" aria-label="rok: Jan 01, 2019; pocet: 9" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M34.16666666668827,47.4375h5v7.5625h-5Z" aria-label="rok: Jan 01, 2020; pocet: 11" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M35.753251197830885,47.4375h5v7.5625h-5Z" aria-label="rok: Jan 01, 2021; pocet: 11" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M37.335500798560545,48.8125h5v6.1875h-5Z" aria-label="rok: Jan 01, 2022; pocet: 9" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M38.9177503992902,49.5h5v5.5h-5Z" aria-label="rok: Jan 01, 2023; pocet: 8" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M40.50000000001986,52.25h5v2.75h-5Z" aria-label="rok: Jan 01, 2024; pocet: 4" aria-roledescription="bar" role="graphics-symbol"/>
-            </ns1:g>
-           </ns1:g>
-           <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
-          </ns1:g>
-          <ns1:g transform="translate(312)">
-           <ns1:path class="background" d="M0.5,0.5h48v55h-48Z" aria-hidden="true"/>
-           <ns1:g>
-            <ns1:g class="mark-group role-axis" aria-label="X-axis for a time scale with values from Sunday, 03 November 1996, 1:53:41 PM to Saturday, 27 February 2027, 10:06:18 AM" aria-roledescription="axis" role="graphics-symbol">
-             <ns1:g transform="translate(.5 56)" pointer-events="none">
-              <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
-              <ns1:g>
-               <ns1:g class="mark-rule role-axis-tick" stroke="#DCDDD6">
-                <ns1:line transform="translate(5)" x2="0" y2="5"/>
-                <ns1:line transform="translate(37)" x2="0" y2="5"/>
-               </ns1:g>
-               <ns1:g class="mark-text role-axis-label" fill="#000" font-family="Asap" font-size="9px" text-anchor="middle">
+               <ns1:g class="mark-text role-axis-label" fill="#292829" font-family="Asap" font-size="9px" text-anchor="middle">
                 <ns1:text transform="translate(5 14)">2000</ns1:text>
                 <ns1:text transform="translate(37 14)">2020</ns1:text>
                </ns1:g>
@@ -653,51 +696,134 @@
                 <ns1:line transform="translate(0,55)" x2="5" y2="0"/>
                 <ns1:line transform="translate(0,13)" x2="5" y2="0"/>
                </ns1:g>
-               <ns1:g class="mark-text role-axis-label" fill="#000" font-family="Asap" font-size="9px">
+               <ns1:g class="mark-text role-axis-label" fill="#292829" font-family="Asap" font-size="9px">
                 <ns1:text transform="translate(7,58)">0</ns1:text>
                 <ns1:text transform="translate(7 16)">50</ns1:text>
+               </ns1:g>
+               <ns1:g class="mark-rule role-axis-domain">
+                <ns1:line transform="translate(0,55)" x2="0" y2="-55" stroke="#888" stroke-opacity="0"/>
                </ns1:g>
               </ns1:g>
               <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
              </ns1:g>
             </ns1:g>
             <ns1:g class="mark-rect role-mark concat_1_child_marks" fill="#DB842F" aria-roledescription="rect mark container" role="graphics-object">
-             <ns1:path d="M2.5000000000303126,29.615384615384613h5v25.384615384615387h-5Z" aria-label="rok: Jan 01, 2000; pocet: 30" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M4.08658453117293,31.307692307692307h5v23.692307692307693h-5Z" aria-label="rok: Jan 01, 2001; pocet: 28" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M5.668834131902589,7.615384615384613h5v47.38461538461539h-5Z" aria-label="rok: Jan 01, 2002; pocet: 56" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M7.251083732632246,24.538461538461537h5v30.461538461538463h-5Z" aria-label="rok: Jan 01, 2003; pocet: 36" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M8.833333333361903,0h5v55h-5Z" aria-label="rok: Jan 01, 2004; pocet: 65" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M10.41991786450452,14.384615384615383h5v40.61538461538461h-5Z" aria-label="rok: Jan 01, 2005; pocet: 48" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M12.002167465234177,14.384615384615383h5v40.61538461538461h-5Z" aria-label="rok: Jan 01, 2006; pocet: 48" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M13.584417065963837,7.615384615384613h5v47.38461538461539h-5Z" aria-label="rok: Jan 01, 2007; pocet: 56" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M15.166666666693494,10.999999999999998h5v44h-5Z" aria-label="rok: Jan 01, 2008; pocet: 52" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M16.753251197836114,22.846153846153843h5v32.15384615384616h-5Z" aria-label="rok: Jan 01, 2009; pocet: 38" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M18.335500798565768,26.23076923076923h5v28.76923076923077h-5Z" aria-label="rok: Jan 01, 2010; pocet: 34" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M19.91775039929543,38.92307692307692h5v16.07692307692308h-5Z" aria-label="rok: Jan 01, 2011; pocet: 19" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M21.500000000025082,32.153846153846146h5v22.846153846153854h-5Z" aria-label="rok: Jan 01, 2012; pocet: 27" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M23.086584531167702,29.615384615384613h5v25.384615384615387h-5Z" aria-label="rok: Jan 01, 2013; pocet: 30" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M24.66883413189736,42.30769230769231h5v12.692307692307693h-5Z" aria-label="rok: Jan 01, 2014; pocet: 15" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M26.251083732627023,34.69230769230769h5v20.307692307692307h-5Z" aria-label="rok: Jan 01, 2015; pocet: 24" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M27.833333333356677,39.76923076923077h5v15.230769230769234h-5Z" aria-label="rok: Jan 01, 2016; pocet: 18" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M29.41991786449929,49.92307692307692h5v5.07692307692308h-5Z" aria-label="rok: Jan 01, 2017; pocet: 6" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M31.00216746522895,42.30769230769231h5v12.692307692307693h-5Z" aria-label="rok: Jan 01, 2018; pocet: 15" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M32.58441706595861,42.30769230769231h5v12.692307692307693h-5Z" aria-label="rok: Jan 01, 2019; pocet: 15" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M34.16666666668827,43.15384615384615h5v11.846153846153847h-5Z" aria-label="rok: Jan 01, 2020; pocet: 14" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M35.753251197830885,47.38461538461539h5v7.615384615384613h-5Z" aria-label="rok: Jan 01, 2021; pocet: 9" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M37.335500798560545,42.30769230769231h5v12.692307692307693h-5Z" aria-label="rok: Jan 01, 2022; pocet: 15" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M38.9177503992902,39.76923076923077h5v15.230769230769234h-5Z" aria-label="rok: Jan 01, 2023; pocet: 18" aria-roledescription="bar" role="graphics-symbol"/>
-             <ns1:path d="M40.50000000001986,44.84615384615385h5v10.153846153846153h-5Z" aria-label="rok: Jan 01, 2024; pocet: 12" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M4.5500000000303125,29.615384615384613h0.9v25.384615384615387h-0.9Z" aria-label="rok: Jan 01, 2000; pocet: 30" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M6.13658453117293,31.307692307692307h0.9v23.692307692307693h-0.9Z" aria-label="rok: Jan 01, 2001; pocet: 28" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M7.718834131902589,7.615384615384613h0.9v47.38461538461539h-0.9Z" aria-label="rok: Jan 01, 2002; pocet: 56" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M9.301083732632247,24.538461538461537h0.9v30.461538461538463h-0.9Z" aria-label="rok: Jan 01, 2003; pocet: 36" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M10.883333333361904,0h0.9v55h-0.9Z" aria-label="rok: Jan 01, 2004; pocet: 65" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M12.46991786450452,14.384615384615383h0.9v40.61538461538461h-0.9Z" aria-label="rok: Jan 01, 2005; pocet: 48" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M14.052167465234177,14.384615384615383h0.9v40.61538461538461h-0.9Z" aria-label="rok: Jan 01, 2006; pocet: 48" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M15.634417065963838,7.615384615384613h0.9v47.38461538461539h-0.9Z" aria-label="rok: Jan 01, 2007; pocet: 56" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M17.216666666693495,10.999999999999998h0.9v44h-0.9Z" aria-label="rok: Jan 01, 2008; pocet: 52" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M18.803251197836115,22.846153846153843h0.9v32.15384615384616h-0.9Z" aria-label="rok: Jan 01, 2009; pocet: 38" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M20.38550079856577,26.23076923076923h0.9v28.76923076923077h-0.9Z" aria-label="rok: Jan 01, 2010; pocet: 34" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M21.96775039929543,38.92307692307692h0.9v16.07692307692308h-0.9Z" aria-label="rok: Jan 01, 2011; pocet: 19" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M23.550000000025083,32.153846153846146h0.9v22.846153846153854h-0.9Z" aria-label="rok: Jan 01, 2012; pocet: 27" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M25.136584531167703,29.615384615384613h0.9v25.384615384615387h-0.9Z" aria-label="rok: Jan 01, 2013; pocet: 30" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M26.71883413189736,42.30769230769231h0.9v12.692307692307693h-0.9Z" aria-label="rok: Jan 01, 2014; pocet: 15" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M28.301083732627024,34.69230769230769h0.9v20.307692307692307h-0.9Z" aria-label="rok: Jan 01, 2015; pocet: 24" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M29.883333333356678,39.76923076923077h0.9v15.230769230769234h-0.9Z" aria-label="rok: Jan 01, 2016; pocet: 18" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M31.46991786449929,49.92307692307692h0.9v5.07692307692308h-0.9Z" aria-label="rok: Jan 01, 2017; pocet: 6" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M33.05216746522895,42.30769230769231h0.9v12.692307692307693h-0.9Z" aria-label="rok: Jan 01, 2018; pocet: 15" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M34.63441706595861,42.30769230769231h0.9v12.692307692307693h-0.9Z" aria-label="rok: Jan 01, 2019; pocet: 15" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M36.21666666668827,43.15384615384615h0.9v11.846153846153847h-0.9Z" aria-label="rok: Jan 01, 2020; pocet: 14" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M37.80325119783088,47.38461538461539h0.9v7.615384615384613h-0.9Z" aria-label="rok: Jan 01, 2021; pocet: 9" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M39.38550079856054,42.30769230769231h0.9v12.692307692307693h-0.9Z" aria-label="rok: Jan 01, 2022; pocet: 15" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M40.967750399290196,39.76923076923077h0.9v15.230769230769234h-0.9Z" aria-label="rok: Jan 01, 2023; pocet: 18" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M42.55000000001986,44.84615384615385h0.9v10.153846153846153h-0.9Z" aria-label="rok: Jan 01, 2024; pocet: 12" aria-roledescription="bar" role="graphics-symbol"/>
+            </ns1:g>
+           </ns1:g>
+           <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
+          </ns1:g>
+          <ns1:g transform="translate(312)">
+           <ns1:path class="background" d="M0.5,0.5h48v55h-48Z" aria-hidden="true"/>
+           <ns1:g>
+            <ns1:g class="mark-group role-axis" aria-hidden="true">
+             <ns1:g transform="translate(48 .5)">
+              <ns1:path class="background" d="M0,0h0v0h0Z" pointer-events="none" aria-hidden="true"/>
+              <ns1:g>
+               <ns1:g class="mark-rule role-axis-grid" pointer-events="none" stroke="#ddd">
+                <ns1:line transform="translate(0,55)" x2="-48" y2="0"/>
+                <ns1:line transform="translate(0,21)" x2="-48" y2="0"/>
+               </ns1:g>
+              </ns1:g>
+              <ns1:path class="foreground" d="" display="none" pointer-events="none" aria-hidden="true"/>
+             </ns1:g>
+            </ns1:g>
+            <ns1:g class="mark-group role-axis" aria-label="X-axis for a time scale with values from Sunday, 03 November 1996, 1:53:41 PM to Saturday, 27 February 2027, 10:06:18 AM" aria-roledescription="axis" role="graphics-symbol">
+             <ns1:g transform="translate(.5 56)" pointer-events="none">
+              <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
+              <ns1:g>
+               <ns1:g class="mark-rule role-axis-tick" stroke="#DCDDD6">
+                <ns1:line transform="translate(5)" x2="0" y2="5"/>
+                <ns1:line transform="translate(37)" x2="0" y2="5"/>
+               </ns1:g>
+               <ns1:g class="mark-text role-axis-label" fill="#292829" font-family="Asap" font-size="9px" text-anchor="middle">
+                <ns1:text transform="translate(5 14)">2000</ns1:text>
+                <ns1:text transform="translate(37 14)">2020</ns1:text>
+               </ns1:g>
+              </ns1:g>
+              <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
+             </ns1:g>
+            </ns1:g>
+            <ns1:g class="mark-group role-axis" aria-label="Y-axis for a linear scale with values from 0 to 80" aria-roledescription="axis" role="graphics-symbol">
+             <ns1:g transform="translate(48 .5)" pointer-events="none">
+              <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
+              <ns1:g>
+               <ns1:g class="mark-rule role-axis-tick" stroke="#DCDDD6">
+                <ns1:line transform="translate(0,55)" x2="5" y2="0"/>
+                <ns1:line transform="translate(0,21)" x2="5" y2="0"/>
+               </ns1:g>
+               <ns1:g class="mark-text role-axis-label" fill="#292829" font-family="Asap" font-size="9px">
+                <ns1:text transform="translate(7,58)">0</ns1:text>
+                <ns1:text transform="translate(7 24)">50</ns1:text>
+               </ns1:g>
+               <ns1:g class="mark-rule role-axis-domain">
+                <ns1:line transform="translate(0,55)" x2="0" y2="-55" stroke="#888" stroke-opacity="0"/>
+               </ns1:g>
+              </ns1:g>
+              <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
+             </ns1:g>
+            </ns1:g>
+            <ns1:g class="mark-rect role-mark concat_1_child_marks" fill="#DB842F" aria-roledescription="rect mark container" role="graphics-object">
+             <ns1:path d="M4.5500000000303125,15.125000000000002h0.9v39.875h-0.9Z" aria-label="rok: Jan 01, 2000; pocet: 58" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M6.13658453117293,6.187500000000003h0.9v48.8125h-0.9Z" aria-label="rok: Jan 01, 2001; pocet: 71" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M7.718834131902589,19.937500000000004h0.9v35.0625h-0.9Z" aria-label="rok: Jan 01, 2002; pocet: 51" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M9.301083732632247,24.0625h0.9v30.9375h-0.9Z" aria-label="rok: Jan 01, 2003; pocet: 45" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M10.883333333361904,21.312499999999996h0.9v33.6875h-0.9Z" aria-label="rok: Jan 01, 2004; pocet: 49" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M12.46991786450452,24.749999999999996h0.9v30.250000000000004h-0.9Z" aria-label="rok: Jan 01, 2005; pocet: 44" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M14.052167465234177,32.3125h0.9v22.6875h-0.9Z" aria-label="rok: Jan 01, 2006; pocet: 33" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M15.634417065963838,35.75h0.9v19.25h-0.9Z" aria-label="rok: Jan 01, 2007; pocet: 28" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M17.216666666693495,35.0625h0.9v19.9375h-0.9Z" aria-label="rok: Jan 01, 2008; pocet: 29" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M18.803251197836115,33.6875h0.9v21.3125h-0.9Z" aria-label="rok: Jan 01, 2009; pocet: 31" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M20.38550079856577,43.3125h0.9v11.6875h-0.9Z" aria-label="rok: Jan 01, 2010; pocet: 17" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M21.96775039929543,40.5625h0.9v14.4375h-0.9Z" aria-label="rok: Jan 01, 2011; pocet: 21" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M23.550000000025083,41.25h0.9v13.75h-0.9Z" aria-label="rok: Jan 01, 2012; pocet: 20" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M25.136584531167703,44.6875h0.9v10.3125h-0.9Z" aria-label="rok: Jan 01, 2013; pocet: 15" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M26.71883413189736,46.75h0.9v8.25h-0.9Z" aria-label="rok: Jan 01, 2014; pocet: 12" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M28.301083732627024,47.4375h0.9v7.5625h-0.9Z" aria-label="rok: Jan 01, 2015; pocet: 11" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M29.883333333356678,46.75h0.9v8.25h-0.9Z" aria-label="rok: Jan 01, 2016; pocet: 12" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M31.46991786449929,45.375h0.9v9.625h-0.9Z" aria-label="rok: Jan 01, 2017; pocet: 14" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M33.05216746522895,39.1875h0.9v15.8125h-0.9Z" aria-label="rok: Jan 01, 2018; pocet: 23" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M34.63441706595861,48.8125h0.9v6.1875h-0.9Z" aria-label="rok: Jan 01, 2019; pocet: 9" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M36.21666666668827,47.4375h0.9v7.5625h-0.9Z" aria-label="rok: Jan 01, 2020; pocet: 11" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M37.80325119783088,47.4375h0.9v7.5625h-0.9Z" aria-label="rok: Jan 01, 2021; pocet: 11" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M39.38550079856054,48.8125h0.9v6.1875h-0.9Z" aria-label="rok: Jan 01, 2022; pocet: 9" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M40.967750399290196,49.5h0.9v5.5h-0.9Z" aria-label="rok: Jan 01, 2023; pocet: 8" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M42.55000000001986,52.25h0.9v2.75h-0.9Z" aria-label="rok: Jan 01, 2024; pocet: 4" aria-roledescription="bar" role="graphics-symbol"/>
             </ns1:g>
            </ns1:g>
            <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
           </ns1:g>
          </ns1:g>
          <ns1:g class="mark-group role-title">
-          <ns1:g transform="translate(-5.6 -37)">
+          <ns1:g transform="translate(-5.6 -36)">
            <ns1:path class="background" d="M0,0h0v0h0Z" pointer-events="none" aria-hidden="true"/>
            <ns1:g>
             <ns1:g class="mark-text role-title-text" pointer-events="none" aria-label="Title text '…a čeho míň'" aria-roledescription="title" role="graphics-symbol">
-             <ns1:text transform="translate(0,-1)" fill="#000" font-family="Noticia Text" font-size="12px" font-weight="bolder">…a čeho míň</ns1:text>
+             <ns1:text transform="translate(0,-1)" fill="#292829" font-family="Noticia Text" font-size="12px" font-weight="bolder">…a čeho míň</ns1:text>
             </ns1:g>
            </ns1:g>
            <ns1:path class="foreground" d="" display="none" pointer-events="none" aria-hidden="true"/>
@@ -713,15 +839,15 @@
    </ns1:g>
   </ns1:g>
  </g>
- <g transform="translate(166,270)">
-  <ns0:rect width="240" height="40" fill="white" xmlns:ns0="http://www.w3.org/2000/svg"/>
-  <ns1:g transform="translate(35,5)" fill="none" stroke-miterlimit="10" xmlns:ns1="http://www.w3.org/2000/svg">
+ <g transform="translate(171,293)">
+  <ns0:rect width="230" height="17" fill="white" xmlns:ns0="http://www.w3.org/2000/svg"/>
+  <ns1:g transform="translate(30)" fill="none" stroke-miterlimit="10" xmlns:ns1="http://www.w3.org/2000/svg">
    <ns1:g class="mark-group role-frame root" aria-roledescription="group mark container" role="graphics-object">
     <ns1:g transform="translate(0)">
-     <ns1:path class="background" d="M0.5,0.5h200v30h-200Z" aria-hidden="true"/>
+     <ns1:path class="background" d="M0.5,0.5h200v15h-200Z" aria-hidden="true"/>
      <ns1:g>
       <ns1:g class="mark-text role-mark marks" aria-roledescription="text mark container" role="graphics-object">
-       <ns1:text transform="translate(200,12)" fill="black" font-family="Asap" font-size="8px" text-anchor="end" aria-label="text: data: Česká národní bibliografie | vizualizace: iROZHLAS.cz | 2025" aria-roledescription="text mark" role="graphics-symbol">data: Česká národní bibliografie | vizualizace: iROZHLAS.cz | 2025</ns1:text>
+       <ns1:text transform="translate(200 14)" fill="#292829" font-family="Asap" font-size="8px" text-anchor="end" aria-label="text: data: Česká národní bibliografie | vizualizace: iROZHLAS.cz | 2025" aria-roledescription="text mark" role="graphics-symbol">data: Česká národní bibliografie | vizualizace: iROZHLAS.cz | 2025</ns1:text>
       </ns1:g>
      </ns1:g>
      <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>

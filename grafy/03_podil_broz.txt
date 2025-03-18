@@ -1,5 +1,5 @@
 <figure>
     <a href="https://data.irozhlas.cz/knihy-grafy/03_podil_broz.svg" target="_blank">
-    <img src="https://data.irozhlas.cz/knihy-grafy/03_podil_broz.svg" width="100%" alt="Graf s titulkem „Podíl českých románů vydaných v brožované vazbě“. Další texty by měly být čitelné ze zdrojového souboru SVG." />
+    <img src="https://data.irozhlas.cz/knihy-grafy/03_podil_broz.svg" width="100%" alt="Omlouváme se, ale alternativní text se nepodařilo vygenerovat. Texty v grafu by měly být čitelné ze zdrojového souboru SVG." />
     </a>
     </figure>

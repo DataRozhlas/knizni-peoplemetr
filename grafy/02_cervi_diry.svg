@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg viewBox="0 0 392 346" xmlns="http://www.w3.org/2000/svg">
- <rect width="392" height="346" fill="#fff"/>
+<svg viewBox="0 0 416 319" xmlns="http://www.w3.org/2000/svg">
+ <rect width="416" height="319" fill="#fff"/>
  <g transform="translate(0)">
-  <ns0:rect width="392" height="306" fill="white" xmlns:ns0="http://www.w3.org/2000/svg"/>
-  <ns1:g transform="translate(114,54)" fill="none" stroke-miterlimit="10" xmlns:ns1="http://www.w3.org/2000/svg">
+  <ns0:rect width="416" height="302" fill="white" xmlns:ns0="http://www.w3.org/2000/svg"/>
+  <ns1:g transform="translate(114,52)" fill="none" stroke-miterlimit="10" xmlns:ns1="http://www.w3.org/2000/svg">
    <ns1:g class="mark-group role-frame root" aria-roledescription="group mark container" role="graphics-object">
     <ns1:g transform="translate(0)">
-     <ns1:path class="background" d="M0,0h264v0h-264Z" aria-hidden="true"/>
+     <ns1:path class="background" d="M0,0h288v0h-288Z" aria-hidden="true"/>
      <ns1:g>
       <ns1:g class="mark-group role-scope concat_0_group" aria-roledescription="group mark container" role="graphics-object">
        <ns1:g transform="translate(0)">
-        <ns1:path class="background" d="M0.5,0.5h264v60h-264Z" aria-hidden="true"/>
+        <ns1:path class="background" d="M0.5,0.5h288v60h-288Z" aria-hidden="true"/>
         <ns1:g>
          <ns1:g class="mark-group role-axis" aria-hidden="true">
           <ns1:g transform="translate(.5 60)">
@@ -18,10 +18,10 @@
            <ns1:g>
             <ns1:g class="mark-rule role-axis-grid" pointer-events="none" stroke="#ddd">
              <ns1:line transform="translate(0)" x2="0" y2="-60"/>
-             <ns1:line transform="translate(60)" x2="0" y2="-60"/>
-             <ns1:line transform="translate(120)" x2="0" y2="-60"/>
-             <ns1:line transform="translate(180)" x2="0" y2="-60"/>
-             <ns1:line transform="translate(240)" x2="0" y2="-60"/>
+             <ns1:line transform="translate(65)" x2="0" y2="-60"/>
+             <ns1:line transform="translate(131)" x2="0" y2="-60"/>
+             <ns1:line transform="translate(196)" x2="0" y2="-60"/>
+             <ns1:line transform="translate(262)" x2="0" y2="-60"/>
             </ns1:g>
            </ns1:g>
            <ns1:path class="foreground" d="" display="none" pointer-events="none" aria-hidden="true"/>
@@ -33,20 +33,20 @@
            <ns1:g>
             <ns1:g class="mark-rule role-axis-tick" stroke="#DCDDD6">
              <ns1:line transform="translate(0)" x2="0" y2="5"/>
-             <ns1:line transform="translate(60)" x2="0" y2="5"/>
-             <ns1:line transform="translate(120)" x2="0" y2="5"/>
-             <ns1:line transform="translate(180)" x2="0" y2="5"/>
-             <ns1:line transform="translate(240)" x2="0" y2="5"/>
+             <ns1:line transform="translate(65)" x2="0" y2="5"/>
+             <ns1:line transform="translate(131)" x2="0" y2="5"/>
+             <ns1:line transform="translate(196)" x2="0" y2="5"/>
+             <ns1:line transform="translate(262)" x2="0" y2="5"/>
             </ns1:g>
-            <ns1:g class="mark-text role-axis-label" fill="#000" font-family="Asap" font-size="9px">
+            <ns1:g class="mark-text role-axis-label" fill="#292829" font-family="Asap" font-size="9px">
              <ns1:text transform="translate(0,14)">1800</ns1:text>
-             <ns1:text transform="translate(60 14)" text-anchor="middle">1850</ns1:text>
-             <ns1:text transform="translate(120 14)" text-anchor="middle">1900</ns1:text>
-             <ns1:text transform="translate(180 14)" text-anchor="middle">1950</ns1:text>
-             <ns1:text transform="translate(240 14)" text-anchor="middle">2000</ns1:text>
+             <ns1:text transform="translate(65 14)" text-anchor="middle">1850</ns1:text>
+             <ns1:text transform="translate(131 14)" text-anchor="middle">1900</ns1:text>
+             <ns1:text transform="translate(196 14)" text-anchor="middle">1950</ns1:text>
+             <ns1:text transform="translate(262 14)" text-anchor="middle">2000</ns1:text>
             </ns1:g>
             <ns1:g class="mark-rule role-axis-domain">
-             <ns1:line transform="translate(0)" x2="264" y2="0" stroke="#888" stroke-opacity="0"/>
+             <ns1:line transform="translate(0)" x2="288" y2="0" stroke="#888" stroke-opacity="0"/>
             </ns1:g>
            </ns1:g>
            <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
@@ -61,7 +61,7 @@
              <ns1:line transform="translate(0,30)" x2="-5" y2="0"/>
              <ns1:line transform="translate(0,50)" x2="-5" y2="0"/>
             </ns1:g>
-            <ns1:g class="mark-text role-axis-label" fill="#000" font-family="Asap" font-size="9px" text-anchor="end">
+            <ns1:g class="mark-text role-axis-label" fill="#292829" font-family="Asap" font-size="9px" text-anchor="end">
              <ns1:text transform="translate(-7 12)">Karel Hynek Mácha</ns1:text>
              <ns1:text transform="translate(-7 32)">Adolf Heyduk</ns1:text>
              <ns1:text transform="translate(-7 52)">Vladimír Benedikt Holota</ns1:text>
@@ -74,21 +74,21 @@
           </ns1:g>
          </ns1:g>
          <ns1:g class="mark-rect role-mark concat_0_layer_0_marks" fill="#E09DA3" aria-roledescription="rect mark container" role="graphics-object">
-          <ns1:path d="M13.046731553725708,5h31.16956490813292v10h-31.16956490813292Z" aria-label="narozeni: Nov 16, 1810; jmeno: Karel Hynek Mácha; umrti: Nov 06, 1836" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M42.511120517163675,25h105.20507946243492v10h-105.20507946243492Z" aria-label="narozeni: Jun 06, 1835; jmeno: Adolf Heyduk; umrti: Feb 06, 1923" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M14.232798058609864,5h34.003161717963174v10h-34.003161717963174Z" aria-label="narozeni: Nov 16, 1810; jmeno: Karel Hynek Mácha; umrti: Nov 06, 1836" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M46.37576783690582,25h114.76917759538355v10h-114.76917759538355Z" aria-label="narozeni: Jun 06, 1835; jmeno: Adolf Heyduk; umrti: Feb 06, 1923" aria-roledescription="bar" role="graphics-symbol"/>
          </ns1:g>
          <ns1:g class="mark-rect role-mark concat_0_layer_1_marks" aria-roledescription="rect mark container" role="graphics-object">
-          <ns1:path d="M147.10838196463024,45L266.19853659889526,45C268.95811172136524,45,271.19853659889526,47.24042487753,271.19853659889526,50L271.19853659889526,50C271.19853659889526,52.75957512247,268.95811172136524,55,266.19853659889526,55L147.10838196463024,55C147.10838196463024,55,147.10838196463024,55,147.10838196463024,55L147.10838196463024,45C147.10838196463024,45,147.10838196463024,45,147.10838196463024,45Z" fill="#E09DA3" aria-label="narozeni: Aug 05, 1922; jmeno: Vladimír Benedikt Holota; umrti: Dec 31, 2025" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M160.4818712341421,45L290.85294901697665,45C293.61252413944663,45,295.85294901697665,47.24042487753,295.85294901697665,50L295.85294901697665,50C295.85294901697665,52.75957512247,293.61252413944663,55,290.85294901697665,55L160.4818712341421,55C160.4818712341421,55,160.4818712341421,55,160.4818712341421,55L160.4818712341421,45C160.4818712341421,45,160.4818712341421,45,160.4818712341421,45Z" fill="#E09DA3" aria-label="narozeni: Aug 05, 1922; jmeno: Vladimír Benedikt Holota; umrti: Dec 31, 2025" aria-roledescription="bar" role="graphics-symbol"/>
          </ns1:g>
          <ns1:g class="mark-group role-title">
-          <ns1:g transform="translate(-108 -37)" pointer-events="none">
+          <ns1:g transform="translate(-108 -36)" pointer-events="none">
            <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
            <ns1:g>
             <ns1:g class="mark-text role-title-text" aria-label="Title text 'Od Máje nás dělí jen dva životy…'" aria-roledescription="title" role="graphics-symbol">
-             <ns1:text transform="translate(0,-1)" fill="#000" font-family="Noticia Text" font-size="12px" font-weight="bolder">Od Máje nás dělí jen dva životy…</ns1:text>
+             <ns1:text transform="translate(0,-1)" fill="#292829" font-family="Noticia Text" font-size="12px" font-weight="bolder">Od Máje nás dělí jen dva životy…</ns1:text>
             </ns1:g>
             <ns1:g class="mark-text role-title-subtitle" aria-label="Subtitle text 'Čáry pokrývají dobu mezi narozením a úmrtím autora. (Holota je stále naživu.)'" aria-roledescription="subtitle" role="graphics-symbol">
-             <ns1:text transform="translate(0,20)" fill="#000" font-family="Noticia Text" font-size="10px">Čáry pokrývají dobu mezi narozením a úmrtím autora. (Holota je stále naživu.)</ns1:text>
+             <ns1:text transform="translate(0 20)" fill="#292829" font-family="Noticia Text" font-size="10px">Čáry pokrývají dobu mezi narozením a úmrtím autora. (Holota je stále naživu.)</ns1:text>
             </ns1:g>
            </ns1:g>
            <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
@@ -99,8 +99,8 @@
        </ns1:g>
       </ns1:g>
       <ns1:g class="mark-group role-scope concat_1_group" aria-roledescription="group mark container" role="graphics-object">
-       <ns1:g transform="translate(0,146)">
-        <ns1:path class="background" d="M0.5,0.5h264v84h-264Z" aria-hidden="true"/>
+       <ns1:g transform="translate(0,144)">
+        <ns1:path class="background" d="M0.5,0.5h288v84h-288Z" aria-hidden="true"/>
         <ns1:g>
          <ns1:g class="mark-group role-axis" aria-hidden="true">
           <ns1:g transform="translate(.5 84)">
@@ -108,10 +108,10 @@
            <ns1:g>
             <ns1:g class="mark-rule role-axis-grid" pointer-events="none" stroke="#ddd">
              <ns1:line transform="translate(0)" x2="0" y2="-84"/>
-             <ns1:line transform="translate(60)" x2="0" y2="-84"/>
-             <ns1:line transform="translate(120)" x2="0" y2="-84"/>
-             <ns1:line transform="translate(180)" x2="0" y2="-84"/>
-             <ns1:line transform="translate(240)" x2="0" y2="-84"/>
+             <ns1:line transform="translate(65)" x2="0" y2="-84"/>
+             <ns1:line transform="translate(131)" x2="0" y2="-84"/>
+             <ns1:line transform="translate(196)" x2="0" y2="-84"/>
+             <ns1:line transform="translate(262)" x2="0" y2="-84"/>
             </ns1:g>
            </ns1:g>
            <ns1:path class="foreground" d="" display="none" pointer-events="none" aria-hidden="true"/>
@@ -123,20 +123,20 @@
            <ns1:g>
             <ns1:g class="mark-rule role-axis-tick" stroke="#DCDDD6">
              <ns1:line transform="translate(0)" x2="0" y2="5"/>
-             <ns1:line transform="translate(60)" x2="0" y2="5"/>
-             <ns1:line transform="translate(120)" x2="0" y2="5"/>
-             <ns1:line transform="translate(180)" x2="0" y2="5"/>
-             <ns1:line transform="translate(240)" x2="0" y2="5"/>
+             <ns1:line transform="translate(65)" x2="0" y2="5"/>
+             <ns1:line transform="translate(131)" x2="0" y2="5"/>
+             <ns1:line transform="translate(196)" x2="0" y2="5"/>
+             <ns1:line transform="translate(262)" x2="0" y2="5"/>
             </ns1:g>
-            <ns1:g class="mark-text role-axis-label" fill="#000" font-family="Asap" font-size="9px">
+            <ns1:g class="mark-text role-axis-label" fill="#292829" font-family="Asap" font-size="9px">
              <ns1:text transform="translate(0,14)">1800</ns1:text>
-             <ns1:text transform="translate(60 14)" text-anchor="middle">1850</ns1:text>
-             <ns1:text transform="translate(120 14)" text-anchor="middle">1900</ns1:text>
-             <ns1:text transform="translate(180 14)" text-anchor="middle">1950</ns1:text>
-             <ns1:text transform="translate(240 14)" text-anchor="middle">2000</ns1:text>
+             <ns1:text transform="translate(65 14)" text-anchor="middle">1850</ns1:text>
+             <ns1:text transform="translate(131 14)" text-anchor="middle">1900</ns1:text>
+             <ns1:text transform="translate(196 14)" text-anchor="middle">1950</ns1:text>
+             <ns1:text transform="translate(262 14)" text-anchor="middle">2000</ns1:text>
             </ns1:g>
             <ns1:g class="mark-rule role-axis-domain">
-             <ns1:line transform="translate(0)" x2="264" y2="0" stroke="#888" stroke-opacity="0"/>
+             <ns1:line transform="translate(0)" x2="288" y2="0" stroke="#888" stroke-opacity="0"/>
             </ns1:g>
            </ns1:g>
            <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
@@ -152,7 +152,7 @@
              <ns1:line transform="translate(0,52)" x2="-5" y2="0"/>
              <ns1:line transform="translate(0,72)" x2="-5" y2="0"/>
             </ns1:g>
-            <ns1:g class="mark-text role-axis-label" fill="#000" font-family="Asap" font-size="9px" text-anchor="end">
+            <ns1:g class="mark-text role-axis-label" fill="#292829" font-family="Asap" font-size="9px" text-anchor="end">
              <ns1:text transform="translate(-7 14)">Karel Hynek Mácha</ns1:text>
              <ns1:text transform="translate(-7 34)">Petr Miloslav Veselský</ns1:text>
              <ns1:text transform="translate(-7 54)">Josef Kalenský</ns1:text>
@@ -166,54 +166,54 @@
           </ns1:g>
          </ns1:g>
          <ns1:g class="mark-symbol role-mark concat_1_marks" fill="#D6534B" stroke-width="2" aria-roledescription="symbol mark container" role="graphics-object">
-          <ns1:path transform="translate(43 13)" d="M1.936,0A1.936,1.936,0,1,1,-1.936,0A1.936,1.936,0,1,1,1.936,0" opacity=".7" aria-label="rok: Jan 01, 1836; kdo: Karel Hynek Mácha; jitter: −1.77309282447" aria-roledescription="circle" role="graphics-symbol"/>
-          <ns1:path transform="translate(41 34)" d="M1.936,0A1.936,1.936,0,1,1,-1.936,0A1.936,1.936,0,1,1,1.936,0" opacity=".7" aria-label="rok: Jan 01, 1834; kdo: Petr Miloslav Veselský; jitter: 0.887953173937" aria-roledescription="circle" role="graphics-symbol"/>
-          <ns1:path transform="translate(41 34)" d="M1.936,0A1.936,1.936,0,1,1,-1.936,0A1.936,1.936,0,1,1,1.936,0" opacity=".7" aria-label="rok: Jan 01, 1834; kdo: Petr Miloslav Veselský; jitter: 0.941795029328" aria-roledescription="circle" role="graphics-symbol"/>
-          <ns1:path transform="translate(44 33)" d="M1.936,0A1.936,1.936,0,1,1,-1.936,0A1.936,1.936,0,1,1,1.936,0" opacity=".7" aria-label="rok: Jan 01, 1837; kdo: Petr Miloslav Veselský; jitter: −1.58965833921" aria-roledescription="circle" role="graphics-symbol"/>
-          <ns1:path transform="translate(46 34)" d="M1.936,0A1.936,1.936,0,1,1,-1.936,0A1.936,1.936,0,1,1,1.936,0" opacity=".7" aria-label="rok: Jan 01, 1838; kdo: Petr Miloslav Veselský; jitter: 1.67660417039" aria-roledescription="circle" role="graphics-symbol"/>
-          <ns1:path transform="translate(66 33)" d="M1.936,0A1.936,1.936,0,1,1,-1.936,0A1.936,1.936,0,1,1,1.936,0" opacity=".7" aria-label="rok: Jan 01, 1855; kdo: Petr Miloslav Veselský; jitter: −0.959210528278" aria-roledescription="circle" role="graphics-symbol"/>
-          <ns1:path transform="translate(79 34)" d="M1.936,0A1.936,1.936,0,1,1,-1.936,0A1.936,1.936,0,1,1,1.936,0" opacity=".7" aria-label="rok: Jan 01, 1866; kdo: Petr Miloslav Veselský; jitter: −0.117133968356" aria-roledescription="circle" role="graphics-symbol"/>
-          <ns1:path transform="translate(107 34)" d="M1.936,0A1.936,1.936,0,1,1,-1.936,0A1.936,1.936,0,1,1,1.936,0" opacity=".7" aria-label="rok: Jan 01, 1889; kdo: Petr Miloslav Veselský; jitter: 0.0370389462247" aria-roledescription="circle" role="graphics-symbol"/>
-          <ns1:path transform="translate(107 54)" d="M1.936,0A1.936,1.936,0,1,1,-1.936,0A1.936,1.936,0,1,1,1.936,0" opacity=".7" aria-label="rok: Jan 01, 1889; kdo: Josef Kalenský; jitter: 0.0943501013033" aria-roledescription="circle" role="graphics-symbol"/>
-          <ns1:path transform="translate(107 54)" d="M1.936,0A1.936,1.936,0,1,1,-1.936,0A1.936,1.936,0,1,1,1.936,0" opacity=".7" aria-label="rok: Jan 01, 1889; kdo: Josef Kalenský; jitter: 1.76182339011" aria-roledescription="circle" role="graphics-symbol"/>
-          <ns1:path transform="translate(107 54)" d="M1.936,0A1.936,1.936,0,1,1,-1.936,0A1.936,1.936,0,1,1,1.936,0" opacity=".7" aria-label="rok: Jan 01, 1889; kdo: Josef Kalenský; jitter: 0.812296354899" aria-roledescription="circle" role="graphics-symbol"/>
-          <ns1:path transform="translate(108 54)" d="M1.936,0A1.936,1.936,0,1,1,-1.936,0A1.936,1.936,0,1,1,1.936,0" opacity=".7" aria-label="rok: Jan 01, 1890; kdo: Josef Kalenský; jitter: 0.671414113271" aria-roledescription="circle" role="graphics-symbol"/>
-          <ns1:path transform="translate(108 53)" d="M1.936,0A1.936,1.936,0,1,1,-1.936,0A1.936,1.936,0,1,1,1.936,0" opacity=".7" aria-label="rok: Jan 01, 1890; kdo: Josef Kalenský; jitter: −2.1944934948" aria-roledescription="circle" role="graphics-symbol"/>
-          <ns1:path transform="translate(110 54)" d="M1.936,0A1.936,1.936,0,1,1,-1.936,0A1.936,1.936,0,1,1,1.936,0" opacity=".7" aria-label="rok: Jan 01, 1892; kdo: Josef Kalenský; jitter: 1.42916745514" aria-roledescription="circle" role="graphics-symbol"/>
-          <ns1:path transform="translate(112 54)" d="M1.936,0A1.936,1.936,0,1,1,-1.936,0A1.936,1.936,0,1,1,1.936,0" opacity=".7" aria-label="rok: Jan 01, 1893; kdo: Josef Kalenský; jitter: 0.50429197348" aria-roledescription="circle" role="graphics-symbol"/>
-          <ns1:path transform="translate(154 54)" d="M1.936,0A1.936,1.936,0,1,1,-1.936,0A1.936,1.936,0,1,1,1.936,0" opacity=".7" aria-label="rok: Jan 01, 1928; kdo: Josef Kalenský; jitter: 1.55083965245" aria-roledescription="circle" role="graphics-symbol"/>
-          <ns1:path transform="translate(156 54)" d="M1.936,0A1.936,1.936,0,1,1,-1.936,0A1.936,1.936,0,1,1,1.936,0" opacity=".7" aria-label="rok: Jan 01, 1930; kdo: Josef Kalenský; jitter: 1.0251850114" aria-roledescription="circle" role="graphics-symbol"/>
-          <ns1:path transform="translate(158 54)" d="M1.936,0A1.936,1.936,0,1,1,-1.936,0A1.936,1.936,0,1,1,1.936,0" opacity=".7" aria-label="rok: Jan 01, 1932; kdo: Josef Kalenský; jitter: 1.73585931237" aria-roledescription="circle" role="graphics-symbol"/>
-          <ns1:path transform="translate(166 54)" d="M1.936,0A1.936,1.936,0,1,1,-1.936,0A1.936,1.936,0,1,1,1.936,0" opacity=".7" aria-label="rok: Jan 01, 1938; kdo: Josef Kalenský; jitter: 0.536193300271" aria-roledescription="circle" role="graphics-symbol"/>
-          <ns1:path transform="translate(169 54)" d="M1.936,0A1.936,1.936,0,1,1,-1.936,0A1.936,1.936,0,1,1,1.936,0" opacity=".7" aria-label="rok: Jan 01, 1941; kdo: Josef Kalenský; jitter: 0.319970959198" aria-roledescription="circle" role="graphics-symbol"/>
-          <ns1:path transform="translate(175 54)" d="M1.936,0A1.936,1.936,0,1,1,-1.936,0A1.936,1.936,0,1,1,1.936,0" opacity=".7" aria-label="rok: Jan 01, 1946; kdo: Josef Kalenský; jitter: −0.767213271969" aria-roledescription="circle" role="graphics-symbol"/>
-          <ns1:path transform="translate(167 74)" d="M1.936,0A1.936,1.936,0,1,1,-1.936,0A1.936,1.936,0,1,1,1.936,0" opacity=".7" aria-label="rok: Jan 01, 1939; kdo: Fan Vavřincová; jitter: −0.108102915448" aria-roledescription="circle" role="graphics-symbol"/>
-          <ns1:path transform="translate(169 74)" d="M1.936,0A1.936,1.936,0,1,1,-1.936,0A1.936,1.936,0,1,1,1.936,0" opacity=".7" aria-label="rok: Jan 01, 1941; kdo: Fan Vavřincová; jitter: 1.66070573268" aria-roledescription="circle" role="graphics-symbol"/>
-          <ns1:path transform="translate(172 74)" d="M1.936,0A1.936,1.936,0,1,1,-1.936,0A1.936,1.936,0,1,1,1.936,0" opacity=".7" aria-label="rok: Jan 01, 1943; kdo: Fan Vavřincová; jitter: 0.342373323591" aria-roledescription="circle" role="graphics-symbol"/>
-          <ns1:path transform="translate(173 74)" d="M1.936,0A1.936,1.936,0,1,1,-1.936,0A1.936,1.936,0,1,1,1.936,0" opacity=".7" aria-label="rok: Jan 01, 1944; kdo: Fan Vavřincová; jitter: 0.88319100723" aria-roledescription="circle" role="graphics-symbol"/>
-          <ns1:path transform="translate(229 74)" d="M1.936,0A1.936,1.936,0,1,1,-1.936,0A1.936,1.936,0,1,1,1.936,0" opacity=".7" aria-label="rok: Jan 01, 1991; kdo: Fan Vavřincová; jitter: −0.85689144182" aria-roledescription="circle" role="graphics-symbol"/>
-          <ns1:path transform="translate(230 74)" d="M1.936,0A1.936,1.936,0,1,1,-1.936,0A1.936,1.936,0,1,1,1.936,0" opacity=".7" aria-label="rok: Jan 01, 1992; kdo: Fan Vavřincová; jitter: −0.564601430047" aria-roledescription="circle" role="graphics-symbol"/>
-          <ns1:path transform="translate(233 74)" d="M1.936,0A1.936,1.936,0,1,1,-1.936,0A1.936,1.936,0,1,1,1.936,0" opacity=".7" aria-label="rok: Jan 01, 1994; kdo: Fan Vavřincová; jitter: 0.114003016278" aria-roledescription="circle" role="graphics-symbol"/>
-          <ns1:path transform="translate(234 74)" d="M1.936,0A1.936,1.936,0,1,1,-1.936,0A1.936,1.936,0,1,1,1.936,0" opacity=".7" aria-label="rok: Jan 01, 1995; kdo: Fan Vavřincová; jitter: −0.347455839918" aria-roledescription="circle" role="graphics-symbol"/>
-          <ns1:path transform="translate(234 74)" d="M1.936,0A1.936,1.936,0,1,1,-1.936,0A1.936,1.936,0,1,1,1.936,0" opacity=".7" aria-label="rok: Jan 01, 1995; kdo: Fan Vavřincová; jitter: 1.25859420681" aria-roledescription="circle" role="graphics-symbol"/>
-          <ns1:path transform="translate(235 74)" d="M1.936,0A1.936,1.936,0,1,1,-1.936,0A1.936,1.936,0,1,1,1.936,0" opacity=".7" aria-label="rok: Jan 01, 1996; kdo: Fan Vavřincová; jitter: −0.733262985797" aria-roledescription="circle" role="graphics-symbol"/>
-          <ns1:path transform="translate(235 74)" d="M1.936,0A1.936,1.936,0,1,1,-1.936,0A1.936,1.936,0,1,1,1.936,0" opacity=".7" aria-label="rok: Jan 01, 1996; kdo: Fan Vavřincová; jitter: 0.0539200825461" aria-roledescription="circle" role="graphics-symbol"/>
-          <ns1:path transform="translate(235 74)" d="M1.936,0A1.936,1.936,0,1,1,-1.936,0A1.936,1.936,0,1,1,1.936,0" opacity=".7" aria-label="rok: Jan 01, 1996; kdo: Fan Vavřincová; jitter: 1.15588653873" aria-roledescription="circle" role="graphics-symbol"/>
-          <ns1:path transform="translate(236 75)" d="M1.936,0A1.936,1.936,0,1,1,-1.936,0A1.936,1.936,0,1,1,1.936,0" opacity=".7" aria-label="rok: Jan 01, 1997; kdo: Fan Vavřincová; jitter: 3.09027116278" aria-roledescription="circle" role="graphics-symbol"/>
-          <ns1:path transform="translate(236 74)" d="M1.936,0A1.936,1.936,0,1,1,-1.936,0A1.936,1.936,0,1,1,1.936,0" opacity=".7" aria-label="rok: Jan 01, 1997; kdo: Fan Vavřincová; jitter: −0.452806187612" aria-roledescription="circle" role="graphics-symbol"/>
-          <ns1:path transform="translate(247 73)" d="M1.936,0A1.936,1.936,0,1,1,-1.936,0A1.936,1.936,0,1,1,1.936,0" opacity=".7" aria-label="rok: Jan 01, 2006; kdo: Fan Vavřincová; jitter: −1.43451583894" aria-roledescription="circle" role="graphics-symbol"/>
-          <ns1:path transform="translate(248 74)" d="M1.936,0A1.936,1.936,0,1,1,-1.936,0A1.936,1.936,0,1,1,1.936,0" opacity=".7" aria-label="rok: Jan 01, 2007; kdo: Fan Vavřincová; jitter: 0.8983119789" aria-roledescription="circle" role="graphics-symbol"/>
-          <ns1:path transform="translate(250 74)" d="M1.936,0A1.936,1.936,0,1,1,-1.936,0A1.936,1.936,0,1,1,1.936,0" opacity=".7" aria-label="rok: Jan 01, 2008; kdo: Fan Vavřincová; jitter: 1.13846153148" aria-roledescription="circle" role="graphics-symbol"/>
+          <ns1:path transform="translate(47 13)" d="M1.936,0A1.936,1.936,0,1,1,-1.936,0A1.936,1.936,0,1,1,1.936,0" aria-label="rok: Jan 01, 1836; kdo: Karel Hynek Mácha; jitter: −0.782566732039" aria-roledescription="circle" role="graphics-symbol"/>
+          <ns1:path transform="translate(45 36)" d="M1.936,0A1.936,1.936,0,1,1,-1.936,0A1.936,1.936,0,1,1,1.936,0" aria-label="rok: Jan 01, 1834; kdo: Petr Miloslav Veselský; jitter: 0.958946001505" aria-roledescription="circle" role="graphics-symbol"/>
+          <ns1:path transform="translate(45 32)" d="M1.936,0A1.936,1.936,0,1,1,-1.936,0A1.936,1.936,0,1,1,1.936,0" aria-label="rok: Jan 01, 1834; kdo: Petr Miloslav Veselský; jitter: −1.55561840031" aria-roledescription="circle" role="graphics-symbol"/>
+          <ns1:path transform="translate(48 35)" d="M1.936,0A1.936,1.936,0,1,1,-1.936,0A1.936,1.936,0,1,1,1.936,0" aria-label="rok: Jan 01, 1837; kdo: Petr Miloslav Veselský; jitter: 0.506630415031" aria-roledescription="circle" role="graphics-symbol"/>
+          <ns1:path transform="translate(50 35)" d="M1.936,0A1.936,1.936,0,1,1,-1.936,0A1.936,1.936,0,1,1,1.936,0" aria-label="rok: Jan 01, 1838; kdo: Petr Miloslav Veselský; jitter: 0.385008113823" aria-roledescription="circle" role="graphics-symbol"/>
+          <ns1:path transform="translate(72 34)" d="M1.936,0A1.936,1.936,0,1,1,-1.936,0A1.936,1.936,0,1,1,1.936,0" aria-label="rok: Jan 01, 1855; kdo: Petr Miloslav Veselský; jitter: 0.0175075855889" aria-roledescription="circle" role="graphics-symbol"/>
+          <ns1:path transform="translate(86 33)" d="M1.936,0A1.936,1.936,0,1,1,-1.936,0A1.936,1.936,0,1,1,1.936,0" aria-label="rok: Jan 01, 1866; kdo: Petr Miloslav Veselský; jitter: −0.459248067947" aria-roledescription="circle" role="graphics-symbol"/>
+          <ns1:path transform="translate(117 34)" d="M1.936,0A1.936,1.936,0,1,1,-1.936,0A1.936,1.936,0,1,1,1.936,0" aria-label="rok: Jan 01, 1889; kdo: Petr Miloslav Veselský; jitter: 0.0135030555706" aria-roledescription="circle" role="graphics-symbol"/>
+          <ns1:path transform="translate(117 55)" d="M1.936,0A1.936,1.936,0,1,1,-1.936,0A1.936,1.936,0,1,1,1.936,0" aria-label="rok: Jan 01, 1889; kdo: Josef Kalenský; jitter: 0.572674699034" aria-roledescription="circle" role="graphics-symbol"/>
+          <ns1:path transform="translate(117 55)" d="M1.936,0A1.936,1.936,0,1,1,-1.936,0A1.936,1.936,0,1,1,1.936,0" aria-label="rok: Jan 01, 1889; kdo: Josef Kalenský; jitter: 0.604524192261" aria-roledescription="circle" role="graphics-symbol"/>
+          <ns1:path transform="translate(117 56)" d="M1.936,0A1.936,1.936,0,1,1,-1.936,0A1.936,1.936,0,1,1,1.936,0" aria-label="rok: Jan 01, 1889; kdo: Josef Kalenský; jitter: 1.07697236945" aria-roledescription="circle" role="graphics-symbol"/>
+          <ns1:path transform="translate(118 57)" d="M1.936,0A1.936,1.936,0,1,1,-1.936,0A1.936,1.936,0,1,1,1.936,0" aria-label="rok: Jan 01, 1890; kdo: Josef Kalenský; jitter: 1.64083564463" aria-roledescription="circle" role="graphics-symbol"/>
+          <ns1:path transform="translate(118 57)" d="M1.936,0A1.936,1.936,0,1,1,-1.936,0A1.936,1.936,0,1,1,1.936,0" aria-label="rok: Jan 01, 1890; kdo: Josef Kalenský; jitter: 1.8096632596" aria-roledescription="circle" role="graphics-symbol"/>
+          <ns1:path transform="translate(120 55)" d="M1.936,0A1.936,1.936,0,1,1,-1.936,0A1.936,1.936,0,1,1,1.936,0" aria-label="rok: Jan 01, 1892; kdo: Josef Kalenský; jitter: 0.655882562165" aria-roledescription="circle" role="graphics-symbol"/>
+          <ns1:path transform="translate(122 52)" d="M1.936,0A1.936,1.936,0,1,1,-1.936,0A1.936,1.936,0,1,1,1.936,0" aria-label="rok: Jan 01, 1893; kdo: Josef Kalenský; jitter: −1.07283044923" aria-roledescription="circle" role="graphics-symbol"/>
+          <ns1:path transform="translate(168 54)" d="M1.936,0A1.936,1.936,0,1,1,-1.936,0A1.936,1.936,0,1,1,1.936,0" aria-label="rok: Jan 01, 1928; kdo: Josef Kalenský; jitter: 0.173982340243" aria-roledescription="circle" role="graphics-symbol"/>
+          <ns1:path transform="translate(170 50)" d="M1.936,0A1.936,1.936,0,1,1,-1.936,0A1.936,1.936,0,1,1,1.936,0" aria-label="rok: Jan 01, 1930; kdo: Josef Kalenský; jitter: −2.59018935204" aria-roledescription="circle" role="graphics-symbol"/>
+          <ns1:path transform="translate(173 54)" d="M1.936,0A1.936,1.936,0,1,1,-1.936,0A1.936,1.936,0,1,1,1.936,0" aria-label="rok: Jan 01, 1932; kdo: Josef Kalenský; jitter: −0.245031292528" aria-roledescription="circle" role="graphics-symbol"/>
+          <ns1:path transform="translate(181 57)" d="M1.936,0A1.936,1.936,0,1,1,-1.936,0A1.936,1.936,0,1,1,1.936,0" aria-label="rok: Jan 01, 1938; kdo: Josef Kalenský; jitter: 1.73964083493" aria-roledescription="circle" role="graphics-symbol"/>
+          <ns1:path transform="translate(185 57)" d="M1.936,0A1.936,1.936,0,1,1,-1.936,0A1.936,1.936,0,1,1,1.936,0" aria-label="rok: Jan 01, 1941; kdo: Josef Kalenský; jitter: 1.81407668773" aria-roledescription="circle" role="graphics-symbol"/>
+          <ns1:path transform="translate(191 56)" d="M1.936,0A1.936,1.936,0,1,1,-1.936,0A1.936,1.936,0,1,1,1.936,0" aria-label="rok: Jan 01, 1946; kdo: Josef Kalenský; jitter: 0.899438301419" aria-roledescription="circle" role="graphics-symbol"/>
+          <ns1:path transform="translate(182 75)" d="M1.936,0A1.936,1.936,0,1,1,-1.936,0A1.936,1.936,0,1,1,1.936,0" aria-label="rok: Jan 01, 1939; kdo: Fan Vavřincová; jitter: 0.759842359639" aria-roledescription="circle" role="graphics-symbol"/>
+          <ns1:path transform="translate(185 72)" d="M1.936,0A1.936,1.936,0,1,1,-1.936,0A1.936,1.936,0,1,1,1.936,0" aria-label="rok: Jan 01, 1941; kdo: Fan Vavřincová; jitter: −1.15142817616" aria-roledescription="circle" role="graphics-symbol"/>
+          <ns1:path transform="translate(187 77)" d="M1.936,0A1.936,1.936,0,1,1,-1.936,0A1.936,1.936,0,1,1,1.936,0" aria-label="rok: Jan 01, 1943; kdo: Fan Vavřincová; jitter: 1.54375133761" aria-roledescription="circle" role="graphics-symbol"/>
+          <ns1:path transform="translate(189 76)" d="M1.936,0A1.936,1.936,0,1,1,-1.936,0A1.936,1.936,0,1,1,1.936,0" aria-label="rok: Jan 01, 1944; kdo: Fan Vavřincová; jitter: 1.03359747353" aria-roledescription="circle" role="graphics-symbol"/>
+          <ns1:path transform="translate(250 75)" d="M1.936,0A1.936,1.936,0,1,1,-1.936,0A1.936,1.936,0,1,1,1.936,0" aria-label="rok: Jan 01, 1991; kdo: Fan Vavřincová; jitter: 0.376298916032" aria-roledescription="circle" role="graphics-symbol"/>
+          <ns1:path transform="translate(251 74)" d="M1.936,0A1.936,1.936,0,1,1,-1.936,0A1.936,1.936,0,1,1,1.936,0" aria-label="rok: Jan 01, 1992; kdo: Fan Vavřincová; jitter: 0.102077229426" aria-roledescription="circle" role="graphics-symbol"/>
+          <ns1:path transform="translate(254 74)" d="M1.936,0A1.936,1.936,0,1,1,-1.936,0A1.936,1.936,0,1,1,1.936,0" aria-label="rok: Jan 01, 1994; kdo: Fan Vavřincová; jitter: −0.228031025502" aria-roledescription="circle" role="graphics-symbol"/>
+          <ns1:path transform="translate(255 74)" d="M1.936,0A1.936,1.936,0,1,1,-1.936,0A1.936,1.936,0,1,1,1.936,0" aria-label="rok: Jan 01, 1995; kdo: Fan Vavřincová; jitter: 0.200843468319" aria-roledescription="circle" role="graphics-symbol"/>
+          <ns1:path transform="translate(255 72)" d="M1.936,0A1.936,1.936,0,1,1,-1.936,0A1.936,1.936,0,1,1,1.936,0" aria-label="rok: Jan 01, 1995; kdo: Fan Vavřincová; jitter: −1.07826539476" aria-roledescription="circle" role="graphics-symbol"/>
+          <ns1:path transform="translate(257 76)" d="M1.936,0A1.936,1.936,0,1,1,-1.936,0A1.936,1.936,0,1,1,1.936,0" aria-label="rok: Jan 01, 1996; kdo: Fan Vavřincová; jitter: 1.03081392685" aria-roledescription="circle" role="graphics-symbol"/>
+          <ns1:path transform="translate(257 74)" d="M1.936,0A1.936,1.936,0,1,1,-1.936,0A1.936,1.936,0,1,1,1.936,0" aria-label="rok: Jan 01, 1996; kdo: Fan Vavřincová; jitter: −0.298900965247" aria-roledescription="circle" role="graphics-symbol"/>
+          <ns1:path transform="translate(257 76)" d="M1.936,0A1.936,1.936,0,1,1,-1.936,0A1.936,1.936,0,1,1,1.936,0" aria-label="rok: Jan 01, 1996; kdo: Fan Vavřincová; jitter: 1.35494107084" aria-roledescription="circle" role="graphics-symbol"/>
+          <ns1:path transform="translate(258 74)" d="M1.936,0A1.936,1.936,0,1,1,-1.936,0A1.936,1.936,0,1,1,1.936,0" aria-label="rok: Jan 01, 1997; kdo: Fan Vavřincová; jitter: −0.0895596272231" aria-roledescription="circle" role="graphics-symbol"/>
+          <ns1:path transform="translate(258 74)" d="M1.936,0A1.936,1.936,0,1,1,-1.936,0A1.936,1.936,0,1,1,1.936,0" aria-label="rok: Jan 01, 1997; kdo: Fan Vavřincová; jitter: −0.0704421330358" aria-roledescription="circle" role="graphics-symbol"/>
+          <ns1:path transform="translate(270 70)" d="M1.936,0A1.936,1.936,0,1,1,-1.936,0A1.936,1.936,0,1,1,1.936,0" aria-label="rok: Jan 01, 2006; kdo: Fan Vavřincová; jitter: −2.32911814426" aria-roledescription="circle" role="graphics-symbol"/>
+          <ns1:path transform="translate(271 73)" d="M1.936,0A1.936,1.936,0,1,1,-1.936,0A1.936,1.936,0,1,1,1.936,0" aria-label="rok: Jan 01, 2007; kdo: Fan Vavřincová; jitter: −0.47897041678" aria-roledescription="circle" role="graphics-symbol"/>
+          <ns1:path transform="translate(272 73)" d="M1.936,0A1.936,1.936,0,1,1,-1.936,0A1.936,1.936,0,1,1,1.936,0" aria-label="rok: Jan 01, 2008; kdo: Fan Vavřincová; jitter: −0.623034619042" aria-roledescription="circle" role="graphics-symbol"/>
          </ns1:g>
          <ns1:g class="mark-group role-title">
-          <ns1:g transform="translate(-95 -37)" pointer-events="none">
+          <ns1:g transform="translate(-95 -36)" pointer-events="none">
            <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
            <ns1:g>
             <ns1:g class="mark-text role-title-text" aria-label="Title text '…nebo tři a čtvrt kariéry'" aria-roledescription="title" role="graphics-symbol">
-             <ns1:text transform="translate(-12,-1)" fill="#000" font-family="Noticia Text" font-size="12px" font-weight="bolder">…nebo tři a čtvrt kariéry</ns1:text>
+             <ns1:text transform="translate(-12,-1)" fill="#292829" font-family="Noticia Text" font-size="12px" font-weight="bolder">…nebo tři a čtvrt kariéry</ns1:text>
             </ns1:g>
             <ns1:g class="mark-text role-title-subtitle" aria-label="Subtitle text 'Tečky označují knihy vydané během života.'" aria-roledescription="subtitle" role="graphics-symbol">
-             <ns1:text transform="translate(-12,20)" fill="#000" font-family="Noticia Text" font-size="10px">Tečky označují knihy vydané během života.</ns1:text>
+             <ns1:text transform="translate(-12 20)" fill="#292829" font-family="Noticia Text" font-size="10px">Tečky označují knihy vydané během života.</ns1:text>
             </ns1:g>
            </ns1:g>
            <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
@@ -229,15 +229,15 @@
    </ns1:g>
   </ns1:g>
  </g>
- <g transform="translate(55,306)">
-  <ns0:rect width="337" height="40" fill="white" xmlns:ns0="http://www.w3.org/2000/svg"/>
-  <ns1:g transform="translate(132,5)" fill="none" stroke-miterlimit="10" xmlns:ns1="http://www.w3.org/2000/svg">
+ <g transform="translate(89,302)">
+  <ns0:rect width="327" height="17" fill="white" xmlns:ns0="http://www.w3.org/2000/svg"/>
+  <ns1:g transform="translate(127)" fill="none" stroke-miterlimit="10" xmlns:ns1="http://www.w3.org/2000/svg">
    <ns1:g class="mark-group role-frame root" aria-roledescription="group mark container" role="graphics-object">
     <ns1:g transform="translate(0)">
-     <ns1:path class="background" d="M0.5,0.5h200v30h-200Z" aria-hidden="true"/>
+     <ns1:path class="background" d="M0.5,0.5h200v15h-200Z" aria-hidden="true"/>
      <ns1:g>
       <ns1:g class="mark-text role-mark marks" aria-roledescription="text mark container" role="graphics-object">
-       <ns1:text transform="translate(200,12)" fill="black" font-family="Asap" font-size="8px" text-anchor="end" aria-label="text: data: Česká národní bibliografie, Wikidata | vizualizace: iROZHLAS.cz, Michal Kašpárek | 2025" aria-roledescription="text mark" role="graphics-symbol">data: Česká národní bibliografie, Wikidata | vizualizace: iROZHLAS.cz, Michal Kašpárek | 2025</ns1:text>
+       <ns1:text transform="translate(200 14)" fill="#292829" font-family="Asap" font-size="8px" text-anchor="end" aria-label="text: data: Česká národní bibliografie, Wikidata | vizualizace: iROZHLAS.cz, Michal Kašpárek | 2025" aria-roledescription="text mark" role="graphics-symbol">data: Česká národní bibliografie, Wikidata | vizualizace: iROZHLAS.cz, Michal Kašpárek | 2025</ns1:text>
       </ns1:g>
      </ns1:g>
      <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
