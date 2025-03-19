@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg viewBox="0 0 392 244" xmlns="http://www.w3.org/2000/svg">
- <rect width="392" height="244" fill="#fff"/>
+<svg viewBox="0 0 411 244" xmlns="http://www.w3.org/2000/svg">
+ <rect width="411" height="244" fill="#fff"/>
  <g transform="translate(0)">
-  <ns0:rect width="392" height="227" fill="white" xmlns:ns0="http://www.w3.org/2000/svg"/>
+  <ns0:rect width="411" height="227" fill="white" xmlns:ns0="http://www.w3.org/2000/svg"/>
   <ns1:g transform="translate(5,110)" fill="none" stroke-miterlimit="10" xmlns:ns1="http://www.w3.org/2000/svg">
    <ns1:g class="mark-group role-frame root" aria-roledescription="group mark container" role="graphics-object">
     <ns1:g transform="translate(0)">
@@ -23,14 +23,14 @@
           <ns1:line transform="translate(333)" x2="0" y2="5"/>
          </ns1:g>
          <ns1:g class="mark-text role-axis-label" fill="#292829" font-family="Asap" font-size="9px" text-anchor="middle">
-          <ns1:text transform="translate(27 14)">20</ns1:text>
-          <ns1:text transform="translate(71 14)">30</ns1:text>
-          <ns1:text transform="translate(114 14)">40</ns1:text>
-          <ns1:text transform="translate(158 14)">50</ns1:text>
-          <ns1:text transform="translate(202 14)">60</ns1:text>
-          <ns1:text transform="translate(246 14)">70</ns1:text>
-          <ns1:text transform="translate(289 14)">80</ns1:text>
-          <ns1:text transform="translate(333 14)">90</ns1:text>
+          <ns1:text transform="translate(27 14)">20 let</ns1:text>
+          <ns1:text transform="translate(71 14)">30 let</ns1:text>
+          <ns1:text transform="translate(114 14)">40 let</ns1:text>
+          <ns1:text transform="translate(158 14)">50 let</ns1:text>
+          <ns1:text transform="translate(202 14)">60 let</ns1:text>
+          <ns1:text transform="translate(246 14)">70 let</ns1:text>
+          <ns1:text transform="translate(289 14)">80 let</ns1:text>
+          <ns1:text transform="translate(333 14)">90 let</ns1:text>
          </ns1:g>
         </ns1:g>
         <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
@@ -46,9 +46,9 @@
           <ns1:line transform="translate(0,23)" x2="5" y2="0"/>
          </ns1:g>
          <ns1:g class="mark-text role-axis-label" fill="#292829" font-family="Asap" font-size="9px">
-          <ns1:text transform="translate(7 75)">50</ns1:text>
-          <ns1:text transform="translate(7 50)">100</ns1:text>
-          <ns1:text transform="translate(7 26)">150</ns1:text>
+          <ns1:text transform="translate(7 75)">50 knih</ns1:text>
+          <ns1:text transform="translate(7 50)">100 knih</ns1:text>
+          <ns1:text transform="translate(7 26)">150 knih</ns1:text>
          </ns1:g>
         </ns1:g>
         <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
@@ -283,7 +283,7 @@
    </ns1:g>
   </ns1:g>
  </g>
- <g transform="translate(65,227)">
+ <g transform="translate(84,227)">
   <ns0:rect width="327" height="17" fill="white" xmlns:ns0="http://www.w3.org/2000/svg"/>
   <ns1:g transform="translate(127)" fill="none" stroke-miterlimit="10" xmlns:ns1="http://www.w3.org/2000/svg">
    <ns1:g class="mark-group role-frame root" aria-roledescription="group mark container" role="graphics-object">
