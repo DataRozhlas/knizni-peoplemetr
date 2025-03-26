@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg viewBox="0 0 402 412" xmlns="http://www.w3.org/2000/svg">
- <rect width="402" height="412" fill="#fff"/>
+<svg viewBox="0 0 402 427" xmlns="http://www.w3.org/2000/svg">
+ <rect width="402" height="427" fill="#fff"/>
  <g transform="translate(0)">
-  <ns0:rect width="402" height="395" fill="white" xmlns:ns0="http://www.w3.org/2000/svg"/>
-  <ns1:g transform="translate(11,87)" fill="none" stroke-miterlimit="10" xmlns:ns1="http://www.w3.org/2000/svg">
+  <ns0:rect width="402" height="410" fill="white" xmlns:ns0="http://www.w3.org/2000/svg"/>
+  <ns1:g transform="translate(11,102)" fill="none" stroke-miterlimit="10" xmlns:ns1="http://www.w3.org/2000/svg">
    <ns1:g class="mark-group role-frame root" aria-roledescription="group mark container" role="graphics-object">
     <ns1:g transform="translate(0)">
      <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
@@ -640,26 +640,24 @@
           <ns1:path d="M286.2565687790513,56.58h2v3.4200000000000017h-2Z" opacity=".8" aria-label="rok: Jan 01, 2000; value: 114; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 1" aria-roledescription="bar" role="graphics-symbol"/>
           <ns1:path d="M289.08500772804734,55.86h2v4.140000000000001h-2Z" opacity=".78" aria-label="rok: Jan 01, 2001; value: 138; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 0.98" aria-roledescription="bar" role="graphics-symbol"/>
           <ns1:path d="M291.9057187017729,54.93h2v5.07h-2Z" opacity=".75" aria-label="rok: Jan 01, 2002; value: 169; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 0.96" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M294.72642967549854,56.13h2v3.8699999999999974h-2Z" opacity=".73" aria-label="rok: Jan 01, 2003; value: 129; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 0.94" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M297.5471406492241,55.74h2v4.259999999999998h-2Z" opacity=".71" aria-label="rok: Jan 01, 2004; value: 142; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 0.92" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M300.37557959822016,56.19h2v3.8100000000000023h-2Z" opacity=".69" aria-label="rok: Jan 01, 2005; value: 127; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 0.9" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M303.1962905719457,55.53h2v4.469999999999999h-2Z" opacity=".66" aria-label="rok: Jan 01, 2006; value: 149; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 0.88" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M306.01700154567135,55.620000000000005h2v4.3799999999999955h-2Z" opacity=".64" aria-label="rok: Jan 01, 2007; value: 146; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 0.86" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M308.8377125193969,54.96h2v5.039999999999999h-2Z" opacity=".62" aria-label="rok: Jan 01, 2008; value: 168; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 0.84" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M311.66615146839297,55.02h2v4.979999999999997h-2Z" opacity=".6" aria-label="rok: Jan 01, 2009; value: 166; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 0.82" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M314.4868624421186,53.34h2v6.659999999999997h-2Z" opacity=".57" aria-label="rok: Jan 01, 2010; value: 222; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 0.8" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M317.30757341584416,53.34h2v6.659999999999997h-2Z" opacity=".55" aria-label="rok: Jan 01, 2011; value: 222; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 0.78" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M320.1282843895697,52.5h2v7.5h-2Z" opacity=".53" aria-label="rok: Jan 01, 2012; value: 250; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 0.76" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M322.9567233385658,52.830000000000005h2v7.169999999999995h-2Z" opacity=".5" aria-label="rok: Jan 01, 2013; value: 239; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 0.74" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M325.7774343122914,49.83h2v10.170000000000002h-2Z" opacity=".48" aria-label="rok: Jan 01, 2014; value: 339; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 0.72" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M328.598145286017,51.27h2v8.729999999999997h-2Z" opacity=".46" aria-label="rok: Jan 01, 2015; value: 291; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 0.7" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M331.41885625974254,53.55h2v6.450000000000003h-2Z" opacity=".44" aria-label="rok: Jan 01, 2016; value: 215; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 0.68" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M334.24729520873865,53.04h2v6.960000000000001h-2Z" opacity=".41" aria-label="rok: Jan 01, 2017; value: 232; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 0.66" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M337.0680061824642,50.79h2v9.21h-2Z" opacity=".39" aria-label="rok: Jan 01, 2018; value: 307; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 0.64" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M339.8887171561898,51h2v9h-2Z" opacity=".37" aria-label="rok: Jan 01, 2019; value: 300; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 0.62" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M342.7094281299154,50.519999999999996h2v9.480000000000004h-2Z" opacity=".35" aria-label="rok: Jan 01, 2020; value: 316; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 0.6" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M345.53786707891146,49.17h2v10.829999999999998h-2Z" opacity=".32" aria-label="rok: Jan 01, 2021; value: 361; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 0.58" aria-roledescription="bar" role="graphics-symbol"/>
-          <ns1:path d="M348.35857805263703,46.53h2v13.469999999999999h-2Z" opacity=".3" aria-label="rok: Jan 01, 2022; value: 449; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 0.56" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M294.72642967549854,56.13h2v3.8699999999999974h-2Z" opacity=".72" aria-label="rok: Jan 01, 2003; value: 129; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 0.94" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M297.5471406492241,55.74h2v4.259999999999998h-2Z" opacity=".7" aria-label="rok: Jan 01, 2004; value: 142; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 0.92" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M300.37557959822016,56.19h2v3.8100000000000023h-2Z" opacity=".68" aria-label="rok: Jan 01, 2005; value: 127; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 0.9" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M303.1962905719457,55.53h2v4.469999999999999h-2Z" opacity=".65" aria-label="rok: Jan 01, 2006; value: 149; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 0.88" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M306.01700154567135,55.620000000000005h2v4.3799999999999955h-2Z" opacity=".62" aria-label="rok: Jan 01, 2007; value: 146; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 0.86" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M308.8377125193969,54.96h2v5.039999999999999h-2Z" opacity=".6" aria-label="rok: Jan 01, 2008; value: 168; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 0.84" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M311.66615146839297,55.02h2v4.979999999999997h-2Z" opacity=".58" aria-label="rok: Jan 01, 2009; value: 166; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 0.82" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M314.4868624421186,53.34h2v6.659999999999997h-2Z" opacity=".55" aria-label="rok: Jan 01, 2010; value: 222; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 0.8" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M317.30757341584416,53.34h2v6.659999999999997h-2Z" opacity=".52" aria-label="rok: Jan 01, 2011; value: 222; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 0.78" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M320.1282843895697,52.5h2v7.5h-2Z" opacity=".5" aria-label="rok: Jan 01, 2012; value: 250; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 0.76" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M322.9567233385658,52.830000000000005h2v7.169999999999995h-2Z" opacity=".48" aria-label="rok: Jan 01, 2013; value: 239; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 0.74" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M325.7774343122914,49.83h2v10.170000000000002h-2Z" opacity=".45" aria-label="rok: Jan 01, 2014; value: 339; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 0.72" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M328.598145286017,51.27h2v8.729999999999997h-2Z" opacity=".42" aria-label="rok: Jan 01, 2015; value: 291; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 0.7" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M331.41885625974254,53.55h2v6.450000000000003h-2Z" opacity=".4" aria-label="rok: Jan 01, 2016; value: 215; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 0.68" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M334.24729520873865,53.04h2v6.960000000000001h-2Z" opacity=".37" aria-label="rok: Jan 01, 2017; value: 232; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 0.66" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M337.0680061824642,50.79h2v9.21h-2Z" opacity=".35" aria-label="rok: Jan 01, 2018; value: 307; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 0.64" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M339.8887171561898,51h2v9h-2Z" opacity=".32" aria-label="rok: Jan 01, 2019; value: 300; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 0.62" aria-roledescription="bar" role="graphics-symbol"/>
+          <ns1:path d="M342.7094281299154,50.519999999999996h2v9.480000000000004h-2Z" opacity=".3" aria-label="rok: Jan 01, 2020; value: 316; variable: Nakladatelství, která vydala svoji (k roku 2025) poslední knihu; opacity: 0.6" aria-roledescription="bar" role="graphics-symbol"/>
          </ns1:g>
          <ns1:g class="mark-group role-title">
           <ns1:g transform="translate(0,-10)">
@@ -677,16 +675,17 @@
        </ns1:g>
       </ns1:g>
       <ns1:g class="mark-group role-title">
-       <ns1:g transform="translate(-5.6 -72)" pointer-events="none">
+       <ns1:g transform="translate(-5.6 -86)" pointer-events="none">
         <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
         <ns1:g>
          <ns1:g class="mark-text role-title-text" aria-label="Title text 'Kolik různých nakladatelství vydávalo knihy'" aria-roledescription="title" role="graphics-symbol">
           <ns1:text transform="translate(0,-1)" fill="#292829" font-family="Noticia Text" font-size="12px" font-weight="bolder">Kolik různých nakladatelství vydávalo knihy</ns1:text>
          </ns1:g>
-         <ns1:g class="mark-text role-title-subtitle" aria-label="Subtitle text 'Grafy zobrazují pouze nakladatele alespoň tří knih, což vyřazuje část samonakladatelů i jednorázové spolupráce více nakladatelství.'" aria-roledescription="subtitle" role="graphics-symbol">
+         <ns1:g class="mark-text role-title-subtitle" aria-label="Subtitle text 'Počítáme pouze nakladatele alespoň tří knih, což vyřazuje část samonakladatelů i jednorázové spolupráce více institucí. Pozor: zatím nemůžeme vědět, kolik nakladatelství v posledních letech skutečně skončilo, a kolik jich ještě něco vydá.'" aria-roledescription="subtitle" role="graphics-symbol">
           <ns1:text transform="translate(0 20)" fill="#292829" font-family="Noticia Text" font-size="10px">
-           <ns1:tspan>Grafy zobrazují pouze nakladatele alespoň tří knih, což vyřazuje</ns1:tspan>
-           <ns1:tspan x="0" dy="15">část samonakladatelů i jednorázové spolupráce více nakladatelství.</ns1:tspan>
+           <ns1:tspan>Počítáme pouze nakladatele alespoň tří knih, což vyřazuje část samonakladatelů</ns1:tspan>
+           <ns1:tspan x="0" dy="15">i jednorázové spolupráce více institucí. Pozor: zatím nemůžeme vědět, kolik</ns1:tspan>
+           <ns1:tspan x="0" dy="15">nakladatelství v posledních letech skutečně skončilo, a kolik jich ještě něco vydá.</ns1:tspan>
           </ns1:text>
          </ns1:g>
         </ns1:g>
@@ -699,7 +698,7 @@
    </ns1:g>
   </ns1:g>
  </g>
- <g transform="translate(172,395)">
+ <g transform="translate(172,410)">
   <ns0:rect width="230" height="17" fill="white" xmlns:ns0="http://www.w3.org/2000/svg"/>
   <ns1:g transform="translate(30)" fill="none" stroke-miterlimit="10" xmlns:ns1="http://www.w3.org/2000/svg">
    <ns1:g class="mark-group role-frame root" aria-roledescription="group mark container" role="graphics-object">

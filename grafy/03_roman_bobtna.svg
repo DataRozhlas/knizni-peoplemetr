@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg viewBox="0 0 432 308" xmlns="http://www.w3.org/2000/svg">
- <rect width="432" height="308" fill="#fff"/>
+<svg viewBox="0 0 432 323" xmlns="http://www.w3.org/2000/svg">
+ <rect width="432" height="323" fill="#fff"/>
  <g transform="translate(0)">
-  <ns0:rect width="432" height="291" fill="white" xmlns:ns0="http://www.w3.org/2000/svg"/>
-  <ns1:g transform="translate(7,70)" fill="none" stroke-miterlimit="10" xmlns:ns1="http://www.w3.org/2000/svg">
+  <ns0:rect width="432" height="306" fill="white" xmlns:ns0="http://www.w3.org/2000/svg"/>
+  <ns1:g transform="translate(7,85)" fill="none" stroke-miterlimit="10" xmlns:ns1="http://www.w3.org/2000/svg">
    <ns1:g class="mark-group role-frame root" aria-roledescription="group mark container" role="graphics-object">
     <ns1:g transform="translate(0)">
      <ns1:path class="background" d="M0.5,0.5h390v200h-390Z" aria-hidden="true"/>
@@ -83,7 +83,7 @@
        </ns1:g>
       </ns1:g>
       <ns1:g class="mark-area role-mark layer_0_marks" aria-roledescription="area mark container" role="graphics-object">
-       <ns1:path d="M0,74L16.283,71.5L32.522,71L48.761,59.5L65,57.5L81.283,65.5L97.522,55.5L113.761,52.5L130,56.5L146.283,56.5L162.522,57.5L178.761,54L195,47.5L211.283,57.5L227.522,42.5L243.761,39L260,40L276.283,40.5L292.522,40L308.761,29.5L325,39.5L341.283,32.5L357.522,31L373.761,26.5L390,25L390,90L373.761,91L357.522,93L341.283,94.5L325,94L308.761,96L292.522,93.5L276.283,97L260,96.5L243.761,94.5L227.522,95.5L211.283,102.5L195,107.5L178.761,111.5L162.522,107L146.283,120.5L130,120.5L113.761,114.5L97.522,120.5L81.283,120L65,124.5L48.761,126.5L32.522,124.5L16.283,130L0,129Z" fill="#81A9D5" opacity=".5" aria-label="rok: Jan 01, 2000; hodne: 252; malo: 142" aria-roledescription="area mark" role="graphics-symbol"/>
+       <ns1:path d="M0,74L16.283,71.5L32.522,71L48.761,59.5L65,57.5L81.283,65.5L97.522,55.5L113.761,52.5L130,56.5L146.283,56.5L162.522,57.5L178.761,54L195,47.5L211.283,57.5L227.522,42.5L243.761,39L260,40L276.283,40.5L292.522,40L308.761,29.5L325,39.5L341.283,32.5L357.522,31L373.761,26.5L390,25L390,90L373.761,91L357.522,93L341.283,94.5L325,94L308.761,96L292.522,93.5L276.283,97.5L260,96.5L243.761,94.5L227.522,95.5L211.283,102.5L195,107.5L178.761,111.5L162.522,107L146.283,120.5L130,120.5L113.761,114.5L97.522,120.5L81.283,120L65,124.5L48.761,126.5L32.522,124.5L16.283,130L0,129Z" fill="#81A9D5" opacity=".5" aria-label="rok: Jan 01, 2000; hodne: 252; malo: 142" aria-roledescription="area mark" role="graphics-symbol"/>
       </ns1:g>
       <ns1:g class="mark-text role-mark layer_1_marks" aria-roledescription="text mark container" role="graphics-object">
        <ns1:text transform="translate(390 16)" fill="black" font-family="Asap" font-size="8.5px" text-anchor="end" aria-label="x: Jan 01, 2024; y: 375; text: čtvrtina románů má 350 stran nebo víc" aria-roledescription="text mark" role="graphics-symbol">čtvrtina románů má 350 stran nebo víc</ns1:text>
@@ -92,19 +92,20 @@
        <ns1:text transform="translate(390 110)" fill="black" font-family="Asap" font-size="8.5px" text-anchor="end" aria-label="x: Jan 01, 2024; y: 185; text: čtvrtina románů má 221 stran nebo míň" aria-roledescription="text mark" role="graphics-symbol">čtvrtina románů má 221 stran nebo míň</ns1:text>
       </ns1:g>
       <ns1:g class="mark-line role-mark layer_3_marks" aria-roledescription="line mark container" role="graphics-object">
-       <ns1:path d="M0,105.5L16.283,106.5L32.522,100L48.761,93L65,92L81.283,92.5L97.522,89L113.761,89L130,89L146.283,88.5L162.522,88.5L178.761,88.5L195,83L211.283,81.5L227.522,75.5L243.761,71.5L260,71.5L276.283,73L292.522,73.5L308.761,69.5L325,70.75L341.283,66.5L357.522,63.75L373.761,64.25L390,58.5" stroke="#445B78" stroke-width="2" aria-label="rok: Jan 01, 2000; median: 189" aria-roledescription="line mark" role="graphics-symbol"/>
+       <ns1:path d="M0,105.5L16.283,106.5L32.522,100L48.761,93L65,92L81.283,92.5L97.522,89L113.761,89L130,89L146.283,88.5L162.522,88.5L178.761,88.5L195,83L211.283,81.5L227.522,75.5L243.761,71.5L260,71.5L276.283,73.5L292.522,73.5L308.761,69.5L325,70.75L341.283,66.5L357.522,63.75L373.761,64.25L390,58.5" stroke="#445B78" stroke-width="2" aria-label="rok: Jan 01, 2000; median: 189" aria-roledescription="line mark" role="graphics-symbol"/>
       </ns1:g>
       <ns1:g class="mark-group role-title">
-       <ns1:g transform="translate(-2 -54)" pointer-events="none">
+       <ns1:g transform="translate(-2 -70)" pointer-events="none">
         <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
         <ns1:g>
          <ns1:g class="mark-text role-title-text" aria-label="Title text 'Český román bobtná'" aria-roledescription="title" role="graphics-symbol">
           <ns1:text transform="translate(0,-1)" fill="#292829" font-family="Noticia Text" font-size="12px" font-weight="bolder">Český román bobtná</ns1:text>
          </ns1:g>
-         <ns1:g class="mark-text role-title-subtitle" aria-label="Subtitle text 'Střední délka nově vydaného českého románu (čára uprostřed) vyrostla od roku 2000 skoro o půlku, ze 189 stran na 283. Výška většiny výtisků přitom zůstává stejná.'" aria-roledescription="subtitle" role="graphics-symbol">
+         <ns1:g class="mark-text role-title-subtitle" aria-label="Subtitle text 'Střední délka nově vydaného českého románu (čára uprostřed) vyrostla od roku 2000 skoro o půlku, ze 187 stran na 283. Výška většiny výtisků přitom zůstává stejná. Do podbarveného pásu se počtem stran vejde přesně polovina vydaných románů.'" aria-roledescription="subtitle" role="graphics-symbol">
           <ns1:text transform="translate(0 20)" fill="#292829" font-family="Noticia Text" font-size="10px">
            <ns1:tspan>Střední délka nově vydaného českého románu (čára uprostřed) vyrostla od roku 2000</ns1:tspan>
-           <ns1:tspan x="0" dy="15">skoro o půlku, ze 189 stran na 283. Výška většiny výtisků přitom zůstává stejná.</ns1:tspan>
+           <ns1:tspan x="0" dy="15">skoro o půlku, ze 187 stran na 283. Výška většiny výtisků přitom zůstává stejná.</ns1:tspan>
+           <ns1:tspan x="0" dy="15">Do podbarveného pásu se počtem stran vejde přesně polovina vydaných románů.</ns1:tspan>
           </ns1:text>
          </ns1:g>
         </ns1:g>
@@ -117,7 +118,7 @@
    </ns1:g>
   </ns1:g>
  </g>
- <g transform="translate(202,291)">
+ <g transform="translate(202,306)">
   <ns0:rect width="230" height="17" fill="white" xmlns:ns0="http://www.w3.org/2000/svg"/>
   <ns1:g transform="translate(30)" fill="none" stroke-miterlimit="10" xmlns:ns1="http://www.w3.org/2000/svg">
    <ns1:g class="mark-group role-frame root" aria-roledescription="group mark container" role="graphics-object">

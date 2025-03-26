@@ -255,8 +255,8 @@
        <ns1:g transform="translate(0 -16)">
         <ns1:path class="background" d="M0,0h0v0h0Z" pointer-events="none" aria-hidden="true"/>
         <ns1:g>
-         <ns1:g class="mark-text role-title-text" pointer-events="none" aria-label="Title text 'Podíl ženských autorek na nových českých knihách všech žánrů'" aria-roledescription="title" role="graphics-symbol">
-          <ns1:text transform="translate(0,-1)" fill="#292829" font-family="Noticia Text" font-size="12px" font-weight="bolder">Podíl ženských autorek na nových českých knihách všech žánrů</ns1:text>
+         <ns1:g class="mark-text role-title-text" pointer-events="none" aria-label="Title text 'Podíl autorek na nových česky psaných knihách všech žánrů'" aria-roledescription="title" role="graphics-symbol">
+          <ns1:text transform="translate(0,-1)" fill="#292829" font-family="Noticia Text" font-size="12px" font-weight="bolder">Podíl autorek na nových česky psaných knihách všech žánrů</ns1:text>
          </ns1:g>
         </ns1:g>
         <ns1:path class="foreground" d="" display="none" pointer-events="none" aria-hidden="true"/>
