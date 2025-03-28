@@ -1,0 +1,794 @@
+rok,jmeno,gender,titul
+2019.0,Mirek Vostrý,muž,Čarodějnice
+2019.0,Romana Rollingerová-Riba,žena,Ke Gogolovi a zpátky
+2019.0,Alex Drescher,muž,Tvůrci světů
+2019.0,Ivan Fíla,muž,Rytec kamejí
+2019.0,Filip Rožek,muž,Gump
+2019.0,Igor Malijevský,muž,Otevřený prostor
+2019.0,Vratislav Kadlec,muž,Hranice lesa
+2019.0,Aleš Palán,muž,Miss exitus
+2019.0,Martin Skořepa,muž,Rituál turínského koně
+2019.0,Martin Jaroš,muž,Dívka ve tmě
+2019.0,Marek Dobrý,muž,Penis nemá uši
+2019.0,Iva Tajovská,žena,Hořící nebe
+2019.0,Vlasta Malenovská,žena,Procházky nad propastí
+2019.0,Josef Moník,muž,Pazdera pláče a jiné povídky
+2019.0,Václav Kopta,muž,Prodloužená jízda
+2019.0,Michal Jareš,muž,Dějiny české detektivky
+2019.0,A Gravensteen,muž,"Pohyby ledu, aneb, Glaciologie pro manipuláty"
+2019.0,Ota Kars,muž,Spratci
+2019.0,Sandra Pogodová,žena,Hoď se do pogody
+2019.0,Lucie Konečná,žena,Vířivka
+2019.0,Pepa Rubáš,muž,Laila
+2019.0,Jan Stavinoha,muž,Deník parazita
+2019.0,Jan Svěrák,muž,Bohemia
+2019.0,David Balda,muž,Narušitel
+2019.0,Jan Tomeš,muž,Trny v čase
+2019.0,Jakub Dotlačil,muž,Až zhasneme
+2019.0,Zuzana Strachotová,žena,Devět nocí
+2019.0,Martin Němec,muž,Bod tání
+2019.0,Hana Pachtová,žena,Život a doba gaunera
+2019.0,Melchior Kotnowski,muž,Případ Velikého mistra
+2019.0,Adéla Knapová,žena,Předvoj
+2019.0,Alexandra Kohoutová,žena,Slova z pekla
+2019.0,Marek Otta,muž,Příliš mladej pro život
+2019.0,Jan Malinda,muž,Zelenobílá vykrádačka
+2019.0,Jiří Grant,muž,Vzdušné zámky
+2019.0,Hana Kašáková,žena,Typologie volů
+2019.0,Kamil Marcel Hodáček,muž,Až úzko pomyslet
+2019.0,Lucie Verrall,žena,Chodivá tráva
+2019.0,Jiří Raichl,muž,Tenčí než vlákno pavučiny
+2019.0,Jiří Tůma,muž,Obchod s neštěstím
+2019.0,Ivo Toman,muž,"Božka, aneb, Když domácnost řídí stroj na průšvihy"
+2019.0,Kamila Holásková,žena,Rozinka
+2019.0,Jiří Havel,muž,Příběhy půlnočního slunce
+2019.0,Mike Perry,neá,Hotel Sen
+2019.0,Michaela Škultéty,žena,Život a jiné nesrovnalosti
+2020.0,Lucie Addicks,žena,Všem mým filmovým hvězdám
+2020.0,Zuzana Kaiserová,žena,Starci života
+2020.0,David Šenk,muž,Prázdný svět
+2020.0,Emil Hruška,muž,Pohraniční pitaval
+2020.0,Robert Macků,muž,Hédonista
+2020.0,Aleš Procházka,muž,Každý má svůj Everest
+2020.0,Lukáš Csicsely,muž,Nejkrásnější pohřeb Jana Huga
+2020.0,Karolína Kvaš,žena,Kamínky po kapsách
+2020.0,Eva Hotovcová,žena,Zachariáš a tajemství stříbrných tenisek
+2020.0,Lucie Schánělová,žena,Příliv
+2020.0,Filip Koryta,muž,Falknov calling
+2020.0,Petr Motýl,muž,Příběh pana rytíře Vítka a jeho dcery Anežky
+2020.0,Green Scum,muž,Steam
+2020.0,Tadeáš Vojtěch Sláma,muž,Plejády
+2020.0,Elen An,žena,Ustláno na betonu
+2020.0,Lukáš Matějček,muž,Dobrodruh z paneláku
+2020.0,Helena Kratochvílová,žena,"Jednou na útěku, vždycky na útěku"
+2020.0,Olga Minaříková,žena,Z deníku dočaskářky
+2020.0,Ondřej Fibich,muž,Za pověstmi Šumavy
+2020.0,Alena Blanářová,žena,Starosti z radosti
+2020.0,Martina Čekalová,žena,Město zrady
+2020.0,Miroslav Krobot,muž,Nečíst
+2020.0,Zuzana Koubková,žena,Zázračný medailon
+2020.0,Petra Baštanová,žena,Bezpečně nešťastní
+2020.0,Magdalena Mintová,žena,Falešný pohřeb
+2020.0,Jindřiška Ptáčková,žena,Pod jabloní
+2020.0,Kristina Májová,žena,O ostatních nevím nic
+2020.0,Sára Saudková,žena,Ticho
+2020.0,Jan Smutný,muž,Mozek génia
+2020.0,Magdalena Sodomková,žena,Matematika zločinu
+2020.0,Jakub Trpiš,muž,Revoluce
+2020.0,Miřenka Čechová,žena,Baletky
+2020.0,Anna Beatrix Bártová,žena,Tajemství hradních zdí
+2020.0,Petr Bazger,muž,Mediace
+2020.0,Ondřej Šír,muž,Lásky ze školního dvora
+2020.0,Tereza Macková,žena,Tokyo story
+2020.0,Emma Scharkez,žena,Život s vůní lubrikantu
+2020.0,Karolína Bendová,žena,Nevěřte Hunterovi
+2020.0,Jiří Němčík,muž,Přiznání taxikářů
+2020.0,Eva Houserová,žena,Most do záhrobí
+2020.0,Barbara Nesvadbová,žena,Iluze
+2020.0,Jakub Tvrz,muž,"Kdo nemaká, nežere"
+2020.0,Hana Kavurová,žena,Malenčí
+2020.0,Václav Láska,muž,Senátor
+2020.0,Tomáš Kapras,muž,Hovínko na dortu
+2020.0,Jakub Mařík,muž,UTSS Salamis
+2020.0,Věra Kudynová,žena,Jenom pro velký holky
+2020.0,Karel Hvížďala,muž,Věta jako povolání
+2020.0,Vojtěch Bernatský,muž,"Tati, už tam budem?"
+2020.0,Natálie Kocábová,žena,Domů
+2020.0,Markéta Harasimová,žena,Vánoční návraty
+2020.0,Hana Švejnohová,žena,Mrcha jemně uzená
+2020.0,Lubomír Kirman,muž,Skok do tmy
+2020.0,Michaela Štěchová,žena,Růže z Jericha
+2020.0,Richard Popel,muž,Ohledávání času přítomného
+2020.0,Matěj Hořava,muž,Mezipřistání
+2020.0,Anna Musilová,žena,Nejkrásnější dárek
+2020.0,Helena Hrstková,žena,Dovnitř
+2020.0,Vojtěch Rauer,muž,Na seně
+2020.0,Tereza Límanová,žena,"Drzá, líná, neschopná"
+2020.0,Jan Duda,muž,Můj příběh jménem policie
+2020.0,Filip Staněk,muž,Křehká struna
+2020.0,Marta Fenclová,žena,Hodná.
+2020.0,Vladimíra Černajová,žena,Sejdeme se v pět
+2020.0,Martina Heš,žena,Tvůrčí restart
+2020.0,Petr Sýkora,muž,Sklíněné korálky
+2020.0,Lenka Elbe,žena,U Ra No vA
+2020.0,Daniel Hradecký,muž,Tři kapitoly
+2020.0,Karolina Hošek,žena,Příliš vysoká očekávání
+2020.0,Klára Kubíčková,žena,Stíny Vichrovského kláštera
+2020.0,Antonín Jirotka,muž,Blues pro žlutého psa
+2020.0,Jana Bernášková,žena,Jak přežít svého muže
+2020.0,Radka Zadinová,žena,Srdce na prodej
+2020.0,Iveta Urešová,žena,Naděje umírá
+2020.0,Pavel Soukup,muž,Romantické dřevo
+2020.0,Jakuba Katalpa,žena,Zuzanin dech
+2020.0,Tereza Kadečková,žena,O dracích a lidech
+2020.0,Zuzana Hartmanová,žena,Krysy apokalypsy
+2020.0,Michal Sýkora,muž,Nejhorší obavy
+2020.0,Marie Formáčková,žena,Přešlé mrazem
+2021.0,Ivo Skopal,muž,Vykořenění
+2021.0,Petra Macková Hrochová,žena,"Život se psem není pro kočku, aneb, Krušný život městského psa na venkově"
+2021.0,Martina Svobodová,žena,Život je šlehané hruškové pyré
+2021.0,Josef Káninský,muž,Duše šampionů
+2021.0,Antonie Nováková,žena,Být s tebou
+2021.0,Štěpán Kučera,muž,Největší lekce dona Quijota
+2021.0,Michala Jendruchová,žena,Když není čas na smutek
+2021.0,Stanislav Dvořák,neá,Kadanland
+2021.0,Oldřich Janeba,muž,Revolvers
+2021.0,Tomáš Leidl,muž,Mlha podzimních večerů
+2021.0,Lukáš Palán,muž,Surový tvar
+2021.0,Leopold Králík,muž,"Milovníci sportu, aneb, Smrt darebáka"
+2021.0,Lukáš Zárybnický,muž,Březový háj
+2021.0,Aleš Rezek,muž,Sobělživci
+2021.0,Lucie Chaya,žena,Moderní kurandera
+2021.0,Dita Táborská,žena,Černé jazyky
+2021.0,Lidmila Kábrtová,žena,Čekání na spoušť
+2021.0,Pavla Horáková,žena,Srdce Evropy
+2021.0,Martin Vopěnka,muž,Poslední stanice Hamburk
+2021.0,Jarmila Stráníková,žena,Ve stínu války
+2021.0,Tereza Hejná,žena,Ztracen v knihách
+2021.0,Marie Znamínková,žena,Generace
+2021.0,Lenka Teremová,žena,Lady Aradia
+2021.0,Irena Dousková,žena,Konec dobrý
+2021.0,Jitka Sani,žena,Vánoční let do neznáma
+2021.0,Marie Janíčková,žena,Železný klíč
+2021.0,Danuše Nerudová,žena,Máme na víc
+2021.0,Jan Pavelka,muž,Pašerák srílanských snů
+2021.0,k.elkir,muž,'84
+2021.0,Jan Hamouz,muž,Třetí ucho
+2021.0,Václav Vokolek,muž,Krajiny zjevení
+2021.0,Jan Tománek,muž,Archa knih
+2021.0,Bára Basiková,žena,"Když skočíš, já taky..."
+2021.0,Kateřina Procházková,žena,5. patro bez výtahu
+2021.0,Josef Bernard Prokop,muž,František Štěpán Lotrinský
+2021.0,Pavel Ctibor,muž,Chystácie
+2021.0,Petr Odehnal,muž,Malučký princ
+2021.0,Naďa Pischová,žena,Tam
+2021.0,Vojtěch Němec,muž,Nekropotence
+2021.0,Lenka Sadílková,žena,Nelituju
+2021.0,Oskar Fuchs,muž,Pekelný pastýř
+2021.0,Oldřich Sobotka,muž,Vražedné léto
+2021.0,Pavla Pavlíčková Kovaříková,žena,Rododendron
+2021.0,Michaela Mužíková,žena,Vraždy s odstupem
+2021.0,Kateřina Dubská,žena,Hendrixova kytara
+2021.0,David Lauda,muž,Jednorožec
+2021.0,Petr Denk,muž,Anatomie moci
+2021.0,Lucie Hrochová,žena,Rozplétání
+2021.0,Edgar Dutka,muž,Letní valčíky
+2021.0,Martina Leierová,žena,"Tohle město, tahle řeka"
+2021.0,Martin Bečan,muž,Hvězdopravec
+2021.0,Martina Symerová,žena,Kaleidoskop lásky
+2021.0,Veronika Rubínková,žena,Samota Christlhof
+2021.0,Tereza Dusová,žena,Zapomenutý ostrov někde v Pacifiku
+2021.0,Kristýna Burgerová,žena,Holka od Big Benu
+2021.0,Anežka Náhlíková,žena,Můžu se vás dotknout přes plot?
+2021.0,Nelly Černohorská,žena,Zlovolné bytosti
+2021.0,Sandra Rokosová,žena,"Přišel jsi, když venku pršelo"
+2021.0,Lubomír Větříšek,muž,Dva roky v hajzlu
+2021.0,Roman Bureš,muž,Planeta idiotů
+2021.0,Simona Nečasová,žena,Tajemství ztracené holčičky
+2021.0,Klára Aycox,žena,Pech
+2021.0,Nela Klasová,žena,Stín z minulosti
+2021.0,Anna Šuláková,žena,Fialová
+2021.0,Tomáš Třeštík,muž,Po povrchu
+2021.0,Dominika Prejdová,žena,Z čeho je den
+2021.0,Richard Erml,muž,Libeňský román
+2021.0,Zuzana Říhová,žena,Cestou špendlíků nebo jehel
+2021.0,Filip Okáč,muž,Bard z Rilanty
+2021.0,Martin Váša,muž,Zůstane to v rodině
+2021.0,Petr Stančík,muž,"Pravomil, aneb, Ohlušující promlčení"
+2021.0,Barbara Semenov,neá,Má říše kupodivů
+2021.0,Daniel Hrnčíř,muž,My dva ho nenapsali
+2021.0,Jakub König,muž,Vřeteno
+2021.0,Marek Skřipský,muž,Strážník z Nového Světa
+2021.0,Šárka Vojáčková,žena,Deník jóga matky
+2021.0,Tereza Komorousová,žena,Bez zábran
+2021.0,Ivan Galambica,muž,Takový hodný chlapec
+2021.0,Pavel Houser,muž,Grébovské motyky a další pražské legendy
+2021.0,Mikuláš Pešta,muž,Terorista
+2021.0,Kateřina Brabcová,žena,Sopka
+2021.0,Johana Fundová,žena,"Hezký, ale narovnej se!"
+2021.0,Hana D. Lehečková,žena,Poupátka
+2021.0,Václav Holanec,muž,Díkůvzdání
+2021.0,Václav Jakeš,muž,Nebezpečí z vesmíru
+2021.0,Michal Vrba,muž,Zeptej se ďábla
+2021.0,Kateřina Cajthamlová,žena,Zázraky jsou logické
+2021.0,Martin Michal,muž,Mrtvé oči
+2021.0,Kateřina Ševčíková,žena,Přízraky noci
+2021.0,Veronika Saforková,žena,Deník šílenství
+2021.0,Petra Soukupová,žena,Tenkrát o Vánocích
+2021.0,Markéta Lukášková,žena,Majonéza k snídani
+2021.0,Martin Uhlíř,muž,Sestry
+2021.0,Adriana Wetterová,žena,Nikdy nezapomenu
+2021.0,Andrea Stujová,žena,Psaní se nečervená
+2021.0,Anna Basiková,žena,Mrak
+2021.0,Eva Střihavková,žena,Opička na gumě
+2021.0,Simona Paulišinová,žena,Člověk nemůže mít všechno
+2021.0,Alžběta Komrsková,žena,Průvodkyně duší
+2021.0,Pavla Pešavová,žena,Keltská kněžna
+2021.0,Lucie Korcová,žena,Mezi vlky
+2021.0,Marek Přibil,muž,Rehabilitace Adama & Evy
+2021.0,Jiří Dědič,muž,Útěk
+2021.0,Šárka Ferrerová,žena,Mámou
+2021.0,Tereza Dočkalová,žena,"Branky, body, kokoti"
+2021.0,Alena Ježková,žena,Ruce houslisty
+2021.0,Jindřiška Kracíková,žena,"Veselé Vánoce, Kristýno!"
+2021.0,Jan Kucin,muž,Koruna snů
+2021.0,Libor Machala,muž,Agent s cejchem smrti
+2021.0,Milan Krčmář,muž,Případ Toman
+2021.0,Miroslav Pech,muž,"Hranice už nejsou, tati"
+2021.0,Petra Nesvačilová,žena,Skutečná
+2021.0,Lenka Rzepková,žena,Nikdy nezapomeň
+2021.0,Petr Neckář,muž,Nebe Nebo
+2021.0,Gabriella Smith,žena,Služebná Kessy
+2021.0,Lucie Salová,žena,Bez tváře
+2021.0,M. A Isaac,žena,Kdo je Ben Camino?
+2021.0,Milan Macho,muž,Pohřeb bez nebožtíka
+2021.0,Soňa Sirotková,žena,U dvora římského krále Josefa
+2021.0,Martina Málková,žena,"Pérka, drátky, kolečka"
+2021.0,Eva Hacalová,žena,Můj syn feťák
+2021.0,Kristína Hušeková,žena,Než vybledne den
+2021.0,Uljana Donátová,žena,Matka s ručením omezeným
+2021.0,Theo Addair,muž,Supertajný seznam věcí
+2021.0,Jana Pažoutová,žena,Dvojí ortel
+2021.0,Aleš Rozehnal,muž,Kdo rozváže pás Orionu
+2021.0,Iva Procházková,žena,Doteky zabitých
+2021.0,Dalibor Slivinský,muž,Všechny vaše životy
+2021.0,Hana Hřebejková,žena,Padesátka v nouzovém stavu
+2021.0,René Melichar,muž,"Zákoník mé ženy, aneb, Obyčejné dny"
+2021.0,Marian Jelínek,muž,Život na uzdě
+2022.0,Veronika Valentová,žena,Meteorit z Mušlovky
+2022.0,Veronika Vieweghová,žena,Pod maskou stín
+2022.0,Lenka Pastorčáková,žena,Kandidát
+2022.0,Václav Votruba,muž,Šumavský Děs: paměti okultní
+2022.0,Petr Neužil,muž,V hlavní roli srdce
+2022.0,Rudolf Král,muž,Raci v hlavě
+2022.0,Jakub Petr Kos,muž,Archanděl
+2022.0,Jana Hanušová,žena,Rádio v mrazáku
+2022.0,Dan Tržil,muž,Proti proudu
+2022.0,Jakub Železný,muž,Kinského zahrada
+2022.0,Michal Šefara,muž,Křížová cesta
+2022.0,Michaela Dopitová,žena,Křídla vážky
+2022.0,Barbora Linke,žena,Srdcem mojí babičky
+2022.0,Ivanka Devátá,žena,Gerbešín a hezouni
+2022.0,Jindřich Vacek,muž,Tři muži na Titaniku
+2022.0,Monika Svoboda,žena,Máma kriminálnice
+2022.0,Petra Zhřívalová,žena,Srdeční selhání
+2022.0,Viktorie Hanišová,žena,Neděle odpoledne
+2022.0,Barbora Vajsejtlová,žena,Vůbec o nic nejde
+2022.0,Michaela Moritz,žena,Na křídlech Fénixe
+2022.0,Patrik Banga,muž,Skutečná cesta ven
+2022.0,Anna Cima,žena,Vzpomínky na úhoře
+2022.0,Jaroslav Bálek,muž,Zbabělec
+2022.0,Karin Krajčo Babinská,žena,Tsunami
+2022.0,Martina Preissová,žena,Mají v nebi skleničky?
+2022.0,Luboš Hacala,muž,Máma má alzheimera
+2022.0,Natalie A. Rollko,žena,Depiláž
+2022.0,Ivana Fajnorová,žena,Emilka
+2022.0,Anna Beata Háblová,žena,Směna
+2022.0,František Šmehlík,muž,Šelma
+2022.0,Radmila Tomšů,žena,Strážci rozhraní
+2022.0,Evžen Boček,muž,Aristokratka pod palbou lásky
+2022.0,Jan Němec,muž,Liliputin
+2022.0,Eva Grestenbergerová,žena,Na divokém venkově
+2022.0,Barbora Haplová,žena,Únikové cesty
+2022.0,Lenka Parýzková,žena,Sklouzni se v dešti
+2022.0,Michal Ježek,muž,Nesnáze českých sexbytostí
+2022.0,Hana Skálová,žena,Pravdu mám přece já!
+2022.0,Marie Malurková,žena,Bytost rodu
+2022.0,Edna Nová,žena,Cynická lovestory
+2022.0,Martin Fišer,muž,Vykoupení Černé vlaštovky
+2022.0,Alexandra Soldánová,žena,Chci tě slyšet
+2022.0,Dana Beranová,žena,Zpěv straky
+2022.0,Veronika Jonášová,žena,Ada
+2022.0,Josef König,muž,Provazochodci
+2022.0,Štěpán Javůrek,muž,Sudetský dům
+2022.0,Sam Xabyssus,žena,Vůně inkoustu
+2022.0,Vladimír Adam Gdovín,muž,Gdovín?!
+2022.0,Petra Slováková,žena,Vzpomínky na zítřek
+2022.0,Petr K. Procházka,muž,Stará škola
+2022.0,Petra Braunová,žena,Ibka
+2022.0,Marie Hajdová,žena,Jeřabinový dům
+2022.0,Tomáš Zástěra,muž,Opouštím ostrov
+2022.0,Pavlína Čikovská,žena,Kde jsem se tu vzala
+2022.0,Tereza Dobiášová,žena,Tisíc let samoty
+2022.0,Ondřej Štindl,muž,Tolik popela
+2022.0,Pavel Radosta,muž,Ztracen v zemi mamutů
+2022.0,Zdeněk Žemlička,muž,Vlčice a královna noci
+2022.0,Martin Selner,muž,Uprostřed
+2022.0,Žaneta Neužilová,žena,Do skonání věků
+2022.0,Aleš Holaň,muž,Helon 2
+2022.0,Kristýna Komárková,žena,Znamení koně
+2022.0,Naďa Reviláková,žena,Vlajka Viktora Vaňka
+2022.0,Jaromír Jindra,muž,Karel IV.
+2022.0,Marek Dvořák,muž,Bastard bohů
+2022.0,Kateřina Tachovská-Vestman,žena,"Řekni, že jsi Tachovská"
+2022.0,Daniel Petr,muž,Odečítání pohybu souřadnic
+2022.0,Emma Riedová,žena,Suďte spravedlivě
+2022.0,Ladislava Horová,žena,Něco na tom asi bude...
+2022.0,Katarína Brányiková,žena,Vysoká
+2022.0,Klára Haunerová,žena,Teorie klavíru
+2022.0,Nikola Machová,žena,Stella z Kalvendie
+2022.0,Václav Bárta,muž,Kozí válka
+2022.0,Adam Pýcha,muž,Držet břitvu na tepu doby
+2022.0,Vratislav Maňák,muž,Smrt staré Maši
+2022.0,Vesna Evans,žena,Sametový domov
+2022.0,Jana Švecová,žena,Legenda o Ladě
+2022.0,Martina Mátlová,žena,Virtuální realita
+2022.0,Ondřej Buddeus,muž,Rozvod šestkrát jinak
+2022.0,Martin Rejman,muž,Kruhy na rybníku
+2022.0,Jan Folný,muž,Hotel Royal
+2022.0,Oldřiška Ciprová,žena,Kateřina z Poděbrad
+2022.0,Zbyněk Vičar,muž,Temná rána
+2022.0,Josef Veselka,muž,Špitál
+2022.0,Hana Zlínská,žena,Černé slzy paní Moschelesové
+2022.0,Jiří Mádl,muž,Přitažlivost planety Krypton
+2022.0,Lucie Hlavinková,žena,Pravda nebyla k dostání
+2022.0,Viktor Špaček,muž,"Čistý, skromný život"
+2022.0,Hana Oboda,žena,Dunajský racek
+2022.0,Albert Čuba,muž,Ocelové srdce
+2022.0,František Mařík,muž,Vždyť hříva tak voní...
+2022.0,Vladimír Kolár,muž,Vyhnaní ze života
+2022.0,Barbora Šťastná,žena,Samotářky
+2022.0,Jan Mrkvička,muž,Agónie
+2022.0,Lukáš Havlas,muž,180 stupňů
+2022.0,Karin Lednická,žena,Životice
+2022.0,Eva Rýznerová,žena,Útěk do Toskánska
+2022.0,Aleš Pitzmos,muž,Synchronicita
+2022.0,Jiří Kratochvil,muž,Škrtiči bohyně Kálí
+2022.0,Josef J. Novotny,muž,HC Faraoni Frýštejn a aljašský démon
+2022.0,Alois Kolář,muž,"""Černí baroni"" na Kladensku, aneb, Jak to bylo doopravdy"
+2022.0,Barbora Černohlávková Večeřová,žena,"Tanec mezi vejci, aneb, Život s inženýrem"
+2022.0,Matěj Dadák,muž,Lovci švábů
+2022.0,Ondřej Hübl,muž,Opona
+2022.0,Klára Sýkorová,žena,Partnerské přešlapy
+2022.0,Martin Müller,muž,Černá rusalka
+2022.0,Viktor Zavřel,muž,Pohled přes listy Bódhi
+2022.0,Aleš Diviš,muž,Leviar
+2022.0,Jan Rupp,muž,V břečťanu
+2022.0,Marie Čtyroká,žena,Růžové bludičky
+2022.0,Eva Francová,žena,Kolčava
+2022.0,Ladislav Vrchovský,muž,Statek
+2022.0,Vlasta Dušková,žena,Třinácté okno
+2022.0,Petra Jirglová,žena,Nejdražší suvenýr
+2022.0,Martina Jelínková,žena,Záchytný bod
+2022.0,Erik Decimus,muž,Bezceler
+2022.0,Naďa Kverková,žena,Vraždy mezi koly
+2022.0,Lenka Chalupová,žena,Páté jablko
+2022.0,Klára Wang Tylová,žena,Ostrov duchů
+2022.0,Kateřina Tučková,žena,Jedeme na dovolenou
+2022.0,Jiří Padevět,muž,1945
+2022.0,Andrea Pekárnová,žena,"Na cestě, aneb, (Ne)fádní život věčné optimistky"
+2022.0,Eliška Pohnerová,žena,Hladoví
+2022.0,Barbora Walterová Benešová,žena,Úřednice z vigvamu
+2022.0,Věra Fojtová,žena,Smrt lehkovážné milenky
+2022.0,Lukáš Fišer,muž,Cirkus Maximum
+2022.0,Lucie Auzká,žena,Dotkni se hvězd
+2022.0,Vítězslav Jareš,muž,Holky se čtečkou
+2022.0,Michaela Kalivodová,žena,Ořechy na cukroví
+2022.0,Pavel Hewlit,muž,Vyvolení stát se popelem
+2022.0,Alena Vachtová,žena,Z Madridu do oblak
+2022.0,Adam Suchý,muž,Všechno se v dobré obrátí
+2022.0,Natálie Soldátová,žena,Pomsta mafie
+2022.0,Lenka Šíková,žena,Trojice
+2022.0,Lucie Pilátová,žena,Rok (na) draka
+2022.0,Dominik Landsman,muž,Híťovo kouzelné dobrodružství
+2022.0,Hana Vondráčková,žena,Puberťačka před důchodem
+2022.0,Martin Goffa,muž,Vodní hrob
+2022.0,Zdeňka Martincová,žena,Maják
+2022.0,Otakar Pospíšil,muž,Bezejmenná
+2022.0,Přemysl Krejčík,muž,Srab
+2022.0,Lucie Vaňková,žena,Putování leklé ryby
+2022.0,Tomáš Němec,muž,Život válečníka
+2022.0,Zuzana Kultánová,žena,"Zpíváš, jako bys plakala"
+2022.0,Camille G,žena,Deníček Camille G
+2022.0,Petr Horký,muž,Ukrajina
+2022.0,Michael Třeštík,muž,Hodně starej jaguár
+2022.0,Nicole Škorpilová,žena,Syndrom neklidných duší
+2022.0,Michaela Boho,žena,Za mříží
+2022.0,Jan Pavel,muž,Řezníci
+2022.0,Pavel Hrdlička,muž,Boží mlýny
+2022.0,Bořek Slezáček,muž,Kéž bys tu byla
+2022.0,Veronika Valíková,žena,Češtinářky
+2022.0,Martin Stručovský,muž,Hříchy otců
+2022.0,Jana Mács Magdoňová,žena,Přes Zábradlí k Cimrmanům
+2022.0,Karel Šíp,muž,Bavič
+2022.0,Anna Sobotková,žena,Josefína na zeleném ostrově
+2022.0,Dagmar Užkonečně Šťastná,žena,Za vším hledej ženu
+2022.0,Karel Veselý,muž,Kov
+2022.0,Daniel Gris,muž,Lars mele maso
+2022.0,Alice Horáčková,žena,Rozpůlený dům
+2022.0,David Klimeš,muž,Vir
+2022.0,Lukáš Boček,muž,Zahrada mrtvých duší
+2022.0,Michaela Melicharová,žena,Osamělé povídky
+2022.0,Jaromír Štětina,muž,U kanónu stál
+2022.0,Jakub Vít,muž,Více než člověk
+2022.0,Petra Machová,žena,Krevní msta
+2022.0,Jakub Luksch,muž,Čas a jeho loutky
+2022.0,Dora Kaprálová,žena,Utrpení a jiné žánry
+2022.0,Jiří J. Linhart,muž,Mágové a šarlatáni
+2022.0,Miloš Urban,muž,Továrna na maso
+2022.0,Karolína Fílová,žena,Přístav
+2022.0,Patrick Zandl,muž,Špicl Páně 955
+2022.0,Jaroslava Wernerová,žena,"Konzervatoř, aneb..., Student ve vlastní šťávě"
+2022.0,Jitka Hloušková,žena,"Díky, Londýne!"
+2022.0,Izabela Straková,žena,Říše
+2022.0,Michaela Schmiedlová,žena,Druhá šance pro Zoe
+2022.0,Julie Borlová,žena,Čarodějka od Jezera bohů
+2022.0,Petr S. Pixy,muž,Komtur
+2022.0,Marek Epstein,muž,Nerez
+2022.0,Josef Fousek,muž,Slečna ze zámku Kozel
+2022.0,Barbora Koutná,žena,"Všechno bude dobrý, Beth"
+2022.0,Radkin Honzák,muž,Haiku
+2022.0,Zuzana Součková,á,"Po schodech nahoru, po čumáku dolů"
+2022.0,Ella Trobok,žena,Zaprodaný cit
+2022.0,Anna Bolavá,žena,Vypravěč
+2022.0,Sára Zeithammerová,žena,Stehy
+2023.0,Emilly Ross,žena,Rozcestí osudu
+2023.0,Václav Šolc,muž,Nejsem Nikdo
+2023.0,Jiří Klečka,muž,Zapomenutá
+2023.0,Martin Chadima,muž,Poslední kacíř
+2023.0,Alena Adrianet Heinrichová,žena,Slovodějky
+2023.0,Jaroslava Černá,žena,Vražedná krása
+2023.0,Jan Novák,muž,Striptease Chicago
+2023.0,Kateřina Špaček,žena,Sny
+2023.0,Jana Jašová,žena,Krutý měsíc
+2023.0,Jaroslav Konáš,muž,Město v mlze
+2023.0,František Janč,muž,"Vyzývatel, aneb, Tankový pluk pod velením vnuka Josefa Švejka"
+2023.0,Jana Kašparová,žena,Tancuj si svůj sen
+2023.0,Bianca Bellová,žena,Transfer
+2023.0,Alexej Sevruk,muž,Evropanka
+2023.0,Petr Brož,muž,"Geostorky, aneb, Lidské osudy ve stínu geověd"
+2023.0,Ivana Žáková,žena,Skutečné zločiny v Praze a okolí
+2023.0,Markéta Hejkalová,žena,Století na vlnách
+2023.0,Zuzana Koukalová,žena,Devatero hádek
+2023.0,Jana Poncarová,žena,Nultá hodina
+2023.0,Rozálie Pražáková,žena,Koruna strachu
+2023.0,Lucie Ortega,žena,Soumrak Edenu
+2023.0,Jan Gardner,muž,Devátý neznámý
+2023.0,Jarmila Pospíšilová,žena,Palec a tichá voda
+2023.0,Magdaléna Bujabéza Rejžková,žena,Přístav
+2023.0,Michal Kašpárek,muž,Fosilie
+2023.0,Pavlína Křivánková,žena,Chalupa
+2023.0,Petr Hugo Šlik,muž,Neplavec
+2023.0,Lenka Chlubnová,žena,Studený jaro
+2023.0,Hana Pinknerová,žena,Advent ve starém domě
+2023.0,Petra Dvořáková,žena,Pláňata
+2023.0,Lucie Bechynková,žena,Neodpovídej
+2023.0,Alena Chládková,á,Láska v sedmdesátkách
+2023.0,Pavel Bareš,muž,Lenochod Jimmy & jeho backup band
+2023.0,Magdalena Maxová,žena,Teorie býka
+2023.0,Tereza Kučírková,žena,U jedné náušnice
+2023.0,Lucie Zvěřová,žena,Za hranicí naděje
+2023.0,Leoš Kyša,muž,Sudetenland
+2023.0,Radka Denemarková,žena,Čokoládová krev
+2023.0,Karel Sychra,muž,Po stopách vesmírných turistů
+2023.0,Věra Mertlíková,žena,Bůh lovu
+2023.0,Břetislav Ditrych,muž,Jiné sestry
+2023.0,Hana Hindráková,žena,Obchodníci s dětmi
+2023.0,Lena Valenová,žena,#Najdi mě
+2023.0,Josef Doucha,muž,Zlatý klíč k peklu
+2023.0,Luboš Hejda,muž,Návrat do Bransonu
+2023.0,Denisa Janštová,žena,Padlý vládce nebes
+2023.0,Anna Divišová,žena,Bábi Jarka
+2023.0,Marek Torčík,muž,Rozložíš paměť
+2023.0,Anna Saavedra,žena,Lid nomádů
+2023.0,Kristýna Sněgoňová,žena,Krev pro divoženku
+2023.0,Zuzana Švédová,žena,Malé tečky světla
+2023.0,Jiří Čechal,muž,Továrna na skořápky
+2023.0,Petr Šesták,muž,Vyhoření
+2023.0,Martin Fahrner,muž,Štěstí
+2023.0,Antonín Pelíšek,muž,Dlouhý most
+2023.0,N. P,muž,Princezna z nádraží
+2023.0,Jitka Ládrová,žena,Němé duše
+2023.0,Dominika Hájková,žena,Nezastavuj
+2023.0,Jiří Václavíček,muž,Hořkne políbení
+2023.0,Filip Mikuš,muž,Výstava chameleonů
+2023.0,Radek Váňa,muž,Předpeklí snu
+2023.0,Ivana Peroutková,žena,Isabela a žluté útesy
+2023.0,Stanislav Beran,muž,Schrödingerův hotel
+2023.0,Květoň Zahájský,muž,Tajemné kosočtverce v obilí
+2023.0,Tereza Marková,žena,Pomíjivost
+2023.0,Jana Musálková Jeckelová,žena,Šalvěj a Meruňka
+2023.0,Shigor Birdman,muž,Stará béčková legenda
+2023.0,Tomáš Syrovátka,muž,Haškoviny
+2023.0,Alena Štraubová,žena,Léto mezi řádky
+2023.0,Jitka Štichauerová,žena,Na slyšenou
+2023.0,Aleš Vogel,muž,Sám mezi ženami
+2023.0,Tomáš Petrásek,muž,Azhareida
+2023.0,Jakub Zachrdla,muž,Zbabělci a vrazi
+2023.0,Zdeněk Řehák,muž,Boží potměšilost
+2023.0,Halina Pawlowská,žena,Povídky o ženách
+2023.0,Věra Krpálková,žena,V čase
+2023.0,Petr Čepek,muž,Taxikář
+2023.0,Libor Balák,muž,Katáriové: impérium lovců mamutů
+2023.0,František Kalenda,muž,Zpověď posledního mnicha
+2023.0,Petra Hůlová,žena,Nejvyšší karta
+2023.0,Michaela Klevisová,žena,Vraní oko
+2023.0,Patrik Madle,muž,Dominik lže!
+2023.0,Naďa Horáková,žena,Čas madon
+2023.0,Nofreeusernames,žena,Jsme nevyhnutelní
+2023.0,Petra Lejsková-Langová,žena,Písnička pro Klaudii
+2023.0,Karolína Meixnerová,žena,Národní opruzení
+2023.0,Veronika Nechutná,žena,Povídky ze světa tvůrčího psaní
+2023.0,Petra Martišková,žena,Síla obsidiánu
+2023.0,Jaromír Marek,muž,Doba chemlonová
+2023.0,Aleš Dostál,muž,Myslivecké povídky
+2023.0,Věra Stejskalová,žena,"Co by bylo, kdybych se přestala bát"
+2023.0,Martina Abrahámová,žena,"Snílkova kavárna, aneb, Příběhy zaslechnuté u cappuccina"
+2023.0,Hana Whitton,žena,Anežka z Kuenringu
+2023.0,Klára Teršová,žena,Až ke křížku
+2023.0,Karolína Hubková,žena,Deník tramvajačky
+2023.0,Eva Pospíšilová,žena,Letní bouřky
+2023.0,František Tylšar,muž,Skutečné příběhy ze železnice
+2023.0,Zuzana Dostálová,žena,Karneval zvířat
+2023.0,Denisa Černá,žena,Poslední člověk na planetě Zemi
+2023.0,Katka Havlíková,žena,"Lampář, lodivodka a kluk z továrny na slzy"
+2023.0,Tereza Nováková,žena,Co se stalo Veronice
+2023.0,Kateřina Panou,žena,Řecké štěstí
+2023.0,Iva Kokinopulosová,žena,Sídliště Svět
+2023.0,Tomáš Miklica,muž,Polistopad
+2023.0,Petra Poncarová,žena,Libůstky a neřesti
+2023.0,Eva Vychodilová,žena,Někdy je potřeba prohodit role
+2023.0,Lenka Poláčková,žena,Co zpívá Sojka
+2023.0,Ondřej Fanta,muž,Vraždy na dvojce
+2023.0,Markéta Bolfová,žena,Kluk v kopačkách
+2023.0,Roman Cílek,muž,Deset podob zrady
+2023.0,Klára Vlasáková,žena,Těla
+2023.0,Jan Horníček,muž,Vlkodlak
+2023.0,Jan Švancara,muž,S malou pomocí přátel
+2023.0,Ivana Hlubinková Kožmínová,žena,"Zoufalky, aneb, Rande jak cyp"
+2023.0,Kamila Štěpánková,žena,CoolMom in da house
+2023.0,Veronika Martinková,žena,Odsouzen k smrti
+2023.0,Pavel Sekyrka,muž,Ve spárech Afrodity
+2023.0,Dalibor Boubín,muž,Vlastní zákon
+2023.0,Tomáš Klimek,muž,Vyplavená smrt
+2023.0,Markéta Prášková,žena,Rozbité světy
+2023.0,Rudolf Havlík,muž,Ostrov
+2023.0,Klára Janečková,žena,V pasti
+2023.0,Michal Březina,muž,Zlé časy
+2023.0,Anna Riedlová,žena,Ndoto
+2023.0,Tess M Puffrová,žena,Propast mezi námi
+2023.0,Michaela Labáková,žena,Venkov
+2023.0,Boris Steinbauer,muž,Smrtící obhajoba
+2023.0,Jitka Slavíková,žena,Životní (s)milníky
+2023.0,Martin Sládek,muž,Železné srdce
+2023.0,Michaela Vaščíková,žena,Lvice v erbu krále
+2023.0,Hynek Čapka,muž,Neviditelné kořeny
+2023.0,Jana Jánská,žena,Mrazivá náruč
+2023.0,Soňa Paleta,žena,Pražačka na vsi
+2023.0,Martina Babišová,žena,Sundat se jak fénix
+2023.0,Barbora Houfová,žena,Máme doma alkoholika
+2023.0,Scarlett Wilková,žena,Ty chladné oči
+2023.0,Adéla Rožek Elbel,žena,"Santiago, má lásko"
+2023.0,Alexander Staffa,muž,Násilí
+2023.0,Kateřina Pantovič,žena,Josefíně všichni lžou
+2023.0,Kristýna Sládečková,žena,Smrková Tišina
+2023.0,Artur Janoušek,muž,Sochař
+2023.0,Andrea Rourke,žena,Když umřel Bowie
+2023.0,Eva Dolejšová,žena,Feťáci
+2023.0,Karel Cubeca,muž,Ohnivá stopa
+2023.0,Vojtěch Záleský,muž,Převzetí
+2023.0,Ondřej Nečas,muž,Stříbrný měsíc
+2023.0,Zdeněk Grmolec,muž,Ghetto ve stínu zločinu
+2023.0,Jakub Šponer,muž,Ekstase
+2023.0,Irena Piloušková,žena,Buď hodná
+2023.0,Antonín Mazáč,muž,Konzultant
+2023.0,Valentýna Coufalová,žena,Svět v mé hlavě
+2023.0,Nela Mičková,žena,Království v kameni
+2023.0,Josef Pecinovský,muž,Mirzova vize
+2023.0,Alexander Stainforth,muž,Past na ženicha
+2023.0,Radek Starý,muž,Odkaz lidské rasy
+2023.0,Petra Nachtmanová,žena,Psina s princem
+2023.0,Josef Klíma,muž,"Milost, pane prezidente"
+2023.0,Alžběta Bílková,žena,Balada mrtvého světa
+2023.0,Veronika González,žena,Mezi nimi
+2023.0,Irena Kellerová,žena,Alexandra
+2023.0,Libuše Gottwaldová,žena,"Zastav se, než skočíš!"
+2023.0,Jiří Dobrylovský,muž,Meč a pergamen
+2023.0,Jan Drbohlav,muž,Římská jízda
+2023.0,Elena Minářová,žena,Než zjistíš pravdu
+2023.0,Petr Gruber,muž,Policajtem snadno a rychle
+2023.0,Rudolf Hrušínský,muž,Agrometal
+2023.0,Kristýna Freiová,žena,Syn draka
+2023.0,David Budai,muž,Věci mezi lidmi a byty
+2023.0,Petr Procházka,muž,Rozchodové řízení
+2023.0,Václav Křivanec,muž,Sagittarius
+2023.0,Eva Mašková,žena,Předloha pro vraždu
+2023.0,Marie Jakoubková,žena,Koruna pro štěstí
+2023.0,Jana Jurmanová,žena,Potrhlá dovolená
+2023.0,Nora Eckhardtová,žena,"Kniha, kterou posypal hvězdný prach"
+2023.0,Marie Horová,žena,Jak se do lesa volá
+2023.0,Honza Slívka,muž,Likvidátor
+2023.0,Martin Nezval,muž,Smát se nahlas
+2023.0,Helena Žáková,žena,S kapkou medu
+2023.0,Simona Bohatá,žena,Zbabělí hrdinové
+2023.0,Zuzana Hubeňáková,žena,Bobky a fajnový koření
+2023.0,Sarah Parsley,žena,Trnitá cesta
+2023.0,David Jan Novotný,muž,Rozinky v blátě
+2023.0,Miroslav Žamboch,muž,Koniáš & Bakly
+2023.0,Vlaďka Sacká,žena,Koruna otráveného stromu
+2023.0,Michaela Šalé,žena,Kafe a chlup
+2023.0,Lucie Macháčková,žena,"Svatební historky, aneb, Jak jsem se nevdala"
+2023.0,Jan Urban,muž,Hranice zvrhlosti
+2023.0,Pavel Kolář,muž,Řeka pod hladinou
+2023.0,Olga Krumlovská,žena,Duchové mezi námi
+2023.0,Jitka Ludvíková,žena,Srdce z ledu
+2023.0,Ota Sládek,muž,Kousni se do hlavy!
+2023.0,Marta Kučíková,žena,Italské mentolky
+2023.0,Iva Pekárková,žena,Kam jede tohle nástupiště
+2023.0,Daniela Fischerová,žena,"Fialky, tajemství a jiné povídky"
+2023.0,Klára Mandausová,žena,Proti srsti
+2023.0,Helena Drdlová,žena,Když se mnou půjdeš tajgou
+2023.0,Martin Sichinger,muž,Zítra přijde Olah
+2023.0,Pavel Kohout,muž,Tajemství
+2023.0,Dalibor Vácha,muž,Vilda
+2023.0,Milena Durková,á,Bára krotí posádku
+2023.0,Jakub Stanjura,muž,Srpny
+2023.0,Petr Opršal,muž,Dokud nás krev nerozdělí
+2023.0,Hope Marks,žena,Spoutej mě
+2023.0,Jana Slaninová,žena,Kráva a kretén
+2023.0,Petr Macek,muž,Sherlock Holmes & Poslední oběť Jacka Rozparovače
+2023.0,Jakub Kohák,muž,Perly v botě
+2023.0,Kateřina Rudčenková,žena,Tchyně nemá jazyk
+2023.0,Radka Třeštíková,žena,"Kde jsi, když nejsi"
+2024.0,Hana Marie Körnerová,žena,Znamení ohně
+2024.0,Mirka Rezlerová,žena,Adam
+2024.0,Štěpán Pudlák,muž,Hejt
+2024.0,František Niedl,muž,Baron Trenck
+2024.0,Dagmar Digma Čechová,žena,Nadechni se potřetí...
+2024.0,Veronika Černucká,žena,Ukolébavka pro mou maličkou
+2024.0,Václav Jabůrek,muž,V uniformě beránka
+2024.0,David Věrný,muž,Bazén
+2024.0,Marie Hamáková,žena,Dvě tváře lásky
+2024.0,Renáta Navrátilová,žena,Cesta za láskou
+2024.0,Vilém Koubek,muž,Zatloukání hřebů
+2024.0,Vladimír Šlechta,muž,Nebezpečná Praha Rudolfa II.
+2024.0,Martina Hohenberger,žena,Z pekla štěstí
+2024.0,Jan Kotouč,muž,Centrální impérium: Omega
+2024.0,Stanislav Češka,muž,Případ tří mrtvých bojovníků
+2024.0,Emma Kausc,žena,Narušení děje
+2024.0,David Glockner,muž,Vraždy na Grabštejně
+2024.0,Miloň Čepelka,muž,Josefové
+2024.0,Jakub Hoza,muž,Bez návratu
+2024.0,Marcy Jell,žena,Score
+2024.0,Marta Dancingerová,žena,Maluj můru nohama vzhůru
+2024.0,František Kotleta,muž,Černá luna
+2024.0,Dan Wlodarczyk,muž,Jitřní záře
+2024.0,Marek Orko Vácha,muž,Když za nás Bůh netahá kaštany z ohně
+2024.0,Lucie Jehličková,žena,Falešná lady
+2024.0,Karolina Tůmová,žena,Modrá jako naděje
+2024.0,Jakub Fránek,muž,Tropické noci
+2024.0,Vojtěch Hlavenka,muž,Kód Mýtina
+2024.0,Viola Twodová,žena,Zbytečné trápení
+2024.0,Petr Urban,muž,Práh
+2024.0,Zlatuše Marková,žena,Ala Luna
+2024.0,Tereza Boučková,žena,Dům v Matoušově ulici
+2024.0,Klára Czastková,žena,Dvakrát do stejného rybníka
+2024.0,Martin Paytok,muž,"Láska, smrt a všechno zlý"
+2024.0,Alena Damijo,žena,Srdečné pozdravy z Řecka
+2024.0,Michal Ajvaz,muž,Pasáže
+2024.0,Kateřina Karolová,žena,Dokonalé městečko
+2024.0,Alžběta Bublanová,žena,Starosta
+2024.0,Jan Kholl,muž,Pusťte světlo do tmavého večera
+2024.0,Lucie Kunešová,žena,Ztracena v čase
+2024.0,Daniel Krásný,muž,Druhý dech
+2024.0,Marek Toman,muž,České sklo
+2024.0,Marie Domská,žena,Nejasné hranice
+2024.0,Blanka Luxová,žena,Je to jenom sranda
+2024.0,Petr Eidler,muž,Kandidáti na vraha
+2024.0,Aleš Novotný,muž,Úděsné dny Adély H.
+2024.0,Jiří Březina,muž,Labuť a lovec
+2024.0,Adéla Rosípalová,žena,Lásky čas
+2024.0,Michal Sabó,muž,Krvavý sníh
+2024.0,Kateřina Chalupníková,žena,MaminkOFF
+2024.0,Aneta Kollerová Mašková,žena,Každý den je Valentýn
+2024.0,Kristýna Trpková,žena,Někdo z nás
+2024.0,Lucie Srňánková,žena,"Ano, pane Božský"
+2024.0,Lucie Hušková,žena,Kolem dokola
+2024.0,Ondřej Ušel,neá,Země růží
+2024.0,Šárka Andrlová,žena,Tajemství domu v L.
+2024.0,Ilona Dobrovolná,žena,Panoptikum pana Perkinse
+2024.0,Tereza Bartošová,žena,Dceřina kletba
+2024.0,Martin Nesměrák,muž,Písařovo pole
+2024.0,Lenka Potůčková,žena,Dálnice
+2024.0,Jan Hlubek,muž,Tenkrát v Texasu
+2024.0,Marcela Mlynářová,žena,Život začíná po přechodu
+2024.0,Jana Hrabovská,žena,Poslední zvonění pro vraha
+2024.0,Petr Bým,muž,Vraždy v červeném domě
+2024.0,Hana Lundiaková,žena,Planetky
+2024.0,Alex Walló,muž,Muž vdaných žen
+2024.0,Mirka Skočílková,žena,Červená nit osudu
+2024.0,Milena Štráfeldová,žena,Friedrich řečený Bedřich
+2024.0,Michaela Merglová,žena,Za pět minut zvoní
+2024.0,Petr Vydra,muž,Deset deka Dekameronu
+2024.0,Dorota Ambrožová,žena,Poslední léto
+2024.0,Boris Dočekal,muž,Krátký román o přátelství
+2024.0,Jan Šimek,muž,Promrhaná něha
+2024.0,David Urban,muž,Vražedná splátka
+2024.0,Karla Kubíková,žena,Dům na konci ulice
+2024.0,Michal Sirotek,muž,Znamení padlých
+2024.0,Pavel Kohout,muž,Taková láska
+2024.0,Martina Boučková,žena,Šílená babička
+2024.0,Michaela Janečková,žena,Jelita & jitrnice
+2024.0,Daniela Šafránková,žena,Za čárou
+2024.0,Michal Zmítko,muž,Meč pro krále
+2024.0,Tereza Herzogová,žena,Tichá pošta
+2024.0,Miriam Blahová,žena,Příběh mateřídoušky
+2024.0,Veronika Opatřilová,žena,Píseň L.
+2024.0,Iva Hadj Moussa,žena,Těžké duše
+2024.0,Tomáš Neuwirth,muž,Sci-fi povídky z Jesenicka
+2024.0,Petr Sagitarius,muž,Náraz
+2024.0,Johana Kral,žena,Skandální plán
+2024.0,Lukáš Křišťan,muž,Bestie v uniformě
+2024.0,Jiří Homola,muž,Ovál
+2024.0,David Jařab,muž,Amerikánka
+2024.0,Ladislav Klimeš,muž,Kolaborant
+2024.0,Sára Vůchová,žena,Sphinx
+2024.0,Kateřina Surmanová,žena,Tři Sekery
+2024.0,Alena Mornštajnová,žena,Útěky někam jinam
+2024.0,Petr Bílek,muž,Příběhy (ne)obyčejného sportovního šílenství
+2024.0,Šárka Przewozná,žena,Skutečná
+2024.0,Ondřej Blaho,muž,Severní den
+2024.0,Anna Strnadová,žena,Život na pavoučím vlákně
+2024.0,Veronika Vrzalová,žena,"Florencie, moje (sebe)láska"
+2024.0,M. K Hardy,žena,Divoká Afrika
+2024.0,Petra Klabouchová,žena,Ignis fatuus
+2024.0,Kateřina Blažková,žena,"Tifana, dcera Měsíce"
+2024.0,Monika Zgustová,žena,Jsem Milena z Prahy
+2024.0,Libor Kotačka,muž,Každý má svou duhu
+2024.0,Jiří B. Mayer,muž,Závojnatky
+2024.0,Eva Michorová,žena,"Zpověď stárnoucí trosky, která má psa"
+2024.0,Jan Bauer,muž,Pomsta dánského krále
+2024.0,Melita Denková,žena,Královna Viola
+2024.0,Anna Moricová,žena,Jako slon v porcelánu
+2024.0,Filip Klouda,muž,Neonová cizinka
+2024.0,Michal Viewegh,muž,Obyčejná laskavost
+2024.0,Veronika Válková,žena,Indie
+2024.0,Klára Elšíková,žena,Pacanka
+2024.0,Tereza Semotamová,žena,Radikální potřeby
+2024.0,Alena Jakoubková,žena,Není sestra jako sestra
+2024.0,Vlastimil Vondruška,muž,Prokletí rodu Janoviců
+2024.0,Vladimír Kořen,muž,Řeka zázraků
+2024.0,Daniela Nacházelová,žena,Krajina těla
+2024.0,Lucie Lukačovičová,žena,Chrám Azylu
+2024.0,Marie Rejfová,žena,Jak se vaří netopýři
+2024.0,Jan Štifter,muž,Krajina roztavených zvonů
+2024.0,Ondřej Škrabal,muž,Druhé Německo
+2024.0,Adriana Krnáčová,žena,Nemesis
+2024.0,Karol Sidon,muž,Lež má krátké nohy
+2024.0,Ema Labudová,žena,Ani minuta ticha
+2024.0,Marta Knauerová,žena,"Život za krejcar, smrt za dva"
+2024.0,D. B. Peck,žena,Sociopat
+2024.0,Martina Novotná,žena,Případ mizejících nevěstek
+2024.0,Šárka Hieková,žena,Léto na zámku
+2024.0,Václav Gruber,muž,Případ ztraceného psa
+2024.0,Luděk Kubát,muž,Kdo má právo zabít?
+2024.0,Lucie Šilhová,žena,Pozná kardiolog zlomené srdce?
+2024.0,Marie Macková,žena,Pod zelenou pečetí
+2024.0,Ladislav Beran,muž,Černá smrt
+2024.0,Nika Peas,žena,Chráním tě
+2024.0,Tomáš Sekerka,muž,Čas krmení
+2024.0,Václav Kořínek,muž,Aknael
+2024.0,Karel Kostka,muž,Ve jménu minulosti
+2024.0,Ondřej Neff,muž,Zlatý pomeranč
+2024.0,Hynek Klimek,muž,Staré šumavské legendy
+2024.0,Petr Heteša,muž,Tanec na sopce

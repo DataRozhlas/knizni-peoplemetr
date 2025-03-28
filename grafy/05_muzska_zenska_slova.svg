@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg viewBox="0 0 428 394" xmlns="http://www.w3.org/2000/svg">
- <rect width="428" height="394" fill="#fff"/>
+<svg viewBox="0 0 428 354" xmlns="http://www.w3.org/2000/svg">
+ <rect width="428" height="354" fill="#fff"/>
  <g transform="translate(0)">
-  <ns0:rect width="428" height="354" fill="white" xmlns:ns0="http://www.w3.org/2000/svg"/>
-  <ns1:g transform="translate(65,108)" fill="none" stroke-miterlimit="10" xmlns:ns1="http://www.w3.org/2000/svg">
+  <ns0:rect width="428" height="337" fill="white" xmlns:ns0="http://www.w3.org/2000/svg"/>
+  <ns1:g transform="translate(65,91)" fill="none" stroke-miterlimit="10" xmlns:ns1="http://www.w3.org/2000/svg">
    <ns1:g class="mark-group role-frame root" aria-roledescription="group mark container" role="graphics-object">
     <ns1:g transform="translate(0)">
      <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
@@ -26,7 +26,7 @@
           <ns1:g transform="translate(.5 .5)" pointer-events="none">
            <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
            <ns1:g>
-            <ns1:g class="mark-rule role-axis-tick" stroke="#DCDDD6">
+            <ns1:g class="mark-rule role-axis-tick" stroke="white">
              <ns1:line transform="translate(0,10)" x2="-5" y2="0"/>
              <ns1:line transform="translate(0,30)" x2="-5" y2="0"/>
              <ns1:line transform="translate(0,50)" x2="-5" y2="0"/>
@@ -40,7 +40,7 @@
              <ns1:line transform="translate(0,210)" x2="-5" y2="0"/>
              <ns1:line transform="translate(0,230)" x2="-5" y2="0"/>
             </ns1:g>
-            <ns1:g class="mark-text role-axis-label" fill="#000" font-family="Asap" font-size="9px" text-anchor="end">
+            <ns1:g class="mark-text role-axis-label" fill="#292829" font-family="Asap" font-size="9px" text-anchor="end">
              <ns1:text transform="translate(-7 12)">pistole</ns1:text>
              <ns1:text transform="translate(-7 32)">prezident</ns1:text>
              <ns1:text transform="translate(-7 52)">ruský</ns1:text>
@@ -94,7 +94,7 @@
            <ns1:path class="background" d="M0,0h0v0h0Z" pointer-events="none" aria-hidden="true"/>
            <ns1:g>
             <ns1:g class="mark-text role-title-text" pointer-events="none" aria-label="Title text 'mužští autoři'" aria-roledescription="title" role="graphics-symbol">
-             <ns1:text transform="translate(0,-2)" fill="#000" font-family="Noticia Text" font-size="10px" font-weight="bolder" text-anchor="middle">mužští autoři</ns1:text>
+             <ns1:text transform="translate(0,-2)" fill="#292829" font-family="Noticia Text" font-size="10px" font-weight="bolder" text-anchor="middle">mužští autoři</ns1:text>
             </ns1:g>
            </ns1:g>
            <ns1:path class="foreground" d="" display="none" pointer-events="none" aria-hidden="true"/>
@@ -122,7 +122,7 @@
           <ns1:g transform="translate(.5 .5)" pointer-events="none">
            <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
            <ns1:g>
-            <ns1:g class="mark-rule role-axis-tick" stroke="#DCDDD6">
+            <ns1:g class="mark-rule role-axis-tick" stroke="white">
              <ns1:line transform="translate(0,10)" x2="-5" y2="0"/>
              <ns1:line transform="translate(0,30)" x2="-5" y2="0"/>
              <ns1:line transform="translate(0,50)" x2="-5" y2="0"/>
@@ -136,7 +136,7 @@
              <ns1:line transform="translate(0,210)" x2="-5" y2="0"/>
              <ns1:line transform="translate(0,230)" x2="-5" y2="0"/>
             </ns1:g>
-            <ns1:g class="mark-text role-axis-label" fill="#000" font-family="Asap" font-size="9px" text-anchor="end">
+            <ns1:g class="mark-text role-axis-label" fill="#292829" font-family="Asap" font-size="9px" text-anchor="end">
              <ns1:text transform="translate(-7 12)">babi</ns1:text>
              <ns1:text transform="translate(-7 32)">pyžamo</ns1:text>
              <ns1:text transform="translate(-7 52)">salát</ns1:text>
@@ -190,7 +190,7 @@
            <ns1:path class="background" d="M0,0h0v0h0Z" pointer-events="none" aria-hidden="true"/>
            <ns1:g>
             <ns1:g class="mark-text role-title-text" pointer-events="none" aria-label="Title text 'ženské autorky'" aria-roledescription="title" role="graphics-symbol">
-             <ns1:text transform="translate(0,-2)" fill="#000" font-family="Noticia Text" font-size="10px" font-weight="bolder" text-anchor="middle">ženské autorky</ns1:text>
+             <ns1:text transform="translate(0,-2)" fill="#292829" font-family="Noticia Text" font-size="10px" font-weight="bolder" text-anchor="middle">ženské autorky</ns1:text>
             </ns1:g>
            </ns1:g>
            <ns1:path class="foreground" d="" display="none" pointer-events="none" aria-hidden="true"/>
@@ -201,17 +201,16 @@
        </ns1:g>
       </ns1:g>
       <ns1:g class="mark-group role-title">
-       <ns1:g transform="translate(-60 -92)" pointer-events="none">
+       <ns1:g transform="translate(-60 -76)" pointer-events="none">
         <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
         <ns1:g>
          <ns1:g class="mark-text role-title-text" aria-label="Title text 'Spisovatelky píšou častěji o ženách, muži o střelbě'" aria-roledescription="title" role="graphics-symbol">
-          <ns1:text transform="translate(0,-1)" fill="#000" font-family="Noticia Text" font-size="12px" font-weight="bolder">Spisovatelky píšou častěji o ženách, muži o střelbě</ns1:text>
+          <ns1:text transform="translate(0,-1)" fill="#292829" font-family="Noticia Text" font-size="12px" font-weight="bolder">Spisovatelky píšou častěji o ženách, muži o střelbě</ns1:text>
          </ns1:g>
-         <ns1:g class="mark-text role-title-subtitle" aria-label="Subtitle text 'Srovnání vychází z 13 tisíc stran ukázek z próz 427 českých autorek a 359 českých autorů z let 2019 až 2025. Obsahuje pouze slova, která se vyskytla alespoň v 50 různých knihách.'" aria-roledescription="subtitle" role="graphics-symbol">
-          <ns1:text transform="translate(0,20)" fill="#000" font-family="Noticia Text" font-size="10px">
-           <ns1:tspan>Srovnání vychází z 13 tisíc stran ukázek z próz 427 českých autorek</ns1:tspan>
-           <ns1:tspan x="0" dy="15">a 359 českých autorů z let 2019 až 2025. Obsahuje pouze slova,</ns1:tspan>
-           <ns1:tspan x="0" dy="15">která se vyskytla alespoň v 50 různých knihách.</ns1:tspan>
+         <ns1:g class="mark-text role-title-subtitle" aria-label="Subtitle text 'Srovnání z 13 tisíc stran ukázek z próz 427 českých autorek a 359 autorů z let 2019-2025. Obsahuje pouze slova, která se vyskytla alespoň v 50 různých knihách.'" aria-roledescription="subtitle" role="graphics-symbol">
+          <ns1:text transform="translate(0 20)" fill="#292829" font-family="Noticia Text" font-size="10px">
+           <ns1:tspan>Srovnání z 13 tisíc stran ukázek z próz 427 českých autorek a 359 autorů z let 2019-2025.</ns1:tspan>
+           <ns1:tspan x="0" dy="15">Obsahuje pouze slova, která se vyskytla alespoň v 50 různých knihách.</ns1:tspan>
           </ns1:text>
          </ns1:g>
         </ns1:g>
@@ -224,15 +223,15 @@
    </ns1:g>
   </ns1:g>
  </g>
- <g transform="translate(109,354)">
-  <ns0:rect width="319" height="40" fill="white" xmlns:ns0="http://www.w3.org/2000/svg"/>
-  <ns1:g transform="translate(114,5)" fill="none" stroke-miterlimit="10" xmlns:ns1="http://www.w3.org/2000/svg">
+ <g transform="translate(119,337)">
+  <ns0:rect width="309" height="17" fill="white" xmlns:ns0="http://www.w3.org/2000/svg"/>
+  <ns1:g transform="translate(109)" fill="none" stroke-miterlimit="10" xmlns:ns1="http://www.w3.org/2000/svg">
    <ns1:g class="mark-group role-frame root" aria-roledescription="group mark container" role="graphics-object">
     <ns1:g transform="translate(0)">
-     <ns1:path class="background" d="M0.5,0.5h200v30h-200Z" aria-hidden="true"/>
+     <ns1:path class="background" d="M0.5,0.5h200v15h-200Z" aria-hidden="true"/>
      <ns1:g>
       <ns1:g class="mark-text role-mark marks" aria-roledescription="text mark container" role="graphics-object">
-       <ns1:text transform="translate(200,12)" fill="black" font-family="Asap" font-size="8px" text-anchor="end" aria-label="text: data: Česká národní bibliografie, Wikidata, Martinus.cz | vizualizace: iROZHLAS.cz | 2025" aria-roledescription="text mark" role="graphics-symbol">data: Česká národní bibliografie, Wikidata, Martinus.cz | vizualizace: iROZHLAS.cz | 2025</ns1:text>
+       <ns1:text transform="translate(200 14)" fill="#292829" font-family="Asap" font-size="8px" text-anchor="end" aria-label="text: data: Česká národní bibliografie, Wikidata, Martinus.cz | vizualizace: iROZHLAS.cz | 2025" aria-roledescription="text mark" role="graphics-symbol">data: Česká národní bibliografie, Wikidata, Martinus.cz | vizualizace: iROZHLAS.cz | 2025</ns1:text>
       </ns1:g>
      </ns1:g>
      <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
