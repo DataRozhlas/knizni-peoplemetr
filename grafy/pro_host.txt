@@ -1,0 +1,5 @@
+<figure>
+    <a href="https://data.irozhlas.cz/knihy-grafy/pro_host.svg" target="_blank">
+    <img src="https://data.irozhlas.cz/knihy-grafy/pro_host.svg" width="100%" alt="Graf s titulkem „Knihy, jejichž metadata obsahují slova související s (ne)produktivitou“. Další texty by měly být čitelné ze zdrojového souboru SVG." />
+    </a>
+    </figure>
