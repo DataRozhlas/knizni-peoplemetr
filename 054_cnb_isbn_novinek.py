@@ -14,7 +14,7 @@ def najdi_rok(nn8):
         if nn8[6] in 'stdemcur':
             return int(nn8[7:11])
     except (ValueError, IndexError):
-        pass  # Handle invalid input gracefully
+        pass
     return None
         
 df['rok'] = df['008'].apply(lambda x: najdi_rok(x))

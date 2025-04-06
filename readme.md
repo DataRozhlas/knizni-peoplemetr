@@ -2,8 +2,10 @@ Pestrá data o knihách, zvláště těch českých. Základ [seriálu datových
 
 ## Co tu je
 
-- Opracovaná data o knihách a spisovatelstvu z České národní bibliografie, Databáze národních autorit a Wikidat.
-- Co týden scrapované hodnocení beletristických novinek na Goodreads a Databázi knih.
+- Skripty pro opracování dat o knihách a spisovatelstvu z České národní bibliografie, Databáze národních autorit, Wikidat a dalších zdrojů.
+- Část těchto dat (ve složece ```data```).
+- Co týden scrapované hodnocení beletristických novinek na Goodreads a Databázi knih (ve složce ```data```).
+- Jupyter sešity s explorací dat i produkčními výpočty pro články.
 
 ## Jak to funguje
 
