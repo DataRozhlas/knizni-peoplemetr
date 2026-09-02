@@ -10,7 +10,7 @@ from bs4 import BeautifulSoup
 import pandas as pd
 
 
-with open(os.path.join("data_raw", "sledovat_vanoce_2024.json"), "r") as json_file:
+with open(os.path.join("/mnt/usbdrive/knizni-peoplemetr/data_raw", "sledovat_vanoce_2024.json"), "r") as json_file:
     isbns = json.load(json_file)
 
 print(f"Položek ke stažení: {len(isbns)}")
@@ -102,8 +102,8 @@ print(date_string)
 
 #if not os.path.exists(f"data_raw/databazeknih/{date_string}"):
 #    os.makedirs(f"data_raw/databazeknih/{date_string}")
-if not os.path.exists(f"data_raw/databazeknih/vanoce_2024"):
-    os.makedirs(f"data_raw/databazeknih/vanoce_2024")
+if not os.path.exists("/mnt/usbdrive/knizni-peoplemetr/data_raw/databazeknih/vanoce_2024"):
+    os.makedirs("/mnt/usbdrive/knizni-peoplemetr/data_raw/databazeknih/vanoce_2024")
 
 dknih = []
 count = 0
@@ -115,7 +115,7 @@ for i in isbns:
     if count % 20 == 0:
         pd.DataFrame(dknih).to_json(
             os.path.join(
-                f"data_raw/databazeknih/vanoce_2024",
+                f"/mnt/usbdrive/knizni-peoplemetr/data_raw/databazeknih/vanoce_2024",
 #                f"data_raw/databazeknih/{date_string}",
                 f"databazeknih_{date_string}_{(int(count/20)):04d}.json",
             )
@@ -124,7 +124,7 @@ for i in isbns:
         dknih = []
 pd.DataFrame(dknih).to_json(
     os.path.join(
-        f"data_raw/databazeknih/vanoce_2024",
+        f"/mnt/usbdrive/knizni-peoplemetr/data_raw/databazeknih/vanoce_2024",
 #        f"data_raw/databazeknih/{date_string}",
         f"databazeknih_{date_string}_{(int(count/20)):04d}.json",
     )

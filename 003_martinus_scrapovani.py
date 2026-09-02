@@ -10,7 +10,7 @@ import pandas as pd
 
 try:
 
-    raw = pd.read_json(os.path.join("data_raw", "martinus_raw.json"))
+    raw = pd.read_json(os.path.join("/mnt/usbdrive/knizni-peoplemetr/data_raw", "martinus_raw.json"))
     oscrapovane = raw["M_soubor"].to_list()
     oscrapovane = [o for o in oscrapovane if isinstance(o, str)]
     print(
@@ -26,7 +26,7 @@ except Exception as E:
     raw = pd.DataFrame()
     oscrapovane = []
 
-slozky = [item for item in os.listdir("downloads/martinus")]
+slozky = [item for item in os.listdir("/mnt/usbdrive/knizni-peoplemetr/downloads/martinus")]
 
 
 def scrape_martinus(stranka):
@@ -142,7 +142,7 @@ knihy = []
 
 for s in slozky:
 
-    odkud_brat = f"downloads/martinus/{s}"
+    odkud_brat = f"/mnt/usbdrive/knizni-peoplemetr/downloads/martinus/{s}"
 
     for i in os.listdir(odkud_brat):
 
@@ -167,5 +167,5 @@ df = pd.DataFrame(knihy)
 df = pd.concat([df, raw])
 
 df.reset_index(drop=True).to_json(
-    os.path.join("data_raw", "martinus_raw.json"), orient='records'
+    os.path.join("/mnt/usbdrive/knizni-peoplemetr/data_raw", "martinus_raw.json"), orient='records'
 )

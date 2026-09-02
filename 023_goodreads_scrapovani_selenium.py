@@ -14,11 +14,11 @@ from selenium.webdriver.support import expected_conditions as EC
 from pyvirtualdisplay import Display
 
 
-gr = pd.read_csv(os.path.join("data","goodreads-hodnoceni.csv"))
+gr = pd.read_csv(os.path.join("/mnt/usbdrive/knizni-peoplemetr/data","goodreads-hodnoceni.csv"))
 gr = gr[gr['GR_ratings_count'] > 0]
 isbns = [int(x) for x in gr['GR_isbn'].drop_duplicates().to_list()]
 try:
-    with open(os.path.join("data_raw","rucni_sledovat.json"), "r", encoding="utf-8") as rucni:
+    with open(os.path.join("/mnt/usbdrive/knizni-peoplemetr/data_raw","rucni_sledovat.json"), "r", encoding="utf-8") as rucni:
         rucni = json.loads(rucni.read())
 except:
     rucni = []
@@ -97,8 +97,8 @@ def scrape_goodreads_selenium(isbn):
 current_date = datetime.datetime.now()
 date_string = current_date.strftime("%Y_%m_%d")
 
-if not os.path.exists(f"data_raw/goodreads_selenium/{date_string}"):
-    os.makedirs(f"data_raw/goodreads_selenium/{date_string}")
+if not os.path.exists(f"/mnt/usbdrive/knizni-peoplemetr/data_raw/goodreads_selenium/{date_string}"):
+    os.makedirs(f"/mnt/usbdrive/knizni-peoplemetr/data_raw/goodreads_selenium/{date_string}")
 
 greads = []
 count = 0
@@ -110,7 +110,7 @@ for i in isbns:
     if (count % 10 == 0) and (count != 0):
         pd.DataFrame(greads).to_json(
             os.path.join(
-                f"data_raw/goodreads_selenium/{date_string}",
+                f"/mnt/usbdrive/knizni-peoplemetr/data_raw/goodreads_selenium/{date_string}",
                 f"goodreads_selenium_{date_string}_{(int(count/10)):04d}.json",
             )
         )
@@ -118,7 +118,7 @@ for i in isbns:
         greads = []
 pd.DataFrame(greads).to_json(
     os.path.join(
-        f"data_raw/goodreads_selenium/{date_string}",
+        f"/mnt/usbdrive/knizni-peoplemetr/data_raw/goodreads_selenium/{date_string}",
         f"goodreads_selenium_{date_string}_{(int(count/10)):04d}.json",
     )
 )

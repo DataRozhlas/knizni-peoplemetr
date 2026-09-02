@@ -12,11 +12,11 @@ import datetime
 
 import pandas as pd
 
-slozky = [item.split(".")[0] for item in os.listdir("data_raw/martinus_linky")]
+slozky = [item.split(".")[0] for item in os.listdir("/mnt/usbdrive/knizni-peoplemetr/data_raw/martinus_linky")]
 
 try:
 
-    smazat = pd.read_json(os.path.join("data_raw","smazat.json"))
+    smazat = pd.read_json(os.path.join("/mnt/usbdrive/knizni-peoplemetr/data_raw","smazat.json"))
 
     smazat = smazat['soubor'].to_list()
 
@@ -42,7 +42,7 @@ def prosekej(x):
 
 for s in slozky:
 
-    kam_stahovat = f'downloads/martinus/{s}'
+    kam_stahovat = f'/mnt/usbdrive/knizni-peoplemetr/downloads/martinus/{s}'
 
     if not os.path.exists(kam_stahovat):
 
@@ -58,7 +58,7 @@ for s in slozky:
 
     stazene = os.listdir(kam_stahovat)
 
-    with open(os.path.join("data_raw/martinus_linky",f'{s}.txt')) as linky:
+    with open(os.path.join("/mnt/usbdrive/knizni-peoplemetr/data_raw/martinus_linky",f'{s}.txt')) as linky:
 
         linky = [l.strip() for l in linky.readlines()]
 

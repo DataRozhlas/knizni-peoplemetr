@@ -10,7 +10,7 @@ import re
 
 import pandas as pd
 
-path = 'data_raw/databazeknih/**/*.json'
+path = '/mnt/usbdrive/knizni-peoplemetr/data_raw/databazeknih/**/*.json'
 
 
 
@@ -59,7 +59,7 @@ df = df.dropna(subset=['DK_isbn','DK_ratings_count'])
 print(f"Řádků v dataframe: {len(df)}")
 
 try:
-    with open(os.path.join('data_raw','rucni_nesledovat.txt'), "r", encoding="utf-8") as file:
+    with open(os.path.join('/mnt/usbdrive/knizni-peoplemetr/data_raw','rucni_nesledovat.txt'), "r", encoding="utf-8") as file:
         nesledovat = [x.strip() for x in file.read().splitlines()]
         df = df[~df['DK_isbn'].isin(nesledovat)]
 except:
@@ -71,8 +71,8 @@ df['den'] = pd.to_datetime(df['DK_date'])
 df['hodina'] = df['den'].dt.hour
 df['den'] = df['den'].dt.day_name()
 
-df[(df['den'] != 'Monday') | (df['hodina'] > 8)].drop(columns=['den','hodina']).to_csv(os.path.join("data","databazeknih-hodnoceni-extra.csv"), index=False, encoding="utf-8", header=True)
-df[(df['den'] == 'Monday') & (df['hodina'] <= 8)].drop(columns=['den','hodina']).to_csv(os.path.join("data","databazeknih-hodnoceni.csv"), index=False, encoding="utf-8", header=True)
+df[(df['den'] != 'Monday') | (df['hodina'] > 8)].drop(columns=['den','hodina']).to_csv(os.path.join("/mnt/usbdrive/knizni-peoplemetr/data","databazeknih-hodnoceni-extra.csv"), index=False, encoding="utf-8", header=True)
+df[(df['den'] == 'Monday') & (df['hodina'] <= 8)].drop(columns=['den','hodina']).to_csv(os.path.join("/mnt/usbdrive/knizni-peoplemetr/data","databazeknih-hodnoceni.csv"), index=False, encoding="utf-8", header=True)
 
 print("Hotovo.")
 

@@ -5,7 +5,7 @@ import os
 import json
 import pandas as pd
 
-df = pd.read_json(os.path.join("data_raw", "martinus_raw.json"))
+df = pd.read_json(os.path.join("/mnt/usbdrive/knizni-peoplemetr/data_raw", "martinus_raw.json"))
 
 vyhodit = ["M_naše_katalogové_číslo", "soubor", "M_filmové_zpracování"]
 for v in vyhodit:
@@ -26,11 +26,11 @@ for i in na_int:
     if i in df.columns.to_list():
         df[i] = pd.to_numeric(df[i], errors="coerce", downcast="integer")
 
-if not os.path.exists("data"):
-    os.makedirs("data")
+if not os.path.exists("/mnt/usbdrive/knizni-peoplemetr/data"):
+    os.makedirs("/mnt/usbdrive/knizni-peoplemetr/data")
 
-if not os.path.exists("data_raw"):
-    os.makedirs("data_raw")
+if not os.path.exists("/mnt/usbdrive/knizni-peoplemetr/data_raw"):
+    os.makedirs("/mnt/usbdrive/knizni-peoplemetr/data_raw")
 
 if "M_předběžné_datum_vydání" in df.columns.to_list():
 
@@ -70,7 +70,7 @@ puvod[puvod["M_původ"] == "Česko"]
 
 try:
 
-    with open(os.path.join("data_raw", "nesledovat.json")) as nesledovat:
+    with open(os.path.join("/mnt/usbdrive/knizni-peoplemetr/data_raw", "nesledovat.json")) as nesledovat:
         nesledovat = json.load(nesledovat)
 
 except:
@@ -94,7 +94,7 @@ else:
     )
 
 puvod[condition][["M_titul", "M_autorstvo", "M_isbn","M_nakladatel"]].reset_index().to_json(
-    os.path.join("data_raw", "martinus_sledovat.json")
+    os.path.join("/mnt/usbdrive/knizni-peoplemetr/data_raw", "martinus_sledovat.json")
 )
 
 print("Data pročištěna.")

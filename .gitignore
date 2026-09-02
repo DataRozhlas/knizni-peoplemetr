@@ -26,6 +26,8 @@ mapy/
 rucni_zaloha/
 stare/
 999_deploy_grafu.py
+__marimo__
+*.parquet
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

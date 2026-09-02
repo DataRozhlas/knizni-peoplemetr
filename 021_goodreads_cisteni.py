@@ -5,7 +5,7 @@ import glob
 import json
 import pandas as pd
 
-path = "data_raw/goodreads/**/*.json"
+path = "/mnt/usbdrive/knizni-peoplemetr/data_raw/goodreads/**/*.json"
 
 all_files = glob.glob(path, recursive=True)
 
@@ -41,7 +41,7 @@ df['hodina'] = df['den'].dt.hour
 df['den'] = df['den'].dt.day_name()
 
 df[(df['den'] != 'Monday') | (df['hodina'] > 8)].drop(columns=['den','hodina']).to_csv(
-    os.path.join("data", "goodreads-hodnoceni-extra.csv"),
+    os.path.join("/mnt/usbdrive/knizni-peoplemetr/data", "goodreads-hodnoceni-extra.csv"),
     index=False,
     encoding="utf-8",
     header=True,
@@ -53,14 +53,14 @@ df = df[
 ]
 
 try:
-    with open(os.path.join('data_raw','rucni_nesledovat.txt'), "r", encoding="utf-8") as file:
+    with open(os.path.join('/mnt/usbdrive/knizni-peoplemetr/data_raw','rucni_nesledovat.txt'), "r", encoding="utf-8") as file:
         nesledovat = [x.strip() for x in file.read().splitlines()]
         df = df[~df['GR_isbn'].isin(nesledovat)]
 except:
     pass
 
 df[(df['den'] == 'Monday') & (df['hodina'] <= 12)].drop(columns=['den','hodina']).to_csv(
-    os.path.join("data", "goodreads-hodnoceni.csv"),
+    os.path.join("/mnt/usbdrive/knizni-peoplemetr/data", "goodreads-hodnoceni.csv"),
     index=False,
     encoding="utf-8",
     header=True,

@@ -6,9 +6,9 @@ import requests
 
 from bs4 import BeautifulSoup
 
-if not os.path.exists("data_raw/martinus_linky"):
+if not os.path.exists("/mnt/usbdrive/knizni-peoplemetr/data_raw/martinus_linky"):
 
-    os.makedirs("data_raw/martinus_linky")
+    os.makedirs("/mnt/usbdrive/knizni-peoplemetr/data_raw/martinus_linky")
 
 seznamy = {
     "martinus-beletrie.txt": "https://www.martinus.cz/l?categories%5B0%5D=6100&origins%5B0%5D=265851&specials%5B0%5D=available&sort=release_date+desc&page=",
@@ -24,7 +24,7 @@ def dopln_novinky(slovnik):
         sez = list(set(sez))
 
         with open(
-            os.path.join("data_raw/martinus_linky", s), "w+", encoding="utf-8"
+            os.path.join("/mnt/usbdrive/knizni-peoplemetr/data_raw/martinus_linky", s), "w+", encoding="utf-8"
         ) as f1:
 
             f1.write("\n".join(sez))
@@ -60,7 +60,7 @@ def dopln_novinky(slovnik):
         try:
 
             with open(
-                os.path.join("data_raw/martinus_linky", s), "r", encoding="utf-8"
+                os.path.join("/mnt/usbdrive/knizni-peoplemetr/data_raw/martinus_linky", s), "r", encoding="utf-8"
             ) as f2:
 
                 seznam_knih = f2.read().splitlines()

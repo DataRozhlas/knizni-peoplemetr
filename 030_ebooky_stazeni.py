@@ -23,26 +23,51 @@ driver = webdriver.Firefox()
 
 def stahni_ebook(isbn, url):
     if isbn not in stazene:
+        sleep(randint(2,7))
         driver.get(url)
-        element = WebDriverWait(driver, 20).until(
-            EC.element_to_be_clickable(
-                (By.XPATH, "//span[@class='show-m' and text()='Stáhnout ukázku']")
+        print(f"iniciována funkce stahni_ebook: {url}")
+        
+        try:
+            # 1. WAIT FOR PAGE TO FULLY LOAD
+            # This checks the browser's internal ready state
+            WebDriverWait(driver, 20).until(
+                lambda d: d.execute_script('return document.readyState') == 'complete'
             )
-        )
-        element.click()
-        sleep(randint(4,7))
-        links = driver.find_elements(By.XPATH, "//a[contains(@href, 'dibuk.eu')]")
-        odkazy = [link.get_attribute("href") for link in links]
-        for o in odkazy:
-            filename = f"""{isbn}.{o.split("/")[-1]}"""
-            try:
-                response = requests.get(o)
-                with open(os.path.join(kam, filename), "wb") as f:
-                    f.write(response.content)
-            except Exception as E:
-                print(E)
-                pass
+
+            # Wait for the preview button to be clickable
+            element = WebDriverWait(driver, 20).until(
+                EC.element_to_be_clickable(
+                    (By.XPATH, "//span[@class='show-m' and text()='Prohlédnout ukázku']")
+                )
+            )
+            element.click()
+            print("Klikám na Stáhnout ukázku.")
+            
+            # 2. WAIT FOR SPECIFIC ELEMENTS INSTEAD OF SLEEP
+            # Replaces sleep(randint(4,7)) by waiting exactly until the links appear in the DOM
+            links = WebDriverWait(driver, 20).until(
+                EC.presence_of_all_elements_located(
+                    (By.XPATH, "//a[contains(@href, 'dibuk.eu')]")
+                )
+            )
+            
+            odkazy = [link.get_attribute("href") for link in links]
+            
+            for o in odkazy:
+                filename = f"{isbn}.{o.split('/')[-1]}"
+                try:
+                    response = requests.get(o)
+                    print("Uloveno!")
+                    with open(os.path.join(kam, filename), "wb") as f:
+                        f.write(response.content)
+                except Exception as E:
+                    print(f"Chyba při stahování: {E}")
+                    
+        except Exception as e:
+            # Catching TimeoutExceptions so the script doesn't crash if a book is missing the button
+            print(f"Prvky nenalezeny pro {isbn}: {e}")
     else:
+        print("Tuto knihu jsme již stáhli.")
         pass
 
 
@@ -53,7 +78,6 @@ df = df[(df["M_ebook"] != False) & (df["delka_isbn"] == 13)]
 df = df.sample(frac = 1)
 
 for index, row in df[["M_isbn", "M_ebook"]].iterrows():
-    sleep(randint(2,7))
     pocitadlo += 1
     print(
         f"{pocitadlo}/{len(df[df['M_ebook'] != False]) - len(stazene)}: stahuji knihu s ISBN {row['M_isbn']}"

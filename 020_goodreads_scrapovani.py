@@ -13,13 +13,13 @@ import pandas as pd
 
 if len(sys.argv) == 2:
 
-    with open(os.path.join("data_raw", sys.argv[-1]), "r") as json_file:
+    with open(os.path.join("/mnt/usbdrive/knizni-peoplemetr/data_raw", sys.argv[-1]), "r") as json_file:
         isbns = json.load(json_file)    
     pripona = sys.argv[-1].split(".")[0]
 
 if len(sys.argv) == 1:
 
-    with open(os.path.join("data_raw", "sledovat.json"), "r") as json_file:
+    with open(os.path.join("/mnt/usbdrive/knizni-peoplemetr/data_raw", "sledovat.json"), "r") as json_file:
         isbns = json.load(json_file)
     pripona = "pravidelne"
 
@@ -146,8 +146,8 @@ current_date = datetime.datetime.now()
 date_string = current_date.strftime("%Y_%m_%d")
 print(date_string)
 
-if not os.path.exists(f"data_raw/goodreads/{date_string}"):
-    os.makedirs(f"data_raw/goodreads/{date_string}")
+if not os.path.exists(f"/mnt/usbdrive/knizni-peoplemetr/data_raw/goodreads/{date_string}"):
+    os.makedirs(f"/mnt/usbdrive/knizni-peoplemetr/data_raw/goodreads/{date_string}")
 
 greads = []
 count = 0
@@ -164,7 +164,7 @@ for i in isbns:
             try:
                 pd.DataFrame(greads).to_json(
                     os.path.join(
-                        f"data_raw/goodreads/{date_string}",
+                        f"/mnt/usbdrive/knizni-peoplemetr/data_raw/goodreads/{date_string}",
                         f"goodreads_{date_string}_{pripona}_{(int(count/50)):04d}.json",
                     )
                 )
@@ -175,7 +175,7 @@ for i in isbns:
                 pass
 pd.DataFrame(greads).to_json(
     os.path.join(
-        f"data_raw/goodreads/{date_string}",
+        f"/mnt/usbdrive/knizni-peoplemetr/data_raw/goodreads/{date_string}",
         f"goodreads_{date_string}_{(int(count/50)):04d}.json",
     )
 )
