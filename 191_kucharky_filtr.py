@@ -25,10 +25,12 @@ def _(pl):
         "490_a",
         "650_a",
         "655_a",
-        "001"
+        "001",
     ]
 
-    pouzivane_sloupce = sorted(set(x[0:3] for x in pouzivane_sloupce_full if x != '001'))
+    pouzivane_sloupce = sorted(
+        set(x[0:3] for x in pouzivane_sloupce_full if x != "001")
+    )
 
     print(pouzivane_sloupce)
 
@@ -80,13 +82,15 @@ def _(lf, pl):
         ("650_a", "kuchařství"),
         ("655_a", "kuchařské recepty"),
         ("655_a", "cookbooks"),
-        ("245_a", "recept[^á]"),
-        ("245_a", "kuchař"),
+        ("245_a", r"recept[^á\s]"),
+        ("245_a", "kuchařk"),
         ("245_a", "pečeme"),
+        ("245_a", r"[^\w]pečení"),
         ("245_a", "vaříme"),
+        ("245_a", "vaření"),
         ("245_a", "dieta"),
         ("245_a", "moučník"),
-        ("245_a", "dietní"),
+        ("245_a", "dietn[ěía]"),
         ("245_a", "obědy"),
         ("245_a", "večeře"),
         ("245_a", "těstovin"),
@@ -121,7 +125,10 @@ def _(lf, pl):
     ]
 
     filtry_pozitivni = [
-        lf.with_columns(pl.concat_list(pl.col("245_a")).alias("245_a"))
+        lf.with_columns(
+            pl.concat_list(pl.col("245_a")).alias("245_a"),
+            pl.concat_list(pl.col("008")).alias("008"),
+        )
         .explode(kombo[0], empty_as_null=True)
         .filter(pl.col(kombo[0]).str.contains(f"(?i){kombo[1]}"))
         for kombo in sloupec_keyword_pozitivni
@@ -136,21 +143,30 @@ def _(lf, pl):
         #    ("653_a", "ekonomické předměty"),
         ("072_x", "próza"),
         ("072_x", "software"),
+        ("072_x", "poezie"),
         ("072_x", "drama"),
+        ("072_x", "hudba"),
         ("260_b", "Českobratrský evang. seniorátní úřad"),
         ("490_a", "Lidové hry českého jeviště"),
         ("245_a", "Receptář pro fotoamatéry"),
         ("245_a", "100 praktických receptů pro holiče a kadeřníky"),
+        ("245_a", "poslední večeře"),
+        ("245_a", "vévodkyně"),
         ("650_a", "odpad"),
+        ("650_a", "zbraně"),
         ("655_a", "časopis"),
         ("655_a", "hudba"),
         ("655_a", "písně"),
         ("490_a", "Švejdův divadelní sborník"),
         ("264_b", "Knihovna odborného listu Dusík"),
+        ('246_b', 'aktě')
     ]
 
     filtry_negativni = [
-        lf.with_columns(pl.concat_list(pl.col("245_a")).alias("245_a"))
+        lf.with_columns(
+            pl.concat_list(pl.col("245_a")).alias("245_a"),
+            pl.concat_list(pl.col("008")).alias("008"),
+        )
         .explode(kombo[0], empty_as_null=True)
         .filter(pl.col(kombo[0]).str.contains(f"(?i){kombo[1]}"))
         for kombo in sloupec_keyword_negativni
@@ -167,15 +183,21 @@ def _(lf, pl):
 
 @app.cell
 def _(df, pl):
-    df.filter(pl.col("245_a").str.contains("(?i)receptář"))
+    df.filter(pl.col("245_a").str.contains("(?i)chleb"))
     return
 
 
 @app.cell
 def _(df, ids_kucharek, pl):
-    df_kucharky = df.filter(pl.col("001").is_in(ids_kucharek))
+    df_kucharky = df.filter(pl.col("001").is_in(ids_kucharek)).filter(pl.col('008').str.contains('cze'))
     df_kucharky.sample(len(df_kucharky))
     return (df_kucharky,)
+
+
+@app.cell
+def _(df_kucharky, pl):
+    df_kucharky.explode("260_b").filter(pl.col("260_b").str.contains("spisovatel"))
+    return
 
 
 @app.cell
@@ -190,7 +212,7 @@ def _(df_kucharky, pl):
 
 @app.cell
 def _(df_kucharky, pl):
-    df_kucharky.filter(pl.col("100_a").str.contains("Rettig"))
+    df_kucharky.filter(pl.col("245_a").str.contains("sociál"))
     return
 
 
@@ -201,7 +223,11 @@ def _(df_kucharky, pl):
         "Basic cooking",
         "Kuchařka pro dceru",
         "Kluci v akci",
+        "Můžu ochutnat",
+        "Kniha plná jídla",
+        "(?i)káva",
         "Python",
+        "Minecraft",
     ]
 
     for t in testy:
@@ -214,8 +240,64 @@ def _(df_kucharky, pl):
 
 
 @app.cell
-def _(df_kucharky):
-    df_kucharky.write_parquet("data/cnb_kucharky.parquet")
+def _(df_kucharky, pl):
+    stats = []
+    for c in df_kucharky.columns:
+        stats.append(
+            {
+                "sloupec": c,
+                "vyplnenych": len(df_kucharky.filter(pl.col(c).is_not_null())),
+            }
+        )
+
+    vyhodit = (
+        pl.DataFrame(stats)
+        .filter(pl.col("vyplnenych") < (len(df_kucharky) / 10))
+        .select(pl.col("sloupec"))
+        .to_series()
+        .to_list()
+    )
+    return (vyhodit,)
+
+
+@app.cell
+def _():
+    import random
+
+    def najdi_rok(nulaosm):
+        if "u" not in nulaosm:
+            try:
+                return int(nulaosm[7:11])
+            except:
+                return None
+        else:
+            try:
+                return int(nulaosm[7:10] + str(random.randint(0,10)))
+            except:
+                return None
+
+    print(najdi_rok("000706s1926"))
+    print(najdi_rok("000706s192u"))
+    return (najdi_rok,)
+
+
+@app.cell
+def _(df_kucharky, najdi_rok, pl, vyhodit):
+    df_kucharky_final = df_kucharky.drop(vyhodit).with_columns(
+        pl.col("008").map_elements(najdi_rok, return_dtype=int).alias("rok")
+    ).sort(by="rok")
+    return (df_kucharky_final,)
+
+
+@app.cell
+def _(df_kucharky_final):
+    df_kucharky_final
+    return
+
+
+@app.cell
+def _(df_kucharky_final):
+    df_kucharky_final.write_parquet("data/cnb_kucharky.parquet")
     return
 
 

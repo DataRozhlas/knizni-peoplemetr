@@ -14,36 +14,16 @@ def _():
 
 @app.cell
 def _(pl):
-    df_pre = pl.read_parquet("data/cnb_kucharky.parquet")
+    interpunkce = [",","?",":","/",".",";","!","\""]
 
-    stats = []
-    for c in df_pre.columns:
-        stats.append( { 'sloupec':c, 'vyplnenych':len(df_pre.filter(pl.col(c).is_not_null()))})
-
-    vyhodit = pl.DataFrame(stats).filter(pl.col("vyplnenych") < (len(df_pre) / 10)).select(pl.col('sloupec')).to_series().to_list()
-
-    def najdi_rok(nulaosm):
-        try:
-            return int(nulaosm[7:11])
-        except:
-            return None
-
-    najdi_rok("000706s1926")
-
-    df = df_pre.drop(vyhodit).with_columns(
-        pl.col("008").map_elements(najdi_rok, return_dtype=int).alias("rok")
+    df = pl.read_parquet("data/cnb_kucharky.parquet").with_columns(
+        pl.col('245_a').str.replace_many(interpunkce, ["" for x in interpunkce]).str.strip_chars()
     ).sort(by="rok")
     return (df,)
 
 
 @app.cell
 def _():
-    return
-
-
-@app.cell
-def _(df):
-    df
     return
 
 
@@ -56,6 +36,162 @@ def _(alt, df):
         alt.X("rok:Q"),
         alt.Y("len:Q")
     )
+    return
+
+
+@app.cell
+def _(df, pl):
+    df.filter(pl.col("245_a").str.contains("(?i)salát"))
+    return
+
+
+@app.cell
+def _(df, pl):
+    df.filter(pl.col("245_a").str.contains("(?i)kalor"))
+    return
+
+
+@app.cell
+def _(df, pl):
+    df.filter(pl.col("245_a").str.contains("(?i)gril"))
+    return
+
+
+@app.cell
+def _(alt, df, pl):
+    alt.Chart(
+        df.filter(pl.col("245_a").str.contains("(?i)gril")).group_by("rok").len(),
+        width = 800
+    ).mark_bar().encode(
+        alt.X("rok:Q"),
+        alt.Y("len:Q")
+    )
+    return
+
+
+@app.cell
+def _(alt, df, pl):
+    alt.Chart(
+        df.filter(pl.col("245_a").str.contains("(?i)diet")).group_by("rok").len(),
+        width = 800
+    ).mark_bar().encode(
+        alt.X("rok:Q"),
+        alt.Y("len:Q")
+    )
+    return
+
+
+@app.cell
+def _(alt, df, pl):
+    alt.Chart(
+        df.filter(pl.col("245_a").str.contains("(?i)frit")).group_by("rok").len(),
+        width = 800
+    ).mark_bar().encode(
+        alt.X("rok:Q"),
+        alt.Y("len:Q")
+    )
+    return
+
+
+@app.cell
+def _(df, pl):
+    df.filter(pl.col("245_a").str.contains("(?i)maďars"))
+    return
+
+
+@app.cell
+def _(alt, df, pl):
+    alt.Chart(
+        df.filter(pl.col("245_a").str.contains("(?i)maďars")).group_by("rok").len(),
+        width = 800
+    ).mark_bar().encode(
+        alt.X("rok:Q"),
+        alt.Y("len:Q")
+    )
+    return
+
+
+@app.cell
+def _(alt, df, pl):
+    alt.Chart(
+        df.filter(pl.col("245_a").str.contains("(?i)váno[cč]")).group_by("rok").len(),
+        width = 800
+    ).mark_bar().encode(
+        alt.X("rok:Q"),
+        alt.Y("len:Q")
+    )
+    return
+
+
+@app.cell
+def _(alt, df, pl):
+    alt.Chart(
+        df.filter(pl.col("245_a").str.contains("(?i)salát")).group_by("rok").len(),
+        width = 800
+    ).mark_bar().encode(
+        alt.X("rok:Q"),
+        alt.Y("len:Q")
+    )
+    return
+
+
+@app.cell
+def _(df, pl):
+    df.filter(pl.col("245_a").str.contains("(?i)(bezmas|bez mas|vegetar|vegan)"))
+    return
+
+
+@app.cell
+def _(alt, df, pl):
+    alt.Chart(
+        df.filter(pl.col("245_a").str.contains("(?i)(bezmas|bez mas|vegetar|vegan)")).group_by("rok").len(),
+        width = 800
+    ).mark_bar().encode(
+        alt.X("rok:Q"),
+        alt.Y("len:Q")
+    )
+    return
+
+
+@app.cell
+def _(alt, df, pl):
+    alt.Chart(
+        df.filter(pl.col("245_a").str.contains("(?i)mexi")).group_by("rok").len(),
+        width = 800
+    ).mark_bar().encode(
+        alt.X("rok:Q"),
+        alt.Y("len:Q")
+    )
+    return
+
+
+@app.cell
+def _(df, pl):
+    nazvy = df.select(pl.col("245_a")).to_series().to_list()
+    nazvy[0:100]
+    return (nazvy,)
+
+
+@app.cell
+def _(nazvy):
+    [x.split(' pro ')[1] for x in nazvy if ' pro ' in x]
+    return
+
+
+@app.cell
+def _(nazvy):
+    [x.split(' s ')[1] for x in nazvy if ' s ' in x]
+    return
+
+
+@app.cell
+def _(nazvy):
+    [x.split(' bez ')[1].split(' ')[0] for x in nazvy if ' bez ' in x]
+    return
+
+
+@app.cell
+def _():
     return
 
 
