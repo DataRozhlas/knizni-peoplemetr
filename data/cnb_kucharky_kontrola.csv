@@ -44,12 +44,12 @@ autorstvo,titul,rok,pocet_stran
 "Fantová, Karolina",Rychlá kuchařka,1870,54
 ,Zákon daný dne 20 prosince 1869 týkající se volného nakládání s pozemky,1870,266
 "Hansgirgová, Františka",Nová česká kuchařka aneb Navedení ku připravování všelikých pokrmů hodících se pro skrovnou i skvostnější domácnosť,1871,455
+,Všeobecný odborný list Vzorný pivovar,1872,2
 "Rettigová, Magdalena Dobromila",Magdaleny Dobromily Rettigové Domácí kuchařka čili Snadno pochopitelné a proskoumané poučení kterak se masité i postní pokrmy všeho druhu nejchutnějším způsobem vaří pekou a zadělávají,1872,520
 "Hansgirgová, Františka",Malá Nová česká kuchařka,1872,180
 "Dobrovolná, Ludmila",Česká kuchařka a hospodyně,1873,334
 "Vávrová, Karolina",Pražská kuchařka aneb Praktický návod k nejchutnějšímu připravování všelikých druhů jednoduchých a nákladnějších pokrmů masitých moučných a postních jež v každé skrovnější i nádhernější domácnosti se vyskytují,1873,512
 "Zabranská, Vlastimila",Nejnovější česká kuchařka,1873,320
-,Všeobecný odborný list Vzorný pivovar,1874,2
 "Rettigová, Magdalena Dobromila",Magdaleny Dobromily Rettigové Domácí kuchařka čili Snadno pochopitelné a prozkoumané poučení kterak se masité i postní pokrmy všeho druhu nejchutnějším způsobem vaří pekou a zadělávají,1874,520
 "Triwaldová, Gabriela",Nová pražská kuchařka,1877,344
 ,Český sládek,1878,1
@@ -132,30 +132,39 @@ J. K.,Zdravotní kuchařka jakožto doplněk každé jiné kuchařské knihy či
 ,Labužník,1899,24
 "Šmíd, Leopold František",Básník a kuchařka,1899,7
 ,Velká illustrovaná kuchařka,1899,732
+"Soukup, Václav",Ovoce a zelenina v domácnosti kuchyni a cukrářství,1900,266
 "Radová, Kamila",Vánoční kuchyně,1900,40
 ,Zlatá kniha hospodyňky Vitello,1900,97
+,Věstník pekařů královského hlavního města Prahy,1900,9
 "Jermářová, Bohumila",Vzorná česká kuchařka,1900,546
 "Cardová, Anna",Návod mladým hospodyňkám jak upraviti chutné a levné pokrmy ve skrovných domácnostech nemocnicích obecných kuchyních i jednoduchých měšťanských rodinách,1901,64
+"Faltysová, A.",Kuchařské umění,1901,253
 "Jůn, Karel",Vyzkoušené recepty na moučníky a čajové pečivo,1901,32
 "Dvořák, Jaroslav",Bramborová kuchyně obsah 490 předpisů na úpravu všemož jídel polévek omáček pečiv dortů cukrovinek a pod z bramborů pro velké a malé domácnosti jídelny kuchyně restaurační a hotelové,1901,210
+,Kuchařská kniha,1901,458
+"Trachtová, Marie",Kuchařská kniha pro chovanky školy hospodyňké,1901,197
 "Veselá, Vlasta",Národní kuchařka pro šetrnou hospodyni,1901,200
 "Vlasáková, Julie",Zavařování ovoce nakládání konservování a výroba ovocných vín,1901,155
+,Organisační osnova kuchařských a hospodyňských škol,1901,11
 "Rothová, Olga",Česko-moravská kuchyně,1901,652
 "Bezděk, Jan",Houby jedlé a jim podobné jedovaté,1901,225
 "Švehla, Josef",Nádobí kuchyně a stolu staročeského,1901,31
 "Havránka, Jindřich",Zužitkování ovoce v domácnosti,1902,102
 "Šťastná, Josefina",Nejnovější rychlá a praktická česká domácí kuchařka,1902,48
 "Komenský, Jan Amos",O hodné přípravě k stolu večeře Páně,1902,16
+,Kuchařská kniha,1902,458
 "Vlasák, Antonín Norbert",Pečení domácího chleba,1902,54
 "Šádková, Marie",Zimní kuchyně neb Návod k šetrnosti pro venkovské hospodářství,1902,60
+"Trachtová, Marie",Kuchařská kniha pro hospodyně venkovské,1902,197
+,Hostinský obzor,1902,39
 "Rettigová, Magdalena Dobromila",Magdaleny Dobromily Rettigové Domácí kuchařka čili Snadno pochopitelné a prozkoumané poučení kterak se masité i postní pokrmy všeho druhu nejchutnějším způsobem vaří pekou a zadělávají,1902,467
+"Soukup, Václav",Ovoce a zelenina v domácnosti kuchyni a cukrářství,1903,266
 "Štěpánová, Vlasta M.",Malá kuchařka a hospodyňka česká,1903,80
 "Štěpánová, Vlasta M.",Storchův praktický návod k zavařování a konservování ovoce i jiných plodin,1903,171
 "Cardová, Anna",Návod mladým hospodyňkám jak upraviti chutné a levné pokrmy ve skrovných domácnostech nemocnicích obecných kuchyních i jednoduchých měšťanských rodinách,1903,75
 "Jermářová, Bohumila",Velká vzorná česká kuchařka,1903,920
 "Rettigová, Magdalena Dobromila",Malá domácí kuchařka čili kterak se v malých domácnostech jídla rozličného druhu jednoduchá i úpravnější masitá i postní lacině a chutně připravovati mají,1903,122
 "Vorlíček, Čeněk",Zavařování nakládání a zužitkování veškerého ovoce zeleniny hub a bylin v domácnosti,1903,115
-,Nové pekařské zájmy,1903,3
 "Kafková, Majdalena",Slovník umění kuchařského,1904,2
 "Soukup, Václav",Domácí a cizí nápoje,1904,262
 "Soukup, Václav",Saláty a jejich úprava,1904,97
@@ -177,19 +186,22 @@ J. K.,Zdravotní kuchařka jakožto doplněk každé jiné kuchařské knihy či
 Fringilla,Storchova nejnovější kapesní praktická a rychlá kuchařka pro menší a skrovné domácnosti zejména však pro hospodyňky dělnických domácností,1906,128
 ,Polévková mísa manželů Brdlinkových,1906,27
 "Rytychová, Majolena",Největší nejnovější a nejpraktičtější česká domácí kuchařka a vzorná hospodyňka,1906,473
-,Věstník pekařů královského hlavního města Prahy,1906,9
+,Nové pekařské zájmy,1906,3
 "Rettigová, Magdalena Dobromila",Magdaleny Dobromily Rettigové Domácí kuchařka čili Snadno pochopitelné a prozkoumané poučení kterak se masité i postní pokrmy všeho druhu nejchutnějším způsobem vaří pekou a zadělávají,1906,469
 "Soukup, Václav",Výživná a zdravá zelinářská kuchyně čili podrobné poučení o zužitkování a upotřebení veškerých druhů zeleniny polní i zahradní v kuchyni,1907,227
 "Soukup, Václav",Zelenina zahradní i polní v kuchařských předpisech,1907,227
 "Kálal, Jan Václav",Kuchyně králikářů,1907,72
+,Kuchařská kniha,1907,452
 ,Med potravou a lékem,1907,44
 "Rettigová, Magdalena Dobromila",Magdaleny Dobromily Rettigové Domácí kuchařka čili  Snadno pochopitelné a prozkoumané poučení kterak se masité i postní pokrmy všeho druhu nejchutnějším způsobem vaří,1907,469
 "Šmíd, Leopold František",Básník a kuchařka,1907,8
+"Soukup, Václav",Chřest nejjemnější jarní zelenina v kuchařské úpravě,1908,34
 "Soukup, Václav",Postní kuchyně,1908,207
 "Bareš, Josef",Konservování pokrmů v pokrmových zásobnicích,1908,22
 "Rettigová, Magdalena Dobromila",Magdaleny Dobromily Rettigové Domácí kuchařka,1908,469
-,Hostinský obzor,1908,39
+"Soukup, Václav",Merunky a jich zužitkování v domácnosti a kuchyni,1909,40
 "Špilarová, Matilda",Několik vyzkoušených pokynů k vaření,1909,111
+"Caligaris, Ida",Mladá paní v občanské kuchyni,1909,67
 "Kejřová, Anuše",Úsporná kuchařka,1909,222
 "Barthová, Ludmila",První česká vegetářská kuchařka,1909,127
 "Triwaldová, Gabriela",Praktická česká kuchařka pro každou domácnost,1909,108
@@ -199,6 +211,8 @@ Fringilla,Storchova nejnovější kapesní praktická a rychlá kuchařka pro me
 "Trachtová, Marie",Kuchařská kniha pro venkovské hospodyně,1909,222
 "Šmíd, Leopold František",Básník a kuchařka,1909,5
 "Pakosta, Ferdinand",Vaření piva a prodej vína v Pacově,1910,14
+,Česká čítanka pro ženské školy odborné (průmyslové kuchařské a hospodyňské i pokračovací),1910,444
+,Kuchařská kniha,1910,512
 "Nejedlá, Marie",Praktická kuchařka pro českou domácnost,1910,352
 "Versbachova, A.",Domácí cukrářství,1910,191
 "Rettigová, Magdalena Dobromila",Magdaleny Dobromily Rettigové Domácí kuchařka,1910,469
@@ -221,8 +235,11 @@ Fringilla,Storchova nejnovější kapesní praktická a rychlá kuchařka pro me
 "Seidlová, Anastasie B.",Úprava pokrmů pro nemocné cukrovkou,1913,148
 "Ebersberg, Ottokar Franz",Farářova kuchařka,1913,122
 "Dumková, Hanna",Česká kuchařka,1913,636
+"Barth, Jaroslav",Sbírka kuchařských předpisů pro nemocné cukrovkou (diabetiky),1913,133
+"Bláhová, Amalie",České švestky jejich náležité zpracování a zužitkování v domácnosti i kuchyni,1913,64
 ,Kuchyně a spižírna,1913,127
 "Jermářová, Bohumila",Vzorná česká kuchařka,1913,536
+"Posnerová, Iška",Kuchařská příručka pro rodinu o třech i více členech,1913,128
 "Rettigová, Magdalena Dobromila",Magdaleny Dobromily Rettigové Domácí kuchařka,1913,469
 "Rettigová, Magdalena Dobromila",Magdaleny Dobromily Rettigové Domácí kuchařka,1913,469
 "Táborský, J. K.",České houby jedlé i jedovaté,1913,62
@@ -232,11 +249,13 @@ Fringilla,Storchova nejnovější kapesní praktická a rychlá kuchařka pro me
 ,Dělnická kuchařka,1914,126
 "Kejřová, Anuše",Dělnická kuchařka,1914,96
 "Kejřová, Anuše",Úsporná kuchařka,1914,204
+,Kuchařská kniha,1914,517
 "Jermářová, Bohumila",Velká vzorná česká kuchařka,1914,920
 "Jermářová, Marie",Česká kuchařka,1914,231
 "Rettigová, Magdalena Dobromila",Magdaleny Dobromily Rettigové Domácí kuchařka,1914,469
 "Šedivý, Emil",Inserce tajných léčiv a specialit v denních listech,1914,4
 "Vávrová, Karolina",Pražská kuchařka aneb Praktický návod ku připravování všelikých druhů jednoduchých a nákladnějších pokrmů masitých moučných postních a pro nemocné jak v každé skromnější i nádhernější domácnosti se vyskytuje,1914,499
+"Ondráčková, Luisa",Nejnovější kuchařská kniha,1914,424
 "Černá, Růžena",Úprava pokrmů z kukuřičné mouky a krupičky,1915,15
 "Seidlová, Anastasie B.",Levné pokrmy a rady v době drahoty a války,1915,36
 "Součková, Marie",Válečná kuchařka,1915,77
@@ -251,6 +270,7 @@ Fringilla,Storchova nejnovější kapesní praktická a rychlá kuchařka pro me
 "Kafka, Josef",Levné pokrmy zeleninové,1915,84
 "Kafka, Josef",Úsporná výživa hospodářská a zdravotní reforma výživy jídelního lístku vaření a zažívání nejen se zřetelem na nutná obmezení v době války nýbrž i se zřetelem na hospodářské a zdravotní povznesení lidu,1915,75
 "Kejřová, Anuše",Úsporná válečná kuchařka,1915,186
+"Klecanda, Jan",Houby v přírodě a v kuchyni,1915,78
 ,50 kuchařských předpisů se zřením k moučným náhražkům,1915,22
 ,Kuchyňské zeleninové recepty,1915,16
 "Jermářová, Bohumila",Kuchařka v době válečné,1915,174
@@ -268,18 +288,23 @@ Fringilla,Storchova nejnovější kapesní praktická a rychlá kuchařka pro me
 "Holnová, Božena",Kukuřičné pokrmy v úpravě české i cizí kuchyně,1916,40
 "Holnová, Božena",Holandská bramborová mouka Superior a pokrmy k nimž lze jí použíti,1916,20
 "Kadlčák, Josef Mnohoslav",Lidové běhy úsporného vaření a bedna varnice či krbovnice,1916,40
+"Trachtová, Marie",Kuchařská kniha pro chovanky školy hospodyňké,1916,223
 "Ocetek, Josef",Večeře veliká,1916,72
+"Posnerová, Iška",Kuchařská příručka pro rodinu o třech i více členech,1916,122
 ,Praktický návod k pečení chleba sušení ovoce a zeleniny pro domácnost i malý průmysl,1916,32
 "Rozmarová, Olga Růžena",Vzorná česká kuchyně a domácnost,1916,236
 "Sezemská, Marie",Levná lidová kuchařka prostá masa (vegetariánská),1916,144
 "Šetlík, Břetislav",Vaření mýdla,1916,1
 ,Divoké ovoce polní lesní i zahradní a jeho zužitkování v domácnosti,1916,103
+,Kuchařský přehled,1916,26
 "Fořt, Jindřich",Rychlosušárna Progressit fy Janka a sp v Radotíně na sušení ovoce zelenin a jiných zemědělských plodin,1916,2
 "Duda, Václav",Sušení zeleniny,1916,29
 "Zíbrt, Čeněk",Česká kuchyně za dob nedostatku před sto lety,1917,95
 "Benešová, Milada",Nakládání zavařování a používání všeho ovoce i zeleniny,1917,317
 "Chmelař, František",Pěstování soje a její použití pro lidovou i vegetariánskou výživu a dietetiku,1917,32
+"Bláhová, Amalie",České švestky jejich náležité zpracování a zužitkování v domácnosti i kuchyni,1917,80
 "Černý, Emil",Konservování masa v domácnosti nakládáním do soli láku kyselin a vápna zavařováním uzením suchým i mokrým,1917,48
+"Posnerová, Iška",Kuchařská příručka pro rodinu o třech i více členech,1917,144
 "Posnerová, Iška",Moučníky po domácku,1917,80
 "Slavínová, Milada",Zavařování ovoce bez cukru nakládání do octa a jeho sušení,1917,35
 "Štěpánová, Vlasta M.",Praktický návod k zavařování a konservování ovoce i jiných plodin,1918,171
@@ -296,13 +321,16 @@ Fringilla,Storchova nejnovější kapesní praktická a rychlá kuchařka pro me
 "Bareš, Josef B.",Konservování pokrmů v pokrmových zásobnicích,1919,22
 "Bareš, Josef B.",Konservování pokrmů v pokrmových zásobnicích,1919,22
 "Kratochvílová, Věnceslava",Úsporná kuchyně,1919,46
+,Kuchařská kniha,1919,517
 "Milota, Albert",Podmíněné odsouzení a propuštění,1919,116
 ,Praktická kuchyně III,1919,1
 "Rytychová, Majolena",Největší nejnovější a nejpraktičtější česká domácí kuchařka a vzorná hospodyňka,1919,398
+"Kabelík, Jan",Česká čítanka pro ženské školy odborné (průmyslové kuchařské a hospodyňské i pokračovací),1919,303
 "Seidlová, Anastasie B.",Kuchařka Jitřenky,1920,394
 "Špilarová, Matilda",Sbírka vyzkoušených předpisů k vaření,1920,124
 "Benešová, Milada",Nakládání zavařování a používání všeho ovoce i zeleniny,1920,368
 "Lhoták, Kamil Josef",Receptura,1920,178
+"Ondráčková, Luisa",Nejnovější illustrovaná kuchařská kniha obsahující na 3500 vyzkoušených a osvědčených předpisů jakož i mnohé praktické pokyny pro hospodyně,1920,468
 "Oetker, August",Dr Oetkera předpisy pro kuchyni a pro domácnost,1920,80
 ,Schichtova kuchařka,1920,52
 ,Schichtova kuchařka,1920,51
@@ -317,20 +345,27 @@ Fringilla,Storchova nejnovější kapesní praktická a rychlá kuchařka pro me
 "Donský, A.",Vegetarianská kuchyně,1921,244
 "Holubová, M.",Kuchařka České dívky,1921,80
 "Kejřová, Anuše",Úsporná kuchařka,1921,208
+"Kofránková, Anna",Kuchařské předpisy pro žákyně kuchařských škol i pro domácnost,1921,360
 "Kolátorová, Lydia",Bramborová kuchyně,1921,48
+,Česká čítanka pro ženské školy odborné (průmyslové kuchařské a hospodyňské i pokračovací),1921,303
+,Kuchařská kniha,1921,517
+"Trachtová, Marie",Kuchařská kniha pro venkovské hospodyně,1921,222
 "Orlová, Marie",Praktická česká kuchařka a hospodyňka,1921,240
 "Rettigová, Magdalena Dobromila",Praktická kuchařka,1921,1
 "Rettigová, Magdalena Dobromila",Praktická kuchařka,1921,374
 ,Velká illustrovaná kuchařka,1921,732
 ,Kuchařské recepty v nichž se používá delikatesního margarinu Vitello,1921,32
+"Ticháková, Žofie",Předpisy cukrovinkové a kuchařské,1922,92
 ,Praktická kuchařka pro českou domácnost,1922,459
 "Ha'nish, Otoman Zar-Adusht",Mazdaznanská dietetika a kuchařka,1922,232
 "Hapalová, Katuše",Kuchařka československé hospodyně,1922,231
 "Kejřová, Anuše",Minutové večeře,1922,46
 "Barthová, Ludmila",První česká vegetářská kuchařka,1922,192
+"Bláhová, Amalie",České švestky jejich náležité zpracování a zužitkování v domácnosti i kuchyni,1922,80
 "Jírová, Květoslava",Česká kuchyně,1922,148
 "Minařík, František Kliment",Večeře Páně,1922,384
 ,O polévkách,1922,69
+"Ondráčková, Luisa",Nejnovější illustrovaná kuchařská kniha obsahující na 3600 vyzkoušených a osvědčených předpisů jakož i mnohé praktické pokyny pro hospodyně,1922,476
 "Rettigová, Magdalena Dobromila",Magdaleny Dobromily Rettigové Domácí kuchařka,1922,471
 "Rozmarová, Olga Růžena",Česká kuchyně,1922,357
 "Posnerová, Iška",Cukrářská příručka pro domácnost,1922,100
@@ -345,10 +380,15 @@ Fringilla,Storchova nejnovější kapesní praktická a rychlá kuchařka pro me
 ,Dr Oetker - Rezepte für die Hausfrauen,1923,63
 "Seidlová, Anastasie B.",Kuchařka Lady,1924,191
 "Seidlová, Anastasie B.",Úprava pokrmů pro nemocné kornatěním cév a různé rady zdravotní,1924,76
+"Zítko, Karel",Nauka o potravinách pro jednoroční školy rodinné pětiměsíční kurs hospodyňský a pětiměsíční kurs kuchařský,1924,168
 "Kejřová, Anuše",Úsporná kuchařka,1924,295
 ,Nakládání zavařování a používání všeho ovoce i zeleniny,1924,424
 "Heranová, Sláva",Poklad české hospodyně,1924,150
+"Kofránková, Anna",Kuchařské předpisy pro žákyně kuchařských škol i pro domácnost,1924,183
+"Trachtová, Marie",Kuchařská kniha pro venkovské hospodyně,1924,236
 "Triwaldová, Gabriela",Česká národní kuchařka,1924,193
+"Posnerová, Iška",Kuchařská příručka pro rodinu o třech i více členech,1924,147
+"Schützová, Růžena",Nauka o potravinách pro dívčí odborné školy rodinné [roční dvouletou vyšší školu pro ženská hospodářská povolání pětiměsíční kurs hospodyňský pětiměsíční kurs kuchařský kursy speciální] a ústavy příbuzné,1924,102
 "Voborská, Helena",Pravá česká kuchařka,1924,141
 "Dřevíkovský, František",O předkrmech,1924,90
 "Pospíšilová, Františka",Konservování ovoce a zeleniny,1924,40
@@ -357,24 +397,29 @@ Fringilla,Storchova nejnovější kapesní praktická a rychlá kuchařka pro me
 "Kejřová, Anuše",Minutové večeře,1924,46
 "Rettigová, Magdalena Dobromila",Praktická kuchařka,1924,249
 "Dřevíkovský, František",Český kuchař,1924,177
+"Janků-Sandtnerová, Marie",Kniha rozpočtů a kuchařských předpisů,1925,377
 "Seidlová, Anastasie B.",Kuchařka Jitřenky,1925,380
 "Seidlová, Anastasie B.",Úsporná kuchařka,1925,138
 "Štechová, Marie",Kuchařka,1925,482
 "Štěpánek, Franta",Superheterodyn Radieta,1925,14
 "Tichá, Božena",Nakládání a zavařování ovoce,1925,38
 "Rettigová, Magdalena Dobromila",MD Rettigové Velká kuchařka,1925,1057
+"Dřevíkovský, František",Kuchařské předpisy,1925,78
 "Fechtnerová, Joza",Sbírka osvědčených domácích kuchařských receptů,1925,114
 "Kejřová, Anuše",Zdravotní polovegetariánská kuchařka,1925,173
+,Učebná osnova pětiměsíční školy pro vedení domácnosti a školy kuchařské,1925,8
 "Štechová, Marie",Kuchařka Marie Štechové,1925,482
 "Bareš, Josef B.",Konservování pokrmů v pokrmových zásobnicích,1925,22
 "Bareš, Josef B.",Konservování pokrmů v pokrmových zásobnicích,1925,28
 "Hafner, M.",Vaření v přírodě,1925,70
 "Jesenská, Milena",Mileniny recepty,1925,107
+"Ondráčková, Luisa",Nejnovější illustrovaná kuchařská kniha obsahující na 3600 vyzkoušených a osvědčených předpisů jakož i mnohé praktické pokyny pro hospodyně,1925,552
 "Posnerová, Iška",Moučníky po domácku,1925,96
 "Cmunt, Edvard",Dietní předpisy s návodem k domácím léčbám pitným prameny luhačovickými,1925,1
 "Planíčková, Vojtěška",Magdalena Dobromila Rettigová,1925,15
 ,Kniha kuchařských předpisů,1925,773
 "Kejřová, Anuše",Kniha vzorné domácnosti,1925,144
+"Janků-Sandtnerová, Marie",Kniha rozpočtů a kuchařských předpisů,1926,404
 ,Šotkova mezinárodní kuchařka,1926,236
 "Hoferová, Božena",Nauka o vaření s rozpočty a kuchařskými předpisy,1926,331
 "Manda, František",Zpracování ovoce a zeleniny v domácnosti,1926,66
@@ -382,6 +427,7 @@ Fringilla,Storchova nejnovější kapesní praktická a rychlá kuchařka pro me
 "Janků-Sandtnerová, Marie",Příručka pro vaření a nauku o potravinách pro občanské školy dívčí,1926,115
 "Hapalová, Katuše",Kuchařka československé hospodyně,1926,236
 "Orlová, Marie",Praktická kuchařka pro jednoduchou i zámožnou domácnost,1926,128
+"Trachtová, Marie",Kuchařská kniha pro venkovské hospodyně,1926,228
 "Sirový, Václav",Příručka lékárnických specialit,1926,124
 "Soukup, Václav",Praktická příručka při nakládání a zužitkování zeleniny,1926,290
 "Souček, Stanislav",Kniha receptů od Jana staršího Kopřivy z let 1640-1641,1926,25
@@ -403,6 +449,7 @@ Fringilla,Storchova nejnovější kapesní praktická a rychlá kuchařka pro me
 "Komárková, Marie Magdal.",Domácí úsporná kuchyně,1927,188
 "Neff, Elisabeth",Rychlé vaření bez kuchyně,1928,70
 "Seidlová, Anastasie B.",Kuchařka Lady,1928,191
+,Lidová bramborová jídla v naší i cizí kuchyni,1928,46
 ,Odkolkovy recepty,1928,16
 "Jírová, Květoslava",Rodinná kuchařka,1928,172
 "Janků-Sandtnerová, Marie",Kniha rozpočtů a kuchařských předpisů všem hospodyním k bezpečné přípravě dobrých chutných i levných pokrmů,1928,412
@@ -412,16 +459,20 @@ Fringilla,Storchova nejnovější kapesní praktická a rychlá kuchařka pro me
 ,Suďte až okusíte,1928,217
 "Höschlová-Přímá, Vilma",První česká přírodovědecká kuchařka dietetická,1928,542
 ,25 let Československého svazu kuchařů v Praze,1928,225
+"Hašplová, Růžena",Příručka kuchařských předpisů,1929,127
 ,Zavařování ovoce zeleniny masa,1929,16
 "Šmattová, Anna",Nová reformní kuchařka,1929,229
+"Trachtová, Marie",Kuchařská kniha pro československé hospodyně,1929,204
 "Tropschuh, H.",Kuchařská knížka jednoduché občanské kuchyně,1929,144
 "Vavřinová, Josefa",Praktická a úsporná kuchařka,1929,45
+"Lustigová, Anda",O knížkách kuchařských a jak se vaří podle nich,1929,20
 "Seidlová, Anastasie B.",Malá domácnost československé hospodyňky,1929,327
 "Benešová, Milada",Nakládání zavařování a používání všeho ovoce i zeleniny,1929,407
 "Brillat-Savarin, Jean Anthelme",Fysiologie chuti,1929,260
 "Kadlec, Václav",Polévkové koření v Kuchařském umění a výživě lidu,1929,4
 ,Pečivo,1929,17
 "Hapalová, Katuše",Kuchařka českoslov hospodyně,1930,254
+"Janků-Sandtnerová, Marie",Kniha rozpočtů a kuchařských předpisů,1930,440
 "Pospíšilová, A.",Lidová kuchařka,1930,165
 "Pospíšilová, A.",Zavařování ovoce a zeleniny,1930,88
 ,Předpisy pokrmů pro kursy výživy a vaření pořádané Čsl Červeným Křížem,1930,63
@@ -442,7 +493,9 @@ Fringilla,Storchova nejnovější kapesní praktická a rychlá kuchařka pro me
 "Dolská, Vlasta",Nová kuchařka,1930,292
 ,Dra Oetkera prášek do zavařenin k zavařování ovoce a zeleniny,1930,32
 "Píša, Alois",Moderní poznatky z oboru výroby masových konserv se zvláštním zřetelem k podmínkám stanoveným pro dodávku vojenských konserv u nás =,1931,228
+"Rotter, Amalie",Kuchařská kniha pro Fruco-hrnec od Amalie Rotterové Vrchlabí Kostelní čís 4,1931,9
 "Wenig, Frank",Pohádky z naší kuchyně,1931,40
+"Kofránková, Anna",Kuchařské předpisy pro žákyně kuchařských škol i pro domácnost,1931,183
 "Sirový, Václav",Příručka lékárnických specialit,1931,431
 "Hostáň, Jan",V potoce svět uzřela u kuchařky umřela,1931,27
 ,Seznam léčivých specialit povolených ministerstvem veřejného zdravotnictví a tělesné výchovy ku všeobecnému prodeji,1931,98
@@ -455,6 +508,7 @@ Fringilla,Storchova nejnovější kapesní praktická a rychlá kuchařka pro me
 "Benešová, Milada",Nakládání zavařování a používání všeho ovoce i zeleniny--,1932,304
 ,Dagmar nejvýhodnější přístroje s příslušenstvím k zavařování a konservování,1932,29
 "Janků-Sandtnerová, Marie",Kniha rozpočtů a kuchařských předpisů všem hospodyním k bezpečné přípravě dobrých chutných i levných pokrmů,1932,463
+"Kofránková, Anna",Kuchařské předpisy pro žákyně kuchařských škol i pro domácnost,1932,256
 ,Nakládání ovoce a plodů,1932,17
 "Reimann, Josef",Odborné cukrářské recepty a spisy od Josefa Reimanna,1932,279
 "Stará, M.",Divadelní salát,1932,2
@@ -500,6 +554,7 @@ Ali-Bab,Labužnická kuchyně =,1935,811
 "Kejřová, Anuše",Česká vegetariánská kuchařka Anuše Kejřové,1935,154
 "Kejřová, Anuše",České moučníky Anuše Kejřové,1935,213
 "Kejřová, Anuše",Praktické a úsporné zavařování ovoce zeleniny příprava ovocných šťáv rosolů likérů vína atd,1935,95
+,Kuchařská kniha a přesné rozpočty Domácnosti prvé české kuchařské školy v Praze,1935,420
 "Koukl, Josef",Jak postupovat při nakládání píce bílkovinou bohaté,1935,5
 ,Farská kuchařka,1935,1
 "Kunčík, Bedřich",Ilustrované cukrářské recepty,1935,144
@@ -525,7 +580,9 @@ Ali-Bab,Labužnická kuchyně =,1935,811
 "Úlehlová-Tilschová, Marie",Jak a čím se živit,1935,2
 ,Dobové předpisy na pečení na přípravu krémů a zmrzliny na zavařování ovoce a na rychlou přípravu marmelád a ovocných rosolů,1936,16
 "Beneš, Mojmír A.",Návod jak připraviti mládež k hodnému přijetí svátosti Večeře Páně,1936,16
+"Břenek, Josef",Seznam odborných knih z oboru hotelnického restauračního a kuchařského z knihovny J Břenka ředitele Svazu hotelierů a velkorestauratérů v Praze,1936,22
 "Černá, Růžena",Kuchařské předpisy k přípravě nejrůznějších chutných výživných a i levných jídel pečiva zelenin salátů zavařenin a nápojů,1936,215
+"Fischl, Leopold",Kuchařská kniha pro nemocné,1936,125
 "Janišová, Božena",Vyzkoušené recepty medového pečiva,1936,23
 "Jung, Jindřich",Jak se naučím vařit chutné zdravé a levné pokrmy,1936,89
 "Koukl, Josef",Jak postupovati při nakládání píce bílkovinou bohaté,1936,11
@@ -534,38 +591,55 @@ Ali-Bab,Labužnická kuchyně =,1935,811
 ,Prospekt odb kursů Studené kuchyně a Moučníků,1936,1
 "Vrabec, Vilém",Teplá kuchyně,1936,194
 ,Kuchař labužník,1936,2
+,Doplněk k seznamu léčivých specialit povolených ministerstvem veřejného zdravotnictví a tělesné výchovy ke všeobecnému prodeji,1936,2
 ,Kuchařská a hospodyňská kniha správné výživy a hospodaření v dnešní době,1936,46
 "Boučková, Marie",Moučníky a pochoutky z ovoce,1936,47
 "Schneider, Josef",Věda v kuchyni,1937,166
 "Janků-Sandtnerová, Marie",Kniha rozpočtů a kuchařských předpisů všem hospodyním k bezpečné přípravě dobrých chutných a levných pokrmů,1937,609
 "Janků-Sandtnerová, Marie",Kniha rozpočtů a kuchařských předpisů všem hospodyním,1937,609
+"Janků-Sandtnerová, Marie",Kniha rozpočtů a kuchařských předpisů,1937,609
+"Janků-Sandtnerová, Marie",Kniha rozpočtů a kuchařských předpisů,1937,609
 "Jelínková, Marie",Učebnice vaření pro vyšší třídy škol obecných a pro školy měšťanské,1937,184
 ,Kuchyně,1937,12
 ,Nová dietní kuchyně pro diabetiky D-Sojasan Dieta v městě a v Karlových Varech,1937,15
 "Nyč, František",Sbírka receptů desertních bonbonů a popis práce při máčení na síťkách,1937,15
+,Ilustrované kuchařské předpisy pro naše hospodyňky od Dr A Oetkera,1937,56
+,Padesát let odborné pokračovací školy pro učně číšnické a kuchařské v Praze,1937,45
 ,Peka prášek do pečiva na 50 dkg mouky vyrábí Merkur továrna na čokoládu cukrovinky a pečivo as v Č Budějovicích,1937,17
 "Polášek Topol, Štěpán",Recepty na duševní pokrmy pro mládež,1937,20
 "Pomiane, Édouard de",Veselé umění kuchařské,1937,306
 "Pomiane, Édouard de",Veselé umění kuchařské,1937,306
 "Pomiane, Édouard de",Veselé umění kuchařské,1937,306
+"Pomiane, Édouard de",Veselé umění kuchařské =,1937,306
+"Pomiane, Édouard de",Veselé umění kuchařské,1937,306
 "Preisová-Vávrová, Marie",Vaříme na jaře,1937,158
 "Preisová-Vávrová, Marie",Vaříme v létě,1937,304
 "Preisová-Vávrová, Marie",Vaříme v zimě,1937,604
+,Kuchařská kniha Prometheus,1937,38
 ,Recepty pro cukráře,1937,15
 "Rusev, Atanas",Bulharské kuchyňské speciality,1937,23
 "Soukup, Václav",Bezmasá a rybí kuchyně,1937,291
 "Svobodová, Božena",[Návodné vyučování vaření I],1937,140
 "Vacková, Jiřina",Pokyny pro kuchyňskou úpravu dietních pokrmů,1937,27
 "Vrabec, Vilém",Moučníky a nápoje,1937,168
+"Ondráčková, Luisa",Nejnovější ilustrovaná kuchařská kniha obsahující 3705 vyzkoušených a osvědčených předpisů jakož i mnohé praktické pokyny pro hospodyně,1937,560
 ,Československá lékárnická sazba léčivých specialit pro strany soukromé i úlev požívající,1937,799
+,Příručka kuchařských předpisů,1937,142
+"Janků-Sandtnerová, Marie",Kniha rozpočtů a kuchařských předpisů,1937,609
 "Sedláčková, Ot.",Medo-ovocné zavařeniny,1937,48
-,Doplněk k seznamu léčivých specialit povolených ministerstvem veřejného zdravotnictví a tělesné výchovy ke všeobecnému prodeji,1937,2
+,Kuchařská a hospodyňská revue,1937,3
 "Kejř, Vilém Emil",Praktické a zdravé večeře Anuše Kejřové,1937,203
 ,Elektrická kuchyně,1937,84
+"Hůlová, M.",Kuchařské předpisy,1938,14
 "Charvátová, V.",Jak vaříme zavařujeme hospodaříme a pěstujeme zdraví a půvab v létě,1938,28
 "Kejřová, Anuše",Úsporná kuchařka s rozpočty,1938,371
+,Kuchařská kniha Sigma,1938,31
 "Mašínová, Božena",Saláty a příslušné marinády,1938,16
+"Janků-Sandtnerová, Marie",Kniha rozpočtů a kuchařských předpisů,1938,609
+"Janků-Sandtnerová, Marie",Kniha rozpočtů a kuchařských předpisů,1938,609
+"Janků-Sandtnerová, Marie",Kniha rozpočtů a kuchařských předpisů,1938,609
 "Preisová-Vávrová, Marie",Vaříme nemocným a dětem,1938,103
+,Kuchařské předpisy pro elektrický rožeň Grilux,1938,7
 ,Vyzkoušené recepty na omáčky,1938,1
 "Rozmarová, Olga Růžena",Česká kuchyně,1938,321
 ,1 dodatek k sazbě léčivých specialit 1937,1938,182
@@ -581,12 +655,18 @@ Ali-Bab,Labužnická kuchyně =,1935,811
 "Bláhová, Marie",Příručka vaření pro mladé hospodyňky,1939,206
 "Bouda, Ferdinand",Večeře proti vleklé zácpě a pro klidný spánek,1939,6
 "Haškovcová, Marie",Dobrá česká kuchyně,1939,479
+"Janků-Sandtnerová, Marie",Kniha rozpočtů a kuchařských předpisů,1939,609
+"Janků-Sandtnerová, Marie",Kniha rozpočtů a kuchařských předpisů,1939,609
+"Janků-Sandtnerová, Marie",Kniha rozpočtů a kuchařských předpisů,1939,609
+"Preisová-Vávrová, Marie",Kuchařský slovníček,1939,320
 ,I seznam českých lékárnických specialit vyráběných firmami Bergauer Jiří,1939,296
 "Snížková-Vochozková, Marie",Úsporná rybí kuchyně pro domácnost a restaurace,1939,149
 "Suchá, Gabriela",Vaření jedna radost,1939,847
 "Úlehlová-Tilschová, Marie",Ryby a jich úprava,1939,31
 ,Vaříme,1939,97
 "Vrabec, Vilém",Teplá kuchyně,1939,203
+,300 vyzkoušených kuchařských předpisů,1939,80
+"Janků-Sandtnerová, Marie",Kniha rozpočtů a kuchařských předpisů,1939,609
 "Podlešáková, Blanka",Vaříme elektricky,1939,66
 "Drahorádová-Lvová, Sína",Brambory jako samostatný pokrm předkrm příkrm kaše moučníky dorty cukroví a nejrozmanitější pochoutky (315 předpisů) a zelenina všeho druhu v nejrozmanitější úpravě dle osvědčených předpisů naší i cizí kuchyně pro jednoduchý i slavnostní stůl (na 700 předpisů),1939,320
 "Smotlacha, František",Houby v kuchyni,1939,32
@@ -595,6 +675,7 @@ Ali-Bab,Labužnická kuchyně =,1935,811
 "Benešová, Milada",Salátová kuchyně,1939,166
 "Podlešáková, Blanka",Vaříme elektricky,1939,66
 "Němec, Václav",Vaříme v přírodě,1939,40
+"Adamec, František",Lidová kuchařská kniha,1940,116
 "Benešová, Milada",Nakládání zavařování a používání všeho ovoce i zeleniny--,1940,303
 "Hlouška, Josef",O uzení husího masa,1940,8
 "Hlavsa, Bohumil",Úsporné vyzkoušené recepty z nových a náhradních surovin pro cukráře a výrobce cukrovinek,1940,166
@@ -614,6 +695,10 @@ Ali-Bab,Labužnická kuchyně =,1935,811
 "Hons, Vilém",Listy z české kuchařky,1940,2
 "Horská, Anka",Sušení a zavařování ovoce a zeleniny,1940,52
 "Janků-Sandtnerová, Marie",Francouzská kuchyně pro zpestření jídelního lístku českých hospodyněk,1940,126
+"Janků-Sandtnerová, Marie",Kniha rozpočtů a kuchařských předpisů,1940,609
+"Janků-Sandtnerová, Marie",Kniha rozpočtů a kuchařských předpisů,1940,609
+"Janků-Sandtnerová, Marie",Kniha rozpočtů a kuchařských předpisů,1940,609
+"Janků-Sandtnerová, Marie",Kniha rozpočtů a kuchařských předpisů,1940,609
 "Jirsík, Josef",Léčivé rostliny a recepty na některé toaletní rostlinné přípravky nápoje a prostředky,1940,89
 "Kuklová, Anna",1000 kuchařských pokynů a receptů jež na pokladě dlouholetého praktického působení pro úspornou kuchyni podává Anna Kuklová,1940,122
 "Mládek, Arnošt",Dieta proti otokům,1940,19
@@ -632,6 +717,15 @@ Ali-Bab,Labužnická kuchyně =,1935,811
 "Hons, Vilém",Listy z české kuchařky,1941,2
 "Janků-Sandtnerová, Marie",Kniha rozpočtů a kuchařských předpisů,1941,609
 "Janků-Sandtnerová, Marie",Kniha rozpočtů a kuchařských předpisů,1941,609
+"Janků-Sandtnerová, Marie",Kniha rozpočtů a kuchařských předpisů,1941,609
+"Janků-Sandtnerová, Marie",Kniha rozpočtů a kuchařských předpisů,1941,609
+"Janků-Sandtnerová, Marie",Kniha rozpočtů a kuchařských předpisů,1941,609
+"Janků-Sandtnerová, Marie",Kniha rozpočtů a kuchařských předpisů,1941,609
+"Janků-Sandtnerová, Marie",Kniha rozpočtů a kuchařských předpisů,1941,609
+"Janků-Sandtnerová, Marie",Kniha rozpočtů a kuchařských předpisů,1941,609
+"Janků-Sandtnerová, Marie",Kniha rozpočtů a kuchařských předpisů,1941,609
+"Janků-Sandtnerová, Marie",Kniha rozpočtů a kuchařských předpisů,1941,609
+"Janků-Sandtnerová, Marie",Kniha rozpočtů a kuchařských předpisů,1941,609
 ,Úsporná kuchařka Květa Vám radí,1941,61
 ,Perla moučníků je hodnotnou náhradou za vejce a mléko do každého těsta,1941,1
 "Podlešáková, Blanka",Vaříme elektricky,1941,96
@@ -647,12 +741,16 @@ Ali-Bab,Labužnická kuchyně =,1935,811
 "Vaňha, Jindřich",Rybí kuchyně,1941,666
 "Vrabec, Vilém",Moučníky a cukroví,1941,160
 "Wierer, Vendelín",Dietní předpisy,1941,63
+"Života, Jaroslav",Pro každou rodinu 400 vyzkoušených kuchařských předpisů od Jaroslava Životy,1941,112
 "Jirsík, Josef",Léčivé rostliny a recepty na některé toaletní rostlinné přípravky nápoje a prostředky,1941,89
 "Preisová-Vávrová, Marie",Vaříme po celý rok,1942,604
+"Andrlík, Karel",Nauka o potravinách a pochutinách pro školy číšnické a kuchařské,1942,51
 "Divišová, Lea",Jak dnes vaříme,1942,32
 "Dvořák, Jaroslav",Bramborová kuchyně,1942,130
+"Jetonický, František",Číšnicko-kuchařská praxe,1942,77
 "Mazánková, Alena",Odborná němčina pro kuchaře a kuchařky,1942,39
 "Preisová-Vávrová, Marie",Jak dnes vaříme,1942,195
+,Kuchařské předpisy a jídelníček sestavila podle dnešních nákupních možností Hospodyňská poradna firmy Julius Meinl akc spol,1942,12
 "Smeykalová, Milada",Zavařování a nakládání ovoce,1942,42
 "Soukup, Václav",Zelinářská kuchyně,1942,250
 "Šimek, Jiří",Vaříme z přídělu,1942,31
@@ -663,9 +761,11 @@ Ali-Bab,Labužnická kuchyně =,1935,811
 "Hons, Vilém",Listy z české kuchařky,1942,6
 ,Správné pečení chleba,1942,55
 "Vrabec, Vilém",Teplá kuchyně,1943,245
+"Horská, Vlasta",Jáhly kroupy a ovesné vločky v naší kuchyni,1943,80
 "Horská, Anka",Sušení a zavařování ovoce a zeleniny,1943,56
 "Hostáň, Jan",V potoce svět uzřela u kuchařky umřela,1943,28
 "Kejřová, Anuše",Zlatá úsporná kuchařka s rozpočty =,1943,415
+"Kofránková, Anna",Kuchařské předpisy pro žákyně kuchařských škol i pro domácnost =,1943,256
 "Kofránková, Anna",Zavařování ovoce a zeleniny a výroba ovocných vín šťáv a marmelád =,1943,27
 ,Situační přehled lékárnických specialit Dr Sedláře lékárna U anděla strážce ve Zlíně,1943,10
 ,Příručka pro posluchače přeškolovacích a usměrňovacích kursů pořádaných pro kuchaře a kuchařky závodních kuchyní =,1943,47
@@ -677,13 +777,18 @@ Ali-Bab,Labužnická kuchyně =,1935,811
 "Kejřová, Anuše",Zlatá úsporná kuchařka s rozpočty,1944,415
 "Konůpková-Dadáková, Marie",Časové pokyny pro úsporné vaření,1944,45
 ,Příručka pro posluchače přeškolovacích a usměrňovacích kursů pořádaných pro kuchaře a kuchařky závodních kuchyní,1944,55
+"Stelzerová, Milča",Králičí maso v české kuchyni,1944,15
 "Marek, Josef",Příprava vína v domácnosti,1944,64
 "Tanatar, S.",Ruská kuchyně,1945,38
+,Kuchařské předpisy pro žákyně kuchařských škol i pro domácnost,1945,274
+,Příručka kuchařských předpisů,1945,143
 "Čepková, Frída",Vaříme v pohádkách,1945,62
 "Konůpková-Dadáková, Marie",Časové pokyny pro úsporné vaření,1945,45
 "Kulhánek, Karel",Sbírka předpisů pro výživu kojenců a batolátek (zdravých i nemocných),1945,88
 "Smeykalová, Milada",Zavařování a nakládání ovoce,1945,59
+"Stelzerová, Milča",Králičí maso v české kuchyni,1945,16
 "Úlehlová-Tilschová, Marie",Česká strava lidová,1945,631
+"Života, Jaroslav",Pro každou rodinu 450 vyzkoušených kuchařských předpisů od Jaroslava Životy,1945,10
 ,Kuchařské předpisy s použitím prášku do pečiva Kveta,1945,28
 "Marek, Josef",Příprava vína v domácnosti,1945,64
 ,Vaříme zdravě a rychle,1946,58
@@ -692,11 +797,14 @@ Ali-Bab,Labužnická kuchyně =,1935,811
 "Podlešáková, Blanka",Vaříme elektricky,1946,96
 "Hynková, Míla",Americké recepty na zákusky,1946,32
 ,Zkrácený ceník specialit pro taxátory,1946,32
+"Janků-Sandtnerová, Marie",Kniha rozpočtů a kuchařských předpisů,1946,609
 "Konůpková-Dadáková, Marie",Kuchařka československé hospodyně,1946,310
 "Hostáň, Jan",V potoce svět uzřela u kuchařky umřela,1946,28
 "Jirsík, Josef",Léčivé rostliny a recepty na některé toaletní rostlinné přípravky nápoje a prostředky,1946,87
+"Andrlík, Karel",Nauka o potravinách a pochutinách pro školy číšnické a kuchařské,1946,51
 "Ťukal, Václav Havlík",Objednávání železničních vozů a nakládání dříví,1946,32
 "Konůpková-Dadáková, Marie",Kuchařka československé hospodyně,1946,310
+"Bursíková, Františka",Skautské umění kuchařské,1946,28
 ,100 vyzkoušených receptů do poválečné kuchyně našim ženám,1946,45
 "Vrabec, Vilém",Studená kuchyně,1946,153
 "Šťastná, Blažena",Tajemství malochovatelské kuchyně,1946,151
@@ -704,11 +812,13 @@ Ali-Bab,Labužnická kuchyně =,1935,811
 "Hlavsa, Bohumil",Československé cukrářství,1946,4
 "Kejřová, Anuše",Zlatá kuchařka s rozpočty A Kejřové,1946,415
 ,Pečivo 1947,1947,7
+"Janků-Sandtnerová, Marie",Kniha rozpočtů a kuchařských předpisů,1947,609
 "Jelínková, Marie",Učebnice vaření pro dívčí školy druhého stupně,1947,188
 "Jelínková, Marie",Příloha k Učebnici vaření pro dívčí školy druhého stupně od Marie Jelínkové,1947,55
 "Adamic, Louis",Večeře v Bílém domě,1947,84
 "Trejbal, Jaromír",Nová kuchyně,1947,213
 "Kulhánek, Karel",Sbírka předpisů pro výživu kojenců a batolátek (zdravých i nemocných),1947,102
+"Bursíková, Františka",Skautské umění kuchařské,1947,86
 "Rozmarová, Olga Růžena",Vzorná kuchařka,1947,351
 "Bouček, Zdeněk",Žlučníková dieta,1947,15
 "Kejřová, Anuše",Zlatá kuchařka s rozpočty,1947,543
@@ -729,6 +839,7 @@ Ali-Bab,Labužnická kuchyně =,1935,811
 "Kejřová, Anuše",Zlatá kuchařka s rozpočty,1947,543
 "Kejřová, Anuše",Zlatá kuchařka s rozpočty,1947,543
 "Košková, Hana",Stolečku prostři se,1947,508
+"Klimentová, Maryna",Zelenina v naší kuchyni,1948,62
 "Jelínková, Marie",Učebnice vaření pro dívčí školy druhého stupně,1948,188
 "Jelínková, Marie",Příloha k učebnici vaření pro dívčí školy druhého stupně od Marie Jelínkové,1948,55
 "Kolářová, Věra",Jednoduchá domácí kuchyně,1948,59
@@ -738,6 +849,7 @@ Ali-Bab,Labužnická kuchyně =,1935,811
 "Rozmarová, Olga Růžena",Vzorná kuchařka,1948,338
 "Fialová, Juliana Anna",Dobře a rychle vaříme i po práci,1948,91
 "Havelková, Marie",Zavařování masa v domácnosti,1948,12
+"Dřevíkovský, František",Číšnicko-kuchařská praxe,1948,77
 "Bouček, Zdeněk",Žlučníková dieta,1948,15
 "Bareš, Josef",Konservování pokrmů v pokrmových zásobnících Reform,1948,147
 "Kynčlová, Marie",Nejzdravější kuchyně,1948,109
@@ -751,6 +863,7 @@ Ali-Bab,Labužnická kuchyně =,1935,811
 "Kejřová, Anuše",Zlatá kuchařka s rozpočty,1948,543
 "Páčová, V.",Levné pečivo,1949,11
 "Jelínková, Marie",Učebnice vaření pro školy střední,1949,180
+"Úlehlová-Tilschová, Marie",Rok v naší kuchyni,1949,431
 ,Výživa a příprava pokrmů,1949,36
 "Gjuričová, Jiřina",Dietní vaření,1949,203
 "Janků-Sandtnerová, Marie",Lahůdková kuchyně,1949,180
@@ -780,13 +893,13 @@ Ali-Bab,Labužnická kuchyně =,1935,811
 ,Směrnice pro vypracování statistických výkazů ve školství na rok 1952 pro školy mateřské národní střední zvláštní školy pro mládež vyžadující zvláštní péče dětské útulky dětské domovy ústavy pro duševně a smyslově vadnou mládež družiny mládeže a školní kuchyně školy v přírodě,1952,40
 "Klimentová, Maryna",Vaříme zdravě chutně a hospodárně,1952,492
 "Isajev, Pinchus Lazarevič",Dieta při vředovém onemocnění žaludku a dvanácterníku,1952,26
+,Elektrické spotřebiče na vaření a topení pro domácnost a podobné účely,1952,80
 "Klimentová, Maryna",Vaříme zdravě chutně a hospodárně,1953,492
 "Břízová, Joza",Vaříme podle jídelníčku,1953,37
 ,Vaříme podle norem,1953,319
 "Kiseleva, Vera Borisovna",Vaříme pro malé děti,1953,150
 "Kratochvíl, František",Úvod do problematiky výchovy receptivní hudebnosti,1953,38
 "Úlehlová-Tilschová, Marie",Vaříme účelně pro zdravé a nemocné,1953,462
-"Lebduška, Jaroslav",Veterinární farmakologie receptura a toxikologie léčiv,1953,248
 ,Soja její hodnota a použití ve výživě,1954,26
 "Kuhn, Eduard",Dieta při vředové chorobě,1954,33
 "Isajev, Pinchus Lazarevič",Dieta při střevních chorobách,1954,29
@@ -805,7 +918,6 @@ Ali-Bab,Labužnická kuchyně =,1935,811
 "Doberský, Přemysl",Dieta po operaci žaludku,1954,38
 ,Vaříme těstoviny,1954,16
 ,Kuchařství,1954,54
-,Elektrické spotřebiče na vaření a topení pro domácnost a podobné účely,1954,80
 "Doberský, Přemysl",Nový dietní systém pro nemocnice,1955,314
 "Doberský, Přemysl",Dieta po operaci [v tir] resekci žaludku,1955,38
 "Král, Ludvík",Polévkové přípravky,1955,163
@@ -826,7 +938,6 @@ Ali-Bab,Labužnická kuchyně =,1935,811
 "Skořepová, Hana",Dieta při nemocech žlučníku,1956,29
 "Vavříková, Jiřina",Dieta při kornatění tepen,1956,28
 "Horáčková, Jitka",Dieta při chronické zácpě,1956,23
-"Lenfeld, Jiří",Obecná farmakologie a úvod do receptury,1956,98
 "Břízová, Joza",Vaříme dětem od 1-12 let,1956,159
 "Janíček, Gustav",Technologie přípravy pokrmů,1956,137
 "Klimentová, Maryna",Co máme vědět o přípravě pokrmů,1956,360
@@ -844,7 +955,6 @@ Ali-Bab,Labužnická kuchyně =,1935,811
 "Adamec, Čeněk",Osnovy kursu správné výživy a účelného vaření (pro lidové kursy domů osvěty a osvětových besed),1957,18
 "Klimentová, Maryna",Co máme vědět o přípravě pokrmů,1957,380
 "Vrabec, Vilém",Studená kuchyně,1957,319
-"Lebduška, Jaroslav",Veterinární farmakologie receptura a toxikologie léčiv,1957,256
 "Janíček, Gustav",Technologie přípravy pokrmů,1957,105
 "Bitter, Jaroslav",Dietní předpisy pro nemocné při chorobách jater a po infekční žloutence,1957,7
 "Kostelňák, Miroslav",Metoda správného organisování a provádění práce při nakládání a vykládání rudy bagrem,1957,16
@@ -858,7 +968,6 @@ Ali-Bab,Labužnická kuchyně =,1935,811
 "Kněz, Václav",Sýry a příprava sýrových jídel,1957,130
 "Páv, Jaroslav",Dieta při cukrovce,1957,51
 "Zeman, Gejza",Dieta při srdečních chorobách,1957,39
-"Lebduška, Jaroslav",Veterinární farmakologie receptura a toxikologie léčiv,1957,216
 "Úlehlová-Tilschová, Marie",Vaříme účelně pro zdravé i nemocné,1957,446
 "Poltavec, Stanislav",Slavnostní večeře,1957,2
 "Sodoma, Viktor",Jam,1957,1
@@ -878,7 +987,6 @@ Ali-Bab,Labužnická kuchyně =,1935,811
 "Vavříková, Jiřina",Dieta při kornatění tepen,1958,27
 "Skořepová, Hana",Dieta při hypertensní nemoci,1958,36
 "Kuhn, Eduard",Dieta při vředové chorobě,1958,31
-"Lenfeld, Jiří",Obecná farmakologie a úvod do receptury,1958,138
 "Hrubá, Marie",Naše kuchařka,1958,608
 "Fialová, Juliana Anna",Moderní kuchařka pro ženu i muže,1958,305
 ,Vaříme zdravě chutně a hospodárně,1958,613
@@ -908,13 +1016,12 @@ Ali-Bab,Labužnická kuchyně =,1935,811
 "Podlešáková, Blanka",Elektrická kuchyně,1959,259
 "Kojecký, Zdeněk",Dieta při nemocech žlučníku,1959,29
 "Kuhn, Eduard",Dieta při vředové chorobě,1959,31
+"Klimentová, Maryna",Zelenina v zahradě - v obchodě - v kuchyni,1959,179
 ,Směrnice pro nakládání nábytku ve vozových zásilkách,1959,16
 "Břízová, Joza",Vaříme za maminku,1959,32
 "Hrubá, Marie",Naše kuchařka,1959,630
 "Fialová, Juliana Anna",Vaříme po práci rychle a dobře,1959,118
-"Lebduška, Jaroslav",Veterinární farmakologie receptura a toxikologie léčiv,1959,256
 "Úlehlová-Tilschová, Marie",Rok v české kuchyni,1959,338
-"Lebduška, Jaroslav",Veterinární farmakologie receptura a toxikologie léčiv,1959,216
 "Krondl, Antonín",Dieta při chronické zácpě,1959,23
 "Krondl, Antonín",Dieta při tuberkulose,1959,31
 ,Předpisy sýrových a tvarohových jídel,1959,31
@@ -926,8 +1033,6 @@ Ali-Bab,Labužnická kuchyně =,1935,811
 "Břízová, Joza",Vaříme zdravě chutně a hospodárně,1960,614
 "Straková, Anna",Zeleninové saláty,1960,32
 "Polnerová, Marie",Základy dietní technologie,1960,181
-"Sajner, Josef",Úvod do obecné farmakologie a návod ku psaní receptů,1960,104
-"Lenfeld, Jiří",Obecná farmakologie a úvod do receptury,1960,138
 "Vrabec, Vilém",Studená kuchyně,1960,327
 "Sottner, Lubomír",Vaříme v přírodě,1960,303
 "Kašparová, Eva",Vaříme na výletě a v chatě,1960,32
@@ -985,16 +1090,15 @@ Ali-Bab,Labužnická kuchyně =,1935,811
 "Sedláčková, Hana",Technologie výroby pro 3 ročník středních škol pro společné stravování,1962,55
 "Zahelová, Leopolda",Organická chemie pro 2 ročník zdravotních laborantů a dietních sester,1962,184
 "Sedláčková, Hana",Technologie pokrmů a nápojů pro 2 ročník středních škol společného stravování,1962,149
-"Köcher, Zdeněk",Praktická cvičení z farmakologie a obecná receptura,1962,88
 "Bodláková, Jitka",Dneska vařím já,1962,243
 ,Jednotné technologické postupy,1962,360
 ,Učební plán a osnovy odborných předmětů pro odborná učiliště učňovské školy učňovská střediska a pracoviště učňů v podnicích,1962,39
 ,Učební plán a osnovy odborných předmětů pro odborná učiliště učňovské školy učňovská střediska a pracoviště učňů v podnicích,1962,54
 ,Salnatrex,1962,1
+,Sýry v naší kuchyni,1962,47
 ,Sójová kuchařka,1963,65
 "Lonská, Hana",Dieta při hypertenzní nemoci (vysokém krevním tlaku),1963,38
 "Páv, Jaroslav",Dieta při cukrovce,1963,48
-"Sajner, Josef",Úvod do obecné farmakologie a návod ku psaní receptu,1963,113
 "Sobek, Vojtěch",Učebnice receptury pro mediky,1963,123
 "Zedníková, Irma",Z předpisů venkovské kuchyně,1963,43
 "Břízová, Joza",Vaříme dětem,1963,172
@@ -1035,7 +1139,6 @@ Ali-Bab,Labužnická kuchyně =,1935,811
 "Fialová, Juliana Anna",Rychlé pokrmy,1965,229
 "Kašpar, Jiří",Zprůmyslnění výroby pokrmů,1965,84
 "Hrubá, Marie",Kuchařka naší vesnice,1965,739
-"Köcher, Zdeněk",Praktická cvičení z farmakologie a obecná receptura,1965,55
 "Břízová, Joza",Vaříme vtipně,1965,240
 "Vrabec, Vilém",Teplá kuchyně,1965,574
 "Kašparová, Eva",Vaříme na výletě a v chatě,1965,31
@@ -1043,6 +1146,7 @@ Ali-Bab,Labužnická kuchyně =,1935,811
 "Bodláková, Jitka",Dneska vařím já,1966,286
 "Sís, Vladimír",Počítání nudliček v jarní polévce,1966,116
 "Pohunková, Hana",Ryba v kuchyni,1966,202
+"Straková, Anna",Rychle a chutně z konzerv,1966,31
 ,Praktikum z receptury,1966,195
 "Hrdlička, Jiří",Technologie pokrmů pro 1 ročník středních škol společného stravování,1966,147
 "Gjuričová, Jiřina",Technologie vaření a dietního vaření,1966,340
@@ -1053,10 +1157,12 @@ Ali-Bab,Labužnická kuchyně =,1935,811
 ,Vaříme a topíme propan-butanem,1966,194
 ,Velká kniha receptů Pragomixu,1966,106
 ,Vaříme zdravě chutně a hospodárně,1966,261
+,Jaro v naší kuchyni,1966,32
 ,ABCD pro Vánoce 1966,1966,23
 "Sedláčková, Hana",Lehké večeře,1967,32
 "Sís, Vladimír",Počítání nudliček v jarní polévce,1967,116
 "Klíma, Michael Dobromil",Čínská kuchyně,1967,166
+"Bittermann, Josef",Kuchařský lexikon,1967,457
 ,Rok s vitamíny 1968,1967,108
 "Nestával, Antonín",Speciality české moravské a slovenské kuchyně,1967,54
 "Hrubá, Marie",Kuchařka naší vesnice,1967,739
@@ -1090,6 +1196,7 @@ Ali-Bab,Labužnická kuchyně =,1935,811
 "Ryšánková, Helena",Kuchařky,1968,43
 "Páv, Jaroslav",Dieta při cukrovce,1968,48
 ,Myslivecká kuchařka,1968,307
+"Bittermann, Josef",Kuchařský lexikon,1968,457
 "Vrabec, Vilém",Velká kuchařka,1968,638
 "Sedláčková, Hana",Technologie pokrmů pro 2 ročník středních škol společného stravování a pro střední hotelové školy,1968,183
 "Břízová, Joza",Vaříme vtipně,1968,240
@@ -1128,6 +1235,7 @@ Ali-Bab,Labužnická kuchyně =,1935,811
 "Polnerová, Marie",Technologie pokrmů pro 3 ročník středních škol společného stravování,1969,182
 "Šafářová, Eva",200 druhů pomazánek,1969,32
 "Stropnický, Jiří",Technologie pro 2 ročník odborných učilišť a učňovských škol učební obor kuchař kuchařka,1969,204
+"Uher, Miroslav",Kuchařské suroviny po 1 ročník odborných učilišť a učňovských škol,1969,124
 "Pulec, Miloš Josef",Houby v kuchyni,1969,32
 "Houžvička, Alois",Drůbeží speciality,1969,124
 "Slabochová, Zdeňka",Dieta redukční,1969,55
@@ -1142,6 +1250,7 @@ Ali-Bab,Labužnická kuchyně =,1935,811
 "Matuška, P.",O nápojích od A do Z,1970,181
 "Bartušek, Josef",Jihočeská kuchyně,1970,31
 "Štorková, Hana",Vaříme na teflonové pánvi a v alobalu,1970,32
+"Uher, Miroslav",Kuchařské suroviny pro 2 ročník odborných učilišť a učňovských škol,1970,121
 "Doberský, Přemysl",Dieta při nemocech močových cest,1970,44
 "Doberský, Přemysl",Dieta při snížené kyselosti žaludeční šťávy,1970,47
 "Hodač, Ervín",Staročeská kuchyně,1970,235
@@ -1194,7 +1303,9 @@ Ali-Bab,Labužnická kuchyně =,1935,811
 "Lenfeld, Jiří",Praktikum z receptury,1971,210
 "Zapletal, Petar",Z muzikantské kuchyně aneb Jak si vaří kumštýři,1971,168
 "Žemličková, Gabriela",Vaříme s Vitanou,1971,9
+"Uher, Miroslav",Kuchařské suroviny pro 1 roč odborných učilišť a učňovských škol,1971,126
 "Vnouček, Josef",Technologie přípravy pokrmů pro 3 ročník odborných učilišť a učňovských škol,1971,175
+,Předpisy o nakládání zboží do železničních nákladních vozů,1971,335
 "Nestával, Antonín",Speciality české moravské a slovenské kuchyně,1971,54
 "Linhart, Milan",Ruská kuchyně,1972,131
 "Příhoda, Antonín",Houbařův rok,1972,393
@@ -1207,6 +1318,7 @@ Ali-Bab,Labužnická kuchyně =,1935,811
 "Sedláčková, Hana",Domácí jídelníčky,1972,186
 "Houžvička, Alois",Receptury jídel pro závodní stravování,1972,621
 "Břízová, Joza",U stolu s paní MD Rettigovou,1972,243
+"Uher, Miroslav",Kuchařské suroviny pro 2 ročník odborných učilišť a učňovských škol,1972,114
 "Skoupil, Jan",Technologie trvanlivého pečiva,1972,328
 "Břízová, Joza",Nová domácí kuchařka,1972,279
 "Břízová, Joza",Nová domácí kuchařka,1972,273
@@ -1229,8 +1341,10 @@ Ali-Bab,Labužnická kuchyně =,1935,811
 "Havelková, Marie",Chutné pokrmy z brambor,1973,32
 "Pelech, Ondrej",Domácí zabíjačka,1973,185
 "Davidová, Olga",Vánoční pečivo,1973,31
+"Uher, Miroslav",Kuchařské suroviny pro 1 ročník odborných učilišť a učňovských škol,1973,126
 "Tikal, Kamil",Úvod do receptury,1973,234
 "Simonides, Jan",Recepty na útulný byt,1974,143
+"Bastlová, Marie",Tlakový hrnec v moderní kuchyni,1974,31
 "Martinicová, Jana",Francouzská kuchyně,1974,319
 "Vlachová, Libuše",Zelenina v kuchyni celého světa,1974,398
 "Fialová, Juliana Anna",Kuchyně chovatele a zahrádkáře,1974,189
@@ -1256,7 +1370,6 @@ Ali-Bab,Labužnická kuchyně =,1935,811
 "Šafářová, Eva",Vaříme celý rok,1975,30
 "Karvánková, Jana",Čokoláda cukrovinky trvanlivé pečivo,1975,100
 "Luskačová, Eva",Rychlé večeře,1975,31
-"Hadašová, Eva",Úvod do obecné a speciální receptury pro praktická cvičení z farmakologie,1975,124
 "Fialová, Juliana Anna",Česká kuchařka,1975,337
 "Macháč, Milan",Stolničení pro odborná učiliště a učňovské školy učební obor kuchař kuchařka,1975,159
 "Simonides, Jan",Kuchyňské koření jako koníček,1975,31
@@ -1275,10 +1388,13 @@ Ali-Bab,Labužnická kuchyně =,1935,811
 "Smotlacha, Miroslav",Houby v přírodě a v kuchyni,1976,261
 "Davidová, Olga",Vánoční pečivo,1976,31
 "Vrabec, Vilém",Velká kuchařka,1976,638
+"Uher, Miroslav",Kuchařské suroviny pro 1 ročník odborných učilišť a učňovských škol,1976,127
 "Skála, Ivo",Dieta při chorobách střevních,1976,79
+"Břízová, Joza",Kuchařský slabikář pro mladé hospodyně,1976,186
 "Stropnický, Jiří",Technologie přípravy pokrmů pro 2 ročník,1976,330
 "Slabochová, Zdeňka",Dieta redukční,1976,59
 "Stropnický, Jiří",Technologie pro 2 ročník odborných učilišť a učňovských škol učební obor kuchař kuchařka,1976,199
+"Uher, Miroslav",Kuchařské suroviny,1976,115
 "Kašparová, Eva",Předkrmy a saláty,1976,31
 "Krupička, Jiří",Receptury studených pokrmů,1976,561
 "Pleskotová, Petra",20000 let vaření,1976,115
@@ -1315,6 +1431,7 @@ Ali-Bab,Labužnická kuchyně =,1935,811
 "Frolíková, Jana",100 a 1 bramborových jídel,1978,69
 "Herfort, Karel",Dieta pankreatická,1978,31
 "Tomaník, Miroslav",Čínská kuchyně,1978,143
+"Zariņš, Marģeris",Nepravý Faust aneb Opravená a doplněná kuchařská kniha,1978,298
 ,Lidové figurální pečivo,1978,36
 "Karvánková, Jana",Čokoláda cukrovinky trvanlivé pečivo,1978,98
 "Šafářová, Eva",Z kuchyně zahrádkářky,1978,31
@@ -1338,6 +1455,7 @@ Ali-Bab,Labužnická kuchyně =,1935,811
 "Štěpánek, Pavel",Dieta při nemocech močových cest,1979,40
 "Kojecký, Zdeněk",Dieta při nemocech žlučníku,1979,34
 "Lánská, Dagmar",Koření pro každé vaření,1979,254
+"Vrabec, Vilém",Jihočeský kapr v naší a zahraniční kuchyni,1979,100
 "Kosek, Oldřich",100 a 1 specialit z masa,1979,127
 "Prošek, Zdeněk",Připravujeme zvěřinu,1979,31
 "Vnouček, Josef",Technologie přípravy pokrmů pro 3 ročník odborných učilišť a učňovských škol,1979,171
@@ -1364,8 +1482,8 @@ Ali-Bab,Labužnická kuchyně =,1935,811
 "Šafářová, Eva",100 a 1 pomazánek,1980,69
 "Paulus, Josef",Ztráty při technologické přípravě pokrmů,1980,78
 "Bastlová, Marie",Pokrmy v alobalu,1980,31
+"Čechová, Lilla",Vybrané kapitoly z konzervační stomatologie,1980,168
 "Vlčková, Alena",99 specialit sovětské kuchyně,1980,159
-"Hadašová, Eva",Úvod do obecné a speciální receptury pro praktická cvičení z farmakologie,1980,95
 "Fischerová, Daniela",Žerty z kuchyně,1980,11
 "Vrabec, Vilém",Saláty po celý rok,1980,31
 ,Inovace plynových a elektroplynových spotřebičů pro přípravu jídel jako součát vybavení kuchyňského nábytku,1980,129
@@ -1422,6 +1540,7 @@ Ali-Bab,Labužnická kuchyně =,1935,811
 "Kojecký, Zdeněk",Dieta při nemocech žlučníku,1982,39
 ,Kuchařka pro začátečníky,1982,367
 "Vrabec, Vilém",Jihočeská houbařská kuchařka,1982,253
+"Vlachová, Libuše",Zelenina v české kuchyni,1982,190
 "Zahálka, Jaroslav",100 a 1 zeleninových jídel,1982,95
 "Bréal, Pierre Aristide",Velká mela aneb francouzská kuchyně,1982,81
 "Dufek, Oldřich",Vaříme chutně a pestře,1982,32
@@ -1433,6 +1552,7 @@ Ali-Bab,Labužnická kuchyně =,1935,811
 "Valenta, Jaroslav",Kuchyňské potřeby,1982,70
 ,Dieta,1982,1020
 "Peukertová, Drahomíra",Předpisy pro mou dceru,1983,32
+"Fuks, Ladislav",Vévodkyně a kuchařka,1983,722
 "Pinková, Alice",Jak si udržet zdraví a mládí,1983,31
 "Břízová, Joza",Vaříme dětem,1983,195
 "Stropnický, Jiří",Technologie přípravy pokrmů pro 2 ročník středních hotelových škol studijní obor provoz hotelů a společného stravování,1983,257
@@ -1477,7 +1597,6 @@ Ali-Bab,Labužnická kuchyně =,1935,811
 "Skála, Ivo",Dieta při chorobách střevních,1984,77
 "Jakubāns, Andris",Večeře s klaunem,1984,195
 "Fialová, Juliana Anna",Mezinárodní kuchařka,1984,284
-"Lenfeld, Jiří",Receptorová teorie v klinické farmakologii,1984,40
 "Hrubá, Marie",Kuchařka naší vesnice,1984,766
 "Davidová, Olga",Vánoční pečivo,1984,32
 "Kopáčková, Kristina",Japonská kuchyně,1984,32
@@ -1516,7 +1635,6 @@ Ali-Bab,Labužnická kuchyně =,1935,811
 "Šerý, Vladimír",Orientální kuchyně,1985,259
 "Vrbatová, Vendy",100 a 1 chalupářských pochoutek,1985,109
 ,Prozatimní učební dokumenty učebních oborů,1985,120
-"Hadašová, Eva",Úvod do obecné a speciální receptury pro praktická cvičení z farmakologie,1986,95
 "Patlejchová, Eva",Dieta při odvápnění kostí (osteoporóze a osteomalacii),1986,126
 "Šafářová, Eva",Pokrmy s vůní česneku,1986,32
 "Rettigová, Magdalena Dobromila",Domácí kuchařka,1986,558
@@ -1567,7 +1685,6 @@ Ali-Bab,Labužnická kuchyně =,1935,811
 "Verner, Ladislav",Receptury pokrmů z polotovarů REMA,1987,117
 "Vlachová, Libuše",Ovocné moučníky a dezerty,1987,331
 "Vlachová, Libuše",Praktická kuchařka,1987,399
-"Lenfeld, Jiří",Receptorová teorie v klinické farmakologii,1987,40
 ,Dietní potraviny,1987,52
 "Horký, Jaroslav",Dieta při chorobách jaterních,1987,56
 "Davidová, Olga",Připravujeme těstoviny,1987,32
@@ -1606,8 +1723,8 @@ Thang Jüngling,Čínská domácí kuchyně,1987,33
 "Řešátko, Jaroslav",Speciality světových kuchyní,1988,298
 "Šabykina, Ljubov' Viktorovna",Zelenina v kuchyni,1988,155
 "Davidová, Olga",Vánoční pečivo,1988,32
+"Novotná, Regina",Exotika v družstevní kuchyni,1988,126
 "Pinková, Alice",Mraznička nám pomáhá,1988,32
-"Šulcová, Alexandra",Speciální stomatologická receptura pro praktická cvičení z farmakologie,1988,33
 "Hrubá, Marie",Kuchařka naší vesnice,1988,602
 "Štotová, Ludmila",Jehněčí kůzlečí skopové,1988,32
 "Skornjakov, Sergej Michajlovič",Zelená kuchyně,1988,399
@@ -1622,7 +1739,6 @@ Thang Jüngling,Čínská domácí kuchyně,1987,33
 "Jüngling, Thang",Čínská domácí kuchyně,1988,34
 "Jüngling, Thang",Čínská domácí kuchyně,1988,33
 "Hrabětová, Jana",Lidové Vánoce v Polabí,1988,19
-"Hadašová, Eva",Úvod do obecné a speciální receptury pro praktická cvičení z farmakologie,1989,105
 "Baudyš, Věnek",Hovězí maso,1989,32
 "Vlachová, Libuše",Pokrmy a rýže,1989,31
 "Matejka, Mikuláš",Technologie přípravy pokrmů,1989,132
@@ -1642,6 +1758,7 @@ Thang Jüngling,Čínská domácí kuchyně,1987,33
 "Dušátko, Josef",Řeznická kuchařka,1989,127
 "Kopáčková, Kristina",Japonská kuchyně,1989,32
 "Bianki, Vitalij Valentinovič",Myslivecký rok,1989,205
+"Zemánková, Milada",Sója v naší kuchyni,1989,126
 "Mašek, Petr",Levné pokrmy z ryb zeleniny brambor hub luštěnin krup těstovin sýrů,1989,102
 "Pohunková, Hana",Chladničky a mrazničky v domácnosti,1989,137
 "Ráczová, Vlasta",Nahlédnutí do maďarské kuchyně,1989,31
@@ -1797,6 +1914,7 @@ Thang Jüngling,Čínská domácí kuchyně,1987,33
 "Šejbalová, Jiřina",Opět Vaříme na chatě,1991,126
 "Ševčíková, Božena",Pečeme chléb doma a na chalupě,1991,47
 "Vlčková, Alena",Zavařování,1991,80
+"Mičánková, Marie",Rostliny v léčbě kuchyni a kosmetice,1991,176
 "Půhoný, Karel",Jablka a hrušky,1991,24
 "Kratochvíl, Petr",Cukrářské recepty,1991,30
 "Nováková, Soňa",Vaříme za šesták,1991,95
@@ -1816,11 +1934,11 @@ Thang Jüngling,Čínská domácí kuchyně,1987,33
 "Tetzeliová, Michaela",ABC vaření pro muže,1991,30
 "Vrabec, Vilém",Velká kuchařka,1991,638
 ,Velká kuchařka pro mikrovlnnou troubu,1991,447
+"Dvořáček, Zdeněk",Vznešenost lovu a kuchařského umění,1991,82
 "Endlicherová, Zdeňka",Žebrácká kuchařka,1991,110
 "Netušil, Jaroslav",Technologie přípravy pokrmů,1991,287
 "Sečanský, Imrich",Vaříme diabetikům,1991,224
 ,Vaříme dětem,1991,47
-"Šulcová, Alexandra",Speciální stomatologická receptura pro praktická cvičení z farmakologie,1991,33
 ,Apetit,1991,95
 "Horan, Peter",Vaříme dětem chutně a zdravě,1991,42
 "Horan, Peter",Vaříme dětem chutně a zdravě,1991,46
@@ -1861,6 +1979,7 @@ Thang Jüngling,Čínská domácí kuchyně,1987,33
 "Šírová, Jana",Moderní osvěžující nápoje,1991,100
 "Brousková, Zuzana",Pomazánky,1991,31
 "Frolíková, Jana",40 + 5 vánočních receptů,1991,12
+"Maroušek, Jan",Celozrnná mouka a lněné semínko v tradiční kuchyni,1991,30
 "Filipová, Lea",Dárky z kuchyně,1991,31
 "Grossová, Lenka",Bramborová kuchařka,1991,31
 ,Gastronomická revue,1991,14
@@ -1922,7 +2041,7 @@ Thang Jüngling,Čínská domácí kuchyně,1987,33
 ,Rybářské recepty,1992,30
 "Sedláčková, Hana",Zelenina v kuchyni od A do Z,1992,94
 "Šulc, František",Kuchyně jižní Evropy,1992,149
-"Hadašová, Eva",Základy receptury pro praktická cvičení z farmakologie,1992,96
+,Vybrané kapitoly z konzervárenské a mrazírenské technologie,1992,175
 "Blažíčková, Naděžda",Teplé zeleninové večeře,1992,32
 ,Extra recepty moučníků,1992,30
 "Maly, Michaela",Kuchyně USA a jak si pochutnat,1992,190
@@ -2022,7 +2141,6 @@ Thang Jüngling,Čínská domácí kuchyně,1987,33
 "Michal, Karel",Vaříme s Habadějem 1992,1992,159
 "Runštuk, Jaroslav",Pivní hlad aneb Speciality z piva a k pivu,1992,128
 "Smolíková, Eliška",Recepty pro život mé dcery,1992,40
-,Diana recepty,1992,1
 ,Vaříme ve fritovacím hrnci,1992,76
 "Elefteriadu, Martha",Řecká kuchyně,1992,150
 "Bruker, Max O.",Diabetes a jeho léčení s recepty Ilse Gutjahr,1992,92
@@ -2091,7 +2209,6 @@ Thang Jüngling,Čínská domácí kuchyně,1987,33
 "Werthmann, Konrad",Kuchařka pro alergiky,1993,75
 "Vlachová, Libuše",Pochoutky z kompotů,1993,32
 "Willan, Anne",Čokoládové dezerty,1993,127
-"Hadašová, Eva",Základy receptury pro praktická cvičení z farmakologie,1993,96
 "Pechová, Jaroslava",Hrníčková kuchařka,1993,154
 "Dufek, Oldřich",Salátové mísy,1993,31
 "Hruška, Martin",Dobroty mé prababičky,1993,31
@@ -2103,8 +2220,10 @@ Thang Jüngling,Čínská domácí kuchyně,1987,33
 "Willan, Anne",Těstoviny,1993,128
 "Seidlová, Anastasie B.",Kuchařka Jitřenky pro chudé a střední vrstvy,1993,288
 "Brousek, František",České moučníky,1993,27
+"Vašák, Jaroslav",Kniha kuchařských zajímavostí,1993,128
 "Teubner, Odette",Pro diabetiky,1993,120
 "Vaňha, Jindřich",Rybí kuchyně,1993,673
+"Linhart, Tony",Gastronomické záhady aneb Pohledy do historie kuchařského umění,1993,64
 "Žďánská, Iva",Vaření,1993,54
 "Zahálka, Jaroslav",100 a 1 zeleninových jídel,1993,78
 "Brzák, Jan",Česká kuchařka,1993,249
@@ -2451,6 +2570,7 @@ Xiaohui Wang,Čínské zeleninové speciality,1994,35
 "Šubrtová, Olga",Dieta bez diety aneb Brambory v kuchyni pro štíhlou linii,1995,105
 "Budinský, Václav",Vaříme a jíme zdravě levně s humorem,1995,141
 "Rosa, Ladislav",Anémie,1995,31
+"Ribar, L. John",BYTE's Windows,1995,217
 ,Velká česká kuchařka,1995,783
 "Vašák, Jaroslav",Kuchařka nejen na neděli,1995,63
 "Filipová, Lea",Sváteční pečivo,1995,32
@@ -2501,6 +2621,7 @@ Xiaohui Wang,Čínské zeleninové speciality,1994,35
 "Žippai, Alexander",Kuchařka pro podnikatele,1995,70
 "Lánská, Dagmar",Jak používat koření,1995,125
 "Brázdová, Zuzana",Listy pro rodiče,1995,22
+,Diana recepty,1995,1
 "Skopová, Kamila",Lidová tvorba,1995,71
 "Nodl, Ladislav",Zvěřina na našem stole,1995,112
 Ošó,Perly v kapse u vesty,1995,179
@@ -2614,7 +2735,6 @@ Ošó,Perly v kapse u vesty,1995,179
 "Delos, Gilbert",Svět koktejlů,1996,119
 "Toufar, Pavel",Vánoce,1996,252
 "Bernášek, Vladimír",Není hrnec jako hrnec aneb České rodinné vaření,1996,140
-,Slepičí polévka pro duši,1996,295
 "Mottl, Jindřich",Ilustrovaný slovník pro kuchaře a číšníky,1996,110
 "Stejskalová, Jaroslava",Receptury pro cukrářskou výrobu,1996,94
 "Stejskalová, Jaroslava",Receptury pro cukrářskou výrobu,1996,62
@@ -2768,7 +2888,6 @@ Ošó,Perly v kapse u vesty,1995,179
 ,Kuchařka - krůta na 150 způsobů,1997,84
 "Štěpnička, Miloš",Mořská kuchařka,1997,123
 "Cvrčková, Alena",Hrajeme s enery,1997,86
-"Pinkava, Josef",chutně a zdravě po celý rok 1998,1997,29
 "Ferguson, Judith",Bylinky a koření,1997,64
 ,Hospody a pivo v české společnosti,1997,259
 "Gregor, Pavel",Diety při onemocnění aterosklerózou,1997,31
@@ -2797,7 +2916,6 @@ Ošó,Perly v kapse u vesty,1995,179
 "Pinková, Alice",Recepty ve znamení zvěrokruhu,1997,30
 "Brahová, Marie",Perníčky pro každý den,1997,28
 "Mikšovic, Alexander",Umění koktejlu,1997,167
-"Canfield, Jack",Slepičí polévka pro duši kuchařka,1997,254
 "Půlpánová, Alena",Vaříme bez cholesterolu,1997,30
 "Ševčíková, Božena",Vegetarián labužník,1997,63
 "Summ, Ursula",Žijeme s dělenou stravou,1997,143
@@ -2919,6 +3037,7 @@ Bříza,Kuchařka našeho venkova,1997,542
 "Pfeiffer, Beate",Kuchařka pro mikrovlnnou troubu,1998,128
 "Weise, Otfried",Pět Tibeťanů,1998,264
 "Summ, Ursula",Hubneme s dělenou stravou,1998,104
+"Drábek, Václav",Tvořivost a integrace v receptivní hudební výchově,1998,146
 "Vašák, Jaroslav",Jaro je tu,1998,57
 "Vašák, Jaroslav",Dětské slavnosti,1998,57
 "Vašák, Jaroslav",Rychlé pokrmy,1998,57
@@ -3058,6 +3177,7 @@ Hildegarda,Léčebná kuchařka svaté Hildegardy,1998,255
 "Pechová, Jaroslava",Vaříme a pečeme bez vážení,1998,206
 ,Kuchařka pro labužníky,1999,133
 "Kelblová, Miloslava",Koktejly bez alkoholu,1999,175
+"Pražák, Marek",Láska a magie v maminčině kuchyni,1999,1
 "Větvičková, Jana",Pochoutky pro vegetariány,1999,89
 "Starnovská, Tamara",Diety při onemocnění cukrovkou II,1999,31
 "Starnovská, Tamara",Velikonoční pečivo a jiné recepty pro diabetiky,1999,31
@@ -3083,7 +3203,6 @@ Hildegarda,Léčebná kuchařka svaté Hildegardy,1998,255
 "Štěpnička, Miloš",Ryby pro slavnostní příležitosti,1999,116
 "Velemínský, Miloš",Anticholesterolová kuchařka,1999,148
 "Toufar, Pavel",Kuchařka pro krkonošského medvěda,1999,149
-"Canfield, Jack",Slepičí polévka pro duši teenagera,1999,243
 "Peukertová, Drahomíra",Sto receptů na chutné saláty,1999,94
 Germana,Když vaří andělé,1999,222
 "Horan, Peter",Vaříme bez cholesterolu a pro štíhlou linii,1999,142
@@ -3218,7 +3337,6 @@ Germana,Když vaří andělé,1999,222
 "Roubínek, Zdeněk",Kuchařka,1999,133
 "Vlachová, Libuše",Oblíbené domácí cukroví,1999,105
 "Koukolová, Alexandra",Praktická bezlepková kuchařka,1999,57
-,Slepičí polévka pro duši matky,1999,276
 "Mottl, Jindřich",Nápoje,1999,111
 "Štěpánská, Věra",Pečeme cukroví,1999,29
 "Polena, Pavel",Kapr v naší a světové kuchyni,1999,128
@@ -3278,6 +3396,8 @@ Germana,Když vaří andělé,1999,222
 "Mandžuková, Jarmila",Kuchařka,1999,142
 "Martin, Alex",Dekadentní kuchařka,1999,173
 "Asala, Joanne",Keltská lidová kuchyně,1999,406
+,Sborník z konzervátorského a restaurátorského semináře konaného ve dnech 28-30 září 1999 v Seči u Chrudimě,1999,151
+,Sborník z konzervátorského a restaurátorského semináře konaného ve dnech 6-8 října 1998 v Regionálním muzeu v Kopřivnici,1999,169
 "Henry, Mike",Karibské koktejly a míchané nápoje,1999,149
 "Rias-Bucher, Barbara",Moderní kuchyně,1999,700
 "Mayer, Miroslav",Bramborové pochoutky aneb Brambor náš vezdejší,1999,78
@@ -3342,7 +3462,6 @@ Germana,Když vaří andělé,1999,222
 "Grunert, Peter",Jablečný ocet aneb Jak zhubnout 5 kg za 4 týdny,2000,113
 "Kohout, Pavel",Amaranth,2000,61
 "Cerqueirová, Andrea",Politická kuchařka,2000,133
-,Slepičí polévka pro duši,2000,309
 "Hönigová, Marcela",Sto receptů na polévky,2000,97
 "Šustalová, Libuše",Kuchařka,2000,107
 ,Kuchařův rok,2000,159
@@ -3394,7 +3513,6 @@ Germana,Když vaří andělé,1999,222
 "Ferguson, Valerie",Italská kuchyně,2000,64
 "Atkins, Robert C.",Nová revoluční dieta doktora Atkinse,2000,369
 "McIntyre, Anne",Zdravé nápoje,2000,159
-,Slepičí polévka pro duši milovníků domácích mazlíčků,2000,281
 ,Kuchařka F1 (Frekvence 1),2000,327
 "Chmel, Ladislav",Vaříme s bylinkami,2000,285
 "Mazel, Judy",Recepty pro doživotní štíhlost,2000,257
@@ -3521,6 +3639,7 @@ Germana,Když vaří andělé,1999,222
 "Hrubý, Stanislav",Omyly a fámy v dietním stravování,2000,79
 "Komárek, Lumír",Lucinka ráda mlsá,2000,32
 "Vašák, Jaroslav",Z kuchyně slavných,2000,253
+,Sborník z konzervátorského a restaurátorského semináře konaného ve dnech 26-28 září 2000 v Písku,2000,143
 "Jakeš, Antonín",Čínská kuchařka,2000,125
 "Widimský, Jiří",Dieta při kardiovaskulárních onemocněních,2000,79
 "Momčilová, Pavla",Česká kuchyně pro Váš typ,2000,142
@@ -3566,7 +3685,6 @@ Germana,Když vaří andělé,1999,222
 ,Pochutnejte si bez masa aneb Tak vařil Zarathustra,2000,135
 "Nodl, Ladislav",Studená kuchyně,2000,32
 "Pekárek, Jaroslav",Praktická bezmasá kuchařka pro prevenci zdraví,2000,1
-"Zelenková, Olga",Speciální stomatologická receptura pro praktická cvičení z farmakologie,2000,30
 "Drahokoupil, Zdeněk",Rybářský kalendář s recepty 2002,2000,13
 "Wilson, Anne",Tvarohové a sněhové dorty,2000,64
 "Poncová, Svatava",Sladká hrníčková kuchařka,2000,124
@@ -3626,6 +3744,7 @@ Thea,Kuchařka plná kouzel,2001,127
 "Berry, Mary",Velká rodinná kuchařka,2001,510
 "Vašák, Jaroslav",Zavařujeme ovoce a zeleninu,2001,167
 ,Indická kuchyně,2001,95
+"Beníšek, František",Cukety v naší kuchyni,2001,86
 "Dufek, Oldřich",Čaj mnoha chutí,2001,71
 "Vergne, Blanche",Vaříme přímo na stole,2001,95
 "Havlů, Karina",Kuchařka - vaříme v pánvi wok,2001,116
@@ -3655,7 +3774,6 @@ Thea,Kuchařka plná kouzel,2001,127
 "Zemánková, Milada",Rychlovky aneb Co dům dal,2001,106
 "Vašák, Jaroslav",Regionální pokrmy z Čech Moravy a Slezska od A (Adamov) do Ž (Žďár),2001,207
 "Půlpánová, Alena",Magických 400 kalorií,2001,32
-,Slepičí polévka pro duši zamilovaných,2001,239
 "Martin, Pavel",Papiňák,2001,75
 "Toufar, Pavel",Velikonoce,2001,315
 "Větvičková, Jana",Svačiny a svačinky,2001,90
@@ -3830,6 +3948,7 @@ Thea,Kuchařka plná kouzel,2001,127
 "Vrbatová, Vendy",Sto receptů na kuře krůtu a slepici,2001,94
 ,Suši,2001,96
 "Jiskra, Martin",Moderní česká kuchařka,2001,209
+,Sborník z konzervátorského a restaurátorského semináře konaného ve dnech 2-4 října 2001 v Českých Budějovicích,2001,143
 "Vlachová, Libuše",Pečeme ke kávě,2001,32
 "Sedláčková, Hana",Technologie přípravy pokrmů 4,2001,93
 ,Dr Oetker - velká obrazová kuchařka,2001,400
@@ -3852,7 +3971,6 @@ Thea,Kuchařka plná kouzel,2001,127
 "Pechová, Jaroslava",Půlhodinka pouhá,2001,139
 "Pechová, Jaroslava",Pečeme na Vánoce bez vážení,2001,200
 "Pechová, Jaroslava",Vaříme a pečeme bez vážení,2001,206
-,Kratochvilný dietní kalendář Krásné paní,2001,1
 "Neužil, Luděk",Evropská kuchyně ve skle Simax,2001,32
 "Ortiz, Elisabeth Lambert",Encyklopedie koření bylinek a pochutin,2001,288
 "Štěpánská, Věra",Cukroví na Vánoce,2001,90
@@ -3863,7 +3981,6 @@ Thea,Kuchařka plná kouzel,2001,127
 ,Co budu vařit,2001,1
 ,Předvánoční a vánoční čas v Hradci Králové v průběhu staletí,2001,30
 ,Gourmet,2001,160
-,Recepty minulých staletí,2002,1
 "Novotný, Petr",Ham a mňam 3,2002,120
 "Furtmayr, Andreas",Barbecue,2002,34
 "Francková, Zuzana",Kuchařka chudého důchodce,2002,125
@@ -3879,7 +3996,6 @@ Thea,Kuchařka plná kouzel,2001,127
 "Pape, Martin",Recepty 2002,2002,30
 ,Gastronom,2002,5
 "Peychlová, Bohumíra",Dietní recepty redukční,2002,61
-"Canfield, Jack",Slepičí polévka pro duši,2002,330
 ,Nejen bonmoty a citáty o jídle všech chutí,2002,156
 ,Pestré pohoštění,2002,96
 "Zlatá, Renata",Co budu dnes vařit,2002,101
@@ -4001,6 +4117,7 @@ Thea,Kuchařka plná kouzel,2001,127
 "Kovář, Ladislav",Zdravá a moderní jídla,2002,267
 "Kratochvilová, Patricie",Tvaroh a čerstvé sýry ve zdravé kuchyni,2002,127
 ,Vegetariánská kuchyně,2002,79
+,Sborník z konzervátorského a restaurátorského semináře konaného ve dnech 17-1992002 v Pardubicích,2002,146
 "Bárta, Luboš",Velká kniha o kráse snoubení vín a pokrmů,2002,330
 "Peková, Andrea",Oves a žito ve zdravé kuchyni,2002,78
 "Hanzlík, Josef",Zelí na 140 způsobů,2002,103
@@ -4099,6 +4216,7 @@ Thea,Kuchařka plná kouzel,2001,127
 "Janouškovec, Jiří",Hrníčková kuchařka,2002,137
 "Pechová, Jaroslava",Vaříme a pečeme bez vážení,2002,206
 "Samková, Zuzana",Recepty pro každou kapsu 2003,2002,29
+,Kratochvilný dietní kalendář Krásné paní,2002,1
 "Vašák, Jaroslav",Kuchařův atlas II 2003,2002,64
 "Pilarová, Eva",Vaří Eva Pilarová 2003,2002,64
 "Kořínková, Lenka",Lenka Holas Kořínková Moje nejlepší recepty 2 2003,2002,61
@@ -4284,6 +4402,7 @@ Thea,Kuchařka plná kouzel,2001,127
 "Hönigová, Marcela",Sto receptů na pestré saláty,2003,95
 "Marhold, Jiří",Světová kuchyně,2003,257
 "Teplíková, Jarmila",Hlíva ústřičná,2003,95
+,Sborník z konzervátorského a restaurátorského semináře konaného ve dnech 16-18 září 2003 v Brně,2003,150
 "Doležalová, Alena",Kuchařka - med v kuchyni,2003,101
 "Praschl-Bichler, Gabriele",Kondiční a dietní program císařovny Sissi,2003,175
 "Chaloupka, Vladimír",Jídlem ke zdraví,2003,91
@@ -4396,8 +4515,8 @@ Thea,Kuchařka plná kouzel,2001,127
 "Mengerová, Olga",Česká kuchařka pro váš typ,2003,85
 ,Brumíkova dětská kuchařka,2003,43
 "Magni, Milan",Sýr je bratr vína II,2003,91
+,Minirecepty,2004,2
 "Zlatá, Renata",Nové rodinné recepty,2004,197
-,Základy receptury příklady z farmakokinetiky a testy z farmakologie,2004,233
 "Mertlík, Vladimír",Život jako menu,2004,253
 ,Kuchařka pro diabetiky,2004,127
 ,Grilování,2004,96
@@ -4654,7 +4773,6 @@ Thea,Kuchařka plná kouzel,2001,127
 ,Saláty z celého světa,2004,40
 ,Těstoviny,2004,95
 ,Saláty,2004,95
-,Minirecepty,2005,2
 "Horecká, Jana",Večeře snadně a rychle,2005,96
 "Atkins, Robert C.",Hubneme podle Atkinse,2005,423
 ,Skvělé polévky,2005,95
@@ -5108,7 +5226,6 @@ Oi Cheepchaiissara,Skvělá chuť-- Thajska,2006,256
 "Coulombe, Charles A.",Rum,2006,287
 "Froydová, Maria",Kluci v akci 2,2006,195
 "Werle, Loukie",Ingredience,2006,384
-,Slepičí polévka pro duši na rozcestí,2006,291
 "Tůma, Jan",Sporáky varné desky pečicí trouby,2006,74
 "Bartoš, Vladimír",Diety při onemocnění cukrovkou,2006,31
 "Chaloupka, Vít",Moderní zdravá kuchařka Vítka Chaloupky,2006,368
@@ -5191,6 +5308,7 @@ Oi Cheepchaiissara,Skvělá chuť-- Thajska,2006,256
 "Bestajovský, Martin",Lidové obyčeje a nápady pro šikovné ruce,2006,64
 "Magni, Milan",Sto receptů pro vinaře,2006,59
 "Fiala, Ondřej",888 nejlepších receptů našich prababiček,2006,361
+,Recepty minulých staletí,2007,1
 "Bušinová, Iva",Bezlepková kuchařka II,2007,217
 "Fořt, Petr",Tak co mám jíst,2007,417
 "Štochlová, Jaroslava",Vysoký krevní tlak - dieta a rady lékaře,2007,83
@@ -5498,7 +5616,6 @@ Oi Cheepchaiissara,Skvělá chuť-- Thajska,2006,256
 "Hrčková, Anna",Co se dříve jedlo pod štramberskou trúbou,2007,42
 "Havlů, Karina",Pánev wok,2007,121
 "Zemina, Milan",Ze světa do české kuchyně 2008,2007,16
-,Slepičí polévka pro duši osamělého rodiče,2007,273
 "Doležalová, Alena",Bifteky řízky a další výborná masíčka,2007,108
 "Poláček, Jiří",Rok plný sladkostí 2008,2007,29
 "Platl, Zdeněk",Recepty z české kuchyně 2008,2007,17
@@ -5605,6 +5722,7 @@ Oi Cheepchaiissara,Skvělá chuť-- Thajska,2006,256
 "Vaništa, Jiří",Diety při onemocnění mononukleózou,2008,31
 ,Steaky,2008,80
 "Kiefer, Ingrid",77 jednoduchých tipů na hubnutí,2008,96
+"Pospíšil, Milan",Druhý život Prodané nevěsty v saloně v kuchyni v hostinci venku a na ulici,2008,31
 "Nodl, Ladislav",Umění kuchyně,2008,341
 ,Thiazolidindiony PPAR receptory a metabolický syndrom,2008,96
 "Horsáková, Monika",Pod pokličkou 3,2008,210
@@ -5657,6 +5775,7 @@ Oi Cheepchaiissara,Skvělá chuť-- Thajska,2006,256
 ,Rýže & rizota,2008,48
 ,Omáčky & marinády,2008,48
 ,Zeleninové speciality,2008,48
+"Svolinský, Karel",Druhý život Prodané nevěsty v saloně v kuchyni v hostinci venku a na ulici,2008,1
 "Canfield, Jack",Slepičí polévka pro pracující mámu,2008,273
 "Mihulová, Marie",Léčení stravou,2008,127
 ,Rychlá pánev,2008,48
@@ -6047,6 +6166,7 @@ Oi Cheepchaiissara,Skvělá chuť-- Thajska,2006,256
 "Briggs, Margaret",Červená řepa mangold a špenát,2009,159
 "Mumm, Debbie",Můj receptář,2009,40
 "Sedláčková, Hana",Technologie přípravy pokrmů 4,2009,93
+"Molinaro, Anthony",SQL,2009,573
 "Neoralová, Blanka",Zdravá strava pro diabetiky,2009,30
 "Hajská, Petra",Vaří Jirka Babica 2010,2009,32
 ,Stolečku prostři se - Strava jako intelektuální fenomén v muzeu,2009,156
@@ -6337,6 +6457,7 @@ Oi Cheepchaiissara,Skvělá chuť-- Thajska,2006,256
 ,Zlatá kniha pečení,2010,478
 "Kabačenko, Serhij",Dětská kuchařka,2010,127
 "Kochová, Lucie",Velká kniha o Vánocích,2010,202
+,jQuery - kuchařka programátora,2010,436
 "Zapletalová, Hanka",Živá strava,2010,20
 "Gils Slavíková, Mirka van",Cheesecakes,2010,63
 "Partyková, Vilma",Vaříme nemocným rakovinou a nejen pro ně,2010,271
@@ -6369,13 +6490,11 @@ Oi Cheepchaiissara,Skvělá chuť-- Thajska,2006,256
 "Lawson, Nigella",Vánoce s Nigellou,2010,287
 "Matějka, Václav",Houbařský kalendář 2011,2010,13
 "Pössl, Martin",Čaj jako životní styl,2010,81
-"Siegel, Bernie S.",365 receptů pro duši,2010,371
 ,Speciality z masa,2010,34
 ,231 recept,2010,34
 ,Peču pečeš pečeme,2010,26
 "Koura, Robert",Poctivá česká kuchařka,2010,71
 ,Klášterní recepty,2010,193
-"Zavadilová, Radmila",Cvičení z veterinární farmakologie a základy receptury,2010,155
 "Pilaske, Rita",Bylinkové čaje,2010,95
 "Fabešová, Iveta",Iveta & sladká Francie,2010,158
 "Habustová, Milena",Prostřený stůl Rožnovanů,2010,95
@@ -6440,7 +6559,6 @@ Oi Cheepchaiissara,Skvělá chuť-- Thajska,2006,256
 ,Grand Restaurant Festival,2010,
 "Maurer, Pavel",Gurmancz,2010,
 "Motalová, Veronika",Recepty 2011,2010,29
-"Forshaw, Louise",Jak to žije - pečení,2010,10
 "Pírko, Dalibor",Grily krby udírny,2010,72
 "Manďáková Svašková, Eva",Zdravé a rozumné hubnutí,2010,213
 "Botek, Jan",Novoveská kuchařka aneb Jídla dávná i současná,2010,119
@@ -6627,6 +6745,7 @@ Peyo,Šmoulí polévka,2011,56
 ,Party,2011,163
 "Doležal, Vladimír",Hrníčkové moučníky 2012,2011,28
 "Loukotková, Jarmila",Jarmila Loukotková vzpomíná vypráví a vaří,2011,183
+"Böhm, Martin",Programátorské kuchařky,2011,171
 "Vašák, Jaroslav",Nejlepší recepty,2011,639
 "Tinzová, Bohumila",Slezská kuchyně pro den všední i sváteční,2011,74
 "Opatrná, Dáša",Kuchařka i pro tatínky III,2011,130
@@ -7114,7 +7233,6 @@ Jan Braai,Grilování,2013,200
 "Fabešová, Iveta",Sladké a veselé s Ivetou,2013,106
 "Gedda, Gui",Provence,2013,352
 "Myšičková, Barbara",Fishmenu,2013,240
-"Canfield, Jack",Slepičí polévka pro duši,2013,321
 "Škachová, Šárka",České tradiční recepty 2014,2013,32
 "Choutka, Miloš",Hrnková kuchařka 2014,2013,32
 "Doležal, Vladimír",Hrníčkové moučníky 2014,2013,28
@@ -7369,7 +7487,6 @@ DJ BBQ,BBQ kuchařka,2014,124
 ,Zelenina na talíři 2015,2014,29
 ,Alnatura kuchařka,2014,92
 "Klečková, Helena",Kuchařka pro (úplné) začátečníky,2014,69
-"Canfield, Jack",Slepičí polévka pro duši,2014,328
 "France, Christine",Dobré jídlo připravené jednoduše zdravě,2014,223
 ,Kuchařka Zdravé 5,2014,52
 "Novotná, Jitka",Když vaří múzy,2014,223
@@ -7820,7 +7937,6 @@ Břicháč Tom,Rychlovky a chuťovky Břicháče Toma,2015,190
 "Těšínský, David",Recepty pro diabetiky XIII 2016,2015,32
 "Hartwig, Melissa",Whole30,2015,421
 "Ilies, Angelika",Mug Cakes,2015,64
-"Gruber, Julia",36 smoothies pro duši,2015,80
 "Kintrup, Martin",Vaříme pro vegany,2015,64
 "Mandžuková, Jarmila",Budíková dieta aneb Jíst ve správný čas a hubnout,2015,119
 "Borkovcová, Marie",Hmyz na talíři,2015,163
@@ -7902,6 +8018,7 @@ Džalángí déví dásí,Prasádam,2015,228
 ,Oslavy v koloběhu roku Kohoutov,2015,26
 "Enders, Kateřina",Smoothie book,2015,1
 "Fialová, Daniela",Vaříme s tetou Fialkou a skřítkem Klubkem,2015,128
+"Forshaw, Louise",Jak to žije - pečení,2015,10
 "Bartošová, Denisa",Láska prochází kuchyní,2015,176
 "Vrzalová, Radka",Radčina kuchařka bez lepku,2015,1
 "Fallon, Sally",Vyživující tradice,2015,674
@@ -8205,7 +8322,6 @@ Břicháč Tom,Tajemství naší kuchyně,2016,190
 "Čapek, Zdeněk",Východočeské Vánoce,2016,26
 "Lalbaltry, Juliette",Mini dobroty k čaji,2016,109
 "Duffková, Renata",Efektivní nakládání s digestátem a jeho složkami separace při pěstování silážní kukuřice,2016,40
-"Canfield, Jack",Slepičí polévka pro duši,2016,405
 "Černá, Janina",Cukrfree,2016,191
 "Šimková, Hana",Pohádkové nápady pro malé kutily a kuchtíky,2016,86
 ,To nejlepší od českých a slovenských food blogerů,2016,141
@@ -8231,6 +8347,7 @@ Břicháč Tom,Tajemství naší kuchyně,2016,190
 "Skarlantová, Jana",Dle kuchyně pozná se hospodyně,2016,214
 "Milfaitová, Blanka",Příběh psaný do vody,2016,319
 "Vašák, Jaroslav",Jak se vařívalo kdysi a jak dnes A-Ž,2016,971
+"Součková Linhartová, Ladislava",Ladislav Fuks Vévodkyně a kuchařka - zjevení biedermeieru,2016,243
 "Novosádová, Kateřina",BARF kuchařka,2016,188
 "Lipman, Frank",Zdraví a fit po celý život,2016,387
 "Manning, Anneka",Kurz domácího pečení,2016,279
@@ -8964,6 +9081,7 @@ Bezlepková Margottka,Srdcem v kuchyni,2018,229
 ,Česneková festivalová kuchařka,2018,171
 "Doležal, Vladimír",Hrníčkové moučníky 2019,2018,28
 ,Od jara do zimy,2018,175
+,Kapitoly z konzervace a restaurování plastů,2018,74
 "Bohdalová, Jiřina",Když hvězdy vaří,2018,1
 "Šritrová, Lucie",Kuchařka veganská pralesní,2018,31
 ,Vaříme se sestrou Flavií,2018,76
@@ -10075,6 +10193,7 @@ Nhất Hạnh,Zen a umění zachránit planetu,2023,301
 "Seifried, Marco",Pomazánky a dipy,2023,62
 ,Uchovávání úrody,2023,80
 ,Mrkev dýně cuketa,2023,158
+"Pavlásek, Lukáš",4 kuchařské příběhy Čtyřlístku,2023,62
 "Dokoupilová, Milena",Alergie na bílkoviny kravského mléka u novorozenců a malých kojenců,2023,190
 "Hazan, Marcella",Klasická italská kuchyně,2023,750
 "Ouhrabková, Zuzana",Zkvašeno,2023,310
@@ -10230,7 +10349,6 @@ Těhotnej kuchař,Cháluj ještě líp,2023,203
 "Fullerová, Veronika Rút",Kuchařka kultivace českých měst,2023,119
 "Svačinková, Jitka",Zdraví jako cíl,2023,164
 "Školoudová, Dagmar",Kreativ - 90 dortů,2023,290
-"Deneux, Xavier",Můj malý ovocný salát,2024,15
 Dil-mgo-mkhyen-brtse,Soucitné srdce,2024,277
 "Öhlenbach, Melanie",Salátový bar,2024,140
 "Raduševa Herber, Renata",Léčení medem,2024,126
@@ -10529,6 +10647,7 @@ Ostravsky Gastrošef,Heřmanova kuchařka,2025,160
 "Semrádová, Hana",Cukrářské práce,2025,137
 ,Vánoce na talíři,2025,1
 "Čermáková, Ludmila",Kuchařské práce,2025,1
+"Deneux, Xavier",Můj malý ovocný salát,2026,15
 "Fourová, Karolína",Výživná kuchařka,2026,349
 ,Zelenina z povinnosti na radost,2026,141
 "Linhartová, Kateřina",Bedna plná kouře,2026,511
