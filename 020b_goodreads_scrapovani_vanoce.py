@@ -1,18 +1,18 @@
 #!/usr/bin/python3
 
 
-import os
-import time
 import datetime
-import re
 import json
+import os
+import re
+import time
+
+import pandas as pd
 import requests
 from bs4 import BeautifulSoup
-import pandas as pd
-
 
 with open(os.path.join("data_raw", "sledovat_vanoce_2024.json"), "r") as json_file:
-# with open(os.path.join("data_raw", "sledovat.json"), "r") as json_file:
+    # with open(os.path.join("data_raw", "sledovat.json"), "r") as json_file:
     isbns = json.load(json_file)
 
 print(f"Položek ke stažení: {len(isbns)}")
@@ -82,12 +82,11 @@ def scrape_goodreads(isbn):
         kniha["GR_pages"] = int(
             soup.find("p", {"data-testid": "pagesFormat"})
             .text.split(",")[0]
-            .replace("pages","")
+            .replace("pages", "")
             .strip()
         )
     except Exception as E:
         print(E)
-        pass
     try:
         kniha["GR_format"] = (
             soup.find("p", {"data-testid": "pagesFormat"})
@@ -98,7 +97,6 @@ def scrape_goodreads(isbn):
 
     except Exception as E:
         print(E)
-        pass
     try:
         kniha["GR_reviews"] = int(
             soup.find("span", {"data-testid": "reviewsCount"})
@@ -130,9 +128,9 @@ current_date = datetime.datetime.now()
 date_string = current_date.strftime("%Y_%m_%d")
 print(date_string)
 
-if not os.path.exists(f"data_raw/goodreads/vanoce_2024"):
-    os.makedirs(f"data_raw/goodreads/vanoce_2024")
-#if not os.path.exists(f"data_raw/goodreads/{date_string}"):
+if not os.path.exists("data_raw/goodreads/vanoce_2024"):
+    os.makedirs("data_raw/goodreads/vanoce_2024")
+# if not os.path.exists(f"data_raw/goodreads/{date_string}"):
 #    os.makedirs(f"data_raw/goodreads/{date_string}")
 
 greads = []
@@ -145,18 +143,18 @@ for i in isbns:
     if count % 20 == 0:
         pd.DataFrame(greads).to_json(
             os.path.join(
-                f"data_raw/goodreads/vanoce_2024",
-#                f"data_raw/goodreads/{date_string}",
-                f"goodreads_{date_string}_{(int(count/20)):04d}.json",
+                "data_raw/goodreads/vanoce_2024",
+                #                f"data_raw/goodreads/{date_string}",
+                f"goodreads_{date_string}_{(int(count / 20)):04d}.json",
             )
         )
-        print(f"goodreads_{date_string}_{(int(count/20)):04d}.json")
+        print(f"goodreads_{date_string}_{(int(count / 20)):04d}.json")
         greads = []
 pd.DataFrame(greads).to_json(
     os.path.join(
-        f"data_raw/goodreads/vanoce_2024",
-#        f"data_raw/goodreads/{date_string}",
-        f"goodreads_{date_string}_{(int(count/20)):04d}.json",
+        "data_raw/goodreads/vanoce_2024",
+        #        f"data_raw/goodreads/{date_string}",
+        f"goodreads_{date_string}_{(int(count / 20)):04d}.json",
     )
 )
 print("Hotovo.")

@@ -7,6 +7,7 @@ app = marimo.App(width="medium")
 @app.cell
 def _():
     import os
+
     import polars as pl
 
     return os, pl
@@ -15,21 +16,15 @@ def _():
 @app.cell
 def _(os):
     os.listdir("../knizni-peoplemetr/data_raw/ebooky")
-    return
 
 
 @app.cell
 def _(os):
     ukazky = []
-    for soubor in [x for x in os.listdir("data_raw/ebooky") if '.txt' in x]:
-        with open(os.path.join("data_raw/ebooky",soubor), "r", encoding="utf-8") as x:
+    for soubor in [x for x in os.listdir("data_raw/ebooky") if ".txt" in x]:
+        with open(os.path.join("data_raw/ebooky", soubor), "r", encoding="utf-8") as x:
             try:
-                ukazky.append(
-                    {
-                        'isbn' : soubor.split('.')[0],
-                        'text' : x.read()
-                    }
-                )
+                ukazky.append({"isbn": soubor.split(".")[0], "text": x.read()})
             except:
                 print(soubor)
     return (ukazky,)
@@ -38,13 +33,11 @@ def _(os):
 @app.cell
 def _(pl, ukazky):
     pl.DataFrame(ukazky)
-    return
 
 
 @app.cell
 def _(os, pl, ukazky):
-    pl.DataFrame(ukazky).write_parquet(os.path.join("data","ukazky_ebooku.parquet"))
-    return
+    pl.DataFrame(ukazky).write_parquet(os.path.join("data", "ukazky_ebooku.parquet"))
 
 
 if __name__ == "__main__":

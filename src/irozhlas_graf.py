@@ -39,21 +39,19 @@ def irozhlas_graf(
     """
 
     import os
-    import pandas as pd
+
     from highcharts_core.chart import Chart
-    from highcharts_core.options.series.area import LineSeries
-    from highcharts_core.options.series.bar import ColumnSeries
-    from highcharts_core.options.series.bar import BarSeries
-    from highcharts_core.options.series.histogram import HistogramSeries
-    from highcharts_core.options.legend import Legend
-    from highcharts_core.options.title import Title
-    from highcharts_core.options.subtitle import Subtitle
     from highcharts_core.options.credits import Credits
+    from highcharts_core.options.legend import Legend
+    from highcharts_core.options.series.area import LineSeries
+    from highcharts_core.options.series.bar import BarSeries, ColumnSeries
+    from highcharts_core.options.subtitle import Subtitle
+    from highcharts_core.options.title import Title
 
     nastaveni = {}
 
     if prvni:
-        zdrojaky = f"""<script src="https://code.highcharts.com/highcharts.js"></script><style type="text/css">text{{font-family:"Asap"!important}}.paragraph{{font-family:"Noticia text"!important}}.href{{color:#666;fill:#666}}.highcharts-title{{font-family:"Noticia text"!important;font-weight:700!important;text-align:left!important;left:10px!important}}.highcharts-subtitle{{text-align:left!important;font-size:.95rem!important;left:10px!important;font-family:"Asap"!important}}.highcharts-data-labels text{{font-size:.85rem!important}}.highcharts-axis-labels text{{font-size:.85rem!important}}text.highcharts-plot-line-label{{font-size:.85rem!important;fill:#666}}text.highcharts-plot-band-label{{font-size:.85rem!important;fill:#666}}text.highcharts-credits{{font-size:.75rem!important}}.highcharts-tooltip span{{font-family:"Asap"!important}}.axis-label-on-tick{{fill:#aaa;color:#aaa}}.mock-empty-line{{fill:#fff;color:#fff}}</style>"""
+        zdrojaky = """<script src="https://code.highcharts.com/highcharts.js"></script><style type="text/css">text{font-family:"Asap"!important}.paragraph{font-family:"Noticia text"!important}.href{color:#666;fill:#666}.highcharts-title{font-family:"Noticia text"!important;font-weight:700!important;text-align:left!important;left:10px!important}.highcharts-subtitle{text-align:left!important;font-size:.95rem!important;left:10px!important;font-family:"Asap"!important}.highcharts-data-labels text{font-size:.85rem!important}.highcharts-axis-labels text{font-size:.85rem!important}text.highcharts-plot-line-label{font-size:.85rem!important;fill:#666}text.highcharts-plot-band-label{font-size:.85rem!important;fill:#666}text.highcharts-credits{font-size:.75rem!important}.highcharts-tooltip span{font-family:"Asap"!important}.axis-label-on-tick{fill:#aaa;color:#aaa}.mock-empty-line{fill:#fff;color:#fff}</style>"""
     else:
         zdrojaky = ""
 

@@ -1,99 +1,99 @@
 #!/usr/bin/env python
 
+import datetime
 import os
-
+import re
 import time
 
-import re
-
+import pandas as pd
 import requests
 
-import datetime
-
-import pandas as pd
-
-slozky = [item.split(".")[0] for item in os.listdir("/mnt/usbdrive/knizni-peoplemetr/data_raw/martinus_linky")]
+slozky = [
+    item.split(".")[0]
+    for item in os.listdir("/mnt/usbdrive/knizni-peoplemetr/data_raw/martinus_linky")
+]
 
 try:
+    smazat = pd.read_json(
+        os.path.join("/mnt/usbdrive/knizni-peoplemetr/data_raw", "smazat.json")
+    )
 
-    smazat = pd.read_json(os.path.join("/mnt/usbdrive/knizni-peoplemetr/data_raw","smazat.json"))
-
-    smazat = smazat['soubor'].to_list()
+    smazat = smazat["soubor"].to_list()
 
 except:
-
     smazat = []
+
 
 def prosekej(x):
 
-    patterns = [
-
-        r'<style.*?</style>',
-
-        r'<script.*?</script>'
-
-    ]
+    patterns = [r"<style.*?</style>", r"<script.*?</script>"]
 
     for pattern in patterns:
-
-        x = re.sub(pattern, '', x, flags=re.DOTALL)
+        x = re.sub(pattern, "", x, flags=re.DOTALL)
 
     return x
 
-for s in slozky:
 
-    kam_stahovat = f'/mnt/usbdrive/knizni-peoplemetr/downloads/martinus/{s}'
+for s in slozky:
+    kam_stahovat = f"/mnt/usbdrive/knizni-peoplemetr/downloads/martinus/{s}"
 
     if not os.path.exists(kam_stahovat):
-
         os.makedirs(kam_stahovat)
 
     for filename in smazat:
-
         file_path = os.path.join(kam_stahovat, filename)
 
         if os.path.exists(file_path):
-
             os.remove(file_path)
 
     stazene = os.listdir(kam_stahovat)
 
-    with open(os.path.join("/mnt/usbdrive/knizni-peoplemetr/data_raw/martinus_linky",f'{s}.txt')) as linky:
+    with open(
+        os.path.join(
+            "/mnt/usbdrive/knizni-peoplemetr/data_raw/martinus_linky", f"{s}.txt"
+        )
+    ) as linky:
+        linky = [l.strip() for l in linky]
 
-        linky = [l.strip() for l in linky.readlines()]
-
-        print(f"Staženo {len(stazene)} knih, {len(linky) - len(stazene)} zbývá ke stáhnutí.")
+        print(
+            f"Staženo {len(stazene)} knih, {len(linky) - len(stazene)} zbývá ke stáhnutí."
+        )
 
         for l in linky:
-
             nazev_souboru = f"""{l.split("/")[-2]}-{l.split("/")[-1]}.html"""
 
             if nazev_souboru not in stazene:
-
                 print(f"Stahuji {nazev_souboru}")
 
                 try:
-
                     r = requests.get(l)
 
-                    with open(os.path.join(kam_stahovat, nazev_souboru), 'w+', encoding='utf-8') as f:
-
-                        f.write(f"""{prosekej(r.text)}\n\n<!-- {datetime.datetime.now().replace(microsecond=0)} -->\n<!-- {l} -->""")
+                    with open(
+                        os.path.join(kam_stahovat, nazev_souboru),
+                        "w+",
+                        encoding="utf-8",
+                    ) as f:
+                        f.write(
+                            f"""{prosekej(r.text)}\n\n<!-- {datetime.datetime.now().replace(microsecond=0)} -->\n<!-- {l} -->"""
+                        )
 
                 except:
-
                     print("Nastal problém, počkám 5 minut.")
 
                     time.sleep(300)
 
                     r = requests.get(l)
 
-                    with open(os.path.join(kam_stahovat, nazev_souboru), 'w+', encoding='utf-8') as f:
-
-                        f.write(f"""{prosekej(r.text)}\n\n<!-- {datetime.datetime.now().replace(microsecond=0)} -->\n<!-- {l} -->""")
+                    with open(
+                        os.path.join(kam_stahovat, nazev_souboru),
+                        "w+",
+                        encoding="utf-8",
+                    ) as f:
+                        f.write(
+                            f"""{prosekej(r.text)}\n\n<!-- {datetime.datetime.now().replace(microsecond=0)} -->\n<!-- {l} -->"""
+                        )
 
             else:
-
                 pass
 
                 # print(f"Už staženo {nazev_souboru}")

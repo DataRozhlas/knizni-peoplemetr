@@ -7,7 +7,6 @@ app = marimo.App(width="medium")
 @app.cell
 def _():
     import polars as pl
-    import altair as alt
 
     return (pl,)
 
@@ -21,11 +20,17 @@ def _(pl):
         "245_a",
         "246_a",
         "260_b",
+        "041_h",
         "264_b",
         "490_a",
         "650_a",
         "655_a",
         "001",
+        "300_a",
+        "264_a",
+        "264_b",
+        "260_a",
+        "260_b",
     ]
 
     pouzivane_sloupce = sorted(
@@ -55,19 +60,21 @@ def _(pl):
 @app.cell
 def _(df):
     df
-    return
 
 
 @app.cell
 def _(df, pl):
-    df.filter(pl.col("245_a").str.contains("(?i)kuchař"))
-    return
+    df.filter(pl.col("100_a").str.contains("Hejlík, Lu"))
+
+
+@app.cell
+def _(df, pl):
+    df.filter(pl.col("245_a").str.contains("(?i)gastro"))
 
 
 @app.cell
 def _(df, pl):
     df.filter(pl.col("245_a").str.contains("(?i)kluci v akci"))
-    return
 
 
 @app.cell
@@ -107,6 +114,8 @@ def _(lf, pl):
         ("245_a", "barbecue"),
         ("245_a", "smažíme"),
         ("245_a", "polév"),
+        ("245_a", "kuchyně"),
+        ("245_a", "specialit[^a]"),
         ("245_a", "zavařování"),
         ("245_a", "nakládání"),
         ("245_a", "cukroví"),
@@ -145,6 +154,7 @@ def _(lf, pl):
         ("072_x", "software"),
         ("072_x", "poezie"),
         ("072_x", "drama"),
+        ("072_x", "doprava"),
         ("072_x", "hudba"),
         ("260_b", "Českobratrský evang. seniorátní úřad"),
         ("490_a", "Lidové hry českého jeviště"),
@@ -152,6 +162,8 @@ def _(lf, pl):
         ("245_a", "100 praktických receptů pro holiče a kadeřníky"),
         ("245_a", "poslední večeře"),
         ("245_a", "vévodkyně"),
+        ("245_a", "Minecraft"),
+        ("245_b", "dějství"),
         ("650_a", "odpad"),
         ("650_a", "zbraně"),
         ("655_a", "časopis"),
@@ -159,12 +171,15 @@ def _(lf, pl):
         ("655_a", "písně"),
         ("490_a", "Švejdův divadelní sborník"),
         ("264_b", "Knihovna odborného listu Dusík"),
-        ('246_b', 'aktě')
+        ("246_b", "aktě"),
+        ("260_b", "Průmyslové vydavatelství"),
+        ("260_b", "Výzkumný ústav pro stavebnictví a architekturu"),
     ]
 
     filtry_negativni = [
         lf.with_columns(
             pl.concat_list(pl.col("245_a")).alias("245_a"),
+            pl.concat_list(pl.col("245_b")).alias("245_b"),
             pl.concat_list(pl.col("008")).alias("008"),
         )
         .explode(kombo[0], empty_as_null=True)
@@ -174,7 +189,10 @@ def _(lf, pl):
 
     for filtr in filtry_negativni:
         ids_kucharek = ids_kucharek - set(
-            filtr.select(pl.col("001")).collect().to_series().to_list()
+            filtr.select(pl.col("001"))
+            .collect(engine="streaming")
+            .to_series()
+            .to_list()
         )
 
     len(ids_kucharek)
@@ -183,37 +201,38 @@ def _(lf, pl):
 
 @app.cell
 def _(df, pl):
-    df.filter(pl.col("245_a").str.contains("(?i)chleb"))
-    return
+    df.filter(pl.col("245_a").str.contains("(?i)kuchyně"))
 
 
 @app.cell
 def _(df, ids_kucharek, pl):
-    df_kucharky = df.filter(pl.col("001").is_in(ids_kucharek)).filter(pl.col('008').str.contains('cze'))
+    df_kucharky = df.filter(pl.col("001").is_in(ids_kucharek)).filter(
+        pl.col("008").str.contains("cze")
+    )
     df_kucharky.sample(len(df_kucharky))
     return (df_kucharky,)
 
 
 @app.cell
 def _(df_kucharky, pl):
-    df_kucharky.explode("260_b").filter(pl.col("260_b").str.contains("spisovatel"))
-    return
+    df_kucharky.explode("260_b").filter(pl.col("260_b").str.contains("Průmyslové"))
 
 
 @app.cell
 def _(df_kucharky, pl):
-    df_kucharky.with_columns(
-        pl.col("245_a").str.to_lowercase().str.split(" ")
-    ).explode("245_a", empty_as_null=True).group_by("245_a").len().sort(
-        by="len", descending=True
-    )
-    return
+    df_kucharky.explode("260_b").filter(pl.col("260_b").str.contains("spisovatel"))
+
+
+@app.cell
+def _(df_kucharky, pl):
+    df_kucharky.with_columns(pl.col("245_a").str.to_lowercase().str.split(" ")).explode(
+        "245_a", empty_as_null=True
+    ).group_by("245_a").len().sort(by="len", descending=True)
 
 
 @app.cell
 def _(df_kucharky, pl):
     df_kucharky.filter(pl.col("245_a").str.contains("sociál"))
-    return
 
 
 @app.cell
@@ -236,7 +255,6 @@ def _(df_kucharky, pl):
                 pl.col(["100_a", "245_a", "246_a"])
             )
         )
-    return
 
 
 @app.cell
@@ -263,6 +281,15 @@ def _(df_kucharky, pl):
 @app.cell
 def _():
     import random
+    import re
+
+    def pocet_stran(rozsah):
+        rozsah = str(rozsah)
+        cisla = [x for x in re.findall(r"\d{1,4}\s{0,1}[^v]", rozsah)]
+        cisla = [int(re.search(r"\d{1,4}", c).group()) for c in cisla]
+        if len(cisla) > 0:
+            if max(cisla) < 4000:  # jak primitivní, ale jak účinné
+                return max(cisla)
 
     def najdi_rok(nulaosm):
         if "u" not in nulaosm:
@@ -272,33 +299,53 @@ def _():
                 return None
         else:
             try:
-                return int(nulaosm[7:10] + str(random.randint(0,10)))
+                return int(nulaosm[7:10] + str(random.randint(0, 9)))
             except:
                 return None
 
     print(najdi_rok("000706s1926"))
     print(najdi_rok("000706s192u"))
-    return (najdi_rok,)
+    return najdi_rok, pocet_stran
 
 
 @app.cell
-def _(df_kucharky, najdi_rok, pl, vyhodit):
-    df_kucharky_final = df_kucharky.drop(vyhodit).with_columns(
-        pl.col("008").map_elements(najdi_rok, return_dtype=int).alias("rok")
-    ).sort(by="rok")
+def _(df_kucharky, najdi_rok, pl, pocet_stran, vyhodit):
+    interpunkce = [",", "?", ":", "/", ".", ";", "!", '"']
+
+    df_kucharky_final = (
+        df_kucharky.drop(vyhodit)
+        .with_columns(
+            pl.col("008").map_elements(najdi_rok, return_dtype=int).alias("rok"),
+            pl.col("300_a")
+            .map_elements(pocet_stran, return_dtype=int)
+            .alias("pocet_stran"),
+            pl.col("245_a")
+            .str.replace_many(interpunkce, ["" for x in interpunkce])
+            .str.strip_chars()
+            .alias("titul"),
+        )
+        .sort(by="rok")
+    )
     return (df_kucharky_final,)
 
 
 @app.cell
 def _(df_kucharky_final):
     df_kucharky_final
-    return
 
 
 @app.cell
 def _(df_kucharky_final):
     df_kucharky_final.write_parquet("data/cnb_kucharky.parquet")
-    return
+
+
+@app.cell
+def _(df_kucharky_final, pl):
+    df_kucharky_final.with_columns(pl.col("100_a").str.strip_chars(",")).rename(
+        {"100_a": "autorstvo"}
+    ).select(pl.col(["autorstvo", "titul", "rok", "pocet_stran"])).write_csv(
+        "data/cnb_kucharky_kontrola.csv"
+    )
 
 
 if __name__ == "__main__":

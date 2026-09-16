@@ -1,41 +1,48 @@
 #!/usr/bin/python3
 
 
-import os
 import datetime
-import re
 import json
+import os
 import random
+import re
+
 import pandas as pd
+from pyvirtualdisplay import Display
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from pyvirtualdisplay import Display
+from selenium.webdriver.support.ui import WebDriverWait
 
-
-gr = pd.read_csv(os.path.join("/mnt/usbdrive/knizni-peoplemetr/data","goodreads-hodnoceni.csv"))
-gr = gr[gr['GR_ratings_count'] > 0]
-isbns = [int(x) for x in gr['GR_isbn'].drop_duplicates().to_list()]
+gr = pd.read_csv(
+    os.path.join("/mnt/usbdrive/knizni-peoplemetr/data", "goodreads-hodnoceni.csv")
+)
+gr = gr[gr["GR_ratings_count"] > 0]
+isbns = [int(x) for x in gr["GR_isbn"].drop_duplicates().to_list()]
 try:
-    with open(os.path.join("/mnt/usbdrive/knizni-peoplemetr/data_raw","rucni_sledovat.json"), "r", encoding="utf-8") as rucni:
+    with open(
+        os.path.join("/mnt/usbdrive/knizni-peoplemetr/data_raw", "rucni_sledovat.json"),
+        "r",
+        encoding="utf-8",
+    ) as rucni:
         rucni = json.loads(rucni.read())
 except:
     rucni = []
 
 isbns += rucni
 
-isbns = list(set([str(i).replace('-','').replace('.0','') for i in isbns]))
+isbns = list(set([str(i).replace("-", "").replace(".0", "") for i in isbns]))
 
 random.shuffle(isbns)
 
 print(f"Položek ke stažení: {len(isbns)}")
 
+
 def scrape_goodreads_selenium(isbn):
 
     def ziskej_cislo(popisek):
         try:
-            return int(re.search(r"\d{1,7}",popisek.replace(",","")).group(0))
+            return int(re.search(r"\d{1,7}", popisek.replace(",", "")).group(0))
         except:
             return None
 
@@ -47,17 +54,18 @@ def scrape_goodreads_selenium(isbn):
     }
 
     try:
-
         display = Display(visible=0, size=(1920, 1080))
         display.start()
 
-#         driver = webdriver.Firefox()
+        #         driver = webdriver.Firefox()
 
         driver = webdriver.Chrome()
-        driver.get(f"""https://www.goodreads.com/search?q={isbn}&search_type=isbn&search%5Bfield%5D=isbn""")
+        driver.get(
+            f"""https://www.goodreads.com/search?q={isbn}&search_type=isbn&search%5Bfield%5D=isbn"""
+        )
 
         kniha["GR_title"] = driver.title.split("|")[0].strip()
-        
+
         if ("Search results for " in kniha["GR_title"]) or (
             "request took too long" in kniha["GR_title"]
         ):
@@ -65,20 +73,42 @@ def scrape_goodreads_selenium(isbn):
             return kniha
 
         else:
-
             wait = WebDriverWait(driver, 10)
 
-            kniha['GR_currently'] = ziskej_cislo(wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "[data-testid='currentlyReadingSignal']"))).text)
-            kniha['GR_to_read'] = ziskej_cislo(wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "[data-testid='toReadSignal']"))).text)
-            kniha['GR_ratings_count'] = ziskej_cislo(wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "[data-testid='ratingsCount']"))).text)
-            kniha['GR_reviews'] = ziskej_cislo(wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "[data-testid='reviewsCount']"))).text)
+            kniha["GR_currently"] = ziskej_cislo(
+                wait.until(
+                    EC.presence_of_element_located(
+                        (By.CSS_SELECTOR, "[data-testid='currentlyReadingSignal']")
+                    )
+                ).text
+            )
+            kniha["GR_to_read"] = ziskej_cislo(
+                wait.until(
+                    EC.presence_of_element_located(
+                        (By.CSS_SELECTOR, "[data-testid='toReadSignal']")
+                    )
+                ).text
+            )
+            kniha["GR_ratings_count"] = ziskej_cislo(
+                wait.until(
+                    EC.presence_of_element_located(
+                        (By.CSS_SELECTOR, "[data-testid='ratingsCount']")
+                    )
+                ).text
+            )
+            kniha["GR_reviews"] = ziskej_cislo(
+                wait.until(
+                    EC.presence_of_element_located(
+                        (By.CSS_SELECTOR, "[data-testid='reviewsCount']")
+                    )
+                ).text
+            )
 
             print(kniha)
 
             return kniha
 
     except Exception as E:
-
         print(E)
 
     finally:
@@ -97,8 +127,12 @@ def scrape_goodreads_selenium(isbn):
 current_date = datetime.datetime.now()
 date_string = current_date.strftime("%Y_%m_%d")
 
-if not os.path.exists(f"/mnt/usbdrive/knizni-peoplemetr/data_raw/goodreads_selenium/{date_string}"):
-    os.makedirs(f"/mnt/usbdrive/knizni-peoplemetr/data_raw/goodreads_selenium/{date_string}")
+if not os.path.exists(
+    f"/mnt/usbdrive/knizni-peoplemetr/data_raw/goodreads_selenium/{date_string}"
+):
+    os.makedirs(
+        f"/mnt/usbdrive/knizni-peoplemetr/data_raw/goodreads_selenium/{date_string}"
+    )
 
 greads = []
 count = 0
@@ -111,15 +145,15 @@ for i in isbns:
         pd.DataFrame(greads).to_json(
             os.path.join(
                 f"/mnt/usbdrive/knizni-peoplemetr/data_raw/goodreads_selenium/{date_string}",
-                f"goodreads_selenium_{date_string}_{(int(count/10)):04d}.json",
+                f"goodreads_selenium_{date_string}_{(int(count / 10)):04d}.json",
             )
         )
-        print(f"goodreads_selenium_{date_string}_{(int(count/10)):04d}.json")
+        print(f"goodreads_selenium_{date_string}_{(int(count / 10)):04d}.json")
         greads = []
 pd.DataFrame(greads).to_json(
     os.path.join(
         f"/mnt/usbdrive/knizni-peoplemetr/data_raw/goodreads_selenium/{date_string}",
-        f"goodreads_selenium_{date_string}_{(int(count/10)):04d}.json",
+        f"goodreads_selenium_{date_string}_{(int(count / 10)):04d}.json",
     )
 )
 print("Hotovo.")

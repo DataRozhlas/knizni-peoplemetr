@@ -4,4 +4,4 @@ def hezke_jmeno(sto):
     if "," in sto:
         sto = sto.split(",")
         sto = sto[1].strip() + " " + sto[0].strip()
-    return sto    
+    return sto

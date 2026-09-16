@@ -365,6 +365,7 @@ dependencies = [
     { name = "pymarc" },
     { name = "requests" },
     { name = "ruff" },
+    { name = "simplemma" },
     { name = "tqdm" },
 ]
 
@@ -380,6 +381,7 @@ requires-dist = [
     { name = "pymarc", specifier = ">=5.4.0" },
     { name = "requests", specifier = ">=2.34.2" },
     { name = "ruff", specifier = ">=0.16.5" },
+    { name = "simplemma", specifier = ">=2.0.0" },
     { name = "tqdm", specifier = ">=4.70.0" },
 ]
 
@@ -1093,6 +1095,15 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/ed/20/656d67f5b25ca9bda4e02b1de25867b2954e1d19e03648060f167ad0f4cc/ruff-0.16.5-py3-none-win32.whl", hash = "sha256:288b0a5f080492fe5635db849f9e2e84aa3cce7b7f0e955997d416c507c76a26", size = 10034250, upload-time = "2026-08-27T16:34:11.8Z" },
     { url = "https://files.pythonhosted.org/packages/5b/42/ee8e68a207b9127fcde6c3d7e197def432f346cb1af159e1fa14ca0d1cdc/ruff-0.16.5-py3-none-win_amd64.whl", hash = "sha256:ddc6385fb2137f616357ca03d6c74f4be987f80fed4008566b754f6032b8546f", size = 10516714, upload-time = "2026-08-27T16:34:13.963Z" },
     { url = "https://files.pythonhosted.org/packages/73/e3/7df5a396e445b9ba49ce9a9437439a4d80042c61c0ade199abf8d16de1ac/ruff-0.16.5-py3-none-win_arm64.whl", hash = "sha256:a64abe90968719b851bb7cedffaa8753fbdbdadab483089682db623f3edc587e", size = 10391564, upload-time = "2026-08-27T16:34:16.064Z" },
+]
+
+[[package]]
+name = "simplemma"
+version = "2.0.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/09/bf/c5f923da5eb468c6d4a86c6b3250ef92470a0d31bb51cd7d2fbbea22b7c0/simplemma-2.0.0.tar.gz", hash = "sha256:03f9ba792aa51ebbe18a78fc3138c0c0087d81b284eefa534f6f2015233dcb8d", size = 19084504, upload-time = "2026-08-12T13:48:07.179Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/e2/e4/078d18631ce1c012af0f25e753f473745c0b139757334175a76d6b910c82/simplemma-2.0.0-py3-none-any.whl", hash = "sha256:db33b15f5aed6485a748ce34d1f510ca760af2633289ab9a8493e2afa785c352", size = 18954708, upload-time = "2026-08-12T13:47:55.162Z" },
 ]
 
 [[package]]

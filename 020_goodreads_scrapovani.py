@@ -1,25 +1,28 @@
 #!/usr/bin/python3
 
 
+import datetime
+import json
 import os
+import re
 import sys
 import time
-import datetime
-import re
-import json
+
+import pandas as pd
 import requests
 from bs4 import BeautifulSoup
-import pandas as pd
 
 if len(sys.argv) == 2:
-
-    with open(os.path.join("/mnt/usbdrive/knizni-peoplemetr/data_raw", sys.argv[-1]), "r") as json_file:
-        isbns = json.load(json_file)    
+    with open(
+        os.path.join("/mnt/usbdrive/knizni-peoplemetr/data_raw", sys.argv[-1]), "r"
+    ) as json_file:
+        isbns = json.load(json_file)
     pripona = sys.argv[-1].split(".")[0]
 
 if len(sys.argv) == 1:
-
-    with open(os.path.join("/mnt/usbdrive/knizni-peoplemetr/data_raw", "sledovat.json"), "r") as json_file:
+    with open(
+        os.path.join("/mnt/usbdrive/knizni-peoplemetr/data_raw", "sledovat.json"), "r"
+    ) as json_file:
         isbns = json.load(json_file)
     pripona = "pravidelne"
 
@@ -99,19 +102,18 @@ def scrape_goodreads(isbn):
         kniha["GR_pages"] = int(
             soup.find("p", {"data-testid": "pagesFormat"})
             .text.split(",")[0]
-            .replace("pages","")
+            .replace("pages", "")
             .strip()
         )
     except Exception as E:
         print(E)
-        pass
 
     try:
         format = soup.find("p", {"data-testid": "pagesFormat"}).text.lower()
         if "paperback" in format:
-            kniha['GR_format'] = "paperback"
+            kniha["GR_format"] = "paperback"
         elif "hardcover" in format:
-            kniha['GR_format'] = "hardcover"
+            kniha["GR_format"] = "hardcover"
     except:
         pass
 
@@ -146,7 +148,9 @@ current_date = datetime.datetime.now()
 date_string = current_date.strftime("%Y_%m_%d")
 print(date_string)
 
-if not os.path.exists(f"/mnt/usbdrive/knizni-peoplemetr/data_raw/goodreads/{date_string}"):
+if not os.path.exists(
+    f"/mnt/usbdrive/knizni-peoplemetr/data_raw/goodreads/{date_string}"
+):
     os.makedirs(f"/mnt/usbdrive/knizni-peoplemetr/data_raw/goodreads/{date_string}")
 
 greads = []
@@ -165,18 +169,18 @@ for i in isbns:
                 pd.DataFrame(greads).to_json(
                     os.path.join(
                         f"/mnt/usbdrive/knizni-peoplemetr/data_raw/goodreads/{date_string}",
-                        f"goodreads_{date_string}_{pripona}_{(int(count/50)):04d}.json",
+                        f"goodreads_{date_string}_{pripona}_{(int(count / 50)):04d}.json",
                     )
                 )
-                print(f"goodreads_{date_string}_{pripona}_{(int(count/50)):04d}.json")
+                print(f"goodreads_{date_string}_{pripona}_{(int(count / 50)):04d}.json")
                 greads = []
                 pribylo = False
-            except: 
+            except:
                 pass
 pd.DataFrame(greads).to_json(
     os.path.join(
         f"/mnt/usbdrive/knizni-peoplemetr/data_raw/goodreads/{date_string}",
-        f"goodreads_{date_string}_{(int(count/50)):04d}.json",
+        f"goodreads_{date_string}_{(int(count / 50)):04d}.json",
     )
 )
 print("Hotovo.")

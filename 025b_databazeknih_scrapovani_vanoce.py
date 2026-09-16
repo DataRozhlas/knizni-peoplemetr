@@ -1,16 +1,20 @@
 #!/usr/bin/env python
-# coding: utf-8
 
-import os
-import time
 import datetime
 import json
+import os
+import time
+
+import pandas as pd
 import requests
 from bs4 import BeautifulSoup
-import pandas as pd
 
-
-with open(os.path.join("/mnt/usbdrive/knizni-peoplemetr/data_raw", "sledovat_vanoce_2024.json"), "r") as json_file:
+with open(
+    os.path.join(
+        "/mnt/usbdrive/knizni-peoplemetr/data_raw", "sledovat_vanoce_2024.json"
+    ),
+    "r",
+) as json_file:
     isbns = json.load(json_file)
 
 print(f"Položek ke stažení: {len(isbns)}")
@@ -41,17 +45,13 @@ def scrape_dk(isbn):
     if kniha["DK_titul"] == "Vyhledávání | Databáze knih":
         kniha["DK_titul"] = None
         return kniha
-    
+
     try:
         kniha["DK_vyslo"] = int(
-            soup.find("span", {"itemprop": "datePublished"})
-            .text
-            .strip()
+            soup.find("span", {"itemprop": "datePublished"}).text.strip()
         )
     except Exception as E:
         print(E)
-        pass
-
 
     try:
         kniha["DK_rating"] = int(
@@ -70,7 +70,9 @@ def scrape_dk(isbn):
     except:
         pass
     try:
-        kniha["DK_autorstvo"] = [a.text.strip() for a in soup.find("h2", class_='jmenaautoru').find_all('a')]
+        kniha["DK_autorstvo"] = [
+            a.text.strip() for a in soup.find("h2", class_="jmenaautoru").find_all("a")
+        ]
         print(kniha["DK_autorstvo"])
     except:
         pass
@@ -82,7 +84,7 @@ def scrape_dk(isbn):
         for tr in tabulka.find_all("tr"):
             try:
                 kniha[
-                    f"""DK_{tr.find_all('td')[0].text.strip().replace(" ","_")}"""
+                    f"""DK_{tr.find_all("td")[0].text.strip().replace(" ", "_")}"""
                 ] = int(
                     tr.find_all("td")[1].text.replace("x", "").replace(" ", "").strip()
                 )
@@ -100,9 +102,11 @@ current_date = datetime.datetime.now()
 date_string = current_date.strftime("%Y_%m_%d")
 print(date_string)
 
-#if not os.path.exists(f"data_raw/databazeknih/{date_string}"):
+# if not os.path.exists(f"data_raw/databazeknih/{date_string}"):
 #    os.makedirs(f"data_raw/databazeknih/{date_string}")
-if not os.path.exists("/mnt/usbdrive/knizni-peoplemetr/data_raw/databazeknih/vanoce_2024"):
+if not os.path.exists(
+    "/mnt/usbdrive/knizni-peoplemetr/data_raw/databazeknih/vanoce_2024"
+):
     os.makedirs("/mnt/usbdrive/knizni-peoplemetr/data_raw/databazeknih/vanoce_2024")
 
 dknih = []
@@ -115,18 +119,18 @@ for i in isbns:
     if count % 20 == 0:
         pd.DataFrame(dknih).to_json(
             os.path.join(
-                f"/mnt/usbdrive/knizni-peoplemetr/data_raw/databazeknih/vanoce_2024",
-#                f"data_raw/databazeknih/{date_string}",
-                f"databazeknih_{date_string}_{(int(count/20)):04d}.json",
+                "/mnt/usbdrive/knizni-peoplemetr/data_raw/databazeknih/vanoce_2024",
+                #                f"data_raw/databazeknih/{date_string}",
+                f"databazeknih_{date_string}_{(int(count / 20)):04d}.json",
             )
         )
-        print(f"databazeknih_{date_string}_{(int(count/20)):04d}.json")
+        print(f"databazeknih_{date_string}_{(int(count / 20)):04d}.json")
         dknih = []
 pd.DataFrame(dknih).to_json(
     os.path.join(
-        f"/mnt/usbdrive/knizni-peoplemetr/data_raw/databazeknih/vanoce_2024",
-#        f"data_raw/databazeknih/{date_string}",
-        f"databazeknih_{date_string}_{(int(count/20)):04d}.json",
+        "/mnt/usbdrive/knizni-peoplemetr/data_raw/databazeknih/vanoce_2024",
+        #        f"data_raw/databazeknih/{date_string}",
+        f"databazeknih_{date_string}_{(int(count / 20)):04d}.json",
     )
 )
 print("Hotovo.")

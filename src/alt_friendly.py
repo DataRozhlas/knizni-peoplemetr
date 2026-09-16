@@ -1,7 +1,8 @@
 def alt_friendly(frejm):
 
-    import polars as pl
     import datetime
+
+    import polars as pl
 
     # Vrátí dataframe upravený tak, aby uměl zvizualizovat Altair.
     # 1/ Převede sloupec "rok" na datum, 2/ zkonvertuje Polars df na pandas df.

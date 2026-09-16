@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 
-import os
 import glob
-import json
+import os
+
 import pandas as pd
 
 path = "/mnt/usbdrive/knizni-peoplemetr/data_raw/goodreads/**/*.json"
@@ -12,13 +12,11 @@ all_files = glob.glob(path, recursive=True)
 dfs = []
 
 for file in all_files:
-
     print(f"Processing {file}")
 
     df = pd.read_json(file)
 
     if "ISBN" in df.columns:
-
         df = df.rename(columns={"ISBN": "GR_isbn"})
 
     dfs.append(df)
@@ -36,12 +34,14 @@ print(f"Řádků v dataframe: {len(df)}")
 
 df = df.sort_values(by="GR_date")
 
-df['den'] = pd.to_datetime(df['GR_date'])
-df['hodina'] = df['den'].dt.hour
-df['den'] = df['den'].dt.day_name()
+df["den"] = pd.to_datetime(df["GR_date"])
+df["hodina"] = df["den"].dt.hour
+df["den"] = df["den"].dt.day_name()
 
-df[(df['den'] != 'Monday') | (df['hodina'] > 8)].drop(columns=['den','hodina']).to_csv(
-    os.path.join("/mnt/usbdrive/knizni-peoplemetr/data", "goodreads-hodnoceni-extra.csv"),
+df[(df["den"] != "Monday") | (df["hodina"] > 8)].drop(columns=["den", "hodina"]).to_csv(
+    os.path.join(
+        "/mnt/usbdrive/knizni-peoplemetr/data", "goodreads-hodnoceni-extra.csv"
+    ),
     index=False,
     encoding="utf-8",
     header=True,
@@ -53,13 +53,21 @@ df = df[
 ]
 
 try:
-    with open(os.path.join('/mnt/usbdrive/knizni-peoplemetr/data_raw','rucni_nesledovat.txt'), "r", encoding="utf-8") as file:
+    with open(
+        os.path.join(
+            "/mnt/usbdrive/knizni-peoplemetr/data_raw", "rucni_nesledovat.txt"
+        ),
+        "r",
+        encoding="utf-8",
+    ) as file:
         nesledovat = [x.strip() for x in file.read().splitlines()]
-        df = df[~df['GR_isbn'].isin(nesledovat)]
+        df = df[~df["GR_isbn"].isin(nesledovat)]
 except:
     pass
 
-df[(df['den'] == 'Monday') & (df['hodina'] <= 12)].drop(columns=['den','hodina']).to_csv(
+df[(df["den"] == "Monday") & (df["hodina"] <= 12)].drop(
+    columns=["den", "hodina"]
+).to_csv(
     os.path.join("/mnt/usbdrive/knizni-peoplemetr/data", "goodreads-hodnoceni.csv"),
     index=False,
     encoding="utf-8",

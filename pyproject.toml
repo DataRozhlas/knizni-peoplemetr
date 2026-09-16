@@ -15,5 +15,6 @@ dependencies = [
     "pymarc>=5.4.0",
     "requests>=2.34.2",
     "ruff>=0.16.5",
+    "simplemma>=2.0.0",
     "tqdm>=4.70.0",
 ]

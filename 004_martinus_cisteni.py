@@ -1,11 +1,13 @@
 #!/usr/bin/env python
-# coding: utf-8
 
-import os
 import json
+import os
+
 import pandas as pd
 
-df = pd.read_json(os.path.join("/mnt/usbdrive/knizni-peoplemetr/data_raw", "martinus_raw.json"))
+df = pd.read_json(
+    os.path.join("/mnt/usbdrive/knizni-peoplemetr/data_raw", "martinus_raw.json")
+)
 
 vyhodit = ["M_naše_katalogové_číslo", "soubor", "M_filmové_zpracování"]
 for v in vyhodit:
@@ -33,19 +35,23 @@ if not os.path.exists("/mnt/usbdrive/knizni-peoplemetr/data_raw"):
     os.makedirs("/mnt/usbdrive/knizni-peoplemetr/data_raw")
 
 if "M_předběžné_datum_vydání" in df.columns.to_list():
-
     df[df["M_předběžné_datum_vydání"].notnull()].to_json(
         os.path.join("data", "martinus_vyjde.json")
     )
 
-    smazat = df[df["M_předběžné_datum_vydání"].notnull()]['M_isbn'].drop_duplicates().to_list()
+    smazat = (
+        df[df["M_předběžné_datum_vydání"].notnull()]["M_isbn"]
+        .drop_duplicates()
+        .to_list()
+    )
     with open(os.path.join("data_raw", "smazat.json"), "w+") as smaz:
         json.dump(smazat, smaz)
 
-df = df.sort_values(by='M_datum',ascending=False)
-df = df.drop_duplicates(subset=['M_titul','M_isbn','M_počet_stran'])
+df = df.sort_values(by="M_datum", ascending=False)
+df = df.drop_duplicates(subset=["M_titul", "M_isbn", "M_počet_stran"])
 
-zplostit = ['M_tagy','M_autorstvo','M_pro_koho','M_kategorizace','M_styl']
+zplostit = ["M_tagy", "M_autorstvo", "M_pro_koho", "M_kategorizace", "M_styl"]
+
 
 def zplosti(seznam):
     if isinstance(seznam, list):
@@ -57,10 +63,13 @@ def zplosti(seznam):
     else:
         return seznam
 
+
 for z in zplostit:
     df[z] = df[z].apply(lambda x: zplosti(x))
 
-df[df["M_rok_vydání"].notnull()].reset_index(drop=True).to_json(os.path.join("data", "martinus_vyslo.json"))
+df[df["M_rok_vydání"].notnull()].reset_index(drop=True).to_json(
+    os.path.join("data", "martinus_vyslo.json")
+)
 
 puvod = df.explode("M_původ")
 
@@ -69,12 +78,12 @@ puvod[puvod["M_původ"] == "Česko"].drop_duplicates(subset=["M_isbn"]).size
 puvod[puvod["M_původ"] == "Česko"]
 
 try:
-
-    with open(os.path.join("/mnt/usbdrive/knizni-peoplemetr/data_raw", "nesledovat.json")) as nesledovat:
+    with open(
+        os.path.join("/mnt/usbdrive/knizni-peoplemetr/data_raw", "nesledovat.json")
+    ) as nesledovat:
         nesledovat = json.load(nesledovat)
 
 except:
-
     nesledovat = []
 
 # Tohle je ošklivé, ale pro rychlé testy momentálně nezbytné.
@@ -93,7 +102,9 @@ else:
         & (puvod["M_překlad"].isnull())
     )
 
-puvod[condition][["M_titul", "M_autorstvo", "M_isbn","M_nakladatel"]].reset_index().to_json(
+puvod[condition][
+    ["M_titul", "M_autorstvo", "M_isbn", "M_nakladatel"]
+].reset_index().to_json(
     os.path.join("/mnt/usbdrive/knizni-peoplemetr/data_raw", "martinus_sledovat.json")
 )
 

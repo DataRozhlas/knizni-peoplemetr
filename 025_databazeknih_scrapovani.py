@@ -1,24 +1,26 @@
 #!/usr/bin/env python
-# coding: utf-8
 
+import datetime
+import json
 import os
 import sys
 import time
-import datetime
-import json
+
+import pandas as pd
 import requests
 from bs4 import BeautifulSoup
-import pandas as pd
 
 if len(sys.argv) == 2:
-
-    with open(os.path.join("/mnt/usbdrive/knizni-peoplemetr/data_raw", sys.argv[-1]), "r") as json_file:
+    with open(
+        os.path.join("/mnt/usbdrive/knizni-peoplemetr/data_raw", sys.argv[-1]), "r"
+    ) as json_file:
         isbns = json.load(json_file)
     pripona = sys.argv[-1].split(".")[0]
 
 if len(sys.argv) == 1:
-
-    with open(os.path.join("/mnt/usbdrive/knizni-peoplemetr/data_raw", "sledovat.json"), "r") as json_file:
+    with open(
+        os.path.join("/mnt/usbdrive/knizni-peoplemetr/data_raw", "sledovat.json"), "r"
+    ) as json_file:
         isbns = json.load(json_file)
     pripona = "pravidelne"
 
@@ -26,8 +28,9 @@ isbns = list(set([x for x in isbns if x != None]))
 
 print(f"Položek ke stažení: {len(isbns)}")
 
+
 def scrape_dk(isbn):
-    
+
     if len(isbn) == 13:
         url = f"""https://www.databazeknih.cz/search?q={isbn}"""
     elif "databazeknih.cz/" in isbn:
@@ -57,16 +60,13 @@ def scrape_dk(isbn):
     kniha["DK_titul"] = soup.find("title").text.split("-")[0].strip()
     if kniha["DK_titul"] == "Vyhledávání | Databáze knih":
         return None
-    
+
     try:
         kniha["DK_vyslo"] = int(
-            soup.find("span", {"itemprop": "datePublished"})
-            .text
-            .strip()
+            soup.find("span", {"itemprop": "datePublished"}).text.strip()
         )
     except Exception as E:
         print(E)
-        pass
 
     try:
         kniha["DK_rating"] = int(
@@ -85,7 +85,9 @@ def scrape_dk(isbn):
     except:
         pass
     try:
-        kniha["DK_autorstvo"] = [a.text.strip() for a in soup.find("h2", class_='jmenaautoru').find_all('a')]
+        kniha["DK_autorstvo"] = [
+            a.text.strip() for a in soup.find("h2", class_="jmenaautoru").find_all("a")
+        ]
         print(kniha["DK_autorstvo"])
     except:
         pass
@@ -97,7 +99,7 @@ def scrape_dk(isbn):
         for tr in tabulka.find_all("tr"):
             try:
                 kniha[
-                    f"""DK_{tr.find_all('td')[0].text.strip().replace(" ","_")}"""
+                    f"""DK_{tr.find_all("td")[0].text.strip().replace(" ", "_")}"""
                 ] = int(
                     tr.find_all("td")[1].text.replace("x", "").replace(" ", "").strip()
                 )
@@ -108,11 +110,14 @@ def scrape_dk(isbn):
 
     return kniha
 
+
 current_date = datetime.datetime.now()
 date_string = current_date.strftime("%Y_%m_%d")
 print(date_string)
 
-if not os.path.exists(f"/mnt/usbdrive/knizni-peoplemetr/data_raw/databazeknih/{date_string}"):
+if not os.path.exists(
+    f"/mnt/usbdrive/knizni-peoplemetr/data_raw/databazeknih/{date_string}"
+):
     os.makedirs(f"/mnt/usbdrive/knizni-peoplemetr/data_raw/databazeknih/{date_string}")
 
 dknih = []
@@ -130,16 +135,16 @@ for i in isbns:
             pd.DataFrame(dknih).to_json(
                 os.path.join(
                     f"/mnt/usbdrive/knizni-peoplemetr/data_raw/databazeknih/{date_string}",
-                    f"databazeknih_{date_string}_{pripona}_{(int(count/50)):04d}.json",
+                    f"databazeknih_{date_string}_{pripona}_{(int(count / 50)):04d}.json",
                 )
             )
-            print(f"databazeknih_{date_string}_{pripona}_{(int(count/50)):04d}.json")
+            print(f"databazeknih_{date_string}_{pripona}_{(int(count / 50)):04d}.json")
             dknih = []
             pribylo = False
 pd.DataFrame(dknih).to_json(
     os.path.join(
         f"/mnt/usbdrive/knizni-peoplemetr/data_raw/databazeknih/{date_string}",
-        f"databazeknih_{date_string}_{(int(count/50)):04d}.json",
+        f"databazeknih_{date_string}_{(int(count / 50)):04d}.json",
     )
 )
 print("Hotovo.")

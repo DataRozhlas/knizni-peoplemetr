@@ -1,12 +1,12 @@
 def najdi_rok(nn8):
-    if nn8[6] in ['s', 't', 'd', 'm', 'e', 'c','u', 'r']:
+    if nn8[6] in ["s", "t", "d", "m", "e", "c", "u", "r"]:
         try:
             return int(nn8[7:11])
-        except Exception as e:
+        except Exception:
             return None
         else:
             return None
-    elif nn8[6] == 'q':
+    elif nn8[6] == "q":
         try:
             rok1 = int(nn8[7:11])
             rok2 = int(nn8[11:15])
