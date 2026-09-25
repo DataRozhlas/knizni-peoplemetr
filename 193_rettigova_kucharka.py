@@ -194,7 +194,8 @@ def _():
         "lastura",
         "vydra",
         "skřiv",
-        "piskoř"
+        "piskoř",
+        "špargl"
     ]
     return (kuriozity,)
 
@@ -204,6 +205,33 @@ def _(df, kuriozity, pl):
     df.explode("nazev_lemma").group_by("nazev_lemma").len().filter(
         (pl.col("nazev_lemma").str.len_chars() >= 3)
         & (pl.col("nazev_lemma").str.contains_any(kuriozity))
+    ).sort(by="len", descending=True)
+    return
+
+
+@app.cell
+def _(df, pl):
+    df.explode("nazev_lemma").filter(pl.col("nazev_lemma") == "vydra")
+    return
+
+
+@app.cell
+def _(df, pl):
+    df.explode("nazev_lemma").filter(pl.col("nazev_lemma") == "rak")
+    return
+
+
+@app.cell
+def _(df, pl):
+    df.explode("recept_lemma").filter(pl.col("recept_lemma") == "rosol")
+    return
+
+
+@app.cell
+def _(df, kuriozity, pl):
+    df.explode("recept_lemma").group_by("recept_lemma").len().filter(
+        (pl.col("recept_lemma").str.len_chars() >= 3)
+        & (pl.col("recept_lemma").str.contains_any(kuriozity))
     ).sort(by="len", descending=True)
     return
 
@@ -225,6 +253,18 @@ def _(df, pl):
 @app.cell
 def _(df, pl):
     df.filter(pl.col("recept").str.contains("(?i)sardel"))
+    return
+
+
+@app.cell
+def _(df, pl):
+    df.filter(pl.col("recept").str.contains("(?i)jezev"))
+    return
+
+
+@app.cell
+def _(df, pl):
+    df.explode("recept_lemma").filter(pl.col('recept_lemma').str.starts_with("mýv"))
     return
 
 
@@ -270,8 +310,68 @@ def _(df, pl):
     return
 
 
+@app.cell(hide_code=True)
+def _(mo):
+    mo.md(r"""
+    ## Graf?
+    """)
+    return
+
+
+@app.cell
+def _(df):
+    len(df)
+    return
+
+
+@app.cell
+def _(df, pl):
+    df.explode("recept_lemma").group_by("recept_lemma").len().filter(
+        pl.col("recept_lemma").str.len_chars() >= 3
+    ).sort(by="len", descending=True)
+    return
+
+
 @app.cell
 def _():
+    ukazat = [
+        "máslo",
+        "cukr",
+        "žloutek",
+        "vejce",
+        "mouka",
+        "smetana",
+        "citronový",
+        "hovězí",
+        "cibule",
+        "pepř",
+        "mandle",
+        "víno",
+        "ocet",
+    ]
+    len(ukazat)
+    return (ukazat,)
+
+
+@app.cell
+def _(df, pl, ukazat):
+    df.explode("recept_lemma").filter(
+        pl.col("recept_lemma").is_in(ukazat)
+    ).group_by("recept_lemma").len().with_columns(pl.col("len") / len(df)).sort(
+        by="len", descending=True
+    )
+    return
+
+
+@app.cell
+def _(df, pl):
+    df.explode("recept_lemma").filter(pl.col("recept_lemma") == "polenta")
+    return
+
+
+@app.cell
+def _(df, pl):
+    df.explode("recept_lemma").filter(pl.col("recept_lemma") == "rosol")
     return
 
 
