@@ -338,7 +338,6 @@ def _():
         "máslo",
         "cukr",
         "žloutek",
-        "vejce",
         "mouka",
         "smetana",
         "citronový",
@@ -355,11 +354,21 @@ def _():
 
 @app.cell
 def _(df, pl, ukazat):
-    df.explode("recept_lemma").filter(
+    graf_surovin = df.explode("recept_lemma").filter(
         pl.col("recept_lemma").is_in(ukazat)
     ).group_by("recept_lemma").len().with_columns(pl.col("len") / len(df)).sort(
         by="len", descending=True
+    ).with_columns(
+        pl.col("recept_lemma").str.replace_many(["citronový"],["citron"])
     )
+
+    graf_surovin
+    return (graf_surovin,)
+
+
+@app.cell
+def _(graf_surovin):
+    graf_surovin.write_json("data/rettigova_suroviny.json")
     return
 
 

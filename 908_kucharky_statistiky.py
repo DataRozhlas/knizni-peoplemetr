@@ -22,6 +22,12 @@ def _(pl):
 
 
 @app.cell
+def _(df):
+    df
+    return
+
+
+@app.cell
 def _():
     minimum = ["100_a", "titul", "rok", "pocet_stran"]
     return (minimum,)
@@ -81,6 +87,37 @@ def _(alt, df):
         df.unique(subset=["100_a", "titul"], keep="first").group_by("rok").len(),
         width=800,
     ).mark_bar().encode(alt.X("rok:Q"), alt.Y("len:Q"))
+    return
+
+
+@app.cell
+def _(df, pl):
+    roky_pocty_preklady = (
+        df.explode("041_h")
+        .unique(subset=["100_a", "titul", "041_h"], keep="first")
+        .with_columns(
+            pl.when(pl.col("041_h").is_null() | (pl.col("041_h") == "cze"))
+            .then(pl.lit("původní české"))
+            .otherwise(pl.lit("překladové"))
+            .alias("preklad")
+        )
+        .group_by(["rok", "preklad"])
+        .len()
+        .sort(by="rok")
+        .filter(pl.col("rok").is_between(1901, 2024))
+    )
+
+    roky_pocty_preklady.write_json("data/kucharky_pocty_preklady.json")
+
+    roky_pocty_preklady
+    return (roky_pocty_preklady,)
+
+
+@app.cell
+def _(pl, roky_pocty_preklady):
+    roky_pocty_preklady.group_by("rok").agg(pl.col("len").sum()).sort(
+        by="len", descending=True
+    )
     return
 
 
@@ -580,7 +617,9 @@ def _(alt, df, pl):
 
 @app.cell
 def _(df, minimum, pl):
-    df.filter(pl.col("245_a").str.contains("(?i)[^]a]babič")).select(pl.col(minimum))
+    df.filter(pl.col("245_a").str.contains("(?i)[^]a]babič")).select(
+        pl.col(minimum)
+    )
     return
 
 
@@ -763,31 +802,7 @@ def _(median_temat, pl):
 
 @app.cell
 def _():
-    hledat_lemma = [
-        "postní",
-        "zavařování",
-        # 'sušení',
-        # 'ovoce',
-        #   'marmeláda',
-        "polotovar",
-        "nakládání",
-        #   'sójový',
-        "mikrovlnné",
-        #    'zácpa',
-        "dieta",
-        "levný",
-        "vánoce",
-        "vegetariánský",
-        "hubnout",
-        "grilování",
-        "bezlepkový",
-        "babička",
-        "norma",
-        #   "závodní",
-        "pečení",
-        "fritování",
-    ]
-    return (hledat_lemma,)
+    return
 
 
 @app.cell
@@ -807,6 +822,8 @@ def _(hledat_lemma, median_temat, pl):
         .to_series()
         .to_list()
     )
+
+    razeni
     return (razeni,)
 
 
@@ -825,6 +842,12 @@ def _(df_lemma, hledat_lemma, pl):
 
     do_grafu = do_grafu.filter(pl.col("rok") >= 1900).group_by(["co", "rok"]).len()
     return (do_grafu,)
+
+
+@app.cell
+def _(do_grafu):
+    do_grafu
+    return
 
 
 @app.cell
@@ -1275,7 +1298,9 @@ def _(df, minimum, pl):
 
 @app.cell
 def _(df, minimum, pl):
-    df.filter(pl.col("100_a").str.contains("Růžičková, Hel")).select(pl.col(minimum))
+    df.filter(pl.col("100_a").str.contains("Růžičková, Hel")).select(
+        pl.col(minimum)
+    )
     return
 
 
@@ -1287,7 +1312,9 @@ def _(df, minimum, pl):
 
 @app.cell
 def _(df, minimum, pl):
-    df.filter(pl.col("245_a").str.contains("v kuchyni hvězd")).select(pl.col(minimum))
+    df.filter(pl.col("245_a").str.contains("v kuchyni hvězd")).select(
+        pl.col(minimum)
+    )
     return
 
 
@@ -1301,17 +1328,120 @@ def _(df, minimum, pl):
 def _(df, pl):
     df.group_by("100_a").agg(pl.col("rok").min().alias("min")).join(
         df.group_by("100_a").agg(pl.col("rok").max().alias("max")),
-        on='100_a',
-        how="left"
-    ).with_columns(
-        (pl.col("max") - pl.col("min")).alias("diff")
-    ).sort(by="diff",descending=True)
+        on="100_a",
+        how="left",
+    ).with_columns((pl.col("max") - pl.col("min")).alias("diff")).sort(
+        by="diff", descending=True
+    )
     return
 
 
 @app.cell
 def _(df, minimum, pl):
-    df.filter(pl.col("100_a").str.contains("Bohdalová, Jiřin")).select(pl.col(minimum))
+    df.filter(pl.col("100_a").str.contains("Bohdalová, Jiřin")).select(
+        pl.col(minimum)
+    )
+    return
+
+
+@app.cell(hide_code=True)
+def _(mo):
+    mo.md(r"""
+    ## Graf trendů znovu a lépe
+    """)
+    return
+
+
+@app.cell
+def _():
+    hledat_lemma2 = [
+        [r"(postní|postí|půst)", "postní, půst"],
+        ["zavař", "zavařování"],
+        # 'sušení',
+        # 'ovoce',
+        #   'marmeláda',
+        # ["polotovar", "polotovar"],
+        # "nakládání",
+        #   'sójový',
+        ["mikrovln", "mikrovlnka"],
+        #    'zácpa',
+        ["dieta", "dieta"],
+        ["levn", "levný"],
+        [r"váno[cč]", "Vánoce"],
+        ["(vegetar|bezmas)", "vegetariánský"],
+        ["(hubn|redukčn)", "hubnutí"],
+        ["(gril|rožni|rožně|rožeň|barbec)", "grilování"],
+        ["(bezlep|celiak|lepek)", "bezlepkový"],
+        ["babič", "babička"],
+        # ["(norma|normy|norem|normov)", "norma"],
+        #   "závodní",
+        ["(pečení|pečeme|péct|upéct)", "pečení"],
+        ["frit", "fritování"],
+    ]
+    return (hledat_lemma2,)
+
+
+@app.cell
+def _():
+    return
+
+
+@app.cell
+def _(df_lemma, hledat_lemma2, pl):
+    final_graf = pl.DataFrame()
+    for hl_lemma in hledat_lemma2:
+        final_graf = pl.concat(
+            [
+                final_graf,
+                df_lemma.filter(
+                    pl.col("titul_lemma")
+                    .str.to_lowercase()
+                    .str.split(" aneb")
+                    .list.slice(0, 1)
+                    .list.join("")
+                    .str.split(" čili")
+                    .list.slice(0, 1)
+                    .list.join("")
+                    .str.contains(hl_lemma[0])
+                ).with_columns(pl.lit(hl_lemma[1]).alias("co")),
+            ]
+        )
+
+    final_graf = (
+        final_graf.with_columns(pl.col("100_a").fill_null("?"))
+        .explode("041_h")
+        .unique(subset=["100_a", "titul", "041_h"], keep="first")
+        .with_columns(
+            pl.when(pl.col("041_h").is_null() | (pl.col("041_h") == "cze"))
+            .then(pl.lit("původní česká"))
+            .otherwise(pl.lit("překladová"))
+            .alias("preklad")
+        )
+        .with_columns(
+            (
+                pl.col("100_a").str.strip_chars_end(",")
+                + pl.lit(": ")
+                + pl.col("titul")
+            ).alias("kniha")
+        )
+        .select(pl.col(["kniha", "rok", "preklad", "co"]))
+        .with_columns(pl.col("kniha").str.replace("\?: ", ""))
+        .filter(pl.col("rok").is_between(1901, 2024))
+    ).sort(by='rok').with_columns(
+                    pl.col('kniha').str.slice(0,50).alias('titul30')
+                ).unique(subset=['titul30'],keep='first').drop('titul30')
+
+    razeni_2 = final_graf.group_by("co").agg(pl.col("rok").median()).sort(by="rok").select(pl.col("co")).to_series().to_list()
+
+    print(razeni_2)
+
+    final_graf.write_json("data/kucharky_trendy.json")
+    return (final_graf,)
+
+
+@app.cell
+def _(final_graf, pl):
+    final_graf.filter(pl.col("co").str.contains("postní, půst"))
     return
 
 

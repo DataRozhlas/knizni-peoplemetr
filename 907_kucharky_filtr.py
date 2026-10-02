@@ -163,6 +163,7 @@ def _(lf, pl):
         ("072_x", "drama"),
         ("072_x", "doprava"),
         ("072_x", "hudba"),
+        ("100_a", "ukal, Václav"),
         ("260_b", "Českobratrský evang. seniorátní úřad"),
         ("490_a", "Lidové hry českého jeviště"),
         ("245_a", "Receptář pro fotoamatéry"),
@@ -180,6 +181,7 @@ def _(lf, pl):
         ("245_a", "Obsluha v restauracích"),
         ("245_b", "dějství"),
         ("650_a", "odpad"),
+        ("650_a", "doprava"),
         ("650_a", "zbraně"),
         ("655_a", "časopis"),
         ("655_a", "hudba"),
@@ -193,6 +195,7 @@ def _(lf, pl):
 
     filtry_negativni = [
         lf.with_columns(
+            pl.concat_list(pl.col("100_a")).alias("100_a"),
             pl.concat_list(pl.col("245_a")).alias("245_a"),
             pl.concat_list(pl.col("245_b")).alias("245_b"),
             pl.concat_list(pl.col("008")).alias("008"),
